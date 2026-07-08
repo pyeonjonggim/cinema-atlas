@@ -1,16 +1,15 @@
 import GlobalNavigation from "../navigation/GlobalNavigation";
 import PageContainer from "../layout/PageContainer";
-import Section from "../layout/Section";
 import MovieHero from "../entity/MovieHero";
 import EntityOverviewPattern from "../patterns/EntityOverviewPattern";
 import MovieActionBarPattern from "../patterns/MovieActionBarPattern";
+import MovieContinueJourneyPattern from "../patterns/MovieContinueJourneyPattern";
 import MovieContextPattern from "../patterns/MovieContextPattern";
 import MovieQuickFactsPattern from "../patterns/MovieQuickFactsPattern";
 import MovieRelatedMoviesPattern from "../patterns/MovieRelatedMoviesPattern";
 import RelationshipPreviewPattern, {
   RelationshipPreviewItem,
 } from "../patterns/RelationshipPreviewPattern";
-import ContinueJourneyPattern from "../patterns/ContinueJourneyPattern";
 
 import type { Actor } from "@/data/actors";
 import type { Award } from "@/data/awards";
@@ -56,6 +55,8 @@ function buildCastItems(movie: Movie, actors: Actor[]): RelationshipPreviewItem[
       title: actor?.name ?? movie.actors[movie.actorSlugs.indexOf(member.actorId)] ?? member.actorId,
       subtitle: member.character,
       meta: member.billingOrder ? `Billing ${member.billingOrder}` : undefined,
+      imageAlt: actor?.name ?? member.actorId,
+      visualTone: "person",
     };
   });
 }
@@ -80,6 +81,8 @@ function buildAwardItems(movie: Movie, awards: Award[]): RelationshipPreviewItem
       title: award?.name ?? mention.title ?? mention.awardId,
       subtitle: award?.organization,
       meta: year ? `${year}` : undefined,
+      imageAlt: award?.name ?? mention.awardId,
+      visualTone: "award",
     };
   });
 }
@@ -98,38 +101,55 @@ function buildConnectedItems(
   const actor = findBySlug(actors, movie.actorSlugs[0]);
   const award = findBySlug(awards, movie.awardSlugs[0]);
 
-  return [
+  const items: RelationshipPreviewItem[] = [
     {
       href: `/encyclopedia/directors/${movie.directorSlug}`,
       label: "Director",
       title: director?.name ?? movie.director,
       subtitle: "Move from this film to its filmmaker.",
+      meta: director?.styleKeywords?.slice(0, 3).join(", "),
+      imageAlt: director?.name ?? movie.director,
+      visualTone: "person",
     },
     {
       href: `/encyclopedia/countries/${movie.countrySlug}`,
       label: "Country",
       title: country?.name ?? movie.country,
       subtitle: "Explore the national cinema context.",
+      meta: country?.region,
+      imageAlt: country?.name ?? movie.country,
+      visualTone: "place",
     },
     {
       href: `/encyclopedia/movements/${movie.movementSlug}`,
       label: "Movement",
       title: movement?.name ?? movie.movement,
       subtitle: "Understand the cinematic movement around this film.",
+      meta: movement?.period,
+      imageAlt: movement?.name ?? movie.movement,
+      visualTone: "movement",
     },
     {
       href: `/encyclopedia/actors/${movie.actorSlugs[0]}`,
       label: "Actor",
       title: actor?.name ?? movie.actors[0] ?? "Featured Actor",
       subtitle: "Follow the performance connection.",
+      meta: actor?.screenPersona?.[0],
+      imageAlt: actor?.name ?? movie.actors[0],
+      visualTone: "person",
     },
     {
       href: `/encyclopedia/awards/${movie.awardSlugs[0]}`,
       label: "Award",
       title: award?.name ?? movie.awards[0] ?? "Award",
       subtitle: "Connect recognition to cinema history.",
+      meta: award?.organization,
+      imageAlt: award?.name ?? movie.awards[0],
+      visualTone: "award",
     },
-  ].filter((item) => !item.href.endsWith("/undefined"));
+  ];
+
+  return items.filter((item) => !item.href.endsWith("/undefined"));
 }
 
 export default function MovieDetailPage({
@@ -240,14 +260,14 @@ export default function MovieDetailPage({
 
           <MovieRelatedMoviesPattern movie={movie} movies={movies} />
 
-          <ContinueJourneyPattern items={continueJourneyItems} />
+          <MovieContinueJourneyPattern items={continueJourneyItems} />
 
-          <Section title="Footer">
+          <footer className="border-t border-white/10 py-6">
             <p className="text-sm text-neutral-500">
               Cinema Atlas turns every film into the beginning of another
               journey.
             </p>
-          </Section>
+          </footer>
         </div>
       </PageContainer>
     </>

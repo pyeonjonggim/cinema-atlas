@@ -76,7 +76,7 @@ export const movies: Movie[] = [
     relatedMovieIds: ["the-godfather", "rashomon"],
     recommendedMovieIds: ["rashomon"],
 
-    poster: "/posters/parasite.jpg",
+    poster: "",
   },
   {
     id: "the-godfather",
@@ -153,7 +153,7 @@ export const movies: Movie[] = [
     relatedMovieIds: ["parasite", "rashomon"],
     recommendedMovieIds: ["parasite"],
 
-    poster: "/posters/godfather.jpg",
+    poster: "",
   },
   {
     id: "rashomon",
@@ -224,6 +224,6 @@ export const movies: Movie[] = [
     relatedMovieIds: ["parasite", "the-godfather"],
     recommendedMovieIds: ["the-godfather"],
 
-    poster: "/posters/rashomon.jpg",
+    poster: "",
   },
 ];
