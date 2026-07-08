@@ -13,6 +13,7 @@ export type RelationshipPreviewItem = {
   meta?: string;
   image?: string;
   imageAlt?: string;
+  imageAspect?: "wide" | "poster" | "portrait";
   visualTone?: "person" | "place" | "movement" | "award" | "movie" | "default";
 };
 
@@ -60,9 +61,64 @@ export default function RelationshipPreviewPattern({
           {previewItems.map((item) =>
             renderItem ? (
               <div key={item.href}>{renderItem(item)}</div>
+            ) : item.imageAspect === "poster" ? (
+              <AtlasCard key={item.href} href={item.href} className="h-full p-0">
+                <div className="grid h-full grid-cols-[72px_1fr] gap-3 p-3">
+                  <div className="relative overflow-hidden rounded-xl bg-neutral-900">
+                    {item.image ? (
+                      <Image
+                        src={item.image}
+                        alt={item.imageAlt ?? item.title}
+                        width={144}
+                        height={216}
+                        sizes="72px"
+                        className="aspect-[2/3] h-full w-full object-cover transition duration-300 hover:scale-105"
+                      />
+                    ) : (
+                      <div
+                        className={`aspect-[2/3] h-full w-full ${getPlaceholderClass(
+                          item.visualTone
+                        )}`}
+                      />
+                    )}
+                  </div>
+
+                  <div className="min-w-0 py-1">
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-neutral-500">
+                      {item.label}
+                    </p>
+
+                    <h3 className="mt-2 line-clamp-2 text-base font-semibold text-white">
+                      {item.title}
+                    </h3>
+
+                    {item.subtitle && (
+                      <p className="mt-2 line-clamp-1 text-xs text-neutral-500">
+                        {item.subtitle}
+                      </p>
+                    )}
+
+                    {item.meta && (
+                      <p className="mt-1 line-clamp-1 text-xs text-neutral-400">
+                        {item.meta}
+                      </p>
+                    )}
+
+                    <p className="mt-3 text-sm font-medium text-neutral-300">
+                      Explore
+                    </p>
+                  </div>
+                </div>
+              </AtlasCard>
             ) : (
               <AtlasCard key={item.href} href={item.href} className="p-0">
-                <div className="relative aspect-[16/9] overflow-hidden rounded-2xl rounded-b-none bg-neutral-900">
+                <div
+                  className={`relative overflow-hidden rounded-2xl rounded-b-none bg-neutral-900 ${
+                    item.imageAspect === "portrait"
+                      ? "aspect-[3/4]"
+                      : "aspect-[16/9]"
+                  }`}
+                >
                   {item.image ? (
                     <Image
                       src={item.image}
