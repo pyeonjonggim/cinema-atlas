@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 
+import EntityCardVisual from "@/components/entity/EntityCardVisual";
 import ListHero, { type ListHeroProps } from "@/components/layout/ListHero";
 import AtlasButton from "@/components/ui/AtlasButton";
 import EmptyState from "@/components/ui/EmptyState";
@@ -34,15 +35,7 @@ function DirectorCard({ director }: { director: DirectorEncyclopediaItem }) {
   return (
     <Link href={`/encyclopedia/directors/${director.slug}`} className="group block">
       <div className="overflow-hidden rounded-xl border border-white/10 bg-white/[0.03] transition hover:-translate-y-1 hover:border-white/25 hover:bg-white/[0.06] hover:shadow-lg hover:shadow-black/20">
-        <div className="relative aspect-[4/5] overflow-hidden bg-neutral-900">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_35%,rgba(255,255,255,0.12),transparent_35%),linear-gradient(to_bottom,rgba(255,255,255,0.06),rgba(0,0,0,0.72))]" />
-
-          <div className="absolute inset-x-0 bottom-0 p-3">
-            <p className="text-xs uppercase tracking-[0.18em] text-neutral-500">
-              Director
-            </p>
-          </div>
-        </div>
+        <EntityCardVisual label="DIRECTOR" tone="person" />
 
         <div className="p-2.5">
           <h2 className="line-clamp-1 text-sm font-semibold text-white">
