@@ -3,7 +3,6 @@ import { awards } from "@/data/awards";
 
 import GlobalNavigation from "@/components/navigation/GlobalNavigation";
 import PageContainer from "@/components/layout/PageContainer";
-import ListHero from "@/components/layout/ListHero";
 import RecommendedShelfPattern from "@/components/patterns/RecommendedShelfPattern";
 import JourneyCard from "@/components/discovery/JourneyCard";
 
@@ -25,15 +24,16 @@ export default function AwardsPage() {
 
       <PageContainer size="wide">
         <div className="space-y-12">
-          <ListHero
-            eyebrow="Awards"
-            title="Awards"
-            description="Explore the world's major film awards."
-            searchPlaceholder="Search awards..."
-            totalLabel={`${awardItems.length} Awards`}
+          <AwardEncyclopediaList
+            awards={awardItems}
+            hero={{
+              eyebrow: "Awards",
+              title: "Awards",
+              description: "Explore the world's major film awards.",
+              searchPlaceholder: "Search awards...",
+              totalLabel: `${awardItems.length} Awards`,
+            }}
           />
-
-          <AwardEncyclopediaList awards={awardItems} />
 
           <RecommendedShelfPattern
             title="Continue Exploring"

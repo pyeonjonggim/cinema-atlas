@@ -58,11 +58,17 @@ export default function RelationshipPreviewPattern({
     >
       {previewItems.length > 0 ? (
         <div className="grid gap-3 md:grid-cols-3">
-          {previewItems.map((item) =>
+          {previewItems.map((item, index) =>
             renderItem ? (
-              <div key={item.href}>{renderItem(item)}</div>
+              <div key={`${item.href}-${item.label}-${index}`}>
+                {renderItem(item)}
+              </div>
             ) : item.imageAspect === "poster" ? (
-              <AtlasCard key={item.href} href={item.href} className="h-full p-0">
+              <AtlasCard
+                key={`${item.href}-${item.label}-${index}`}
+                href={item.href}
+                className="h-full p-0"
+              >
                 <div className="grid h-full grid-cols-[72px_1fr] gap-3 p-3">
                   <div className="relative overflow-hidden rounded-xl bg-neutral-900">
                     {item.image ? (
@@ -111,7 +117,11 @@ export default function RelationshipPreviewPattern({
                 </div>
               </AtlasCard>
             ) : (
-              <AtlasCard key={item.href} href={item.href} className="p-0">
+              <AtlasCard
+                key={`${item.href}-${item.label}-${index}`}
+                href={item.href}
+                className="h-full p-0"
+              >
                 <div
                   className={`relative overflow-hidden rounded-2xl rounded-b-none bg-neutral-900 ${
                     item.imageAspect === "portrait"

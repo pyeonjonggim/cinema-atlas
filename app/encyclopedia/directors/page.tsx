@@ -3,7 +3,6 @@ import { movies } from "@/data/movies";
 
 import GlobalNavigation from "@/components/navigation/GlobalNavigation";
 import PageContainer from "@/components/layout/PageContainer";
-import ListHero from "@/components/layout/ListHero";
 import DirectorEncyclopediaList from "@/components/DirectorEncyclopediaList";
 import RecommendedShelfPattern from "@/components/patterns/RecommendedShelfPattern";
 import JourneyCard from "@/components/discovery/JourneyCard";
@@ -33,15 +32,16 @@ export default function DirectorsPage() {
 
       <PageContainer size="wide">
         <div className="space-y-12">
-          <ListHero
-            eyebrow="Directors"
-            title="Directors"
-            description="Explore filmmakers across history."
-            searchPlaceholder="Search directors..."
-            totalLabel={`${directors.length} Directors`}
+          <DirectorEncyclopediaList
+            directors={directorItems}
+            hero={{
+              eyebrow: "Directors",
+              title: "Directors",
+              description: "Explore filmmakers across history.",
+              searchPlaceholder: "Search directors...",
+              totalLabel: `${directors.length} Directors`,
+            }}
           />
-
-          <DirectorEncyclopediaList directors={directorItems} />
 
           <RecommendedShelfPattern
             title="Continue Exploring"

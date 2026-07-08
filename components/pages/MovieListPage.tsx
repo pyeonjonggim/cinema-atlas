@@ -2,7 +2,6 @@ import { movies } from "@/data/movies";
 
 import GlobalNavigation from "@/components/navigation/GlobalNavigation";
 import PageContainer from "@/components/layout/PageContainer";
-import ListHero from "@/components/layout/ListHero";
 import MovieList from "@/components/MovieList";
 import RecommendedShelfPattern from "@/components/patterns/RecommendedShelfPattern";
 import JourneyCard from "@/components/discovery/JourneyCard";
@@ -14,15 +13,16 @@ export default function MovieListPage() {
 
       <PageContainer size="wide">
         <div className="space-y-12">
-          <ListHero
-            eyebrow="Encyclopedia"
-            title="Movies"
-            description="Discover films from around the world."
-            searchPlaceholder="Search movies..."
-            totalLabel={`${movies.length} Movies`}
+          <MovieList
+            movies={movies}
+            hero={{
+              eyebrow: "Encyclopedia",
+              title: "Movies",
+              description: "Discover films from around the world.",
+              searchPlaceholder: "Search movies...",
+              totalLabel: `${movies.length} Movies`,
+            }}
           />
-
-          <MovieList movies={movies} />
 
           <RecommendedShelfPattern
             title="Continue Exploring"
