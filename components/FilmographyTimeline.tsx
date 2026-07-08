@@ -47,13 +47,17 @@ export default function FilmographyTimeline({
               className="group flex gap-4 rounded-2xl border border-white/10 bg-black/20 p-4 transition hover:bg-white/10"
             >
               <div className="relative h-28 w-20 shrink-0 overflow-hidden rounded-xl bg-neutral-900">
-                <Image
-                  src={movie.poster}
-                  alt={`${movie.title} poster`}
-                  fill
-                  sizes="80px"
-                  className="object-cover"
-                />
+                {movie.poster ? (
+                  <Image
+                    src={movie.poster}
+                    alt={`${movie.title} poster`}
+                    fill
+                    sizes="80px"
+                    className="object-cover"
+                  />
+                ) : (
+                  <div className="h-full w-full bg-[radial-gradient(circle_at_40%_18%,rgba(248,113,113,0.18),transparent_28%),linear-gradient(160deg,rgba(39,39,42,0.95),rgba(10,10,10,1))]" />
+                )}
               </div>
 
               <div className="flex flex-col justify-center">
