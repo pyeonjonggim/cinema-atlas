@@ -1,0 +1,87 @@
+import { directors } from "@/data/directors";
+import { movies } from "@/data/movies";
+
+import GlobalNavigation from "@/components/navigation/GlobalNavigation";
+import PageContainer from "@/components/layout/PageContainer";
+import ListHero from "@/components/layout/ListHero";
+import DirectorEncyclopediaList from "@/components/DirectorEncyclopediaList";
+import RecommendedShelfPattern from "@/components/patterns/RecommendedShelfPattern";
+import JourneyCard from "@/components/discovery/JourneyCard";
+
+const directorItems = directors.map((director) => {
+  const relatedMovieCount = movies.filter(
+    (movie) => movie.directorSlug === director.slug
+  ).length;
+
+  return {
+    slug: director.slug,
+    name: director.name,
+    nameKo: director.nameKo,
+    country: director.country,
+    countryFlag: director.countryFlag,
+    description: director.description,
+    styleKeywords: director.styleKeywords,
+    relatedMovieCount,
+    essentialMovieCount: director.knownForMovieIds.length,
+  };
+});
+
+export default function DirectorsPage() {
+  return (
+    <>
+      <GlobalNavigation />
+
+      <PageContainer size="wide">
+        <div className="space-y-12">
+          <ListHero
+            eyebrow="Directors"
+            title="Directors"
+            description="Explore filmmakers across history."
+            searchPlaceholder="Search directors..."
+            totalLabel={`${directors.length} Directors`}
+          />
+
+          <DirectorEncyclopediaList directors={directorItems} />
+
+          <RecommendedShelfPattern
+            title="Continue Exploring"
+            description="Dive deeper into the world of filmmaking."
+          >
+            <JourneyCard
+              href="/explore/great-directors"
+              category="Collection"
+              title="Great Directors of World Cinema"
+              subtitle="Explore essential filmmakers across film history."
+              difficulty="Beginner"
+              stops={20}
+              movieCount={20}
+              viewingTime="30h"
+            />
+
+            <JourneyCard
+              href="/explore/women-directors"
+              category="Collection"
+              title="Women Directors You Should Know"
+              subtitle="Discover major women filmmakers across countries and eras."
+              difficulty="Intermediate"
+              stops={18}
+              movieCount={18}
+              viewingTime="26h"
+            />
+
+            <JourneyCard
+              href="/explore/directors-by-decade"
+              category="Era"
+              title="Directors by Decade"
+              subtitle="Explore filmmakers through different historical periods."
+              difficulty="Beginner"
+              stops={10}
+              movieCount={10}
+              viewingTime="16h"
+            />
+          </RecommendedShelfPattern>
+        </div>
+      </PageContainer>
+    </>
+  );
+}
