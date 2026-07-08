@@ -36,6 +36,7 @@ export default function MovieContextPattern({
     <Section
       title="Themes, Style, and Historical Context"
       description="A compact reading map before moving into connected cinema."
+      className="p-4 md:p-5"
     >
       {hasContent ? (
         <div className="grid gap-4 lg:grid-cols-3">
