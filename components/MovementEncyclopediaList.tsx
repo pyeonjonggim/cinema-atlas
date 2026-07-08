@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 
+import ListHero, { type ListHeroProps } from "@/components/layout/ListHero";
 import AtlasButton from "@/components/ui/AtlasButton";
 import EmptyState from "@/components/ui/EmptyState";
 
@@ -20,6 +21,10 @@ export type MovementEncyclopediaItem = {
 
 type MovementEncyclopediaListProps = {
   movements: MovementEncyclopediaItem[];
+  hero: Pick<
+    ListHeroProps,
+    "eyebrow" | "title" | "description" | "searchPlaceholder" | "totalLabel"
+  >;
 };
 
 const filterOptions = ["Era", "Region"];
@@ -60,6 +65,7 @@ function MovementCard({ movement }: { movement: MovementEncyclopediaItem }) {
 
 export default function MovementEncyclopediaList({
   movements,
+  hero,
 }: MovementEncyclopediaListProps) {
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState(sortOptions[0]);
@@ -87,7 +93,14 @@ export default function MovementEncyclopediaList({
   }, [movements, query, sort]);
 
   return (
-    <section className="space-y-6">
+    <div className="space-y-6">
+      <ListHero
+        {...hero}
+        searchValue={query}
+        onSearchChange={setQuery}
+      />
+
+      <section className="space-y-6">
       <div className="flex flex-col gap-4 border-b border-white/10 pb-5 lg:flex-row lg:items-center lg:justify-between">
         <div className="flex flex-wrap gap-3">
           {filterOptions.map((filter) => (
@@ -98,13 +111,6 @@ export default function MovementEncyclopediaList({
         </div>
 
         <div className="flex flex-wrap items-center gap-3">
-          <input
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-            placeholder="Search movements..."
-            className="w-full rounded-full border border-white/10 bg-white/[0.04] px-5 py-2 text-sm text-white outline-none placeholder:text-neutral-500 focus:border-white/25 lg:w-72"
-          />
-
           <select
             value={sort}
             onChange={(event) => setSort(event.target.value)}
@@ -139,6 +145,7 @@ export default function MovementEncyclopediaList({
           description="Try a different movement, period, region, or style keyword."
         />
       )}
-    </section>
+      </section>
+    </div>
   );
 }

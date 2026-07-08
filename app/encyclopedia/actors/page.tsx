@@ -2,7 +2,6 @@ import { movies } from "@/data/movies";
 
 import GlobalNavigation from "@/components/navigation/GlobalNavigation";
 import PageContainer from "@/components/layout/PageContainer";
-import ListHero from "@/components/layout/ListHero";
 import ActorEncyclopediaList from "@/components/ActorEncyclopediaList";
 import RecommendedShelfPattern from "@/components/patterns/RecommendedShelfPattern";
 import JourneyCard from "@/components/discovery/JourneyCard";
@@ -54,15 +53,16 @@ export default function ActorsPage() {
 
       <PageContainer size="wide">
         <div className="space-y-12">
-          <ListHero
-            eyebrow="Actors"
-            title="Actors"
-            description="Discover iconic performances."
-            searchPlaceholder="Search actors..."
-            totalLabel={`${actorItems.length} Actors`}
+          <ActorEncyclopediaList
+            actors={actorItems}
+            hero={{
+              eyebrow: "Actors",
+              title: "Actors",
+              description: "Discover iconic performances.",
+              searchPlaceholder: "Search actors...",
+              totalLabel: `${actorItems.length} Actors`,
+            }}
           />
-
-          <ActorEncyclopediaList actors={actorItems} />
 
           <RecommendedShelfPattern
             title="Continue Exploring"

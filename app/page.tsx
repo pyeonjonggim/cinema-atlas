@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { movies } from "@/data/movies";
 
@@ -126,9 +127,12 @@ function MoviePosterCard({ movie }: { movie: Movie }) {
     <Link href={`/movies/${movie.id}`} className="group min-w-[132px]">
       <div className="aspect-[2/3] overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04] transition group-hover:-translate-y-1 group-hover:border-white/25 group-hover:shadow-xl group-hover:shadow-black/20">
         {movie.poster ? (
-          <img
+          <Image
             src={movie.poster}
             alt={movie.title}
+            width={264}
+            height={396}
+            sizes="132px"
             className="h-full w-full object-cover"
           />
         ) : (
@@ -155,9 +159,12 @@ function MovieRowCard({ movie }: { movie: Movie }) {
       <div className="flex items-center gap-3">
         <div className="h-20 w-14 shrink-0 overflow-hidden rounded-xl bg-neutral-800">
           {movie.poster ? (
-            <img
+            <Image
               src={movie.poster}
               alt={movie.title}
+              width={112}
+              height={160}
+              sizes="56px"
               className="h-full w-full object-cover"
             />
           ) : null}

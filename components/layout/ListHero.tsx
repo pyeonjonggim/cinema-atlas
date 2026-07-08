@@ -1,11 +1,15 @@
+"use client";
+
 import type { ReactNode } from "react";
 
-type ListHeroProps = {
+export type ListHeroProps = {
   eyebrow?: string;
   title: string;
   description: string;
   searchPlaceholder: string;
   totalLabel: string;
+  searchValue?: string;
+  onSearchChange?: (value: string) => void;
   action?: ReactNode;
 };
 
@@ -15,6 +19,8 @@ export default function ListHero({
   description,
   searchPlaceholder,
   totalLabel,
+  searchValue = "",
+  onSearchChange,
   action,
 }: ListHeroProps) {
   return (
@@ -35,23 +41,24 @@ export default function ListHero({
         </p>
 
         <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:items-center">
-          <div className="flex w-full max-w-xl items-center rounded-full border border-white/10 bg-black/30 px-5 py-3 text-sm text-neutral-500">
-            <span>{searchPlaceholder}</span>
-
-            <span className="ml-auto text-neutral-600">
-              ⌕
-            </span>
-          </div>
+          {onSearchChange ? (
+            <input
+              value={searchValue}
+              onChange={(event) => onSearchChange(event.target.value)}
+              placeholder={searchPlaceholder}
+              className="w-full max-w-xl rounded-full border border-white/10 bg-black/30 px-5 py-3 text-sm text-white outline-none placeholder:text-neutral-500 focus:border-white/25"
+            />
+          ) : (
+            <div className="flex w-full max-w-xl items-center rounded-full border border-white/10 bg-black/30 px-5 py-3 text-sm text-neutral-500">
+              <span>{searchPlaceholder}</span>
+            </div>
+          )}
 
           <div className="shrink-0 text-sm font-medium text-neutral-400">
             {totalLabel}
           </div>
 
-          {action && (
-            <div className="shrink-0">
-              {action}
-            </div>
-          )}
+          {action && <div className="shrink-0">{action}</div>}
         </div>
       </div>
     </section>

@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 
 import MovieCard from "@/components/MovieCard";
+import ListHero, { type ListHeroProps } from "@/components/layout/ListHero";
 import AtlasButton from "@/components/ui/AtlasButton";
 import EmptyState from "@/components/ui/EmptyState";
 
@@ -10,12 +11,16 @@ import type { Movie } from "@/types/movie";
 
 type MovieListProps = {
   movies: Movie[];
+  hero: Pick<
+    ListHeroProps,
+    "eyebrow" | "title" | "description" | "searchPlaceholder" | "totalLabel"
+  >;
 };
 
 const filterOptions = ["Genre", "Country", "Year", "Language"];
 const sortOptions = ["Popularity", "A–Z", "Release Year", "Rating"];
 
-export default function MovieList({ movies }: MovieListProps) {
+export default function MovieList({ movies, hero }: MovieListProps) {
   const [search, setSearch] = useState("");
   const [sort, setSort] = useState(sortOptions[0]);
 
@@ -51,7 +56,14 @@ export default function MovieList({ movies }: MovieListProps) {
   }, [movies, search, sort]);
 
   return (
-    <section className="space-y-6">
+    <div className="space-y-6">
+      <ListHero
+        {...hero}
+        searchValue={search}
+        onSearchChange={setSearch}
+      />
+
+      <section className="space-y-6">
       <div className="flex flex-col gap-4 border-b border-white/10 pb-5 lg:flex-row lg:items-center lg:justify-between">
         <div className="flex flex-wrap gap-3">
           {filterOptions.map((filter) => (
@@ -62,13 +74,6 @@ export default function MovieList({ movies }: MovieListProps) {
         </div>
 
         <div className="flex flex-wrap items-center gap-3">
-          <input
-            value={search}
-            onChange={(event) => setSearch(event.target.value)}
-            placeholder="Search movies..."
-            className="w-full rounded-full border border-white/10 bg-white/[0.04] px-5 py-2 text-sm text-white outline-none placeholder:text-neutral-500 focus:border-white/25 lg:w-72"
-          />
-
           <select
             value={sort}
             onChange={(event) => setSort(event.target.value)}
@@ -103,6 +108,7 @@ export default function MovieList({ movies }: MovieListProps) {
           description="Try a different title, director, country, genre, or movement."
         />
       )}
-    </section>
+      </section>
+    </div>
   );
 }

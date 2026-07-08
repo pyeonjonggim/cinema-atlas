@@ -3,7 +3,6 @@ import { movies } from "@/data/movies";
 
 import GlobalNavigation from "@/components/navigation/GlobalNavigation";
 import PageContainer from "@/components/layout/PageContainer";
-import ListHero from "@/components/layout/ListHero";
 import CountryEncyclopediaList from "@/components/CountryEncyclopediaList";
 import RecommendedShelfPattern from "@/components/patterns/RecommendedShelfPattern";
 import JourneyCard from "@/components/discovery/JourneyCard";
@@ -32,15 +31,16 @@ export default function CountriesPage() {
 
       <PageContainer size="wide">
         <div className="space-y-12">
-          <ListHero
-            eyebrow="Countries"
-            title="Countries"
-            description="Discover cinema through countries."
-            searchPlaceholder="Search countries..."
-            totalLabel={`${countries.length} Countries`}
+          <CountryEncyclopediaList
+            countries={countryItems}
+            hero={{
+              eyebrow: "Countries",
+              title: "Countries",
+              description: "Discover cinema through countries.",
+              searchPlaceholder: "Search countries...",
+              totalLabel: `${countries.length} Countries`,
+            }}
           />
-
-          <CountryEncyclopediaList countries={countryItems} />
 
           <RecommendedShelfPattern
             title="Continue Exploring"

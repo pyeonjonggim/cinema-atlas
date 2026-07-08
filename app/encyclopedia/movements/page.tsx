@@ -2,7 +2,6 @@ import { movies } from "@/data/movies";
 
 import GlobalNavigation from "@/components/navigation/GlobalNavigation";
 import PageContainer from "@/components/layout/PageContainer";
-import ListHero from "@/components/layout/ListHero";
 import MovementEncyclopediaList from "@/components/MovementEncyclopediaList";
 import RecommendedShelfPattern from "@/components/patterns/RecommendedShelfPattern";
 import JourneyCard from "@/components/discovery/JourneyCard";
@@ -50,15 +49,16 @@ export default function MovementsPage() {
 
       <PageContainer size="wide">
         <div className="space-y-12">
-          <ListHero
-            eyebrow="Movements"
-            title="Movements"
-            description="Explore the evolution of film language."
-            searchPlaceholder="Search movements..."
-            totalLabel={`${movementItems.length} Movements`}
+          <MovementEncyclopediaList
+            movements={movementItems}
+            hero={{
+              eyebrow: "Movements",
+              title: "Movements",
+              description: "Explore the evolution of film language.",
+              searchPlaceholder: "Search movements...",
+              totalLabel: `${movementItems.length} Movements`,
+            }}
           />
-
-          <MovementEncyclopediaList movements={movementItems} />
 
           <RecommendedShelfPattern
             title="Continue Exploring"

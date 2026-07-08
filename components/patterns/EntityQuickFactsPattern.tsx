@@ -9,16 +9,21 @@ export type EntityQuickFact = {
 
 type EntityQuickFactsPatternProps = {
   facts: EntityQuickFact[];
+  description?: string;
+  action?: ReactNode;
 };
 
 export default function EntityQuickFactsPattern({
   facts,
+  description = "Essential context before continuing the journey.",
+  action,
 }: EntityQuickFactsPatternProps) {
   return (
     <Section
       title="Quick Facts"
-      description="Essential context before continuing the journey."
+      description={description}
       className="p-4 md:p-5"
+      action={action}
     >
       <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
         {facts.map((fact) => (
