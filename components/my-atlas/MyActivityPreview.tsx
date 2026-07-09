@@ -1,4 +1,3 @@
-import AtlasButton from "@/components/ui/AtlasButton";
 import EmptyState from "@/components/ui/EmptyState";
 import type { JournalEntry } from "@/types/journal";
 
@@ -36,14 +35,14 @@ export default function MyActivityPreview({
   }
 
   return (
-    <div className="space-y-5">
+    <div className="space-y-4">
       {groups.map((group) => (
-        <div key={group.date} className="border-b border-white/10 pb-5 last:border-b-0 last:pb-0">
+        <div key={group.date} className="border-b border-white/10 pb-4 last:border-b-0 last:pb-0">
           <p className="text-sm font-medium text-neutral-300">
             {formatActivityDate(group.date)}
           </p>
 
-          <div className="mt-3 flex flex-wrap gap-3">
+          <div className="mt-3 flex flex-wrap gap-2.5">
             {group.items.map((item) => (
               <ActivityPoster
                 key={item.userMovie.movieId}
@@ -55,12 +54,6 @@ export default function MyActivityPreview({
           </div>
         </div>
       ))}
-
-      <div className="pt-1">
-        <AtlasButton href="/my/activity" variant="secondary">
-          View Full Activity
-        </AtlasButton>
-      </div>
     </div>
   );
 }

@@ -1,10 +1,10 @@
 import Link from "next/link";
 
 const navItems = [
-  { label: "Explore", href: "/explore" },
+  { label: "Movies", href: "/movies" },
   { label: "Encyclopedia", href: "/encyclopedia" },
-  { label: "My Atlas", href: "/my-atlas" },
   { label: "Passport", href: "/passport" },
+  { label: "My Atlas", href: "/my" },
 ];
 
 export default function GlobalNavigation() {

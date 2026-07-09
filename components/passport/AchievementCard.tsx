@@ -1,45 +1,45 @@
-import AtlasCard from "../ui/AtlasCard";
+import type { AchievementProgress } from "@/lib/passport";
 
 type AchievementCardProps = {
-  title: string;
-  description: string;
-  progress?: string;
-  unlocked?: boolean;
+  achievement: AchievementProgress;
+  compact?: boolean;
 };
 
 export default function AchievementCard({
-  title,
-  description,
-  progress,
-  unlocked = false,
+  achievement,
+  compact = false,
 }: AchievementCardProps) {
+  const { unlocked, unlockedAt } = achievement;
+
   return (
-    <AtlasCard className={unlocked ? "" : "opacity-70"}>
-      <div className="flex items-start justify-between gap-4">
+    <div
+      className={`rounded-2xl border border-white/10 bg-black/20 p-4 ${
+        unlocked ? "" : "opacity-60"
+      }`}
+    >
+      <div className="flex items-start justify-between gap-3">
         <div>
-          <p className="text-sm uppercase tracking-[0.2em] text-neutral-500">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-neutral-500">
             Achievement
           </p>
-
-          <h3 className="mt-3 text-2xl font-bold text-white">
-            {title}
+          <h3 className="mt-2 text-base font-semibold text-white">
+            {achievement.achievement.title}
           </h3>
         </div>
-
-        <span className="text-2xl">
-          {unlocked ? "🏆" : "🔒"}
+        <span className="rounded-full border border-white/10 px-2 py-1 text-xs text-neutral-400">
+          {unlocked ? "Unlocked" : "Locked"}
         </span>
       </div>
 
-      <p className="mt-4 text-sm leading-6 text-neutral-400">
-        {description}
-      </p>
-
-      {progress && (
-        <p className="mt-5 text-sm font-medium text-neutral-300">
-          {progress}
+      {!compact && (
+        <p className="mt-3 text-sm leading-6 text-neutral-400">
+          {achievement.achievement.description}
         </p>
       )}
-    </AtlasCard>
+
+      {unlockedAt && (
+        <p className="mt-3 text-xs text-neutral-500">Unlocked {unlockedAt}</p>
+      )}
+    </div>
   );
 }
