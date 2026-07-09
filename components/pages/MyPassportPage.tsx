@@ -3,6 +3,7 @@ import ChallengeCard from "@/components/passport/ChallengeCard";
 import GlobalNavigation from "@/components/navigation/GlobalNavigation";
 import PageContainer from "@/components/layout/PageContainer";
 import Section from "@/components/layout/Section";
+import UniversalHero from "@/components/layout/UniversalHero";
 import EntityContinueJourneyPattern from "@/components/patterns/EntityContinueJourneyPattern";
 import AtlasCard from "@/components/ui/AtlasCard";
 import EmptyState from "@/components/ui/EmptyState";
@@ -48,20 +49,12 @@ export default function MyPassportPage({
       <GlobalNavigation />
 
       <PageContainer size="wide">
-        <div className="space-y-6 py-6">
-          <section className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 md:p-8">
-            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-neutral-500">
-              Passport
-            </p>
-            <h1 className="mt-3 text-3xl font-semibold text-white md:text-4xl">
-              Cinema Atlas Passport
-            </h1>
-            <p className="mt-3 max-w-2xl text-sm leading-6 text-neutral-400 md:text-base">
-              Explore. Learn. Master. Passport is the exploration system of
-              Cinema Atlas, connecting challenges, achievements, journeys, and
-              future maps.
-            </p>
-          </section>
+        <div className="space-y-6">
+          <UniversalHero
+            eyebrow="Passport"
+            title="Cinema Atlas Passport"
+            description="Explore. Learn. Master. Passport is the exploration system of Cinema Atlas, connecting challenges, achievements, journeys, and future maps."
+          />
 
           <Section
             title="Active Challenges"

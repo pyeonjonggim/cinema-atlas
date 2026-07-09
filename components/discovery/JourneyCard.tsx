@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 type JourneyCardProps = {
   href: string;
@@ -57,7 +57,7 @@ export default function JourneyCard({
       </div>
 
       <p className="mt-6 text-sm font-semibold text-neutral-300">
-        Open Journey →
+        Open Journey
       </p>
     </Link>
   );
