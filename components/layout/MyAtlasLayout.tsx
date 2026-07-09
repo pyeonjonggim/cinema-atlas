@@ -13,7 +13,7 @@ export default function MyAtlasLayout({ children }: MyAtlasLayoutProps) {
       <GlobalNavigation />
 
       <PageContainer size="wide">
-        <div className="space-y-6 py-6">{children}</div>
+        <div className="space-y-6">{children}</div>
       </PageContainer>
     </>
   );

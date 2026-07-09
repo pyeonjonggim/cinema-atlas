@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const navItems = [
-  { label: "Movies", href: "/movies" },
+  { label: "Explore", href: "/explore" },
   { label: "Encyclopedia", href: "/encyclopedia" },
   { label: "Passport", href: "/passport" },
   { label: "My Atlas", href: "/my" },
@@ -31,15 +31,17 @@ export default function GlobalNavigation() {
         </nav>
 
         <div className="ml-auto flex items-center gap-4">
-          <div className="flex w-80 items-center rounded-full border border-white/10 bg-white/[0.03] px-5 py-2">
-            <span className="mr-3 text-neutral-500">⌕</span>
-
+          <div className="hidden w-80 items-center rounded-full border border-white/10 bg-white/[0.03] px-5 py-2 md:flex">
             <span className="text-sm text-neutral-500">
               Search movies, directors, countries...
             </span>
           </div>
 
-          <button className="h-9 w-9 rounded-full border border-white/10 bg-white/[0.06] transition hover:bg-white/10" />
+          <button
+            type="button"
+            aria-label="Open account menu"
+            className="h-9 w-9 rounded-full border border-white/10 bg-white/[0.06] transition hover:bg-white/10"
+          />
         </div>
       </div>
     </header>

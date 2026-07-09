@@ -1,5 +1,6 @@
 import MyAtlasLayout from "@/components/layout/MyAtlasLayout";
 import Section from "@/components/layout/Section";
+import UniversalHero from "@/components/layout/UniversalHero";
 import InsightCard from "@/components/insights/InsightCard";
 import InsightGrid from "@/components/insights/InsightGrid";
 import CollectionGrid from "@/components/collections/CollectionGrid";
@@ -58,17 +59,11 @@ export default function MyAtlasDashboardPage({
 
   return (
     <MyAtlasLayout>
-      <section className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 md:p-8">
-        <p className="text-xs font-semibold uppercase tracking-[0.24em] text-neutral-500">
-          My Atlas
-        </p>
-        <h1 className="mt-3 text-3xl font-semibold text-white md:text-4xl">
-          My Atlas
-        </h1>
-        <p className="mt-2 max-w-2xl text-sm leading-6 text-neutral-400 md:text-base">
-          Your personal journey through cinema.
-        </p>
-      </section>
+      <UniversalHero
+        eyebrow="My Atlas"
+        title="My Atlas"
+        description="Your personal journey through cinema."
+      />
 
       <Section
         title="My Activity"

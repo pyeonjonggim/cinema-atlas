@@ -1,11 +1,7 @@
 import GlobalNavigation from "@/components/navigation/GlobalNavigation";
-
 import PageContainer from "@/components/layout/PageContainer";
-import BaseHero from "@/components/layout/BaseHero";
-import CTAGroup from "@/components/layout/CTAGroup";
-
+import UniversalHero from "@/components/layout/UniversalHero";
 import AtlasButton from "@/components/ui/AtlasButton";
-
 import EntityCard from "@/components/entity/EntityCard";
 import DiscoveryShelf from "@/components/discovery/DiscoveryShelf";
 import JourneyCard from "@/components/discovery/JourneyCard";
@@ -16,7 +12,8 @@ const featuredEncyclopedia = [
     href: "/encyclopedia/countries/japan",
     category: "Starter Journey",
     title: "Start with Japanese Cinema",
-    subtitle: "일본 영화의 역사와 미학을 한눈에 탐험합니다.",
+    subtitle:
+      "Move from classic samurai cinema into family dramas, animation, and modern auteurs.",
     difficulty: "Beginner",
     stops: 5,
     movieCount: 8,
@@ -26,7 +23,8 @@ const featuredEncyclopedia = [
     href: "/encyclopedia/movements/french-new-wave",
     category: "Movement",
     title: "Understanding French New Wave",
-    subtitle: "누벨바그의 탄생과 현대 영화 언어의 변화를 따라갑니다.",
+    subtitle:
+      "Follow the movement that changed film language through youth, politics, and experimentation.",
     difficulty: "Intermediate",
     stops: 6,
     movieCount: 10,
@@ -36,7 +34,8 @@ const featuredEncyclopedia = [
     href: "/encyclopedia/awards/palme-dor",
     category: "Award",
     title: "The History of Cannes",
-    subtitle: "칸 영화제가 만든 세계 영화사의 흐름을 탐험합니다.",
+    subtitle:
+      "Explore how one festival shaped the global conversation around cinema.",
     difficulty: "Beginner",
     stops: 4,
     movieCount: 7,
@@ -46,7 +45,8 @@ const featuredEncyclopedia = [
     href: "/encyclopedia/movements",
     category: "Timeline",
     title: "World Cinema Timeline",
-    subtitle: "세계 영화사의 주요 흐름을 시대별로 이해합니다.",
+    subtitle:
+      "Trace cinema through movements, countries, awards, and historical turning points.",
     difficulty: "Beginner",
     stops: 8,
     movieCount: 12,
@@ -60,37 +60,42 @@ const categories = [
     label: "Category",
     title: "Movie",
     description:
-      "영화 자체를 중심으로 감독, 국가, 사조, 배우, 수상을 탐험하세요.",
+      "Explore films as connected works: directors, countries, movements, actors, and awards.",
   },
   {
     href: "/encyclopedia/directors",
     label: "Category",
     title: "Director",
-    description: "영화의 세계를 만든 감독들을 탐험하세요.",
+    description:
+      "Meet the filmmakers whose choices shaped cinematic language and history.",
   },
   {
     href: "/encyclopedia/countries",
     label: "Category",
     title: "Country",
-    description: "국가별 영화 역사와 문화를 발견하세요.",
+    description:
+      "Discover national cinemas through context, history, filmmakers, and movements.",
   },
   {
     href: "/encyclopedia/movements",
     label: "Category",
     title: "Movement",
-    description: "영화 운동과 사조의 흐름을 이해해 보세요.",
+    description:
+      "Understand cinema through shared ideas, styles, eras, and historical shifts.",
   },
   {
     href: "/encyclopedia/actors",
     label: "Category",
     title: "Actor",
-    description: "시대를 빛낸 배우들의 작품과 여정을 살펴보세요.",
+    description:
+      "Follow screen personas, key roles, collaborations, and performance histories.",
   },
   {
     href: "/encyclopedia/awards",
     label: "Category",
     title: "Award",
-    description: "영화제와 수상의 역사를 탐험하세요.",
+    description:
+      "Explore how institutions, festivals, and prizes record cinema history.",
   },
 ];
 
@@ -99,28 +104,32 @@ const recommendedEntries = [
     href: "/encyclopedia/directors/akira-kurosawa",
     label: "Director",
     title: "Akira Kurosawa",
-    description: "일본 영화와 세계 영화사의 중요한 출발점입니다.",
+    description:
+      "A strong starting point for exploring Japanese cinema and global film influence.",
     badge: "Start Here",
   },
   {
     href: "/encyclopedia/countries/japan",
     label: "Country",
     title: "Japan",
-    description: "국가 영화사와 미학을 함께 이해하기 좋은 입구입니다.",
+    description:
+      "A rich national cinema that connects genre, family drama, animation, and modern auteurs.",
     badge: "Essential",
   },
   {
     href: "/encyclopedia/movements/french-new-wave",
     label: "Movement",
     title: "French New Wave",
-    description: "영화 언어의 변화와 작가주의의 시작점을 이해하기 좋습니다.",
+    description:
+      "A key movement for understanding modern editing, youth culture, and cinematic freedom.",
     badge: "Essential",
   },
   {
     href: "/encyclopedia/awards/palme-dor",
     label: "Award",
     title: "Palme d'Or",
-    description: "칸 영화제가 만든 세계 영화사의 canon을 탐험합니다.",
+    description:
+      "A gateway into festival cinema and the international canon.",
     badge: "Award",
   },
 ];
@@ -130,19 +139,22 @@ const continueReading = [
     href: "/encyclopedia/directors/federico-fellini",
     label: "Director",
     title: "Federico Fellini",
-    description: "현실과 환상이 뒤섞이는 감독의 세계를 이어서 읽습니다.",
+    description:
+      "Continue into a world of memory, spectacle, dreams, and modern European cinema.",
   },
   {
     href: "/encyclopedia/countries/italy",
     label: "Country",
     title: "Italy",
-    description: "네오리얼리즘부터 현대 이탈리아 영화까지 연결합니다.",
+    description:
+      "Move from neorealism into postwar modernism, genre cinema, and festival history.",
   },
   {
     href: "/encyclopedia/movements/film-noir",
     label: "Movement",
     title: "Film Noir",
-    description: "어둠, 범죄, 도시적 불안을 중심으로 한 영화 흐름입니다.",
+    description:
+      "Explore crime, shadow, moral uncertainty, and postwar cinematic style.",
   },
 ];
 
@@ -151,25 +163,29 @@ const recentlyUpdated = [
     href: "/encyclopedia/directors/andrei-tarkovsky",
     label: "Director",
     title: "Andrei Tarkovsky",
-    description: "시간과 영성의 영화 언어를 탐험합니다.",
+    description:
+      "Study time, spirituality, memory, and the long take as cinematic language.",
   },
   {
     href: "/encyclopedia/countries/south-korea",
     label: "Country",
     title: "South Korea",
-    description: "한국 영화의 장르, 작가, 세계적 확장을 살펴봅니다.",
+    description:
+      "Explore genre, class, global recognition, and contemporary Korean cinema.",
   },
   {
     href: "/encyclopedia/movements/neo-realism",
     label: "Movement",
     title: "Neo-Realism",
-    description: "전후 현실과 인간의 삶을 담은 영화 운동입니다.",
+    description:
+      "Understand how postwar realism reshaped cinema around ordinary lives.",
   },
   {
     href: "/encyclopedia/awards/venice-film-festival",
     label: "Award",
     title: "Venice Film Festival",
-    description: "세계에서 가장 오래된 영화제의 흐름을 탐험합니다.",
+    description:
+      "Enter one of cinema's oldest festival traditions and its history of recognition.",
   },
 ];
 
@@ -180,28 +196,24 @@ export default function EncyclopediaHomePage() {
 
       <PageContainer size="wide">
         <div className="space-y-8">
-          <BaseHero
+          <UniversalHero
             eyebrow="Cinema Encyclopedia"
             title="Encyclopedia"
-            subtitle="Explore cinema through people, countries, movements and awards."
-            description="영화 세계를 이해하기 위한 지식의 입구입니다. 어디서부터 읽을지 고르고, 연결을 따라 탐험하세요."
-          >
-            <CTAGroup>
-              <AtlasButton href="/encyclopedia/directors">
-                Browse All →
-              </AtlasButton>
-              <AtlasButton href="/movies" variant="secondary">
-                Search Encyclopedia →
-              </AtlasButton>
-            </CTAGroup>
-          </BaseHero>
+            description="Search and explore the connected knowledge of cinema: movies, directors, countries, movements, actors, and awards."
+            search={
+              <div className="flex w-full items-center rounded-full border border-white/10 bg-black/35 px-5 py-3 text-sm text-neutral-500 backdrop-blur">
+                Search the Encyclopedia...
+              </div>
+            }
+            stats="6 categories"
+          />
 
           <DiscoveryShelf
             title="Featured Encyclopedia"
-            description="처음 읽기 좋은 대표 항목과 큐레이션된 지식 경로입니다."
+            description="Begin with guided entries that connect films, people, places, movements, and awards."
             action={
               <AtlasButton href="/encyclopedia/directors" variant="ghost">
-                View all →
+                View all
               </AtlasButton>
             }
             columns="four"
@@ -213,7 +225,7 @@ export default function EncyclopediaHomePage() {
 
           <DiscoveryShelf
             title="Browse by Category"
-            description="감독, 국가, 사조, 배우, 수상으로 영화 세계를 탐험하세요."
+            description="Choose the knowledge path you want to enter: films, filmmakers, countries, movements, actors, or awards."
             columns="four"
           >
             <div className="col-span-full grid gap-5 md:grid-cols-2 xl:grid-cols-6">
@@ -225,10 +237,10 @@ export default function EncyclopediaHomePage() {
 
           <RecommendedShelfPattern
             title="Recommended Starting Points"
-            description="무엇부터 읽을지 고민된다면 여기서 시작하세요."
+            description="Not sure where to begin? These entries open strong paths through cinema history."
             action={
               <AtlasButton href="/encyclopedia" variant="ghost">
-                Browse all →
+                Browse all
               </AtlasButton>
             }
           >
@@ -239,10 +251,10 @@ export default function EncyclopediaHomePage() {
 
           <DiscoveryShelf
             title="Continue Reading"
-            description="최근 읽던 Encyclopedia 항목을 이어서 탐험합니다."
+            description="Resume the learning paths that naturally lead into another cinematic journey."
             action={
               <AtlasButton href="/encyclopedia" variant="ghost">
-                View all →
+                View all
               </AtlasButton>
             }
             columns="three"
@@ -254,10 +266,10 @@ export default function EncyclopediaHomePage() {
 
           <DiscoveryShelf
             title="Recently Updated"
-            description="최근 추가되거나 정리된 Encyclopedia 항목입니다."
+            description="Freshly expanded entries across the Cinema Atlas knowledge graph."
             action={
               <AtlasButton href="/encyclopedia" variant="ghost">
-                View all →
+                View all
               </AtlasButton>
             }
             columns="four"
@@ -268,8 +280,8 @@ export default function EncyclopediaHomePage() {
           </DiscoveryShelf>
 
           <footer className="border-t border-white/10 py-8 text-sm text-neutral-500">
-            Cinema Atlas · Encyclopedia · Directors · Countries · Movements ·
-            Actors · Awards
+            Cinema Atlas / Encyclopedia / Directors / Countries / Movements /
+            Actors / Awards
           </footer>
         </div>
       </PageContainer>
