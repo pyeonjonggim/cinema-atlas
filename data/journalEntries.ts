@@ -1,0 +1,31 @@
+import type { JournalEntry } from "@/types/journal";
+
+export const journalEntries: JournalEntry[] = [
+  {
+    id: "journal-parasite-2024-01-01",
+    movieId: "parasite",
+    date: "2024-01-01",
+    title: "Class as architecture",
+    body: "A sharp modern Korean film that turns class structure into genre cinema.",
+    mood: "reflective",
+    containsSpoilers: false,
+  },
+  {
+    id: "journal-the-godfather-2024-01-02",
+    movieId: "the-godfather",
+    date: "2024-01-02",
+    title: "Power as inheritance",
+    body: "A defining New Hollywood crime drama about family, loyalty, and power.",
+    mood: "challenged",
+    containsSpoilers: false,
+  },
+  {
+    id: "journal-rashomon-2024-01-03",
+    movieId: "rashomon",
+    date: "2024-01-03",
+    title: "Unstable truth",
+    body: "A landmark film that introduced Japanese cinema to many international audiences.",
+    mood: "curious",
+    containsSpoilers: false,
+  },
+];
