@@ -2,14 +2,23 @@ import MyAtlasLayout from "@/components/layout/MyAtlasLayout";
 import Section from "@/components/layout/Section";
 import InsightCard from "@/components/insights/InsightCard";
 import InsightGrid from "@/components/insights/InsightGrid";
+import CollectionGrid from "@/components/collections/CollectionGrid";
 import JournalPreview from "@/components/journal/JournalPreview";
 import MyActivityPreview from "@/components/my-atlas/MyActivityPreview";
 import { buildActivityItems } from "@/components/my-atlas/activity";
 import EntityContinueJourneyPattern from "@/components/patterns/EntityContinueJourneyPattern";
 import AtlasButton from "@/components/ui/AtlasButton";
 import AtlasCard from "@/components/ui/AtlasCard";
-import EmptyState from "@/components/ui/EmptyState";
+import { collections } from "@/data/collections";
+import {
+  achievements,
+  challenges,
+  userAchievements,
+  userChallenges,
+} from "@/data/passport";
 import { buildMyInsights } from "@/lib/insights";
+import { buildPassportModel } from "@/lib/passport";
+import { buildCollectionViews } from "@/lib/collections";
 import type { JournalEntry } from "@/types/journal";
 import type { Movie } from "@/types/movie";
 import type { UserMovie } from "@/types/userMovie";
@@ -27,8 +36,25 @@ export default function MyAtlasDashboardPage({
 }: MyAtlasDashboardPageProps) {
   const activityItems = buildActivityItems({ movies, userMovies });
   const insights = buildMyInsights({ movies, userMovies, journalEntries });
+  const collectionViews = buildCollectionViews({
+    collections,
+    movies,
+    userMovies,
+    journalEntries,
+  });
+  const passport = buildPassportModel({
+    movies,
+    userMovies,
+    challenges,
+    userChallenges,
+    achievements,
+    userAchievements,
+  });
   const topCountry = insights.countryDistribution[0];
   const topDirector = insights.directorDistribution[0];
+  const pinnedCollections = collectionViews
+    .filter((view) => view.collection.pinned)
+    .slice(0, 4);
 
   return (
     <MyAtlasLayout>
@@ -54,11 +80,7 @@ export default function MyAtlasDashboardPage({
         }
         className="p-4 md:p-5"
       >
-        <MyActivityPreview
-          items={activityItems}
-          journalEntries={journalEntries}
-          limit={10}
-        />
+        <MyActivityPreview items={activityItems} journalEntries={journalEntries} limit={8} />
       </Section>
 
       <Section
@@ -80,27 +102,51 @@ export default function MyAtlasDashboardPage({
       </Section>
 
       <Section
-        title="Passport Progress"
-        description="Progress will connect your personal history to long-term exploration."
+        title="Passport"
+        description="A small preview of your wider exploration system."
+        action={
+          <AtlasButton href="/passport" variant="secondary">
+            View Passport
+          </AtlasButton>
+        }
         className="p-4 md:p-5"
       >
-        <EmptyState
-          preset="passport"
-          title="Passport progress will appear here."
-          description="Future progress will connect your watched films to countries, directors, movements, actors, and awards."
-        />
+        <div className="grid gap-3 md:grid-cols-3">
+          <PassportPreviewCard
+            label="Active Challenges"
+            value={`${passport.activeChallenges.length}`}
+            note="Selected goals in progress."
+          />
+          <PassportPreviewCard
+            label="Latest Achievement"
+            value={
+              passport.latestAchievements[0]?.achievement.title ?? "None yet"
+            }
+            note={
+              passport.latestAchievements[0]?.unlockedAt
+                ? `Unlocked ${passport.latestAchievements[0].unlockedAt}`
+                : "Complete a challenge to unlock one."
+            }
+          />
+          <PassportPreviewCard
+            label="Overall Progress"
+            value={`${getOverallPassportProgress(passport.explorationProgress)}%`}
+            note="A broad reading of explored entities."
+          />
+        </div>
       </Section>
 
       <Section
         title="My Collection"
-        description="Favorites, watchlist, and lists will become your personal cinema shelves."
+        description="Pinned collections from your personal cinema curation."
+        action={
+          <AtlasButton href="/my/collections" variant="secondary">
+            View All
+          </AtlasButton>
+        }
         className="p-4 md:p-5"
       >
-        <div className="grid gap-3 md:grid-cols-3">
-          <CollectionPlaceholder title="Favorites" />
-          <CollectionPlaceholder title="Watchlist" />
-          <CollectionPlaceholder title="Lists" />
-        </div>
+        <CollectionGrid views={pinnedCollections} compact />
       </Section>
 
       <Section
@@ -179,16 +225,37 @@ export default function MyAtlasDashboardPage({
   );
 }
 
-function CollectionPlaceholder({ title }: { title: string }) {
+function PassportPreviewCard({
+  label,
+  value,
+  note,
+}: {
+  label: string;
+  value: string;
+  note: string;
+}) {
   return (
     <AtlasCard className="p-4">
       <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-neutral-500">
-        Collection
+        {label}
       </p>
-      <h3 className="mt-3 text-lg font-semibold text-white">{title}</h3>
-      <p className="mt-2 text-sm leading-6 text-neutral-400">
-        This shelf will become available in a later My Atlas sprint.
-      </p>
+      <h3 className="mt-3 line-clamp-1 text-xl font-semibold text-white">
+        {value}
+      </h3>
+      <p className="mt-2 text-sm leading-6 text-neutral-400">{note}</p>
     </AtlasCard>
   );
+}
+
+function getOverallPassportProgress(
+  progressItems: Array<{ percentage: number }>
+) {
+  if (progressItems.length === 0) return 0;
+
+  const total = progressItems.reduce(
+    (sum, progress) => sum + progress.percentage,
+    0
+  );
+
+  return Math.round(total / progressItems.length);
 }
