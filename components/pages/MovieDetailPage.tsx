@@ -210,6 +210,7 @@ export default function MovieDetailPage({
           <MovieActionBarPattern
             averageRating={movie.rating}
             myRating={movie.myRating}
+            movieId={movie.id}
           />
 
           <MovieQuickFactsPattern movie={movie} />
