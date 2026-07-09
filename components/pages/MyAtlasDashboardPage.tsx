@@ -1,8 +1,15 @@
 import MyAtlasLayout from "@/components/layout/MyAtlasLayout";
 import Section from "@/components/layout/Section";
+import InsightCard from "@/components/insights/InsightCard";
+import InsightGrid from "@/components/insights/InsightGrid";
+import JournalPreview from "@/components/journal/JournalPreview";
+import MyActivityPreview from "@/components/my-atlas/MyActivityPreview";
+import { buildActivityItems } from "@/components/my-atlas/activity";
 import EntityContinueJourneyPattern from "@/components/patterns/EntityContinueJourneyPattern";
+import AtlasButton from "@/components/ui/AtlasButton";
 import AtlasCard from "@/components/ui/AtlasCard";
 import EmptyState from "@/components/ui/EmptyState";
+import { buildMyInsights } from "@/lib/insights";
 import type { JournalEntry } from "@/types/journal";
 import type { Movie } from "@/types/movie";
 import type { UserMovie } from "@/types/userMovie";
@@ -18,40 +25,10 @@ export default function MyAtlasDashboardPage({
   userMovies,
   journalEntries,
 }: MyAtlasDashboardPageProps) {
-  const movieById = new Map(movies.map((movie) => [movie.id, movie]));
-  const completedUserMovies = userMovies.filter(
-    (item) => item.watchStatus === "completed"
-  );
-  const inProgressUserMovies = userMovies.filter((item) =>
-    ["watching", "rewatching", "paused"].includes(item.watchStatus ?? "")
-  );
-  const recentlyWatched = [...completedUserMovies]
-    .sort((a, b) => (b.watchedDate ?? "").localeCompare(a.watchedDate ?? ""))
-    .slice(0, 3);
-  const ratedUserMovies = userMovies
-    .filter((item) => (item.myRating ?? 0) > 0)
-    .slice(0, 3);
-  const recentJournals = [...journalEntries]
-    .sort((a, b) => b.date.localeCompare(a.date))
-    .slice(0, 3);
-
-  const watchedMovies = completedUserMovies
-    .map((item) => movieById.get(item.movieId))
-    .filter((movie): movie is Movie => Boolean(movie));
-  const countriesExplored = new Set(
-    watchedMovies.map((movie) => movie.countryIds?.[0] ?? movie.countrySlug)
-  ).size;
-  const directorsExplored = new Set(
-    watchedMovies.map((movie) => movie.directorIds?.[0] ?? movie.directorSlug)
-  ).size;
-  const ratingValues = userMovies
-    .map((item) => item.myRating)
-    .filter((rating): rating is number => typeof rating === "number" && rating > 0);
-  const averageRating =
-    ratingValues.length > 0
-      ? ratingValues.reduce((sum, rating) => sum + rating, 0) /
-        ratingValues.length
-      : undefined;
+  const activityItems = buildActivityItems({ movies, userMovies });
+  const insights = buildMyInsights({ movies, userMovies, journalEntries });
+  const topCountry = insights.countryDistribution[0];
+  const topDirector = insights.directorDistribution[0];
 
   return (
     <MyAtlasLayout>
@@ -68,95 +45,43 @@ export default function MyAtlasDashboardPage({
       </section>
 
       <Section
-        title="Continue Watching"
-        description="Resume the films and viewing paths already in progress."
+        title="My Activity"
+        description="Your recent cinema activity, led by posters before text."
+        action={
+          <AtlasButton href="/my/activity" variant="secondary">
+            View Full Activity
+          </AtlasButton>
+        }
         className="p-4 md:p-5"
       >
-        {inProgressUserMovies.length > 0 ? (
-          <div className="grid gap-3 md:grid-cols-3">
-            {inProgressUserMovies.slice(0, 3).map((item) => (
-              <UserMovieCard key={item.movieId} item={item} movie={movieById.get(item.movieId)} />
-            ))}
-          </div>
-        ) : (
-          <EmptyState
-            title="No films in progress."
-            description="Start a film journey and it will appear here."
-            actionLabel="Browse Movies"
-            actionHref="/encyclopedia/movies"
-          />
-        )}
+        <MyActivityPreview
+          items={activityItems}
+          journalEntries={journalEntries}
+          limit={10}
+        />
       </Section>
 
       <Section
-        title="Recently Watched"
-        description="A short trail of where your cinema journey has recently been."
-        className="p-4 md:p-5"
-      >
-        {recentlyWatched.length > 0 ? (
-          <div className="grid gap-3 md:grid-cols-3">
-            {recentlyWatched.map((item) => (
-              <UserMovieCard key={item.movieId} item={item} movie={movieById.get(item.movieId)} />
-            ))}
-          </div>
-        ) : (
-          <EmptyState
-            title="No watched films yet."
-            description="Completed films will become the memory of your Atlas."
-            actionLabel="Start Exploring"
-            actionHref="/explore"
-          />
-        )}
-      </Section>
-
-      <Section
-        title="My Ratings"
-        description="Your personal ratings will live here once My Atlas recording is active."
-        className="p-4 md:p-5"
-      >
-        {ratedUserMovies.length > 0 ? (
-          <div className="grid gap-3 md:grid-cols-3">
-            {ratedUserMovies.map((item) => (
-              <UserMovieCard key={item.movieId} item={item} movie={movieById.get(item.movieId)} />
-            ))}
-          </div>
-        ) : (
-          <EmptyState
-            title="No ratings yet."
-            description="Rate a film later to begin shaping your personal cinema map."
-            actionLabel="Browse Movies"
-            actionHref="/encyclopedia/movies"
-          />
-        )}
-      </Section>
-
-      <Section
-        title="Journal Preview"
+        title="Journal"
         description="Recent reflections from your personal cinema journal."
+        action={
+          <AtlasButton href="/my/journal" variant="secondary">
+            View All
+          </AtlasButton>
+        }
         className="p-4 md:p-5"
       >
-        {recentJournals.length > 0 ? (
-          <div className="grid gap-3 md:grid-cols-3">
-            {recentJournals.map((entry) => (
-              <JournalPreviewCard
-                key={entry.id}
-                entry={entry}
-                movie={movieById.get(entry.movieId)}
-              />
-            ))}
-          </div>
-        ) : (
-          <EmptyState
-            preset="journal"
-            title="No journal yet."
-            description="Write your first journal after watching a film."
-          />
-        )}
+        <JournalPreview
+          journalEntries={journalEntries}
+          movies={movies}
+          userMovies={userMovies}
+          limit={6}
+        />
       </Section>
 
       <Section
         title="Passport Progress"
-        description="A gentle placeholder for future exploration progress."
+        description="Progress will connect your personal history to long-term exploration."
         className="p-4 md:p-5"
       >
         <EmptyState
@@ -167,24 +92,66 @@ export default function MyAtlasDashboardPage({
       </Section>
 
       <Section
-        title="My Statistics"
-        description="A compact snapshot of your current sample data."
+        title="My Collection"
+        description="Favorites, watchlist, and lists will become your personal cinema shelves."
         className="p-4 md:p-5"
       >
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-          <StatisticCard label="Movies Watched" value={`${watchedMovies.length}`} />
-          <StatisticCard label="Countries" value={`${countriesExplored}`} />
-          <StatisticCard label="Directors" value={`${directorsExplored}`} />
-          <StatisticCard
-            label="Average Rating"
-            value={averageRating ? averageRating.toFixed(1) : "Not rated"}
-          />
+        <div className="grid gap-3 md:grid-cols-3">
+          <CollectionPlaceholder title="Favorites" />
+          <CollectionPlaceholder title="Watchlist" />
+          <CollectionPlaceholder title="Lists" />
         </div>
+      </Section>
+
+      <Section
+        title="Insights"
+        description="Key numbers and early patterns from your personal cinema record."
+        action={
+          <AtlasButton href="/my/insights" variant="secondary">
+            View All
+          </AtlasButton>
+        }
+        className="p-4 md:p-5"
+      >
+        <InsightGrid>
+          <InsightCard
+            label="Movies Watched"
+            value={`${insights.moviesWatched}`}
+            note="Completed films in My Atlas."
+          />
+          <InsightCard
+            label="Average Rating"
+            value={
+              typeof insights.averageRating === "number"
+                ? insights.averageRating.toFixed(2)
+                : "Not rated"
+            }
+            note="Your current rating pattern."
+          />
+          <InsightCard
+            label="Most Watched Country"
+            value={topCountry?.label ?? "None yet"}
+            note={
+              topCountry
+                ? `${topCountry.percentage}% of watched films.`
+                : "Watch more films to reveal this."
+            }
+          />
+          <InsightCard
+            label="Most Watched Director"
+            value={topDirector?.label ?? "None yet"}
+            note={
+              topDirector
+                ? `${topDirector.value} recorded film.`
+                : "Your director pattern will appear here."
+            }
+          />
+        </InsightGrid>
       </Section>
 
       <EntityContinueJourneyPattern
         title="Continue Exploring"
-        description="Use your personal trail as the next path back into cinema."
+        description="Recommendations stay last. Use your activity as a quiet prompt for the next journey."
         items={[
           {
             label: "Explore",
@@ -200,10 +167,10 @@ export default function MyAtlasDashboardPage({
             href: "/encyclopedia/movies",
           },
           {
-            label: "Journal",
-            title: "Prepare a Reflection",
-            description: "Journal writing will become the memory layer of My Atlas.",
-            href: "/my",
+            label: "Activity",
+            title: "Review Your Timeline",
+            description: "Return to your recent activity before choosing the next path.",
+            href: "/my/activity",
             level: "deep",
           },
         ]}
@@ -212,69 +179,16 @@ export default function MyAtlasDashboardPage({
   );
 }
 
-function UserMovieCard({
-  item,
-  movie,
-}: {
-  item: UserMovie;
-  movie?: Movie;
-}) {
-  const title = movie?.title ?? item.movieId;
-
-  return (
-    <AtlasCard href={movie ? `/movies/${movie.id}` : undefined} className="p-4">
-      <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-neutral-500">
-        {item.watchStatus ?? "Saved"}
-      </p>
-      <h3 className="mt-3 line-clamp-1 text-lg font-semibold text-white">
-        {title}
-      </h3>
-      <p className="mt-1 text-sm text-neutral-500">
-        {item.watchedDate ?? "Not dated"}
-      </p>
-      <p className="mt-3 line-clamp-1 text-sm text-neutral-400">
-        {(item.personalTags ?? []).join(" / ") || "Personal record"}
-      </p>
-    </AtlasCard>
-  );
-}
-
-function JournalPreviewCard({
-  entry,
-  movie,
-}: {
-  entry: JournalEntry;
-  movie?: Movie;
-}) {
+function CollectionPlaceholder({ title }: { title: string }) {
   return (
     <AtlasCard className="p-4">
-      <div className="flex items-center justify-between gap-3">
-        <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-neutral-500">
-          Journal
-        </p>
-        <p className="text-xs text-neutral-500">{entry.date}</p>
-      </div>
-
-      <h3 className="mt-3 line-clamp-1 text-lg font-semibold text-white">
-        {entry.title ?? movie?.title ?? "Untitled reflection"}
-      </h3>
-      <p className="mt-1 text-sm text-neutral-500">
-        {movie?.title ?? entry.movieId}
+      <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-neutral-500">
+        Collection
       </p>
-      <p className="mt-3 line-clamp-3 text-sm leading-6 text-neutral-400">
-        {entry.body}
+      <h3 className="mt-3 text-lg font-semibold text-white">{title}</h3>
+      <p className="mt-2 text-sm leading-6 text-neutral-400">
+        This shelf will become available in a later My Atlas sprint.
       </p>
     </AtlasCard>
-  );
-}
-
-function StatisticCard({ label, value }: { label: string; value: string }) {
-  return (
-    <div className="rounded-2xl border border-white/10 bg-black/20 p-4">
-      <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-neutral-500">
-        {label}
-      </p>
-      <p className="mt-3 text-2xl font-semibold text-white">{value}</p>
-    </div>
   );
 }

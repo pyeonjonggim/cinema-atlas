@@ -4,7 +4,7 @@ export const userMovies: UserMovie[] = [
   {
     movieId: "parasite",
     watchStatus: "completed",
-    myRating: 0,
+    myRating: 5,
     watchedDate: "2024-01-01",
     rewatchCount: 0,
     favorite: false,
@@ -15,7 +15,7 @@ export const userMovies: UserMovie[] = [
   {
     movieId: "the-godfather",
     watchStatus: "completed",
-    myRating: 0,
+    myRating: 4.5,
     watchedDate: "2024-01-02",
     rewatchCount: 0,
     favorite: false,
@@ -26,7 +26,7 @@ export const userMovies: UserMovie[] = [
   {
     movieId: "rashomon",
     watchStatus: "completed",
-    myRating: 0,
+    myRating: 4,
     watchedDate: "2024-01-03",
     rewatchCount: 0,
     favorite: false,
