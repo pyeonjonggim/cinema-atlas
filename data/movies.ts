@@ -8,14 +8,17 @@ export const movies: Movie[] = [
     year: 2019,
 
     country: "Korea",
+    countryIds: ["korea"],
     countrySlug: "korea",
     countryFlag: "KR",
     language: "Korean",
 
     director: "Bong Joon-ho",
+    directorIds: ["bong-joon-ho"],
     directorSlug: "bong-joon-ho",
 
     actors: ["Song Kang-ho", "Cho Yeo-jeong", "Choi Woo-shik"],
+    actorIds: ["song-kang-ho", "cho-yeo-jeong", "choi-woo-shik"],
     actorSlugs: ["song-kang-ho", "cho-yeo-jeong", "choi-woo-shik"],
     cast: [
       {
@@ -41,9 +44,11 @@ export const movies: Movie[] = [
     genre: "Drama / Thriller",
     genres: ["Drama", "Thriller", "Black Comedy"],
     movement: "Korean Contemporary Cinema",
+    movementIds: ["korean-contemporary-cinema"],
     movementSlug: "korean-contemporary-cinema",
 
     awards: ["Academy Best Picture"],
+    awardIds: ["academy-best-picture"],
     awardSlugs: ["academy-best-picture"],
     awardMentions: [
       {
@@ -56,13 +61,10 @@ export const movies: Movie[] = [
 
     difficulty: "beginner",
 
+    averageRating: 5.0,
     rating: 5.0,
-    myRating: 0,
     runtime: 132,
-    watchedDate: "2024-01-01",
 
-    memo:
-      "A sharp modern Korean film that turns class structure into genre cinema.",
     whyMatters:
       "Parasite connected Korean contemporary cinema to a global audience by turning class, space, family, and genre into one precise cinematic structure.",
     synopsis:
@@ -85,14 +87,17 @@ export const movies: Movie[] = [
     year: 1972,
 
     country: "United States",
+    countryIds: ["united-states"],
     countrySlug: "united-states",
     countryFlag: "US",
     language: "English",
 
     director: "Francis Ford Coppola",
+    directorIds: ["francis-ford-coppola"],
     directorSlug: "francis-ford-coppola",
 
     actors: ["Marlon Brando", "Al Pacino", "James Caan"],
+    actorIds: ["marlon-brando", "al-pacino", "james-caan"],
     actorSlugs: ["marlon-brando", "al-pacino", "james-caan"],
     cast: [
       {
@@ -118,9 +123,11 @@ export const movies: Movie[] = [
     genre: "Crime / Drama",
     genres: ["Crime", "Drama"],
     movement: "New Hollywood",
+    movementIds: ["new-hollywood"],
     movementSlug: "new-hollywood",
 
     awards: ["Academy Best Picture"],
+    awardIds: ["academy-best-picture"],
     awardSlugs: ["academy-best-picture"],
     awardMentions: [
       {
@@ -133,13 +140,10 @@ export const movies: Movie[] = [
 
     difficulty: "beginner",
 
+    averageRating: 4.5,
     rating: 4.5,
-    myRating: 0,
     runtime: 175,
-    watchedDate: "2024-01-02",
 
-    memo:
-      "A defining New Hollywood crime drama about family, loyalty, and power.",
     whyMatters:
       "The Godfather became a defining New Hollywood work by combining genre storytelling, family tragedy, institutional power, and operatic moral decline.",
     synopsis:
@@ -162,14 +166,17 @@ export const movies: Movie[] = [
     year: 1950,
 
     country: "Japan",
+    countryIds: ["japan"],
     countrySlug: "japan",
     countryFlag: "JP",
     language: "Japanese",
 
     director: "Akira Kurosawa",
+    directorIds: ["akira-kurosawa"],
     directorSlug: "akira-kurosawa",
 
     actors: ["Toshiro Mifune", "Machiko Kyo"],
+    actorIds: ["toshiro-mifune", "machiko-kyo"],
     actorSlugs: ["toshiro-mifune", "machiko-kyo"],
     cast: [
       {
@@ -189,9 +196,11 @@ export const movies: Movie[] = [
     genre: "Drama / Mystery",
     genres: ["Drama", "Mystery", "Jidaigeki"],
     movement: "Japanese Golden Age",
+    movementIds: ["japanese-golden-age"],
     movementSlug: "japanese-golden-age",
 
     awards: ["Venice Golden Lion"],
+    awardIds: ["venice-golden-lion"],
     awardSlugs: ["venice-golden-lion"],
     awardMentions: [
       {
@@ -204,13 +213,10 @@ export const movies: Movie[] = [
 
     difficulty: "beginner",
 
+    averageRating: 4.0,
     rating: 4.0,
-    myRating: 0,
     runtime: 88,
-    watchedDate: "2024-01-03",
 
-    memo:
-      "A landmark film that introduced Japanese cinema to many international audiences.",
     whyMatters:
       "Rashomon became a gateway for Japanese cinema internationally and reshaped how film could explore truth, memory, and moral uncertainty.",
     synopsis:

@@ -216,7 +216,11 @@ export default function MovieDetailPage({
 
           <EntityOverviewPattern
             title="Why This Film Matters"
-            description={movie.whyMatters ?? movie.memo}
+            description={
+              movie.whyMatters ??
+              movie.memo ??
+              "This film is part of the Cinema Atlas knowledge graph and will gain richer context as the atlas grows."
+            }
           />
 
           <EntityOverviewPattern
