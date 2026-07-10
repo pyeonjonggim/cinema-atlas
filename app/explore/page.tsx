@@ -1,12 +1,3 @@
-<<<<<<< Updated upstream
-import Link from "next/link";
-import {
-  exploreCategories,
-  exploreRoutes,
-  type ExploreRoute,
-  type ExploreStepType,
-} from "@/data/exploreRoutes";
-=======
 import GlobalNavigation from "@/components/navigation/GlobalNavigation";
 import PageContainer from "@/components/layout/PageContainer";
 import Section from "@/components/layout/Section";
@@ -16,40 +7,46 @@ import ExploreEntryCard from "@/components/explore/ExploreEntryCard";
 import JourneyCard from "@/components/journey/JourneyCard";
 import EntityContinueJourneyPattern from "@/components/patterns/EntityContinueJourneyPattern";
 import { officialJourneys } from "@/data/journeys";
->>>>>>> Stashed changes
 
-const stepTypeLabel: Record<ExploreStepType, string> = {
-  movie: "Movie",
-  director: "Director",
-  country: "Country",
-  movement: "Movement",
-  actor: "Actor",
-  award: "Award",
-};
+const startExploring = [
+  {
+    href: "/encyclopedia/countries",
+    label: "Start Exploring",
+    title: "Explore by Country",
+    description:
+      "Begin with national cinemas and move into films, directors, movements, and awards.",
+    meta: "World cinema",
+    tone: "country" as const,
+  },
+  {
+    href: "/encyclopedia/directors",
+    label: "Start Exploring",
+    title: "Explore by Director",
+    description:
+      "Follow a filmmaker's style, themes, collaborators, and essential films.",
+    meta: "Filmmakers",
+    tone: "director" as const,
+  },
+  {
+    href: "/encyclopedia/movements",
+    label: "Start Exploring",
+    title: "Explore by Movement",
+    description:
+      "Enter cinema history through shared ideas, eras, forms, and visual languages.",
+    meta: "Film history",
+    tone: "movement" as const,
+  },
+  {
+    href: "/encyclopedia/awards",
+    label: "Start Exploring",
+    title: "Explore by Award",
+    description:
+      "Discover how festivals and institutions record the history of cinema.",
+    meta: "Recognition",
+    tone: "award" as const,
+  },
+];
 
-<<<<<<< Updated upstream
-const stepTypeHrefBase: Record<ExploreStepType, string> = {
-  movie: "/movies",
-  director: "/encyclopedia/directors",
-  country: "/encyclopedia/countries",
-  movement: "/encyclopedia/movements",
-  actor: "/encyclopedia/actors",
-  award: "/encyclopedia/awards",
-};
-
-const categoryDescriptions: Record<ExploreRoute["category"], string> = {
-  "Director Journey":
-    "Follow a filmmaker into films, actors, countries, and styles.",
-  "Country Journey":
-    "Start from a national cinema and move into its films and directors.",
-  "Movement Journey":
-    "Explore film history through periods, forms, and shared ideas.",
-  "Actor Journey": "Move through screen images, roles, directors, and films.",
-  "Award Journey": "Follow recognition systems into awarded films and filmmakers.",
-  "Hidden Gems": "Discover less obvious routes across world cinema.",
-  "Deep Dive": "Longer study paths for serious film history exploration.",
-};
-=======
 const categories = [
   {
     href: "/encyclopedia/movies",
@@ -88,36 +85,171 @@ const categories = [
     description: "Trace how cinema is recognized, remembered, and canonized.",
   },
 ];
->>>>>>> Stashed changes
 
-function getStepHref(type: ExploreStepType, slug: string) {
-  return `${stepTypeHrefBase[type]}/${slug}`;
-}
+const regions = [
+  {
+    href: "/encyclopedia/countries",
+    label: "Region",
+    title: "Asia",
+    description: "Explore Japanese, Korean, Iranian, Indian, and wider Asian cinemas.",
+    tone: "country" as const,
+  },
+  {
+    href: "/encyclopedia/countries",
+    label: "Region",
+    title: "Europe",
+    description: "Move through neorealism, new waves, festivals, and national traditions.",
+    tone: "movement" as const,
+  },
+  {
+    href: "/encyclopedia/countries",
+    label: "Region",
+    title: "North America",
+    description: "Follow Hollywood, independent cinema, genres, and studio histories.",
+    tone: "director" as const,
+  },
+  {
+    href: "/encyclopedia/countries",
+    label: "Region",
+    title: "Latin America",
+    description: "Enter political cinema, poetic realism, and regional film cultures.",
+    tone: "country" as const,
+  },
+  {
+    href: "/encyclopedia/countries",
+    label: "Region",
+    title: "Middle East",
+    description: "Discover cinema shaped by memory, family, politics, and daily life.",
+    tone: "movement" as const,
+  },
+  {
+    href: "/encyclopedia/countries",
+    label: "Region",
+    title: "Africa",
+    description: "Explore postcolonial cinema, oral tradition, cities, and migration.",
+    tone: "country" as const,
+  },
+  {
+    href: "/encyclopedia/countries",
+    label: "Region",
+    title: "Oceania",
+    description: "Start with island cinema, Indigenous stories, and regional auteurs.",
+    tone: "default" as const,
+  },
+];
+
+const themes = [
+  "Coming of Age",
+  "War",
+  "Family",
+  "Loneliness",
+  "Revenge",
+  "Love",
+].map((theme) => ({
+  href: "/encyclopedia/movies",
+  label: "Theme Placeholder",
+  title: theme,
+  description:
+    "A future theme path that will connect films, directors, countries, and movements.",
+  meta: "Coming later",
+}));
+
+const collections = [
+  {
+    href: "/encyclopedia/movies",
+    label: "Official Collection Placeholder",
+    title: "100 Films to Start Cinema",
+    description:
+      "A future official collection for building a foundation across film history.",
+    meta: "Official",
+  },
+  {
+    href: "/encyclopedia/countries",
+    label: "Official Collection Placeholder",
+    title: "Around the World",
+    description:
+      "A future collection that helps users move across regions and national cinemas.",
+    meta: "World cinema",
+  },
+  {
+    href: "/encyclopedia/awards/academy-best-picture",
+    label: "Official Collection Placeholder",
+    title: "Palme d'Or Winners",
+    description:
+      "A future collection for following major festival recognition and canon formation.",
+    meta: "Awards",
+  },
+  {
+    href: "/encyclopedia/directors",
+    label: "Official Collection Placeholder",
+    title: "Women Directors",
+    description:
+      "A future collection highlighting filmmakers, movements, and historical context.",
+    meta: "Directors",
+  },
+];
+
+const continueJourneyItems = [
+  {
+    label: "Knowledge Hub",
+    title: "Browse the Encyclopedia",
+    description:
+      "Move from discovery into connected cinema knowledge.",
+    href: "/encyclopedia",
+    level: "primary" as const,
+  },
+  {
+    label: "Exploration System",
+    title: "Open Your Passport",
+    description:
+      "Turn curiosity into active challenges and long-term exploration.",
+    href: "/passport",
+    level: "deep" as const,
+  },
+  {
+    label: "First Step",
+    title: "Start with Movies",
+    description:
+      "Choose a film, then follow its relationships outward.",
+    href: "/encyclopedia/movies",
+    level: "secondary" as const,
+  },
+  {
+    label: "Personal Space",
+    title: "Return to My Atlas",
+    description:
+      "Review your activity, journals, collections, and insights.",
+    href: "/my",
+    level: "secondary" as const,
+  },
+];
 
 export default function ExplorePage() {
   return (
-    <main className="min-h-screen bg-neutral-950 px-6 py-10 text-neutral-100">
-      <section className="mx-auto max-w-7xl">
-        <div className="rounded-[2rem] border border-white/10 bg-white/[0.03] p-8 md:p-10">
-          <p className="text-sm uppercase tracking-[0.25em] text-neutral-500">
-            Cinema Atlas
-          </p>
+    <>
+      <GlobalNavigation />
 
-          <h1 className="mt-4 text-4xl font-bold text-white md:text-6xl">
-            Atlas Explore
-          </h1>
+      <PageContainer size="wide">
+        <div className="space-y-8">
+          <UniversalHero
+            eyebrow="Explore"
+            title="Explore Cinema"
+            description="Discover films, cultures, and stories through guided exploration."
+          />
 
-          <p className="mt-4 max-w-3xl text-lg leading-8 text-neutral-300">
-            Where will your next film journey begin?
-          </p>
+          <Section
+            eyebrow="Start Exploring"
+            title="Choose your first path"
+            description="Explore works best when you can begin without knowing exactly what to search for."
+            className="p-4 md:p-5"
+          >
+            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+              {startExploring.map((entry) => (
+                <ExploreEntryCard key={entry.title} {...entry} />
+              ))}
+            </div>
+          </Section>
 
-<<<<<<< Updated upstream
-          <p className="mt-4 max-w-3xl leading-7 text-neutral-400">
-            Atlas Explore is not a search page. It is a curated map of cinema
-            paths: from movies to directors, from countries to movements, from
-            actors to awards, and back again.
-          </p>
-=======
           <Section
             eyebrow="Official Journeys"
             title="Guided routes through cinema"
@@ -135,168 +267,66 @@ export default function ExplorePage() {
               ))}
             </div>
           </Section>
->>>>>>> Stashed changes
 
-          <div className="mt-8 flex flex-wrap gap-3">
-            <Link
-              href="/movies"
-              className="rounded-full border border-white/10 bg-white/10 px-5 py-2 text-sm font-medium text-white transition hover:bg-white/15"
-            >
-              Browse Movies
-            </Link>
+          <Section
+            eyebrow="Explore by Category"
+            title="Enter through the knowledge graph"
+            description="Every category leads into the Encyclopedia and then outward through related entities."
+            className="p-4 md:p-5"
+          >
+            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-6">
+              {categories.map((entry) => (
+                <ExploreEntryCard key={entry.title} {...entry} />
+              ))}
+            </div>
+          </Section>
 
-            <Link
-              href="/encyclopedia"
-              className="rounded-full border border-white/10 px-5 py-2 text-sm font-medium text-neutral-300 transition hover:bg-white/10 hover:text-white"
-            >
-              Open encyclopedia
-            </Link>
-          </div>
+          <Section
+            eyebrow="Explore by Region"
+            title="Travel through world cinema"
+            description="Regional entries currently lead to Country Encyclopedia, ready for future region pages."
+            className="p-4 md:p-5"
+          >
+            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+              {regions.map((entry) => (
+                <ExploreEntryCard key={entry.title} {...entry} />
+              ))}
+            </div>
+          </Section>
+
+          <Section
+            eyebrow="Explore by Theme"
+            title="Begin with a feeling or idea"
+            description="Theme paths are placeholders for future guided discovery, not a search engine."
+            className="p-4 md:p-5"
+          >
+            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-6">
+              {themes.map((entry) => (
+                <ExploreEntryCard key={entry.title} {...entry} />
+              ))}
+            </div>
+          </Section>
+
+          <Section
+            eyebrow="Featured Collections"
+            title="Official collections coming later"
+            description="These placeholders reserve space for curated Cinema Atlas collections without implementing collection details yet."
+            className="p-4 md:p-5"
+          >
+            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+              {collections.map((entry) => (
+                <ExploreEntryCard key={entry.title} {...entry} />
+              ))}
+            </div>
+          </Section>
+
+          <EntityContinueJourneyPattern
+            title="Continue Your Journey"
+            description="Explore should always point toward the next meaningful destination."
+            items={continueJourneyItems}
+          />
         </div>
-
-        <section className="mt-10">
-          <div className="mb-5">
-            <p className="text-sm uppercase tracking-[0.25em] text-neutral-500">
-              Journey Categories
-            </p>
-
-            <h2 className="mt-2 text-3xl font-bold text-white">
-              Choose a way into cinema
-            </h2>
-          </div>
-
-          <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-            {exploreCategories.map((category) => (
-              <div
-                key={category}
-                className="rounded-3xl border border-white/10 bg-white/[0.03] p-5"
-              >
-                <p className="font-semibold text-white">{category}</p>
-
-                <p className="mt-2 text-sm leading-6 text-neutral-400">
-                  {categoryDescriptions[category]}
-                </p>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        <section className="mt-12">
-          <div className="mb-5">
-            <p className="text-sm uppercase tracking-[0.25em] text-neutral-500">
-              Featured Journeys
-            </p>
-
-            <h2 className="mt-2 text-3xl font-bold text-white">
-              Start with a curated journey
-            </h2>
-
-            <p className="mt-3 max-w-3xl text-neutral-400">
-              These journeys are manually curated for v0. Later, Cinema Atlas can
-              generate routes from your ratings, journal, interests, and watch
-              history.
-            </p>
-          </div>
-
-          <div className="grid gap-5 lg:grid-cols-2">
-            {exploreRoutes.map((route) => (
-              <article
-                key={route.id}
-                className="rounded-3xl border border-white/10 bg-white/[0.03] p-6"
-              >
-                <Link href={`/explore/${route.id}`} className="block">
-                  <div className="flex flex-wrap items-start justify-between gap-4">
-                    <div>
-                      <p className="text-xs uppercase tracking-[0.2em] text-neutral-500">
-                        {route.category}
-                      </p>
-
-                      <h3 className="mt-3 text-2xl font-bold text-white">
-                        {route.title}
-                      </h3>
-
-                      <p className="mt-2 text-sm text-neutral-400">
-                        {route.subtitle}
-                      </p>
-                    </div>
-
-                    <div className="flex gap-2">
-                      <span className="rounded-full border border-white/10 px-3 py-1 text-xs text-neutral-400">
-                        {route.difficulty}
-                      </span>
-
-                      <span className="rounded-full border border-white/10 px-3 py-1 text-xs text-neutral-400">
-                        {route.steps.length} stops
-                      </span>
-                    </div>
-                  </div>
-
-                  <p className="mt-4 text-sm leading-6 text-neutral-400">
-                    {route.description}
-                  </p>
-
-                  <p className="mt-5 inline-block rounded-full border border-white/10 bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15">
-                    Open Journey →
-                  </p>
-                </Link>
-
-                <div className="mt-5 space-y-3">
-                  {route.steps.slice(0, 4).map((step, index) => (
-                    <div
-                      key={`${route.id}-${step.type}-${step.slug}`}
-                      className="flex gap-3"
-                    >
-                      <div className="flex w-8 shrink-0 flex-col items-center">
-                        <div className="flex h-8 w-8 items-center justify-center rounded-full border border-white/10 bg-black/30 text-xs text-neutral-400">
-                          {index + 1}
-                        </div>
-
-                        {index < Math.min(route.steps.length, 4) - 1 && (
-                          <div className="h-full min-h-4 w-px bg-white/10" />
-                        )}
-                      </div>
-
-                      <Link
-                        href={getStepHref(step.type, step.slug)}
-                        className="group flex-1 rounded-2xl border border-white/10 bg-black/20 p-4 transition hover:border-white/20 hover:bg-white/10"
-                      >
-                        <div className="flex flex-wrap items-center justify-between gap-3">
-                          <div>
-                            <p className="text-xs uppercase tracking-[0.18em] text-neutral-500">
-                              {stepTypeLabel[step.type]}
-                            </p>
-
-                            <p className="mt-1 font-semibold text-white group-hover:underline">
-                              {step.label}
-                            </p>
-
-                            {step.labelKo && (
-                              <p className="mt-1 text-sm text-neutral-500">
-                                {step.labelKo}
-                              </p>
-                            )}
-                          </div>
-
-                          <span className="text-sm text-neutral-500">
-                            Explore →
-                          </span>
-                        </div>
-                      </Link>
-                    </div>
-                  ))}
-
-                  {route.steps.length > 4 && (
-                    <p className="pl-11 text-sm text-neutral-500">
-                      + {route.steps.length - 4} more stop
-                      {route.steps.length - 4 === 1 ? "" : "s"}
-                    </p>
-                  )}
-                </div>
-              </article>
-            ))}
-          </div>
-        </section>
-      </section>
-    </main>
+      </PageContainer>
+    </>
   );
 }
