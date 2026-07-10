@@ -5,9 +5,11 @@ import PageContainer from "@/components/layout/PageContainer";
 import Section from "@/components/layout/Section";
 import UniversalHero from "@/components/layout/UniversalHero";
 import EntityContinueJourneyPattern from "@/components/patterns/EntityContinueJourneyPattern";
+import AtlasButton from "@/components/ui/AtlasButton";
 import AtlasCard from "@/components/ui/AtlasCard";
 import EmptyState from "@/components/ui/EmptyState";
 import { buildPassportModel } from "@/lib/passport";
+import type { Journey } from "@/types/journey";
 import type { Movie } from "@/types/movie";
 import type {
   Achievement,
@@ -24,6 +26,7 @@ type MyPassportPageProps = {
   userChallenges: UserChallenge[];
   achievements: Achievement[];
   userAchievements: UserAchievement[];
+  journeys: Journey[];
 };
 
 export default function MyPassportPage({
@@ -33,6 +36,7 @@ export default function MyPassportPage({
   userChallenges,
   achievements,
   userAchievements,
+  journeys,
 }: MyPassportPageProps) {
   const passport = buildPassportModel({
     movies,
@@ -41,6 +45,7 @@ export default function MyPassportPage({
     userChallenges,
     achievements,
     userAchievements,
+    journeys,
   });
   const primaryChallenge = passport.activeChallenges[0];
 
@@ -124,24 +129,48 @@ export default function MyPassportPage({
           </Section>
 
           <Section
-            title="Journey Library"
-            description="Official journeys will become structured paths through Passport."
+            title="Journey Progress"
+            description="Track your guided explorations. Journeys begin in Explore and your progress is remembered here."
+            action={<AtlasButton href="/explore/journeys" variant="secondary">Browse Journeys</AtlasButton>}
             className="p-4 md:p-5"
           >
-            <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
-              {["World Cinema", "Japanese Cinema", "New Hollywood", "Oscar Winners"].map(
-                (title) => (
-                  <AtlasCard key={title} className="p-4">
-                    <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-neutral-500">
-                      Official Journey
-                    </p>
-                    <h3 className="mt-2 text-lg font-semibold text-white">{title}</h3>
-                    <p className="mt-2 text-sm leading-6 text-neutral-400">
-                      Journey structure arrives in a future Passport sprint.
-                    </p>
-                  </AtlasCard>
-                )
-              )}
+            <div className="grid gap-3 md:grid-cols-3">
+              {passport.journeyProgress.map((progress) => (
+                <AtlasCard
+                  key={progress.journey.id}
+                  href={progress.href}
+                  className="p-4"
+                >
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-neutral-500">
+                    {progress.status.replace("-", " ")}
+                  </p>
+                  <h3 className="mt-2 text-lg font-semibold text-white">
+                    {progress.journey.title}
+                  </h3>
+                  <p className="mt-2 line-clamp-2 text-sm leading-6 text-neutral-400">
+                    {progress.journey.subtitle}
+                  </p>
+                  <div className="mt-4 flex items-center justify-between text-sm text-neutral-400">
+                    <span>Movie stops</span>
+                    <span>
+                      {progress.completedSteps} / {progress.totalSteps}
+                    </span>
+                  </div>
+                  <div className="mt-2 h-2 overflow-hidden rounded-full bg-white/10">
+                    <div
+                      className="h-full rounded-full bg-white/40"
+                      style={{
+                        width:
+                          progress.totalSteps > 0
+                            ? `${Math.round(
+                                (progress.completedSteps / progress.totalSteps) * 100
+                              )}%`
+                            : "0%",
+                      }}
+                    />
+                  </div>
+                </AtlasCard>
+              ))}
             </div>
           </Section>
 

@@ -7,6 +7,7 @@ import {
 } from "@/data/passport";
 import { movies } from "@/data/movies";
 import { userMovies } from "@/data/userMovies";
+import { officialJourneys } from "@/data/journeys";
 
 export default function PassportRoute() {
   return (
@@ -17,6 +18,7 @@ export default function PassportRoute() {
       userChallenges={userChallenges}
       achievements={achievements}
       userAchievements={userAchievements}
+      journeys={officialJourneys}
     />
   );
 }

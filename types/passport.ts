@@ -10,6 +10,12 @@ export type ChallengeCategory =
 
 export type ChallengeDifficulty = "beginner" | "intermediate" | "advanced";
 
+export type UserChallengeStatus =
+  | "pinned"
+  | "active"
+  | "paused"
+  | "archived";
+
 export type Challenge = {
   id: string;
   title: string;
@@ -24,7 +30,11 @@ export type Challenge = {
 
 export type UserChallenge = {
   challengeId: string;
+  status?: UserChallengeStatus;
   active?: boolean;
+  pinned?: boolean;
+  pausedAt?: string;
+  archivedAt?: string;
   startedAt?: string;
   completedAt?: string;
 };
