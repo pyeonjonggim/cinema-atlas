@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import Link from "next/link";
 import {
   exploreCategories,
@@ -5,6 +6,17 @@ import {
   type ExploreRoute,
   type ExploreStepType,
 } from "@/data/exploreRoutes";
+=======
+import GlobalNavigation from "@/components/navigation/GlobalNavigation";
+import PageContainer from "@/components/layout/PageContainer";
+import Section from "@/components/layout/Section";
+import UniversalHero from "@/components/layout/UniversalHero";
+import AtlasButton from "@/components/ui/AtlasButton";
+import ExploreEntryCard from "@/components/explore/ExploreEntryCard";
+import JourneyCard from "@/components/journey/JourneyCard";
+import EntityContinueJourneyPattern from "@/components/patterns/EntityContinueJourneyPattern";
+import { officialJourneys } from "@/data/journeys";
+>>>>>>> Stashed changes
 
 const stepTypeLabel: Record<ExploreStepType, string> = {
   movie: "Movie",
@@ -15,6 +27,7 @@ const stepTypeLabel: Record<ExploreStepType, string> = {
   award: "Award",
 };
 
+<<<<<<< Updated upstream
 const stepTypeHrefBase: Record<ExploreStepType, string> = {
   movie: "/movies",
   director: "/encyclopedia/directors",
@@ -36,6 +49,46 @@ const categoryDescriptions: Record<ExploreRoute["category"], string> = {
   "Hidden Gems": "Discover less obvious routes across world cinema.",
   "Deep Dive": "Longer study paths for serious film history exploration.",
 };
+=======
+const categories = [
+  {
+    href: "/encyclopedia/movies",
+    label: "Category",
+    title: "Movie",
+    description: "Start from a film and move into its people, places, and history.",
+  },
+  {
+    href: "/encyclopedia/directors",
+    label: "Category",
+    title: "Director",
+    description: "Explore cinema through authorship, style, and influence.",
+  },
+  {
+    href: "/encyclopedia/actors",
+    label: "Category",
+    title: "Actor",
+    description: "Follow screen personas, roles, and collaborations.",
+  },
+  {
+    href: "/encyclopedia/countries",
+    label: "Category",
+    title: "Country",
+    description: "Discover national cinema through context and history.",
+  },
+  {
+    href: "/encyclopedia/movements",
+    label: "Category",
+    title: "Movement",
+    description: "Understand cinema through shared ideas and eras.",
+  },
+  {
+    href: "/encyclopedia/awards",
+    label: "Category",
+    title: "Award",
+    description: "Trace how cinema is recognized, remembered, and canonized.",
+  },
+];
+>>>>>>> Stashed changes
 
 function getStepHref(type: ExploreStepType, slug: string) {
   return `${stepTypeHrefBase[type]}/${slug}`;
@@ -58,11 +111,31 @@ export default function ExplorePage() {
             Where will your next film journey begin?
           </p>
 
+<<<<<<< Updated upstream
           <p className="mt-4 max-w-3xl leading-7 text-neutral-400">
             Atlas Explore is not a search page. It is a curated map of cinema
             paths: from movies to directors, from countries to movements, from
             actors to awards, and back again.
           </p>
+=======
+          <Section
+            eyebrow="Official Journeys"
+            title="Guided routes through cinema"
+            description="Official Journeys are Cinema Atlas curated learning paths, not collections or challenges."
+            action={
+              <AtlasButton href="/explore/journeys" variant="secondary">
+                View Journey Library
+              </AtlasButton>
+            }
+            className="p-4 md:p-5"
+          >
+            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+              {officialJourneys.slice(0, 4).map((journey) => (
+                <JourneyCard key={journey.id} journey={journey} />
+              ))}
+            </div>
+          </Section>
+>>>>>>> Stashed changes
 
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
