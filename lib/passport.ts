@@ -1,4 +1,6 @@
 import type { Movie } from "@/types/movie";
+import { journeySteps } from "@/data/journeys";
+import type { Journey, JourneyStep } from "@/types/journey";
 import type {
   Achievement,
   Challenge,
@@ -15,6 +17,10 @@ export type ChallengeProgress = {
   target: number;
   percentage: number;
   completed: boolean;
+  status: "pinned" | "active" | "paused" | "archived" | "completed";
+  completedEvidence: Movie[];
+  remainingEvidence: Movie[];
+  suggestedNext: PassportSuggestion[];
 };
 
 export type AchievementProgress = {
@@ -33,12 +39,28 @@ export type EntityProgress = {
   traces: string[];
 };
 
+export type JourneyProgressPreview = {
+  journey: Journey;
+  completedSteps: number;
+  totalSteps: number;
+  status: "not-started" | "in-progress" | "completed";
+  href: string;
+};
+
+export type PassportSuggestion = {
+  label: string;
+  title: string;
+  description: string;
+  href: string;
+};
+
 export type PassportModel = {
   activeChallenges: ChallengeProgress[];
   challengeLibrary: ChallengeProgress[];
   latestAchievements: AchievementProgress[];
   achievementGallery: AchievementProgress[];
   explorationProgress: EntityProgress[];
+  journeyProgress: JourneyProgressPreview[];
 };
 
 type BuildPassportModelInput = {
@@ -48,6 +70,7 @@ type BuildPassportModelInput = {
   userChallenges: UserChallenge[];
   achievements: Achievement[];
   userAchievements: UserAchievement[];
+  journeys?: Journey[];
 };
 
 export function buildPassportModel({
@@ -57,6 +80,7 @@ export function buildPassportModel({
   userChallenges,
   achievements,
   userAchievements,
+  journeys = [],
 }: BuildPassportModelInput): PassportModel {
   const watchedMovies = getWatchedMovies({ movies, userMovies });
   const userChallengeById = new Map(
@@ -67,10 +91,11 @@ export function buildPassportModel({
   );
   const challengeProgress = challenges.map((challenge) =>
     buildChallengeProgress({
-      challenge,
-      userChallenge: userChallengeById.get(challenge.id),
-      watchedMovies,
-    })
+        challenge,
+        userChallenge: userChallengeById.get(challenge.id),
+        movies,
+        watchedMovies,
+      })
   );
   const challengeProgressById = new Map(
     challengeProgress.map((progress) => [progress.challenge.id, progress])
@@ -108,6 +133,10 @@ export function buildPassportModel({
       .slice(0, 3),
     achievementGallery: achievementProgress,
     explorationProgress: buildExplorationProgress(watchedMovies),
+    journeyProgress: buildJourneyProgress({
+      journeys,
+      watchedMovies,
+    }),
   };
 }
 
@@ -129,17 +158,25 @@ function getWatchedMovies({
 function buildChallengeProgress({
   challenge,
   userChallenge,
+  movies,
   watchedMovies,
 }: {
   challenge: Challenge;
   userChallenge?: UserChallenge;
+  movies: Movie[];
   watchedMovies: Movie[];
 }): ChallengeProgress {
-  const current = watchedMovies.filter((movie) =>
+  const completedEvidence = watchedMovies.filter((movie) =>
     movieMatchesChallenge(movie, challenge)
-  ).length;
+  );
+  const remainingEvidence = movies
+    .filter((movie) => !watchedMovies.some((watchedMovie) => watchedMovie.id === movie.id))
+    .filter((movie) => movieMatchesChallenge(movie, challenge))
+    .slice(0, Math.max(3, challenge.targetCount));
+  const current = completedEvidence.length;
   const target = challenge.targetCount;
   const percentage = target > 0 ? Math.min(100, Math.round((current / target) * 100)) : 0;
+  const completed = current >= target;
 
   return {
     challenge,
@@ -147,7 +184,14 @@ function buildChallengeProgress({
     current,
     target,
     percentage,
-    completed: current >= target,
+    completed,
+    status: completed ? "completed" : getChallengeStatus(userChallenge),
+    completedEvidence,
+    remainingEvidence,
+    suggestedNext: buildChallengeSuggestions({
+      challenge,
+      remainingEvidence,
+    }),
   };
 }
 
@@ -235,6 +279,139 @@ function buildExplorationProgress(watchedMovies: Movie[]): EntityProgress[] {
       traces: watchedMovies.slice(0, 5).map((movie) => movie.title),
     },
   ];
+}
+
+function buildJourneyProgress({
+  journeys,
+  watchedMovies,
+}: {
+  journeys: Journey[];
+  watchedMovies: Movie[];
+}): JourneyProgressPreview[] {
+  const watchedMovieIds = new Set(watchedMovies.map((movie) => movie.id));
+
+  return journeys.map((journey) => {
+    const movieStepIds = journey.stepIds
+      .map((stepId) => journeySteps.find((step) => step.id === stepId))
+      .filter(
+        (step): step is JourneyStep =>
+          step !== undefined && step.entityType === "movie"
+      )
+      .map((step) => step.entityId)
+      .filter((movieId): movieId is string => Boolean(movieId));
+    const totalSteps = movieStepIds.length;
+    const completedSteps = movieStepIds.filter((movieId) =>
+      watchedMovieIds.has(movieId)
+    ).length;
+
+    return {
+      journey,
+      completedSteps,
+      totalSteps,
+      status: getJourneyStatus(completedSteps, totalSteps),
+      href: `/explore/journeys/${journey.id}`,
+    };
+  });
+}
+
+function buildChallengeSuggestions({
+  challenge,
+  remainingEvidence,
+}: {
+  challenge: Challenge;
+  remainingEvidence: Movie[];
+}): PassportSuggestion[] {
+  const nextMovie = remainingEvidence[0];
+
+  if (nextMovie) {
+    return [
+      {
+        label: "Movie",
+        title: nextMovie.title,
+        description: `A direct next step for ${challenge.targetLabel}.`,
+        href: `/movies/${nextMovie.id}`,
+      },
+      buildEntitySuggestion(challenge),
+    ];
+  }
+
+  return [
+    buildEntitySuggestion(challenge),
+    {
+      label: "Explore",
+      title: "Browse Guided Journeys",
+      description: "Find a curated route that can deepen this Passport goal.",
+      href: "/explore/journeys",
+    },
+    {
+      label: "Movies",
+      title: "Browse Movies",
+      description: "Open another film and continue expanding this challenge.",
+      href: "/encyclopedia/movies",
+    },
+  ];
+}
+
+function buildEntitySuggestion(challenge: Challenge): PassportSuggestion {
+  return {
+    label: getCategoryLabel(challenge.category),
+    title: challenge.targetLabel,
+    description: "Use the Encyclopedia context to choose the next meaningful stop.",
+    href: getChallengeHref(challenge),
+  };
+}
+
+function getChallengeStatus(userChallenge?: UserChallenge) {
+  if (userChallenge?.status) return userChallenge.status;
+  if (userChallenge?.active) return "active";
+  return "active";
+}
+
+function getChallengeHref(challenge: Challenge) {
+  if (!challenge.targetId) return "/explore";
+
+  if (challenge.category === "country") {
+    return `/encyclopedia/countries/${challenge.targetId}`;
+  }
+
+  if (challenge.category === "director") {
+    return `/encyclopedia/directors/${challenge.targetId}`;
+  }
+
+  if (challenge.category === "movement") {
+    return `/encyclopedia/movements/${challenge.targetId}`;
+  }
+
+  if (challenge.category === "award") {
+    return `/encyclopedia/awards/${challenge.targetId}`;
+  }
+
+  if (challenge.category === "actor") {
+    return `/encyclopedia/actors/${challenge.targetId}`;
+  }
+
+  return "/encyclopedia/movies";
+}
+
+function getCategoryLabel(category: ChallengeCategory) {
+  const labels: Record<ChallengeCategory, string> = {
+    country: "Country",
+    director: "Director",
+    movement: "Movement",
+    actor: "Actor",
+    award: "Award",
+    genre: "Genre",
+    "film-history": "Film History",
+    movie: "Movie",
+  };
+
+  return labels[category];
+}
+
+function getJourneyStatus(completedSteps: number, totalSteps: number) {
+  if (totalSteps === 0 || completedSteps === 0) return "not-started";
+  if (completedSteps >= totalSteps) return "completed";
+  return "in-progress";
 }
 
 function buildEntityProgress({

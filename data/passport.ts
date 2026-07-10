@@ -76,22 +76,28 @@ export const challenges: Challenge[] = [
 export const userChallenges: UserChallenge[] = [
   {
     challengeId: "japanese-cinema-starter",
+    status: "pinned",
     active: true,
+    pinned: true,
     startedAt: "2024-01-03",
   },
   {
     challengeId: "korean-cinema-starter",
+    status: "active",
     active: true,
     startedAt: "2024-01-01",
   },
   {
     challengeId: "academy-best-picture-path",
+    status: "active",
     active: true,
     startedAt: "2024-01-01",
   },
   {
     challengeId: "kurosawa-apprentice",
+    status: "paused",
     active: false,
+    pausedAt: "2024-01-08",
     startedAt: "2024-01-03",
   },
 ];

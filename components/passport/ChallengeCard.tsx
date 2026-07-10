@@ -1,4 +1,5 @@
 import type { ChallengeProgress } from "@/lib/passport";
+import AtlasCard from "@/components/ui/AtlasCard";
 
 type ChallengeCardProps = {
   progress: ChallengeProgress;
@@ -9,8 +10,10 @@ export default function ChallengeCard({
   progress,
   compact = false,
 }: ChallengeCardProps) {
+  const href = `/passport/challenges/${progress.challenge.id}`;
+
   return (
-    <div className="rounded-2xl border border-white/10 bg-black/20 p-4">
+    <AtlasCard href={href} className="rounded-2xl bg-black/20 p-4">
       <div className="flex items-start justify-between gap-3">
         <div>
           <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-neutral-500">
@@ -21,7 +24,7 @@ export default function ChallengeCard({
           </h3>
         </div>
         <span className="rounded-full border border-white/10 px-2 py-1 text-xs text-neutral-400">
-          {progress.challenge.difficulty}
+          {progress.status}
         </span>
       </div>
 
@@ -48,6 +51,8 @@ export default function ChallengeCard({
           {progress.percentage}% explored
         </p>
       </div>
-    </div>
+
+      <p className="mt-4 text-sm font-medium text-neutral-300">View Challenge</p>
+    </AtlasCard>
   );
 }
