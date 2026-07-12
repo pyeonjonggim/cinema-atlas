@@ -2,9 +2,10 @@ import GlobalNavigation from "@/components/navigation/GlobalNavigation";
 import PageContainer from "@/components/layout/PageContainer";
 import Section from "@/components/layout/Section";
 import UniversalHero from "@/components/layout/UniversalHero";
-import JourneyCard from "@/components/discovery/JourneyCard";
+import JourneyCard from "@/components/journey/JourneyCard";
 import ExploreEntryCard from "@/components/explore/ExploreEntryCard";
 import EntityContinueJourneyPattern from "@/components/patterns/EntityContinueJourneyPattern";
+import { officialJourneys } from "@/data/journeys";
 
 const startExploring = [
   {
@@ -42,53 +43,6 @@ const startExploring = [
       "Discover how festivals and institutions record the history of cinema.",
     meta: "Recognition",
     tone: "award" as const,
-  },
-];
-
-const featuredJourneys = [
-  {
-    href: "/encyclopedia/countries/japan",
-    category: "Journey Placeholder",
-    title: "Japanese Cinema",
-    subtitle:
-      "A future guided route through samurai films, family dramas, animation, and modern auteurs.",
-    difficulty: "Beginner",
-    stops: 6,
-    movieCount: 10,
-    viewingTime: "14h",
-  },
-  {
-    href: "/encyclopedia/movements/french-new-wave",
-    category: "Journey Placeholder",
-    title: "French New Wave",
-    subtitle:
-      "A future learning path through youth, politics, editing, and cinematic freedom.",
-    difficulty: "Intermediate",
-    stops: 5,
-    movieCount: 8,
-    viewingTime: "11h",
-  },
-  {
-    href: "/encyclopedia/movies",
-    category: "Journey Placeholder",
-    title: "World Cinema",
-    subtitle:
-      "A future route for moving across countries, eras, styles, and essential works.",
-    difficulty: "Beginner",
-    stops: 8,
-    movieCount: 12,
-    viewingTime: "18h",
-  },
-  {
-    href: "/encyclopedia/awards/academy-best-picture",
-    category: "Journey Placeholder",
-    title: "Oscar Winners",
-    subtitle:
-      "A future route through recognized films and the institutions that shaped their legacy.",
-    difficulty: "Beginner",
-    stops: 6,
-    movieCount: 9,
-    viewingTime: "13h",
   },
 ];
 
@@ -297,13 +251,13 @@ export default function ExplorePage() {
 
           <Section
             eyebrow="Featured Journeys"
-            title="Guided routes coming into focus"
-            description="These are placeholders for future Journey pages. For now, each card opens the closest Encyclopedia path."
+            title="Guided routes through cinema"
+            description="Journeys begin in Explore and open dedicated Journey Detail pages."
             className="p-4 md:p-5"
           >
             <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-              {featuredJourneys.map((journey) => (
-                <JourneyCard key={journey.title} {...journey} />
+              {officialJourneys.map((journey) => (
+                <JourneyCard key={journey.id} journey={journey} />
               ))}
             </div>
           </Section>

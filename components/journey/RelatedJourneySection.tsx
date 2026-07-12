@@ -20,8 +20,8 @@ export default function RelatedJourneySection({
       description="Related Journeys stay close to the current theme without repeating the same route."
       className="p-4 md:p-5"
     >
-      <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-        {journeys.map((journey) => (
+      <div className="grid gap-4 md:grid-cols-3">
+        {journeys.slice(0, 3).map((journey) => (
           <JourneyCard key={journey.id} journey={journey} />
         ))}
       </div>

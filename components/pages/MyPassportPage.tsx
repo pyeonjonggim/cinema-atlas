@@ -9,11 +9,14 @@ import AtlasButton from "@/components/ui/AtlasButton";
 import AtlasCard from "@/components/ui/AtlasCard";
 import EmptyState from "@/components/ui/EmptyState";
 import { buildPassportModel } from "@/lib/passport";
+import type { Country } from "@/data/countries";
+import type { JournalEntry } from "@/types/journal";
 import type { Journey } from "@/types/journey";
 import type { Movie } from "@/types/movie";
 import type {
   Achievement,
   Challenge,
+  Milestone,
   UserAchievement,
   UserChallenge,
 } from "@/types/passport";
@@ -26,7 +29,10 @@ type MyPassportPageProps = {
   userChallenges: UserChallenge[];
   achievements: Achievement[];
   userAchievements: UserAchievement[];
+  milestones: Milestone[];
+  journalEntries: JournalEntry[];
   journeys: Journey[];
+  countries: Country[];
 };
 
 export default function MyPassportPage({
@@ -36,7 +42,10 @@ export default function MyPassportPage({
   userChallenges,
   achievements,
   userAchievements,
+  milestones,
+  journalEntries,
   journeys,
+  countries,
 }: MyPassportPageProps) {
   const passport = buildPassportModel({
     movies,
@@ -45,7 +54,10 @@ export default function MyPassportPage({
     userChallenges,
     achievements,
     userAchievements,
+    milestones,
+    journalEntries,
     journeys,
+    countries,
   });
   const primaryChallenge = passport.activeChallenges[0];
 
@@ -106,26 +118,43 @@ export default function MyPassportPage({
           </Section>
 
           <Section
-            title="Explorer Map"
-            description="A future map of cinematic worlds explored through Passport."
+            title="Milestones"
+            description="Long-term growth markers across your Passport."
+            action={<AtlasButton href="/passport/milestones" variant="secondary">View All Milestones</AtlasButton>}
             className="p-4 md:p-5"
           >
-            <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
-              {[
-                ["Japan", "68%"],
-                ["France", "34%"],
-                ["Iran", "12%"],
-                ["Brazil", "0%"],
-              ].map(([label, value]) => (
-                <AtlasCard key={label} className="p-4">
-                  <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-neutral-500">
-                    World Exploration
-                  </p>
-                  <h3 className="mt-2 text-lg font-semibold text-white">{label}</h3>
-                  <p className="mt-3 text-sm text-neutral-400">{value}</p>
-                </AtlasCard>
-              ))}
-            </div>
+            {passport.milestoneProgress.length > 0 ? (
+              <div className="grid gap-3 md:grid-cols-3">
+                {passport.milestoneProgress.slice(0, 3).map((progress) => (
+                  <AtlasCard key={progress.milestone.id} href="/passport/milestones" className="p-4">
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-neutral-500">
+                      {progress.completed ? "Completed" : "In Progress"}
+                    </p>
+                    <h3 className="mt-2 text-lg font-semibold text-white">
+                      {progress.milestone.title}
+                    </h3>
+                    <div className="mt-4 flex items-center justify-between text-sm text-neutral-400">
+                      <span>{progress.milestone.unit}</span>
+                      <span>
+                        {progress.current} / {progress.target}
+                      </span>
+                    </div>
+                    <div className="mt-2 h-2 overflow-hidden rounded-full bg-white/10">
+                      <div
+                        className="h-full rounded-full bg-white/40"
+                        style={{ width: `${progress.percentage}%` }}
+                      />
+                    </div>
+                  </AtlasCard>
+                ))}
+              </div>
+            ) : (
+              <EmptyState
+                preset="passport"
+                title="No milestones yet."
+                description="Milestones will appear as long-term Passport growth markers."
+              />
+            )}
           </Section>
 
           <Section
@@ -172,6 +201,78 @@ export default function MyPassportPage({
                 </AtlasCard>
               ))}
             </div>
+          </Section>
+
+          <Section
+            title="Explorer Map"
+            description="Known catalog progress by country, built from completed films."
+            action={<AtlasButton href="/passport/map" variant="secondary">Explore the Map</AtlasButton>}
+            className="p-4 md:p-5"
+          >
+            {passport.explorerCountries.some((country) => country.watchedCount > 0) ? (
+              <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
+                {passport.explorerCountries
+                  .filter((country) => country.watchedCount > 0)
+                  .slice(0, 4)
+                  .map((country) => (
+                    <AtlasCard
+                      key={country.countryId}
+                      href={`/encyclopedia/countries/${country.countryId}`}
+                      className="p-4"
+                    >
+                      <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-neutral-500">
+                        {country.status}
+                      </p>
+                      <h3 className="mt-2 text-lg font-semibold text-white">
+                        {country.countryName}
+                      </h3>
+                      <p className="mt-3 text-sm text-neutral-400">
+                        {country.watchedCount} films · {country.directorCount} directors
+                      </p>
+                      <p className="mt-1 text-xs text-neutral-500">
+                        {country.progressPercent}% Cinema Atlas catalog progress
+                      </p>
+                    </AtlasCard>
+                  ))}
+              </div>
+            ) : (
+              <EmptyState
+                preset="passport"
+                title="No countries explored yet."
+                description="Start with a country, film, or guided journey."
+                actionLabel="Explore Countries"
+                actionHref="/encyclopedia/countries"
+              />
+            )}
+          </Section>
+
+          <Section
+            title="Recent Passport History"
+            description="Passport History records exploration events, not every watched movie."
+            action={<AtlasButton href="/passport/history" variant="secondary">View Full History</AtlasButton>}
+            className="p-4 md:p-5"
+          >
+            {passport.passportHistory.length > 0 ? (
+              <div className="grid gap-3 md:grid-cols-3">
+                {passport.passportHistory.slice(0, 3).map((event) => (
+                  <AtlasCard key={event.id} href={event.href} className="p-4">
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-neutral-500">
+                      {event.type.replaceAll("_", " ")}
+                    </p>
+                    <h3 className="mt-2 text-base font-semibold text-white">
+                      {event.title}
+                    </h3>
+                    <p className="mt-2 text-sm text-neutral-500">{event.date}</p>
+                  </AtlasCard>
+                ))}
+              </div>
+            ) : (
+              <EmptyState
+                preset="passport"
+                title="No Passport history yet."
+                description="Challenge, Achievement, and Milestone events will appear here."
+              />
+            )}
           </Section>
 
           <Section
