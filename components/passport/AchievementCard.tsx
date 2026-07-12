@@ -1,4 +1,5 @@
 import type { AchievementProgress } from "@/lib/passport";
+import AtlasCard from "@/components/ui/AtlasCard";
 
 type AchievementCardProps = {
   achievement: AchievementProgress;
@@ -12,8 +13,9 @@ export default function AchievementCard({
   const { unlocked, unlockedAt } = achievement;
 
   return (
-    <div
-      className={`rounded-2xl border border-white/10 bg-black/20 p-4 ${
+    <AtlasCard
+      href={`/passport/achievements/${achievement.achievement.id}`}
+      className={`rounded-2xl bg-black/20 p-4 ${
         unlocked ? "" : "opacity-60"
       }`}
     >
@@ -40,6 +42,16 @@ export default function AchievementCard({
       {unlockedAt && (
         <p className="mt-3 text-xs text-neutral-500">Unlocked {unlockedAt}</p>
       )}
-    </div>
+
+      {!unlocked && achievement.missingRequirements[0] && (
+        <p className="mt-3 text-xs text-neutral-500">
+          Need: {achievement.missingRequirements[0]}
+        </p>
+      )}
+
+      <p className="mt-4 text-sm font-medium text-neutral-300">
+        View Achievement
+      </p>
+    </AtlasCard>
   );
 }
