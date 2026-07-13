@@ -1,3 +1,9 @@
+import type {
+  ExternalIds,
+  MovieEditorialMetadata,
+  MovieExternalMetadata,
+} from "@/types/catalog";
+
 export type MovieDifficulty = "beginner" | "intermediate" | "advanced";
 
 export type MovieCastMember = {
@@ -17,16 +23,21 @@ export type MovieAwardMention = {
 export type Movie = {
   id: string;
   slug?: string;
+  externalIds?: ExternalIds;
 
   title: string;
   originalTitle: string;
   year: number;
+  releaseDate?: string;
+  externalMetadata?: MovieExternalMetadata;
+  editorial?: MovieEditorialMetadata;
 
   countryIds?: string[];
   directorIds?: string[];
   actorIds?: string[];
   movementIds?: string[];
   awardIds?: string[];
+  productionCompanyIds?: string[];
 
   /** @deprecated Use countryIds for relationships and country only for display fallback. */
   country: string;
@@ -84,6 +95,13 @@ export type Movie = {
   historicalContext?: string[];
   relatedMovieIds?: string[];
   recommendedMovieIds?: string[];
+
+  /** Current compatibility display image. Prefer posterPath/posterUrl for imports. */
   poster: string;
+  posterPath?: string;
+  posterUrl?: string;
+  /** Current compatibility backdrop image. Prefer backdropPath/backdropUrl for imports. */
   backdrop?: string;
+  backdropPath?: string;
+  backdropUrl?: string;
 };
