@@ -1,0 +1,960 @@
+[
+  {
+    "id": "mov_d9f4b3d10da5",
+    "legacyDraftId": "imdb-tt6751668",
+    "externalIds": {
+      "tmdbId": 496243,
+      "imdbId": "tt6751668",
+      "wikidataId": "Q61448040"
+    },
+    "title": "Parasite",
+    "originalTitle": "기생충",
+    "releaseDate": "2019-05-30",
+    "year": 2019,
+    "runtime": 133,
+    "externalMetadata": {
+      "title": "Parasite",
+      "originalTitle": "기생충",
+      "releaseDate": "2019-05-30",
+      "runtime": 133,
+      "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+      "poster": {
+        "path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+        "alt": "Parasite",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "backdrop": {
+        "path": "/wCuUKiRaz0wEESsYqmQy005xvTE.jpg",
+        "alt": "Parasite",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "productionCountryIds": [
+        "kr"
+      ],
+      "productionCompanyIds": [
+        "4399"
+      ],
+      "spokenLanguageIds": [
+        "en",
+        "de",
+        "ko"
+      ],
+      "genreIds": [
+        "35",
+        "53",
+        "18"
+      ],
+      "creditIds": [
+        "2187821",
+        "2187912",
+        "1305523",
+        "2320121",
+        "21684",
+        "21684",
+        "21684",
+        "20738",
+        "115290",
+        "556435",
+        "1255881",
+        "1442583",
+        "1572354",
+        "2158882",
+        "1694435",
+        "1418762",
+        "2306987",
+        "1709230",
+        "2326809",
+        "2478772",
+        "2326615",
+        "2478781",
+        "2159392",
+        "2379047",
+        "2499966",
+        "1419705",
+        "2538209"
+      ],
+      "externalRating": 8.492,
+      "popularity": 28.2785,
+      "source": "tmdb",
+      "fetchedAt": "2026-07-13T10:03:00.059Z"
+    },
+    "approval": {
+      "state": "APPROVED",
+      "reason": "Pipeline PASS; content quality 100.",
+      "approvedAt": "2026-07-13T10:35:44.508Z",
+      "approvedBy": "catalog-persistence-pilot"
+    },
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "496243",
+        "importedAt": "2026-07-13T10:35:44.508Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ],
+    "createdAt": "2026-07-13T10:35:44.508Z",
+    "updatedAt": "2026-07-13T10:35:44.508Z"
+  },
+  {
+    "id": "mov_65bbbefc3e7c",
+    "legacyDraftId": "imdb-tt0047478",
+    "externalIds": {
+      "tmdbId": 346,
+      "imdbId": "tt0047478",
+      "wikidataId": "Q189540"
+    },
+    "title": "Seven Samurai",
+    "originalTitle": "七人の侍",
+    "releaseDate": "1954-04-26",
+    "year": 1954,
+    "runtime": 207,
+    "externalMetadata": {
+      "title": "Seven Samurai",
+      "originalTitle": "七人の侍",
+      "releaseDate": "1954-04-26",
+      "runtime": 207,
+      "overview": "A samurai answers a village's request for protection after he falls on hard times. The town needs protection from bandits, so the samurai gathers six others to help him teach the people how to defend themselves, and the villagers provide the soldiers with food.",
+      "poster": {
+        "path": "/lOMGc8bnSwQhS4XyE1S99uH8NXf.jpg",
+        "alt": "Seven Samurai",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "backdrop": {
+        "path": "/qvZ91FwMq6O47VViAr8vZNQz3WI.jpg",
+        "alt": "Seven Samurai",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "productionCountryIds": [
+        "jp"
+      ],
+      "productionCompanyIds": [
+        "882"
+      ],
+      "spokenLanguageIds": [
+        "ja"
+      ],
+      "genreIds": [
+        "28",
+        "18"
+      ],
+      "creditIds": [
+        "20827",
+        "7449",
+        "5026",
+        "20832",
+        "5026",
+        "7450",
+        "7453",
+        "20828",
+        "20829",
+        "7454",
+        "7457",
+        "20830",
+        "20831",
+        "554250",
+        "96552",
+        "134272",
+        "34377",
+        "17540",
+        "108028",
+        "106165",
+        "228547",
+        "134294",
+        "134406",
+        "134020",
+        "7455"
+      ],
+      "externalRating": 8.448,
+      "popularity": 10.851,
+      "source": "tmdb",
+      "fetchedAt": "2026-07-13T10:03:00.051Z"
+    },
+    "approval": {
+      "state": "APPROVED",
+      "reason": "Pipeline PASS; content quality 100.",
+      "approvedAt": "2026-07-13T10:35:44.516Z",
+      "approvedBy": "catalog-persistence-pilot"
+    },
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "346",
+        "importedAt": "2026-07-13T10:35:44.516Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ],
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "mov_83a831e9a75d",
+    "legacyDraftId": "imdb-tt0245429",
+    "externalIds": {
+      "tmdbId": 129,
+      "imdbId": "tt0245429",
+      "wikidataId": "Q155653"
+    },
+    "title": "Spirited Away",
+    "originalTitle": "千と千尋の神隠し",
+    "releaseDate": "2001-07-20",
+    "year": 2001,
+    "runtime": 125,
+    "externalMetadata": {
+      "title": "Spirited Away",
+      "originalTitle": "千と千尋の神隠し",
+      "releaseDate": "2001-07-20",
+      "runtime": 125,
+      "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
+      "poster": {
+        "path": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+        "alt": "Spirited Away",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "backdrop": {
+        "path": "/dyJvKsNs2KP8qQnAXbRwDjblViy.jpg",
+        "alt": "Spirited Away",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "productionCountryIds": [
+        "jp"
+      ],
+      "productionCompanyIds": [
+        "10342",
+        "1779",
+        "6755",
+        "11847",
+        "1778",
+        "1780"
+      ],
+      "spokenLanguageIds": [
+        "ja"
+      ],
+      "genreIds": [
+        "16",
+        "10751",
+        "14"
+      ],
+      "creditIds": [
+        "1417",
+        "608",
+        "608",
+        "19587",
+        "19588",
+        "19589",
+        "19590",
+        "19591",
+        "19592",
+        "225730",
+        "19594",
+        "40450",
+        "554423",
+        "20334",
+        "544088",
+        "119243",
+        "1530058",
+        "1243817",
+        "1608518",
+        "2844828",
+        "554612",
+        "2856717",
+        "554367"
+      ],
+      "externalRating": 8.535,
+      "popularity": 36.5499,
+      "source": "tmdb",
+      "fetchedAt": "2026-07-13T10:03:00.064Z"
+    },
+    "approval": {
+      "state": "APPROVED",
+      "reason": "Pipeline PASS; content quality 100.",
+      "approvedAt": "2026-07-13T10:35:44.517Z",
+      "approvedBy": "catalog-persistence-pilot"
+    },
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "129",
+        "importedAt": "2026-07-13T10:35:44.517Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ],
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "mov_9e1f399788c8",
+    "legacyDraftId": "imdb-tt0364569",
+    "externalIds": {
+      "tmdbId": 670,
+      "imdbId": "tt0364569",
+      "wikidataId": "Q475693"
+    },
+    "title": "Oldboy",
+    "originalTitle": "올드보이",
+    "releaseDate": "2003-11-21",
+    "year": 2003,
+    "runtime": 120,
+    "externalMetadata": {
+      "title": "Oldboy",
+      "originalTitle": "올드보이",
+      "releaseDate": "2003-11-21",
+      "runtime": 120,
+      "overview": "With no clue how he came to be imprisoned, drugged and tortured for 15 years, a desperate man seeks revenge on his captors.",
+      "poster": {
+        "path": "/pWDtjs568ZfOTMbURQBYuT4Qxka.jpg",
+        "alt": "Oldboy",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "backdrop": {
+        "path": "/sdwjQEM869JFwMytTmvr6ggvaUl.jpg",
+        "alt": "Oldboy",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "productionCountryIds": [
+        "kr"
+      ],
+      "productionCompanyIds": [
+        "399",
+        "118802",
+        "685"
+      ],
+      "spokenLanguageIds": [
+        "ko"
+      ],
+      "genreIds": [
+        "53",
+        "9648"
+      ],
+      "creditIds": [
+        "10103",
+        "10102",
+        "10099",
+        "10105",
+        "10099",
+        "64880",
+        "10112",
+        "1299317",
+        "77182",
+        "77180",
+        "77188",
+        "554330",
+        "117504",
+        "77183",
+        "587675",
+        "1291042",
+        "2621220",
+        "496937",
+        "1903902",
+        "1293633",
+        "1294536",
+        "3624448",
+        "4663548",
+        "4663549",
+        "10105"
+      ],
+      "externalRating": 8.235,
+      "popularity": 12.7395,
+      "source": "tmdb",
+      "fetchedAt": "2026-07-13T10:03:00.364Z"
+    },
+    "approval": {
+      "state": "APPROVED",
+      "reason": "Pipeline PASS; content quality 100.",
+      "approvedAt": "2026-07-13T10:35:44.517Z",
+      "approvedBy": "catalog-persistence-pilot"
+    },
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "670",
+        "importedAt": "2026-07-13T10:35:44.517Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ],
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "mov_509b954f6361",
+    "legacyDraftId": "imdb-tt0068646",
+    "externalIds": {
+      "tmdbId": 238,
+      "imdbId": "tt0068646",
+      "wikidataId": "Q47703"
+    },
+    "title": "The Godfather",
+    "originalTitle": "The Godfather",
+    "releaseDate": "1972-03-14",
+    "year": 1972,
+    "runtime": 175,
+    "externalMetadata": {
+      "title": "The Godfather",
+      "originalTitle": "The Godfather",
+      "releaseDate": "1972-03-14",
+      "runtime": 175,
+      "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+      "poster": {
+        "path": "/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+        "alt": "The Godfather",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "backdrop": {
+        "path": "/tSPT36ZKlP2WVHJLM4cQPLSzv3b.jpg",
+        "alt": "The Godfather",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "productionCountryIds": [
+        "us"
+      ],
+      "productionCompanyIds": [
+        "4",
+        "10211",
+        "16311"
+      ],
+      "spokenLanguageIds": [
+        "en",
+        "it",
+        "la"
+      ],
+      "genreIds": [
+        "18",
+        "80"
+      ],
+      "creditIds": [
+        "3083",
+        "1776",
+        "457",
+        "1776",
+        "12288",
+        "1776",
+        "3084",
+        "1158",
+        "3085",
+        "3087",
+        "3086",
+        "3092",
+        "3094",
+        "3095",
+        "3088",
+        "3142",
+        "3090",
+        "3091",
+        "3093",
+        "3096",
+        "3143",
+        "3144",
+        "933716",
+        "106811",
+        "99724",
+        "1195877"
+      ],
+      "externalRating": 8.687,
+      "popularity": 38.3895,
+      "source": "tmdb",
+      "fetchedAt": "2026-07-13T10:03:00.366Z"
+    },
+    "approval": {
+      "state": "APPROVED",
+      "reason": "Pipeline PASS; content quality 100.",
+      "approvedAt": "2026-07-13T10:35:44.518Z",
+      "approvedBy": "catalog-persistence-pilot"
+    },
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "238",
+        "importedAt": "2026-07-13T10:35:44.518Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ],
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "mov_ff7ab0beb239",
+    "legacyDraftId": "imdb-tt0110912",
+    "externalIds": {
+      "tmdbId": 680,
+      "imdbId": "tt0110912",
+      "wikidataId": "Q104123"
+    },
+    "title": "Pulp Fiction",
+    "originalTitle": "Pulp Fiction",
+    "releaseDate": "1994-09-10",
+    "year": 1994,
+    "runtime": 154,
+    "externalMetadata": {
+      "title": "Pulp Fiction",
+      "originalTitle": "Pulp Fiction",
+      "releaseDate": "1994-09-10",
+      "runtime": 154,
+      "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+      "poster": {
+        "path": "/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+        "alt": "Pulp Fiction",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "backdrop": {
+        "path": "/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+        "alt": "Pulp Fiction",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "productionCountryIds": [
+        "us"
+      ],
+      "productionCompanyIds": [
+        "14",
+        "59",
+        "216"
+      ],
+      "spokenLanguageIds": [
+        "en",
+        "es",
+        "fr"
+      ],
+      "genreIds": [
+        "53",
+        "80",
+        "35"
+      ],
+      "creditIds": [
+        "2545",
+        "138",
+        "138",
+        "8891",
+        "2231",
+        "139",
+        "62",
+        "10182",
+        "1037",
+        "7036",
+        "3129",
+        "99",
+        "2319",
+        "138",
+        "4690",
+        "2165",
+        "11803",
+        "11804",
+        "71836",
+        "31549",
+        "884",
+        "33399",
+        "11807"
+      ],
+      "externalRating": 8.481,
+      "popularity": 37.1431,
+      "source": "tmdb",
+      "fetchedAt": "2026-07-13T10:03:00.417Z"
+    },
+    "approval": {
+      "state": "APPROVED",
+      "reason": "Pipeline PASS; content quality 100.",
+      "approvedAt": "2026-07-13T10:35:44.518Z",
+      "approvedBy": "catalog-persistence-pilot"
+    },
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "680",
+        "importedAt": "2026-07-13T10:35:44.518Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ],
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "mov_850dbd0ed779",
+    "legacyDraftId": "imdb-tt0118694",
+    "externalIds": {
+      "tmdbId": 843,
+      "imdbId": "tt0118694",
+      "wikidataId": "Q1056853"
+    },
+    "title": "In the Mood for Love",
+    "originalTitle": "花樣年華",
+    "releaseDate": "2000-09-29",
+    "year": 2000,
+    "runtime": 99,
+    "externalMetadata": {
+      "title": "In the Mood for Love",
+      "originalTitle": "花樣年華",
+      "releaseDate": "2000-09-29",
+      "runtime": 99,
+      "overview": "In 1960s Hong Kong, two neighbors form an intimate bond after making a discovery about their spouses in this visually stunning tale of unrequited love.",
+      "poster": {
+        "path": "/iYypPT4bhqXfq1b6EnmxvRt6b2Y.jpg",
+        "alt": "In the Mood for Love",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "backdrop": {
+        "path": "/ffQFnAUm2Uu4RU0nijpjPRf9TBT.jpg",
+        "alt": "In the Mood for Love",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "productionCountryIds": [
+        "hk",
+        "fr"
+      ],
+      "productionCompanyIds": [
+        "539",
+        "255",
+        "540"
+      ],
+      "spokenLanguageIds": [
+        "cn",
+        "fr",
+        "es"
+      ],
+      "genreIds": [
+        "18",
+        "10749"
+      ],
+      "creditIds": [
+        "12453",
+        "12453",
+        "12453",
+        "1338",
+        "1337",
+        "12674",
+        "12462",
+        "12463",
+        "1002925",
+        "12464",
+        "12465",
+        "12467",
+        "12470",
+        "12466",
+        "25237",
+        "25238"
+      ],
+      "externalRating": 8.087,
+      "popularity": 11.0621,
+      "source": "tmdb",
+      "fetchedAt": "2026-07-13T10:03:00.668Z"
+    },
+    "approval": {
+      "state": "APPROVED",
+      "reason": "Pipeline PASS; content quality 100.",
+      "approvedAt": "2026-07-13T10:35:44.519Z",
+      "approvedBy": "catalog-persistence-pilot"
+    },
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "843",
+        "importedAt": "2026-07-13T10:35:44.519Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ],
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "mov_e7d7fa7398b4",
+    "legacyDraftId": "imdb-tt6155172",
+    "externalIds": {
+      "tmdbId": 426426,
+      "imdbId": "tt6155172",
+      "wikidataId": "Q27959455"
+    },
+    "title": "Roma",
+    "originalTitle": "Roma",
+    "releaseDate": "2018-11-21",
+    "year": 2018,
+    "runtime": 135,
+    "externalMetadata": {
+      "title": "Roma",
+      "originalTitle": "Roma",
+      "releaseDate": "2018-11-21",
+      "runtime": 135,
+      "overview": "In 1970s Mexico City, two domestic workers help a mother of four while her husband is away for an extended period of time.",
+      "poster": {
+        "path": "/dtIIyQyALk57ko5bjac7hi01YQ.jpg",
+        "alt": "Roma",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "backdrop": {
+        "path": "/zl9uqCl5iUSb50sTk2BPzw6bJnU.jpg",
+        "alt": "Roma",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "productionCountryIds": [
+        "gb",
+        "us"
+      ],
+      "productionCompanyIds": [
+        "6735",
+        "112612"
+      ],
+      "spokenLanguageIds": [
+        "es",
+        "en"
+      ],
+      "genreIds": [
+        "18"
+      ],
+      "creditIds": [
+        "11218",
+        "11218",
+        "1473396",
+        "11218",
+        "873486",
+        "1775557",
+        "78883",
+        "2108826",
+        "2108855",
+        "1775556",
+        "1775558",
+        "2108829",
+        "1920669",
+        "2108835",
+        "2108836",
+        "2108839",
+        "2108833",
+        "2104810",
+        "2108843",
+        "2108844",
+        "2108846",
+        "1701986",
+        "589123",
+        "2108848",
+        "2108849"
+      ],
+      "externalRating": 7.618,
+      "popularity": 2.3569,
+      "source": "tmdb",
+      "fetchedAt": "2026-07-13T10:03:00.667Z"
+    },
+    "approval": {
+      "state": "APPROVED",
+      "reason": "Pipeline PASS; content quality 100.",
+      "approvedAt": "2026-07-13T10:35:44.519Z",
+      "approvedBy": "catalog-persistence-pilot"
+    },
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "426426",
+        "importedAt": "2026-07-13T10:35:44.519Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ],
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "mov_e5c888c7cc51",
+    "legacyDraftId": "imdb-tt0317248",
+    "externalIds": {
+      "tmdbId": 598,
+      "imdbId": "tt0317248",
+      "wikidataId": "Q220741"
+    },
+    "title": "City of God",
+    "originalTitle": "Cidade de Deus",
+    "releaseDate": "2002-08-30",
+    "year": 2002,
+    "runtime": 129,
+    "externalMetadata": {
+      "title": "City of God",
+      "originalTitle": "Cidade de Deus",
+      "releaseDate": "2002-08-30",
+      "runtime": 129,
+      "overview": "In the poverty-stricken favelas of Rio de Janeiro in the 1970s, two young men choose different paths. Rocket is a budding photographer who documents the increasing drug-related violence of his neighborhood, while José “Zé” Pequeno is an ambitious drug dealer diving into a dangerous life of crime.",
+      "poster": {
+        "path": "/k7eYdWvhYQyRQoU2TB2A2Xu2TfD.jpg",
+        "alt": "City of God",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "backdrop": {
+        "path": "/uvitbjFU4JqvMwIkMWHp69bmUzG.jpg",
+        "alt": "City of God",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "productionCountryIds": [
+        "br",
+        "fr",
+        "de"
+      ],
+      "productionCompanyIds": [
+        "345",
+        "346",
+        "856",
+        "11445",
+        "13969",
+        "274216"
+      ],
+      "spokenLanguageIds": [
+        "pt"
+      ],
+      "genreIds": [
+        "18",
+        "80"
+      ],
+      "creditIds": [
+        "8561",
+        "8571",
+        "8572",
+        "8562",
+        "8568",
+        "8566",
+        "8570",
+        "8569",
+        "8563",
+        "8574",
+        "8557",
+        "8595",
+        "8596",
+        "8597",
+        "8598",
+        "8599",
+        "8600",
+        "5659",
+        "8601",
+        "8602",
+        "3883645",
+        "3582522",
+        "1032387",
+        "8603",
+        "8604",
+        "2483242",
+        "2700766",
+        "8605",
+        "2596718",
+        "50362",
+        "3610390"
+      ],
+      "externalRating": 8.429,
+      "popularity": 11.7871,
+      "source": "tmdb",
+      "fetchedAt": "2026-07-13T10:03:00.734Z"
+    },
+    "approval": {
+      "state": "APPROVED",
+      "reason": "Pipeline PASS; content quality 100.",
+      "approvedAt": "2026-07-13T10:35:44.520Z",
+      "approvedBy": "catalog-persistence-pilot"
+    },
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "598",
+        "importedAt": "2026-07-13T10:35:44.520Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ],
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "mov_6604c0455984",
+    "legacyDraftId": "imdb-tt0050976",
+    "externalIds": {
+      "tmdbId": 490,
+      "imdbId": "tt0050976",
+      "wikidataId": "Q217189"
+    },
+    "title": "The Seventh Seal",
+    "originalTitle": "Det sjunde inseglet",
+    "releaseDate": "1957-02-16",
+    "year": 1957,
+    "runtime": 96,
+    "externalMetadata": {
+      "title": "The Seventh Seal",
+      "originalTitle": "Det sjunde inseglet",
+      "releaseDate": "1957-02-16",
+      "runtime": 96,
+      "overview": "When disillusioned Swedish knight Antonius Block returns home from the Crusades to find his country in the grips of the Black Death, he challenges Death to a chess match for his life. Tormented by the belief that God does not exist, Block sets off on a journey, meeting up with traveling players Jof and his wife, Mia, and becoming determined to evade Death long enough to commit one redemptive act while he still lives.",
+      "poster": {
+        "path": "/wcZ21zrOsy0b52AfAF50XpTiv75.jpg",
+        "alt": "The Seventh Seal",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "backdrop": {
+        "path": "/6s2BqtDvp1BMiP70zCDU5OW6hMy.jpg",
+        "alt": "The Seventh Seal",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "productionCountryIds": [
+        "se"
+      ],
+      "productionCompanyIds": [
+        "6181"
+      ],
+      "spokenLanguageIds": [
+        "sv"
+      ],
+      "genreIds": [
+        "14",
+        "18"
+      ],
+      "creditIds": [
+        "6650",
+        "6648",
+        "6648",
+        "6649",
+        "6656",
+        "6658",
+        "2201",
+        "6657",
+        "6659",
+        "6660",
+        "6661",
+        "6662",
+        "6663",
+        "6664",
+        "6665",
+        "6666",
+        "6667",
+        "231921",
+        "550014",
+        "321845",
+        "58305",
+        "1194870",
+        "131579"
+      ],
+      "externalRating": 8.148,
+      "popularity": 6.7079,
+      "source": "tmdb",
+      "fetchedAt": "2026-07-13T10:03:00.960Z"
+    },
+    "approval": {
+      "state": "APPROVED",
+      "reason": "Pipeline PASS; content quality 100.",
+      "approvedAt": "2026-07-13T10:35:44.520Z",
+      "approvedBy": "catalog-persistence-pilot"
+    },
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "490",
+        "importedAt": "2026-07-13T10:35:44.520Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ],
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  }
+]

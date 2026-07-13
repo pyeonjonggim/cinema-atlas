@@ -1,0 +1,53 @@
+[
+  {
+    "titleKey": "oldboy",
+    "classification": "REMAKE",
+    "reason": "same normalized title across multiple expected years",
+    "candidates": [
+      {
+        "title": "Oldboy",
+        "year": 2003,
+        "providerMovieId": "670"
+      },
+      {
+        "title": "Oldboy",
+        "year": 2013,
+        "providerMovieId": "87516"
+      }
+    ]
+  },
+  {
+    "titleKey": "suspiria",
+    "classification": "REMAKE",
+    "reason": "same normalized title across multiple expected years",
+    "candidates": [
+      {
+        "title": "Suspiria",
+        "year": 1977,
+        "providerMovieId": "11906"
+      },
+      {
+        "title": "Suspiria",
+        "year": 2018,
+        "providerMovieId": "361292"
+      }
+    ]
+  },
+  {
+    "titleKey": "a star is born",
+    "classification": "REMAKE",
+    "reason": "same normalized title across multiple expected years",
+    "candidates": [
+      {
+        "title": "A Star Is Born",
+        "year": 1937,
+        "providerMovieId": "22692"
+      },
+      {
+        "title": "A Star Is Born",
+        "year": 2018,
+        "providerMovieId": "332562"
+      }
+    ]
+  }
+]

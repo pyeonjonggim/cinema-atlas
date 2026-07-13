@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "validate:data": "node scripts/validate-data.mjs",
-    "pilot:tmdb": "node scripts/pilot-tmdb-provider.mjs"
+    "pilot:tmdb": "node scripts/pilot-tmdb-provider.mjs",
+    "ingest:pilot100": "node scripts/ingest-tmdb-pilot-100.mjs",
+    "persist:catalog-pilot": "node scripts/persist-catalog-pilot.mjs"
   },
   "dependencies": {
     "next": "16.2.10",

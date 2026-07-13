@@ -1,0 +1,4993 @@
+{
+  "people": [
+    {
+      "id": "person_ffbbcff10243",
+      "name": "Jang Young-hwan",
+      "externalIds": {
+        "tmdbId": 2187821
+      },
+      "roles": [
+        "producer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_13be33a50786",
+      "name": "Kwak Sin-ae",
+      "externalIds": {
+        "tmdbId": 2187912
+      },
+      "roles": [
+        "producer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_9d435aa13bde",
+      "name": "Moon Yang-kwon",
+      "externalIds": {
+        "tmdbId": 1305523
+      },
+      "roles": [
+        "producer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_7453c8c06a56",
+      "name": "Han Jin-won",
+      "externalIds": {
+        "tmdbId": 2320121
+      },
+      "roles": [
+        "writer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_f66b8cac8ba8",
+      "name": "Bong Joon Ho",
+      "externalIds": {
+        "tmdbId": 21684
+      },
+      "roles": [
+        "director",
+        "producer",
+        "writer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_756b19374757",
+      "name": "Song Kang-ho",
+      "externalIds": {
+        "tmdbId": 20738
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_078c0dd5d5bb",
+      "name": "Lee Sun-kyun",
+      "externalIds": {
+        "tmdbId": 115290
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_9e31390c72fe",
+      "name": "Cho Yeo-jeong",
+      "externalIds": {
+        "tmdbId": 556435
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_1283fff1f0b7",
+      "name": "Choi Woo-shik",
+      "externalIds": {
+        "tmdbId": 1255881
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_a54aa19bbea8",
+      "name": "Park So-dam",
+      "externalIds": {
+        "tmdbId": 1442583
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_71e79219d216",
+      "name": "Lee Jung-eun",
+      "externalIds": {
+        "tmdbId": 1572354
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_4f224aca775f",
+      "name": "Jang Hye-jin",
+      "externalIds": {
+        "tmdbId": 2158882
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_3283942c540d",
+      "name": "Park Myung-hoon",
+      "externalIds": {
+        "tmdbId": 1694435
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_5f86c7ad1b6f",
+      "name": "Jung Zi-so",
+      "externalIds": {
+        "tmdbId": 1418762
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_2fca98e1d2f2",
+      "name": "Jung Hyeon-jun",
+      "externalIds": {
+        "tmdbId": 2306987
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_03f7b9a21f66",
+      "name": "Park Keun-rok",
+      "externalIds": {
+        "tmdbId": 1709230
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_35301c5694f6",
+      "name": "Jung Yi-seo",
+      "externalIds": {
+        "tmdbId": 2326809
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_979a31fa5e34",
+      "name": "Cho Jae-myung",
+      "externalIds": {
+        "tmdbId": 2478772
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_4b9760512b0f",
+      "name": "Jeong Ik-han",
+      "externalIds": {
+        "tmdbId": 2326615
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_d24db8857cab",
+      "name": "Kim Kyu-baek",
+      "externalIds": {
+        "tmdbId": 2478781
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_74fc691566cf",
+      "name": "Lee Dong-yong",
+      "externalIds": {
+        "tmdbId": 2159392
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_d98103c16e9a",
+      "name": "Ahn Seong-bong",
+      "externalIds": {
+        "tmdbId": 2379047
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_5e1fe02846b9",
+      "name": "Yoon Young-woo",
+      "externalIds": {
+        "tmdbId": 2499966
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_e16e11c8ae2b",
+      "name": "Park Jae-wook",
+      "externalIds": {
+        "tmdbId": 1419705
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_8060f3fa71dc",
+      "name": "Jeon Eun-mi",
+      "externalIds": {
+        "tmdbId": 2538209
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_130dbef395a8",
+      "name": "Hideo Oguni",
+      "externalIds": {
+        "tmdbId": 20827
+      },
+      "roles": [
+        "writer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_cc8d575f44ca",
+      "name": "Shinobu Hashimoto",
+      "externalIds": {
+        "tmdbId": 7449
+      },
+      "roles": [
+        "writer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_124e0f9ab5f6",
+      "name": "Akira Kurosawa",
+      "externalIds": {
+        "tmdbId": 5026
+      },
+      "roles": [
+        "director",
+        "writer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_84f6cc8b7c04",
+      "name": "Sōjirō Motoki",
+      "externalIds": {
+        "tmdbId": 20832
+      },
+      "roles": [
+        "producer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_498f654332ae",
+      "name": "Toshirō Mifune",
+      "externalIds": {
+        "tmdbId": 7450
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_df27a697e90c",
+      "name": "Takashi Shimura",
+      "externalIds": {
+        "tmdbId": 7453
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_76327aea1506",
+      "name": "Yoshio Inaba",
+      "externalIds": {
+        "tmdbId": 20828
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_5a8c21f3d17c",
+      "name": "Seiji Miyaguchi",
+      "externalIds": {
+        "tmdbId": 20829
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_d436809aa701",
+      "name": "Minoru Chiaki",
+      "externalIds": {
+        "tmdbId": 7454
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_cc86e147d489",
+      "name": "Daisuke Katō",
+      "externalIds": {
+        "tmdbId": 7457
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_40998ac2de05",
+      "name": "Isao Kimura",
+      "externalIds": {
+        "tmdbId": 20830
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_d7eb983f1aef",
+      "name": "Keiko Tsushima",
+      "externalIds": {
+        "tmdbId": 20831
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_fa1ed33bcce2",
+      "name": "Yukiko Shimazaki",
+      "externalIds": {
+        "tmdbId": 554250
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_e9485d507948",
+      "name": "Kamatari Fujiwara",
+      "externalIds": {
+        "tmdbId": 96552
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_341652305129",
+      "name": "Yoshio Kosugi",
+      "externalIds": {
+        "tmdbId": 134272
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_c9799d8bcf77",
+      "name": "Bokuzen Hidari",
+      "externalIds": {
+        "tmdbId": 34377
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_706ea4e7829c",
+      "name": "Yoshio Tsuchiya",
+      "externalIds": {
+        "tmdbId": 17540
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_ac630ecdfc41",
+      "name": "Kokuten Kōdō",
+      "externalIds": {
+        "tmdbId": 108028
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_2aee86d92657",
+      "name": "Eijirō Tōno",
+      "externalIds": {
+        "tmdbId": 106165
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_767df747ee48",
+      "name": "Jun Tatara",
+      "externalIds": {
+        "tmdbId": 228547
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_708636ee1b0a",
+      "name": "Atsushi Watanabe",
+      "externalIds": {
+        "tmdbId": 134294
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_706c1666fa44",
+      "name": "Toranosuke Ogawa",
+      "externalIds": {
+        "tmdbId": 134406
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_faa457f55a2e",
+      "name": "Isao Yamagata",
+      "externalIds": {
+        "tmdbId": 134020
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_46956ea70ff3",
+      "name": "Kichijirō Ueda",
+      "externalIds": {
+        "tmdbId": 7455
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_6adb922fa7a3",
+      "name": "Toshio Suzuki",
+      "externalIds": {
+        "tmdbId": 1417
+      },
+      "roles": [
+        "producer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_72ab8108eff0",
+      "name": "Hayao Miyazaki",
+      "externalIds": {
+        "tmdbId": 608
+      },
+      "roles": [
+        "director",
+        "writer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_90fd94b50843",
+      "name": "Rumi Hiiragi",
+      "externalIds": {
+        "tmdbId": 19587
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_52e9cbaf1788",
+      "name": "Miyu Irino",
+      "externalIds": {
+        "tmdbId": 19588
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_0c5c393c666e",
+      "name": "Mari Natsuki",
+      "externalIds": {
+        "tmdbId": 19589
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_ed497fb8e650",
+      "name": "Takashi Naito",
+      "externalIds": {
+        "tmdbId": 19590
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_892225860262",
+      "name": "Yasuko Sawaguchi",
+      "externalIds": {
+        "tmdbId": 19591
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_91310634e9fc",
+      "name": "Tatsuya Gashuin",
+      "externalIds": {
+        "tmdbId": 19592
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_dcef8baa9e12",
+      "name": "Ryunosuke Kamiki",
+      "externalIds": {
+        "tmdbId": 225730
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_cd13e8a1214c",
+      "name": "Yumi Tamai",
+      "externalIds": {
+        "tmdbId": 19594
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_8fa77eef8af4",
+      "name": "Yo Oizumi",
+      "externalIds": {
+        "tmdbId": 40450
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_877eca249e22",
+      "name": "Koba Hayashi",
+      "externalIds": {
+        "tmdbId": 554423
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_cacdcffbe5e8",
+      "name": "Tsunehiko Kamijô",
+      "externalIds": {
+        "tmdbId": 20334
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_361939a57792",
+      "name": "Takehiko Ono",
+      "externalIds": {
+        "tmdbId": 544088
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_6765da1b5993",
+      "name": "Bunta Sugawara",
+      "externalIds": {
+        "tmdbId": 119243
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_200323cef7ad",
+      "name": "Shigeru Wakita",
+      "externalIds": {
+        "tmdbId": 1530058
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_8daf116e5493",
+      "name": "Shirou Saitou",
+      "externalIds": {
+        "tmdbId": 1243817
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_4e06e69a45c7",
+      "name": "Michiko Yamamoto",
+      "externalIds": {
+        "tmdbId": 1608518
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_22eab7a65aba",
+      "name": "Keiko Tsukamoto",
+      "externalIds": {
+        "tmdbId": 2844828
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_e01f80c2d319",
+      "name": "Akio Nakamura",
+      "externalIds": {
+        "tmdbId": 554612
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_d22eee7bf926",
+      "name": "Shinji Tokumaru",
+      "externalIds": {
+        "tmdbId": 2856717
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_32f4b0c8a04e",
+      "name": "Kaori Yamagata",
+      "externalIds": {
+        "tmdbId": 554367
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_a5f41964420a",
+      "name": "Lim Joon-hyung",
+      "externalIds": {
+        "tmdbId": 10103
+      },
+      "roles": [
+        "writer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_049b27def86b",
+      "name": "Hwang Jo-yoon",
+      "externalIds": {
+        "tmdbId": 10102
+      },
+      "roles": [
+        "writer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_b43de47ea321",
+      "name": "Park Chan-wook",
+      "externalIds": {
+        "tmdbId": 10099
+      },
+      "roles": [
+        "writer",
+        "director"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_d496a3fc2ce8",
+      "name": "Syd Lim",
+      "externalIds": {
+        "tmdbId": 10105
+      },
+      "roles": [
+        "producer",
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_e6b314daf575",
+      "name": "Choi Min-sik",
+      "externalIds": {
+        "tmdbId": 64880
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_ac3d010b841a",
+      "name": "Yoo Ji-tae",
+      "externalIds": {
+        "tmdbId": 10112
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_2158e26712ad",
+      "name": "Kang Hye-jung",
+      "externalIds": {
+        "tmdbId": 1299317
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_3c3438c148b6",
+      "name": "Kim Byeong-ok",
+      "externalIds": {
+        "tmdbId": 77182
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_95b578f74a05",
+      "name": "Ji Dae-han",
+      "externalIds": {
+        "tmdbId": 77180
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_9cd843331ab6",
+      "name": "Oh Dal-su",
+      "externalIds": {
+        "tmdbId": 77188
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_3599da459237",
+      "name": "Lee Seung-shin",
+      "externalIds": {
+        "tmdbId": 554330
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_0d1f53a1aeb1",
+      "name": "Yoon Jin-seo",
+      "externalIds": {
+        "tmdbId": 117504
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_1fa21c805b12",
+      "name": "Oh Tae-kyung",
+      "externalIds": {
+        "tmdbId": 77183
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_0ea8d1229aee",
+      "name": "Yoo Yeon-seok",
+      "externalIds": {
+        "tmdbId": 587675
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_c0acdfd791b1",
+      "name": "You Il-han",
+      "externalIds": {
+        "tmdbId": 1291042
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_030fd0b78e38",
+      "name": "Lee Young-hee",
+      "externalIds": {
+        "tmdbId": 2621220
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_1f549ee495c6",
+      "name": "Kim Young-ae",
+      "externalIds": {
+        "tmdbId": 496937
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_97d375fc99af",
+      "name": "Lee Mi-mi",
+      "externalIds": {
+        "tmdbId": 1903902
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_2d289978f126",
+      "name": "Han Jae-duk",
+      "externalIds": {
+        "tmdbId": 1293633
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_9b2d16c1d7ca",
+      "name": "Kwak Jung-ae",
+      "externalIds": {
+        "tmdbId": 1294536
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_6f21c47c2f70",
+      "name": "Kim San",
+      "externalIds": {
+        "tmdbId": 3624448
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_3ee7f766d2d2",
+      "name": "Jang Chae-soo",
+      "externalIds": {
+        "tmdbId": 4663548
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_ec44246ec68e",
+      "name": "Im Seol-a",
+      "externalIds": {
+        "tmdbId": 4663549
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_279473ac9b83",
+      "name": "Mario Puzo",
+      "externalIds": {
+        "tmdbId": 3083
+      },
+      "roles": [
+        "writer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_427f3043fb1e",
+      "name": "Francis Ford Coppola",
+      "externalIds": {
+        "tmdbId": 1776
+      },
+      "roles": [
+        "writer",
+        "producer",
+        "director"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_d36550fc4422",
+      "name": "Albert S. Ruddy",
+      "externalIds": {
+        "tmdbId": 457
+      },
+      "roles": [
+        "producer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_c0435714639f",
+      "name": "Robert Evans",
+      "externalIds": {
+        "tmdbId": 12288
+      },
+      "roles": [
+        "producer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_e01fba240c0e",
+      "name": "Marlon Brando",
+      "externalIds": {
+        "tmdbId": 3084
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_9bd7909ea32c",
+      "name": "Al Pacino",
+      "externalIds": {
+        "tmdbId": 1158
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_0b571ee8edc4",
+      "name": "James Caan",
+      "externalIds": {
+        "tmdbId": 3085
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_242245f592a8",
+      "name": "Robert Duvall",
+      "externalIds": {
+        "tmdbId": 3087
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_25088706d12f",
+      "name": "Richard S. Castellano",
+      "externalIds": {
+        "tmdbId": 3086
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_38db21cd8ce8",
+      "name": "Diane Keaton",
+      "externalIds": {
+        "tmdbId": 3092
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_dfb373962db0",
+      "name": "Talia Shire",
+      "externalIds": {
+        "tmdbId": 3094
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_c4dd090f4bc0",
+      "name": "Gianni Russo",
+      "externalIds": {
+        "tmdbId": 3095
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_d690707b10fd",
+      "name": "Sterling Hayden",
+      "externalIds": {
+        "tmdbId": 3088
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_f03ae99938d6",
+      "name": "John Marley",
+      "externalIds": {
+        "tmdbId": 3142
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_1adf3ff6e7cb",
+      "name": "Richard Conte",
+      "externalIds": {
+        "tmdbId": 3090
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_9d4f34a2f02d",
+      "name": "Al Lettieri",
+      "externalIds": {
+        "tmdbId": 3091
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_0caf0004e960",
+      "name": "Abe Vigoda",
+      "externalIds": {
+        "tmdbId": 3093
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_e8222aa035e9",
+      "name": "John Cazale",
+      "externalIds": {
+        "tmdbId": 3096
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_af00ef31bb91",
+      "name": "Rudy Bond",
+      "externalIds": {
+        "tmdbId": 3143
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_a488aa5caffc",
+      "name": "Al Martino",
+      "externalIds": {
+        "tmdbId": 3144
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_8bece57a2c27",
+      "name": "Morgana King",
+      "externalIds": {
+        "tmdbId": 933716
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_b1de62b38edb",
+      "name": "Lenny Montana",
+      "externalIds": {
+        "tmdbId": 106811
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_1eebff260535",
+      "name": "John Martino",
+      "externalIds": {
+        "tmdbId": 99724
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_05204965b265",
+      "name": "Salvatore Corsitto",
+      "externalIds": {
+        "tmdbId": 1195877
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_af36ddc45cba",
+      "name": "Lawrence Bender",
+      "externalIds": {
+        "tmdbId": 2545
+      },
+      "roles": [
+        "producer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_56ad4d4deaec",
+      "name": "Quentin Tarantino",
+      "externalIds": {
+        "tmdbId": 138
+      },
+      "roles": [
+        "director",
+        "writer",
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_df094e855213",
+      "name": "John Travolta",
+      "externalIds": {
+        "tmdbId": 8891
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_07cef16b46a7",
+      "name": "Samuel L. Jackson",
+      "externalIds": {
+        "tmdbId": 2231
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_fa755791d050",
+      "name": "Uma Thurman",
+      "externalIds": {
+        "tmdbId": 139
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_511a418e7259",
+      "name": "Bruce Willis",
+      "externalIds": {
+        "tmdbId": 62
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_976190a0952c",
+      "name": "Ving Rhames",
+      "externalIds": {
+        "tmdbId": 10182
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_8fe39caeac3a",
+      "name": "Harvey Keitel",
+      "externalIds": {
+        "tmdbId": 1037
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_fe9ffcd78c2e",
+      "name": "Eric Stoltz",
+      "externalIds": {
+        "tmdbId": 7036
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_9f5709d0ddad",
+      "name": "Tim Roth",
+      "externalIds": {
+        "tmdbId": 3129
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_9a79be611e02",
+      "name": "Amanda Plummer",
+      "externalIds": {
+        "tmdbId": 99
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_b72c09eae1de",
+      "name": "Maria de Medeiros",
+      "externalIds": {
+        "tmdbId": 2319
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_740c18cc04b9",
+      "name": "Christopher Walken",
+      "externalIds": {
+        "tmdbId": 4690
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_ae46f54463e4",
+      "name": "Rosanna Arquette",
+      "externalIds": {
+        "tmdbId": 2165
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_e73487707dc5",
+      "name": "Peter Greene",
+      "externalIds": {
+        "tmdbId": 11803
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_c9db045496fa",
+      "name": "Duane Whitaker",
+      "externalIds": {
+        "tmdbId": 11804
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_f650bef5536c",
+      "name": "Angela Jones",
+      "externalIds": {
+        "tmdbId": 71836
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_23c2f12f5b36",
+      "name": "Phil LaMarr",
+      "externalIds": {
+        "tmdbId": 31549
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_8cc981aa1ecd",
+      "name": "Steve Buscemi",
+      "externalIds": {
+        "tmdbId": 884
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_daf53b3dc152",
+      "name": "Bronagh Gallagher",
+      "externalIds": {
+        "tmdbId": 33399
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_5e328fde0a85",
+      "name": "Laura Lovelace",
+      "externalIds": {
+        "tmdbId": 11807
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_68115b1eda13",
+      "name": "Wong Kar-Wai",
+      "externalIds": {
+        "tmdbId": 12453
+      },
+      "roles": [
+        "producer",
+        "director",
+        "writer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "843",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_f881b44b0c8b",
+      "name": "Maggie Cheung",
+      "externalIds": {
+        "tmdbId": 1338
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "843",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_77ba9cd915c8",
+      "name": "Tony Leung Chiu-wai",
+      "externalIds": {
+        "tmdbId": 1337
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "843",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_2986d21dedbf",
+      "name": "Siu Ping-Lam",
+      "externalIds": {
+        "tmdbId": 12674
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "843",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_33d164bfa810",
+      "name": "Rebecca Pan",
+      "externalIds": {
+        "tmdbId": 12462
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "843",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_374e14374139",
+      "name": "Kelly Lai Chen",
+      "externalIds": {
+        "tmdbId": 12463
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "843",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_92135da5f20c",
+      "name": "Joe Cheung Tung-Cho",
+      "externalIds": {
+        "tmdbId": 1002925
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "843",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_13e2ad0c34fc",
+      "name": "Chan Man-Lei",
+      "externalIds": {
+        "tmdbId": 12464
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "843",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_7b410b9d7cf0",
+      "name": "Koo Kam-Wah",
+      "externalIds": {
+        "tmdbId": 12465
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "843",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_e7aa0c820279",
+      "name": "Mama Hung",
+      "externalIds": {
+        "tmdbId": 12467
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "843",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_3b0a7a8b8d8f",
+      "name": "Paulyn Sun",
+      "externalIds": {
+        "tmdbId": 12470
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "843",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_620fcd816bf6",
+      "name": "Roy Cheung Yiu-Yeung",
+      "externalIds": {
+        "tmdbId": 12466
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "843",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_862ae8933095",
+      "name": "Julien Carbon",
+      "externalIds": {
+        "tmdbId": 25237
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "843",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_4ff0014f882e",
+      "name": "Laurent Courtiaud",
+      "externalIds": {
+        "tmdbId": 25238
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "843",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_2024be526b48",
+      "name": "Alfonso Cuarón",
+      "externalIds": {
+        "tmdbId": 11218
+      },
+      "roles": [
+        "writer",
+        "director",
+        "producer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_387c428064b0",
+      "name": "Gabriela Rodríguez",
+      "externalIds": {
+        "tmdbId": 1473396
+      },
+      "roles": [
+        "producer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_993522997bbd",
+      "name": "Nicolás Celis",
+      "externalIds": {
+        "tmdbId": 873486
+      },
+      "roles": [
+        "producer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_2d3e96a31ee4",
+      "name": "Yalitza Aparicio",
+      "externalIds": {
+        "tmdbId": 1775557
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_7992f1d0b0cb",
+      "name": "Marina de Tavira",
+      "externalIds": {
+        "tmdbId": 78883
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_bff0655723a4",
+      "name": "Diego Cortina Autrey",
+      "externalIds": {
+        "tmdbId": 2108826
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_37326bc2e83b",
+      "name": "Carlos Peralta",
+      "externalIds": {
+        "tmdbId": 2108855
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_2131b2beffbf",
+      "name": "Marco Graf",
+      "externalIds": {
+        "tmdbId": 1775556
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_e28c709fc259",
+      "name": "Daniela Demesa",
+      "externalIds": {
+        "tmdbId": 1775558
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_057397000014",
+      "name": "Nancy García García",
+      "externalIds": {
+        "tmdbId": 2108829
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_cb39b2f41710",
+      "name": "Verónica García",
+      "externalIds": {
+        "tmdbId": 1920669
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_e10f1440e333",
+      "name": "Fernando Grediaga",
+      "externalIds": {
+        "tmdbId": 2108835
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_911d2d4f3adb",
+      "name": "Jorge Antonio Guerrero",
+      "externalIds": {
+        "tmdbId": 2108836
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_fc0d872252e5",
+      "name": "José Manuel Guerrero Mendoza",
+      "externalIds": {
+        "tmdbId": 2108839
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_18bc71f9e676",
+      "name": "Andy Cortés",
+      "externalIds": {
+        "tmdbId": 2108833
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_c10856a31afe",
+      "name": "Victor Manuel Resendiz Ruiz",
+      "externalIds": {
+        "tmdbId": 2104810
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_b80070ffba3c",
+      "name": "Zarela Lizbeth Chinolla Arellano",
+      "externalIds": {
+        "tmdbId": 2108843
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_480ffeabdb8c",
+      "name": "José Luis López Gómez",
+      "externalIds": {
+        "tmdbId": 2108844
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_2f4e95c5921e",
+      "name": "Edwin Mendoza Ramírez",
+      "externalIds": {
+        "tmdbId": 2108846
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_13e4f647ca8d",
+      "name": "Clementina Guadarrama",
+      "externalIds": {
+        "tmdbId": 1701986
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_7e687a57d3a4",
+      "name": "Enoc Leaño",
+      "externalIds": {
+        "tmdbId": 589123
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_09670253ba59",
+      "name": "Nicolás Peréz Taylor Félix",
+      "externalIds": {
+        "tmdbId": 2108848
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_ac026e222916",
+      "name": "Kjartan Halvorsen",
+      "externalIds": {
+        "tmdbId": 2108849
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_1b026fe0075f",
+      "name": "Bráulio Mantovani",
+      "externalIds": {
+        "tmdbId": 8561
+      },
+      "roles": [
+        "writer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_67fc48517324",
+      "name": "Donald Ranvaud",
+      "externalIds": {
+        "tmdbId": 8571
+      },
+      "roles": [
+        "producer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_dbca356161b1",
+      "name": "Juliette Renaud",
+      "externalIds": {
+        "tmdbId": 8572
+      },
+      "roles": [
+        "producer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_6f909132e8e5",
+      "name": "Andrea Barata Ribeiro",
+      "externalIds": {
+        "tmdbId": 8562
+      },
+      "roles": [
+        "producer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_50e68542dc4b",
+      "name": "Daniel Filho",
+      "externalIds": {
+        "tmdbId": 8568
+      },
+      "roles": [
+        "producer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_ed225e595714",
+      "name": "Marc Beauchamps",
+      "externalIds": {
+        "tmdbId": 8566
+      },
+      "roles": [
+        "producer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_28d5c63ea89f",
+      "name": "Vincent Maraval",
+      "externalIds": {
+        "tmdbId": 8570
+      },
+      "roles": [
+        "producer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_2515be38ee14",
+      "name": "Hank Levine",
+      "externalIds": {
+        "tmdbId": 8569
+      },
+      "roles": [
+        "producer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_6895cf2b99c1",
+      "name": "Mauricio Andrade Ramos",
+      "externalIds": {
+        "tmdbId": 8563
+      },
+      "roles": [
+        "producer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_88134759aa60",
+      "name": "Walter Salles",
+      "externalIds": {
+        "tmdbId": 8574
+      },
+      "roles": [
+        "producer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_ad8a1349bf68",
+      "name": "Fernando Meirelles",
+      "externalIds": {
+        "tmdbId": 8557
+      },
+      "roles": [
+        "director"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_c56493f6be93",
+      "name": "Alexandre Rodrigues",
+      "externalIds": {
+        "tmdbId": 8595
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_6990fcbb5ee9",
+      "name": "Leandro Firmino",
+      "externalIds": {
+        "tmdbId": 8596
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_3d848f02fa72",
+      "name": "Phellipe Haagensen",
+      "externalIds": {
+        "tmdbId": 8597
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_a8c8cf5a8a6e",
+      "name": "Douglas Silva",
+      "externalIds": {
+        "tmdbId": 8598
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_e809d72ac1f0",
+      "name": "Jonathan Haagensen",
+      "externalIds": {
+        "tmdbId": 8599
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_d31e3de1072f",
+      "name": "Matheus Nachtergaele",
+      "externalIds": {
+        "tmdbId": 8600
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_2b5bb5439297",
+      "name": "Seu Jorge",
+      "externalIds": {
+        "tmdbId": 5659
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_4fd9fd7c1120",
+      "name": "Jefechander Suplino",
+      "externalIds": {
+        "tmdbId": 8601
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_2fc5bf1f52d8",
+      "name": "Alice Braga",
+      "externalIds": {
+        "tmdbId": 8602
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_886efed3ff7c",
+      "name": "Emerson Gomes",
+      "externalIds": {
+        "tmdbId": 3883645
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_a5b2b5b00ab1",
+      "name": "Edson Oliveira",
+      "externalIds": {
+        "tmdbId": 3582522
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_151ed884e6f0",
+      "name": "Michel Gomes",
+      "externalIds": {
+        "tmdbId": 1032387
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_c1c2c559bd28",
+      "name": "Roberta Rodrigues",
+      "externalIds": {
+        "tmdbId": 8603
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_46571adb08c7",
+      "name": "Luis Otávio",
+      "externalIds": {
+        "tmdbId": 8604
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_b372431e43ba",
+      "name": "Kiko Marques",
+      "externalIds": {
+        "tmdbId": 2483242
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_e69261018f07",
+      "name": "Gustavo Engracia",
+      "externalIds": {
+        "tmdbId": 2700766
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_10e94eb3389c",
+      "name": "Darlan Cunha",
+      "externalIds": {
+        "tmdbId": 8605
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_3c17ffe8211c",
+      "name": "Robson Rocha",
+      "externalIds": {
+        "tmdbId": 2596718
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_dc3413d00d8c",
+      "name": "Thiago Martins",
+      "externalIds": {
+        "tmdbId": 50362
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_7af30e07e005",
+      "name": "Leandra Miranda",
+      "externalIds": {
+        "tmdbId": 3610390
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_a887046fa31c",
+      "name": "Allan Ekelund",
+      "externalIds": {
+        "tmdbId": 6650
+      },
+      "roles": [
+        "producer"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_957c5022a604",
+      "name": "Ingmar Bergman",
+      "externalIds": {
+        "tmdbId": 6648
+      },
+      "roles": [
+        "writer",
+        "director"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_c3dc56b86352",
+      "name": "Gunnar Björnstrand",
+      "externalIds": {
+        "tmdbId": 6649
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_cfbcae00c5dc",
+      "name": "Bengt Ekerot",
+      "externalIds": {
+        "tmdbId": 6656
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_91bbf44e4a90",
+      "name": "Nils Poppe",
+      "externalIds": {
+        "tmdbId": 6658
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_58ccaf222dc6",
+      "name": "Max von Sydow",
+      "externalIds": {
+        "tmdbId": 2201
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_69506241ce6b",
+      "name": "Bibi Andersson",
+      "externalIds": {
+        "tmdbId": 6657
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_c6c2a269501d",
+      "name": "Inga Gill",
+      "externalIds": {
+        "tmdbId": 6659
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_cc8842bb44be",
+      "name": "Maud Hansson",
+      "externalIds": {
+        "tmdbId": 6660
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_6c6a79802d68",
+      "name": "Inga Landgré",
+      "externalIds": {
+        "tmdbId": 6661
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_0c68f757afac",
+      "name": "Gunnel Lindblom",
+      "externalIds": {
+        "tmdbId": 6662
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_ac50665c1c22",
+      "name": "Bertil Anderberg",
+      "externalIds": {
+        "tmdbId": 6663
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_3fac0cfa7b01",
+      "name": "Anders Ek",
+      "externalIds": {
+        "tmdbId": 6664
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_3c3e7837a263",
+      "name": "Åke Fridell",
+      "externalIds": {
+        "tmdbId": 6665
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_4c1b52409cf6",
+      "name": "Gunnar Olsson",
+      "externalIds": {
+        "tmdbId": 6666
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_76f2078abcdd",
+      "name": "Erik Strandmark",
+      "externalIds": {
+        "tmdbId": 6667
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_c4951f8db7d8",
+      "name": "Lars Lind",
+      "externalIds": {
+        "tmdbId": 231921
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_52e45989e23f",
+      "name": "Benkt-Åke Benktsson",
+      "externalIds": {
+        "tmdbId": 550014
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_42b8c615cd90",
+      "name": "Tor Borong",
+      "externalIds": {
+        "tmdbId": 321845
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_64e3735ccd90",
+      "name": "Gudrun Brost",
+      "externalIds": {
+        "tmdbId": 58305
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_9a81f7188c1d",
+      "name": "Harry Asklund",
+      "externalIds": {
+        "tmdbId": 1194870
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "person_c812bbcfb5a0",
+      "name": "Ulf Johansson",
+      "externalIds": {
+        "tmdbId": 131579
+      },
+      "roles": [
+        "actor"
+      ],
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    {
+      "id": "kr",
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "jp",
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "us",
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "hk",
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "843",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "fr",
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "gb",
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "br",
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "de",
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "se",
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    }
+  ],
+  "genres": [
+    {
+      "id": "genre_972a67c48192",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbGenreId": "35"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "genre_c5b76da3e608",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbGenreId": "53"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "genre_9e6a55b6b456",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbGenreId": "18"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "genre_0a57cb53ba59",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbGenreId": "28"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "genre_1574bddb75c7",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbGenreId": "16"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "genre_3c178b5aae7b",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbGenreId": "10751"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "genre_fa35e192121e",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbGenreId": "14"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "genre_e066f0fd9b80",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbGenreId": "9648"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "genre_b888b29826bb",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbGenreId": "80"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "genre_f5c53019ae35",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbGenreId": "10749"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "843",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "id": "en",
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "de",
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "ko",
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "ja",
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "it",
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "la",
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "es",
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "fr",
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "843",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "cn",
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "843",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "pt",
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "sv",
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    }
+  ],
+  "companies": [
+    {
+      "id": "company_c6b2f07c09af",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "4399"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "496243",
+          "importedAt": "2026-07-13T10:35:44.508Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_042ccdc6d60f",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "882"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "346",
+          "importedAt": "2026-07-13T10:35:44.516Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_88293670c817",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "10342"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_ba0c3a93a68c",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "1779"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_6dd8450939ff",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "6755"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_87d18bc83456",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "11847"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_68c09af3acbb",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "1778"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_3807ac7d8002",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "1780"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "129",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_9ed4f29f8b68",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "399"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_113ca1e4ef66",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "118802"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_27cfac714811",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "685"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "670",
+          "importedAt": "2026-07-13T10:35:44.517Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_1b6453892473",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "4"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_dc080a2ab786",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "10211"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_5adfb5fc7d23",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "16311"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "238",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_fa35e192121e",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "14"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_5a5b0f9b7d3f",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "59"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_0bad865a02d8",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "216"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "680",
+          "importedAt": "2026-07-13T10:35:44.518Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_3cc5149977a9",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "539"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "843",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_3028f51407d8",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "255"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "843",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_a8a2b30f8dba",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "540"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "843",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_ad20fb46a7d6",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "6735"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_97698295bca1",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "112612"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "426426",
+          "importedAt": "2026-07-13T10:35:44.519Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_35139ef894b2",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "345"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_41f448afc826",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "346"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_efe76debc08f",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "856"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_e9ee2a950103",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "11445"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_578215440f2d",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "13969"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_807739678b21",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "274216"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "598",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    },
+    {
+      "id": "company_ad06a45073fc",
+      "externalIds": {
+        "sourceIds": {
+          "tmdbCompanyId": "6181"
+        }
+      },
+      "provenance": [
+        {
+          "provider": "tmdb",
+          "providerRecordId": "490",
+          "importedAt": "2026-07-13T10:35:44.520Z",
+          "pipelineVersion": "catalog-persistence-v1"
+        }
+      ]
+    }
+  ]
+}
