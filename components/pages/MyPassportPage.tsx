@@ -70,7 +70,7 @@ export default function MyPassportPage({
           <UniversalHero
             eyebrow="Passport"
             title="Cinema Atlas Passport"
-            description="Explore. Learn. Master. Passport is the exploration system of Cinema Atlas, connecting challenges, achievements, journeys, and future maps."
+            description="Explore, learn, and remember where cinema has taken you. Passport connects challenges, achievements, journeys, and future maps."
           />
 
           <Section
@@ -111,8 +111,8 @@ export default function MyPassportPage({
             ) : (
               <EmptyState
                 preset="passport"
-                title="No achievement unlocked yet."
-                description="Complete a challenge and your first badge will appear here."
+                title="No achievement recorded yet."
+                description="Complete a challenge and your first exploration record will appear here."
               />
             )}
           </Section>
@@ -227,7 +227,7 @@ export default function MyPassportPage({
                         {country.countryName}
                       </h3>
                       <p className="mt-3 text-sm text-neutral-400">
-                        {country.watchedCount} films · {country.directorCount} directors
+                        {country.watchedCount} films / {country.directorCount} directors
                       </p>
                       <p className="mt-1 text-xs text-neutral-500">
                         {country.progressPercent}% Cinema Atlas catalog progress
@@ -277,7 +277,7 @@ export default function MyPassportPage({
 
           <Section
             title="Challenge Library"
-            description="All challenges remain open. Nothing is locked."
+            description="All available goals remain visible. Choose the next exploration target when you are ready."
             className="p-4 md:p-5"
           >
             <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
@@ -293,7 +293,7 @@ export default function MyPassportPage({
 
           <Section
             title="Achievement Gallery"
-            description="Unlocked achievements show dates. Locked achievements show the journey still waiting."
+            description="Recorded achievements show dates. Future achievements show the journey still waiting."
             className="p-4 md:p-5"
           >
             <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">

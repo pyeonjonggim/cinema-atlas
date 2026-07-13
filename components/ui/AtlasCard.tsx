@@ -12,7 +12,7 @@ export default function AtlasCard({
   href,
   className = "",
 }: AtlasCardProps) {
-  const cardClassName = `rounded-3xl border border-white/10 bg-white/[0.03] p-6 transition hover:border-white/20 hover:bg-white/[0.06] ${className}`;
+  const cardClassName = `rounded-[var(--atlas-radius-card)] border border-[var(--atlas-border)] bg-[var(--atlas-surface)] p-6 transition duration-200 hover:-translate-y-0.5 hover:border-[var(--atlas-border-strong)] hover:bg-[var(--atlas-surface-strong)] hover:shadow-xl hover:shadow-black/20 ${className}`;
 
   if (href) {
     return (

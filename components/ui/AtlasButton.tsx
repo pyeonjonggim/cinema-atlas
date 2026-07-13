@@ -17,13 +17,14 @@ export default function AtlasButton({
   disabled = false,
 }: AtlasButtonProps) {
   const baseClass =
-    "inline-flex items-center justify-center rounded-full px-5 py-2 text-sm font-semibold transition";
+    "inline-flex items-center justify-center rounded-[var(--atlas-radius-control)] px-5 py-2 text-sm font-semibold transition duration-200";
 
   const variantClass = {
-    primary: "border border-white/10 bg-white/10 text-white hover:bg-white/15",
+    primary:
+      "border border-[var(--atlas-border)] bg-[var(--atlas-accent)] text-[var(--atlas-text-on-image)] hover:bg-[var(--atlas-accent-hover)]",
     secondary:
-      "border border-white/10 text-neutral-300 hover:bg-white/10 hover:text-white",
-    ghost: "text-neutral-400 hover:text-white",
+      "border border-[var(--atlas-border)] text-[var(--atlas-text-muted)] hover:bg-[var(--atlas-surface-strong)] hover:text-[var(--atlas-text)]",
+    ghost: "text-[var(--atlas-text-subtle)] hover:text-[var(--atlas-text)]",
   };
 
   const disabledClass = disabled

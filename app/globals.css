@@ -1,8 +1,33 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --atlas-bg: #090807;
+  --atlas-bg-elevated: #0f0e0c;
+  --atlas-surface: rgba(255, 255, 255, 0.035);
+  --atlas-surface-strong: rgba(255, 255, 255, 0.07);
+  --atlas-text: #f4f1ea;
+  --atlas-text-muted: #c8c2b8;
+  --atlas-text-subtle: #8f887c;
+  --atlas-text-on-image: #fffaf0;
+  --atlas-border: rgba(255, 255, 255, 0.1);
+  --atlas-border-strong: rgba(255, 255, 255, 0.2);
+  --atlas-accent: #1f7a68;
+  --atlas-accent-hover: #2c9a82;
+  --atlas-accent-soft: rgba(31, 122, 104, 0.18);
+  --atlas-success: #3f9f7f;
+  --atlas-warning: #c89b3c;
+  --atlas-danger: #d66a5f;
+  --atlas-overlay-soft: rgba(0, 0, 0, 0.42);
+  --atlas-overlay-strong: rgba(0, 0, 0, 0.72);
+  --atlas-radius-control: 999px;
+  --atlas-radius-card: 1.25rem;
+  --atlas-radius-feature: 1.5rem;
+  --atlas-radius-hero: 2rem;
+  --atlas-page-gutter: 1.5rem;
+  --atlas-section-gap: 1.5rem;
+  --atlas-card-gap: 0.75rem;
+  --background: var(--atlas-bg);
+  --foreground: var(--atlas-text);
 }
 
 @theme inline {
@@ -14,8 +39,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: var(--atlas-bg);
+    --foreground: var(--atlas-text);
   }
 }
 
@@ -23,4 +48,15 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
 }

@@ -29,7 +29,7 @@ export default function ChallengeEvidenceList({
                 <div>
                   <h4 className="font-semibold text-white">{movie.title}</h4>
                   <p className="mt-1 text-sm text-neutral-500">
-                    {movie.year} · {movie.country}
+                    {movie.year} / {movie.country}
                   </p>
                 </div>
               </div>

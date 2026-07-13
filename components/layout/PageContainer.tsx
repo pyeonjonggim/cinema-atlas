@@ -16,7 +16,7 @@ export default function PageContainer({
   };
 
   return (
-    <main className="min-h-screen bg-neutral-950 px-6 py-10 text-neutral-100">
+    <main className="min-h-screen bg-[var(--atlas-bg)] px-6 py-10 text-[var(--atlas-text)]">
       <div className={`mx-auto w-full ${width[size]}`}>
         {children}
       </div>

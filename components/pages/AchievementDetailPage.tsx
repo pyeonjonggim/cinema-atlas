@@ -32,10 +32,10 @@ export default function AchievementDetailPage({
             description={record.description}
             stats={
               <div className="flex flex-wrap gap-2">
-                <HeroPill label={achievement.unlocked ? "Unlocked" : "Locked"} />
+                <HeroPill label={achievement.unlocked ? "Recorded" : "Not Yet"} />
                 <HeroPill label={formatCategory(record.category)} />
                 {achievement.unlockedAt && (
-                  <HeroPill label={`Unlocked ${achievement.unlockedAt}`} />
+                  <HeroPill label={`Recorded ${achievement.unlockedAt}`} />
                 )}
               </div>
             }
@@ -54,10 +54,10 @@ export default function AchievementDetailPage({
           </Section>
 
           <Section
-            title={achievement.unlocked ? "Unlocked Evidence" : "Missing Progress"}
+            title={achievement.unlocked ? "Recorded Evidence" : "Missing Progress"}
             description={
               achievement.unlocked
-                ? "The records that unlocked this Achievement."
+                ? "The records that made this Achievement part of your Passport history."
                 : "The remaining steps before this Achievement becomes part of your Passport history."
             }
             className="p-4 md:p-5"
