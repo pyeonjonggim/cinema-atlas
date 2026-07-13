@@ -119,8 +119,8 @@ export default function MyAtlasDashboardPage({
             }
             note={
               passport.latestAchievements[0]?.unlockedAt
-                ? `Unlocked ${passport.latestAchievements[0].unlockedAt}`
-                : "Complete a challenge to unlock one."
+                ? `Recorded ${passport.latestAchievements[0].unlockedAt}`
+                : "Complete a challenge to record one."
             }
           />
           <PassportPreviewCard

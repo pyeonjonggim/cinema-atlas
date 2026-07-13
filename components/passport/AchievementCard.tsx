@@ -29,7 +29,7 @@ export default function AchievementCard({
           </h3>
         </div>
         <span className="rounded-full border border-white/10 px-2 py-1 text-xs text-neutral-400">
-          {unlocked ? "Unlocked" : "Locked"}
+          {unlocked ? "Recorded" : "Not Yet"}
         </span>
       </div>
 
@@ -40,7 +40,7 @@ export default function AchievementCard({
       )}
 
       {unlockedAt && (
-        <p className="mt-3 text-xs text-neutral-500">Unlocked {unlockedAt}</p>
+        <p className="mt-3 text-xs text-neutral-500">Recorded {unlockedAt}</p>
       )}
 
       {!unlocked && achievement.missingRequirements[0] && (

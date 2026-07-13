@@ -67,13 +67,13 @@ export default function ChallengeDetailPage({
             description="Progress is shown through evidence, not only a number."
             className="p-4 md:p-5"
           >
-            <div className="flex items-center justify-between gap-4">
+            <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
               <div>
                 <p className="text-3xl font-semibold text-white">
                   {progress.current} / {progress.target}
                 </p>
                 <p className="mt-1 text-sm text-neutral-500">
-                  {progress.percentage}% explored
+                  {progress.percentage}% recorded
                 </p>
               </div>
               <div className="h-2 w-full max-w-md overflow-hidden rounded-full bg-white/10">
@@ -86,20 +86,20 @@ export default function ChallengeDetailPage({
           </Section>
 
           <Section
-            title="Completed Evidence"
+            title="Progress Evidence"
             description="The films that currently count toward this Passport challenge."
             className="p-4 md:p-5"
           >
             <div className="space-y-6">
               <ChallengeEvidenceList
                 title="Completed"
-                marker="✓"
+                marker="Done"
                 movies={progress.completedEvidence}
                 emptyText="No completed films are attached to this challenge yet."
               />
               <ChallengeEvidenceList
                 title="Remaining"
-                marker="○"
+                marker="Open"
                 movies={progress.remainingEvidence}
                 emptyText="No direct remaining movie is available in the sample data yet. Use the related Encyclopedia context below."
               />

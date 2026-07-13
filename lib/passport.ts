@@ -536,7 +536,7 @@ function buildPassportHistory({
         id: `achievement-unlocked-${achievement.achievement.id}`,
         type: "achievement_unlocked",
         date: achievement.unlockedAt as string,
-        title: `Unlocked ${achievement.achievement.title}`,
+        title: `Recorded ${achievement.achievement.title}`,
         description: achievement.achievement.description,
         achievementId: achievement.achievement.id,
         href: `/passport/achievements/${achievement.achievement.id}`,
