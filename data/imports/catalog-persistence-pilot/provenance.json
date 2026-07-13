@@ -1,0 +1,222 @@
+[
+  {
+    "movieId": "mov_d9f4b3d10da5",
+    "externalIds": {
+      "tmdbId": 496243,
+      "imdbId": "tt6751668",
+      "wikidataId": "Q61448040"
+    },
+    "approval": {
+      "state": "APPROVED",
+      "reason": "Pipeline PASS; content quality 100.",
+      "approvedAt": "2026-07-13T10:35:44.508Z",
+      "approvedBy": "catalog-persistence-pilot"
+    },
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "496243",
+        "importedAt": "2026-07-13T10:35:44.508Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ]
+  },
+  {
+    "movieId": "mov_65bbbefc3e7c",
+    "externalIds": {
+      "tmdbId": 346,
+      "imdbId": "tt0047478",
+      "wikidataId": "Q189540"
+    },
+    "approval": {
+      "state": "APPROVED",
+      "reason": "Pipeline PASS; content quality 100.",
+      "approvedAt": "2026-07-13T10:35:44.516Z",
+      "approvedBy": "catalog-persistence-pilot"
+    },
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "346",
+        "importedAt": "2026-07-13T10:35:44.516Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ]
+  },
+  {
+    "movieId": "mov_83a831e9a75d",
+    "externalIds": {
+      "tmdbId": 129,
+      "imdbId": "tt0245429",
+      "wikidataId": "Q155653"
+    },
+    "approval": {
+      "state": "APPROVED",
+      "reason": "Pipeline PASS; content quality 100.",
+      "approvedAt": "2026-07-13T10:35:44.517Z",
+      "approvedBy": "catalog-persistence-pilot"
+    },
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "129",
+        "importedAt": "2026-07-13T10:35:44.517Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ]
+  },
+  {
+    "movieId": "mov_9e1f399788c8",
+    "externalIds": {
+      "tmdbId": 670,
+      "imdbId": "tt0364569",
+      "wikidataId": "Q475693"
+    },
+    "approval": {
+      "state": "APPROVED",
+      "reason": "Pipeline PASS; content quality 100.",
+      "approvedAt": "2026-07-13T10:35:44.517Z",
+      "approvedBy": "catalog-persistence-pilot"
+    },
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "670",
+        "importedAt": "2026-07-13T10:35:44.517Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ]
+  },
+  {
+    "movieId": "mov_509b954f6361",
+    "externalIds": {
+      "tmdbId": 238,
+      "imdbId": "tt0068646",
+      "wikidataId": "Q47703"
+    },
+    "approval": {
+      "state": "APPROVED",
+      "reason": "Pipeline PASS; content quality 100.",
+      "approvedAt": "2026-07-13T10:35:44.518Z",
+      "approvedBy": "catalog-persistence-pilot"
+    },
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "238",
+        "importedAt": "2026-07-13T10:35:44.518Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ]
+  },
+  {
+    "movieId": "mov_ff7ab0beb239",
+    "externalIds": {
+      "tmdbId": 680,
+      "imdbId": "tt0110912",
+      "wikidataId": "Q104123"
+    },
+    "approval": {
+      "state": "APPROVED",
+      "reason": "Pipeline PASS; content quality 100.",
+      "approvedAt": "2026-07-13T10:35:44.518Z",
+      "approvedBy": "catalog-persistence-pilot"
+    },
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "680",
+        "importedAt": "2026-07-13T10:35:44.518Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ]
+  },
+  {
+    "movieId": "mov_850dbd0ed779",
+    "externalIds": {
+      "tmdbId": 843,
+      "imdbId": "tt0118694",
+      "wikidataId": "Q1056853"
+    },
+    "approval": {
+      "state": "APPROVED",
+      "reason": "Pipeline PASS; content quality 100.",
+      "approvedAt": "2026-07-13T10:35:44.519Z",
+      "approvedBy": "catalog-persistence-pilot"
+    },
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "843",
+        "importedAt": "2026-07-13T10:35:44.519Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ]
+  },
+  {
+    "movieId": "mov_e7d7fa7398b4",
+    "externalIds": {
+      "tmdbId": 426426,
+      "imdbId": "tt6155172",
+      "wikidataId": "Q27959455"
+    },
+    "approval": {
+      "state": "APPROVED",
+      "reason": "Pipeline PASS; content quality 100.",
+      "approvedAt": "2026-07-13T10:35:44.519Z",
+      "approvedBy": "catalog-persistence-pilot"
+    },
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "426426",
+        "importedAt": "2026-07-13T10:35:44.519Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ]
+  },
+  {
+    "movieId": "mov_e5c888c7cc51",
+    "externalIds": {
+      "tmdbId": 598,
+      "imdbId": "tt0317248",
+      "wikidataId": "Q220741"
+    },
+    "approval": {
+      "state": "APPROVED",
+      "reason": "Pipeline PASS; content quality 100.",
+      "approvedAt": "2026-07-13T10:35:44.520Z",
+      "approvedBy": "catalog-persistence-pilot"
+    },
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "598",
+        "importedAt": "2026-07-13T10:35:44.520Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ]
+  },
+  {
+    "movieId": "mov_6604c0455984",
+    "externalIds": {
+      "tmdbId": 490,
+      "imdbId": "tt0050976",
+      "wikidataId": "Q217189"
+    },
+    "approval": {
+      "state": "APPROVED",
+      "reason": "Pipeline PASS; content quality 100.",
+      "approvedAt": "2026-07-13T10:35:44.520Z",
+      "approvedBy": "catalog-persistence-pilot"
+    },
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "490",
+        "importedAt": "2026-07-13T10:35:44.520Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ]
+  }
+]

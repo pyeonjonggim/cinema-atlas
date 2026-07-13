@@ -1,0 +1,4997 @@
+[
+  {
+    "title": "Parasite",
+    "titleKey": "parasite",
+    "originalTitle": "기생충",
+    "originalTitleKey": "기생충",
+    "year": 2019,
+    "runtime": 133,
+    "rating": 8.492,
+    "directorNames": [
+      "Bong Joon Ho"
+    ],
+    "actorNames": [
+      "Song Kang-ho",
+      "Lee Sun-kyun",
+      "Cho Yeo-jeong",
+      "Choi Woo-shik",
+      "Park So-dam",
+      "Lee Jung-eun",
+      "Jang Hye-jin",
+      "Park Myung-hoon",
+      "Jung Zi-so",
+      "Jung Hyeon-jun",
+      "Park Keun-rok",
+      "Jung Yi-seo",
+      "Cho Jae-myung",
+      "Jeong Ik-han",
+      "Kim Kyu-baek",
+      "Lee Dong-yong",
+      "Ahn Seong-bong",
+      "Yoon Young-woo",
+      "Park Jae-wook",
+      "Jeon Eun-mi"
+    ],
+    "countryNames": [
+      "kr"
+    ],
+    "genreNames": [
+      "35",
+      "53",
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+    "backdropUrl": "/wCuUKiRaz0wEESsYqmQy005xvTE.jpg",
+    "source": "tmdb",
+    "sourceId": "496243",
+    "duplicateKeys": [
+      "title:parasite:2019",
+      "original:기생충:2019",
+      "source:tmdb:496243"
+    ]
+  },
+  {
+    "title": "Seven Samurai",
+    "titleKey": "seven samurai",
+    "originalTitle": "七人の侍",
+    "originalTitleKey": "七人の侍",
+    "year": 1954,
+    "runtime": 207,
+    "rating": 8.448,
+    "directorNames": [
+      "Akira Kurosawa"
+    ],
+    "actorNames": [
+      "Toshirō Mifune",
+      "Takashi Shimura",
+      "Yoshio Inaba",
+      "Seiji Miyaguchi",
+      "Minoru Chiaki",
+      "Daisuke Katō",
+      "Isao Kimura",
+      "Keiko Tsushima",
+      "Yukiko Shimazaki",
+      "Kamatari Fujiwara",
+      "Yoshio Kosugi",
+      "Bokuzen Hidari",
+      "Yoshio Tsuchiya",
+      "Kokuten Kōdō",
+      "Eijirō Tōno",
+      "Jun Tatara",
+      "Atsushi Watanabe",
+      "Toranosuke Ogawa",
+      "Isao Yamagata",
+      "Kichijirō Ueda"
+    ],
+    "countryNames": [
+      "jp"
+    ],
+    "genreNames": [
+      "28",
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/lOMGc8bnSwQhS4XyE1S99uH8NXf.jpg",
+    "backdropUrl": "/qvZ91FwMq6O47VViAr8vZNQz3WI.jpg",
+    "source": "tmdb",
+    "sourceId": "346",
+    "duplicateKeys": [
+      "title:seven samurai:1954",
+      "original:七人の侍:1954",
+      "source:tmdb:346"
+    ]
+  },
+  {
+    "title": "Spirited Away",
+    "titleKey": "spirited away",
+    "originalTitle": "千と千尋の神隠し",
+    "originalTitleKey": "千と千尋の神隠し",
+    "year": 2001,
+    "runtime": 125,
+    "rating": 8.535,
+    "directorNames": [
+      "Hayao Miyazaki"
+    ],
+    "actorNames": [
+      "Rumi Hiiragi",
+      "Miyu Irino",
+      "Mari Natsuki",
+      "Takashi Naito",
+      "Yasuko Sawaguchi",
+      "Tatsuya Gashuin",
+      "Ryunosuke Kamiki",
+      "Yumi Tamai",
+      "Yo Oizumi",
+      "Koba Hayashi",
+      "Tsunehiko Kamijô",
+      "Takehiko Ono",
+      "Bunta Sugawara",
+      "Shigeru Wakita",
+      "Shirou Saitou",
+      "Michiko Yamamoto",
+      "Keiko Tsukamoto",
+      "Akio Nakamura",
+      "Shinji Tokumaru",
+      "Kaori Yamagata"
+    ],
+    "countryNames": [
+      "jp"
+    ],
+    "genreNames": [
+      "16",
+      "10751",
+      "14"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+    "backdropUrl": "/dyJvKsNs2KP8qQnAXbRwDjblViy.jpg",
+    "source": "tmdb",
+    "sourceId": "129",
+    "duplicateKeys": [
+      "title:spirited away:2001",
+      "original:千と千尋の神隠し:2001",
+      "source:tmdb:129"
+    ]
+  },
+  {
+    "title": "Oldboy",
+    "titleKey": "oldboy",
+    "originalTitle": "올드보이",
+    "originalTitleKey": "올드보이",
+    "year": 2003,
+    "runtime": 120,
+    "rating": 8.235,
+    "directorNames": [
+      "Park Chan-wook"
+    ],
+    "actorNames": [
+      "Choi Min-sik",
+      "Yoo Ji-tae",
+      "Kang Hye-jung",
+      "Kim Byeong-ok",
+      "Ji Dae-han",
+      "Oh Dal-su",
+      "Lee Seung-shin",
+      "Yoon Jin-seo",
+      "Oh Tae-kyung",
+      "Yoo Yeon-seok",
+      "You Il-han",
+      "Lee Young-hee",
+      "Kim Young-ae",
+      "Lee Mi-mi",
+      "Han Jae-duk",
+      "Kwak Jung-ae",
+      "Kim San",
+      "Jang Chae-soo",
+      "Im Seol-a",
+      "Syd Lim"
+    ],
+    "countryNames": [
+      "kr"
+    ],
+    "genreNames": [
+      "53",
+      "9648"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/pWDtjs568ZfOTMbURQBYuT4Qxka.jpg",
+    "backdropUrl": "/sdwjQEM869JFwMytTmvr6ggvaUl.jpg",
+    "source": "tmdb",
+    "sourceId": "670",
+    "duplicateKeys": [
+      "title:oldboy:2003",
+      "original:올드보이:2003",
+      "source:tmdb:670"
+    ]
+  },
+  {
+    "title": "The Godfather",
+    "titleKey": "the godfather",
+    "originalTitle": "The Godfather",
+    "originalTitleKey": "the godfather",
+    "year": 1972,
+    "runtime": 175,
+    "rating": 8.687,
+    "directorNames": [
+      "Francis Ford Coppola"
+    ],
+    "actorNames": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan",
+      "Robert Duvall",
+      "Richard S. Castellano",
+      "Diane Keaton",
+      "Talia Shire",
+      "Gianni Russo",
+      "Sterling Hayden",
+      "John Marley",
+      "Richard Conte",
+      "Al Lettieri",
+      "Abe Vigoda",
+      "John Cazale",
+      "Rudy Bond",
+      "Al Martino",
+      "Morgana King",
+      "Lenny Montana",
+      "John Martino",
+      "Salvatore Corsitto"
+    ],
+    "countryNames": [
+      "us"
+    ],
+    "genreNames": [
+      "18",
+      "80"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+    "backdropUrl": "/tSPT36ZKlP2WVHJLM4cQPLSzv3b.jpg",
+    "source": "tmdb",
+    "sourceId": "238",
+    "duplicateKeys": [
+      "title:the godfather:1972",
+      "original:the godfather:1972",
+      "source:tmdb:238"
+    ]
+  },
+  {
+    "title": "Pulp Fiction",
+    "titleKey": "pulp fiction",
+    "originalTitle": "Pulp Fiction",
+    "originalTitleKey": "pulp fiction",
+    "year": 1994,
+    "runtime": 154,
+    "rating": 8.481,
+    "directorNames": [
+      "Quentin Tarantino"
+    ],
+    "actorNames": [
+      "John Travolta",
+      "Samuel L. Jackson",
+      "Uma Thurman",
+      "Bruce Willis",
+      "Ving Rhames",
+      "Harvey Keitel",
+      "Eric Stoltz",
+      "Tim Roth",
+      "Amanda Plummer",
+      "Maria de Medeiros",
+      "Quentin Tarantino",
+      "Christopher Walken",
+      "Rosanna Arquette",
+      "Peter Greene",
+      "Duane Whitaker",
+      "Angela Jones",
+      "Phil LaMarr",
+      "Steve Buscemi",
+      "Bronagh Gallagher",
+      "Laura Lovelace"
+    ],
+    "countryNames": [
+      "us"
+    ],
+    "genreNames": [
+      "53",
+      "80",
+      "35"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+    "backdropUrl": "/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+    "source": "tmdb",
+    "sourceId": "680",
+    "duplicateKeys": [
+      "title:pulp fiction:1994",
+      "original:pulp fiction:1994",
+      "source:tmdb:680"
+    ]
+  },
+  {
+    "title": "In the Mood for Love",
+    "titleKey": "in the mood for love",
+    "originalTitle": "花樣年華",
+    "originalTitleKey": "花樣年華",
+    "year": 2000,
+    "runtime": 99,
+    "rating": 8.087,
+    "directorNames": [
+      "Wong Kar-Wai"
+    ],
+    "actorNames": [
+      "Maggie Cheung",
+      "Tony Leung Chiu-wai",
+      "Siu Ping-Lam",
+      "Rebecca Pan",
+      "Kelly Lai Chen",
+      "Joe Cheung Tung-Cho",
+      "Chan Man-Lei",
+      "Koo Kam-Wah",
+      "Mama Hung",
+      "Paulyn Sun",
+      "Roy Cheung Yiu-Yeung",
+      "Julien Carbon",
+      "Laurent Courtiaud"
+    ],
+    "countryNames": [
+      "hk",
+      "fr"
+    ],
+    "genreNames": [
+      "18",
+      "10749"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/iYypPT4bhqXfq1b6EnmxvRt6b2Y.jpg",
+    "backdropUrl": "/ffQFnAUm2Uu4RU0nijpjPRf9TBT.jpg",
+    "source": "tmdb",
+    "sourceId": "843",
+    "duplicateKeys": [
+      "title:in the mood for love:2000",
+      "original:花樣年華:2000",
+      "source:tmdb:843"
+    ]
+  },
+  {
+    "title": "Roma",
+    "titleKey": "roma",
+    "originalTitle": "Roma",
+    "originalTitleKey": "roma",
+    "year": 2018,
+    "runtime": 135,
+    "rating": 7.618,
+    "directorNames": [
+      "Alfonso Cuarón"
+    ],
+    "actorNames": [
+      "Yalitza Aparicio",
+      "Marina de Tavira",
+      "Diego Cortina Autrey",
+      "Carlos Peralta",
+      "Marco Graf",
+      "Daniela Demesa",
+      "Nancy García García",
+      "Verónica García",
+      "Fernando Grediaga",
+      "Jorge Antonio Guerrero",
+      "José Manuel Guerrero Mendoza",
+      "Andy Cortés",
+      "Victor Manuel Resendiz Ruiz",
+      "Zarela Lizbeth Chinolla Arellano",
+      "José Luis López Gómez",
+      "Edwin Mendoza Ramírez",
+      "Clementina Guadarrama",
+      "Enoc Leaño",
+      "Nicolás Peréz Taylor Félix",
+      "Kjartan Halvorsen"
+    ],
+    "countryNames": [
+      "gb",
+      "us"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/dtIIyQyALk57ko5bjac7hi01YQ.jpg",
+    "backdropUrl": "/zl9uqCl5iUSb50sTk2BPzw6bJnU.jpg",
+    "source": "tmdb",
+    "sourceId": "426426",
+    "duplicateKeys": [
+      "title:roma:2018",
+      "original:roma:2018",
+      "source:tmdb:426426"
+    ]
+  },
+  {
+    "title": "City of God",
+    "titleKey": "city of god",
+    "originalTitle": "Cidade de Deus",
+    "originalTitleKey": "cidade de deus",
+    "year": 2002,
+    "runtime": 129,
+    "rating": 8.429,
+    "directorNames": [
+      "Fernando Meirelles"
+    ],
+    "actorNames": [
+      "Alexandre Rodrigues",
+      "Leandro Firmino",
+      "Phellipe Haagensen",
+      "Douglas Silva",
+      "Jonathan Haagensen",
+      "Matheus Nachtergaele",
+      "Seu Jorge",
+      "Jefechander Suplino",
+      "Alice Braga",
+      "Emerson Gomes",
+      "Edson Oliveira",
+      "Michel Gomes",
+      "Roberta Rodrigues",
+      "Luis Otávio",
+      "Kiko Marques",
+      "Gustavo Engracia",
+      "Darlan Cunha",
+      "Robson Rocha",
+      "Thiago Martins",
+      "Leandra Miranda"
+    ],
+    "countryNames": [
+      "br",
+      "fr",
+      "de"
+    ],
+    "genreNames": [
+      "18",
+      "80"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/k7eYdWvhYQyRQoU2TB2A2Xu2TfD.jpg",
+    "backdropUrl": "/uvitbjFU4JqvMwIkMWHp69bmUzG.jpg",
+    "source": "tmdb",
+    "sourceId": "598",
+    "duplicateKeys": [
+      "title:city of god:2002",
+      "original:cidade de deus:2002",
+      "source:tmdb:598"
+    ]
+  },
+  {
+    "title": "The Seventh Seal",
+    "titleKey": "the seventh seal",
+    "originalTitle": "Det sjunde inseglet",
+    "originalTitleKey": "det sjunde inseglet",
+    "year": 1957,
+    "runtime": 96,
+    "rating": 8.148,
+    "directorNames": [
+      "Ingmar Bergman"
+    ],
+    "actorNames": [
+      "Gunnar Björnstrand",
+      "Bengt Ekerot",
+      "Nils Poppe",
+      "Max von Sydow",
+      "Bibi Andersson",
+      "Inga Gill",
+      "Maud Hansson",
+      "Inga Landgré",
+      "Gunnel Lindblom",
+      "Bertil Anderberg",
+      "Anders Ek",
+      "Åke Fridell",
+      "Gunnar Olsson",
+      "Erik Strandmark",
+      "Lars Lind",
+      "Benkt-Åke Benktsson",
+      "Tor Borong",
+      "Gudrun Brost",
+      "Harry Asklund",
+      "Ulf Johansson"
+    ],
+    "countryNames": [
+      "se"
+    ],
+    "genreNames": [
+      "14",
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/wcZ21zrOsy0b52AfAF50XpTiv75.jpg",
+    "backdropUrl": "/6s2BqtDvp1BMiP70zCDU5OW6hMy.jpg",
+    "source": "tmdb",
+    "sourceId": "490",
+    "duplicateKeys": [
+      "title:the seventh seal:1957",
+      "original:det sjunde inseglet:1957",
+      "source:tmdb:490"
+    ]
+  },
+  {
+    "title": "Citizen Kane",
+    "titleKey": "citizen kane",
+    "originalTitle": "Citizen Kane",
+    "originalTitleKey": "citizen kane",
+    "year": 1941,
+    "runtime": 119,
+    "rating": 7.971,
+    "directorNames": [
+      "Orson Welles"
+    ],
+    "actorNames": [
+      "Orson Welles",
+      "Joseph Cotten",
+      "Dorothy Comingore",
+      "Ray Collins",
+      "George Coulouris",
+      "Agnes Moorehead",
+      "Paul Stewart",
+      "Ruth Warrick",
+      "Erskine Sanford",
+      "William Alland",
+      "Everett Sloane",
+      "Fortunio Bonanova",
+      "Gus Schilling",
+      "Philip Van Zandt",
+      "Georgia Backus",
+      "Harry Shannon",
+      "Sonny Bupp",
+      "Buddy Swan",
+      "Gregg Toland",
+      "Don Ackerman"
+    ],
+    "countryNames": [
+      "us"
+    ],
+    "genreNames": [
+      "9648",
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/sav0jxhqiH0bPr2vZFU0Kjt2nZL.jpg",
+    "backdropUrl": "/ruF3Lmd4A8MHbnEBE6lxPMbsHGL.jpg",
+    "source": "tmdb",
+    "sourceId": "15",
+    "duplicateKeys": [
+      "title:citizen kane:1941",
+      "original:citizen kane:1941",
+      "source:tmdb:15"
+    ]
+  },
+  {
+    "title": "Casablanca",
+    "titleKey": "casablanca",
+    "originalTitle": "Casablanca",
+    "originalTitleKey": "casablanca",
+    "year": 1943,
+    "runtime": 102,
+    "rating": 8.137,
+    "directorNames": [
+      "Michael Curtiz"
+    ],
+    "actorNames": [
+      "Humphrey Bogart",
+      "Ingrid Bergman",
+      "Paul Henreid",
+      "Claude Rains",
+      "Conrad Veidt",
+      "Sydney Greenstreet",
+      "Peter Lorre",
+      "S.Z. Sakall",
+      "Madeleine Lebeau",
+      "Dooley Wilson",
+      "Joy Page",
+      "John Qualen",
+      "Leonid Kinskey",
+      "Curt Bois",
+      "Abdullah Abbas",
+      "Enrique Acosta",
+      "Ed Agresti",
+      "Arnet Amos",
+      "Louis V. Arco",
+      "Frank Arnold"
+    ],
+    "countryNames": [
+      "us"
+    ],
+    "genreNames": [
+      "18",
+      "10749"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/lGCEKlJo2CnWydQj7aamY7s1S7Q.jpg",
+    "backdropUrl": "/87wqeMeUeMRLjsE1IWNKJcPlpuC.jpg",
+    "source": "tmdb",
+    "sourceId": "289",
+    "duplicateKeys": [
+      "title:casablanca:1943",
+      "original:casablanca:1943",
+      "source:tmdb:289"
+    ]
+  },
+  {
+    "title": "Vertigo",
+    "titleKey": "vertigo",
+    "originalTitle": "Vertigo",
+    "originalTitleKey": "vertigo",
+    "year": 1958,
+    "runtime": 128,
+    "rating": 8.1,
+    "directorNames": [
+      "Alfred Hitchcock"
+    ],
+    "actorNames": [
+      "James Stewart",
+      "Kim Novak",
+      "Barbara Bel Geddes",
+      "Tom Helmore",
+      "Henry Jones",
+      "Raymond Bailey",
+      "Ellen Corby",
+      "Konstantin Shayne",
+      "Lee Patrick",
+      "Bess Flowers",
+      "Alfred Hitchcock",
+      "David Ahdar",
+      "Sara Taft",
+      "Ezelle Poule",
+      "John Benson",
+      "Paul Bryar",
+      "Steve Conte",
+      "Fred Graham",
+      "Forbes Murray",
+      "Raoul Freeman"
+    ],
+    "countryNames": [
+      "us"
+    ],
+    "genreNames": [
+      "9648",
+      "10749",
+      "53"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg",
+    "backdropUrl": "/rtVwkTqllcmyY4TVOycgVBHppWf.jpg",
+    "source": "tmdb",
+    "sourceId": "426",
+    "duplicateKeys": [
+      "title:vertigo:1958",
+      "original:vertigo:1958",
+      "source:tmdb:426"
+    ]
+  },
+  {
+    "title": "2001: A Space Odyssey",
+    "titleKey": "2001: a space odyssey",
+    "originalTitle": "2001: A Space Odyssey",
+    "originalTitleKey": "2001: a space odyssey",
+    "year": 1968,
+    "runtime": 149,
+    "rating": 8.049,
+    "directorNames": [
+      "Stanley Kubrick"
+    ],
+    "actorNames": [
+      "Keir Dullea",
+      "Gary Lockwood",
+      "William Sylvester",
+      "Douglas Rain",
+      "Daniel Richter",
+      "Leonard Rossiter",
+      "Margaret Tyzack",
+      "Robert Beatty",
+      "Sean Sullivan",
+      "Frank W. Miller",
+      "Bill Weston",
+      "Ed Bishop",
+      "Glenn Beck",
+      "Alan Gifford",
+      "Ann Gillis",
+      "Edwina Carroll",
+      "Penny Brahms",
+      "Heather Downham",
+      "Mike Lovell",
+      "John Ashley"
+    ],
+    "countryNames": [
+      "gb",
+      "us"
+    ],
+    "genreNames": [
+      "878",
+      "9648",
+      "12"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/ve72VxNqjGM69Uky4WTo2bK6rfq.jpg",
+    "backdropUrl": "/w5IDXtifKntw0ajv2co7jFlTQDM.jpg",
+    "source": "tmdb",
+    "sourceId": "62",
+    "duplicateKeys": [
+      "title:2001: a space odyssey:1968",
+      "original:2001: a space odyssey:1968",
+      "source:tmdb:62"
+    ]
+  },
+  {
+    "title": "La Dolce Vita",
+    "titleKey": "la dolce vita",
+    "originalTitle": "La dolce vita",
+    "originalTitleKey": "la dolce vita",
+    "year": 1960,
+    "runtime": 174,
+    "rating": 8,
+    "directorNames": [
+      "Federico Fellini"
+    ],
+    "actorNames": [
+      "Marcello Mastroianni",
+      "Anita Ekberg",
+      "Anouk Aimée",
+      "Yvonne Furneaux",
+      "Magali Noël",
+      "Alain Cuny",
+      "Annibale Ninchi",
+      "Walter Santesso",
+      "Valeria Ciangottini",
+      "Riccardo Garrone",
+      "Ida Galli",
+      "Audrey McDonald",
+      "Polidor",
+      "Alain Dijon",
+      "Mino Doro",
+      "Giulio Girola",
+      "Laura Betti",
+      "Nico",
+      "Carlo Musto",
+      "Enzo Cerusico"
+    ],
+    "countryNames": [
+      "fr",
+      "it"
+    ],
+    "genreNames": [
+      "35",
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/dZ2v0DAX4aCZartCzZdg4ZinSW2.jpg",
+    "backdropUrl": "/eN2NdMeJLNzLYzWIEEoaGzZAsiD.jpg",
+    "source": "tmdb",
+    "sourceId": "439",
+    "duplicateKeys": [
+      "title:la dolce vita:1960",
+      "original:la dolce vita:1960",
+      "source:tmdb:439"
+    ]
+  },
+  {
+    "title": "8½",
+    "titleKey": "81⁄2",
+    "originalTitle": "8½",
+    "originalTitleKey": "81⁄2",
+    "year": 1963,
+    "runtime": 139,
+    "rating": 8.086,
+    "directorNames": [
+      "Federico Fellini"
+    ],
+    "actorNames": [
+      "Marcello Mastroianni",
+      "Claudia Cardinale",
+      "Anouk Aimée",
+      "Sandra Milo",
+      "Rossella Falk",
+      "Barbara Steele",
+      "Madeleine Lebeau",
+      "Caterina Boratto",
+      "Eddra Gale",
+      "Guido Alberti",
+      "Mario Conocchia",
+      "Bruno Agostini",
+      "Cesarino Miceli Picardi",
+      "Jean Rougeul",
+      "Mario Pisu",
+      "Yvonne Casadei",
+      "Ian Dallas",
+      "Mino Doro",
+      "Nadia Sanders",
+      "Georgia Simmons"
+    ],
+    "countryNames": [
+      "it",
+      "fr"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/23VIf7zNxAgaXwIlvzd3IvOd9sY.jpg",
+    "backdropUrl": "/y2FNZLHynsevBnVTocGW6c3pQpr.jpg",
+    "source": "tmdb",
+    "sourceId": "422",
+    "duplicateKeys": [
+      "title:81⁄2:1963",
+      "original:81⁄2:1963",
+      "source:tmdb:422"
+    ]
+  },
+  {
+    "title": "Bicycle Thieves",
+    "titleKey": "bicycle thieves",
+    "originalTitle": "Ladri di biciclette",
+    "originalTitleKey": "ladri di biciclette",
+    "year": 1948,
+    "runtime": 89,
+    "rating": 8.164,
+    "directorNames": [
+      "Vittorio De Sica"
+    ],
+    "actorNames": [
+      "Lamberto Maggiorani",
+      "Enzo Staiola",
+      "Lianella Carell",
+      "Gino Saltamerenda",
+      "Vittorio Antonucci",
+      "Giulio Chiari",
+      "Elena Altieri",
+      "Carlo Jachino",
+      "Michele Sakara",
+      "Emma Druetti",
+      "Eolo Capritti",
+      "Fausto Guerzoni",
+      "Giulio Battiferri",
+      "Sergio Leone",
+      "Mario Meniconi",
+      "Checco Rissone",
+      "Peppino Spadaro",
+      "Nando Bruno",
+      "Memmo Carotenuto",
+      "Umberto Spadaro"
+    ],
+    "countryNames": [
+      "it"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/iPdVqIpmR3bRvOQJPrn4pr2KR3q.jpg",
+    "backdropUrl": "/nd6ItWuWGmTKhHXuxVC8kp86CmQ.jpg",
+    "source": "tmdb",
+    "sourceId": "5156",
+    "duplicateKeys": [
+      "title:bicycle thieves:1948",
+      "original:ladri di biciclette:1948",
+      "source:tmdb:5156"
+    ]
+  },
+  {
+    "title": "The Passion of Joan of Arc",
+    "titleKey": "the passion of joan of arc",
+    "originalTitle": "La Passion de Jeanne d'Arc",
+    "originalTitleKey": "la passion de jeanne d'arc",
+    "year": 1928,
+    "runtime": 81,
+    "rating": 7.961,
+    "directorNames": [
+      "Carl Theodor Dreyer"
+    ],
+    "actorNames": [
+      "Maria Falconetti",
+      "Eugène Silvain",
+      "André Berley",
+      "Maurice Schutz",
+      "Antonin Artaud",
+      "Michel Simon",
+      "Jean d'Yd",
+      "Louis Ravet",
+      "Armand Lurville",
+      "Jacques Arnna",
+      "Alexandre Mihalesco",
+      "Léon Larive",
+      "Jean Aymé",
+      "Gilbert Dacheux",
+      "Gilbert Dalleu",
+      "Paul Delauzac",
+      "Dimitri Dimitriev",
+      "Fournez-Goffard",
+      "Henri Gaultier",
+      "Paul Jorge"
+    ],
+    "countryNames": [
+      "fr"
+    ],
+    "genreNames": [
+      "18",
+      "36"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/tAgV9yxY6AC1bsPt3qJJQpD4s8.jpg",
+    "backdropUrl": "/cFgCf2XqnhErS3HmgSOBCe4kL4d.jpg",
+    "source": "tmdb",
+    "sourceId": "780",
+    "duplicateKeys": [
+      "title:the passion of joan of arc:1928",
+      "original:la passion de jeanne d'arc:1928",
+      "source:tmdb:780"
+    ]
+  },
+  {
+    "title": "Metropolis",
+    "titleKey": "metropolis",
+    "originalTitle": "Metropolis",
+    "originalTitleKey": "metropolis",
+    "year": 1927,
+    "runtime": 148,
+    "rating": 8.1,
+    "directorNames": [
+      "Fritz Lang"
+    ],
+    "actorNames": [
+      "Gustav Fröhlich",
+      "Brigitte Helm",
+      "Alfred Abel",
+      "Rudolf Klein-Rogge",
+      "Theodor Loos",
+      "Fritz Rasp",
+      "Erwin Biswanger",
+      "Heinrich George",
+      "Fritz Alberti",
+      "Grete Berger",
+      "Olly Boeheim",
+      "Heinrich Gotho",
+      "Gottfried Huppertz",
+      "Georg John",
+      "Margarete Lanner",
+      "Rose Lichtenstein",
+      "Hanns Leo Reich",
+      "Arthur Reinhardt",
+      "Curt Siodmak",
+      "Henrietta Siodmak"
+    ],
+    "countryNames": [
+      "de"
+    ],
+    "genreNames": [
+      "18",
+      "878"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/kr9wXRN23zLuWJIelahas1mtnYj.jpg",
+    "backdropUrl": "/eeMoFKxjjiCi6iep2GEZtSAMYIr.jpg",
+    "source": "tmdb",
+    "sourceId": "19",
+    "duplicateKeys": [
+      "title:metropolis:1927",
+      "original:metropolis:1927",
+      "source:tmdb:19"
+    ]
+  },
+  {
+    "title": "Nosferatu",
+    "titleKey": "nosferatu",
+    "originalTitle": "Nosferatu, eine Symphonie des Grauens",
+    "originalTitleKey": "nosferatu, eine symphonie des grauens",
+    "year": 1922,
+    "runtime": 89,
+    "rating": 7.656,
+    "directorNames": [
+      "F. W. Murnau"
+    ],
+    "actorNames": [
+      "Max Schreck",
+      "Gustav von Wangenheim",
+      "Greta Schröder",
+      "Georg H. Schnell",
+      "Ruth Landshoff",
+      "Gustav Botz",
+      "Alexander Granach",
+      "John Gottowt",
+      "Max Nemetz",
+      "Wolfgang Heinz",
+      "Albert Venohr",
+      "Eric van Viele",
+      "Karl Etlinger",
+      "Guido Herzfeld",
+      "Hans Lanser-Rudolf",
+      "Loni Nest",
+      "Josef Sareny",
+      "Fanny Schreck",
+      "Hardy von Francois",
+      "Heinrich Witte"
+    ],
+    "countryNames": [
+      "de"
+    ],
+    "genreNames": [
+      "27",
+      "14"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/zv7J85D8CC9qYagAEhPM63CIG6j.jpg",
+    "backdropUrl": "/cA9iGtvjRGJHzDBfrq48l0eyCvA.jpg",
+    "source": "tmdb",
+    "sourceId": "653",
+    "duplicateKeys": [
+      "title:nosferatu:1922",
+      "original:nosferatu, eine symphonie des grauens:1922",
+      "source:tmdb:653"
+    ]
+  },
+  {
+    "title": "The General",
+    "titleKey": "the general",
+    "originalTitle": "The General",
+    "originalTitleKey": "the general",
+    "year": 1926,
+    "runtime": 79,
+    "rating": 7.916,
+    "directorNames": [
+      "Clyde Bruckman",
+      "Buster Keaton"
+    ],
+    "actorNames": [
+      "Buster Keaton",
+      "Marion Mack",
+      "Glen Cavender",
+      "Jim Farley",
+      "Frederick Vroom",
+      "Frank Barnes",
+      "Charles Henry Smith",
+      "Joe Keaton",
+      "Mike Donlin",
+      "Tom Nawn",
+      "Henry Baird",
+      "Joe Bricher",
+      "Jimmy Bryant",
+      "Sergeant Bukowski",
+      "C.C. Cruson",
+      "Jack Dempster",
+      "Keith Fennell",
+      "Budd Fine",
+      "Eddie Foster",
+      "Ronald Gilstrap"
+    ],
+    "countryNames": [
+      "us"
+    ],
+    "genreNames": [
+      "35",
+      "10752",
+      "10749"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/3jfkdJTw5b6uVrp1rdrV4FHEvGg.jpg",
+    "backdropUrl": "/mzox4HbcV9W42MH2dB1QsdDVGo3.jpg",
+    "source": "tmdb",
+    "sourceId": "961",
+    "duplicateKeys": [
+      "title:the general:1926",
+      "original:the general:1926",
+      "source:tmdb:961"
+    ]
+  },
+  {
+    "title": "Modern Times",
+    "titleKey": "modern times",
+    "originalTitle": "Modern Times",
+    "originalTitleKey": "modern times",
+    "year": 1936,
+    "runtime": 87,
+    "rating": 8.279,
+    "directorNames": [
+      "Charlie Chaplin"
+    ],
+    "actorNames": [
+      "Charlie Chaplin",
+      "Paulette Goddard",
+      "Henry Bergman",
+      "Tiny Sandford",
+      "Chester Conklin",
+      "Hank Mann",
+      "Stanley Blystone",
+      "Al Ernest Garcia",
+      "Richard Alexander",
+      "Cecil Reynolds",
+      "Mira McKinney",
+      "Murdock MacQuarrie",
+      "Wilfred Lucas",
+      "Edward LeSaint",
+      "Fred Malatesta",
+      "Sammy Stein",
+      "Juana Sutton",
+      "Ted Oliver",
+      "Norman Ainsley",
+      "Walter Bacon"
+    ],
+    "countryNames": [
+      "us"
+    ],
+    "genreNames": [
+      "35",
+      "18",
+      "10749"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/7uoiKOEjxBBW0AgDGQWrlfGQ90w.jpg",
+    "backdropUrl": "/kSlO1pHpwQfPQdgVPr7dJiJNtJ8.jpg",
+    "source": "tmdb",
+    "sourceId": "3082",
+    "duplicateKeys": [
+      "title:modern times:1936",
+      "original:modern times:1936",
+      "source:tmdb:3082"
+    ]
+  },
+  {
+    "title": "Sherlock Jr.",
+    "titleKey": "sherlock jr.",
+    "originalTitle": "Sherlock Jr.",
+    "originalTitleKey": "sherlock jr.",
+    "year": 1924,
+    "runtime": 45,
+    "rating": 8.04,
+    "directorNames": [
+      "Buster Keaton"
+    ],
+    "actorNames": [
+      "Buster Keaton",
+      "Kathryn McGuire",
+      "Joe Keaton",
+      "Erwin Connelly",
+      "Ward Crane",
+      "Doris Deane",
+      "Christine Francis",
+      "George Davis",
+      "Kewpie Morgan",
+      "Steve Murphy",
+      "John Patrick",
+      "Betsy Ann Hisle",
+      "Ford West",
+      "Jane Connelly"
+    ],
+    "countryNames": [
+      "us"
+    ],
+    "genreNames": [
+      "28",
+      "35",
+      "9648"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/1G9r3rqtbFAQuyWKOZm4Y5J5s7Q.jpg",
+    "backdropUrl": "/tSipsYTp565LkopntX1lZNLPYHP.jpg",
+    "source": "tmdb",
+    "sourceId": "992",
+    "duplicateKeys": [
+      "title:sherlock jr.:1924",
+      "original:sherlock jr.:1924",
+      "source:tmdb:992"
+    ]
+  },
+  {
+    "title": "A Trip to the Moon",
+    "titleKey": "a trip to the moon",
+    "originalTitle": "Le Voyage dans la Lune",
+    "originalTitleKey": "le voyage dans la lune",
+    "year": 1902,
+    "runtime": 15,
+    "rating": 7.9,
+    "directorNames": [
+      "Georges Méliès"
+    ],
+    "actorNames": [
+      "Georges Méliès",
+      "Bleuette Bernon",
+      "François Lallement",
+      "Jehanne d'Alcy",
+      "Henri Delannoy",
+      "Victor André",
+      "Brunnet",
+      "Depierre",
+      "Farjaut",
+      "Kelm",
+      "Jules-Eugène Legris"
+    ],
+    "countryNames": [
+      "fr"
+    ],
+    "genreNames": [
+      "12",
+      "878",
+      "35"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/9o0v5LLFk51nyTBHZSre6OB37n2.jpg",
+    "backdropUrl": "/g67r1eiQD3ERSEQFCFkSn7TeGw5.jpg",
+    "source": "tmdb",
+    "sourceId": "775",
+    "duplicateKeys": [
+      "title:a trip to the moon:1902",
+      "original:le voyage dans la lune:1902",
+      "source:tmdb:775"
+    ]
+  },
+  {
+    "title": "Meshes of the Afternoon",
+    "titleKey": "meshes of the afternoon",
+    "originalTitle": "Meshes of the Afternoon",
+    "originalTitleKey": "meshes of the afternoon",
+    "year": 1943,
+    "runtime": 14,
+    "rating": 7.6,
+    "directorNames": [
+      "Maya Deren",
+      "Alexander Hammid"
+    ],
+    "actorNames": [
+      "Maya Deren",
+      "Alexander Hammid"
+    ],
+    "countryNames": [
+      "us"
+    ],
+    "genreNames": [
+      "9648",
+      "14"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/yHjEjRU81RcxKFNU5hhiPYMzlsu.jpg",
+    "backdropUrl": "/otRHDr3aMJboh9N4AMbuKKnlHYL.jpg",
+    "source": "tmdb",
+    "sourceId": "27040",
+    "duplicateKeys": [
+      "title:meshes of the afternoon:1943",
+      "original:meshes of the afternoon:1943",
+      "source:tmdb:27040"
+    ]
+  },
+  {
+    "title": "Night and Fog",
+    "titleKey": "night and fog",
+    "originalTitle": "Nuit et Brouillard",
+    "originalTitleKey": "nuit et brouillard",
+    "year": 1956,
+    "runtime": 32,
+    "rating": 8.271,
+    "directorNames": [
+      "Alain Resnais"
+    ],
+    "actorNames": [
+      "Michel Bouquet",
+      "Reinhard Heydrich",
+      "Heinrich Himmler",
+      "Adolf Hitler",
+      "Julius Streicher"
+    ],
+    "countryNames": [
+      "fr"
+    ],
+    "genreNames": [
+      "99",
+      "36"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/2iWYQia8enOai7QEO3TvenleD7r.jpg",
+    "backdropUrl": "/cnl95VtUon66J1PLRPpsgYgwHF7.jpg",
+    "source": "tmdb",
+    "sourceId": "803",
+    "duplicateKeys": [
+      "title:night and fog:1956",
+      "original:nuit et brouillard:1956",
+      "source:tmdb:803"
+    ]
+  },
+  {
+    "title": "Man with a Movie Camera",
+    "titleKey": "man with a movie camera",
+    "originalTitle": "Человек с киноаппаратом",
+    "originalTitleKey": "человек с киноаппаратом",
+    "year": 1929,
+    "runtime": 68,
+    "rating": 7.843,
+    "directorNames": [
+      "Dziga Vertov"
+    ],
+    "actorNames": [
+      "Mikhail Kaufman"
+    ],
+    "countryNames": [
+      "su"
+    ],
+    "genreNames": [
+      "99"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/vJgAdgJWX54v0oXfIvhwjlZnmgn.jpg",
+    "backdropUrl": "/byRNEm1QwfQC1Mn0K4gLM2fIfWO.jpg",
+    "source": "tmdb",
+    "sourceId": "26317",
+    "duplicateKeys": [
+      "title:man with a movie camera:1929",
+      "original:человек с киноаппаратом:1929",
+      "source:tmdb:26317"
+    ]
+  },
+  {
+    "title": "Hoop Dreams",
+    "titleKey": "hoop dreams",
+    "originalTitle": "Hoop Dreams",
+    "originalTitleKey": "hoop dreams",
+    "year": 1994,
+    "runtime": 174,
+    "rating": 7.6,
+    "directorNames": [
+      "Steve James"
+    ],
+    "actorNames": [
+      "William Gates",
+      "Arthur Agee",
+      "Gene Pingatore",
+      "Steve James",
+      "Dick Vitale",
+      "Bobby Knight",
+      "Spike Lee",
+      "Isiah Thomas"
+    ],
+    "countryNames": [
+      "us"
+    ],
+    "genreNames": [
+      "99"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/gLzHl2XBtVwycl8DxdOXRHPm8G3.jpg",
+    "backdropUrl": "/pYeiEm55NySzK9ksKlQGlFQNapz.jpg",
+    "source": "tmdb",
+    "sourceId": "14275",
+    "duplicateKeys": [
+      "title:hoop dreams:1994",
+      "original:hoop dreams:1994",
+      "source:tmdb:14275"
+    ]
+  },
+  {
+    "title": "The Act of Killing",
+    "titleKey": "the act of killing",
+    "originalTitle": "The Act of Killing",
+    "originalTitleKey": "the act of killing",
+    "year": 2012,
+    "runtime": 117,
+    "rating": 7.67,
+    "directorNames": [
+      "Joshua Oppenheimer"
+    ],
+    "actorNames": [
+      "Anwar Congo",
+      "Herman Koto",
+      "Syamsul Arifin",
+      "Ibrahim Sinik",
+      "Yapto Soerjosoemarno",
+      "Safit Pardede",
+      "Jusuf Kalla",
+      "Adi Zulkadry",
+      "Suryono",
+      "Haji Marzuki",
+      "Haji Anif",
+      "Rahmat Shah",
+      "Sakhyan Asmara",
+      "Soaduon Siregar"
+    ],
+    "countryNames": [
+      "dk",
+      "no",
+      "gb"
+    ],
+    "genreNames": [
+      "99",
+      "36"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/sp5B7Tz5ttsgOLnIlCP5uEhtesI.jpg",
+    "backdropUrl": "/1jLaJPdu7dMl0Nk3vLuafDx9PWS.jpg",
+    "source": "tmdb",
+    "sourceId": "123678",
+    "duplicateKeys": [
+      "title:the act of killing:2012",
+      "original:the act of killing:2012",
+      "source:tmdb:123678"
+    ]
+  },
+  {
+    "title": "Shoah",
+    "titleKey": "shoah",
+    "originalTitle": "Shoah",
+    "originalTitleKey": "shoah",
+    "year": 1985,
+    "runtime": 566,
+    "rating": 8.2,
+    "directorNames": [
+      "Claude Lanzmann"
+    ],
+    "actorNames": [
+      "Claude Lanzmann",
+      "Simon Srebnik",
+      "Michael Podchlebnik",
+      "Motke Zaidl",
+      "Jan Karski",
+      "Paula Biren",
+      "Abraham Bomba",
+      "Inge Deutschkron",
+      "Ruth Elias",
+      "Richard Glazar",
+      "Filip Müller",
+      "Rudolf Vrba",
+      "Raul Hilberg",
+      "Hanna Zaïdl",
+      "Jan Piwonski",
+      "Itzhak Dugin",
+      "Helena Pietyra",
+      "Pan Filipowicz",
+      "Pan Falborski",
+      "Czeslaw Borowi"
+    ],
+    "countryNames": [
+      "fr"
+    ],
+    "genreNames": [
+      "99",
+      "36"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/yvwF7dfSCybFcBOklUzKpE46bHM.jpg",
+    "backdropUrl": "/bJolDsqM8vnlusFJdnCi9rg1nX7.jpg",
+    "source": "tmdb",
+    "sourceId": "42044",
+    "duplicateKeys": [
+      "title:shoah:1985",
+      "original:shoah:1985",
+      "source:tmdb:42044"
+    ]
+  },
+  {
+    "title": "Waltz with Bashir",
+    "titleKey": "waltz with bashir",
+    "originalTitle": "ואלס עם באשיר",
+    "originalTitleKey": "ואלס עם באשיר",
+    "year": 2008,
+    "runtime": 90,
+    "rating": 7.679,
+    "directorNames": [
+      "Ari Folman"
+    ],
+    "actorNames": [
+      "Ari Folman",
+      "Mickey Leon",
+      "Ori Sivan",
+      "Yehezkel Lazarov",
+      "Ronny Dayag",
+      "Shmuel Frenkel",
+      "Zahava Solomon",
+      "Ron Ben-Yishai",
+      "Dror Harazi"
+    ],
+    "countryNames": [
+      "au",
+      "be",
+      "fi",
+      "fr",
+      "de",
+      "il",
+      "ch",
+      "us"
+    ],
+    "genreNames": [
+      "16",
+      "99",
+      "18",
+      "10752"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/zQaCv7lKwHsh0YSHkt1QNjIOZ1c.jpg",
+    "backdropUrl": "/cMoiIk3tD6qshxccYRjjym7l5YV.jpg",
+    "source": "tmdb",
+    "sourceId": "8885",
+    "duplicateKeys": [
+      "title:waltz with bashir:2008",
+      "original:ואלס עם באשיר:2008",
+      "source:tmdb:8885"
+    ]
+  },
+  {
+    "title": "The Tale of The Princess Kaguya",
+    "titleKey": "the tale of the princess kaguya",
+    "originalTitle": "かぐや姫の物語",
+    "originalTitleKey": "かぐや姫の物語",
+    "year": 2013,
+    "runtime": 137,
+    "rating": 8.091,
+    "directorNames": [
+      "Isao Takahata"
+    ],
+    "actorNames": [
+      "Aki Asakura",
+      "Takeo Chii",
+      "Nobuko Miyamoto",
+      "Kengo Kora",
+      "Atsuko Takahata",
+      "Tomoko Tabata",
+      "Shinosuke Tatekawa",
+      "Takaya Kamikawa",
+      "Hikaru Ijūin",
+      "Ryudo Uzaki",
+      "Shichinosuke Nakamura",
+      "Isao Hashizume",
+      "Tatsuya Nakadai",
+      "Yukiji Asaoka",
+      "Tamaki Kojo",
+      "Yuji Miyake",
+      "Mirai Uchida",
+      "Hiroyuki Yamamoto"
+    ],
+    "countryNames": [
+      "jp"
+    ],
+    "genreNames": [
+      "16",
+      "18",
+      "14"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/cQidJuA546OSSXKWXoiCeINDxuj.jpg",
+    "backdropUrl": "/lMaWlYThCSnsmW3usxWTpSuyZp1.jpg",
+    "source": "tmdb",
+    "sourceId": "149871",
+    "duplicateKeys": [
+      "title:the tale of the princess kaguya:2013",
+      "original:かぐや姫の物語:2013",
+      "source:tmdb:149871"
+    ]
+  },
+  {
+    "title": "Akira",
+    "titleKey": "akira",
+    "originalTitle": "AKIRA",
+    "originalTitleKey": "akira",
+    "year": 1988,
+    "runtime": 124,
+    "rating": 7.9,
+    "directorNames": [
+      "Katsuhiro Otomo"
+    ],
+    "actorNames": [
+      "Mitsuo Iwata",
+      "Nozomu Sasaki",
+      "Mami Koyama",
+      "Taro Ishida",
+      "Mizuho Suzuki",
+      "Tessyo Genda",
+      "Koichi Kitamura",
+      "Yuriko Fuchizaki",
+      "Masaaki Okura",
+      "Takeshi Kusao",
+      "Kazuhiro Kamifuji",
+      "Tatsuhiko Nakamura",
+      "Fukue Itô",
+      "Yuka Ôno",
+      "Hiroshi Otake",
+      "Kazumi Tanaka",
+      "Masato Hirano",
+      "Masayuki Kato",
+      "Michihiro Ikemizu",
+      "Tarô Arakawa"
+    ],
+    "countryNames": [
+      "jp"
+    ],
+    "genreNames": [
+      "16",
+      "878",
+      "28"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/neZ0ykEsPqxamsX6o5QNUFILQrz.jpg",
+    "backdropUrl": "/fK40VGYIm7hmKrLJ26fgPQU0qRG.jpg",
+    "source": "tmdb",
+    "sourceId": "149",
+    "duplicateKeys": [
+      "title:akira:1988",
+      "original:akira:1988",
+      "source:tmdb:149"
+    ]
+  },
+  {
+    "title": "Grave of the Fireflies",
+    "titleKey": "grave of the fireflies",
+    "originalTitle": "火垂るの墓",
+    "originalTitleKey": "火垂るの墓",
+    "year": 1988,
+    "runtime": 89,
+    "rating": 8.44,
+    "directorNames": [
+      "Isao Takahata"
+    ],
+    "actorNames": [
+      "Tsutomu Tatsumi",
+      "Ayano Shiraishi",
+      "Yoshiko Shinohara",
+      "Akemi Yamaguchi",
+      "Masayo Sakai",
+      "Kozo Hashida",
+      "Kazumi Nozaki",
+      "Yoshio Matsuoka",
+      "Masahiro Kanetake",
+      "Kiyoshi Yanagawa",
+      "Hajime Maki",
+      "Atsuo Omotem",
+      "Teruhisa Harita",
+      "Hiroshi Tanaka",
+      "Michio Denpo",
+      "Shiro Tamaki",
+      "Mika Sekita",
+      "Kyoko Moriwaki"
+    ],
+    "countryNames": [
+      "jp"
+    ],
+    "genreNames": [
+      "16",
+      "18",
+      "10752"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/k9tv1rXZbOhH7eiCk378x61kNQ1.jpg",
+    "backdropUrl": "/aHaqZpOL7UyVu0nKqp3SMz0o2E1.jpg",
+    "source": "tmdb",
+    "sourceId": "12477",
+    "duplicateKeys": [
+      "title:grave of the fireflies:1988",
+      "original:火垂るの墓:1988",
+      "source:tmdb:12477"
+    ]
+  },
+  {
+    "title": "Toy Story",
+    "titleKey": "toy story",
+    "originalTitle": "Toy Story",
+    "originalTitleKey": "toy story",
+    "year": 1995,
+    "runtime": 81,
+    "rating": 7.983,
+    "directorNames": [
+      "John Lasseter"
+    ],
+    "actorNames": [
+      "Tom Hanks",
+      "Tim Allen",
+      "Don Rickles",
+      "Jim Varney",
+      "Wallace Shawn",
+      "John Ratzenberger",
+      "Annie Potts",
+      "John Morris",
+      "Erik von Detten",
+      "Laurie Metcalf",
+      "R. Lee Ermey",
+      "Sarah Freeman",
+      "Penn Jillette",
+      "Jack Angel",
+      "Spencer Aste",
+      "Greg Berg",
+      "Lisa Bradley",
+      "Kendall Cunningham",
+      "Debi Derryberry",
+      "Cody Dorkin"
+    ],
+    "countryNames": [
+      "us"
+    ],
+    "genreNames": [
+      "10751",
+      "35",
+      "16",
+      "12"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+    "backdropUrl": "/3Rfvhy1Nl6sSGJwyjb0QiZzZYlB.jpg",
+    "source": "tmdb",
+    "sourceId": "862",
+    "duplicateKeys": [
+      "title:toy story:1995",
+      "original:toy story:1995",
+      "source:tmdb:862"
+    ]
+  },
+  {
+    "title": "WALL·E",
+    "titleKey": "wall·e",
+    "originalTitle": "WALL·E",
+    "originalTitleKey": "wall·e",
+    "year": 2008,
+    "runtime": 98,
+    "rating": 8.117,
+    "directorNames": [
+      "Andrew Stanton"
+    ],
+    "actorNames": [
+      "Ben Burtt",
+      "Elissa Knight",
+      "Jeff Garlin",
+      "Fred Willard",
+      "John Ratzenberger",
+      "Kathy Najimy",
+      "Sigourney Weaver",
+      "Lori Alan",
+      "Bob Bergen",
+      "John Cygan",
+      "Pete Docter",
+      "Paul Eiding",
+      "Donald Fullilove",
+      "Teresa Ganzel",
+      "Jess Harnell",
+      "Sherry Lynn",
+      "Mickie McGowan",
+      "Laraine Newman",
+      "Teddy Newton",
+      "Jeff Pidgeon"
+    ],
+    "countryNames": [
+      "us"
+    ],
+    "genreNames": [
+      "16",
+      "10751",
+      "878"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg",
+    "backdropUrl": "/nYs4ZwnJBK4AgljhvzwNz7fpr3E.jpg",
+    "source": "tmdb",
+    "sourceId": "10681",
+    "duplicateKeys": [
+      "title:wall·e:2008",
+      "original:wall·e:2008",
+      "source:tmdb:10681"
+    ]
+  },
+  {
+    "title": "Persepolis",
+    "titleKey": "persepolis",
+    "originalTitle": "Persepolis",
+    "originalTitleKey": "persepolis",
+    "year": 2007,
+    "runtime": 95,
+    "rating": 7.877,
+    "directorNames": [
+      "Vincent Paronnaud",
+      "Marjane Satrapi"
+    ],
+    "actorNames": [
+      "Chiara Mastroianni",
+      "Danielle Darrieux",
+      "Catherine Deneuve",
+      "Simon Abkarian",
+      "Gabrielle Lopes Benites",
+      "François Jérosme",
+      "Tilly Mandelbrot",
+      "Sophie Arthuys",
+      "Arié Elmaleh",
+      "Mathias Mlekuz"
+    ],
+    "countryNames": [
+      "fr",
+      "us"
+    ],
+    "genreNames": [
+      "16",
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/aU8i2QAdTyRR1nYb36Gq51xXP8p.jpg",
+    "backdropUrl": "/4pfb85bv0rKkmslTp2hzAqA7RT4.jpg",
+    "source": "tmdb",
+    "sourceId": "2011",
+    "duplicateKeys": [
+      "title:persepolis:2007",
+      "original:persepolis:2007",
+      "source:tmdb:2011"
+    ]
+  },
+  {
+    "title": "Fantastic Planet",
+    "titleKey": "fantastic planet",
+    "originalTitle": "La Planète sauvage",
+    "originalTitleKey": "la planète sauvage",
+    "year": 1973,
+    "runtime": 72,
+    "rating": 7.636,
+    "directorNames": [
+      "René Laloux"
+    ],
+    "actorNames": [
+      "Gérard Hernandez",
+      "Jean Valmont",
+      "Jennifer Drake",
+      "Yves Barsacq",
+      "Jeanine Forney",
+      "Éric Baugin",
+      "Jean Topart",
+      "William Coryn",
+      "Sylvie Lenoir",
+      "Philippe Ogouz",
+      "Irina Tarassov",
+      "Yvette Robin",
+      "Michèle Chahan",
+      "Madeleine Clervanne",
+      "Poupy de Monneron",
+      "Max Amyl",
+      "Denis Boileau",
+      "Hubert de Lapparent",
+      "Christian de Tillière",
+      "Christian Echelard"
+    ],
+    "countryNames": [
+      "xc",
+      "fr"
+    ],
+    "genreNames": [
+      "16",
+      "878"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/prq0j1S0K07UjwLZLF6oMGflRUI.jpg",
+    "backdropUrl": "/AwrqoanoZVYoc0MRyE0RiHEKm71.jpg",
+    "source": "tmdb",
+    "sourceId": "16306",
+    "duplicateKeys": [
+      "title:fantastic planet:1973",
+      "original:la planète sauvage:1973",
+      "source:tmdb:16306"
+    ]
+  },
+  {
+    "title": "Pan's Labyrinth",
+    "titleKey": "pan's labyrinth",
+    "originalTitle": "El laberinto del fauno",
+    "originalTitleKey": "el laberinto del fauno",
+    "year": 2006,
+    "runtime": 118,
+    "rating": 7.766,
+    "directorNames": [
+      "Guillermo del Toro"
+    ],
+    "actorNames": [
+      "Ivana Baquero",
+      "Sergi López",
+      "Maribel Verdú",
+      "Doug Jones",
+      "Ariadna Gil",
+      "Álex Angulo",
+      "Roger Casamajor",
+      "Manolo Solo",
+      "César Vea",
+      "Ivan Massagué",
+      "Gonzalo Uriarte",
+      "Eusebio Lázaro",
+      "Francisco Vidal",
+      "Juanjo Cucalón",
+      "Lina Mira",
+      "Mario Zorrilla",
+      "Sebastián Haro",
+      "Mila Espiga",
+      "Pepa Pedroche",
+      "Lalá Gatóo"
+    ],
+    "countryNames": [
+      "mx",
+      "es",
+      "us"
+    ],
+    "genreNames": [
+      "14",
+      "18",
+      "10752"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/z7xXihu5wHuSMWymq5VAulPVuvg.jpg",
+    "backdropUrl": "/6G6nqSW9S7EHA9HrYl0Z8uo2H7f.jpg",
+    "source": "tmdb",
+    "sourceId": "1417",
+    "duplicateKeys": [
+      "title:pan's labyrinth:2006",
+      "original:el laberinto del fauno:2006",
+      "source:tmdb:1417"
+    ]
+  },
+  {
+    "title": "Amélie",
+    "titleKey": "amélie",
+    "originalTitle": "Le Fabuleux Destin d'Amélie Poulain",
+    "originalTitleKey": "le fabuleux destin d'amélie poulain",
+    "year": 2001,
+    "runtime": 122,
+    "rating": 7.919,
+    "directorNames": [
+      "Jean-Pierre Jeunet"
+    ],
+    "actorNames": [
+      "Audrey Tautou",
+      "Mathieu Kassovitz",
+      "Rufus",
+      "Serge Merlin",
+      "Jamel Debbouze",
+      "Clotilde Mollet",
+      "Claire Maurier",
+      "Isabelle Nanty",
+      "Dominique Pinon",
+      "Artus de Penguern",
+      "Yolande Moreau",
+      "Urbain Cancelier",
+      "Lorella Cravotta",
+      "Maurice Bénichou",
+      "Michel Robin",
+      "Andrée Damant",
+      "Claude Perron",
+      "Armelle",
+      "Ticky Holgado",
+      "André Dussollier"
+    ],
+    "countryNames": [
+      "fr",
+      "de"
+    ],
+    "genreNames": [
+      "35",
+      "10749"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/nSxDa3M9aMvGVLoItzWTepQ5h5d.jpg",
+    "backdropUrl": "/6n53UI4mX9QMfe2S0Pgt8mGebY1.jpg",
+    "source": "tmdb",
+    "sourceId": "194",
+    "duplicateKeys": [
+      "title:amélie:2001",
+      "original:le fabuleux destin d'amélie poulain:2001",
+      "source:tmdb:194"
+    ]
+  },
+  {
+    "title": "Breathless",
+    "titleKey": "breathless",
+    "originalTitle": "À bout de souffle",
+    "originalTitleKey": "à bout de souffle",
+    "year": 1960,
+    "runtime": 90,
+    "rating": 7.481,
+    "directorNames": [
+      "Jean-Luc Godard"
+    ],
+    "actorNames": [
+      "Jean-Paul Belmondo",
+      "Jean Seberg",
+      "Daniel Boulanger",
+      "Henri-Jacques Huet",
+      "Roger Hanin",
+      "Van Doude",
+      "Claude Mansard",
+      "Liliane Dreyfus",
+      "Michel Fabre",
+      "Jean-Pierre Melville",
+      "Jean-Luc Godard",
+      "Richard Balducci",
+      "André S. Labarthe",
+      "François Moreuil",
+      "Jacques Lourcelles",
+      "Liliane Robin",
+      "Gérard Brach",
+      "Philippe de Broca",
+      "José Bénazéraf",
+      "Jean Domarchi"
+    ],
+    "countryNames": [
+      "fr"
+    ],
+    "genreNames": [
+      "18",
+      "80",
+      "10749"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/9Wx0Wdn2EOqeCZU4SP6tlS3LOml.jpg",
+    "backdropUrl": "/4WGuyWf1f94CsEeVIIqDKGw5rmO.jpg",
+    "source": "tmdb",
+    "sourceId": "269",
+    "duplicateKeys": [
+      "title:breathless:1960",
+      "original:à bout de souffle:1960",
+      "source:tmdb:269"
+    ]
+  },
+  {
+    "title": "The 400 Blows",
+    "titleKey": "the 400 blows",
+    "originalTitle": "Les Quatre Cents Coups",
+    "originalTitleKey": "les quatre cents coups",
+    "year": 1959,
+    "runtime": 99,
+    "rating": 8,
+    "directorNames": [
+      "François Truffaut"
+    ],
+    "actorNames": [
+      "Jean-Pierre Léaud",
+      "Claire Maurier",
+      "Albert Rémy",
+      "Georges Flamant",
+      "Patrick Auffay",
+      "Robert Beauvais",
+      "Yvonne Claudie",
+      "Pierre Repp",
+      "Guy Decomble",
+      "Daniel Couturier",
+      "François Nocher",
+      "Richard Kanayan",
+      "Renaud Fontanarosa",
+      "Michel Girard",
+      "Serge Moati",
+      "Bernard Abbou",
+      "Jean-François Bergouignan",
+      "Michel Lesignor",
+      "Jean-Claude Brialy",
+      "Jeanne Moreau"
+    ],
+    "countryNames": [
+      "fr"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/12PuU23kkDLvTd0nb8hMlE3oShB.jpg",
+    "backdropUrl": "/cy7ymUaMEWRoig7LWXpfzaaw2vv.jpg",
+    "source": "tmdb",
+    "sourceId": "147",
+    "duplicateKeys": [
+      "title:the 400 blows:1959",
+      "original:les quatre cents coups:1959",
+      "source:tmdb:147"
+    ]
+  },
+  {
+    "title": "Cléo from 5 to 7",
+    "titleKey": "cléo from 5 to 7",
+    "originalTitle": "Cléo de 5 à 7",
+    "originalTitleKey": "cléo de 5 à 7",
+    "year": 1962,
+    "runtime": 90,
+    "rating": 7.7,
+    "directorNames": [
+      "Agnès Varda"
+    ],
+    "actorNames": [
+      "Corinne Marchand",
+      "Antoine Bourseiller",
+      "Dominique Davray",
+      "Dorothée Blanck",
+      "Michel Legrand",
+      "José Luis de Vilallonga",
+      "Loye Payen",
+      "Renée Duchateau",
+      "Lucienne Marchand",
+      "Serge Korber",
+      "Robert Postec",
+      "Jean-Luc Godard",
+      "Anna Karina",
+      "Emilienne Caille",
+      "Eddie Constantine",
+      "Sami Frey",
+      "Danièle Delorme",
+      "Yves Robert",
+      "Alan Scott",
+      "Georges de Beauregard"
+    ],
+    "countryNames": [
+      "fr",
+      "it"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/oelBStY4xpguaplRv15P3Za7Xsr.jpg",
+    "backdropUrl": "/oyatchDPpS4I9jpIIezFJGrmXcR.jpg",
+    "source": "tmdb",
+    "sourceId": "499",
+    "duplicateKeys": [
+      "title:cléo from 5 to 7:1962",
+      "original:cléo de 5 à 7:1962",
+      "source:tmdb:499"
+    ]
+  },
+  {
+    "title": "The Rules of the Game",
+    "titleKey": "the rules of the game",
+    "originalTitle": "La Règle du jeu",
+    "originalTitleKey": "la règle du jeu",
+    "year": 1939,
+    "runtime": 110,
+    "rating": 7.484,
+    "directorNames": [
+      "Jean Renoir"
+    ],
+    "actorNames": [
+      "Jean Renoir",
+      "Marcel Dalio",
+      "Nora Gregor",
+      "Julien Carette",
+      "Roland Toutain",
+      "Paulette Dubost",
+      "Gaston Modot",
+      "Mila Parély",
+      "Anne Mayen",
+      "Eddy Debray",
+      "Odette Talazac",
+      "Claire Gérard",
+      "Pierre Magnier",
+      "Pierre Nay",
+      "Richard Francœur",
+      "Léon Larive",
+      "Lise Elina",
+      "Nicolas Amato",
+      "Jacques Beauvais",
+      "Henri Cartier-Bresson"
+    ],
+    "countryNames": [
+      "fr"
+    ],
+    "genreNames": [
+      "18",
+      "35",
+      "10749"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/8JOzt7uFZyshcuzCBmYU6CDJL4D.jpg",
+    "backdropUrl": "/8lRULNwlOIQ5Jg8puE2g7gjk32j.jpg",
+    "source": "tmdb",
+    "sourceId": "776",
+    "duplicateKeys": [
+      "title:the rules of the game:1939",
+      "original:la règle du jeu:1939",
+      "source:tmdb:776"
+    ]
+  },
+  {
+    "title": "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles",
+    "titleKey": "jeanne dielman, 23, quai du commerce, 1080 bruxelles",
+    "originalTitle": "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles",
+    "originalTitleKey": "jeanne dielman, 23, quai du commerce, 1080 bruxelles",
+    "year": 1976,
+    "runtime": 202,
+    "rating": 7.363,
+    "directorNames": [
+      "Chantal Akerman"
+    ],
+    "actorNames": [
+      "Delphine Seyrig",
+      "Jan Decorte",
+      "Henri Storck",
+      "Jacques Doniol-Valcroze",
+      "Yves Bical",
+      "Chantal Akerman"
+    ],
+    "countryNames": [
+      "be",
+      "fr"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/fqfSu8Y1YSVFkoCJyiTXI6woYma.jpg",
+    "backdropUrl": "/z81DzVg9lrBPr4M88ldmZ3FbBUY.jpg",
+    "source": "tmdb",
+    "sourceId": "44012",
+    "duplicateKeys": [
+      "title:jeanne dielman, 23, quai du commerce, 1080 bruxelles:1976",
+      "original:jeanne dielman, 23, quai du commerce, 1080 bruxelles:1976",
+      "source:tmdb:44012"
+    ]
+  },
+  {
+    "title": "Stalker",
+    "titleKey": "stalker",
+    "originalTitle": "Сталкер",
+    "originalTitleKey": "сталкер",
+    "year": 1979,
+    "runtime": 162,
+    "rating": 8.088,
+    "directorNames": [
+      "Andrei Tarkovsky"
+    ],
+    "actorNames": [
+      "Alisa Freyndlikh",
+      "Aleksandr Kaydanovskiy",
+      "Anatoliy Solonitsyn",
+      "Mykola Hrynko",
+      "Natalya Abramova",
+      "Faime Jurno",
+      "Evgeniy Kostin",
+      "Raimo Rendi",
+      "Vladimir Zamanskiy"
+    ],
+    "countryNames": [
+      "su"
+    ],
+    "genreNames": [
+      "878",
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/1qhOyf5C4s9ZdvY8d5JDx9DFMeT.jpg",
+    "backdropUrl": "/6yrbWzzrPp7pwz6zHdifspJk8t3.jpg",
+    "source": "tmdb",
+    "sourceId": "1398",
+    "duplicateKeys": [
+      "title:stalker:1979",
+      "original:сталкер:1979",
+      "source:tmdb:1398"
+    ]
+  },
+  {
+    "title": "Andrei Rublev",
+    "titleKey": "andrei rublev",
+    "originalTitle": "Андрей Рублёв",
+    "originalTitleKey": "андрей рублёв",
+    "year": 1966,
+    "runtime": 183,
+    "rating": 7.9,
+    "directorNames": [
+      "Andrei Tarkovsky"
+    ],
+    "actorNames": [
+      "Anatoliy Solonitsyn",
+      "Ivan Lapikov",
+      "Mykola Hrynko",
+      "Nikolai Sergeyev",
+      "Irma Raush",
+      "Nikolay Burlyaev",
+      "Yuriy Nazarov",
+      "Yuriy Nikulin",
+      "Rolan Bykov",
+      "Nikolay Grabbe",
+      "Mikhail Kononov",
+      "Stepan Krylov",
+      "Bolot Beyshenaliev",
+      "B. Matysik",
+      "Anatoliy Obukhov",
+      "Volodya Titov",
+      "Nikolay Glazkov",
+      "K. Aleksandrov",
+      "Semyon Bardin",
+      "Ivan Bykov"
+    ],
+    "countryNames": [
+      "su"
+    ],
+    "genreNames": [
+      "18",
+      "36"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/jUihkn16SwPPIjuOyo6orHWUep6.jpg",
+    "backdropUrl": "/jqha8JCXm0aJ5SJ03Jd0JmGgWRs.jpg",
+    "source": "tmdb",
+    "sourceId": "895",
+    "duplicateKeys": [
+      "title:andrei rublev:1966",
+      "original:андрей рублёв:1966",
+      "source:tmdb:895"
+    ]
+  },
+  {
+    "title": "Come and See",
+    "titleKey": "come and see",
+    "originalTitle": "Иди и смотри",
+    "originalTitleKey": "иди и смотри",
+    "year": 1985,
+    "runtime": 142,
+    "rating": 8.2,
+    "directorNames": [
+      "Elem Klimov"
+    ],
+    "actorNames": [
+      "Aleksei Kravchenko",
+      "Olga Mironova",
+      "Liubomiras Laucevičius",
+      "Vladas Bagdonas",
+      "Jüri Lumiste",
+      "Viktors Lorencs",
+      "Kazimir Rabetsky",
+      "Yevgeni Tilicheyev",
+      "Aleksandr Berda",
+      "G. Velts",
+      "Viktor Vasiliev",
+      "Igor Gnevashev",
+      "Vasiliy Domrachyov",
+      "Gennadiy Yelkin",
+      "Evgeniy Kryzhanovskiy",
+      "N. Lisichenok",
+      "Viktor Manaev",
+      "Takhir Matyullin",
+      "Pyotr Merkuryev",
+      "Valentin Mishatkin"
+    ],
+    "countryNames": [
+      "su"
+    ],
+    "genreNames": [
+      "18",
+      "10752"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/qNbMsKVzigERgJUbwf8pKyZogpb.jpg",
+    "backdropUrl": "/3Na31ta8vDuKOgQuPLdSZLs8bCB.jpg",
+    "source": "tmdb",
+    "sourceId": "25237",
+    "duplicateKeys": [
+      "title:come and see:1985",
+      "original:иди и смотри:1985",
+      "source:tmdb:25237"
+    ]
+  },
+  {
+    "title": "The Lives of Others",
+    "titleKey": "the lives of others",
+    "originalTitle": "Das Leben der Anderen",
+    "originalTitleKey": "das leben der anderen",
+    "year": 2006,
+    "runtime": 137,
+    "rating": 8.039,
+    "directorNames": [
+      "Florian Henckel von Donnersmarck"
+    ],
+    "actorNames": [
+      "Martina Gedeck",
+      "Ulrich Mühe",
+      "Sebastian Koch",
+      "Ulrich Tukur",
+      "Thomas Thieme",
+      "Hans-Uwe Bauer",
+      "Volkmar Kleinert",
+      "Matthias Brenner",
+      "Charly Hübner",
+      "Herbert Knaup",
+      "Bastian Trost",
+      "Marie Gruber",
+      "Volker Michalowski",
+      "Werner Daehn",
+      "Hinnerk Schönemann",
+      "Thomas Arnold",
+      "Ludwig Blochberger",
+      "Martin Brambach",
+      "Hubertus Hartmann",
+      "Paul Faßnacht"
+    ],
+    "countryNames": [
+      "de",
+      "fr"
+    ],
+    "genreNames": [
+      "18",
+      "53"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/cVUDMnskSc01rdbyH0tLATTJUdP.jpg",
+    "backdropUrl": "/g11nKgir3nIhlG2gIDWIvJeR4fz.jpg",
+    "source": "tmdb",
+    "sourceId": "582",
+    "duplicateKeys": [
+      "title:the lives of others:2006",
+      "original:das leben der anderen:2006",
+      "source:tmdb:582"
+    ]
+  },
+  {
+    "title": "Cinema Paradiso",
+    "titleKey": "cinema paradiso",
+    "originalTitle": "Nuovo Cinema Paradiso",
+    "originalTitleKey": "nuovo cinema paradiso",
+    "year": 1988,
+    "runtime": 124,
+    "rating": 8.43,
+    "directorNames": [
+      "Giuseppe Tornatore"
+    ],
+    "actorNames": [
+      "Philippe Noiret",
+      "Jacques Perrin",
+      "Marco Leonardi",
+      "Salvatore Cascio",
+      "Agnese Nano",
+      "Antonella Attili",
+      "Pupella Maggio",
+      "Enzo Cannavale",
+      "Isa Danieli",
+      "Leo Gullotta",
+      "Leopoldo Trieste",
+      "Tano Cimarosa",
+      "Nicola Di Pinto",
+      "Roberta Lena",
+      "Nino Terzo",
+      "Turi Giuffrida",
+      "Mimmo Mignemi",
+      "Mariella Lo Giudice",
+      "Giorgio Libassi",
+      "Beatrice Palme"
+    ],
+    "countryNames": [
+      "it",
+      "fr"
+    ],
+    "genreNames": [
+      "18",
+      "10749"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/gCI2AeMV4IHSewhJkzsur5MEp6R.jpg",
+    "backdropUrl": "/zoVeIgKzGJzpdG6Gwnr7iOYfIMU.jpg",
+    "source": "tmdb",
+    "sourceId": "11216",
+    "duplicateKeys": [
+      "title:cinema paradiso:1988",
+      "original:nuovo cinema paradiso:1988",
+      "source:tmdb:11216"
+    ]
+  },
+  {
+    "title": "A Separation",
+    "titleKey": "a separation",
+    "originalTitle": "جدایی نادر از سیمین",
+    "originalTitleKey": "جدایی نادر از سیمین",
+    "year": 2011,
+    "runtime": 123,
+    "rating": 7.9,
+    "directorNames": [
+      "Asghar Farhadi"
+    ],
+    "actorNames": [
+      "Leila Hatami",
+      "Payman Maadi",
+      "Sareh Bayat",
+      "Sarina Farhadi",
+      "Shahab Hosseini",
+      "Kimia Hosseini",
+      "Ali-Asghar Shahbazi",
+      "Babak Karimi",
+      "Merila Zarei",
+      "Shirin Yazdanbakhsh",
+      "Mohammad Sajadian",
+      "Armine Zeytounchian",
+      "Bahareh Riyahi"
+    ],
+    "countryNames": [
+      "ir",
+      "fr"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/xQadpnoLokxzN3hRpCPbBGpxsiz.jpg",
+    "backdropUrl": "/vSQ2FK4LzevXeHeXvEHb7t4I0SW.jpg",
+    "source": "tmdb",
+    "sourceId": "60243",
+    "duplicateKeys": [
+      "title:a separation:2011",
+      "original:جدایی نادر از سیمین:2011",
+      "source:tmdb:60243"
+    ]
+  },
+  {
+    "title": "Close-Up",
+    "titleKey": "close-up",
+    "originalTitle": "کلوزآپ ، نمای نزدیک",
+    "originalTitleKey": "کلوزآپ ، نمای نزدیک",
+    "year": 1990,
+    "runtime": 98,
+    "rating": 7.951,
+    "directorNames": [
+      "Abbas Kiarostami"
+    ],
+    "actorNames": [
+      "Hossain Sabzian",
+      "Monoochehr Ahankhah",
+      "Mahrokh Ahankhah",
+      "Abolfazl Ahankhah",
+      "Mehrdad Ahankhah",
+      "Nayer Mohseni Zonoozi",
+      "Hossain Farazmand",
+      "Ahmad Reza Moayed Mohseni",
+      "Hooshang Shamaei",
+      "Mohammad Ali Barrati",
+      "Davood Goodarzi",
+      "Haj Ali Reza Ahmadi",
+      "Hassan Komaili",
+      "Davood Mohabbat",
+      "Hassan Farazmand",
+      "Hushang Shahai",
+      "Mohsen Makhmalbaf",
+      "Abbas Kiarostami"
+    ],
+    "countryNames": [
+      "ir"
+    ],
+    "genreNames": [
+      "80",
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/m9HG2N9ZKCmNN9qOHJTNyy18wn3.jpg",
+    "backdropUrl": "/3t1qZqP1e17wQshpPKSqII1OogM.jpg",
+    "source": "tmdb",
+    "sourceId": "30017",
+    "duplicateKeys": [
+      "title:close-up:1990",
+      "original:کلوزآپ ، نمای نزدیک:1990",
+      "source:tmdb:30017"
+    ]
+  },
+  {
+    "title": "Taste of Cherry",
+    "titleKey": "taste of cherry",
+    "originalTitle": "طعم گيلاس",
+    "originalTitleKey": "طعم گيلاس",
+    "year": 1997,
+    "runtime": 99,
+    "rating": 7.692,
+    "directorNames": [
+      "Abbas Kiarostami"
+    ],
+    "actorNames": [
+      "Homayoun Ershadi",
+      "Abdolrahman Bagheri",
+      "Safar Ali Moradi",
+      "Mir Hossein Noori",
+      "Elham Imani",
+      "Afshin Khorshid Bakhtiari",
+      "Ahmad Ansari"
+    ],
+    "countryNames": [
+      "ir",
+      "fr"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/vgPwjgbSdbYWrS1ty8TIZtmi6Tn.jpg",
+    "backdropUrl": "/44SNTCSZTdbF5bzgUy4IfPV3DUq.jpg",
+    "source": "tmdb",
+    "sourceId": "30020",
+    "duplicateKeys": [
+      "title:taste of cherry:1997",
+      "original:طعم گيلاس:1997",
+      "source:tmdb:30020"
+    ]
+  },
+  {
+    "title": "The Wind Will Carry Us",
+    "titleKey": "the wind will carry us",
+    "originalTitle": "باد ما را خواهد برد",
+    "originalTitleKey": "باد ما را خواهد برد",
+    "year": 1999,
+    "runtime": 118,
+    "rating": 7.107,
+    "directorNames": [
+      "Abbas Kiarostami"
+    ],
+    "actorNames": [
+      "Behzad Dorani",
+      "Farzad Sohrabi",
+      "Noghre Asadi",
+      "Roushan Karam Elmi",
+      "Bahman Ghobadi",
+      "Shahpour Ghobadi",
+      "Reihan Heidari",
+      "Masood Mansouri",
+      "Ali Reza Naderi",
+      "Frangis Rahsepar",
+      "Masoameh Salimi",
+      "Lida Soltani"
+    ],
+    "countryNames": [
+      "ir",
+      "fr"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/tzrqZungDYA3Djp61NWUm7DtxNI.jpg",
+    "backdropUrl": "/b9UPNXGV7mEUmLejR8caJIJijow.jpg",
+    "source": "tmdb",
+    "sourceId": "43423",
+    "duplicateKeys": [
+      "title:the wind will carry us:1999",
+      "original:باد ما را خواهد برد:1999",
+      "source:tmdb:43423"
+    ]
+  },
+  {
+    "title": "The Salesman",
+    "titleKey": "the salesman",
+    "originalTitle": "فروشنده",
+    "originalTitleKey": "فروشنده",
+    "year": 2016,
+    "runtime": 125,
+    "rating": 7.247,
+    "directorNames": [
+      "Asghar Farhadi"
+    ],
+    "actorNames": [
+      "Shahab Hosseini",
+      "Taraneh Alidoosti",
+      "Babak Karimi",
+      "Mina Sadati",
+      "Mehdi Koushki",
+      "Farid Sajjadi Hosseini",
+      "Maral Baniadam",
+      "Mojtaba Pirzadeh",
+      "Sam Valipour",
+      "Shirin Aghakashi",
+      "Emad Emami",
+      "Sahra Asadollahi",
+      "Ehteram Boroumand",
+      "Erfan Barzin",
+      "Alireza Rofougaran",
+      "Shirin Agharezakashi"
+    ],
+    "countryNames": [
+      "ir",
+      "fr",
+      "qa"
+    ],
+    "genreNames": [
+      "18",
+      "53"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/x4PIuYU5ZMMXiTrheNR8vCTYPBf.jpg",
+    "backdropUrl": "/woSmQgo1wxE4WRVXWHrmgv3jy2O.jpg",
+    "source": "tmdb",
+    "sourceId": "375315",
+    "duplicateKeys": [
+      "title:the salesman:2016",
+      "original:فروشنده:2016",
+      "source:tmdb:375315"
+    ]
+  },
+  {
+    "title": "Capernaum",
+    "titleKey": "capernaum",
+    "originalTitle": "کفرناحوم",
+    "originalTitleKey": "کفرناحوم",
+    "year": 2018,
+    "runtime": 126,
+    "rating": 8.149,
+    "directorNames": [
+      "Nadine Labaki"
+    ],
+    "actorNames": [
+      "Zain Al Rafeea",
+      "Yordanos Shifera",
+      "Boluwatife Treasure Bankole",
+      "Kawsar Al Haddad",
+      "Fadi Kamel Yousef",
+      "Cedra Izzam",
+      "Alaa Chouchnieh",
+      "Elias Khoury",
+      "Nadine Labaki",
+      "Nour el Husseini",
+      "Joseph Jimbazian",
+      "Samira Chalhoub",
+      "Farah Hasno"
+    ],
+    "countryNames": [
+      "fr",
+      "lb",
+      "gb",
+      "us"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/mFnfTVADj8yOxwzprYOmTPselk8.jpg",
+    "backdropUrl": "/sEW8q9al73rtow257dXAusD9yS7.jpg",
+    "source": "tmdb",
+    "sourceId": "517814",
+    "duplicateKeys": [
+      "title:capernaum:2018",
+      "original:کفرناحوم:2018",
+      "source:tmdb:517814"
+    ]
+  },
+  {
+    "title": "Theeb",
+    "titleKey": "theeb",
+    "originalTitle": "ذيب",
+    "originalTitleKey": "ذيب",
+    "year": 2014,
+    "runtime": 100,
+    "rating": 6.72,
+    "directorNames": [
+      "Naji Abu Nowar"
+    ],
+    "actorNames": [
+      "Jacir Eid Al-Hwietat",
+      "Hassan Mutlag Al-Maraiyeh",
+      "Hussein Salameh Al-Sweilhiyeen",
+      "Marji Audeh",
+      "Jack Fox"
+    ],
+    "countryNames": [
+      "jo",
+      "qa",
+      "ch",
+      "ae",
+      "gb"
+    ],
+    "genreNames": [
+      "12",
+      "53",
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/qixAor6q0GDPXcMEVgVi2fnWMb9.jpg",
+    "backdropUrl": "/fCO18PpHSdrjs0YHigztBmv5XuE.jpg",
+    "source": "tmdb",
+    "sourceId": "287628",
+    "duplicateKeys": [
+      "title:theeb:2014",
+      "original:ذيب:2014",
+      "source:tmdb:287628"
+    ]
+  },
+  {
+    "title": "Wadjda",
+    "titleKey": "wadjda",
+    "originalTitle": "Das Mädchen Wadjda",
+    "originalTitleKey": "das mädchen wadjda",
+    "year": 2012,
+    "runtime": 98,
+    "rating": 7.222,
+    "directorNames": [
+      "Haifaa al-Mansour"
+    ],
+    "actorNames": [
+      "Reem Abdullah",
+      "Waad Mohammed",
+      "Abdullrahman Algohani",
+      "Ahd Kamel",
+      "Sultan Al Assaf",
+      "Dana Abdullilah",
+      "Rehab Ahmed",
+      "Rafa Al Sanea",
+      "Sara Aljaber",
+      "Noura Faisal",
+      "Talal Loay",
+      "Sami Hazim",
+      "Mohammed Zahir",
+      "Nouf Saad",
+      "Faoziah Alyaaqop"
+    ],
+    "countryNames": [
+      "de",
+      "sa"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/w4iCIZ1kWSOCt0yELjfUMNAToUF.jpg",
+    "backdropUrl": "/e7CAgALwH47WEKVqTUfNZO5nPiO.jpg",
+    "source": "tmdb",
+    "sourceId": "129112",
+    "duplicateKeys": [
+      "title:wadjda:2012",
+      "original:das mädchen wadjda:2012",
+      "source:tmdb:129112"
+    ]
+  },
+  {
+    "title": "Yojimbo",
+    "titleKey": "yojimbo",
+    "originalTitle": "用心棒",
+    "originalTitleKey": "用心棒",
+    "year": 1961,
+    "runtime": 110,
+    "rating": 8.08,
+    "directorNames": [
+      "Akira Kurosawa"
+    ],
+    "actorNames": [
+      "Toshirō Mifune",
+      "Tatsuya Nakadai",
+      "Yōko Tsukasa",
+      "Isuzu Yamada",
+      "Daisuke Katō",
+      "Seizaburō Kawazu",
+      "Takashi Shimura",
+      "Hiroshi Tachikawa",
+      "Yōsuke Natsuki",
+      "Eijirō Tōno",
+      "Kamatari Fujiwara",
+      "Ikio Sawamura",
+      "Atsushi Watanabe",
+      "Susumu Fujita",
+      "Kyū Sazanka",
+      "Kō Nishimura",
+      "Takeshi Katō",
+      "Ichirō Nakatani",
+      "Sachio Sakai",
+      "Akira Tani"
+    ],
+    "countryNames": [
+      "jp"
+    ],
+    "genreNames": [
+      "18",
+      "53"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/tN7kYPjRhDolpui9sc9Eq9n5b2O.jpg",
+    "backdropUrl": "/5BBwSVytssbFuSPZE4DtJVhROjN.jpg",
+    "source": "tmdb",
+    "sourceId": "11878",
+    "duplicateKeys": [
+      "title:yojimbo:1961",
+      "original:用心棒:1961",
+      "source:tmdb:11878"
+    ]
+  },
+  {
+    "title": "Tokyo Story",
+    "titleKey": "tokyo story",
+    "originalTitle": "東京物語",
+    "originalTitleKey": "東京物語",
+    "year": 1953,
+    "runtime": 137,
+    "rating": 8.151,
+    "directorNames": [
+      "Yasujirō Ozu"
+    ],
+    "actorNames": [
+      "Chishū Ryū",
+      "Chieko Higashiyama",
+      "Setsuko Hara",
+      "Haruko Sugimura",
+      "So Yamamura",
+      "Kuniko Miyake",
+      "Kyōko Kagawa",
+      "Eijirō Tōno",
+      "Nobuo Nakamura",
+      "Shirō Ōsaka",
+      "Hisao Toake",
+      "Teruko Nagaoka",
+      "Mutsuko Sakura",
+      "Toyo Takahashi",
+      "Tōru Abe",
+      "Sachiko Mitani",
+      "Ryōko Mizuki",
+      "Keijirō Morozumi",
+      "Shozo Suzuki",
+      "Haruko Chichibu"
+    ],
+    "countryNames": [
+      "jp"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/g2YbTYKpY7N2yDSk7BfXZ18I5QV.jpg",
+    "backdropUrl": "/jLq0ol1f0ZKXni9R9GsPBcyPrNN.jpg",
+    "source": "tmdb",
+    "sourceId": "18148",
+    "duplicateKeys": [
+      "title:tokyo story:1953",
+      "original:東京物語:1953",
+      "source:tmdb:18148"
+    ]
+  },
+  {
+    "title": "Late Spring",
+    "titleKey": "late spring",
+    "originalTitle": "晩春",
+    "originalTitleKey": "晩春",
+    "year": 1949,
+    "runtime": 108,
+    "rating": 8,
+    "directorNames": [
+      "Yasujirō Ozu"
+    ],
+    "actorNames": [
+      "Chishū Ryū",
+      "Setsuko Hara",
+      "Yumeji Tsukioka",
+      "Haruko Sugimura",
+      "Hōhi Aoki",
+      "Jun Usami",
+      "Kuniko Miyake",
+      "Masao Mishima",
+      "Yoshiko Tsubouchi",
+      "Yōko Katsuragi",
+      "Toyo Takahashi",
+      "Jun Tanizaki",
+      "Ichirō Shimizu",
+      "Yoko Benisawa",
+      "Manzaburo Umewaka",
+      "Nobu Nojima",
+      "Ichiro Kitamura",
+      "Haruo Yasufuku",
+      "Tadaichi Aoki",
+      "Seiju Kanze"
+    ],
+    "countryNames": [
+      "jp"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/iNtRSY2AGjW1VDXDR79bKsNUdus.jpg",
+    "backdropUrl": "/sKEncrsqPxibvlWbsXYsPhXGBjw.jpg",
+    "source": "tmdb",
+    "sourceId": "20530",
+    "duplicateKeys": [
+      "title:late spring:1949",
+      "original:晩春:1949",
+      "source:tmdb:20530"
+    ]
+  },
+  {
+    "title": "Harakiri",
+    "titleKey": "harakiri",
+    "originalTitle": "切腹",
+    "originalTitleKey": "切腹",
+    "year": 1962,
+    "runtime": 135,
+    "rating": 8.4,
+    "directorNames": [
+      "Masaki Kobayashi"
+    ],
+    "actorNames": [
+      "Tatsuya Nakadai",
+      "Akira Ishihama",
+      "Shima Iwashita",
+      "Tetsuro Tamba",
+      "Masao Mishima",
+      "Ichirō Nakatani",
+      "Kei Satō",
+      "Yoshio Inaba",
+      "Hisashi Igawa",
+      "Toru Takeuchi",
+      "Yoshirō Aoki",
+      "Tatsuo Matsumura",
+      "Akiji Kobayashi",
+      "Kōichi Hayashi",
+      "Ryūtarō Gomi",
+      "Jo Azumi",
+      "Nakajirō Tomita",
+      "Shichisaburo Amatsu",
+      "Kenzō Tanaka",
+      "Shin Nakahara"
+    ],
+    "countryNames": [
+      "jp"
+    ],
+    "genreNames": [
+      "28",
+      "18",
+      "36"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/zK7HsOC7QxW1ldKIeFG8YJ5F2Eb.jpg",
+    "backdropUrl": "/nC3IjYhUgZWgfKfFX0ygMigFwgc.jpg",
+    "source": "tmdb",
+    "sourceId": "14537",
+    "duplicateKeys": [
+      "title:harakiri:1962",
+      "original:切腹:1962",
+      "source:tmdb:14537"
+    ]
+  },
+  {
+    "title": "Ugetsu",
+    "titleKey": "ugetsu",
+    "originalTitle": "雨月物語",
+    "originalTitleKey": "雨月物語",
+    "year": 1953,
+    "runtime": 96,
+    "rating": 8.011,
+    "directorNames": [
+      "Kenji Mizoguchi"
+    ],
+    "actorNames": [
+      "Machiko Kyō",
+      "Mitsuko Mito",
+      "Kinuyo Tanaka",
+      "Masayuki Mori",
+      "Eitarō Ozawa",
+      "Sugisaku Aoyama",
+      "Mitsusaburō Ramon",
+      "Ryōsuke Kagawa",
+      "Kichijirō Ueda",
+      "Shōzō Nanbu",
+      "Kikue Mōri",
+      "Ryūzaburō Mitsuoka",
+      "Ichirō Amano",
+      "Eigorō Onoe",
+      "Saburo Date",
+      "Fumihiko Yokoyama",
+      "Ichisaburo Sawamura",
+      "Koji Murata",
+      "Yukio Horikita",
+      "Akira Shimizu"
+    ],
+    "countryNames": [
+      "jp"
+    ],
+    "genreNames": [
+      "14",
+      "18",
+      "9648"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/r8RiuKTIYIJBjczBVsfeP5C00CJ.jpg",
+    "backdropUrl": "/iB1tCWl4MKl6OO1kMBD5LxM5BmJ.jpg",
+    "source": "tmdb",
+    "sourceId": "14696",
+    "duplicateKeys": [
+      "title:ugetsu:1953",
+      "original:雨月物語:1953",
+      "source:tmdb:14696"
+    ]
+  },
+  {
+    "title": "Sansho the Bailiff",
+    "titleKey": "sansho the bailiff",
+    "originalTitle": "山椒大夫",
+    "originalTitleKey": "山椒大夫",
+    "year": 1954,
+    "runtime": 124,
+    "rating": 8.1,
+    "directorNames": [
+      "Kenji Mizoguchi"
+    ],
+    "actorNames": [
+      "Kinuyo Tanaka",
+      "Yoshiaki Hanayagi",
+      "Kyōko Kagawa",
+      "Eitarō Shindō",
+      "Ichirō Sugai",
+      "Bontarō Miake",
+      "Yōko Kozono",
+      "Chieko Naniwa",
+      "Kikue Mōri",
+      "Ken Mitsuda",
+      "Masao Shimizu",
+      "Ryōsuke Kagawa",
+      "Akitake Kōno",
+      "Kanji Koshiba",
+      "Shinobu Araki",
+      "Masahiko Tsugawa",
+      "Keiko Enami",
+      "Teruko Ōmi",
+      "Kimiko Tachibana",
+      "Reiko Kongō"
+    ],
+    "countryNames": [
+      "jp"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/cOBsWxFtEoqXIPx4JZP5E7g1WEo.jpg",
+    "backdropUrl": "/7m8b1YwEeK8NeMkiSbPY8CMJx6a.jpg",
+    "source": "tmdb",
+    "sourceId": "20532",
+    "duplicateKeys": [
+      "title:sansho the bailiff:1954",
+      "original:山椒大夫:1954",
+      "source:tmdb:20532"
+    ]
+  },
+  {
+    "title": "Tampopo",
+    "titleKey": "tampopo",
+    "originalTitle": "タンポポ",
+    "originalTitleKey": "タンポポ",
+    "year": 1985,
+    "runtime": 115,
+    "rating": 7.785,
+    "directorNames": [
+      "Jūzō Itami"
+    ],
+    "actorNames": [
+      "Tsutomu Yamazaki",
+      "Nobuko Miyamoto",
+      "Ken Watanabe",
+      "Koji Yakusho",
+      "Rikiya Yasuoka",
+      "Kinzō Sakura",
+      "Hyōe Enoki",
+      "Gō Awazu",
+      "Mario Abe",
+      "Izumi Hara",
+      "Isao Hashizume",
+      "Hisashi Igawa",
+      "Toshimune Kato",
+      "Kenso Kato",
+      "Yoshi Katō",
+      "Yoshihiro Katō",
+      "Toshiya Fujita",
+      "Fukumi Kuroda",
+      "Nobuo Nakamura",
+      "Mariko Okada"
+    ],
+    "countryNames": [
+      "jp"
+    ],
+    "genreNames": [
+      "35"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/ArYdSuX3zY9fMsE4LqmBl7xJq5R.jpg",
+    "backdropUrl": "/oq8HM9TOSbH54Xy0OBJGzYrtUC7.jpg",
+    "source": "tmdb",
+    "sourceId": "11830",
+    "duplicateKeys": [
+      "title:tampopo:1985",
+      "original:タンポポ:1985",
+      "source:tmdb:11830"
+    ]
+  },
+  {
+    "title": "Yi Yi",
+    "titleKey": "yi yi",
+    "originalTitle": "一一",
+    "originalTitleKey": "一一",
+    "year": 2000,
+    "runtime": 174,
+    "rating": 7.946,
+    "directorNames": [
+      "Edward Yang"
+    ],
+    "actorNames": [
+      "Wu Nien-jen",
+      "Issey Ogata",
+      "Elaine Jin Yan-Ling",
+      "Kelly Lee",
+      "Jonathan Chang",
+      "Chen Hsi-sheng",
+      "Ko Su-yun",
+      "Michael Tao",
+      "Suzanne Shu-shen Hsiao",
+      "Adriene Lin",
+      "Chang Yu-pang",
+      "Tang Ru-Yun",
+      "Hsu Shu-Yuan",
+      "Tseng Hsin-Yi",
+      "Lee Yung-Feng",
+      "Shi-hui Chin",
+      "Wu Jie",
+      "Shu Kuo-Chih",
+      "Leon Dai",
+      "Mei-Yun Yu"
+    ],
+    "countryNames": [
+      "tw",
+      "jp"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/mR8dSQZI8X6Z1NClJhFrtJp636z.jpg",
+    "backdropUrl": "/x903dx8Km6XNLFEmvbXc98vePSV.jpg",
+    "source": "tmdb",
+    "sourceId": "25538",
+    "duplicateKeys": [
+      "title:yi yi:2000",
+      "original:一一:2000",
+      "source:tmdb:25538"
+    ]
+  },
+  {
+    "title": "A Brighter Summer Day",
+    "titleKey": "a brighter summer day",
+    "originalTitle": "牯嶺街少年殺人事件",
+    "originalTitleKey": "牯嶺街少年殺人事件",
+    "year": 1991,
+    "runtime": 237,
+    "rating": 8.2,
+    "directorNames": [
+      "Edward Yang"
+    ],
+    "actorNames": [
+      "Chang Chen",
+      "Lisa Yang",
+      "Chang Kuo-Chu",
+      "Elaine Jin Yan-Ling",
+      "Wang Chuan",
+      "Chang Han",
+      "Chiang Hsiu-Chiung",
+      "Stephanie Lai",
+      "Tan Chih-Kang",
+      "Wang Chi-tsan",
+      "Lawrence Ko",
+      "Chang Ming-Hsin",
+      "Jung Chun-Lung",
+      "Hui-Kuo Chou",
+      "Chi-Chung Liu",
+      "Ching-Hsiang Ho",
+      "Chang-Ta Tsai",
+      "Tsung-Ming Lee",
+      "Hung-Ming Lin",
+      "Wang Bosen"
+    ],
+    "countryNames": [
+      "tw"
+    ],
+    "genreNames": [
+      "80",
+      "18",
+      "10749"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/3l8fOAwiN3N5n3hHnZ51eog7Zu2.jpg",
+    "backdropUrl": "/hypv7bDxzqdhJfEpjRKf1aQbdc.jpg",
+    "source": "tmdb",
+    "sourceId": "15804",
+    "duplicateKeys": [
+      "title:a brighter summer day:1991",
+      "original:牯嶺街少年殺人事件:1991",
+      "source:tmdb:15804"
+    ]
+  },
+  {
+    "title": "Farewell My Concubine",
+    "titleKey": "farewell my concubine",
+    "originalTitle": "霸王别姬",
+    "originalTitleKey": "霸王别姬",
+    "year": 1993,
+    "runtime": 171,
+    "rating": 7.907,
+    "directorNames": [
+      "Chen Kaige"
+    ],
+    "actorNames": [
+      "Leslie Cheung",
+      "Zhang Fengyi",
+      "Gong Li",
+      "Lü Qi",
+      "Ying Da",
+      "Ge You",
+      "Lei Han",
+      "Tong Di",
+      "Yin Zhi",
+      "Ma Mingwei",
+      "Zhao Hailong",
+      "Fei Zhenxiang",
+      "Yang Yong Chao",
+      "Huang Fei",
+      "Jiang Wenli",
+      "Zhi Yitong",
+      "Li Chun",
+      "David Wu",
+      "Shen Huifen",
+      "Huang Lei"
+    ],
+    "countryNames": [
+      "cn",
+      "hk"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/f54hNIiHNINw3JiUJB2XaQl5wCN.jpg",
+    "backdropUrl": "/bBiZN1epQTu3F8iFLBuMhc4TRzr.jpg",
+    "source": "tmdb",
+    "sourceId": "10997",
+    "duplicateKeys": [
+      "title:farewell my concubine:1993",
+      "original:霸王别姬:1993",
+      "source:tmdb:10997"
+    ]
+  },
+  {
+    "title": "Raise the Red Lantern",
+    "titleKey": "raise the red lantern",
+    "originalTitle": "大红灯笼高高挂",
+    "originalTitleKey": "大红灯笼高高挂",
+    "year": 1991,
+    "runtime": 125,
+    "rating": 7.9,
+    "directorNames": [
+      "Zhang Yimou"
+    ],
+    "actorNames": [
+      "Gong Li",
+      "He Saifei",
+      "Cao Cuifen",
+      "Kong Lin",
+      "Zhao Qi",
+      "Jin Shuyuan",
+      "Ma Jingwu",
+      "Cui Zhigang",
+      "Chu Xiao",
+      "Cao Zengyin",
+      "Ding Weimin"
+    ],
+    "countryNames": [
+      "cn",
+      "hk",
+      "tw"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/j6MGZpg55cTqlHHwahBtzI2qQg1.jpg",
+    "backdropUrl": "/9UCHfC9tYojD4mMVBm0boyzYEQq.jpg",
+    "source": "tmdb",
+    "sourceId": "10404",
+    "duplicateKeys": [
+      "title:raise the red lantern:1991",
+      "original:大红灯笼高高挂:1991",
+      "source:tmdb:10404"
+    ]
+  },
+  {
+    "title": "Crouching Tiger, Hidden Dragon",
+    "titleKey": "crouching tiger, hidden dragon",
+    "originalTitle": "卧虎藏龍",
+    "originalTitleKey": "卧虎藏龍",
+    "year": 2000,
+    "runtime": 120,
+    "rating": 7.433,
+    "directorNames": [
+      "Ang Lee"
+    ],
+    "actorNames": [
+      "Chow Yun-Fat",
+      "Michelle Yeoh",
+      "Zhang Ziyi",
+      "Chang Chen",
+      "Lung Sihung",
+      "Cheng Pei-Pei",
+      "Li Fazeng",
+      "Gao Xian",
+      "Hai Yan",
+      "Wang Deming",
+      "Li Li",
+      "Huang Suying",
+      "Zhang Jinting",
+      "Yang Rui",
+      "Li Kai",
+      "Feng Jianhua",
+      "Du Zhenxi",
+      "Xu Chenglin",
+      "Lin Feng",
+      "Wang Wensheng"
+    ],
+    "countryNames": [
+      "hk",
+      "tw",
+      "us",
+      "cn"
+    ],
+    "genreNames": [
+      "12",
+      "18",
+      "28",
+      "10749"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/iNDVBFNz4XyYzM9Lwip6atSTFqf.jpg",
+    "backdropUrl": "/nSm9cij9VRrGDoZoS16CPnX0FqK.jpg",
+    "source": "tmdb",
+    "sourceId": "146",
+    "duplicateKeys": [
+      "title:crouching tiger, hidden dragon:2000",
+      "original:卧虎藏龍:2000",
+      "source:tmdb:146"
+    ]
+  },
+  {
+    "title": "The Host",
+    "titleKey": "the host",
+    "originalTitle": "괴물",
+    "originalTitleKey": "괴물",
+    "year": 2006,
+    "runtime": 120,
+    "rating": 6.976,
+    "directorNames": [
+      "Bong Joon Ho"
+    ],
+    "actorNames": [
+      "Song Kang-ho",
+      "Byun Hee-bong",
+      "Park Hae-il",
+      "Bae Doona",
+      "Ko A-sung",
+      "Oh Dal-su",
+      "Lee Jae-eung",
+      "Lee Dong-ho",
+      "Yoon Je-moon",
+      "Yim Pil-sung",
+      "Kim Roi-ha",
+      "Koh Soo-hee",
+      "Kim Hak-seon",
+      "Scott Wilson",
+      "Brian Rhee",
+      "Paul Lazar",
+      "David Anselmo",
+      "Baek Do-bin",
+      "Martin Lord Cayce",
+      "Choi Dae-sung"
+    ],
+    "countryNames": [
+      "kr"
+    ],
+    "genreNames": [
+      "27",
+      "18",
+      "878"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/m3OE5bpcGHMWYlPkYvgIrncuuGN.jpg",
+    "backdropUrl": "/m0wczZyNfWpu5q9wNuhFUGGiLxG.jpg",
+    "source": "tmdb",
+    "sourceId": "1255",
+    "duplicateKeys": [
+      "title:the host:2006",
+      "original:괴물:2006",
+      "source:tmdb:1255"
+    ]
+  },
+  {
+    "title": "Memories of Murder",
+    "titleKey": "memories of murder",
+    "originalTitle": "살인의 추억",
+    "originalTitleKey": "살인의 추억",
+    "year": 2003,
+    "runtime": 131,
+    "rating": 8.062,
+    "directorNames": [
+      "Bong Joon Ho"
+    ],
+    "actorNames": [
+      "Song Kang-ho",
+      "Kim Sang-kyung",
+      "Kim Roi-ha",
+      "Song Jae-ho",
+      "Byun Hee-bong",
+      "Go Seo-hee",
+      "Ryu Tae-ho",
+      "Park No-shik",
+      "Park Hae-il",
+      "Jeon Mi-seon",
+      "Seo Young-hwa",
+      "Woo Go-na",
+      "Choi Jong-ryul",
+      "Yoo Seung-mok",
+      "Shin Hyeon-jong",
+      "Jung In-sun",
+      "Lee Jae-eung",
+      "Kwon Byung-gil",
+      "Park Hyun-young",
+      "Yoon Ga-hyun"
+    ],
+    "countryNames": [
+      "kr"
+    ],
+    "genreNames": [
+      "80",
+      "18",
+      "53"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/jcgUjx1QcupGzjntTVlnQ15lHqy.jpg",
+    "backdropUrl": "/6Kn6qW3an3DkPl3MahWemTzrjCt.jpg",
+    "source": "tmdb",
+    "sourceId": "11423",
+    "duplicateKeys": [
+      "title:memories of murder:2003",
+      "original:살인의 추억:2003",
+      "source:tmdb:11423"
+    ]
+  },
+  {
+    "title": "Burning",
+    "titleKey": "burning",
+    "originalTitle": "버닝",
+    "originalTitleKey": "버닝",
+    "year": 2018,
+    "runtime": 148,
+    "rating": 7.376,
+    "directorNames": [
+      "Lee Chang-dong"
+    ],
+    "actorNames": [
+      "Yoo Ah-in",
+      "Steven Yeun",
+      "Jeon Jong-seo",
+      "Kim Soo-kyung",
+      "Choe Seung-ho",
+      "Moon Sung-keun",
+      "Min Bok-gi",
+      "Ban Hye-ra",
+      "Cha Mi-kyung",
+      "Lee Bong-ryeon",
+      "Jang Won-hyung",
+      "Jeon Seok-chan",
+      "Lee Jung-ok",
+      "Ok Ja-yeon",
+      "Kim Shin-rock",
+      "Song Duk-ho",
+      "Jeong Da-yi",
+      "Park Seoung-tae",
+      "Lee Young-suk",
+      "Yoo Jeong-ho"
+    ],
+    "countryNames": [
+      "kr",
+      "jp"
+    ],
+    "genreNames": [
+      "9648",
+      "18",
+      "53"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/kXiF80o74fE9gf3Utf9moAI7ar0.jpg",
+    "backdropUrl": "/qQEt2FqF8McryFBNX30dyDJKiEK.jpg",
+    "source": "tmdb",
+    "sourceId": "491584",
+    "duplicateKeys": [
+      "title:burning:2018",
+      "original:버닝:2018",
+      "source:tmdb:491584"
+    ]
+  },
+  {
+    "title": "Drive My Car",
+    "titleKey": "drive my car",
+    "originalTitle": "ドライブ・マイ・カー",
+    "originalTitleKey": "ドライブ・マイ・カー",
+    "year": 2021,
+    "runtime": 179,
+    "rating": 7.434,
+    "directorNames": [
+      "Ryusuke Hamaguchi"
+    ],
+    "actorNames": [
+      "Hidetoshi Nishijima",
+      "Toko Miura",
+      "Masaki Okada",
+      "Reika Kirishima",
+      "Park Yu-rim",
+      "Jin Dae-yeon",
+      "Sonia Yuan",
+      "Ahn Hwi-tae",
+      "Perry Dizon",
+      "Satoko Abe",
+      "Hiroko Matsuda",
+      "Toshiaki Inomata",
+      "Takako Yamamura",
+      "Ryo Iwase",
+      "Faisal Anwar",
+      "Kamal Zharif",
+      "Massimo Biondi",
+      "Shoichiro Tanigawa",
+      "Yoshinori Miyata",
+      "Keiko Nishi"
+    ],
+    "countryNames": [
+      "jp"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/a2lxHS6Au35k5XtFQEQW44yWHeH.jpg",
+    "backdropUrl": "/r6aqhlmJmu8Dv5E7QYEruaEXKYm.jpg",
+    "source": "tmdb",
+    "sourceId": "758866",
+    "duplicateKeys": [
+      "title:drive my car:2021",
+      "original:ドライブ・マイ・カー:2021",
+      "source:tmdb:758866"
+    ]
+  },
+  {
+    "title": "Shoplifters",
+    "titleKey": "shoplifters",
+    "originalTitle": "万引き家族",
+    "originalTitleKey": "万引き家族",
+    "year": 2018,
+    "runtime": 120,
+    "rating": 7.83,
+    "directorNames": [
+      "Hirokazu Kore-eda"
+    ],
+    "actorNames": [
+      "Lily Franky",
+      "Sakura Ando",
+      "Mayu Matsuoka",
+      "Kairi Jo",
+      "Miyu Sasaki",
+      "Kirin Kiki",
+      "Sosuke Ikematsu",
+      "Naoto Ogata",
+      "Yōko Moriguchi",
+      "Yuki Yamada",
+      "Moemi Katayama",
+      "Kengo Kora",
+      "Chizuru Ikewaki",
+      "Akira Emoto",
+      "Aju Makita",
+      "Hajime Inoue",
+      "Haruna Hori",
+      "Nana Mizoguchi",
+      "Madoka Tomosaki"
+    ],
+    "countryNames": [
+      "jp"
+    ],
+    "genreNames": [
+      "18",
+      "80",
+      "53"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/4nfRUOv3LX5zLn98WS1WqVBk9E9.jpg",
+    "backdropUrl": "/k49RhOmaKfoybjR3vBSaOJrIGmc.jpg",
+    "source": "tmdb",
+    "sourceId": "505192",
+    "duplicateKeys": [
+      "title:shoplifters:2018",
+      "original:万引き家族:2018",
+      "source:tmdb:505192"
+    ]
+  },
+  {
+    "title": "The Handmaiden",
+    "titleKey": "the handmaiden",
+    "originalTitle": "아가씨",
+    "originalTitleKey": "아가씨",
+    "year": 2016,
+    "runtime": 145,
+    "rating": 8.184,
+    "directorNames": [
+      "Park Chan-wook"
+    ],
+    "actorNames": [
+      "Kim Min-hee",
+      "Kim Tae-ri",
+      "Ha Jung-woo",
+      "Cho Jin-woong",
+      "Kim Hae-sook",
+      "Moon So-ri",
+      "Lee Yong-nyeo",
+      "Kwak Eun-jin",
+      "Lee Dong-hwi",
+      "Jo Eun-hyung",
+      "Rina Takagi",
+      "Han Ha-na",
+      "Lee Kyu-jung",
+      "Kim See-eun",
+      "Ha Si-yeon",
+      "Kim Eun-yeong",
+      "Jeong Ha-dam",
+      "Yoo Min-chae",
+      "Won Geun-hee",
+      "Kim Jong-dae"
+    ],
+    "countryNames": [
+      "kr"
+    ],
+    "genreNames": [
+      "53",
+      "18",
+      "10749"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/dLlH4aNHdnmf62umnInL8xPlPzw.jpg",
+    "backdropUrl": "/3upEZ0ltY7WwOSFVXrtiP34D48p.jpg",
+    "source": "tmdb",
+    "sourceId": "290098",
+    "duplicateKeys": [
+      "title:the handmaiden:2016",
+      "original:아가씨:2016",
+      "source:tmdb:290098"
+    ]
+  },
+  {
+    "title": "Chungking Express",
+    "titleKey": "chungking express",
+    "originalTitle": "重慶森林",
+    "originalTitleKey": "重慶森林",
+    "year": 1994,
+    "runtime": 103,
+    "rating": 7.973,
+    "directorNames": [
+      "Wong Kar-Wai"
+    ],
+    "actorNames": [
+      "Brigitte Lin",
+      "Takeshi Kaneshiro",
+      "Tony Leung Chiu-wai",
+      "Faye Wong",
+      "Valerie Chow",
+      "Piggy Chan Kam-Chuen",
+      "Kwan Lee-Na",
+      "Leung San",
+      "Zhiming Huang",
+      "Liang Zhen",
+      "Vickie Eng",
+      "Lynne Langdon",
+      "Thom Baker",
+      "Joh Chung-Sing"
+    ],
+    "countryNames": [
+      "hk"
+    ],
+    "genreNames": [
+      "18",
+      "35",
+      "10749"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/43I9DcNoCzpyzK8JCkJYpHqHqGG.jpg",
+    "backdropUrl": "/vuglA60RqvpHK9rIcG8sXaiWw1L.jpg",
+    "source": "tmdb",
+    "sourceId": "11104",
+    "duplicateKeys": [
+      "title:chungking express:1994",
+      "original:重慶森林:1994",
+      "source:tmdb:11104"
+    ]
+  },
+  {
+    "title": "Happy Together",
+    "titleKey": "happy together",
+    "originalTitle": "春光乍洩",
+    "originalTitleKey": "春光乍洩",
+    "year": 1997,
+    "runtime": 96,
+    "rating": 7.6,
+    "directorNames": [
+      "Wong Kar-Wai"
+    ],
+    "actorNames": [
+      "Leslie Cheung",
+      "Tony Leung Chiu-wai",
+      "Chang Chen",
+      "Gregory Dayton"
+    ],
+    "countryNames": [
+      "hk",
+      "kr",
+      "jp"
+    ],
+    "genreNames": [
+      "18",
+      "10749"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/kO4KjUkQOfWSBw06Bdl7m6AlEP7.jpg",
+    "backdropUrl": "/2Xkd3WeAx11cHxb4Lr3wnSNDWcd.jpg",
+    "source": "tmdb",
+    "sourceId": "18329",
+    "duplicateKeys": [
+      "title:happy together:1997",
+      "original:春光乍洩:1997",
+      "source:tmdb:18329"
+    ]
+  },
+  {
+    "title": "Black Girl",
+    "titleKey": "black girl",
+    "originalTitle": "La Noire de...",
+    "originalTitleKey": "la noire de...",
+    "year": 1966,
+    "runtime": 65,
+    "rating": 7.223,
+    "directorNames": [
+      "Ousmane Sembène"
+    ],
+    "actorNames": [
+      "Mbissine Thérèse Diop",
+      "Anne-Marie Jelinek",
+      "Robert Fontaine",
+      "Nar Sene",
+      "Ibrahima Boy",
+      "Bernard Delbard",
+      "Nicole Donati",
+      "Raymond Lemeri",
+      "Suzanne Lemeri",
+      "Philippe",
+      "Sophie",
+      "Damien",
+      "Toto Bissainthe",
+      "Robert Marcy",
+      "Sophie Leclair",
+      "Ousmane Sembène"
+    ],
+    "countryNames": [
+      "fr",
+      "sn"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/hYYAk9I9KkscSr8DC30KyDjzsVu.jpg",
+    "backdropUrl": "/3NcTGBFQnGpUUvfloymFiTaejZA.jpg",
+    "source": "tmdb",
+    "sourceId": "95597",
+    "duplicateKeys": [
+      "title:black girl:1966",
+      "original:la noire de...:1966",
+      "source:tmdb:95597"
+    ]
+  },
+  {
+    "title": "Touki Bouki",
+    "titleKey": "touki bouki",
+    "originalTitle": "Touki-Bouki",
+    "originalTitleKey": "touki-bouki",
+    "year": 1973,
+    "runtime": 91,
+    "rating": 6.592,
+    "directorNames": [
+      "Djibril Diop Mambéty"
+    ],
+    "actorNames": [
+      "Magaye Niang",
+      "Myriam Niang",
+      "Christoph Colomb",
+      "Mustapha Ture",
+      "Aminata Fall",
+      "Ousseynou Diop",
+      "Ndou Labia"
+    ],
+    "countryNames": [
+      "sn"
+    ],
+    "genreNames": [
+      "18",
+      "10749"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/kcBYKHyg9GcQqa6DWq0AuQDhtPI.jpg",
+    "backdropUrl": "/7DlEixaKiNJyK0tHri0AEUAQrk8.jpg",
+    "source": "tmdb",
+    "sourceId": "77771",
+    "duplicateKeys": [
+      "title:touki bouki:1973",
+      "original:touki-bouki:1973",
+      "source:tmdb:77771"
+    ]
+  },
+  {
+    "title": "Yeelen",
+    "titleKey": "yeelen",
+    "originalTitle": "Yeelen",
+    "originalTitleKey": "yeelen",
+    "year": 1987,
+    "runtime": 105,
+    "rating": 6.593,
+    "directorNames": [
+      "Souleymane Cissé"
+    ],
+    "actorNames": [
+      "Issiaka Kane",
+      "Balla Moussa Keita",
+      "Aoua Sangare",
+      "Ismaila Sarr",
+      "Niamanto Sanogo",
+      "Soumba Traore",
+      "Koke Sangare",
+      "Youssouf Tenin Cissé",
+      "Sidi Diallo",
+      "Bremira Dumbla",
+      "Seyba M'Baye",
+      "Djemori Traoré",
+      "Youssouf Coulibaly",
+      "Sibiri Kone",
+      "Toumani Soumaoro",
+      "Dounanke Traoré",
+      "Zan Doumbla",
+      "Manzon Coumare",
+      "Souleymane Coumare",
+      "Tienon Fone"
+    ],
+    "countryNames": [
+      "bf",
+      "fr",
+      "de",
+      "jp",
+      "ml"
+    ],
+    "genreNames": [
+      "18",
+      "14"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/xjckmcnKK6Ex6wHrVydu4F21h3t.jpg",
+    "backdropUrl": "/qNYWkqaVzgJm2dkGW5TlPMW18eO.jpg",
+    "source": "tmdb",
+    "sourceId": "71329",
+    "duplicateKeys": [
+      "title:yeelen:1987",
+      "original:yeelen:1987",
+      "source:tmdb:71329"
+    ]
+  },
+  {
+    "title": "Timbuktu",
+    "titleKey": "timbuktu",
+    "originalTitle": "Timbuktu",
+    "originalTitleKey": "timbuktu",
+    "year": 2014,
+    "runtime": 96,
+    "rating": 6.966,
+    "directorNames": [
+      "Abderrahmane Sissako"
+    ],
+    "actorNames": [
+      "Ibrahim Ahmed",
+      "Toulou Kiki",
+      "Layla Walet Mohamed",
+      "Abel Jafri",
+      "Kettly Noël",
+      "Hichem Yacoubi",
+      "Mehdi A.G. Mohamed",
+      "Fatoumata Diawara",
+      "Adel Mahmoud Cherif",
+      "Salem Dendou",
+      "Mamby Kamissoko",
+      "Yoro Diakité",
+      "Cheik A.G. Emakni",
+      "Zikra Oualet Moussa",
+      "Weli Kleïb",
+      "Djié Sidi",
+      "Omar Haidara",
+      "Damien Ndjie"
+    ],
+    "countryNames": [
+      "fr"
+    ],
+    "genreNames": [
+      "18",
+      "10752"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/tCpHpn8msgonS9HVDMkrcSZh4an.jpg",
+    "backdropUrl": "/3cQO2X0vRpMYwNhoZURSCxUpCPh.jpg",
+    "source": "tmdb",
+    "sourceId": "265228",
+    "duplicateKeys": [
+      "title:timbuktu:2014",
+      "original:timbuktu:2014",
+      "source:tmdb:265228"
+    ]
+  },
+  {
+    "title": "Atlantics",
+    "titleKey": "atlantics",
+    "originalTitle": "Atlantique",
+    "originalTitleKey": "atlantique",
+    "year": 2019,
+    "runtime": 106,
+    "rating": 6.747,
+    "directorNames": [
+      "Mati Diop"
+    ],
+    "actorNames": [
+      "Mame Bineta Sane",
+      "Amadou Mbow",
+      "Ibrahima Traore",
+      "Nicole Sougou",
+      "Aminata Kane",
+      "Mariama Gassama",
+      "Coumba Dieng",
+      "Ibrahima Mbaye",
+      "Diankou Sembene",
+      "Abdou Balde",
+      "Babacar Sylla",
+      "Arame Fall Faye",
+      "Ya Arame Mousse Sene",
+      "Babacar Samba",
+      "Astou Ndiaye",
+      "Koudia Fall",
+      "Ndeye Fama Dia",
+      "Mame Victor Samb",
+      "Omar Dieng",
+      "Asta Kane"
+    ],
+    "countryNames": [
+      "fr",
+      "sn",
+      "be"
+    ],
+    "genreNames": [
+      "18",
+      "10749",
+      "14"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/zRnZM6HqglFK31MYyrTSQVlj1dQ.jpg",
+    "backdropUrl": "/kWkAWQQrlI5Rq2CtC5aYac9dx9V.jpg",
+    "source": "tmdb",
+    "sourceId": "496967",
+    "duplicateKeys": [
+      "title:atlantics:2019",
+      "original:atlantique:2019",
+      "source:tmdb:496967"
+    ]
+  },
+  {
+    "title": "The Battle of Algiers",
+    "titleKey": "the battle of algiers",
+    "originalTitle": "La battaglia di Algeri",
+    "originalTitleKey": "la battaglia di algeri",
+    "year": 1966,
+    "runtime": 122,
+    "rating": 7.887,
+    "directorNames": [
+      "Gillo Pontecorvo"
+    ],
+    "actorNames": [
+      "Brahim Hadjadj",
+      "Mohamed Ben Kassen",
+      "Yacef Saâdi",
+      "Fouzia El Kader",
+      "Hadj Smaine Mohamed Seghir",
+      "Larbi Zekkal",
+      "Rouiched",
+      "Noureddine Brahimi",
+      "Si Mohamed Baghdadi",
+      "Abderrahmane Brahimi",
+      "Jean Martin",
+      "Fatiha Djoudi",
+      "Franco Moruzzi",
+      "Tomasso Neri",
+      "Samia Kerbash",
+      "Ugo Paletti",
+      "Gene Wesson"
+    ],
+    "countryNames": [
+      "it",
+      "dz"
+    ],
+    "genreNames": [
+      "18",
+      "10752",
+      "36"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/2p3AFtOHFvP6OeVMqlnL1zLKOqL.jpg",
+    "backdropUrl": "/ze7GsNSv418o7pzqc9fb00LWWDk.jpg",
+    "source": "tmdb",
+    "sourceId": "17295",
+    "duplicateKeys": [
+      "title:the battle of algiers:1966",
+      "original:la battaglia di algeri:1966",
+      "source:tmdb:17295"
+    ]
+  },
+  {
+    "title": "Pixote",
+    "titleKey": "pixote",
+    "originalTitle": "Pixote: A Lei do Mais Fraco",
+    "originalTitleKey": "pixote: a lei do mais fraco",
+    "year": 1980,
+    "runtime": 127,
+    "rating": 7.9,
+    "directorNames": [
+      "Héctor Babenco"
+    ],
+    "actorNames": [
+      "Fernando Ramos da Silva",
+      "Jorge Julião",
+      "Gilberto Moura",
+      "Edilson Lino",
+      "Zenildo Oliveira Santos",
+      "Claudio Bernardo",
+      "Israel Feres David",
+      "Jose Nilson Martin Dos Santos",
+      "Marília Pêra",
+      "Jardel Filho",
+      "Rubens de Falco",
+      "Elke Maravilha",
+      "Tony Tornado",
+      "Beatriz Segall",
+      "João José Pompeo",
+      "Rubens Rollo",
+      "Emílio Fontana",
+      "Luiz Serra",
+      "Ariclê Perez",
+      "Joe Kantor"
+    ],
+    "countryNames": [
+      "br"
+    ],
+    "genreNames": [
+      "80",
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/zaBtclnYKv2JkgRDQ7OiFtWHm4e.jpg",
+    "backdropUrl": "/88SnnUEY4CmUJTjzhqYfY3zffEC.jpg",
+    "source": "tmdb",
+    "sourceId": "42148",
+    "duplicateKeys": [
+      "title:pixote:1980",
+      "original:pixote: a lei do mais fraco:1980",
+      "source:tmdb:42148"
+    ]
+  },
+  {
+    "title": "Central Station",
+    "titleKey": "central station",
+    "originalTitle": "Central do Brasil",
+    "originalTitleKey": "central do brasil",
+    "year": 1998,
+    "runtime": 111,
+    "rating": 8.122,
+    "directorNames": [
+      "Walter Salles"
+    ],
+    "actorNames": [
+      "Fernanda Montenegro",
+      "Vinícius de Oliveira",
+      "Marília Pêra",
+      "Othon Bastos",
+      "Otávio Augusto",
+      "Matheus Nachtergaele",
+      "Caio Junqueira",
+      "Stela Freitas",
+      "Maria Menezes",
+      "Sergio Kato",
+      "Soia Lira",
+      "Rita Assemany",
+      "Harildo Déda",
+      "Gildásio Leite",
+      "Nanego Lira",
+      "José Pereira da Silva",
+      "Everaldo Pontes",
+      "Inaldo Santana",
+      "Gideon Rosa",
+      "Antonieta Noronha"
+    ],
+    "countryNames": [
+      "br",
+      "fr"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/zJvp7XjQ2LhPbDVYhFXyucs40vR.jpg",
+    "backdropUrl": "/lrLIy9OFRQg4VkhrCyolfNXJEUH.jpg",
+    "source": "tmdb",
+    "sourceId": "666",
+    "duplicateKeys": [
+      "title:central station:1998",
+      "original:central do brasil:1998",
+      "source:tmdb:666"
+    ]
+  },
+  {
+    "title": "The Secret in Their Eyes",
+    "titleKey": "the secret in their eyes",
+    "originalTitle": "El secreto de sus ojos",
+    "originalTitleKey": "el secreto de sus ojos",
+    "year": 2009,
+    "runtime": 130,
+    "rating": 7.975,
+    "directorNames": [
+      "Juan José Campanella"
+    ],
+    "actorNames": [
+      "Ricardo Darín",
+      "Soledad Villamil",
+      "Pablo Rago",
+      "Javier Godino",
+      "Guillermo Francella",
+      "Carla Quevedo",
+      "Bárbara Palladino",
+      "Alejandro Abelenda",
+      "Mario Alarcón",
+      "Rudy Romano",
+      "Mariano Argento",
+      "Sebastián Blanco",
+      "Gabriela Daniell",
+      "José Luis Gioia",
+      "Juan José Ortíz",
+      "Kiko Cerone",
+      "Fernando Pardo",
+      "Maximiliano Trento",
+      "Sergio López Santana",
+      "Elvio Duvini"
+    ],
+    "countryNames": [
+      "ar",
+      "es"
+    ],
+    "genreNames": [
+      "9648",
+      "53",
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/r3FctmAMk2tbrwxuWdpeLrZLwIz.jpg",
+    "backdropUrl": "/fNHCogWhABNAmzk0IFdzQP5XLYj.jpg",
+    "source": "tmdb",
+    "sourceId": "25376",
+    "duplicateKeys": [
+      "title:the secret in their eyes:2009",
+      "original:el secreto de sus ojos:2009",
+      "source:tmdb:25376"
+    ]
+  },
+  {
+    "title": "Wild Tales",
+    "titleKey": "wild tales",
+    "originalTitle": "Relatos salvajes",
+    "originalTitleKey": "relatos salvajes",
+    "year": 2014,
+    "runtime": 122,
+    "rating": 7.865,
+    "directorNames": [
+      "Damián Szifron"
+    ],
+    "actorNames": [
+      "Ricardo Darín",
+      "Leonardo Sbaraglia",
+      "Érica Rivas",
+      "Oscar Martínez",
+      "Rita Cortese",
+      "Julieta Zylberberg",
+      "Darío Grandinetti",
+      "María Marull",
+      "Mónica Villa",
+      "César Bordón",
+      "Walter Donado",
+      "Nancy Dupláa",
+      "Luis Mazzeo",
+      "María Onetto",
+      "Osmar Núñez",
+      "Germán de Silva",
+      "Diego Velázquez",
+      "Alan Daicz",
+      "Diego Gentile",
+      "Diego Starosta"
+    ],
+    "countryNames": [
+      "ar",
+      "es",
+      "fr",
+      "gb"
+    ],
+    "genreNames": [
+      "18",
+      "53",
+      "35"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/bU7IUeTdYFOgeUPtwpWKQNhORMC.jpg",
+    "backdropUrl": "/dHnki2Dh6lbOtfksrh8H5lg08f5.jpg",
+    "source": "tmdb",
+    "sourceId": "265195",
+    "duplicateKeys": [
+      "title:wild tales:2014",
+      "original:relatos salvajes:2014",
+      "source:tmdb:265195"
+    ]
+  },
+  {
+    "title": "Y Tu Mamá También",
+    "titleKey": "y tu mamá también",
+    "originalTitle": "Y tu mamá también",
+    "originalTitleKey": "y tu mamá también",
+    "year": 2001,
+    "runtime": 106,
+    "rating": 7.43,
+    "directorNames": [
+      "Alfonso Cuarón"
+    ],
+    "actorNames": [
+      "Maribel Verdú",
+      "Gael García Bernal",
+      "Diego Luna",
+      "Daniel Giménez Cacho",
+      "Diana Bracho",
+      "Verónica Langer",
+      "María Aura",
+      "Emilio Echevarría",
+      "Marta Aura",
+      "Silverio Palacios",
+      "Ana López Mercado",
+      "Andrés Almeida",
+      "Nathan Grinberg",
+      "Giselle Audirac",
+      "Arturo Ríos",
+      "Juan Carlos Remolina",
+      "Liboria Rodríguez",
+      "Mayra Sérbulo",
+      "Andrea López",
+      "Amaury Sérbulo"
+    ],
+    "countryNames": [
+      "mx"
+    ],
+    "genreNames": [
+      "18",
+      "10749"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/aj3rqjab8jfc2fWmcS3H3c5qbur.jpg",
+    "backdropUrl": "/7aW9IZjpsoTXYEARlnOvTtl6EBr.jpg",
+    "source": "tmdb",
+    "sourceId": "1391",
+    "duplicateKeys": [
+      "title:y tu mamá también:2001",
+      "original:y tu mamá también:2001",
+      "source:tmdb:1391"
+    ]
+  },
+  {
+    "title": "The Exterminating Angel",
+    "titleKey": "the exterminating angel",
+    "originalTitle": "El ángel exterminador",
+    "originalTitleKey": "el ángel exterminador",
+    "year": 1962,
+    "runtime": 93,
+    "rating": 7.929,
+    "directorNames": [
+      "Luis Buñuel"
+    ],
+    "actorNames": [
+      "Silvia Pinal",
+      "Jacqueline Andere",
+      "Claudio Brook",
+      "Enrique Rambal",
+      "José Baviera",
+      "Augusto Benedico",
+      "Luis Beristáin",
+      "Antonio Bravo",
+      "César del Campo",
+      "Bertha Moss",
+      "Enrique García Álvarez",
+      "Lucy Gallardo",
+      "Nadia Haro Oliva",
+      "Ofelia Guilmáin",
+      "Ofelia Montesco",
+      "Patricia de Morelos",
+      "Patricia Morán",
+      "Rosa Elena Durgel",
+      "Tito Junco",
+      "Xavier Loyá"
+    ],
+    "countryNames": [
+      "mx"
+    ],
+    "genreNames": [
+      "35",
+      "18",
+      "14"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/qqZXHvBFxUpo8Pfbyvgh4SYMiWm.jpg",
+    "backdropUrl": "/wJ4HyVZsbZRWH7BS3bLZsvO31rZ.jpg",
+    "source": "tmdb",
+    "sourceId": "29264",
+    "duplicateKeys": [
+      "title:the exterminating angel:1962",
+      "original:el ángel exterminador:1962",
+      "source:tmdb:29264"
+    ]
+  },
+  {
+    "title": "Memories of Underdevelopment",
+    "titleKey": "memories of underdevelopment",
+    "originalTitle": "Memorias del subdesarrollo",
+    "originalTitleKey": "memorias del subdesarrollo",
+    "year": 1968,
+    "runtime": 99,
+    "rating": 7.2,
+    "directorNames": [
+      "Tomás Gutiérrez Alea"
+    ],
+    "actorNames": [
+      "Sergio Corrieri",
+      "Daisy Granados",
+      "Eslinda Núñez",
+      "Omar Valdés",
+      "René de la Cruz",
+      "Yolanda Farr",
+      "Ofelia González",
+      "Jose Gil Abad",
+      "Daniel Jordan",
+      "Luis López",
+      "Rafael Sosa",
+      "Eduardo Casado Revuelta",
+      "René Depestre",
+      "Edmundo Desnoes",
+      "Pello el Afrokán"
+    ],
+    "countryNames": [
+      "cu"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/av7zEHpOyzmm86VPRa68zOLaBqf.jpg",
+    "backdropUrl": "/mE58wQKaXb09zjrGrCVjWrkp7Xn.jpg",
+    "source": "tmdb",
+    "sourceId": "47576",
+    "duplicateKeys": [
+      "title:memories of underdevelopment:1968",
+      "original:memorias del subdesarrollo:1968",
+      "source:tmdb:47576"
+    ]
+  },
+  {
+    "title": "Black Orpheus",
+    "titleKey": "black orpheus",
+    "originalTitle": "Orfeu Negro",
+    "originalTitleKey": "orfeu negro",
+    "year": 1959,
+    "runtime": 100,
+    "rating": 7.002,
+    "directorNames": [
+      "Marcel Camus"
+    ],
+    "actorNames": [
+      "Breno Mello",
+      "Marpessa Dawn",
+      "Lourdes de Oliveira",
+      "Léa Garcia",
+      "Adhemar Ferreira da Silva",
+      "Waldetar De Souza",
+      "Alexandre Constantino",
+      "Jorge Dos Santos",
+      "Aurino Cassiano",
+      "Maria Alice",
+      "Marcel Camus",
+      "Fausto Guerzoni",
+      "Thereza Santos",
+      "Zeni Pereira",
+      "Elizeth Cardoso",
+      "Cartola",
+      "Dona Zica"
+    ],
+    "countryNames": [
+      "br",
+      "fr",
+      "it"
+    ],
+    "genreNames": [
+      "18",
+      "10749"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/fJWzdNRnfjcJuaZiKqaSURFV6Lg.jpg",
+    "backdropUrl": "/mXHZJu6wmmNIhbidSMp24PQ3WNw.jpg",
+    "source": "tmdb",
+    "sourceId": "40423",
+    "duplicateKeys": [
+      "title:black orpheus:1959",
+      "original:orfeu negro:1959",
+      "source:tmdb:40423"
+    ]
+  },
+  {
+    "title": "Moonlight",
+    "titleKey": "moonlight",
+    "originalTitle": "Moonlight",
+    "originalTitleKey": "moonlight",
+    "year": 2016,
+    "runtime": 111,
+    "rating": 7.357,
+    "directorNames": [
+      "Barry Jenkins"
+    ],
+    "actorNames": [
+      "Trevante Rhodes",
+      "André Holland",
+      "Janelle Monáe",
+      "Ashton Sanders",
+      "Jharrel Jerome",
+      "Alex R. Hibbert",
+      "Jaden Piner",
+      "Naomie Harris",
+      "Mahershala Ali",
+      "Shariff Earp",
+      "Duan Sanderson",
+      "Herman 'Caheei McGloun",
+      "Kamal Ani-Bellow",
+      "Keomi Givens",
+      "Eddie Blanchard",
+      "Rudi Goblen",
+      "Edson Jean",
+      "Patrick Decile",
+      "Herveline Moncion",
+      "Fransley Hyppolite"
+    ],
+    "countryNames": [
+      "us"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/qLnfEmPrDjJfPyyddLJPkXmshkp.jpg",
+    "backdropUrl": "/jm1oD3eB08LImSwL1LrzF9AJQ5b.jpg",
+    "source": "tmdb",
+    "sourceId": "376867",
+    "duplicateKeys": [
+      "title:moonlight:2016",
+      "original:moonlight:2016",
+      "source:tmdb:376867"
+    ]
+  },
+  {
+    "title": "Crash",
+    "titleKey": "crash",
+    "originalTitle": "Crash",
+    "originalTitleKey": "crash",
+    "year": 2004,
+    "runtime": 5,
+    "rating": 7,
+    "directorNames": [
+      "David Moore"
+    ],
+    "actorNames": [
+      "Kristian Sartori",
+      "Tom Budge",
+      "Bec Asha"
+    ],
+    "countryNames": [
+      "au"
+    ],
+    "genreNames": [
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "source": "tmdb",
+    "sourceId": "1353802",
+    "duplicateKeys": [
+      "title:crash:2004",
+      "original:crash:2004",
+      "source:tmdb:1353802"
+    ]
+  },
+  {
+    "title": "Halloween",
+    "titleKey": "halloween",
+    "originalTitle": "Halloween",
+    "originalTitleKey": "halloween",
+    "year": 1978,
+    "runtime": 91,
+    "rating": 7.561,
+    "directorNames": [
+      "John Carpenter"
+    ],
+    "actorNames": [
+      "Donald Pleasence",
+      "Jamie Lee Curtis",
+      "Nancy Kyes",
+      "P. J. Soles",
+      "Charles Cyphers",
+      "Kyle Richards",
+      "Brian Andrews",
+      "John Michael Graham",
+      "Nancy Stephens",
+      "Arthur Malet",
+      "Mickey Yablans",
+      "Brent Le Page",
+      "Adam Hollander",
+      "Robert Phalen",
+      "Tony Moran",
+      "Will Sandin",
+      "Sandy Johnson",
+      "David Kyle",
+      "Peter Griffith",
+      "Nick Castle"
+    ],
+    "countryNames": [
+      "us"
+    ],
+    "genreNames": [
+      "27",
+      "53"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg",
+    "backdropUrl": "/sHI9xlFRWCJ38AIIfOqnGjuEvXz.jpg",
+    "source": "tmdb",
+    "sourceId": "948",
+    "duplicateKeys": [
+      "title:halloween:1978",
+      "original:halloween:1978",
+      "source:tmdb:948"
+    ]
+  },
+  {
+    "title": "Suspiria",
+    "titleKey": "suspiria",
+    "originalTitle": "Suspiria",
+    "originalTitleKey": "suspiria",
+    "year": 1977,
+    "runtime": 99,
+    "rating": 7.5,
+    "directorNames": [
+      "Dario Argento"
+    ],
+    "actorNames": [
+      "Jessica Harper",
+      "Stefania Casini",
+      "Flavio Bucci",
+      "Miguel Bosé",
+      "Barbara Magnolfi",
+      "Susanna Javicoli",
+      "Eva Axén",
+      "Rudolf Schündler",
+      "Udo Kier",
+      "Alida Valli",
+      "Joan Bennett",
+      "Margherita Horowitz",
+      "Jacopo Mariani",
+      "Fulvio Mingozzi",
+      "Franca Scagnetti",
+      "Renato Scarpa",
+      "Serafina Scorceletti",
+      "Giuseppe Transocchi",
+      "Renata Zamengo",
+      "Alessandra Capozzi"
+    ],
+    "countryNames": [
+      "it"
+    ],
+    "genreNames": [
+      "27"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/sEcvc9h1X3hYZdFgtiiKMm6RB3f.jpg",
+    "backdropUrl": "/j7rl2LphIbC88FppTfwJ5Gxj9kX.jpg",
+    "source": "tmdb",
+    "sourceId": "11906",
+    "duplicateKeys": [
+      "title:suspiria:1977",
+      "original:suspiria:1977",
+      "source:tmdb:11906"
+    ]
+  },
+  {
+    "title": "Suspiria",
+    "titleKey": "suspiria",
+    "originalTitle": "Suspiria",
+    "originalTitleKey": "suspiria",
+    "year": 2018,
+    "runtime": 152,
+    "rating": 6.897,
+    "directorNames": [
+      "Luca Guadagnino"
+    ],
+    "actorNames": [
+      "Dakota Johnson",
+      "Tilda Swinton",
+      "Mia Goth",
+      "Angela Winkler",
+      "Ingrid Caven",
+      "Chloë Grace Moretz",
+      "Elena Fokina",
+      "Sylvie Testud",
+      "Renée Soutendijk",
+      "Christine Leboutte",
+      "Małgorzata Bela",
+      "Fabrizia Sacchi",
+      "Jessica Harper",
+      "Jessica Batut",
+      "Alek Wek",
+      "Vincenza Modica",
+      "Vanda Capriolo",
+      "Brigitte Cuvelier",
+      "Gala Moody",
+      "Anne-Lise Brevers"
+    ],
+    "countryNames": [
+      "it",
+      "us"
+    ],
+    "genreNames": [
+      "27",
+      "9648",
+      "18"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/bRpKFPb8CWKRQxVo9NzOuPPlO3Q.jpg",
+    "backdropUrl": "/k4renoGJzagylgBYWbpjQLYGAfB.jpg",
+    "source": "tmdb",
+    "sourceId": "361292",
+    "duplicateKeys": [
+      "title:suspiria:2018",
+      "original:suspiria:2018",
+      "source:tmdb:361292"
+    ]
+  },
+  {
+    "title": "Oldboy",
+    "titleKey": "oldboy",
+    "originalTitle": "Oldboy",
+    "originalTitleKey": "oldboy",
+    "year": 2013,
+    "runtime": 104,
+    "rating": 5.935,
+    "directorNames": [
+      "Spike Lee"
+    ],
+    "actorNames": [
+      "Josh Brolin",
+      "Elizabeth Olsen",
+      "Sharlto Copley",
+      "Samuel L. Jackson",
+      "Michael Imperioli",
+      "Pom Klementieff",
+      "James Ransone",
+      "Max Casella",
+      "Linda Emond",
+      "Elvis Nolasco",
+      "Rami Malek",
+      "Lance Reddick",
+      "Hannah Ware",
+      "Richard Portnow",
+      "Hannah Simone",
+      "Ciera Payton",
+      "Cinqué Lee",
+      "Steven Hauck",
+      "Caitlin Dulany",
+      "Ilfenesh Hadera"
+    ],
+    "countryNames": [
+      "us"
+    ],
+    "genreNames": [
+      "53",
+      "9648"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/iX93YdBrZA1EpGbphmjf4ARj1Za.jpg",
+    "backdropUrl": "/yl9waUJoMTp1NnraBn4KWHuUSsx.jpg",
+    "source": "tmdb",
+    "sourceId": "87516",
+    "duplicateKeys": [
+      "title:oldboy:2013",
+      "original:oldboy:2013",
+      "source:tmdb:87516"
+    ]
+  },
+  {
+    "title": "A Star Is Born",
+    "titleKey": "a star is born",
+    "originalTitle": "A Star Is Born",
+    "originalTitleKey": "a star is born",
+    "year": 1937,
+    "runtime": 111,
+    "rating": 7.2,
+    "directorNames": [
+      "William A. Wellman"
+    ],
+    "actorNames": [
+      "Janet Gaynor",
+      "Fredric March",
+      "Adolphe Menjou",
+      "May Robson",
+      "Andy Devine",
+      "Lionel Stander",
+      "Owen Moore",
+      "Peggy Wood",
+      "Elizabeth Jenns",
+      "Edgar Kennedy",
+      "J. C. Nugent",
+      "Guinn 'Big Boy' Williams",
+      "Irving Bacon",
+      "Jane Barnes",
+      "Clara Blandick",
+      "Wade Boteler",
+      "Sidney Bracey",
+      "Harry C. Bradley",
+      "George Chandler",
+      "Pat Flaherty"
+    ],
+    "countryNames": [
+      "us"
+    ],
+    "genreNames": [
+      "18",
+      "10749"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/90EfCmXXWOs5dy7rHTNvGT9T8Kz.jpg",
+    "backdropUrl": "/mBgYaGRKpZq4EPLkgq66kKJvp0d.jpg",
+    "source": "tmdb",
+    "sourceId": "22692",
+    "duplicateKeys": [
+      "title:a star is born:1937",
+      "original:a star is born:1937",
+      "source:tmdb:22692"
+    ]
+  },
+  {
+    "title": "A Star Is Born",
+    "titleKey": "a star is born",
+    "originalTitle": "A Star Is Born",
+    "originalTitleKey": "a star is born",
+    "year": 2018,
+    "runtime": 136,
+    "rating": 7.492,
+    "directorNames": [
+      "Bradley Cooper"
+    ],
+    "actorNames": [
+      "Lady Gaga",
+      "Bradley Cooper",
+      "Sam Elliott",
+      "Andrew Dice Clay",
+      "Rafi Gavron",
+      "Anthony Ramos",
+      "Dave Chappelle",
+      "Alec Baldwin",
+      "Marlon Williams",
+      "Brandi Carlile",
+      "Ron Rifkin",
+      "Barry Shabaka Henley",
+      "Michael D. Roberts",
+      "Michael Harney",
+      "Rebecca Field",
+      "Derek Kevin Jones",
+      "Willam Belli",
+      "Dennis Tong",
+      "Josh Wells",
+      "Greg Grunberg"
+    ],
+    "countryNames": [
+      "us"
+    ],
+    "genreNames": [
+      "10402",
+      "18",
+      "10749"
+    ],
+    "movementNames": [],
+    "awardNames": [],
+    "posterUrl": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+    "backdropUrl": "/dDYpjrwh1wNVQk0rEpc9P81wQt4.jpg",
+    "source": "tmdb",
+    "sourceId": "332562",
+    "duplicateKeys": [
+      "title:a star is born:2018",
+      "original:a star is born:2018",
+      "source:tmdb:332562"
+    ]
+  }
+]

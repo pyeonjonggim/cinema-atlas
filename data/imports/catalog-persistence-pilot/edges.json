@@ -1,0 +1,5456 @@
+[
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_WRITTEN_BY_PERSON:person:person_7453c8c06a56",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_WRITTEN_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_7453c8c06a56",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.515Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.515Z",
+    "updatedAt": "2026-07-13T10:35:44.515Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_DIRECTED_BY_PERSON:person:person_f66b8cac8ba8",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_DIRECTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_f66b8cac8ba8",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.515Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.515Z",
+    "updatedAt": "2026-07-13T10:35:44.515Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_WRITTEN_BY_PERSON:person:person_f66b8cac8ba8",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_WRITTEN_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_f66b8cac8ba8",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_ACTED_BY_PERSON:person:person_756b19374757",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_756b19374757",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_ACTED_BY_PERSON:person:person_078c0dd5d5bb",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_078c0dd5d5bb",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_ACTED_BY_PERSON:person:person_9e31390c72fe",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_9e31390c72fe",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_ACTED_BY_PERSON:person:person_1283fff1f0b7",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_1283fff1f0b7",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_ACTED_BY_PERSON:person:person_a54aa19bbea8",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_a54aa19bbea8",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_ACTED_BY_PERSON:person:person_71e79219d216",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_71e79219d216",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_ACTED_BY_PERSON:person:person_4f224aca775f",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_4f224aca775f",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_ACTED_BY_PERSON:person:person_3283942c540d",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_3283942c540d",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_ACTED_BY_PERSON:person:person_5f86c7ad1b6f",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_5f86c7ad1b6f",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_ACTED_BY_PERSON:person:person_2fca98e1d2f2",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_2fca98e1d2f2",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_ACTED_BY_PERSON:person:person_03f7b9a21f66",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_03f7b9a21f66",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_ACTED_BY_PERSON:person:person_35301c5694f6",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_35301c5694f6",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_ACTED_BY_PERSON:person:person_979a31fa5e34",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_979a31fa5e34",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_ACTED_BY_PERSON:person:person_4b9760512b0f",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_4b9760512b0f",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_ACTED_BY_PERSON:person:person_d24db8857cab",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_d24db8857cab",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_ACTED_BY_PERSON:person:person_74fc691566cf",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_74fc691566cf",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_ACTED_BY_PERSON:person:person_d98103c16e9a",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_d98103c16e9a",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_ACTED_BY_PERSON:person:person_5e1fe02846b9",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_5e1fe02846b9",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_ACTED_BY_PERSON:person:person_e16e11c8ae2b",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_e16e11c8ae2b",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_ACTED_BY_PERSON:person:person_8060f3fa71dc",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_8060f3fa71dc",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_PRODUCED_IN_COUNTRY:country:kr",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_PRODUCED_IN_COUNTRY",
+    "targetType": "country",
+    "targetId": "kr",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_HAS_GENRE:genre:genre_972a67c48192",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_972a67c48192",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_HAS_GENRE:genre:genre_c5b76da3e608",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_c5b76da3e608",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_HAS_GENRE:genre:genre_9e6a55b6b456",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_9e6a55b6b456",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_USES_LANGUAGE:language:en",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_USES_LANGUAGE",
+    "targetType": "language",
+    "targetId": "en",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_USES_LANGUAGE:language:de",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_USES_LANGUAGE",
+    "targetType": "language",
+    "targetId": "de",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_USES_LANGUAGE:language:ko",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_USES_LANGUAGE",
+    "targetType": "language",
+    "targetId": "ko",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_d9f4b3d10da5:MOVIE_PRODUCED_BY_COMPANY:company:company_c6b2f07c09af",
+    "sourceType": "movie",
+    "sourceId": "mov_d9f4b3d10da5",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_c6b2f07c09af",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "496243",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_WRITTEN_BY_PERSON:person:person_130dbef395a8",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_WRITTEN_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_130dbef395a8",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_WRITTEN_BY_PERSON:person:person_cc8d575f44ca",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_WRITTEN_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_cc8d575f44ca",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_DIRECTED_BY_PERSON:person:person_124e0f9ab5f6",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_DIRECTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_124e0f9ab5f6",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_WRITTEN_BY_PERSON:person:person_124e0f9ab5f6",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_WRITTEN_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_124e0f9ab5f6",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_ACTED_BY_PERSON:person:person_498f654332ae",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_498f654332ae",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_ACTED_BY_PERSON:person:person_df27a697e90c",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_df27a697e90c",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_ACTED_BY_PERSON:person:person_76327aea1506",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_76327aea1506",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_ACTED_BY_PERSON:person:person_5a8c21f3d17c",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_5a8c21f3d17c",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_ACTED_BY_PERSON:person:person_d436809aa701",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_d436809aa701",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_ACTED_BY_PERSON:person:person_cc86e147d489",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_cc86e147d489",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_ACTED_BY_PERSON:person:person_40998ac2de05",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_40998ac2de05",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_ACTED_BY_PERSON:person:person_d7eb983f1aef",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_d7eb983f1aef",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_ACTED_BY_PERSON:person:person_fa1ed33bcce2",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_fa1ed33bcce2",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_ACTED_BY_PERSON:person:person_e9485d507948",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_e9485d507948",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_ACTED_BY_PERSON:person:person_341652305129",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_341652305129",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_ACTED_BY_PERSON:person:person_c9799d8bcf77",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_c9799d8bcf77",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_ACTED_BY_PERSON:person:person_706ea4e7829c",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_706ea4e7829c",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.516Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.516Z",
+    "updatedAt": "2026-07-13T10:35:44.516Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_ACTED_BY_PERSON:person:person_ac630ecdfc41",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_ac630ecdfc41",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_ACTED_BY_PERSON:person:person_2aee86d92657",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_2aee86d92657",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_ACTED_BY_PERSON:person:person_767df747ee48",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_767df747ee48",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_ACTED_BY_PERSON:person:person_708636ee1b0a",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_708636ee1b0a",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_ACTED_BY_PERSON:person:person_706c1666fa44",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_706c1666fa44",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_ACTED_BY_PERSON:person:person_faa457f55a2e",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_faa457f55a2e",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_ACTED_BY_PERSON:person:person_46956ea70ff3",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_46956ea70ff3",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_PRODUCED_IN_COUNTRY:country:jp",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_PRODUCED_IN_COUNTRY",
+    "targetType": "country",
+    "targetId": "jp",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_HAS_GENRE:genre:genre_0a57cb53ba59",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_0a57cb53ba59",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_HAS_GENRE:genre:genre_9e6a55b6b456",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_9e6a55b6b456",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_USES_LANGUAGE:language:ja",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_USES_LANGUAGE",
+    "targetType": "language",
+    "targetId": "ja",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_65bbbefc3e7c:MOVIE_PRODUCED_BY_COMPANY:company:company_042ccdc6d60f",
+    "sourceType": "movie",
+    "sourceId": "mov_65bbbefc3e7c",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_042ccdc6d60f",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "346",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_DIRECTED_BY_PERSON:person:person_72ab8108eff0",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_DIRECTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_72ab8108eff0",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_WRITTEN_BY_PERSON:person:person_72ab8108eff0",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_WRITTEN_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_72ab8108eff0",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_ACTED_BY_PERSON:person:person_90fd94b50843",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_90fd94b50843",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_ACTED_BY_PERSON:person:person_52e9cbaf1788",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_52e9cbaf1788",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_ACTED_BY_PERSON:person:person_0c5c393c666e",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_0c5c393c666e",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_ACTED_BY_PERSON:person:person_ed497fb8e650",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_ed497fb8e650",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_ACTED_BY_PERSON:person:person_892225860262",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_892225860262",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_ACTED_BY_PERSON:person:person_91310634e9fc",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_91310634e9fc",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_ACTED_BY_PERSON:person:person_dcef8baa9e12",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_dcef8baa9e12",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_ACTED_BY_PERSON:person:person_cd13e8a1214c",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_cd13e8a1214c",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_ACTED_BY_PERSON:person:person_8fa77eef8af4",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_8fa77eef8af4",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_ACTED_BY_PERSON:person:person_877eca249e22",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_877eca249e22",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_ACTED_BY_PERSON:person:person_cacdcffbe5e8",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_cacdcffbe5e8",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_ACTED_BY_PERSON:person:person_361939a57792",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_361939a57792",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_ACTED_BY_PERSON:person:person_6765da1b5993",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_6765da1b5993",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_ACTED_BY_PERSON:person:person_200323cef7ad",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_200323cef7ad",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_ACTED_BY_PERSON:person:person_8daf116e5493",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_8daf116e5493",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_ACTED_BY_PERSON:person:person_4e06e69a45c7",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_4e06e69a45c7",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_ACTED_BY_PERSON:person:person_22eab7a65aba",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_22eab7a65aba",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_ACTED_BY_PERSON:person:person_e01f80c2d319",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_e01f80c2d319",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_ACTED_BY_PERSON:person:person_d22eee7bf926",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_d22eee7bf926",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_ACTED_BY_PERSON:person:person_32f4b0c8a04e",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_32f4b0c8a04e",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_PRODUCED_IN_COUNTRY:country:jp",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_PRODUCED_IN_COUNTRY",
+    "targetType": "country",
+    "targetId": "jp",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_HAS_GENRE:genre:genre_1574bddb75c7",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_1574bddb75c7",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_HAS_GENRE:genre:genre_3c178b5aae7b",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_3c178b5aae7b",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_HAS_GENRE:genre:genre_fa35e192121e",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_fa35e192121e",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_USES_LANGUAGE:language:ja",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_USES_LANGUAGE",
+    "targetType": "language",
+    "targetId": "ja",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_PRODUCED_BY_COMPANY:company:company_88293670c817",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_88293670c817",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_PRODUCED_BY_COMPANY:company:company_ba0c3a93a68c",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_ba0c3a93a68c",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_PRODUCED_BY_COMPANY:company:company_6dd8450939ff",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_6dd8450939ff",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_PRODUCED_BY_COMPANY:company:company_87d18bc83456",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_87d18bc83456",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_PRODUCED_BY_COMPANY:company:company_68c09af3acbb",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_68c09af3acbb",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_83a831e9a75d:MOVIE_PRODUCED_BY_COMPANY:company:company_3807ac7d8002",
+    "sourceType": "movie",
+    "sourceId": "mov_83a831e9a75d",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_3807ac7d8002",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "129",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_WRITTEN_BY_PERSON:person:person_a5f41964420a",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_WRITTEN_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_a5f41964420a",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_WRITTEN_BY_PERSON:person:person_049b27def86b",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_WRITTEN_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_049b27def86b",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_WRITTEN_BY_PERSON:person:person_b43de47ea321",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_WRITTEN_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_b43de47ea321",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_DIRECTED_BY_PERSON:person:person_b43de47ea321",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_DIRECTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_b43de47ea321",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_ACTED_BY_PERSON:person:person_e6b314daf575",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_e6b314daf575",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_ACTED_BY_PERSON:person:person_ac3d010b841a",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_ac3d010b841a",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_ACTED_BY_PERSON:person:person_2158e26712ad",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_2158e26712ad",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_ACTED_BY_PERSON:person:person_3c3438c148b6",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_3c3438c148b6",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_ACTED_BY_PERSON:person:person_95b578f74a05",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_95b578f74a05",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_ACTED_BY_PERSON:person:person_9cd843331ab6",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_9cd843331ab6",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_ACTED_BY_PERSON:person:person_3599da459237",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_3599da459237",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_ACTED_BY_PERSON:person:person_0d1f53a1aeb1",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_0d1f53a1aeb1",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_ACTED_BY_PERSON:person:person_1fa21c805b12",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_1fa21c805b12",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_ACTED_BY_PERSON:person:person_0ea8d1229aee",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_0ea8d1229aee",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_ACTED_BY_PERSON:person:person_c0acdfd791b1",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_c0acdfd791b1",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_ACTED_BY_PERSON:person:person_030fd0b78e38",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_030fd0b78e38",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_ACTED_BY_PERSON:person:person_1f549ee495c6",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_1f549ee495c6",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_ACTED_BY_PERSON:person:person_97d375fc99af",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_97d375fc99af",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_ACTED_BY_PERSON:person:person_2d289978f126",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_2d289978f126",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_ACTED_BY_PERSON:person:person_9b2d16c1d7ca",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_9b2d16c1d7ca",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_ACTED_BY_PERSON:person:person_6f21c47c2f70",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_6f21c47c2f70",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_ACTED_BY_PERSON:person:person_3ee7f766d2d2",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_3ee7f766d2d2",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_ACTED_BY_PERSON:person:person_ec44246ec68e",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_ec44246ec68e",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.517Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.517Z",
+    "updatedAt": "2026-07-13T10:35:44.517Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_ACTED_BY_PERSON:person:person_d496a3fc2ce8",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_d496a3fc2ce8",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_PRODUCED_IN_COUNTRY:country:kr",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_PRODUCED_IN_COUNTRY",
+    "targetType": "country",
+    "targetId": "kr",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_HAS_GENRE:genre:genre_c5b76da3e608",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_c5b76da3e608",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_HAS_GENRE:genre:genre_e066f0fd9b80",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_e066f0fd9b80",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_USES_LANGUAGE:language:ko",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_USES_LANGUAGE",
+    "targetType": "language",
+    "targetId": "ko",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_PRODUCED_BY_COMPANY:company:company_9ed4f29f8b68",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_9ed4f29f8b68",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_PRODUCED_BY_COMPANY:company:company_113ca1e4ef66",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_113ca1e4ef66",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_9e1f399788c8:MOVIE_PRODUCED_BY_COMPANY:company:company_27cfac714811",
+    "sourceType": "movie",
+    "sourceId": "mov_9e1f399788c8",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_27cfac714811",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "670",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_WRITTEN_BY_PERSON:person:person_279473ac9b83",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_WRITTEN_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_279473ac9b83",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_WRITTEN_BY_PERSON:person:person_427f3043fb1e",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_WRITTEN_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_427f3043fb1e",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_DIRECTED_BY_PERSON:person:person_427f3043fb1e",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_DIRECTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_427f3043fb1e",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_ACTED_BY_PERSON:person:person_e01fba240c0e",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_e01fba240c0e",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_ACTED_BY_PERSON:person:person_9bd7909ea32c",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_9bd7909ea32c",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_ACTED_BY_PERSON:person:person_0b571ee8edc4",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_0b571ee8edc4",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_ACTED_BY_PERSON:person:person_242245f592a8",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_242245f592a8",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_ACTED_BY_PERSON:person:person_25088706d12f",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_25088706d12f",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_ACTED_BY_PERSON:person:person_38db21cd8ce8",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_38db21cd8ce8",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_ACTED_BY_PERSON:person:person_dfb373962db0",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_dfb373962db0",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_ACTED_BY_PERSON:person:person_c4dd090f4bc0",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_c4dd090f4bc0",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_ACTED_BY_PERSON:person:person_d690707b10fd",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_d690707b10fd",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_ACTED_BY_PERSON:person:person_f03ae99938d6",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_f03ae99938d6",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_ACTED_BY_PERSON:person:person_1adf3ff6e7cb",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_1adf3ff6e7cb",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_ACTED_BY_PERSON:person:person_9d4f34a2f02d",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_9d4f34a2f02d",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_ACTED_BY_PERSON:person:person_0caf0004e960",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_0caf0004e960",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_ACTED_BY_PERSON:person:person_e8222aa035e9",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_e8222aa035e9",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_ACTED_BY_PERSON:person:person_af00ef31bb91",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_af00ef31bb91",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_ACTED_BY_PERSON:person:person_a488aa5caffc",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_a488aa5caffc",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_ACTED_BY_PERSON:person:person_8bece57a2c27",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_8bece57a2c27",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_ACTED_BY_PERSON:person:person_b1de62b38edb",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_b1de62b38edb",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_ACTED_BY_PERSON:person:person_1eebff260535",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_1eebff260535",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_ACTED_BY_PERSON:person:person_05204965b265",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_05204965b265",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_PRODUCED_IN_COUNTRY:country:us",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_PRODUCED_IN_COUNTRY",
+    "targetType": "country",
+    "targetId": "us",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_HAS_GENRE:genre:genre_9e6a55b6b456",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_9e6a55b6b456",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_HAS_GENRE:genre:genre_b888b29826bb",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_b888b29826bb",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_USES_LANGUAGE:language:en",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_USES_LANGUAGE",
+    "targetType": "language",
+    "targetId": "en",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_USES_LANGUAGE:language:it",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_USES_LANGUAGE",
+    "targetType": "language",
+    "targetId": "it",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_USES_LANGUAGE:language:la",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_USES_LANGUAGE",
+    "targetType": "language",
+    "targetId": "la",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_PRODUCED_BY_COMPANY:company:company_1b6453892473",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_1b6453892473",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_PRODUCED_BY_COMPANY:company:company_dc080a2ab786",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_dc080a2ab786",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_509b954f6361:MOVIE_PRODUCED_BY_COMPANY:company:company_5adfb5fc7d23",
+    "sourceType": "movie",
+    "sourceId": "mov_509b954f6361",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_5adfb5fc7d23",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "238",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_DIRECTED_BY_PERSON:person:person_56ad4d4deaec",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_DIRECTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_56ad4d4deaec",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_WRITTEN_BY_PERSON:person:person_56ad4d4deaec",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_WRITTEN_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_56ad4d4deaec",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_ACTED_BY_PERSON:person:person_df094e855213",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_df094e855213",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_ACTED_BY_PERSON:person:person_07cef16b46a7",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_07cef16b46a7",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_ACTED_BY_PERSON:person:person_fa755791d050",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_fa755791d050",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_ACTED_BY_PERSON:person:person_511a418e7259",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_511a418e7259",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_ACTED_BY_PERSON:person:person_976190a0952c",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_976190a0952c",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_ACTED_BY_PERSON:person:person_8fe39caeac3a",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_8fe39caeac3a",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.518Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.518Z",
+    "updatedAt": "2026-07-13T10:35:44.518Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_ACTED_BY_PERSON:person:person_fe9ffcd78c2e",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_fe9ffcd78c2e",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_ACTED_BY_PERSON:person:person_9f5709d0ddad",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_9f5709d0ddad",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_ACTED_BY_PERSON:person:person_9a79be611e02",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_9a79be611e02",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_ACTED_BY_PERSON:person:person_b72c09eae1de",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_b72c09eae1de",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_ACTED_BY_PERSON:person:person_56ad4d4deaec",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_56ad4d4deaec",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_ACTED_BY_PERSON:person:person_740c18cc04b9",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_740c18cc04b9",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_ACTED_BY_PERSON:person:person_ae46f54463e4",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_ae46f54463e4",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_ACTED_BY_PERSON:person:person_e73487707dc5",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_e73487707dc5",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_ACTED_BY_PERSON:person:person_c9db045496fa",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_c9db045496fa",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_ACTED_BY_PERSON:person:person_f650bef5536c",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_f650bef5536c",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_ACTED_BY_PERSON:person:person_23c2f12f5b36",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_23c2f12f5b36",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_ACTED_BY_PERSON:person:person_8cc981aa1ecd",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_8cc981aa1ecd",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_ACTED_BY_PERSON:person:person_daf53b3dc152",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_daf53b3dc152",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_ACTED_BY_PERSON:person:person_5e328fde0a85",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_5e328fde0a85",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_PRODUCED_IN_COUNTRY:country:us",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_PRODUCED_IN_COUNTRY",
+    "targetType": "country",
+    "targetId": "us",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_HAS_GENRE:genre:genre_c5b76da3e608",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_c5b76da3e608",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_HAS_GENRE:genre:genre_b888b29826bb",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_b888b29826bb",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_HAS_GENRE:genre:genre_972a67c48192",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_972a67c48192",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_USES_LANGUAGE:language:en",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_USES_LANGUAGE",
+    "targetType": "language",
+    "targetId": "en",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_USES_LANGUAGE:language:es",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_USES_LANGUAGE",
+    "targetType": "language",
+    "targetId": "es",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_USES_LANGUAGE:language:fr",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_USES_LANGUAGE",
+    "targetType": "language",
+    "targetId": "fr",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_PRODUCED_BY_COMPANY:company:company_fa35e192121e",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_fa35e192121e",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_PRODUCED_BY_COMPANY:company:company_5a5b0f9b7d3f",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_5a5b0f9b7d3f",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_ff7ab0beb239:MOVIE_PRODUCED_BY_COMPANY:company:company_0bad865a02d8",
+    "sourceType": "movie",
+    "sourceId": "mov_ff7ab0beb239",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_0bad865a02d8",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "680",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_DIRECTED_BY_PERSON:person:person_68115b1eda13",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_DIRECTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_68115b1eda13",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_WRITTEN_BY_PERSON:person:person_68115b1eda13",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_WRITTEN_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_68115b1eda13",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_ACTED_BY_PERSON:person:person_f881b44b0c8b",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_f881b44b0c8b",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_ACTED_BY_PERSON:person:person_77ba9cd915c8",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_77ba9cd915c8",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_ACTED_BY_PERSON:person:person_2986d21dedbf",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_2986d21dedbf",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_ACTED_BY_PERSON:person:person_33d164bfa810",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_33d164bfa810",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_ACTED_BY_PERSON:person:person_374e14374139",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_374e14374139",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_ACTED_BY_PERSON:person:person_92135da5f20c",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_92135da5f20c",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_ACTED_BY_PERSON:person:person_13e2ad0c34fc",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_13e2ad0c34fc",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_ACTED_BY_PERSON:person:person_7b410b9d7cf0",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_7b410b9d7cf0",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_ACTED_BY_PERSON:person:person_e7aa0c820279",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_e7aa0c820279",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_ACTED_BY_PERSON:person:person_3b0a7a8b8d8f",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_3b0a7a8b8d8f",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_ACTED_BY_PERSON:person:person_620fcd816bf6",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_620fcd816bf6",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_ACTED_BY_PERSON:person:person_862ae8933095",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_862ae8933095",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_ACTED_BY_PERSON:person:person_4ff0014f882e",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_4ff0014f882e",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_PRODUCED_IN_COUNTRY:country:hk",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_PRODUCED_IN_COUNTRY",
+    "targetType": "country",
+    "targetId": "hk",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_PRODUCED_IN_COUNTRY:country:fr",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_PRODUCED_IN_COUNTRY",
+    "targetType": "country",
+    "targetId": "fr",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_HAS_GENRE:genre:genre_9e6a55b6b456",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_9e6a55b6b456",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_HAS_GENRE:genre:genre_f5c53019ae35",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_f5c53019ae35",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_USES_LANGUAGE:language:cn",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_USES_LANGUAGE",
+    "targetType": "language",
+    "targetId": "cn",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_USES_LANGUAGE:language:fr",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_USES_LANGUAGE",
+    "targetType": "language",
+    "targetId": "fr",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_USES_LANGUAGE:language:es",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_USES_LANGUAGE",
+    "targetType": "language",
+    "targetId": "es",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_PRODUCED_BY_COMPANY:company:company_3cc5149977a9",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_3cc5149977a9",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_PRODUCED_BY_COMPANY:company:company_3028f51407d8",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_3028f51407d8",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_850dbd0ed779:MOVIE_PRODUCED_BY_COMPANY:company:company_a8a2b30f8dba",
+    "sourceType": "movie",
+    "sourceId": "mov_850dbd0ed779",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_a8a2b30f8dba",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "843",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_WRITTEN_BY_PERSON:person:person_2024be526b48",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_WRITTEN_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_2024be526b48",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_DIRECTED_BY_PERSON:person:person_2024be526b48",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_DIRECTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_2024be526b48",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_ACTED_BY_PERSON:person:person_2d3e96a31ee4",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_2d3e96a31ee4",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.519Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.519Z",
+    "updatedAt": "2026-07-13T10:35:44.519Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_ACTED_BY_PERSON:person:person_7992f1d0b0cb",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_7992f1d0b0cb",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_ACTED_BY_PERSON:person:person_bff0655723a4",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_bff0655723a4",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_ACTED_BY_PERSON:person:person_37326bc2e83b",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_37326bc2e83b",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_ACTED_BY_PERSON:person:person_2131b2beffbf",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_2131b2beffbf",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_ACTED_BY_PERSON:person:person_e28c709fc259",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_e28c709fc259",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_ACTED_BY_PERSON:person:person_057397000014",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_057397000014",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_ACTED_BY_PERSON:person:person_cb39b2f41710",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_cb39b2f41710",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_ACTED_BY_PERSON:person:person_e10f1440e333",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_e10f1440e333",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_ACTED_BY_PERSON:person:person_911d2d4f3adb",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_911d2d4f3adb",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_ACTED_BY_PERSON:person:person_fc0d872252e5",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_fc0d872252e5",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_ACTED_BY_PERSON:person:person_18bc71f9e676",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_18bc71f9e676",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_ACTED_BY_PERSON:person:person_c10856a31afe",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_c10856a31afe",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_ACTED_BY_PERSON:person:person_b80070ffba3c",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_b80070ffba3c",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_ACTED_BY_PERSON:person:person_480ffeabdb8c",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_480ffeabdb8c",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_ACTED_BY_PERSON:person:person_2f4e95c5921e",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_2f4e95c5921e",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_ACTED_BY_PERSON:person:person_13e4f647ca8d",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_13e4f647ca8d",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_ACTED_BY_PERSON:person:person_7e687a57d3a4",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_7e687a57d3a4",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_ACTED_BY_PERSON:person:person_09670253ba59",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_09670253ba59",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_ACTED_BY_PERSON:person:person_ac026e222916",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_ac026e222916",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_PRODUCED_IN_COUNTRY:country:gb",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_PRODUCED_IN_COUNTRY",
+    "targetType": "country",
+    "targetId": "gb",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_PRODUCED_IN_COUNTRY:country:us",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_PRODUCED_IN_COUNTRY",
+    "targetType": "country",
+    "targetId": "us",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_HAS_GENRE:genre:genre_9e6a55b6b456",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_9e6a55b6b456",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_USES_LANGUAGE:language:es",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_USES_LANGUAGE",
+    "targetType": "language",
+    "targetId": "es",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_USES_LANGUAGE:language:en",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_USES_LANGUAGE",
+    "targetType": "language",
+    "targetId": "en",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_PRODUCED_BY_COMPANY:company:company_ad20fb46a7d6",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_ad20fb46a7d6",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e7d7fa7398b4:MOVIE_PRODUCED_BY_COMPANY:company:company_97698295bca1",
+    "sourceType": "movie",
+    "sourceId": "mov_e7d7fa7398b4",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_97698295bca1",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "426426",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_WRITTEN_BY_PERSON:person:person_1b026fe0075f",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_WRITTEN_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_1b026fe0075f",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_DIRECTED_BY_PERSON:person:person_ad8a1349bf68",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_DIRECTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_ad8a1349bf68",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_ACTED_BY_PERSON:person:person_c56493f6be93",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_c56493f6be93",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_ACTED_BY_PERSON:person:person_6990fcbb5ee9",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_6990fcbb5ee9",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_ACTED_BY_PERSON:person:person_3d848f02fa72",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_3d848f02fa72",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_ACTED_BY_PERSON:person:person_a8c8cf5a8a6e",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_a8c8cf5a8a6e",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_ACTED_BY_PERSON:person:person_e809d72ac1f0",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_e809d72ac1f0",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_ACTED_BY_PERSON:person:person_d31e3de1072f",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_d31e3de1072f",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_ACTED_BY_PERSON:person:person_2b5bb5439297",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_2b5bb5439297",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_ACTED_BY_PERSON:person:person_4fd9fd7c1120",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_4fd9fd7c1120",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_ACTED_BY_PERSON:person:person_2fc5bf1f52d8",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_2fc5bf1f52d8",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_ACTED_BY_PERSON:person:person_886efed3ff7c",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_886efed3ff7c",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_ACTED_BY_PERSON:person:person_a5b2b5b00ab1",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_a5b2b5b00ab1",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_ACTED_BY_PERSON:person:person_151ed884e6f0",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_151ed884e6f0",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_ACTED_BY_PERSON:person:person_c1c2c559bd28",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_c1c2c559bd28",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_ACTED_BY_PERSON:person:person_46571adb08c7",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_46571adb08c7",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_ACTED_BY_PERSON:person:person_b372431e43ba",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_b372431e43ba",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_ACTED_BY_PERSON:person:person_e69261018f07",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_e69261018f07",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_ACTED_BY_PERSON:person:person_10e94eb3389c",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_10e94eb3389c",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_ACTED_BY_PERSON:person:person_3c17ffe8211c",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_3c17ffe8211c",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_ACTED_BY_PERSON:person:person_dc3413d00d8c",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_dc3413d00d8c",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_ACTED_BY_PERSON:person:person_7af30e07e005",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_7af30e07e005",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_PRODUCED_IN_COUNTRY:country:br",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_PRODUCED_IN_COUNTRY",
+    "targetType": "country",
+    "targetId": "br",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_PRODUCED_IN_COUNTRY:country:fr",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_PRODUCED_IN_COUNTRY",
+    "targetType": "country",
+    "targetId": "fr",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_PRODUCED_IN_COUNTRY:country:de",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_PRODUCED_IN_COUNTRY",
+    "targetType": "country",
+    "targetId": "de",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_HAS_GENRE:genre:genre_9e6a55b6b456",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_9e6a55b6b456",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_HAS_GENRE:genre:genre_b888b29826bb",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_b888b29826bb",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_USES_LANGUAGE:language:pt",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_USES_LANGUAGE",
+    "targetType": "language",
+    "targetId": "pt",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_PRODUCED_BY_COMPANY:company:company_35139ef894b2",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_35139ef894b2",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_PRODUCED_BY_COMPANY:company:company_41f448afc826",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_41f448afc826",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_PRODUCED_BY_COMPANY:company:company_efe76debc08f",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_efe76debc08f",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_PRODUCED_BY_COMPANY:company:company_e9ee2a950103",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_e9ee2a950103",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_PRODUCED_BY_COMPANY:company:company_578215440f2d",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_578215440f2d",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_e5c888c7cc51:MOVIE_PRODUCED_BY_COMPANY:company:company_807739678b21",
+    "sourceType": "movie",
+    "sourceId": "mov_e5c888c7cc51",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_807739678b21",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "598",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_WRITTEN_BY_PERSON:person:person_957c5022a604",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_WRITTEN_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_957c5022a604",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.520Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.520Z",
+    "updatedAt": "2026-07-13T10:35:44.520Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_DIRECTED_BY_PERSON:person:person_957c5022a604",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_DIRECTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_957c5022a604",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_ACTED_BY_PERSON:person:person_c3dc56b86352",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_c3dc56b86352",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_ACTED_BY_PERSON:person:person_cfbcae00c5dc",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_cfbcae00c5dc",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_ACTED_BY_PERSON:person:person_91bbf44e4a90",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_91bbf44e4a90",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_ACTED_BY_PERSON:person:person_58ccaf222dc6",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_58ccaf222dc6",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_ACTED_BY_PERSON:person:person_69506241ce6b",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_69506241ce6b",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_ACTED_BY_PERSON:person:person_c6c2a269501d",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_c6c2a269501d",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_ACTED_BY_PERSON:person:person_cc8842bb44be",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_cc8842bb44be",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_ACTED_BY_PERSON:person:person_6c6a79802d68",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_6c6a79802d68",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_ACTED_BY_PERSON:person:person_0c68f757afac",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_0c68f757afac",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_ACTED_BY_PERSON:person:person_ac50665c1c22",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_ac50665c1c22",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_ACTED_BY_PERSON:person:person_3fac0cfa7b01",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_3fac0cfa7b01",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_ACTED_BY_PERSON:person:person_3c3e7837a263",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_3c3e7837a263",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_ACTED_BY_PERSON:person:person_4c1b52409cf6",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_4c1b52409cf6",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_ACTED_BY_PERSON:person:person_76f2078abcdd",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_76f2078abcdd",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_ACTED_BY_PERSON:person:person_c4951f8db7d8",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_c4951f8db7d8",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_ACTED_BY_PERSON:person:person_52e45989e23f",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_52e45989e23f",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_ACTED_BY_PERSON:person:person_42b8c615cd90",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_42b8c615cd90",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_ACTED_BY_PERSON:person:person_64e3735ccd90",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_64e3735ccd90",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_ACTED_BY_PERSON:person:person_9a81f7188c1d",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_9a81f7188c1d",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_ACTED_BY_PERSON:person:person_c812bbcfb5a0",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_ACTED_BY_PERSON",
+    "targetType": "person",
+    "targetId": "person_c812bbcfb5a0",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_PRODUCED_IN_COUNTRY:country:se",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_PRODUCED_IN_COUNTRY",
+    "targetType": "country",
+    "targetId": "se",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_HAS_GENRE:genre:genre_fa35e192121e",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_fa35e192121e",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_HAS_GENRE:genre:genre_9e6a55b6b456",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_HAS_GENRE",
+    "targetType": "genre",
+    "targetId": "genre_9e6a55b6b456",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_USES_LANGUAGE:language:sv",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_USES_LANGUAGE",
+    "targetType": "language",
+    "targetId": "sv",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  },
+  {
+    "id": "movie:mov_6604c0455984:MOVIE_PRODUCED_BY_COMPANY:company:company_ad06a45073fc",
+    "sourceType": "movie",
+    "sourceId": "mov_6604c0455984",
+    "relationType": "MOVIE_PRODUCED_BY_COMPANY",
+    "targetType": "company",
+    "targetId": "company_ad06a45073fc",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "490",
+      "importedAt": "2026-07-13T10:35:44.521Z",
+      "pipelineVersion": "catalog-persistence-v1"
+    },
+    "confidence": "high",
+    "isCurated": false,
+    "createdAt": "2026-07-13T10:35:44.521Z",
+    "updatedAt": "2026-07-13T10:35:44.521Z"
+  }
+]

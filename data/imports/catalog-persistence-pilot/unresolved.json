@@ -1,0 +1,110 @@
+[
+  {
+    "movie": "Casablanca",
+    "expectedYear": 1942,
+    "providerMovieId": "289",
+    "pipelineStatus": "WARNING",
+    "contentQualityScore": 95,
+    "qualityBand": "90+",
+    "reviewRequired": true,
+    "yearClassification": "WITHIN_ONE_YEAR",
+    "issues": [],
+    "warnings": [
+      {
+        "code": "YEAR_VARIANT",
+        "severity": "review",
+        "message": "Expected 1942, matched 1943."
+      }
+    ],
+    "checks": {
+      "search": true,
+      "match": false,
+      "detail": true,
+      "credits": true,
+      "poster": true,
+      "backdrop": true,
+      "externalIds": true,
+      "normalization": true,
+      "validation": true
+    }
+  },
+  {
+    "movie": "Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles",
+    "expectedYear": 1975,
+    "providerMovieId": "44012",
+    "pipelineStatus": "WARNING",
+    "contentQualityScore": 95,
+    "qualityBand": "90+",
+    "reviewRequired": true,
+    "yearClassification": "WITHIN_ONE_YEAR",
+    "issues": [],
+    "warnings": [
+      {
+        "code": "YEAR_VARIANT",
+        "severity": "review",
+        "message": "Expected 1975, matched 1976."
+      }
+    ],
+    "checks": {
+      "search": true,
+      "match": false,
+      "detail": true,
+      "credits": true,
+      "poster": true,
+      "backdrop": true,
+      "externalIds": true,
+      "normalization": true,
+      "validation": true
+    }
+  },
+  {
+    "movie": "Crash",
+    "expectedYear": 2004,
+    "providerMovieId": "1353802",
+    "pipelineStatus": "WARNING",
+    "contentQualityScore": 65,
+    "qualityBand": "60-",
+    "reviewRequired": true,
+    "yearClassification": "EXACT_MATCH",
+    "issues": [
+      {
+        "code": "LOW_CONFIDENCE_MATCH",
+        "severity": "blocker",
+        "message": "Matched runtime is 5 minutes for a non-short pilot movie."
+      }
+    ],
+    "warnings": [
+      {
+        "code": "POSTER_MISSING",
+        "severity": "review",
+        "message": "Poster path is missing."
+      },
+      {
+        "code": "BACKDROP_MISSING",
+        "severity": "review",
+        "message": "Backdrop path is missing."
+      },
+      {
+        "code": "VALIDATION_WARNING",
+        "severity": "review",
+        "message": "poster: CanonicalMovieDraft has no poster path."
+      },
+      {
+        "code": "VALIDATION_WARNING",
+        "severity": "review",
+        "message": "backdrop: CanonicalMovieDraft has no backdrop path."
+      }
+    ],
+    "checks": {
+      "search": true,
+      "match": true,
+      "detail": true,
+      "credits": true,
+      "poster": false,
+      "backdrop": false,
+      "externalIds": true,
+      "normalization": true,
+      "validation": true
+    }
+  }
+]

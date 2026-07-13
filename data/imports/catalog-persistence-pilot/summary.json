@@ -1,0 +1,23 @@
+{
+  "pilot": "catalog-persistence-pilot",
+  "source": "tmdb-pilot-100",
+  "contentQualityThreshold": 90,
+  "approvedInputCount": 10,
+  "movieRecords": 10,
+  "entityRecords": 288,
+  "edgeRecords": 303,
+  "unresolvedInputCount": 3,
+  "reimport": {
+    "movieRecordsBefore": 10,
+    "movieRecordsAfter": 10,
+    "edgeRecordsBefore": 303,
+    "edgeRecordsAfter": 303,
+    "duplicateMoviesCreated": 0,
+    "duplicateEdgesCreated": 0
+  },
+  "queryVerification": {
+    "movieConnections": 31,
+    "directorFilmography": 2,
+    "countryFilms": 2
+  }
+}
