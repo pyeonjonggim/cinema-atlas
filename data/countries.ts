@@ -125,4 +125,38 @@ export const countries: Country[] = [
     directorSlugs: ["akira-kurosawa"],
     movementSlugs: ["japanese-golden-age"],
   },
+
+  {
+    slug: "italy",
+
+    name: "Italy",
+    nameKo: "Italy",
+    flag: "IT",
+    region: "Europe",
+
+    representativeEra: "Italian Cinema",
+    knownFor: "Festival Culture & Auteur Cinema",
+
+    description:
+      "Italy is an essential country in world cinema, connected to neorealism, auteur filmmaking, major festivals, and the international circulation of film culture.",
+
+    whyMatters:
+      "Italy matters to Cinema Atlas not only through its films and directors, but also through institutions such as the Venice Film Festival, which helped shape how world cinema is discovered and remembered.",
+
+    characteristics: [
+      "A major home of European auteur and festival cinema",
+      "A bridge between national cinema, international festivals, and global film history",
+      "A future catalog anchor for Italian neorealism, modernist cinema, and Venice recognition",
+    ],
+
+    themes: ["Festival Culture", "Auteur Cinema", "European Cinema", "Film History"],
+
+    essentialMovieIds: ["rashomon"],
+    starterMovieId: "rashomon",
+    startingPointReason:
+      "Rashomon is not an Italian film, but it is the current catalog's clearest connection to Italy through the Venice Golden Lion and the international discovery of Japanese cinema.",
+
+    directorSlugs: [],
+    movementSlugs: [],
+  },
 ];
