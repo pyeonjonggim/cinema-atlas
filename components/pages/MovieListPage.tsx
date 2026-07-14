@@ -1,12 +1,13 @@
-import { movies } from "@/data/movies";
-
 import GlobalNavigation from "@/components/navigation/GlobalNavigation";
 import PageContainer from "@/components/layout/PageContainer";
 import MovieList from "@/components/MovieList";
 import RecommendedShelfPattern from "@/components/patterns/RecommendedShelfPattern";
 import JourneyCard from "@/components/discovery/JourneyCard";
+import { listMovies } from "@/lib/catalogQuery";
 
 export default function MovieListPage() {
+  const movies = listMovies();
+
   return (
     <>
       <GlobalNavigation />

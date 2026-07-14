@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 
 import DirectorDetailPage from "@/components/pages/DirectorDetailPage";
 import { directors } from "@/data/directors";
-import { movies } from "@/data/movies";
+import { listMovies } from "@/lib/catalogQuery";
 
 type DirectorRouteProps = {
   params: Promise<{
@@ -22,7 +22,7 @@ export default async function DirectorRoute({ params }: DirectorRouteProps) {
     <DirectorDetailPage
       director={director}
       directors={directors}
-      movies={movies}
+      movies={listMovies()}
     />
   );
 }

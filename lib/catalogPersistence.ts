@@ -12,6 +12,8 @@ import type {
   KnowledgeGraphEntityType,
   KnowledgeGraphRelationType,
 } from "@/types/catalogPersistence";
+import type { EntityAlias, ResolvableEntityType } from "@/types/entityResolution";
+import { normalizeComparisonName } from "@/lib/entityResolution";
 
 function entityKey(type: KnowledgeGraphEntityType, id: string): string {
   return `${type}:${id}`;
@@ -41,6 +43,7 @@ export class InMemoryCatalogRepository implements CatalogRepository {
   private readonly outgoingEdgesByEntity = new Map<string, Set<string>>();
   private readonly incomingEdgesByEntity = new Map<string, Set<string>>();
   private readonly edgesByRelationType = new Map<KnowledgeGraphRelationType, Set<string>>();
+  private readonly aliasesByEntity = new Map<string, Set<string>>();
 
   async getMovieById(id: string): Promise<CatalogMovieRecord | undefined> {
     return this.moviesById.get(id);
@@ -204,6 +207,92 @@ export class InMemoryCatalogRepository implements CatalogRepository {
       }));
   }
 
+  async getEntityById(
+    entityType: ResolvableEntityType,
+    id: string,
+  ): Promise<unknown | undefined> {
+    return this.getEntityMap(entityType)?.get(id);
+  }
+
+  async getEntityByExternalId(
+    entityType: ResolvableEntityType,
+    provider: "tmdb" | "imdb" | "wikidata",
+    value: string | number,
+  ): Promise<unknown | undefined> {
+    const records = [...(this.getEntityMap(entityType)?.values() ?? [])];
+    const field =
+      provider === "tmdb" ? "tmdbId" : provider === "imdb" ? "imdbId" : "wikidataId";
+
+    return records.find((record) => {
+      if (!record || typeof record !== "object" || !("externalIds" in record)) {
+        return false;
+      }
+      const externalIds = record.externalIds as Record<string, string | number | undefined>;
+      return externalIds[field] === value;
+    });
+  }
+
+  async findEntitiesByNormalizedName(
+    entityType: ResolvableEntityType,
+    normalizedName: string,
+  ): Promise<EntityMatchCandidate[]> {
+    const records = [...(this.getEntityMap(entityType)?.values() ?? [])];
+    return records
+      .filter((record) => {
+        if (!record || typeof record !== "object" || !("name" in record)) {
+          return false;
+        }
+        return normalizeComparisonName(String(record.name)) === normalizedName;
+      })
+      .map((record) => this.toLegacyEntityCandidate(entityType, record, "normalized name"));
+  }
+
+  async findEntitiesByAlias(
+    entityType: ResolvableEntityType,
+    normalizedAlias: string,
+  ): Promise<EntityMatchCandidate[]> {
+    const records = [...(this.getEntityMap(entityType)?.values() ?? [])];
+    return records
+      .filter((record) => {
+        if (!record || typeof record !== "object" || !("id" in record)) {
+          return false;
+        }
+        const aliases = this.aliasesByEntity.get(`${entityType}:${String(record.id)}`) ?? new Set();
+        return aliases.has(normalizedAlias);
+      })
+      .map((record) => this.toLegacyEntityCandidate(entityType, record, "alias"));
+  }
+
+  async listEntityCandidates(entityType: ResolvableEntityType): Promise<EntityMatchCandidate[]> {
+    return [...(this.getEntityMap(entityType)?.values() ?? [])].map((record) =>
+      this.toLegacyEntityCandidate(entityType, record, "listed candidate"),
+    );
+  }
+
+  async saveEntityAlias(
+    entityType: ResolvableEntityType,
+    entityId: string,
+    alias: EntityAlias,
+  ): Promise<void> {
+    const key = `${entityType}:${entityId}`;
+    if (!this.aliasesByEntity.has(key)) {
+      this.aliasesByEntity.set(key, new Set());
+    }
+    this.aliasesByEntity.get(key)?.add(alias.normalizedValue);
+  }
+
+  async reserveExternalId(
+    entityType: ResolvableEntityType,
+    entityId: string,
+    provider: "tmdb" | "imdb" | "wikidata",
+    value: string | number,
+  ): Promise<void> {
+    const existing = await this.getEntityByExternalId(entityType, provider, value);
+    if (existing && typeof existing === "object" && "id" in existing && existing.id !== entityId) {
+      throw new Error(`External ID conflict: ${entityType}:${provider}:${value}`);
+    }
+  }
+
   getEdgesByRelationType(relationType: KnowledgeGraphRelationType): KnowledgeGraphEdge[] {
     const ids = this.edgesByRelationType.get(relationType) ?? new Set();
     return [...ids].map((id) => this.edgesById.get(id)).filter(Boolean) as KnowledgeGraphEdge[];
@@ -257,6 +346,43 @@ export class InMemoryCatalogRepository implements CatalogRepository {
     this.outgoingEdgesByEntity.get(outgoingKey)?.add(id);
     this.incomingEdgesByEntity.get(incomingKey)?.add(id);
     this.edgesByRelationType.get(storedEdge.relationType)?.add(id);
+  }
+
+  private getEntityMap(entityType: ResolvableEntityType) {
+    if (entityType === "person") {
+      return this.peopleById;
+    }
+    if (entityType === "country") {
+      return this.countriesById;
+    }
+    if (entityType === "genre") {
+      return this.genresById;
+    }
+    if (entityType === "language") {
+      return this.languagesById;
+    }
+    return this.companiesById;
+  }
+
+  private toLegacyEntityCandidate(
+    entityType: ResolvableEntityType,
+    record: unknown,
+    matchReason: string,
+  ): EntityMatchCandidate {
+    const id =
+      record && typeof record === "object" && "id" in record ? String(record.id) : "unknown";
+    const label =
+      record && typeof record === "object" && "name" in record && record.name
+        ? String(record.name)
+        : id;
+
+    return {
+      entityType: entityType === "company" ? "production-company" : entityType,
+      entityId: id,
+      label,
+      confidence: "high",
+      matchReason,
+    };
   }
 }
 

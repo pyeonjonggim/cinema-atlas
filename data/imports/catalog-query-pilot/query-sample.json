@@ -1,0 +1,128 @@
+{
+  "firstMovie": {
+    "id": "mov_d9f4b3d10da5",
+    "legacyDraftId": "imdb-tt6751668",
+    "externalIds": {
+      "tmdbId": 496243,
+      "imdbId": "tt6751668",
+      "wikidataId": "Q61448040"
+    },
+    "title": "Parasite",
+    "originalTitle": "기생충",
+    "releaseDate": "2019-05-30",
+    "year": 2019,
+    "runtime": 133,
+    "externalMetadata": {
+      "title": "Parasite",
+      "originalTitle": "기생충",
+      "releaseDate": "2019-05-30",
+      "runtime": 133,
+      "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+      "poster": {
+        "path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+        "alt": "Parasite",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "backdrop": {
+        "path": "/wCuUKiRaz0wEESsYqmQy005xvTE.jpg",
+        "alt": "Parasite",
+        "source": "external-metadata",
+        "sourceId": "tmdb"
+      },
+      "productionCountryIds": [
+        "kr"
+      ],
+      "productionCompanyIds": [
+        "4399"
+      ],
+      "spokenLanguageIds": [
+        "en",
+        "de",
+        "ko"
+      ],
+      "genreIds": [
+        "35",
+        "53",
+        "18"
+      ],
+      "creditIds": [
+        "2187821",
+        "2187912",
+        "1305523",
+        "2320121",
+        "21684",
+        "21684",
+        "21684",
+        "20738",
+        "115290",
+        "556435",
+        "1255881",
+        "1442583",
+        "1572354",
+        "2158882",
+        "1694435",
+        "1418762",
+        "2306987",
+        "1709230",
+        "2326809",
+        "2478772",
+        "2326615",
+        "2478781",
+        "2159392",
+        "2379047",
+        "2499966",
+        "1419705",
+        "2538209"
+      ],
+      "externalRating": 8.492,
+      "popularity": 28.2785,
+      "source": "tmdb",
+      "fetchedAt": "2026-07-13T10:03:00.059Z"
+    },
+    "approval": {
+      "state": "APPROVED",
+      "reason": "Pipeline PASS; content quality 100.",
+      "approvedAt": "2026-07-14T15:18:41.565Z",
+      "approvedBy": "catalog-persistence-pilot"
+    },
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "496243",
+        "importedAt": "2026-07-14T15:18:41.565Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ],
+    "createdAt": "2026-07-14T15:18:41.565Z",
+    "updatedAt": "2026-07-14T15:18:41.565Z"
+  },
+  "director": {
+    "id": "person_f66b8cac8ba8",
+    "name": "Bong Joon Ho",
+    "externalIds": {
+      "tmdbId": 21684
+    },
+    "roles": [
+      "director",
+      "producer",
+      "writer"
+    ],
+    "provenance": [
+      {
+        "provider": "tmdb",
+        "providerRecordId": "496243",
+        "importedAt": "2026-07-14T15:18:41.565Z",
+        "pipelineVersion": "catalog-persistence-v1"
+      }
+    ]
+  },
+  "directorFilmographyMovieIds": [
+    "mov_d9f4b3d10da5"
+  ],
+  "countryId": "kr",
+  "countryMovieIds": [
+    "mov_d9f4b3d10da5",
+    "mov_9e1f399788c8"
+  ]
+}

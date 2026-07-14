@@ -4,7 +4,7 @@ import CountryDetailPage from "@/components/pages/CountryDetailPage";
 import { countries } from "@/data/countries";
 import { directors } from "@/data/directors";
 import { movements } from "@/data/movements";
-import { movies } from "@/data/movies";
+import { listMovies } from "@/lib/catalogQuery";
 
 type CountryRouteProps = {
   params: Promise<{
@@ -26,7 +26,7 @@ export default async function CountryRoute({ params }: CountryRouteProps) {
       countries={countries}
       directors={directors}
       movements={movements}
-      movies={movies}
+      movies={listMovies()}
     />
   );
 }

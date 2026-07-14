@@ -1,4 +1,5 @@
 import type { CatalogEntityType, ExternalIds, MovieExternalMetadata } from "@/types/catalog";
+import type { EntityAlias, ResolvableEntityType } from "@/types/entityResolution";
 
 export type CatalogRecordType =
   | "movie"
@@ -168,6 +169,7 @@ export type KnowledgeGraphRelationType =
   | "MOVIE_DIRECTED_BY_PERSON"
   | "MOVIE_ACTED_BY_PERSON"
   | "MOVIE_WRITTEN_BY_PERSON"
+  | "MOVIE_PRODUCED_BY_PERSON"
   | "MOVIE_PRODUCED_IN_COUNTRY"
   | "MOVIE_HAS_GENRE"
   | "MOVIE_USES_LANGUAGE"
@@ -222,5 +224,20 @@ export type CatalogRepository = {
   getRelationsFrom(sourceType: KnowledgeGraphEntityType, sourceId: string): Promise<KnowledgeGraphEdge[]>;
   getRelationsTo(targetType: KnowledgeGraphEntityType, targetId: string): Promise<KnowledgeGraphEdge[]>;
   findEntityCandidates(entityType: KnowledgeGraphEntityType, label: string): Promise<EntityMatchCandidate[]>;
+  getEntityById(entityType: ResolvableEntityType, id: string): Promise<unknown | undefined>;
+  getEntityByExternalId(
+    entityType: ResolvableEntityType,
+    provider: "tmdb" | "imdb" | "wikidata",
+    value: string | number,
+  ): Promise<unknown | undefined>;
+  findEntitiesByNormalizedName(entityType: ResolvableEntityType, normalizedName: string): Promise<EntityMatchCandidate[]>;
+  findEntitiesByAlias(entityType: ResolvableEntityType, normalizedAlias: string): Promise<EntityMatchCandidate[]>;
+  listEntityCandidates(entityType: ResolvableEntityType): Promise<EntityMatchCandidate[]>;
+  saveEntityAlias(entityType: ResolvableEntityType, entityId: string, alias: EntityAlias): Promise<void>;
+  reserveExternalId(
+    entityType: ResolvableEntityType,
+    entityId: string,
+    provider: "tmdb" | "imdb" | "wikidata",
+    value: string | number,
+  ): Promise<void>;
 };
-

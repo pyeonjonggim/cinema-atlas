@@ -83,19 +83,19 @@
     "approval": {
       "state": "APPROVED",
       "reason": "Pipeline PASS; content quality 100.",
-      "approvedAt": "2026-07-13T10:35:44.508Z",
+      "approvedAt": "2026-07-14T16:05:09.855Z",
       "approvedBy": "catalog-persistence-pilot"
     },
     "provenance": [
       {
         "provider": "tmdb",
         "providerRecordId": "496243",
-        "importedAt": "2026-07-13T10:35:44.508Z",
+        "importedAt": "2026-07-14T16:05:09.855Z",
         "pipelineVersion": "catalog-persistence-v1"
       }
     ],
-    "createdAt": "2026-07-13T10:35:44.508Z",
-    "updatedAt": "2026-07-13T10:35:44.508Z"
+    "createdAt": "2026-07-14T16:05:09.855Z",
+    "updatedAt": "2026-07-14T16:05:09.855Z"
   },
   {
     "id": "mov_65bbbefc3e7c",
@@ -176,19 +176,19 @@
     "approval": {
       "state": "APPROVED",
       "reason": "Pipeline PASS; content quality 100.",
-      "approvedAt": "2026-07-13T10:35:44.516Z",
+      "approvedAt": "2026-07-14T16:05:09.858Z",
       "approvedBy": "catalog-persistence-pilot"
     },
     "provenance": [
       {
         "provider": "tmdb",
         "providerRecordId": "346",
-        "importedAt": "2026-07-13T10:35:44.516Z",
+        "importedAt": "2026-07-14T16:05:09.858Z",
         "pipelineVersion": "catalog-persistence-v1"
       }
     ],
-    "createdAt": "2026-07-13T10:35:44.516Z",
-    "updatedAt": "2026-07-13T10:35:44.516Z"
+    "createdAt": "2026-07-14T16:05:09.858Z",
+    "updatedAt": "2026-07-14T16:05:09.858Z"
   },
   {
     "id": "mov_83a831e9a75d",
@@ -273,19 +273,19 @@
     "approval": {
       "state": "APPROVED",
       "reason": "Pipeline PASS; content quality 100.",
-      "approvedAt": "2026-07-13T10:35:44.517Z",
+      "approvedAt": "2026-07-14T16:05:09.858Z",
       "approvedBy": "catalog-persistence-pilot"
     },
     "provenance": [
       {
         "provider": "tmdb",
         "providerRecordId": "129",
-        "importedAt": "2026-07-13T10:35:44.517Z",
+        "importedAt": "2026-07-14T16:05:09.858Z",
         "pipelineVersion": "catalog-persistence-v1"
       }
     ],
-    "createdAt": "2026-07-13T10:35:44.517Z",
-    "updatedAt": "2026-07-13T10:35:44.517Z"
+    "createdAt": "2026-07-14T16:05:09.858Z",
+    "updatedAt": "2026-07-14T16:05:09.858Z"
   },
   {
     "id": "mov_9e1f399788c8",
@@ -368,19 +368,19 @@
     "approval": {
       "state": "APPROVED",
       "reason": "Pipeline PASS; content quality 100.",
-      "approvedAt": "2026-07-13T10:35:44.517Z",
+      "approvedAt": "2026-07-14T16:05:09.858Z",
       "approvedBy": "catalog-persistence-pilot"
     },
     "provenance": [
       {
         "provider": "tmdb",
         "providerRecordId": "670",
-        "importedAt": "2026-07-13T10:35:44.517Z",
+        "importedAt": "2026-07-14T16:05:09.858Z",
         "pipelineVersion": "catalog-persistence-v1"
       }
     ],
-    "createdAt": "2026-07-13T10:35:44.517Z",
-    "updatedAt": "2026-07-13T10:35:44.517Z"
+    "createdAt": "2026-07-14T16:05:09.858Z",
+    "updatedAt": "2026-07-14T16:05:09.858Z"
   },
   {
     "id": "mov_509b954f6361",
@@ -466,19 +466,19 @@
     "approval": {
       "state": "APPROVED",
       "reason": "Pipeline PASS; content quality 100.",
-      "approvedAt": "2026-07-13T10:35:44.518Z",
+      "approvedAt": "2026-07-14T16:05:09.859Z",
       "approvedBy": "catalog-persistence-pilot"
     },
     "provenance": [
       {
         "provider": "tmdb",
         "providerRecordId": "238",
-        "importedAt": "2026-07-13T10:35:44.518Z",
+        "importedAt": "2026-07-14T16:05:09.859Z",
         "pipelineVersion": "catalog-persistence-v1"
       }
     ],
-    "createdAt": "2026-07-13T10:35:44.518Z",
-    "updatedAt": "2026-07-13T10:35:44.518Z"
+    "createdAt": "2026-07-14T16:05:09.859Z",
+    "updatedAt": "2026-07-14T16:05:09.859Z"
   },
   {
     "id": "mov_ff7ab0beb239",
@@ -562,19 +562,19 @@
     "approval": {
       "state": "APPROVED",
       "reason": "Pipeline PASS; content quality 100.",
-      "approvedAt": "2026-07-13T10:35:44.518Z",
+      "approvedAt": "2026-07-14T16:05:09.859Z",
       "approvedBy": "catalog-persistence-pilot"
     },
     "provenance": [
       {
         "provider": "tmdb",
         "providerRecordId": "680",
-        "importedAt": "2026-07-13T10:35:44.518Z",
+        "importedAt": "2026-07-14T16:05:09.859Z",
         "pipelineVersion": "catalog-persistence-v1"
       }
     ],
-    "createdAt": "2026-07-13T10:35:44.518Z",
-    "updatedAt": "2026-07-13T10:35:44.518Z"
+    "createdAt": "2026-07-14T16:05:09.859Z",
+    "updatedAt": "2026-07-14T16:05:09.859Z"
   },
   {
     "id": "mov_850dbd0ed779",
@@ -651,19 +651,19 @@
     "approval": {
       "state": "APPROVED",
       "reason": "Pipeline PASS; content quality 100.",
-      "approvedAt": "2026-07-13T10:35:44.519Z",
+      "approvedAt": "2026-07-14T16:05:09.859Z",
       "approvedBy": "catalog-persistence-pilot"
     },
     "provenance": [
       {
         "provider": "tmdb",
         "providerRecordId": "843",
-        "importedAt": "2026-07-13T10:35:44.519Z",
+        "importedAt": "2026-07-14T16:05:09.859Z",
         "pipelineVersion": "catalog-persistence-v1"
       }
     ],
-    "createdAt": "2026-07-13T10:35:44.519Z",
-    "updatedAt": "2026-07-13T10:35:44.519Z"
+    "createdAt": "2026-07-14T16:05:09.859Z",
+    "updatedAt": "2026-07-14T16:05:09.859Z"
   },
   {
     "id": "mov_e7d7fa7398b4",
@@ -746,19 +746,19 @@
     "approval": {
       "state": "APPROVED",
       "reason": "Pipeline PASS; content quality 100.",
-      "approvedAt": "2026-07-13T10:35:44.519Z",
+      "approvedAt": "2026-07-14T16:05:09.859Z",
       "approvedBy": "catalog-persistence-pilot"
     },
     "provenance": [
       {
         "provider": "tmdb",
         "providerRecordId": "426426",
-        "importedAt": "2026-07-13T10:35:44.519Z",
+        "importedAt": "2026-07-14T16:05:09.859Z",
         "pipelineVersion": "catalog-persistence-v1"
       }
     ],
-    "createdAt": "2026-07-13T10:35:44.519Z",
-    "updatedAt": "2026-07-13T10:35:44.519Z"
+    "createdAt": "2026-07-14T16:05:09.859Z",
+    "updatedAt": "2026-07-14T16:05:09.859Z"
   },
   {
     "id": "mov_e5c888c7cc51",
@@ -852,19 +852,19 @@
     "approval": {
       "state": "APPROVED",
       "reason": "Pipeline PASS; content quality 100.",
-      "approvedAt": "2026-07-13T10:35:44.520Z",
+      "approvedAt": "2026-07-14T16:05:09.859Z",
       "approvedBy": "catalog-persistence-pilot"
     },
     "provenance": [
       {
         "provider": "tmdb",
         "providerRecordId": "598",
-        "importedAt": "2026-07-13T10:35:44.520Z",
+        "importedAt": "2026-07-14T16:05:09.859Z",
         "pipelineVersion": "catalog-persistence-v1"
       }
     ],
-    "createdAt": "2026-07-13T10:35:44.520Z",
-    "updatedAt": "2026-07-13T10:35:44.520Z"
+    "createdAt": "2026-07-14T16:05:09.859Z",
+    "updatedAt": "2026-07-14T16:05:09.859Z"
   },
   {
     "id": "mov_6604c0455984",
@@ -943,18 +943,18 @@
     "approval": {
       "state": "APPROVED",
       "reason": "Pipeline PASS; content quality 100.",
-      "approvedAt": "2026-07-13T10:35:44.520Z",
+      "approvedAt": "2026-07-14T16:05:09.860Z",
       "approvedBy": "catalog-persistence-pilot"
     },
     "provenance": [
       {
         "provider": "tmdb",
         "providerRecordId": "490",
-        "importedAt": "2026-07-13T10:35:44.520Z",
+        "importedAt": "2026-07-14T16:05:09.860Z",
         "pipelineVersion": "catalog-persistence-v1"
       }
     ],
-    "createdAt": "2026-07-13T10:35:44.520Z",
-    "updatedAt": "2026-07-13T10:35:44.520Z"
+    "createdAt": "2026-07-14T16:05:09.860Z",
+    "updatedAt": "2026-07-14T16:05:09.860Z"
   }
 ]

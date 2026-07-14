@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS catalog_provenance;
+DROP TABLE IF EXISTS catalog_review_queue;
+DROP TABLE IF EXISTS catalog_imports;
+DROP TABLE IF EXISTS knowledge_graph_edges;
+DROP TABLE IF EXISTS catalog_aliases;
+DROP TABLE IF EXISTS catalog_external_ids;
+DROP TABLE IF EXISTS catalog_companies;
+DROP TABLE IF EXISTS catalog_languages;
+DROP TABLE IF EXISTS catalog_genres;
+DROP TABLE IF EXISTS catalog_countries;
+DROP TABLE IF EXISTS catalog_people;
+DROP TABLE IF EXISTS catalog_movies;
+DELETE FROM schema_migrations WHERE version = '0001_catalog_core';

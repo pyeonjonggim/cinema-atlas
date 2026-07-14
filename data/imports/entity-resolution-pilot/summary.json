@@ -1,0 +1,15 @@
+{
+  "totalCandidates": 22,
+  "autoResolved": 16,
+  "reviewRequired": 1,
+  "newEntityCandidates": 1,
+  "conflicts": 4,
+  "duplicatePrevented": 3,
+  "aliasesAdded": 17,
+  "averageConfidence": 85.23,
+  "graphIntegration": {
+    "resolvedTargetsAvailableForEdges": 16,
+    "pendingRelationsRequired": 6,
+    "unresolvedCandidatesCreateEdges": false
+  }
+}

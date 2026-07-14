@@ -1,0 +1,19 @@
+{
+  "pilot": "catalog-query-pilot",
+  "source": "catalog-persistence-pilot",
+  "movieListCount": 10,
+  "movieDetailFound": true,
+  "firstMovieId": "mov_d9f4b3d10da5",
+  "firstMovieTitle": "Parasite",
+  "directorFilmographyCount": 1,
+  "countryMoviesCount": 2,
+  "actorFilmographyCount": 1,
+  "noDuplicateEdges": true,
+  "reimportDuplicateMovies": 0,
+  "reimportDuplicateEdges": 0,
+  "queryCalls": 5,
+  "repositoryReads": 2,
+  "graphReads": 3,
+  "staticFallbackEnabled": true,
+  "unresolvedEdgesCreated": false
+}

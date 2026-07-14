@@ -1,0 +1,223 @@
+[
+  {
+    "entityType": "person",
+    "entityId": "person_bong_joon_ho",
+    "value": "Bong Joon Ho",
+    "normalizedValue": "bong joon ho",
+    "aliasType": "provider-label",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "21684",
+      "importedAt": "2026-07-14T16:05:26.829Z",
+      "pipelineVersion": "entity-resolution-v1"
+    }
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_bong_joon_ho",
+    "value": "Bong Joon-ho",
+    "normalizedValue": "bong joon-ho",
+    "aliasType": "provider-label",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "21684",
+      "importedAt": "2026-07-14T16:05:26.831Z",
+      "pipelineVersion": "entity-resolution-v1"
+    }
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_akira_kurosawa",
+    "value": "黒澤明",
+    "normalizedValue": "黒澤明",
+    "aliasType": "provider-label",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "5026",
+      "importedAt": "2026-07-14T16:05:26.831Z",
+      "pipelineVersion": "entity-resolution-v1"
+    }
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_akira_kurosawa",
+    "value": "Akira Kurosawa",
+    "normalizedValue": "akira kurosawa",
+    "aliasType": "provider-label",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "5026",
+      "importedAt": "2026-07-14T16:05:26.831Z",
+      "pipelineVersion": "entity-resolution-v1"
+    }
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_wong_kar_wai",
+    "value": "Wong Kar Wai",
+    "normalizedValue": "wong kar wai",
+    "aliasType": "provider-label",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "12453",
+      "importedAt": "2026-07-14T16:05:26.831Z",
+      "pipelineVersion": "entity-resolution-v1"
+    }
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_alfonso_cuaron",
+    "value": "Alfonso Cuarón",
+    "normalizedValue": "alfonso cuaron",
+    "aliasType": "provider-label",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "11218",
+      "importedAt": "2026-07-14T16:05:26.831Z",
+      "pipelineVersion": "entity-resolution-v1"
+    }
+  },
+  {
+    "entityType": "country",
+    "entityId": "us",
+    "value": "USA",
+    "normalizedValue": "usa",
+    "aliasType": "provider-label",
+    "provenance": {
+      "provider": "manual",
+      "providerRecordId": "us",
+      "importedAt": "2026-07-14T16:05:26.831Z",
+      "pipelineVersion": "entity-resolution-v1"
+    }
+  },
+  {
+    "entityType": "country",
+    "entityId": "kr",
+    "value": "Republic of Korea",
+    "normalizedValue": "republic of korea",
+    "aliasType": "provider-label",
+    "provenance": {
+      "provider": "manual",
+      "providerRecordId": "kr",
+      "importedAt": "2026-07-14T16:05:26.831Z",
+      "pipelineVersion": "entity-resolution-v1"
+    }
+  },
+  {
+    "entityType": "country",
+    "entityId": "cz",
+    "value": "Czech Republic",
+    "normalizedValue": "czech republic",
+    "aliasType": "provider-label",
+    "provenance": {
+      "provider": "manual",
+      "providerRecordId": "cz",
+      "importedAt": "2026-07-14T16:05:26.831Z",
+      "pipelineVersion": "entity-resolution-v1"
+    }
+  },
+  {
+    "entityType": "language",
+    "entityId": "ko",
+    "value": "Korean",
+    "normalizedValue": "korean",
+    "aliasType": "provider-label",
+    "provenance": {
+      "provider": "manual",
+      "providerRecordId": "ko",
+      "importedAt": "2026-07-14T16:05:26.831Z",
+      "pipelineVersion": "entity-resolution-v1"
+    }
+  },
+  {
+    "entityType": "language",
+    "entityId": "ja",
+    "value": "Japanese",
+    "normalizedValue": "japanese",
+    "aliasType": "provider-label",
+    "provenance": {
+      "provider": "manual",
+      "providerRecordId": "ja",
+      "importedAt": "2026-07-14T16:05:26.831Z",
+      "pipelineVersion": "entity-resolution-v1"
+    }
+  },
+  {
+    "entityType": "language",
+    "entityId": "zh",
+    "value": "Mandarin Chinese",
+    "normalizedValue": "mandarin chinese",
+    "aliasType": "provider-label",
+    "provenance": {
+      "provider": "manual",
+      "providerRecordId": "zh",
+      "importedAt": "2026-07-14T16:05:26.831Z",
+      "pipelineVersion": "entity-resolution-v1"
+    }
+  },
+  {
+    "entityType": "language",
+    "entityId": "yue",
+    "value": "Cantonese",
+    "normalizedValue": "cantonese",
+    "aliasType": "provider-label",
+    "provenance": {
+      "provider": "manual",
+      "providerRecordId": "yue",
+      "importedAt": "2026-07-14T16:05:26.831Z",
+      "pipelineVersion": "entity-resolution-v1"
+    }
+  },
+  {
+    "entityType": "language",
+    "entityId": "fa",
+    "value": "Farsi",
+    "normalizedValue": "farsi",
+    "aliasType": "provider-label",
+    "provenance": {
+      "provider": "manual",
+      "providerRecordId": "fa",
+      "importedAt": "2026-07-14T16:05:26.831Z",
+      "pipelineVersion": "entity-resolution-v1"
+    }
+  },
+  {
+    "entityType": "genre",
+    "entityId": "genre_drama",
+    "value": "Drama",
+    "normalizedValue": "drama",
+    "aliasType": "provider-label",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "18",
+      "importedAt": "2026-07-14T16:05:26.831Z",
+      "pipelineVersion": "entity-resolution-v1"
+    }
+  },
+  {
+    "entityType": "genre",
+    "entityId": "genre_thriller",
+    "value": "Thriller",
+    "normalizedValue": "thriller",
+    "aliasType": "provider-label",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "53",
+      "importedAt": "2026-07-14T16:05:26.831Z",
+      "pipelineVersion": "entity-resolution-v1"
+    }
+  },
+  {
+    "entityType": "company",
+    "entityId": "company_orion_us",
+    "value": "Orion Pictures",
+    "normalizedValue": "orion pictures",
+    "aliasType": "provider-label",
+    "provenance": {
+      "provider": "tmdb",
+      "providerRecordId": "41",
+      "importedAt": "2026-07-14T16:05:26.831Z",
+      "pipelineVersion": "entity-resolution-v1"
+    }
+  }
+]

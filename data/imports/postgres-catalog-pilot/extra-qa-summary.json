@@ -1,0 +1,11 @@
+{
+  "command": "db:extra-qa",
+  "status": "PASS",
+  "transactionRollback": true,
+  "rollbackProbeRows": 0,
+  "relatedMovieParity": true,
+  "expectedRelatedMovieCount": 8,
+  "postgresRelatedMovieCount": 8,
+  "poolEnded": true,
+  "completedAt": "2026-07-14T15:16:53.297Z"
+}
