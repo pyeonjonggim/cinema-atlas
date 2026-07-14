@@ -136,6 +136,58 @@ export function externalMovieToCanonicalDraft(
   };
 }
 
+export function validateCanonicalMovieDraft(
+  draft: CanonicalMovieDraft | undefined,
+): CatalogImportIssue[] {
+  if (!draft) {
+    return [error("canonicalDraft", "External movie could not become a canonical draft.")];
+  }
+
+  const issues: CatalogImportIssue[] = [];
+
+  if (!draft.id) {
+    issues.push(error("id", "CanonicalMovieDraft requires an internal id candidate."));
+  }
+
+  if (!draft.title) {
+    issues.push(error("title", "CanonicalMovieDraft requires a title."));
+  }
+
+  if (draft.year !== undefined && (draft.year < 1878 || draft.year > 2100)) {
+    issues.push(error("year", `Invalid release year: ${draft.year}.`));
+  }
+
+  if (draft.runtime !== undefined && (draft.runtime <= 0 || draft.runtime > 1000)) {
+    issues.push(error("runtime", `Invalid runtime: ${draft.runtime}.`));
+  }
+
+  if (!draft.externalIds.tmdbId && !draft.externalIds.imdbId && !draft.externalIds.wikidataId) {
+    issues.push(warning("externalIds", "CanonicalMovieDraft has no known external IDs."));
+  }
+
+  if (draft.countryIds.length === 0) {
+    issues.push(warning("countryIds", "CanonicalMovieDraft has no production countries."));
+  }
+
+  if (draft.languageIds.length === 0) {
+    issues.push(warning("languageIds", "CanonicalMovieDraft has no spoken languages."));
+  }
+
+  if (draft.directorIds.length === 0) {
+    issues.push(warning("directorIds", "CanonicalMovieDraft has no mapped directors."));
+  }
+
+  if (!draft.externalMetadata.poster?.path && !draft.externalMetadata.poster?.url) {
+    issues.push(warning("poster", "CanonicalMovieDraft has no poster path."));
+  }
+
+  if (!draft.externalMetadata.backdrop?.path && !draft.externalMetadata.backdrop?.url) {
+    issues.push(warning("backdrop", "CanonicalMovieDraft has no backdrop path."));
+  }
+
+  return issues;
+}
+
 export const catalogImportPipeline: CatalogImportPipeline = {
   normalizeRawMovies(records) {
     const result = normalizeRawMovieRecords(records);

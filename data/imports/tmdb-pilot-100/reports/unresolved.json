@@ -1,0 +1,69 @@
+[
+  {
+    "movie": "Casablanca",
+    "expectedYear": 1942,
+    "providerMovieId": "289",
+    "pipelineStatus": "WARNING",
+    "contentQualityScore": 95,
+    "reviewRequired": true,
+    "reasons": [
+      {
+        "code": "YEAR_VARIANT",
+        "severity": "review",
+        "message": "Expected 1942, matched 1943."
+      }
+    ],
+    "mismatches": [
+      "Year mismatch"
+    ]
+  },
+  {
+    "movie": "Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles",
+    "expectedYear": 1975,
+    "providerMovieId": "44012",
+    "pipelineStatus": "WARNING",
+    "contentQualityScore": 95,
+    "reviewRequired": true,
+    "reasons": [
+      {
+        "code": "YEAR_VARIANT",
+        "severity": "review",
+        "message": "Expected 1975, matched 1976."
+      }
+    ],
+    "mismatches": [
+      "Year mismatch"
+    ]
+  },
+  {
+    "movie": "Crash",
+    "expectedYear": 2004,
+    "providerMovieId": "1353802",
+    "pipelineStatus": "WARNING",
+    "contentQualityScore": 65,
+    "reviewRequired": true,
+    "reasons": [
+      {
+        "code": "LOW_CONFIDENCE_MATCH",
+        "severity": "blocker",
+        "message": "Matched runtime is 5 minutes for a non-short pilot movie."
+      },
+      {
+        "code": "POSTER_MISSING",
+        "severity": "review",
+        "message": "Poster path is missing."
+      },
+      {
+        "code": "BACKDROP_MISSING",
+        "severity": "review",
+        "message": "Backdrop path is missing."
+      }
+    ],
+    "mismatches": [
+      "Missing Poster",
+      "Missing Backdrop",
+      "warning: poster",
+      "warning: backdrop"
+    ]
+  }
+]
