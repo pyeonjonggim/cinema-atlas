@@ -1,0 +1,16 @@
+{
+  "command": "db:seed:catalog-pilot",
+  "status": "PASS",
+  "inputMovies": 10,
+  "inputEdges": 303,
+  "counts": {
+    "catalog_movies": 10,
+    "catalog_people": 229,
+    "catalog_countries": 9,
+    "catalog_genres": 10,
+    "catalog_languages": 11,
+    "catalog_companies": 29,
+    "knowledge_graph_edges": 303
+  },
+  "completedAt": "2026-07-14T15:17:49.010Z"
+}

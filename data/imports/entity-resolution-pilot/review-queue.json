@@ -1,0 +1,200 @@
+[
+  {
+    "id": "review-person-alfonso cuaron",
+    "candidateType": "person",
+    "incomingValue": "Alfonso Cuarón",
+    "sourceProvider": "manual",
+    "bestCandidates": [
+      {
+        "entityType": "person",
+        "entityId": "person_alfonso_cuaron",
+        "displayName": "Alfonso Cuaron",
+        "score": 55,
+        "reasons": [
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "normalizedName"
+        ]
+      }
+    ],
+    "scores": [
+      55
+    ],
+    "matchedFields": [
+      "normalizedName"
+    ],
+    "conflicts": [],
+    "suggestedAction": "link-existing",
+    "reviewReasons": [
+      "LOW_SCORE"
+    ]
+  },
+  {
+    "id": "review-person-john smith",
+    "candidateType": "person",
+    "incomingValue": "John Smith",
+    "sourceProvider": "manual",
+    "bestCandidates": [
+      {
+        "entityType": "person",
+        "entityId": "person_john_smith_director",
+        "displayName": "John Smith",
+        "score": 55,
+        "reasons": [
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "normalizedName"
+        ]
+      },
+      {
+        "entityType": "person",
+        "entityId": "person_john_smith_actor",
+        "displayName": "John Smith",
+        "score": 55,
+        "reasons": [
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "normalizedName"
+        ]
+      }
+    ],
+    "scores": [
+      55,
+      55
+    ],
+    "matchedFields": [
+      "normalizedName"
+    ],
+    "conflicts": [
+      "AMBIGUOUS_NAME"
+    ],
+    "suggestedAction": "defer",
+    "reviewReasons": [
+      "AMBIGUOUS_NAME"
+    ]
+  },
+  {
+    "id": "review-country-soviet union",
+    "candidateType": "country",
+    "incomingValue": "Soviet Union",
+    "sourceProvider": "manual",
+    "bestCandidates": [
+      {
+        "entityType": "country",
+        "entityId": "su",
+        "displayName": "Soviet Union",
+        "score": 55,
+        "reasons": [
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "normalizedName"
+        ]
+      }
+    ],
+    "scores": [
+      55
+    ],
+    "matchedFields": [
+      "normalizedName"
+    ],
+    "conflicts": [
+      "COUNTRY_ALIAS_AMBIGUOUS"
+    ],
+    "suggestedAction": "defer",
+    "reviewReasons": [
+      "COUNTRY_ALIAS_AMBIGUOUS"
+    ]
+  },
+  {
+    "id": "review-country-hong kong",
+    "candidateType": "country",
+    "incomingValue": "Hong Kong",
+    "sourceProvider": "manual",
+    "bestCandidates": [
+      {
+        "entityType": "country",
+        "entityId": "hk",
+        "displayName": "Hong Kong",
+        "score": 55,
+        "reasons": [
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "normalizedName"
+        ]
+      }
+    ],
+    "scores": [
+      55
+    ],
+    "matchedFields": [
+      "normalizedName"
+    ],
+    "conflicts": [
+      "COUNTRY_ALIAS_AMBIGUOUS"
+    ],
+    "suggestedAction": "defer",
+    "reviewReasons": [
+      "COUNTRY_ALIAS_AMBIGUOUS"
+    ]
+  },
+  {
+    "id": "review-company-orion pictures",
+    "candidateType": "company",
+    "incomingValue": "Orion Pictures",
+    "sourceProvider": "manual",
+    "bestCandidates": [
+      {
+        "entityType": "company",
+        "entityId": "company_orion_us",
+        "displayName": "Orion Pictures",
+        "score": 55,
+        "reasons": [
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "normalizedName"
+        ]
+      },
+      {
+        "entityType": "company",
+        "entityId": "company_orion_gb",
+        "displayName": "Orion Pictures",
+        "score": 55,
+        "reasons": [
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "normalizedName"
+        ]
+      }
+    ],
+    "scores": [
+      55,
+      55
+    ],
+    "matchedFields": [
+      "normalizedName"
+    ],
+    "conflicts": [
+      "AMBIGUOUS_NAME",
+      "COMPANY_ORIGIN_CONFLICT"
+    ],
+    "suggestedAction": "defer",
+    "reviewReasons": [
+      "AMBIGUOUS_NAME",
+      "COMPANY_ORIGIN_CONFLICT"
+    ]
+  }
+]

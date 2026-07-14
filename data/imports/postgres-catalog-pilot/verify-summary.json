@@ -1,0 +1,44 @@
+{
+  "command": "db:verify:catalog-pilot",
+  "status": "PASS",
+  "expected": {
+    "movies": 10,
+    "people": 229,
+    "countries": 9,
+    "genres": 10,
+    "languages": 11,
+    "companies": 29,
+    "edges": 303
+  },
+  "actual": {
+    "movies": 10,
+    "people": 229,
+    "countries": 9,
+    "genres": 10,
+    "languages": 11,
+    "companies": 29,
+    "edges": 303
+  },
+  "parity": {
+    "movies": true,
+    "people": true,
+    "countries": true,
+    "genres": true,
+    "languages": true,
+    "companies": true,
+    "edges": true
+  },
+  "externalIdLookup": true,
+  "noDuplicateEdges": true,
+  "persistenceReimportDuplicateMovies": 0,
+  "persistenceReimportDuplicateEdges": 0,
+  "performanceMs": {
+    "getMovieById": 11.78,
+    "listMovies": 11.58,
+    "getDirectorFilmography": 9.8,
+    "getCountryMovies": 15.7,
+    "getActorFilmography": 9.93,
+    "externalIdLookup": 10.6
+  },
+  "completedAt": "2026-07-14T16:04:23.742Z"
+}

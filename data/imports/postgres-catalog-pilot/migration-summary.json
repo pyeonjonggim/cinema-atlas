@@ -1,0 +1,12 @@
+{
+  "command": "db:migrate",
+  "status": "PASS",
+  "applied": [
+    "0002_catalog_sync_events"
+  ],
+  "skipped": [
+    "0001_catalog_core"
+  ],
+  "migrationCount": 2,
+  "completedAt": "2026-07-14T16:00:18.353Z"
+}

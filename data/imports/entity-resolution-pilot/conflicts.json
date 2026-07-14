@@ -1,0 +1,163 @@
+[
+  {
+    "candidate": {
+      "entityType": "person",
+      "provider": "manual",
+      "displayName": "John Smith",
+      "sourceRole": "actor",
+      "normalizedName": "John Smith",
+      "comparisonName": "john smith",
+      "normalizedAliases": []
+    },
+    "status": "CONFLICT",
+    "alternatives": [
+      {
+        "entityType": "person",
+        "entityId": "person_john_smith_director",
+        "displayName": "John Smith",
+        "score": 55,
+        "reasons": [
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "normalizedName"
+        ]
+      },
+      {
+        "entityType": "person",
+        "entityId": "person_john_smith_actor",
+        "displayName": "John Smith",
+        "score": 55,
+        "reasons": [
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "normalizedName"
+        ]
+      }
+    ],
+    "confidence": "low",
+    "reviewReasons": [
+      "AMBIGUOUS_NAME"
+    ]
+  },
+  {
+    "candidate": {
+      "entityType": "country",
+      "provider": "manual",
+      "displayName": "Soviet Union",
+      "aliases": [
+        "Russia"
+      ],
+      "normalizedName": "Soviet Union",
+      "comparisonName": "soviet union",
+      "normalizedAliases": [
+        "russia"
+      ]
+    },
+    "status": "CONFLICT",
+    "alternatives": [
+      {
+        "entityType": "country",
+        "entityId": "su",
+        "displayName": "Soviet Union",
+        "score": 55,
+        "reasons": [
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "normalizedName"
+        ]
+      }
+    ],
+    "confidence": "low",
+    "reviewReasons": [
+      "COUNTRY_ALIAS_AMBIGUOUS"
+    ]
+  },
+  {
+    "candidate": {
+      "entityType": "country",
+      "provider": "manual",
+      "displayName": "Hong Kong",
+      "aliases": [
+        "China"
+      ],
+      "normalizedName": "Hong Kong",
+      "comparisonName": "hong kong",
+      "normalizedAliases": [
+        "china"
+      ]
+    },
+    "status": "CONFLICT",
+    "alternatives": [
+      {
+        "entityType": "country",
+        "entityId": "hk",
+        "displayName": "Hong Kong",
+        "score": 55,
+        "reasons": [
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "normalizedName"
+        ]
+      }
+    ],
+    "confidence": "low",
+    "reviewReasons": [
+      "COUNTRY_ALIAS_AMBIGUOUS"
+    ]
+  },
+  {
+    "candidate": {
+      "entityType": "company",
+      "provider": "manual",
+      "displayName": "Orion Pictures",
+      "metadata": {
+        "originCountryId": "fr"
+      },
+      "normalizedName": "Orion Pictures",
+      "comparisonName": "orion pictures",
+      "normalizedAliases": []
+    },
+    "status": "CONFLICT",
+    "alternatives": [
+      {
+        "entityType": "company",
+        "entityId": "company_orion_us",
+        "displayName": "Orion Pictures",
+        "score": 55,
+        "reasons": [
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "normalizedName"
+        ]
+      },
+      {
+        "entityType": "company",
+        "entityId": "company_orion_gb",
+        "displayName": "Orion Pictures",
+        "score": 55,
+        "reasons": [
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "normalizedName"
+        ]
+      }
+    ],
+    "confidence": "low",
+    "reviewReasons": [
+      "AMBIGUOUS_NAME",
+      "COMPANY_ORIGIN_CONFLICT"
+    ]
+  }
+]

@@ -1,0 +1,733 @@
+[
+  {
+    "candidate": {
+      "entityType": "person",
+      "provider": "tmdb",
+      "providerEntityId": "21684",
+      "displayName": "Bong Joon Ho",
+      "aliases": [
+        "Bong Joon-ho"
+      ],
+      "sourceRole": "director",
+      "normalizedName": "Bong Joon Ho",
+      "comparisonName": "bong joon ho",
+      "normalizedAliases": [
+        "bong joon-ho"
+      ]
+    },
+    "status": "AUTO_RESOLVED",
+    "selectedEntityId": "person_bong_joon_ho",
+    "alternatives": [
+      {
+        "entityType": "person",
+        "entityId": "person_bong_joon_ho",
+        "displayName": "Bong Joon-ho",
+        "score": 100,
+        "reasons": [
+          "same provider external id"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "providerExternalId"
+        ]
+      }
+    ],
+    "confidence": "exact",
+    "reviewReasons": []
+  },
+  {
+    "candidate": {
+      "entityType": "person",
+      "provider": "tmdb",
+      "providerEntityId": "5026",
+      "displayName": "黒澤明",
+      "aliases": [
+        "Akira Kurosawa"
+      ],
+      "sourceRole": "director",
+      "normalizedName": "黒澤明",
+      "comparisonName": "黒澤明",
+      "normalizedAliases": [
+        "akira kurosawa"
+      ]
+    },
+    "status": "AUTO_RESOLVED",
+    "selectedEntityId": "person_akira_kurosawa",
+    "alternatives": [
+      {
+        "entityType": "person",
+        "entityId": "person_akira_kurosawa",
+        "displayName": "Akira Kurosawa",
+        "score": 100,
+        "reasons": [
+          "same provider external id"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "providerExternalId"
+        ]
+      }
+    ],
+    "confidence": "exact",
+    "reviewReasons": []
+  },
+  {
+    "candidate": {
+      "entityType": "person",
+      "provider": "tmdb",
+      "providerEntityId": "12453",
+      "displayName": "Wong Kar Wai",
+      "sourceRole": "director",
+      "normalizedName": "Wong Kar Wai",
+      "comparisonName": "wong kar wai",
+      "normalizedAliases": []
+    },
+    "status": "AUTO_RESOLVED",
+    "selectedEntityId": "person_wong_kar_wai",
+    "alternatives": [
+      {
+        "entityType": "person",
+        "entityId": "person_wong_kar_wai",
+        "displayName": "Wong Kar-wai",
+        "score": 100,
+        "reasons": [
+          "same provider external id"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "providerExternalId"
+        ]
+      }
+    ],
+    "confidence": "exact",
+    "reviewReasons": []
+  },
+  {
+    "candidate": {
+      "entityType": "person",
+      "provider": "tmdb",
+      "providerEntityId": "11218",
+      "displayName": "Alfonso Cuarón",
+      "sourceRole": "director",
+      "normalizedName": "Alfonso Cuarón",
+      "comparisonName": "alfonso cuaron",
+      "normalizedAliases": []
+    },
+    "status": "AUTO_RESOLVED",
+    "selectedEntityId": "person_alfonso_cuaron",
+    "alternatives": [
+      {
+        "entityType": "person",
+        "entityId": "person_alfonso_cuaron",
+        "displayName": "Alfonso Cuaron",
+        "score": 100,
+        "reasons": [
+          "same provider external id",
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "providerExternalId",
+          "normalizedName"
+        ]
+      }
+    ],
+    "confidence": "exact",
+    "reviewReasons": []
+  },
+  {
+    "candidate": {
+      "entityType": "person",
+      "provider": "manual",
+      "displayName": "Alfonso Cuarón",
+      "sourceRole": "writer",
+      "normalizedName": "Alfonso Cuarón",
+      "comparisonName": "alfonso cuaron",
+      "normalizedAliases": []
+    },
+    "status": "REVIEW_REQUIRED",
+    "alternatives": [
+      {
+        "entityType": "person",
+        "entityId": "person_alfonso_cuaron",
+        "displayName": "Alfonso Cuaron",
+        "score": 55,
+        "reasons": [
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "normalizedName"
+        ]
+      }
+    ],
+    "confidence": "low",
+    "reviewReasons": [
+      "LOW_SCORE"
+    ]
+  },
+  {
+    "candidate": {
+      "entityType": "person",
+      "provider": "manual",
+      "displayName": "John Smith",
+      "sourceRole": "actor",
+      "normalizedName": "John Smith",
+      "comparisonName": "john smith",
+      "normalizedAliases": []
+    },
+    "status": "CONFLICT",
+    "alternatives": [
+      {
+        "entityType": "person",
+        "entityId": "person_john_smith_director",
+        "displayName": "John Smith",
+        "score": 55,
+        "reasons": [
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "normalizedName"
+        ]
+      },
+      {
+        "entityType": "person",
+        "entityId": "person_john_smith_actor",
+        "displayName": "John Smith",
+        "score": 55,
+        "reasons": [
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "normalizedName"
+        ]
+      }
+    ],
+    "confidence": "low",
+    "reviewReasons": [
+      "AMBIGUOUS_NAME"
+    ]
+  },
+  {
+    "candidate": {
+      "entityType": "person",
+      "provider": "tmdb",
+      "providerEntityId": "21684",
+      "displayName": "Bong Joon-ho",
+      "sourceRole": "writer",
+      "normalizedName": "Bong Joon-ho",
+      "comparisonName": "bong joon-ho",
+      "normalizedAliases": []
+    },
+    "status": "AUTO_RESOLVED",
+    "selectedEntityId": "person_bong_joon_ho",
+    "alternatives": [
+      {
+        "entityType": "person",
+        "entityId": "person_bong_joon_ho",
+        "displayName": "Bong Joon-ho",
+        "score": 100,
+        "reasons": [
+          "same provider external id",
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "providerExternalId",
+          "normalizedName"
+        ]
+      }
+    ],
+    "confidence": "exact",
+    "reviewReasons": []
+  },
+  {
+    "candidate": {
+      "entityType": "country",
+      "provider": "manual",
+      "providerEntityId": "us",
+      "displayName": "USA",
+      "normalizedName": "USA",
+      "comparisonName": "usa",
+      "normalizedAliases": []
+    },
+    "status": "AUTO_RESOLVED",
+    "selectedEntityId": "us",
+    "alternatives": [
+      {
+        "entityType": "country",
+        "entityId": "us",
+        "displayName": "United States",
+        "score": 100,
+        "reasons": [
+          "approved country alias"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "approvedAlias"
+        ]
+      }
+    ],
+    "confidence": "exact",
+    "reviewReasons": []
+  },
+  {
+    "candidate": {
+      "entityType": "country",
+      "provider": "manual",
+      "providerEntityId": "kr",
+      "displayName": "Republic of Korea",
+      "normalizedName": "Republic of Korea",
+      "comparisonName": "republic of korea",
+      "normalizedAliases": []
+    },
+    "status": "AUTO_RESOLVED",
+    "selectedEntityId": "kr",
+    "alternatives": [
+      {
+        "entityType": "country",
+        "entityId": "kr",
+        "displayName": "South Korea",
+        "score": 100,
+        "reasons": [
+          "approved country alias"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "approvedAlias"
+        ]
+      }
+    ],
+    "confidence": "exact",
+    "reviewReasons": []
+  },
+  {
+    "candidate": {
+      "entityType": "country",
+      "provider": "manual",
+      "providerEntityId": "cz",
+      "displayName": "Czech Republic",
+      "normalizedName": "Czech Republic",
+      "comparisonName": "czech republic",
+      "normalizedAliases": []
+    },
+    "status": "AUTO_RESOLVED",
+    "selectedEntityId": "cz",
+    "alternatives": [
+      {
+        "entityType": "country",
+        "entityId": "cz",
+        "displayName": "Czechia",
+        "score": 100,
+        "reasons": [
+          "approved country alias"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "approvedAlias"
+        ]
+      }
+    ],
+    "confidence": "exact",
+    "reviewReasons": []
+  },
+  {
+    "candidate": {
+      "entityType": "country",
+      "provider": "manual",
+      "displayName": "Soviet Union",
+      "aliases": [
+        "Russia"
+      ],
+      "normalizedName": "Soviet Union",
+      "comparisonName": "soviet union",
+      "normalizedAliases": [
+        "russia"
+      ]
+    },
+    "status": "CONFLICT",
+    "alternatives": [
+      {
+        "entityType": "country",
+        "entityId": "su",
+        "displayName": "Soviet Union",
+        "score": 55,
+        "reasons": [
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "normalizedName"
+        ]
+      }
+    ],
+    "confidence": "low",
+    "reviewReasons": [
+      "COUNTRY_ALIAS_AMBIGUOUS"
+    ]
+  },
+  {
+    "candidate": {
+      "entityType": "country",
+      "provider": "manual",
+      "displayName": "Hong Kong",
+      "aliases": [
+        "China"
+      ],
+      "normalizedName": "Hong Kong",
+      "comparisonName": "hong kong",
+      "normalizedAliases": [
+        "china"
+      ]
+    },
+    "status": "CONFLICT",
+    "alternatives": [
+      {
+        "entityType": "country",
+        "entityId": "hk",
+        "displayName": "Hong Kong",
+        "score": 55,
+        "reasons": [
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "normalizedName"
+        ]
+      }
+    ],
+    "confidence": "low",
+    "reviewReasons": [
+      "COUNTRY_ALIAS_AMBIGUOUS"
+    ]
+  },
+  {
+    "candidate": {
+      "entityType": "language",
+      "provider": "manual",
+      "providerEntityId": "ko",
+      "displayName": "Korean",
+      "normalizedName": "Korean",
+      "comparisonName": "korean",
+      "normalizedAliases": []
+    },
+    "status": "AUTO_RESOLVED",
+    "selectedEntityId": "ko",
+    "alternatives": [
+      {
+        "entityType": "language",
+        "entityId": "ko",
+        "displayName": "Korean",
+        "score": 100,
+        "reasons": [
+          "language ISO or approved alias"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "isoCode"
+        ]
+      }
+    ],
+    "confidence": "exact",
+    "reviewReasons": []
+  },
+  {
+    "candidate": {
+      "entityType": "language",
+      "provider": "manual",
+      "providerEntityId": "ja",
+      "displayName": "Japanese",
+      "normalizedName": "Japanese",
+      "comparisonName": "japanese",
+      "normalizedAliases": []
+    },
+    "status": "AUTO_RESOLVED",
+    "selectedEntityId": "ja",
+    "alternatives": [
+      {
+        "entityType": "language",
+        "entityId": "ja",
+        "displayName": "Japanese",
+        "score": 100,
+        "reasons": [
+          "language ISO or approved alias"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "isoCode"
+        ]
+      }
+    ],
+    "confidence": "exact",
+    "reviewReasons": []
+  },
+  {
+    "candidate": {
+      "entityType": "language",
+      "provider": "manual",
+      "providerEntityId": "zh",
+      "displayName": "Mandarin Chinese",
+      "normalizedName": "Mandarin Chinese",
+      "comparisonName": "mandarin chinese",
+      "normalizedAliases": []
+    },
+    "status": "AUTO_RESOLVED",
+    "selectedEntityId": "zh",
+    "alternatives": [
+      {
+        "entityType": "language",
+        "entityId": "zh",
+        "displayName": "Mandarin",
+        "score": 100,
+        "reasons": [
+          "language ISO or approved alias"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "isoCode"
+        ]
+      }
+    ],
+    "confidence": "exact",
+    "reviewReasons": []
+  },
+  {
+    "candidate": {
+      "entityType": "language",
+      "provider": "manual",
+      "providerEntityId": "yue",
+      "displayName": "Cantonese",
+      "normalizedName": "Cantonese",
+      "comparisonName": "cantonese",
+      "normalizedAliases": []
+    },
+    "status": "AUTO_RESOLVED",
+    "selectedEntityId": "yue",
+    "alternatives": [
+      {
+        "entityType": "language",
+        "entityId": "yue",
+        "displayName": "Cantonese",
+        "score": 100,
+        "reasons": [
+          "language ISO or approved alias"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "isoCode"
+        ]
+      }
+    ],
+    "confidence": "exact",
+    "reviewReasons": []
+  },
+  {
+    "candidate": {
+      "entityType": "language",
+      "provider": "manual",
+      "providerEntityId": "fa",
+      "displayName": "Farsi",
+      "normalizedName": "Farsi",
+      "comparisonName": "farsi",
+      "normalizedAliases": []
+    },
+    "status": "AUTO_RESOLVED",
+    "selectedEntityId": "fa",
+    "alternatives": [
+      {
+        "entityType": "language",
+        "entityId": "fa",
+        "displayName": "Persian",
+        "score": 100,
+        "reasons": [
+          "language ISO or approved alias"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "isoCode"
+        ]
+      }
+    ],
+    "confidence": "exact",
+    "reviewReasons": []
+  },
+  {
+    "candidate": {
+      "entityType": "genre",
+      "provider": "tmdb",
+      "providerEntityId": "18",
+      "displayName": "Drama",
+      "normalizedName": "Drama",
+      "comparisonName": "drama",
+      "normalizedAliases": []
+    },
+    "status": "AUTO_RESOLVED",
+    "selectedEntityId": "genre_drama",
+    "alternatives": [
+      {
+        "entityType": "genre",
+        "entityId": "genre_drama",
+        "displayName": "Drama",
+        "score": 100,
+        "reasons": [
+          "same provider external id",
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "providerExternalId",
+          "normalizedName"
+        ]
+      }
+    ],
+    "confidence": "exact",
+    "reviewReasons": []
+  },
+  {
+    "candidate": {
+      "entityType": "genre",
+      "provider": "tmdb",
+      "providerEntityId": "53",
+      "displayName": "Thriller",
+      "normalizedName": "Thriller",
+      "comparisonName": "thriller",
+      "normalizedAliases": []
+    },
+    "status": "AUTO_RESOLVED",
+    "selectedEntityId": "genre_thriller",
+    "alternatives": [
+      {
+        "entityType": "genre",
+        "entityId": "genre_thriller",
+        "displayName": "Thriller",
+        "score": 100,
+        "reasons": [
+          "same provider external id",
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "providerExternalId",
+          "normalizedName"
+        ]
+      }
+    ],
+    "confidence": "exact",
+    "reviewReasons": []
+  },
+  {
+    "candidate": {
+      "entityType": "company",
+      "provider": "tmdb",
+      "providerEntityId": "41",
+      "displayName": "Orion Pictures",
+      "metadata": {
+        "originCountryId": "us"
+      },
+      "normalizedName": "Orion Pictures",
+      "comparisonName": "orion pictures",
+      "normalizedAliases": []
+    },
+    "status": "AUTO_RESOLVED",
+    "selectedEntityId": "company_orion_us",
+    "alternatives": [
+      {
+        "entityType": "company",
+        "entityId": "company_orion_us",
+        "displayName": "Orion Pictures",
+        "score": 100,
+        "reasons": [
+          "same provider external id",
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "providerExternalId",
+          "normalizedName"
+        ]
+      },
+      {
+        "entityType": "company",
+        "entityId": "company_orion_gb",
+        "displayName": "Orion Pictures",
+        "score": 55,
+        "reasons": [
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "normalizedName"
+        ]
+      }
+    ],
+    "confidence": "exact",
+    "reviewReasons": []
+  },
+  {
+    "candidate": {
+      "entityType": "company",
+      "provider": "manual",
+      "displayName": "Orion Pictures",
+      "metadata": {
+        "originCountryId": "fr"
+      },
+      "normalizedName": "Orion Pictures",
+      "comparisonName": "orion pictures",
+      "normalizedAliases": []
+    },
+    "status": "CONFLICT",
+    "alternatives": [
+      {
+        "entityType": "company",
+        "entityId": "company_orion_us",
+        "displayName": "Orion Pictures",
+        "score": 55,
+        "reasons": [
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "normalizedName"
+        ]
+      },
+      {
+        "entityType": "company",
+        "entityId": "company_orion_gb",
+        "displayName": "Orion Pictures",
+        "score": 55,
+        "reasons": [
+          "exact normalized name"
+        ],
+        "conflicts": [],
+        "matchedFields": [
+          "normalizedName"
+        ]
+      }
+    ],
+    "confidence": "low",
+    "reviewReasons": [
+      "AMBIGUOUS_NAME",
+      "COMPANY_ORIGIN_CONFLICT"
+    ]
+  },
+  {
+    "candidate": {
+      "entityType": "person",
+      "provider": "tmdb",
+      "providerEntityId": "999999",
+      "displayName": "New Festival Director",
+      "sourceRole": "director",
+      "normalizedName": "New Festival Director",
+      "comparisonName": "new festival director",
+      "normalizedAliases": []
+    },
+    "status": "NEW_ENTITY_CANDIDATE",
+    "alternatives": [],
+    "confidence": "low",
+    "reviewReasons": [
+      "NO_MATCH"
+    ]
+  }
+]

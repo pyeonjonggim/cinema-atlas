@@ -1,0 +1,810 @@
+[
+  {
+    "entityType": "movie",
+    "entityId": "mov_sync_pilot_create",
+    "action": "UPSERT",
+    "changedFields": [
+      "movie"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_7453c8c06a56",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_WRITTEN_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_f66b8cac8ba8",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_DIRECTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_f66b8cac8ba8",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_WRITTEN_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_756b19374757",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_078c0dd5d5bb",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_9e31390c72fe",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_1283fff1f0b7",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_a54aa19bbea8",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_71e79219d216",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_4f224aca775f",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_3283942c540d",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_5f86c7ad1b6f",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_2fca98e1d2f2",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_03f7b9a21f66",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_35301c5694f6",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_979a31fa5e34",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_4b9760512b0f",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_d24db8857cab",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_74fc691566cf",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_d98103c16e9a",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_5e1fe02846b9",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_e16e11c8ae2b",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_8060f3fa71dc",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "country",
+    "entityId": "kr",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_PRODUCED_IN_COUNTRY"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "genre",
+    "entityId": "genre_972a67c48192",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_HAS_GENRE"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "genre",
+    "entityId": "genre_c5b76da3e608",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_HAS_GENRE"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "genre",
+    "entityId": "genre_9e6a55b6b456",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_HAS_GENRE"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "language",
+    "entityId": "en",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_USES_LANGUAGE"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "language",
+    "entityId": "de",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_USES_LANGUAGE"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "language",
+    "entityId": "ko",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_USES_LANGUAGE"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "company",
+    "entityId": "company_c6b2f07c09af",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_PRODUCED_BY_COMPANY"
+    ],
+    "requestedAt": "2026-07-14T16:24:13.795Z"
+  },
+  {
+    "entityType": "movie",
+    "entityId": "mov_sync_pilot_create",
+    "action": "UPSERT",
+    "changedFields": [
+      "runtime",
+      "overview",
+      "poster"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.142Z"
+  },
+  {
+    "entityType": "movie",
+    "entityId": "mov_sync_pilot_create",
+    "action": "UPSERT",
+    "changedFields": [],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_124e0f9ab5f6",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_DIRECTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "country",
+    "entityId": "jp",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_PRODUCED_IN_COUNTRY"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_f66b8cac8ba8",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_DIRECTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_756b19374757",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_078c0dd5d5bb",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_9e31390c72fe",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_1283fff1f0b7",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_a54aa19bbea8",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_71e79219d216",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_4f224aca775f",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_3283942c540d",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_5f86c7ad1b6f",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_2fca98e1d2f2",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_03f7b9a21f66",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_35301c5694f6",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_979a31fa5e34",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_4b9760512b0f",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_d24db8857cab",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_74fc691566cf",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_d98103c16e9a",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_5e1fe02846b9",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_e16e11c8ae2b",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_8060f3fa71dc",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.198Z"
+  },
+  {
+    "entityType": "movie",
+    "entityId": "mov_sync_pilot_create",
+    "action": "UPSERT",
+    "changedFields": [],
+    "requestedAt": "2026-07-14T16:24:14.432Z"
+  },
+  {
+    "entityType": "movie",
+    "entityId": "mov_sync_pilot_review_required",
+    "action": "UPSERT",
+    "changedFields": [
+      "movie"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_7453c8c06a56",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_WRITTEN_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_f66b8cac8ba8",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_DIRECTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_f66b8cac8ba8",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_WRITTEN_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_756b19374757",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_078c0dd5d5bb",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_9e31390c72fe",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_1283fff1f0b7",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_a54aa19bbea8",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_71e79219d216",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_4f224aca775f",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_3283942c540d",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_5f86c7ad1b6f",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_2fca98e1d2f2",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_03f7b9a21f66",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_35301c5694f6",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_979a31fa5e34",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_4b9760512b0f",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_d24db8857cab",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_74fc691566cf",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_d98103c16e9a",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_5e1fe02846b9",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_e16e11c8ae2b",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "person",
+    "entityId": "person_8060f3fa71dc",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_ACTED_BY_PERSON"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "country",
+    "entityId": "kr",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_PRODUCED_IN_COUNTRY"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "genre",
+    "entityId": "genre_972a67c48192",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_HAS_GENRE"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "genre",
+    "entityId": "genre_c5b76da3e608",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_HAS_GENRE"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "genre",
+    "entityId": "genre_9e6a55b6b456",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_HAS_GENRE"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "language",
+    "entityId": "en",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_USES_LANGUAGE"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "language",
+    "entityId": "de",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_USES_LANGUAGE"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "language",
+    "entityId": "ko",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_USES_LANGUAGE"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  },
+  {
+    "entityType": "company",
+    "entityId": "company_c6b2f07c09af",
+    "action": "REINDEX",
+    "changedFields": [
+      "MOVIE_PRODUCED_BY_COMPANY"
+    ],
+    "requestedAt": "2026-07-14T16:24:14.799Z"
+  }
+]

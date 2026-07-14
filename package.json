@@ -8,16 +8,27 @@
     "start": "next start",
     "lint": "eslint",
     "validate:data": "node scripts/validate-data.mjs",
-    "pilot:tmdb": "node scripts/pilot-tmdb-provider.mjs"
+    "pilot:tmdb": "node scripts/pilot-tmdb-provider.mjs",
+    "ingest:pilot100": "node scripts/ingest-tmdb-pilot-100.mjs",
+    "persist:catalog-pilot": "node scripts/persist-catalog-pilot.mjs",
+    "resolve:entities-pilot": "node scripts/resolve-entities-pilot.mjs",
+    "query:catalog-pilot": "node scripts/catalog-query-pilot.mjs",
+    "db:migrate": "node scripts/db-migrate.mjs",
+    "db:seed:catalog-pilot": "node scripts/db-seed-catalog-pilot.mjs",
+    "db:verify:catalog-pilot": "node scripts/db-verify-catalog-pilot.mjs",
+    "sync:catalog-pilot": "node scripts/sync-catalog-pilot.mjs"
   },
   "dependencies": {
     "next": "16.2.10",
+    "pg": "^8.22.0",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "server-only": "^0.0.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
+    "@types/pg": "^8.20.0",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
