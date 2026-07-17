@@ -1,0 +1,37 @@
+[
+  {
+    "id": "worker_job_pilot_5761a04d-d8d8-4f22-836c-1e53a045bd23",
+    "entityType": "movie",
+    "entityId": "worker_pilot_1784300491819_success_high",
+    "provider": "tmdb",
+    "status": "pending",
+    "priority": "high",
+    "attemptCount": 0,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "metadata": {}
+  },
+  {
+    "id": "worker_job_pilot_b29e7afc-e5e3-4b65-9245-1d91847601a4",
+    "entityType": "movie",
+    "entityId": "worker_pilot_1784300491819_failure",
+    "provider": "tmdb",
+    "status": "pending",
+    "priority": "normal",
+    "attemptCount": 0,
+    "createdAt": "2026-01-01T00:00:01.000Z",
+    "metadata": {
+      "forceFailure": true
+    }
+  },
+  {
+    "id": "worker_job_pilot_96a2159e-dc30-49c9-97d1-2e0b16215c88",
+    "entityType": "movie",
+    "entityId": "worker_pilot_1784300491819_success_after_failure",
+    "provider": "tmdb",
+    "status": "pending",
+    "priority": "normal",
+    "attemptCount": 0,
+    "createdAt": "2026-01-01T00:00:02.000Z",
+    "metadata": {}
+  }
+]

@@ -1,4 +1,4 @@
-import type { Country } from "@/data/countries";
+﻿import type { Country } from "@/data/countries";
 import type { Director } from "@/data/directors";
 import type { Movement } from "@/data/movements";
 import type { Movie } from "@/types/movie";
@@ -288,7 +288,7 @@ export default function MovementDetailPage({
         <EncyclopediaEntityHero
           eyebrow="Movement Encyclopedia"
           title={movement.name}
-          subtitle={movement.nameKo}
+          subtitle={movement.period}
           description={movement.description}
           meta={[
             { label: "Period", value: movement.period },
@@ -325,3 +325,4 @@ export default function MovementDetailPage({
     />
   );
 }
+

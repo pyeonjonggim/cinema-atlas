@@ -1,4 +1,4 @@
-import AwardEncyclopediaList from "@/components/AwardEncyclopediaList";
+﻿import AwardEncyclopediaList from "@/components/AwardEncyclopediaList";
 import { awards } from "@/data/awards";
 
 import GlobalNavigation from "@/components/navigation/GlobalNavigation";
@@ -9,7 +9,7 @@ import JourneyCard from "@/components/discovery/JourneyCard";
 const awardItems = awards.map((award) => ({
   slug: award.slug,
   name: award.name,
-  nameKo: award.nameKo,
+  nameKo: award.name,
   organization: award.organization,
   region: award.organization,
   type: "Award / Institution",
@@ -77,3 +77,4 @@ export default function AwardsPage() {
     </>
   );
 }
+

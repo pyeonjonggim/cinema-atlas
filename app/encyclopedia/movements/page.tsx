@@ -1,4 +1,4 @@
-import { movies } from "@/data/movies";
+﻿import { movies } from "@/data/movies";
 
 import GlobalNavigation from "@/components/navigation/GlobalNavigation";
 import PageContainer from "@/components/layout/PageContainer";
@@ -33,7 +33,7 @@ movies.forEach((movie) => {
       slug: movie.movementSlug,
       name: movie.movement,
       country: movie.country,
-      description: `${movie.movement} 흐름에 속한 작품들을 탐험합니다.`,
+      description: `Explore films connected to ${movie.movement}.`,
       relatedMovieCount: 1,
       essentialMovieCount: 1,
     });
@@ -102,3 +102,4 @@ export default function MovementsPage() {
     </>
   );
 }
+

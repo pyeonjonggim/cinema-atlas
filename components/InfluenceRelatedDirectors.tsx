@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Section from "@/components/Section";
 import type { Director } from "@/types/director";
 

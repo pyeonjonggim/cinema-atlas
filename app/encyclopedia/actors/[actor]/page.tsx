@@ -1,10 +1,7 @@
 import { notFound } from "next/navigation";
 
 import ActorDetailPage from "@/components/pages/ActorDetailPage";
-import { actors } from "@/data/actors";
-import { countries } from "@/data/countries";
-import { directors } from "@/data/directors";
-import { movies } from "@/data/movies";
+import { getActorBySlug, getActors, getCountries, getDirectors, getMovies } from "@/lib/catalogQuery";
 
 type ActorRouteProps = {
   params: Promise<{
@@ -14,11 +11,16 @@ type ActorRouteProps = {
 
 export default async function ActorRoute({ params }: ActorRouteProps) {
   const { actor: actorSlug } = await params;
-  const actor = actors.find((item) => item.slug === actorSlug);
+  const actor = await getActorBySlug(actorSlug);
 
   if (!actor) {
     notFound();
   }
+
+  const actors = await getActors();
+  const countries = await getCountries();
+  const directors = await getDirectors();
+  const movies = await getMovies();
 
   return (
     <ActorDetailPage

@@ -1,6 +1,6 @@
 [
   {
-    "id": "sync:mov_sync_pilot_create:2026-07-14T16:24:13.796Z",
+    "id": "sync:mov_sync_pilot_create:2026-07-17T04:39:10.003Z",
     "movieId": "mov_sync_pilot_create",
     "eventType": "MOVIE_CREATED",
     "provider": "tmdb",
@@ -43,12 +43,12 @@
     ],
     "removedEdges": [],
     "status": "PASS",
-    "startedAt": "2026-07-14T16:24:13.796Z",
-    "completedAt": "2026-07-14T16:24:13.796Z",
+    "startedAt": "2026-07-17T04:39:10.003Z",
+    "completedAt": "2026-07-17T04:39:10.003Z",
     "pipelineVersion": "catalog-sync-v1"
   },
   {
-    "id": "sync:mov_sync_pilot_create:2026-07-14T16:24:14.142Z",
+    "id": "sync:mov_sync_pilot_create:2026-07-17T04:39:10.310Z",
     "movieId": "mov_sync_pilot_create",
     "eventType": "MOVIE_UPDATED",
     "provider": "tmdb",
@@ -61,12 +61,12 @@
     "addedEdges": [],
     "removedEdges": [],
     "status": "PASS",
-    "startedAt": "2026-07-14T16:24:14.142Z",
-    "completedAt": "2026-07-14T16:24:14.142Z",
+    "startedAt": "2026-07-17T04:39:10.310Z",
+    "completedAt": "2026-07-17T04:39:10.310Z",
     "pipelineVersion": "catalog-sync-v1"
   },
   {
-    "id": "sync:mov_sync_pilot_create:2026-07-14T16:24:14.198Z",
+    "id": "sync:mov_sync_pilot_create:2026-07-17T04:39:10.352Z",
     "movieId": "mov_sync_pilot_create",
     "eventType": "RELATIONS_REBUILT",
     "provider": "tmdb",
@@ -100,12 +100,12 @@
       "movie:mov_sync_pilot_create:MOVIE_ACTED_BY_PERSON:person:person_8060f3fa71dc"
     ],
     "status": "PASS",
-    "startedAt": "2026-07-14T16:24:14.198Z",
-    "completedAt": "2026-07-14T16:24:14.198Z",
+    "startedAt": "2026-07-17T04:39:10.352Z",
+    "completedAt": "2026-07-17T04:39:10.352Z",
     "pipelineVersion": "catalog-sync-v1"
   },
   {
-    "id": "sync:mov_sync_pilot_create:2026-07-14T16:24:14.432Z",
+    "id": "sync:mov_sync_pilot_create:2026-07-17T04:39:10.563Z",
     "movieId": "mov_sync_pilot_create",
     "eventType": "NO_CHANGE",
     "provider": "tmdb",
@@ -114,12 +114,12 @@
     "addedEdges": [],
     "removedEdges": [],
     "status": "NO_CHANGE",
-    "startedAt": "2026-07-14T16:24:14.432Z",
-    "completedAt": "2026-07-14T16:24:14.432Z",
+    "startedAt": "2026-07-17T04:39:10.563Z",
+    "completedAt": "2026-07-17T04:39:10.563Z",
     "pipelineVersion": "catalog-sync-v1"
   },
   {
-    "id": "sync:mov_sync_pilot_review_required:2026-07-14T16:24:14.799Z",
+    "id": "sync:mov_sync_pilot_review_required:2026-07-17T04:39:10.935Z",
     "movieId": "mov_sync_pilot_review_required",
     "eventType": "REVIEW_REQUIRED",
     "provider": "tmdb",
@@ -162,8 +162,8 @@
     ],
     "removedEdges": [],
     "status": "BLOCKED",
-    "startedAt": "2026-07-14T16:24:14.799Z",
-    "completedAt": "2026-07-14T16:24:14.799Z",
+    "startedAt": "2026-07-17T04:39:10.935Z",
+    "completedAt": "2026-07-17T04:39:10.935Z",
     "pipelineVersion": "catalog-sync-v1"
   }
 ]

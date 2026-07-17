@@ -1,0 +1,15 @@
+{
+  "command": "dispatch:jobs-pilot",
+  "status": "PASS",
+  "seededPendingJobs": 6,
+  "dispatchedJobs": 5,
+  "priorityOrderingPassed": true,
+  "fifoOrderingPassed": true,
+  "runningReservationPassed": true,
+  "batchDispatchPassed": true,
+  "duplicateDispatchPrevented": true,
+  "schedulerImplemented": false,
+  "workerImplemented": false,
+  "retryQueueImplemented": false,
+  "completedAt": "2026-07-17T15:01:12.507Z"
+}

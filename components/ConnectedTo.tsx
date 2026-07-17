@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 type ConnectedToProps = {
   country: string;
@@ -27,31 +27,31 @@ export default function ConnectedTo({
 }: ConnectedToProps) {
   const connections = [
     {
-      icon: "🌍",
+      icon: "C",
       label: "Country",
       title: country,
       href: `/encyclopedia/countries/${countrySlug}`,
     },
     {
-      icon: "🎥",
+      icon: "D",
       label: "Director",
       title: director,
       href: `/encyclopedia/directors/${directorSlug}`,
     },
     {
-      icon: "📚",
+      icon: "M",
       label: "Movement",
       title: movement,
       href: `/encyclopedia/movements/${movementSlug}`,
     },
     {
-      icon: "🎭",
+      icon: "A",
       label: "Actor",
       title: mainActor ?? "Main Cast",
       href: `/encyclopedia/actors/${mainActorSlug ?? ""}`,
     },
     {
-      icon: "🏆",
+      icon: "W",
       label: "Award",
       title: award ?? "Awards & Festivals",
       href: `/encyclopedia/awards/${awardSlug ?? ""}`,
@@ -64,10 +64,10 @@ export default function ConnectedTo({
         Atlas Network
       </p>
 
-      <h2 className="mt-2 text-3xl font-bold">🕸 Connected To</h2>
+      <h2 className="mt-2 text-3xl font-bold">Connected To</h2>
 
       <p className="mt-3 max-w-2xl text-zinc-400">
-        이 영화가 Cinema Atlas 안에서 연결되는 국가, 감독, 배우, 영화사 흐름입니다.
+        This film connects to countries, directors, actors, and movements inside Cinema Atlas.
       </p>
 
       <div className="mt-6 grid gap-4 md:grid-cols-2">
@@ -88,7 +88,7 @@ export default function ConnectedTo({
             </h3>
 
             <p className="mt-5 text-sm font-semibold text-zinc-400">
-              Explore →
+              Explore
             </p>
           </Link>
         ))}
@@ -96,3 +96,11 @@ export default function ConnectedTo({
     </section>
   );
 }
+
+
+
+
+
+
+
+

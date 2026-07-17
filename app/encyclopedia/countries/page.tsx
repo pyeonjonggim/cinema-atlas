@@ -1,30 +1,31 @@
-import { countries } from "@/data/countries";
-import { movies } from "@/data/movies";
-
 import GlobalNavigation from "@/components/navigation/GlobalNavigation";
 import PageContainer from "@/components/layout/PageContainer";
 import CountryEncyclopediaList from "@/components/CountryEncyclopediaList";
 import RecommendedShelfPattern from "@/components/patterns/RecommendedShelfPattern";
 import JourneyCard from "@/components/discovery/JourneyCard";
+import { getCountries, getMovies } from "@/lib/catalogQuery";
 
-const countryItems = countries.map((country) => {
-  const relatedMovieCount = movies.filter(
-    (movie) => movie.countrySlug === country.slug
-  ).length;
+export default async function CountriesPage() {
+  const countries = await getCountries();
+  const movies = await getMovies();
+  const countryItems = countries.map((country) => {
+    const relatedMovieCount = movies.filter((movie) =>
+      [movie.countrySlug, ...(movie.countryIds ?? [])].includes(country.slug),
+    ).length;
 
-  return {
-    slug: country.slug,
-    name: country.name,
-    nameKo: country.nameKo,
-    flag: country.flag,
-    region: country.region,
-    description: country.description,
-    relatedMovieCount,
-    essentialMovieCount: relatedMovieCount,
-  };
-});
+    return {
+      slug: country.slug,
+      name: country.name,
+      nameKo: country.nameKo,
+      flag: country.flag,
+      region: country.region,
+      description: country.description,
+      knownFor: [country.knownFor],
+      relatedMovieCount,
+      essentialMovieCount: relatedMovieCount,
+    };
+  });
 
-export default function CountriesPage() {
   return (
     <>
       <GlobalNavigation />

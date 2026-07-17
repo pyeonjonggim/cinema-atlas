@@ -1,0 +1,19 @@
+{
+  "command": "worker:jobs-pilot",
+  "status": "PASS",
+  "seededJobs": 3,
+  "processedJobs": 3,
+  "succeededJobs": 2,
+  "failedJobs": 1,
+  "dispatcherIntegrated": true,
+  "runnerRegistryUsed": true,
+  "movieRunnerUsed": true,
+  "successStatePassed": true,
+  "failedStatePassed": true,
+  "failureIsolationPassed": true,
+  "infiniteLoopImplemented": false,
+  "schedulerImplemented": false,
+  "retryQueueImplemented": false,
+  "executionTimeMs": 99.64,
+  "completedAt": "2026-07-17T15:01:32.008Z"
+}

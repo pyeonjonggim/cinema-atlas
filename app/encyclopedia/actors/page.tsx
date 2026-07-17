@@ -1,52 +1,29 @@
-import { movies } from "@/data/movies";
-
 import GlobalNavigation from "@/components/navigation/GlobalNavigation";
 import PageContainer from "@/components/layout/PageContainer";
 import ActorEncyclopediaList from "@/components/ActorEncyclopediaList";
 import RecommendedShelfPattern from "@/components/patterns/RecommendedShelfPattern";
 import JourneyCard from "@/components/discovery/JourneyCard";
+import { getActors, getMovies } from "@/lib/catalogQuery";
 
-const actorMap = new Map<
-  string,
-  {
-    slug: string;
-    name: string;
-    country?: string;
-    countryFlag?: string;
-    description?: string;
-    relatedMovieCount: number;
-  }
->();
+export default async function ActorsPage() {
+  const actors = await getActors();
+  const movies = await getMovies();
+  const actorItems = actors.map((actor) => {
+    const relatedMovieCount = movies.filter((movie) =>
+      [movie.actorSlugs, movie.actorIds ?? []].flat().includes(actor.slug),
+    ).length;
 
-movies.forEach((movie) => {
-  movie.actorSlugs.forEach((actorSlug, index) => {
-    const actorName = movie.actors[index];
-
-    if (!actorName) return;
-
-    const existing = actorMap.get(actorSlug);
-
-    if (existing) {
-      actorMap.set(actorSlug, {
-        ...existing,
-        relatedMovieCount: existing.relatedMovieCount + 1,
-      });
-    } else {
-      actorMap.set(actorSlug, {
-        slug: actorSlug,
-        name: actorName,
-        country: movie.country,
-        countryFlag: movie.countryFlag,
-        description: `${movie.title}를 통해 연결된 배우입니다.`,
-        relatedMovieCount: 1,
-      });
-    }
+    return {
+      slug: actor.slug,
+      name: actor.name,
+      nameKo: actor.nameKo,
+      country: actor.countrySlug,
+      description: actor.description,
+      screenPersona: actor.screenPersona,
+      relatedMovieCount,
+    };
   });
-});
 
-const actorItems = Array.from(actorMap.values());
-
-export default function ActorsPage() {
   return (
     <>
       <GlobalNavigation />

@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Priority and FIFO Ordering",
+    "passed": true,
+    "expected": [
+      "dispatch_pilot_1784300472213_high_old",
+      "dispatch_pilot_1784300472213_high_middle",
+      "dispatch_pilot_1784300472213_high_new",
+      "dispatch_pilot_1784300472213_normal_old",
+      "dispatch_pilot_1784300472213_normal_new",
+      "dispatch_pilot_1784300472213_low_old"
+    ],
+    "actual": [
+      "dispatch_pilot_1784300472213_high_old",
+      "dispatch_pilot_1784300472213_high_middle",
+      "dispatch_pilot_1784300472213_high_new",
+      "dispatch_pilot_1784300472213_normal_old",
+      "dispatch_pilot_1784300472213_normal_new",
+      "dispatch_pilot_1784300472213_low_old"
+    ]
+  },
+  {
+    "name": "dispatchNext reserves oldest high priority first",
+    "passed": true,
+    "first": {
+      "id": "dispatch_job_pilot_c0536948-e86b-40db-8075-603e5c39ed58",
+      "entityType": "movie",
+      "entityId": "dispatch_pilot_1784300472213_high_old",
+      "provider": "tmdb",
+      "status": "running",
+      "priority": "high",
+      "attemptCount": 0,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "startedAt": "2026-07-17T15:01:13.594Z",
+      "metadata": {
+        "expectedOrder": 1
+      }
+    },
+    "second": {
+      "id": "dispatch_job_pilot_d5bbfe8b-1aa3-41b9-a0a4-f69d3232e3b6",
+      "entityType": "movie",
+      "entityId": "dispatch_pilot_1784300472213_high_middle",
+      "provider": "tmdb",
+      "status": "running",
+      "priority": "high",
+      "attemptCount": 0,
+      "createdAt": "2026-01-01T00:00:03.000Z",
+      "startedAt": "2026-07-17T15:01:13.594Z",
+      "metadata": {
+        "expectedOrder": 3
+      }
+    }
+  },
+  {
+    "name": "dispatchBatch reserves next jobs by priority and FIFO",
+    "passed": true,
+    "batch": [
+      {
+        "id": "dispatch_job_pilot_39783ced-2918-4f7e-9fdd-8c40efb2b64b",
+        "entityType": "movie",
+        "entityId": "dispatch_pilot_1784300472213_high_new",
+        "provider": "tmdb",
+        "status": "running",
+        "priority": "high",
+        "attemptCount": 0,
+        "createdAt": "2026-01-01T00:00:05.000Z",
+        "startedAt": "2026-07-17T15:01:13.594Z",
+        "metadata": {
+          "expectedOrder": 2
+        }
+      },
+      {
+        "id": "dispatch_job_pilot_54c56974-74be-47d5-828b-afd441a77361",
+        "entityType": "movie",
+        "entityId": "dispatch_pilot_1784300472213_normal_old",
+        "provider": "tmdb",
+        "status": "running",
+        "priority": "normal",
+        "attemptCount": 0,
+        "createdAt": "2026-01-01T00:00:01.000Z",
+        "startedAt": "2026-07-17T15:01:13.594Z",
+        "metadata": {
+          "expectedOrder": 4
+        }
+      },
+      {
+        "id": "dispatch_job_pilot_bd4a389b-092a-4ff7-b497-283e3c17b94b",
+        "entityType": "movie",
+        "entityId": "dispatch_pilot_1784300472213_normal_new",
+        "provider": "tmdb",
+        "status": "running",
+        "priority": "normal",
+        "attemptCount": 0,
+        "createdAt": "2026-01-01T00:00:06.000Z",
+        "startedAt": "2026-07-17T15:01:13.594Z",
+        "metadata": {
+          "expectedOrder": 5
+        }
+      }
+    ]
+  },
+  {
+    "name": "Only pending jobs are dispatchable",
+    "passed": true,
+    "excludedRows": [
+      {
+        "status": "cancelled",
+        "count": 1
+      },
+      {
+        "status": "failed",
+        "count": 1
+      },
+      {
+        "status": "succeeded",
+        "count": 1
+      }
+    ],
+    "remainingPending": [
+      "dispatch_pilot_1784300472213_low_old"
+    ]
+  },
+  {
+    "name": "Duplicate Dispatch Prevention",
+    "passed": true,
+    "dispatchedIds": [
+      "dispatch_job_pilot_c0536948-e86b-40db-8075-603e5c39ed58",
+      "dispatch_job_pilot_d5bbfe8b-1aa3-41b9-a0a4-f69d3232e3b6",
+      "dispatch_job_pilot_39783ced-2918-4f7e-9fdd-8c40efb2b64b",
+      "dispatch_job_pilot_54c56974-74be-47d5-828b-afd441a77361",
+      "dispatch_job_pilot_bd4a389b-092a-4ff7-b497-283e3c17b94b"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "entity": "Movie",
+    "queryLayer": "CatalogQueryService",
+    "pageUsesIt": true,
+    "dbBacked": false
+  },
+  {
+    "entity": "Director",
+    "queryLayer": "CatalogQueryService filmography only",
+    "pageUsesIt": "detail partial",
+    "dbBacked": false
+  },
+  {
+    "entity": "Actor",
+    "queryLayer": "CatalogQueryService actor filmography exists",
+    "pageUsesIt": false,
+    "dbBacked": false
+  },
+  {
+    "entity": "Country",
+    "queryLayer": "canonicalEntityQuery + CatalogQueryService movies",
+    "pageUsesIt": "detail only",
+    "dbBacked": "country detail lookup only"
+  },
+  {
+    "entity": "Movement",
+    "queryLayer": "none",
+    "pageUsesIt": false,
+    "dbBacked": false
+  },
+  {
+    "entity": "Award",
+    "queryLayer": "none",
+    "pageUsesIt": false,
+    "dbBacked": false
+  }
+]

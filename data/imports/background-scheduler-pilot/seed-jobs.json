@@ -1,0 +1,37 @@
+[
+  {
+    "id": "scheduler_job_pilot_cf9ca396-8cf3-4bf6-89c4-28d91a76ccf8",
+    "entityType": "movie",
+    "entityId": "scheduler_pilot_1784300491822_success_high",
+    "provider": "tmdb",
+    "status": "pending",
+    "priority": "high",
+    "attemptCount": 0,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "metadata": {}
+  },
+  {
+    "id": "scheduler_job_pilot_029e51c0-a30f-4b70-a3b2-1b6f39a84a5b",
+    "entityType": "movie",
+    "entityId": "scheduler_pilot_1784300491822_failure_normal",
+    "provider": "tmdb",
+    "status": "pending",
+    "priority": "normal",
+    "attemptCount": 0,
+    "createdAt": "2026-01-01T00:00:01.000Z",
+    "metadata": {
+      "forceFailure": true
+    }
+  },
+  {
+    "id": "scheduler_job_pilot_55fffc31-c03a-4b7d-97f6-7883162ff705",
+    "entityType": "movie",
+    "entityId": "scheduler_pilot_1784300491822_left_for_next_run",
+    "provider": "tmdb",
+    "status": "pending",
+    "priority": "low",
+    "attemptCount": 0,
+    "createdAt": "2026-01-01T00:00:02.000Z",
+    "metadata": {}
+  }
+]

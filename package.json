@@ -16,7 +16,14 @@
     "db:migrate": "node scripts/db-migrate.mjs",
     "db:seed:catalog-pilot": "node scripts/db-seed-catalog-pilot.mjs",
     "db:verify:catalog-pilot": "node scripts/db-verify-catalog-pilot.mjs",
-    "sync:catalog-pilot": "node scripts/sync-catalog-pilot.mjs"
+    "sync:catalog-pilot": "node scripts/sync-catalog-pilot.mjs",
+    "sync:jobs-pilot": "node scripts/sync-jobs-pilot.mjs",
+    "dispatch:jobs-pilot": "node scripts/dispatch-jobs-pilot.mjs",
+    "worker:jobs-pilot": "node scripts/worker-jobs-pilot.mjs",
+    "scheduler:pilot": "node scripts/scheduler-pilot.mjs",
+    "audit:canonical-entities": "node scripts/audit-canonical-entities.mjs",
+    "verify:canonical-query-phase-a": "node scripts/verify-canonical-query-phase-a.mjs",
+    "verify:country-normalization": "node scripts/verify-country-normalization.mjs"
   },
   "dependencies": {
     "next": "16.2.10",
@@ -37,3 +44,6 @@
     "typescript": "^5"
   }
 }
+
+
+

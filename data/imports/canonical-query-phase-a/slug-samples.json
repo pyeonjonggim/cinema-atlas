@@ -1,0 +1,42 @@
+{
+  "movie": [
+    {
+      "slug": "mov_65bbbefc3e7c",
+      "label": "Seven Samurai"
+    },
+    {
+      "slug": "mov_6604c0455984",
+      "label": "The Seventh Seal"
+    }
+  ],
+  "director": [
+    {
+      "slug": "akira-kurosawa",
+      "label": "Akira Kurosawa"
+    },
+    {
+      "slug": "alfonso-cuaron",
+      "label": "Alfonso Cuarón"
+    }
+  ],
+  "actor": [
+    {
+      "slug": "abe-vigoda",
+      "label": "Abe Vigoda"
+    },
+    {
+      "slug": "ahn-seong-bong",
+      "label": "Ahn Seong-bong"
+    }
+  ],
+  "country": [
+    {
+      "slug": "br",
+      "label": "BR"
+    },
+    {
+      "slug": "de",
+      "label": "DE"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "command": "scheduler:pilot",
+  "status": "PASS",
+  "schedulerStarted": true,
+  "workerTriggered": true,
+  "processedJobs": 2,
+  "succeededJobs": 1,
+  "failedJobs": 1,
+  "gracefulSkipPassed": true,
+  "disabledSkipPassed": true,
+  "scheduleConfigurationPassed": true,
+  "executionLoggingPassed": true,
+  "pendingJobsLeft": 1,
+  "distributedSchedulerImplemented": false,
+  "leaderElectionImplemented": false,
+  "retryQueueImplemented": false,
+  "executionTimeMs": 69.12,
+  "completedAt": "2026-07-17T15:01:31.978Z"
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "scheduler_log_786a1a2e-989e-461c-8467-c08311636f10",
+    "startedAt": "2026-07-17T15:01:31.893Z",
+    "finishedAt": "2026-07-17T15:01:31.963Z",
+    "skipped": false,
+    "processedJobs": 2,
+    "succeededJobs": 1,
+    "failedJobs": 1,
+    "executionTimeMs": 69.12
+  },
+  {
+    "id": "scheduler_log_308f6027-60f0-4219-b7ba-e3649442fc38",
+    "startedAt": "2026-07-17T15:01:31.963Z",
+    "finishedAt": "2026-07-17T15:01:31.964Z",
+    "skipped": true,
+    "skipReason": "worker-running",
+    "processedJobs": 0,
+    "succeededJobs": 0,
+    "failedJobs": 0,
+    "executionTimeMs": 0.04
+  },
+  {
+    "id": "scheduler_log_e2cc61a9-74c9-4867-8935-45b7818ee30f",
+    "startedAt": "2026-07-17T15:01:31.964Z",
+    "finishedAt": "2026-07-17T15:01:31.964Z",
+    "skipped": true,
+    "skipReason": "disabled",
+    "processedJobs": 0,
+    "succeededJobs": 0,
+    "failedJobs": 0,
+    "executionTimeMs": 0.02
+  }
+]

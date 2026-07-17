@@ -1,8 +1,7 @@
 import { notFound } from "next/navigation";
 
 import DirectorDetailPage from "@/components/pages/DirectorDetailPage";
-import { directors } from "@/data/directors";
-import { listMovies } from "@/lib/catalogQuery";
+import { getDirectorBySlug, getDirectors, getMovies } from "@/lib/catalogQuery";
 
 type DirectorRouteProps = {
   params: Promise<{
@@ -12,17 +11,20 @@ type DirectorRouteProps = {
 
 export default async function DirectorRoute({ params }: DirectorRouteProps) {
   const { director: directorSlug } = await params;
-  const director = directors.find((item) => item.slug === directorSlug);
+  const director = await getDirectorBySlug(directorSlug);
 
   if (!director) {
     notFound();
   }
 
+  const directors = await getDirectors();
+  const movies = await getMovies();
+
   return (
     <DirectorDetailPage
       director={director}
       directors={directors}
-      movies={listMovies()}
+      movies={movies}
     />
   );
 }

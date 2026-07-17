@@ -1,0 +1,38 @@
+[
+  {
+    "entity": "Movie",
+    "repository": "PostgresCatalogRepository",
+    "status": "implemented",
+    "notes": "list/get/upsert live Postgres methods exist, but UI CatalogQueryService still reads artifact."
+  },
+  {
+    "entity": "Director",
+    "repository": "PostgresCatalogRepository as person",
+    "status": "partial",
+    "notes": "Person table exists; Director projection repository does not exist."
+  },
+  {
+    "entity": "Actor",
+    "repository": "PostgresCatalogRepository as person",
+    "status": "partial",
+    "notes": "Person table exists; Actor projection repository does not exist."
+  },
+  {
+    "entity": "Country",
+    "repository": "PostgresCatalogRepository + canonicalEntityQuery",
+    "status": "partial",
+    "notes": "Live DB lookup added for country detail route."
+  },
+  {
+    "entity": "Movement",
+    "repository": "none",
+    "status": "missing",
+    "notes": "No Postgres table or repository."
+  },
+  {
+    "entity": "Award",
+    "repository": "none",
+    "status": "missing",
+    "notes": "No Postgres table or repository."
+  }
+]
