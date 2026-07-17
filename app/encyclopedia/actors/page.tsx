@@ -3,15 +3,16 @@ import PageContainer from "@/components/layout/PageContainer";
 import ActorEncyclopediaList from "@/components/ActorEncyclopediaList";
 import RecommendedShelfPattern from "@/components/patterns/RecommendedShelfPattern";
 import JourneyCard from "@/components/discovery/JourneyCard";
-import { getActors, getMovies } from "@/lib/catalogQuery";
+import { getActors } from "@/lib/catalogQuery";
+import type { EntityImage } from "@/lib/media";
 
 export default async function ActorsPage() {
   const actors = await getActors();
-  const movies = await getMovies();
   const actorItems = actors.map((actor) => {
-    const relatedMovieCount = movies.filter((movie) =>
-      [movie.actorSlugs, movie.actorIds ?? []].flat().includes(actor.slug),
-    ).length;
+    const actorMedia = actor as typeof actor & {
+      profileImage?: EntityImage | null;
+    };
+    const relatedMovieCount = actor.essentialMovieIds.length;
 
     return {
       slug: actor.slug,
@@ -21,6 +22,7 @@ export default async function ActorsPage() {
       description: actor.description,
       screenPersona: actor.screenPersona,
       relatedMovieCount,
+      profileImage: actorMedia.profileImage,
     };
   });
 

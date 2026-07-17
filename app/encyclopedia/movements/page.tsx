@@ -1,48 +1,13 @@
-﻿import { movies } from "@/data/movies";
-
 import GlobalNavigation from "@/components/navigation/GlobalNavigation";
 import PageContainer from "@/components/layout/PageContainer";
 import MovementEncyclopediaList from "@/components/MovementEncyclopediaList";
 import RecommendedShelfPattern from "@/components/patterns/RecommendedShelfPattern";
 import JourneyCard from "@/components/discovery/JourneyCard";
+import { getMovements } from "@/lib/catalogQuery";
 
-const movementMap = new Map<
-  string,
-  {
-    slug: string;
-    name: string;
-    country?: string;
-    period?: string;
-    description?: string;
-    relatedMovieCount: number;
-    essentialMovieCount: number;
-  }
->();
+export default async function MovementsPage() {
+  const movementItems = await getMovements();
 
-movies.forEach((movie) => {
-  const existing = movementMap.get(movie.movementSlug);
-
-  if (existing) {
-    movementMap.set(movie.movementSlug, {
-      ...existing,
-      relatedMovieCount: existing.relatedMovieCount + 1,
-      essentialMovieCount: existing.essentialMovieCount + 1,
-    });
-  } else {
-    movementMap.set(movie.movementSlug, {
-      slug: movie.movementSlug,
-      name: movie.movement,
-      country: movie.country,
-      description: `Explore films connected to ${movie.movement}.`,
-      relatedMovieCount: 1,
-      essentialMovieCount: 1,
-    });
-  }
-});
-
-const movementItems = Array.from(movementMap.values());
-
-export default function MovementsPage() {
   return (
     <>
       <GlobalNavigation />
@@ -102,4 +67,3 @@ export default function MovementsPage() {
     </>
   );
 }
-

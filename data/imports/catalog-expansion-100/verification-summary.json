@@ -1,0 +1,28 @@
+{
+  "command": "verify:catalog:100",
+  "status": "PASS",
+  "checks": {
+    "canonicalMovieCount": 116,
+    "personCount": 2098,
+    "countryCount": 38,
+    "edgeCount": 3346
+  },
+  "searchSamples": {
+    "parasite_movies": 1,
+    "bong_people": 4,
+    "south_korea": 1,
+    "korean_movements": 1,
+    "academy_awards": 1
+  },
+  "issueCounts": {
+    "duplicateTmdbIds": 0,
+    "duplicatePersonTmdbIds": 0,
+    "duplicateTitleYear": 0,
+    "moviesWithoutDirector": 0,
+    "moviesWithoutCountry": 0,
+    "rawCountryDisplays": 0,
+    "brokenEdges": 0,
+    "invalidRoutes": 0
+  },
+  "completedAt": "2026-07-17T19:02:27.673Z"
+}

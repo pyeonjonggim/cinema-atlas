@@ -13,6 +13,7 @@ export default function MovieCard({ movie }: MovieCardProps) {
       <div className="overflow-hidden rounded-xl border border-white/10 bg-white/[0.03] transition hover:-translate-y-1 hover:border-white/25 hover:bg-white/[0.06] hover:shadow-lg hover:shadow-black/20">
         <EntityCardVisual
           label="MOVIE"
+          entityImage={movie.posterImage}
           image={movie.poster}
           imageAlt={movie.title}
           tone="movie"

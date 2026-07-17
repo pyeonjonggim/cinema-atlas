@@ -3,15 +3,13 @@ import PageContainer from "@/components/layout/PageContainer";
 import CountryEncyclopediaList from "@/components/CountryEncyclopediaList";
 import RecommendedShelfPattern from "@/components/patterns/RecommendedShelfPattern";
 import JourneyCard from "@/components/discovery/JourneyCard";
-import { getCountries, getMovies } from "@/lib/catalogQuery";
+import { getCountries, getCountryMovieCounts } from "@/lib/catalogQuery";
 
 export default async function CountriesPage() {
   const countries = await getCountries();
-  const movies = await getMovies();
+  const countryMovieCounts = await getCountryMovieCounts();
   const countryItems = countries.map((country) => {
-    const relatedMovieCount = movies.filter((movie) =>
-      [movie.countrySlug, ...(movie.countryIds ?? [])].includes(country.slug),
-    ).length;
+    const relatedMovieCount = countryMovieCounts[country.slug] ?? 0;
 
     return {
       slug: country.slug,

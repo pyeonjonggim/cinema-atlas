@@ -1,11 +1,17 @@
 ﻿import "server-only";
 
+import { cache } from "react";
 import { actors as staticActors, type Actor } from "@/data/actors";
+import { awards as staticAwards, type Award } from "@/data/awards";
 import { countries as staticCountries, type Country } from "@/data/countries";
 import { directors as staticDirectors, type Director } from "@/data/directors";
+import { movements as staticMovements, type Movement } from "@/data/movements";
 import { movies as staticMovies } from "@/data/movies";
 import { hasDatabaseUrl } from "@/lib/db/postgres";
+import { PostgresEditorialRepository } from "@/lib/editorial/postgresEditorialRepository";
 import { PostgresCatalogRepository } from "@/lib/postgresCatalogRepository";
+import { imageFromCatalogRef, resolveImageUrl } from "@/lib/media";
+import type { AwardEditorialEntity, MovementEditorialEntity } from "@/lib/editorial/entity";
 import type { CatalogMovieRecord, KnowledgeGraphEdge } from "@/types/catalogPersistence";
 import type { MovieExternalMetadata } from "@/types/catalog";
 import type { Movie } from "@/types/movie";
@@ -13,6 +19,7 @@ import type { Movie } from "@/types/movie";
 type PersonRow = {
   id: string;
   display_name?: string;
+  profile_path?: string;
   roles?: string[];
 };
 
@@ -38,6 +45,7 @@ const countryIdToLegacySlug: Record<string, string> = {
   it: "italy",
   jp: "japan",
   kr: "korea",
+  se: "sweden",
   tw: "taiwan",
   us: "united-states",
 };
@@ -51,6 +59,7 @@ const countrySlugToCatalogId: Record<string, string> = {
   italy: "it",
   japan: "jp",
   korea: "kr",
+  sweden: "se",
   taiwan: "tw",
   "united-kingdom": "gb",
   "united-states": "us",
@@ -178,6 +187,18 @@ const countryEditorialProjections: Record<string, CountryEditorialProjection> = 
     characteristics: ["Genre and social commentary", "Class and family structures", "Contemporary global influence"],
     themes: ["Class", "Family", "Capitalism", "Urban Life", "Social Anxiety"],
   },
+  se: {
+    displayName: "Sweden",
+    slug: "sweden",
+    flag: "🇸🇪",
+    region: "Europe",
+    representativeEra: "Swedish Cinema",
+    knownFor: "Psychological drama, spiritual inquiry, and austere modernism",
+    description: "Sweden connects Cinema Atlas to Scandinavian cinema, psychological drama, existential questions, and the international art cinema tradition.",
+    whyMatters: "Sweden matters because filmmakers such as Ingmar Bergman helped define how cinema could explore faith, silence, memory, and inner life.",
+    characteristics: ["Scandinavian cinema anchor", "Psychological and spiritual drama", "International art cinema influence"],
+    themes: ["Faith", "Mortality", "Memory", "Silence", "Inner Life"],
+  },
   tw: {
     displayName: "Taiwan",
     slug: "taiwan",
@@ -276,6 +297,9 @@ function staticCountryByName(name: string): Country | undefined {
 
 export class CatalogQueryService {
   private readonly repository = new PostgresCatalogRepository();
+  private readonly editorialRepository = new PostgresEditorialRepository();
+  private readonly personNameCache = new Map<string, Promise<string | undefined>>();
+  private readonly countryNameCache = new Map<string, Promise<string | undefined>>();
   private metrics: QueryMetrics = {
     queryCalls: 0,
     repositoryReads: 0,
@@ -290,15 +314,23 @@ export class CatalogQueryService {
 
     try {
       const records = await this.repository.listMovies();
-      return Promise.all(records.map((record) => this.mapCatalogMovie(record)));
+      return this.mapCatalogMovies(records);
     } catch {
       return staticMovies;
     }
   }
 
   async getMovieBySlug(slug: string): Promise<Movie | undefined> {
-    const movies = await this.getMovies();
-    return movies.find((movie) => movie.id === slug || movie.slug === slug);
+    if (!hasDatabaseUrl()) {
+      return staticMovies.find((movie) => movie.id === slug || movie.slug === slug);
+    }
+
+    try {
+      const record = await this.repository.getMovieById(slug) ?? await this.repository.getMovieBySlug(slug);
+      return record ? this.mapCatalogMovie(record) : undefined;
+    } catch {
+      return staticMovies.find((movie) => movie.id === slug || movie.slug === slug);
+    }
   }
 
   async getDirectors(): Promise<Director[]> {
@@ -317,8 +349,18 @@ export class CatalogQueryService {
   }
 
   async getDirectorBySlug(slug: string): Promise<Director | undefined> {
-    const directors = await this.getDirectors();
-    return directors.find((director) => director.slug === slug);
+    if (!hasDatabaseUrl()) {
+      return staticDirectors.find((director) => director.slug === slug);
+    }
+
+    try {
+      const person = await this.repository.getPersonByDisplaySlug("director", slug) as PersonRow | undefined;
+      if (!person) return undefined;
+      const filmography = await this.getMoviesForTarget("person", person.id, "MOVIE_DIRECTED_BY_PERSON");
+      return this.mapDirectorProjection(person, filmography);
+    } catch {
+      return staticDirectors.find((director) => director.slug === slug);
+    }
   }
 
   async getActors(): Promise<Actor[]> {
@@ -337,8 +379,18 @@ export class CatalogQueryService {
   }
 
   async getActorBySlug(slug: string): Promise<Actor | undefined> {
-    const actors = await this.getActors();
-    return actors.find((actor) => actor.slug === slug);
+    if (!hasDatabaseUrl()) {
+      return staticActors.find((actor) => actor.slug === slug);
+    }
+
+    try {
+      const person = await this.repository.getPersonByDisplaySlug("actor", slug) as PersonRow | undefined;
+      if (!person) return undefined;
+      const filmography = await this.getMoviesForTarget("person", person.id, "MOVIE_ACTED_BY_PERSON");
+      return this.mapActorProjection(person, filmography);
+    } catch {
+      return staticActors.find((actor) => actor.slug === slug);
+    }
   }
 
   async getCountries(): Promise<Country[]> {
@@ -356,29 +408,161 @@ export class CatalogQueryService {
   }
 
   async getCountryBySlug(slug: string): Promise<Country | undefined> {
-    const countries = await this.getCountries();
-    return countries.find((country) => country.slug === slug);
+    if (!hasDatabaseUrl()) {
+      return staticCountries.find((country) => country.slug === slug);
+    }
+
+    try {
+      const countryId = countrySlugToCatalogId[slug] ?? slug;
+      const row =
+        await this.repository.getEntityById("country", countryId) as CountryRow | undefined ??
+        await this.repository.getCountryByDisplaySlug(slug) as CountryRow | undefined;
+      return row ? this.mapCountryProjection(row) : undefined;
+    } catch {
+      return staticCountries.find((country) => country.slug === slug);
+    }
+  }
+
+  async getCountryMovieCounts(): Promise<Record<string, number>> {
+    this.metrics.queryCalls += 1;
+    this.metrics.graphReads += 1;
+
+    if (!hasDatabaseUrl()) {
+      return staticMovies.reduce<Record<string, number>>((counts, movie) => {
+        const key = movie.countrySlug;
+        counts[key] = (counts[key] ?? 0) + 1;
+        return counts;
+      }, {});
+    }
+
+    try {
+      const movies = await this.repository.listMovies();
+      const edges = await this.repository.getRelationsFromSources("movie", movies.map((movie) => movie.id));
+      const counts: Record<string, number> = {};
+
+      edges
+        .filter((edge) => edge.relationType === "MOVIE_PRODUCED_IN_COUNTRY")
+        .forEach((edge) => {
+          const countryId = edge.targetId;
+          const countrySlug =
+            countryEditorialProjections[countryId.toLowerCase()]?.slug ??
+            countryIdToLegacySlug[countryId] ??
+            countryId;
+          counts[countrySlug] = (counts[countrySlug] ?? 0) + 1;
+        });
+
+      return counts;
+    } catch {
+      return {};
+    }
+  }
+
+  async getMovements(): Promise<Movement[]> {
+    this.metrics.queryCalls += 1;
+    this.metrics.repositoryReads += 1;
+
+    if (!hasDatabaseUrl()) return staticMovements;
+
+    try {
+      const entities = await this.editorialRepository.findAllPublished({ kind: "movement" });
+      return entities
+        .filter((entity): entity is MovementEditorialEntity => entity.kind === "movement")
+        .map((entity) => this.mapMovementProjection(entity));
+    } catch {
+      return staticMovements;
+    }
+  }
+
+  async getMovementBySlug(slug: string): Promise<Movement | undefined> {
+    if (!hasDatabaseUrl()) {
+      return staticMovements.find((movement) => movement.slug === slug);
+    }
+
+    try {
+      const entity = await this.editorialRepository.findBySlug("movement", slug);
+      return entity?.kind === "movement" ? this.mapMovementProjection(entity) : undefined;
+    } catch {
+      return staticMovements.find((movement) => movement.slug === slug);
+    }
+  }
+
+  async getAwards(): Promise<Award[]> {
+    this.metrics.queryCalls += 1;
+    this.metrics.repositoryReads += 1;
+
+    if (!hasDatabaseUrl()) return staticAwards;
+
+    try {
+      const entities = await this.editorialRepository.findAllPublished({ kind: "award" });
+      return entities
+        .filter((entity): entity is AwardEditorialEntity => entity.kind === "award")
+        .map((entity) => this.mapAwardProjection(entity));
+    } catch {
+      return staticAwards;
+    }
+  }
+
+  async getAwardBySlug(slug: string): Promise<Award | undefined> {
+    if (!hasDatabaseUrl()) {
+      return staticAwards.find((award) => award.slug === slug);
+    }
+
+    try {
+      const entity = await this.editorialRepository.findBySlug("award", slug);
+      return entity?.kind === "award" ? this.mapAwardProjection(entity) : undefined;
+    } catch {
+      return staticAwards.find((award) => award.slug === slug);
+    }
   }
 
   async getDirectorFilmography(directorSlug: string): Promise<Movie[]> {
     this.metrics.queryCalls += 1;
     this.metrics.graphReads += 1;
-    const movies = await this.getMovies();
-    return movies.filter((movie) => unique([movie.directorSlug, ...(movie.directorIds ?? [])]).includes(directorSlug));
+
+    if (!hasDatabaseUrl()) {
+      return staticMovies.filter((movie) =>
+        unique([movie.directorSlug, ...(movie.directorIds ?? [])]).includes(directorSlug),
+      );
+    }
+
+    try {
+      const person = await this.repository.getPersonByDisplaySlug("director", directorSlug) as PersonRow | undefined;
+      return person ? this.getMoviesForTarget("person", person.id, "MOVIE_DIRECTED_BY_PERSON") : [];
+    } catch {
+      return [];
+    }
   }
 
   async getCountryMovies(countrySlug: string): Promise<Movie[]> {
     this.metrics.queryCalls += 1;
     this.metrics.graphReads += 1;
-    const movies = await this.getMovies();
-    return movies.filter((movie) => unique([movie.countrySlug, ...(movie.countryIds ?? [])]).includes(countrySlug));
+
+    if (!hasDatabaseUrl()) {
+      return staticMovies.filter((movie) => unique([movie.countrySlug, ...(movie.countryIds ?? [])]).includes(countrySlug));
+    }
+
+    try {
+      const countryId = countrySlugToCatalogId[countrySlug] ?? countrySlug;
+      return this.getMoviesForTarget("country", countryId, "MOVIE_PRODUCED_IN_COUNTRY");
+    } catch {
+      return [];
+    }
   }
 
   async getActorFilmography(actorSlug: string): Promise<Movie[]> {
     this.metrics.queryCalls += 1;
     this.metrics.graphReads += 1;
-    const movies = await this.getMovies();
-    return movies.filter((movie) => unique([...(movie.actorIds ?? []), ...movie.actorSlugs]).includes(actorSlug));
+
+    if (!hasDatabaseUrl()) {
+      return staticMovies.filter((movie) => unique([...(movie.actorIds ?? []), ...movie.actorSlugs]).includes(actorSlug));
+    }
+
+    try {
+      const person = await this.repository.getPersonByDisplaySlug("actor", actorSlug) as PersonRow | undefined;
+      return person ? this.getMoviesForTarget("person", person.id, "MOVIE_ACTED_BY_PERSON") : [];
+    } catch {
+      return [];
+    }
   }
 
   async getMoviesByGenre(genreId: string): Promise<Movie[]> {
@@ -433,8 +617,66 @@ export class CatalogQueryService {
     this.metrics = { queryCalls: 0, repositoryReads: 0, graphReads: 0 };
   }
 
+  private async mapCatalogMovies(records: CatalogMovieRecord[]): Promise<Movie[]> {
+    const edges = await this.repository.getRelationsFromSources(
+      "movie",
+      records.map((record) => record.id),
+    );
+    const edgesByMovie = new Map<string, KnowledgeGraphEdge[]>();
+
+    for (const edge of edges) {
+      const movieEdges = edgesByMovie.get(edge.sourceId) ?? [];
+      movieEdges.push(edge);
+      edgesByMovie.set(edge.sourceId, movieEdges);
+    }
+
+    const personIds = unique(
+      edges
+        .filter((edge) => edge.targetType === "person")
+        .map((edge) => edge.targetId),
+    );
+    const countryIds = unique(
+      edges
+        .filter((edge) => edge.targetType === "country")
+        .map((edge) => edge.targetId),
+    );
+    const [peopleRows, countryRows] = await Promise.all([
+      this.repository.getEntitiesByIds("person", personIds) as Promise<PersonRow[]>,
+      this.repository.getEntitiesByIds("country", countryIds) as Promise<CountryRow[]>,
+    ]);
+    const personNames = new Map(
+      peopleRows.map((person) => [person.id, person.display_name ?? person.id]),
+    );
+    const countryNames = new Map(
+      countryRows.map((country) => [
+        country.id,
+        country.display_name && country.display_name.length > 2
+          ? country.display_name
+          : undefined,
+      ]),
+    );
+
+    return records.map((record) =>
+      this.mapCatalogMovieFromEdges(
+        record,
+        edgesByMovie.get(record.id) ?? [],
+        personNames,
+        countryNames,
+      ),
+    );
+  }
+
   private async mapCatalogMovie(record: CatalogMovieRecord): Promise<Movie> {
-    const edges = await this.repository.getRelationsFrom("movie", record.id);
+    const movies = await this.mapCatalogMovies([record]);
+    return movies[0];
+  }
+
+  private mapCatalogMovieFromEdges(
+    record: CatalogMovieRecord,
+    edges: KnowledgeGraphEdge[],
+    personNames: Map<string, string | undefined>,
+    countryNames: Map<string, string | undefined>,
+  ): Movie {
     const directorEdges = edges.filter((edge) => edge.relationType === "MOVIE_DIRECTED_BY_PERSON");
     const actorEdges = edges.filter((edge) => edge.relationType === "MOVIE_ACTED_BY_PERSON");
     const countryEdges = edges.filter((edge) => edge.relationType === "MOVIE_PRODUCED_IN_COUNTRY");
@@ -442,20 +684,25 @@ export class CatalogQueryService {
     const languageEdges = edges.filter((edge) => edge.relationType === "MOVIE_USES_LANGUAGE");
     const companyEdges = edges.filter((edge) => edge.relationType === "MOVIE_PRODUCED_BY_COMPANY");
 
-    const directorName = await this.personName(directorEdges[0]?.targetId) ?? "Unknown Director";
+    const directorName = personNames.get(directorEdges[0]?.targetId ?? "") ?? "Unknown Director";
     const directorSlug = slugify(directorName) || directorEdges[0]?.targetId || "unknown-director";
-    const actorPeople = await Promise.all(actorEdges.slice(0, 5).map((edge) => this.personName(edge.targetId)));
-    const actorNames = actorPeople.map((name, index) => name ?? actorEdges[index]?.targetId ?? "Unknown Actor");
+    const actorNames = actorEdges
+      .slice(0, 5)
+      .map((edge) => personNames.get(edge.targetId) ?? edge.targetId ?? "Unknown Actor");
     const actorSlugs = actorNames.map((name) => slugify(name));
     const countryId = countryEdges[0]?.targetId ?? record.externalMetadata.productionCountryIds?.[0] ?? "unknown";
     const countryProjection = countryEditorialProjections[countryId.toLowerCase()];
-    const countrySlug = countryProjection?.slug ?? countryIdToLegacySlug[countryId] ?? countryId;
-    const country = countryProjection?.displayName ?? await this.countryName(countryId) ?? countryId.toUpperCase();
+    const country = countryProjection?.displayName ?? countryNames.get(countryId) ?? countryId.toUpperCase();
+    const countrySlug = countryProjection?.slug ?? countryIdToLegacySlug[countryId] ?? slugify(country) ?? countryId;
     const genreIds = genreEdges.map((edge) => edge.targetId.replace(/^genre-/, "").replace(/^genre_/, ""));
     const genres = genreIds.map((id) => genreNames[id] ?? id);
     const languageIds = languageEdges.map((edge) => edge.targetId);
     const language = languageNames[languageIds[0] ?? ""] ?? languageIds[0] ?? "Unknown";
     const externalMetadata = this.mapExternalMetadata(record);
+    const posterImage = imageFromCatalogRef(record.externalMetadata.poster, "poster", `Poster for ${record.title}`);
+    const backdropImage = imageFromCatalogRef(record.externalMetadata.backdrop, "backdrop", "");
+    const poster = resolveImageUrl(posterImage, "poster-card") ?? "";
+    const backdrop = resolveImageUrl(backdropImage, "backdrop-hero") ?? "";
 
     return {
       id: record.id,
@@ -507,10 +754,12 @@ export class CatalogQueryService {
       relatedMovieIds: [],
       recommendedMovieIds: [],
       productionCompanyIds: companyEdges.map((edge) => edge.targetId),
-      poster: "",
+      poster,
       posterPath: record.externalMetadata.poster?.path,
-      backdrop: "",
+      posterImage,
+      backdrop,
       backdropPath: record.externalMetadata.backdrop?.path,
+      backdropImage,
       externalMetadata,
     };
   }
@@ -551,7 +800,17 @@ export class CatalogQueryService {
     const country = firstMovie?.country ?? fallback?.country ?? "Catalog";
     const countrySlug = firstMovie?.countrySlug ?? fallback?.countrySlug ?? "catalog";
 
-    return {
+    const profileImage = person.profile_path
+      ? {
+          kind: "profile" as const,
+          source: "tmdb" as const,
+          path: person.profile_path,
+          alt: `Portrait of ${name}`,
+          attribution: { provider: "TMDB" },
+        }
+      : null;
+
+    const projection = {
       slug,
       name,
       nameKo: name,
@@ -572,7 +831,9 @@ export class CatalogQueryService {
       influencedByDirectorSlugs: fallback?.influencedByDirectorSlugs,
       influencedDirectorSlugs: fallback?.influencedDirectorSlugs,
       relatedDirectorSlugs: fallback?.relatedDirectorSlugs,
+      profileImage,
     };
+    return projection;
   }
 
   private mapActorProjection(person: PersonRow, movies: Movie[]): Actor {
@@ -582,7 +843,17 @@ export class CatalogQueryService {
     const filmography = movies.filter((movie) => movie.actorSlugs.includes(slug) || movie.actorIds?.includes(person.id));
     const firstMovie = filmography[0];
 
-    return {
+    const profileImage = person.profile_path
+      ? {
+          kind: "profile" as const,
+          source: "tmdb" as const,
+          path: person.profile_path,
+          alt: `Portrait of ${name}`,
+          attribution: { provider: "TMDB" },
+        }
+      : null;
+
+    const projection = {
       slug,
       name,
       nameKo: name,
@@ -597,6 +868,45 @@ export class CatalogQueryService {
       starterMovieId: fallback?.starterMovieId ?? firstMovie?.id ?? "",
       startingPointReason: "Start with the first connected catalog film.",
       frequentDirectorSlugs: fallback?.frequentDirectorSlugs,
+      profileImage,
+    };
+    return projection;
+  }
+
+  private mapMovementProjection(entity: MovementEditorialEntity): Movement {
+    return {
+      slug: entity.slug,
+      name: entity.name,
+      nameKo: entity.name,
+      period: entity.period ?? "Editorial Era",
+      description: entity.description,
+      whyMatters: entity.whyItMatters ?? entity.description,
+      characteristics: entity.characteristics ?? [],
+      themes: entity.themes ?? [],
+      essentialMovieIds: entity.movieSlugs ?? [],
+      starterMovieId: entity.starterMovieSlug ?? entity.movieSlugs?.[0] ?? "",
+      startingPointReason: "Start with the recommended film connected to this movement.",
+      directorSlugs: entity.directorSlugs ?? [],
+      countrySlugs: entity.countrySlugs ?? [],
+      relatedMovementSlugs: entity.relatedEntitySlugs,
+    };
+  }
+
+  private mapAwardProjection(entity: AwardEditorialEntity): Award {
+    return {
+      slug: entity.slug,
+      name: entity.name,
+      nameKo: entity.name,
+      countrySlug: entity.countrySlug ?? "",
+      foundedYear: entity.foundedYear ?? 0,
+      organization: entity.organization ?? "Cinema Atlas Editorial",
+      description: entity.description,
+      whyMatters: entity.whyItMatters ?? entity.description,
+      overview: entity.overview ?? [],
+      representativeMovieIds: entity.movieSlugs ?? [],
+      starterMovieId: entity.starterMovieSlug ?? entity.movieSlugs?.[0] ?? "",
+      startingPointReason: "Start with the recommended film connected to this award.",
+      directorSlugs: entity.directorSlugs ?? [],
     };
   }
 
@@ -610,7 +920,18 @@ export class CatalogQueryService {
       id.toUpperCase();
     const slug = editorial?.slug ?? fallback?.slug ?? countryIdToLegacySlug[id] ?? slugify(name) ?? id;
 
-    return {
+    const heroImage = slug === "japan"
+      ? {
+          kind: "hero" as const,
+          source: "editorial" as const,
+          path: "/images/home/featured-journey-japan-desktop.webp",
+          alt: "Japanese cityscape with Mount Fuji and cherry blossoms",
+          attribution: { provider: "Cinema Atlas local asset" },
+          objectPosition: "55% center",
+        }
+      : null;
+
+    const projection = {
       slug,
       name,
       displayName: name,
@@ -629,13 +950,37 @@ export class CatalogQueryService {
       startingPointReason: fallback?.startingPointReason ?? "No curated starting point selected yet.",
       directorSlugs: fallback?.directorSlugs ?? [],
       movementSlugs: fallback?.movementSlugs ?? [],
+      heroImage,
     };
+    return projection;
+  }
+
+  private async getMoviesForTarget(
+    targetType: "person" | "country",
+    targetId: string,
+    relationType: string,
+  ): Promise<Movie[]> {
+    const edges = await this.repository.getRelationsTo(targetType, targetId);
+    const movieIds = unique(
+      edges
+        .filter((edge) => edge.relationType === relationType && edge.sourceType === "movie")
+        .map((edge) => edge.sourceId),
+    );
+    const records = await this.repository.getMoviesByIds(movieIds);
+    return this.mapCatalogMovies(records);
   }
 
   private async personName(personId?: string): Promise<string | undefined> {
     if (!personId) return undefined;
-    const row = await this.repository.getEntityById("person", personId) as PersonRow | undefined;
-    return row?.display_name;
+    const cached = this.personNameCache.get(personId);
+    if (cached) return cached;
+
+    const lookup = this.repository
+      .getEntityById("person", personId)
+      .then((row) => (row as PersonRow | undefined)?.display_name)
+      .catch(() => undefined);
+    this.personNameCache.set(personId, lookup);
+    return lookup;
   }
 
   private async countryName(countryId?: string): Promise<string | undefined> {
@@ -644,72 +989,53 @@ export class CatalogQueryService {
     const editorial = countryEditorialProjections[normalizedId];
     if (editorial) return editorial.displayName;
 
-    const row = await this.repository.getEntityById("country", countryId) as CountryRow | undefined;
-    return row?.display_name && row.display_name.length > 2 ? row.display_name : undefined;
+    const cached = this.countryNameCache.get(countryId);
+    if (cached) return cached;
+
+    const lookup = this.repository
+      .getEntityById("country", countryId)
+      .then((row) => {
+        const country = row as CountryRow | undefined;
+        return country?.display_name && country.display_name.length > 2 ? country.display_name : undefined;
+      })
+      .catch(() => undefined);
+    this.countryNameCache.set(countryId, lookup);
+    return lookup;
   }
 
   private async listPeopleByRole(role: "director" | "actor"): Promise<PersonRow[]> {
-    const movies = await this.repository.listMovies();
-    const peopleIds = new Set<string>();
-
-    for (const movie of movies) {
-      const edges = await this.repository.getRelationsFrom("movie", movie.id);
-      edges
-        .filter((edge) =>
-          role === "director"
-            ? edge.relationType === "MOVIE_DIRECTED_BY_PERSON"
-            : edge.relationType === "MOVIE_ACTED_BY_PERSON",
-        )
-        .forEach((edge) => peopleIds.add(edge.targetId));
-    }
-
-    const rows = await Promise.all(
-      [...peopleIds].map((id) => this.repository.getEntityById("person", id) as Promise<PersonRow | undefined>),
-    );
-
-    return rows
-      .filter((row): row is PersonRow => Boolean(row))
-      .sort((a, b) => (a.display_name ?? a.id).localeCompare(b.display_name ?? b.id));
+    const rows = await this.repository.listPeopleByRole(role) as PersonRow[];
+    return rows.filter((row): row is PersonRow => Boolean(row));
   }
 
   private async listCatalogCountries(): Promise<CountryRow[]> {
-    const movies = await this.repository.listMovies();
-    const countryIds = new Set<string>();
-
-    for (const movie of movies) {
-      const edges = await this.repository.getRelationsFrom("movie", movie.id);
-      edges
-        .filter((edge): edge is KnowledgeGraphEdge => edge.relationType === "MOVIE_PRODUCED_IN_COUNTRY")
-        .forEach((edge) => countryIds.add(edge.targetId));
-    }
-
-    const rows = await Promise.all(
-      [...countryIds].map((id) => this.repository.getEntityById("country", id) as Promise<CountryRow | undefined>),
-    );
-
-    return rows
-      .filter((row): row is CountryRow => Boolean(row))
-      .sort((a, b) => (a.display_name ?? a.id).localeCompare(b.display_name ?? b.id));
+    const rows = await this.repository.listCountriesReferencedByMovies() as CountryRow[];
+    return rows.filter((row): row is CountryRow => Boolean(row));
   }
 }
 
 export const catalogQueryService = new CatalogQueryService();
 
-export const getMovies = () => catalogQueryService.getMovies();
-export const getMovieBySlug = (slug: string) => catalogQueryService.getMovieBySlug(slug);
-export const getDirectors = () => catalogQueryService.getDirectors();
-export const getDirectorBySlug = (slug: string) => catalogQueryService.getDirectorBySlug(slug);
-export const getActors = () => catalogQueryService.getActors();
-export const getActorBySlug = (slug: string) => catalogQueryService.getActorBySlug(slug);
-export const getCountries = () => catalogQueryService.getCountries();
-export const getCountryBySlug = (slug: string) => catalogQueryService.getCountryBySlug(slug);
-export const getDirectorFilmography = (directorId: string) => catalogQueryService.getDirectorFilmography(directorId);
-export const getCountryMovies = (countryId: string) => catalogQueryService.getCountryMovies(countryId);
-export const getActorFilmography = (actorId: string) => catalogQueryService.getActorFilmography(actorId);
-export const getMoviesByGenre = (genreId: string) => catalogQueryService.getMoviesByGenre(genreId);
-export const getMoviesByLanguage = (languageId: string) => catalogQueryService.getMoviesByLanguage(languageId);
-export const getMoviesByCompany = (companyId: string) => catalogQueryService.getMoviesByCompany(companyId);
-export const getRelatedMovies = (movieId: string) => catalogQueryService.getRelatedMovies(movieId);
+export const getMovies = cache(() => catalogQueryService.getMovies());
+export const getMovieBySlug = cache((slug: string) => catalogQueryService.getMovieBySlug(slug));
+export const getDirectors = cache(() => catalogQueryService.getDirectors());
+export const getDirectorBySlug = cache((slug: string) => catalogQueryService.getDirectorBySlug(slug));
+export const getActors = cache(() => catalogQueryService.getActors());
+export const getActorBySlug = cache((slug: string) => catalogQueryService.getActorBySlug(slug));
+export const getCountries = cache(() => catalogQueryService.getCountries());
+export const getCountryBySlug = cache((slug: string) => catalogQueryService.getCountryBySlug(slug));
+export const getCountryMovieCounts = cache(() => catalogQueryService.getCountryMovieCounts());
+export const getMovements = cache(() => catalogQueryService.getMovements());
+export const getMovementBySlug = cache((slug: string) => catalogQueryService.getMovementBySlug(slug));
+export const getAwards = cache(() => catalogQueryService.getAwards());
+export const getAwardBySlug = cache((slug: string) => catalogQueryService.getAwardBySlug(slug));
+export const getDirectorFilmography = cache((directorId: string) => catalogQueryService.getDirectorFilmography(directorId));
+export const getCountryMovies = cache((countryId: string) => catalogQueryService.getCountryMovies(countryId));
+export const getActorFilmography = cache((actorId: string) => catalogQueryService.getActorFilmography(actorId));
+export const getMoviesByGenre = cache((genreId: string) => catalogQueryService.getMoviesByGenre(genreId));
+export const getMoviesByLanguage = cache((languageId: string) => catalogQueryService.getMoviesByLanguage(languageId));
+export const getMoviesByCompany = cache((companyId: string) => catalogQueryService.getMoviesByCompany(companyId));
+export const getRelatedMovies = cache((movieId: string) => catalogQueryService.getRelatedMovies(movieId));
 
 export const listMovies = () => staticMovies;
 export const listMoviesAsync = getMovies;

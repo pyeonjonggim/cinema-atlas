@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 
 import DirectorDetailPage from "@/components/pages/DirectorDetailPage";
-import { getDirectorBySlug, getDirectors, getMovies } from "@/lib/catalogQuery";
+import { getDirectorBySlug, getDirectorFilmography } from "@/lib/catalogQuery";
 
 type DirectorRouteProps = {
   params: Promise<{
@@ -17,13 +17,12 @@ export default async function DirectorRoute({ params }: DirectorRouteProps) {
     notFound();
   }
 
-  const directors = await getDirectors();
-  const movies = await getMovies();
+  const movies = await getDirectorFilmography(directorSlug);
 
   return (
     <DirectorDetailPage
       director={director}
-      directors={directors}
+      directors={[director]}
       movies={movies}
     />
   );

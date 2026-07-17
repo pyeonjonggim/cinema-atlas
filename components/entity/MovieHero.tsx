@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+import EntityImage from "@/components/EntityImage";
 import AtlasBadge from "../ui/AtlasBadge";
 import AtlasTag from "../ui/AtlasTag";
 import type { Movie } from "@/types/movie";
@@ -14,7 +15,16 @@ export default function MovieHero({ movie }: MovieHeroProps) {
   return (
     <section className="relative overflow-hidden rounded-3xl border border-white/10 bg-neutral-950">
       <div className="absolute inset-0">
-        {movie.backdrop || movie.poster ? (
+        {movie.backdropImage ? (
+          <EntityImage
+            image={movie.backdropImage}
+            fallbackLabel={movie.title}
+            variant="hero"
+            sizes="100vw"
+            className="opacity-20 blur-sm"
+            priority
+          />
+        ) : movie.backdrop || movie.poster ? (
           <Image
             src={movie.backdrop ?? movie.poster}
             alt=""
@@ -32,21 +42,15 @@ export default function MovieHero({ movie }: MovieHeroProps) {
 
       <div className="relative grid gap-5 p-5 md:grid-cols-[132px_1fr] md:p-6 lg:grid-cols-[148px_1fr]">
         <div className="relative w-28 overflow-hidden rounded-2xl border border-white/15 bg-neutral-900 shadow-2xl shadow-black/40 md:w-full">
-          {movie.poster ? (
-            <Image
-              src={movie.poster}
-              alt={movie.title}
-              width={296}
-              height={444}
+          <div className="relative aspect-[2/3]">
+            <EntityImage
+              image={movie.posterImage}
+              fallbackLabel={movie.title}
+              variant="poster"
               sizes="(min-width: 1024px) 148px, (min-width: 768px) 132px, 112px"
-              className="aspect-[2/3] h-full w-full object-cover"
               priority
             />
-          ) : (
-            <div className="flex aspect-[2/3] items-center justify-center bg-gradient-to-br from-neutral-800 to-neutral-950 text-xs text-neutral-500">
-              No Poster
-            </div>
-          )}
+          </div>
         </div>
 
         <div className="flex min-w-0 flex-col justify-center">

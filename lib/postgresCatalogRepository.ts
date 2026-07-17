@@ -123,6 +123,41 @@ export class PostgresCatalogRepository implements CatalogRepository {
     return result.rows[0] ? this.mapMovieRow(result.rows[0]) : undefined;
   }
 
+  async getMovieBySlug(slug: string): Promise<CatalogMovieRecord | undefined> {
+    const result = await this.pool.query<CatalogMovieRow>(
+      "SELECT * FROM catalog_movies WHERE slug = $1 LIMIT 1",
+      [slug],
+    );
+    return result.rows[0] ? this.mapMovieRow(result.rows[0]) : undefined;
+  }
+
+  async getPersonByDisplaySlug(
+    role: "director" | "actor",
+    slug: string,
+  ): Promise<unknown | undefined> {
+    const result = await this.pool.query(
+      `SELECT *
+       FROM catalog_people
+       WHERE roles ? $1
+         AND regexp_replace(lower(display_name), '[^a-z0-9]+', '-', 'g') = $2
+       LIMIT 1`,
+      [role, slug],
+    );
+    return result.rows[0];
+  }
+
+  async getCountryByDisplaySlug(slug: string): Promise<unknown | undefined> {
+    const result = await this.pool.query(
+      `SELECT *
+       FROM catalog_countries
+       WHERE id = $1
+          OR regexp_replace(lower(display_name), '[^a-z0-9]+', '-', 'g') = $1
+       LIMIT 1`,
+      [slug],
+    );
+    return result.rows[0];
+  }
+
   async getMovieByExternalId(
     provider: "tmdb" | "imdb" | "wikidata",
     value: string | number,
@@ -177,6 +212,19 @@ export class PostgresCatalogRepository implements CatalogRepository {
   async listMovies(): Promise<CatalogMovieRecord[]> {
     const result = await this.pool.query<CatalogMovieRow>(
       "SELECT * FROM catalog_movies ORDER BY release_year NULLS LAST, title",
+    );
+    return result.rows.map((row) => this.mapMovieRow(row));
+  }
+
+  async getMoviesByIds(ids: string[]): Promise<CatalogMovieRecord[]> {
+    if (ids.length === 0) return [];
+
+    const result = await this.pool.query<CatalogMovieRow>(
+      `SELECT *
+       FROM catalog_movies
+       WHERE id = ANY($1::text[])
+       ORDER BY release_year NULLS LAST, title`,
+      [ids],
     );
     return result.rows.map((row) => this.mapMovieRow(row));
   }
@@ -243,6 +291,22 @@ export class PostgresCatalogRepository implements CatalogRepository {
     return result.rows.map((row) => this.mapEdgeRow(row));
   }
 
+  async getRelationsFromSources(
+    sourceType: KnowledgeGraphEntityType,
+    sourceIds: string[],
+  ): Promise<KnowledgeGraphEdge[]> {
+    if (sourceIds.length === 0) return [];
+
+    const result = await this.pool.query<EdgeRow>(
+      `SELECT *
+       FROM knowledge_graph_edges
+       WHERE source_type = $1
+         AND source_id = ANY($2::text[])`,
+      [sourceType, sourceIds],
+    );
+    return result.rows.map((row) => this.mapEdgeRow(row));
+  }
+
   async getRelationsTo(
     targetType: KnowledgeGraphEntityType,
     targetId: string,
@@ -252,6 +316,54 @@ export class PostgresCatalogRepository implements CatalogRepository {
       [targetType, targetId],
     );
     return result.rows.map((row) => this.mapEdgeRow(row));
+  }
+
+  async getEntitiesByIds(
+    entityType: ResolvableEntityType,
+    ids: string[],
+  ): Promise<unknown[]> {
+    if (ids.length === 0) return [];
+
+    const table = this.tableForEntityType(entityType);
+    const result = await this.pool.query(
+      `SELECT *
+       FROM ${table}
+       WHERE id = ANY($1::text[])`,
+      [ids],
+    );
+    return result.rows;
+  }
+
+  async listPeopleByRole(role: "director" | "actor"): Promise<unknown[]> {
+    const relationType =
+      role === "director" ? "MOVIE_DIRECTED_BY_PERSON" : "MOVIE_ACTED_BY_PERSON";
+
+    const result = await this.pool.query(
+      `SELECT DISTINCT p.*
+       FROM catalog_people p
+       INNER JOIN knowledge_graph_edges e
+         ON e.target_type = 'person'
+        AND e.target_id = p.id
+       WHERE e.source_type = 'movie'
+         AND e.relation_type = $1
+       ORDER BY p.display_name`,
+      [relationType],
+    );
+    return result.rows;
+  }
+
+  async listCountriesReferencedByMovies(): Promise<unknown[]> {
+    const result = await this.pool.query(
+      `SELECT DISTINCT c.*
+       FROM catalog_countries c
+       INNER JOIN knowledge_graph_edges e
+         ON e.target_type = 'country'
+        AND e.target_id = c.id
+       WHERE e.source_type = 'movie'
+         AND e.relation_type = 'MOVIE_PRODUCED_IN_COUNTRY'
+       ORDER BY c.display_name`,
+    );
+    return result.rows;
   }
 
   async findEntityCandidates(

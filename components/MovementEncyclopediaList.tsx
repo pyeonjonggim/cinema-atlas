@@ -7,6 +7,7 @@ import EntityCardVisual from "@/components/entity/EntityCardVisual";
 import ListHero, { type ListHeroProps } from "@/components/layout/ListHero";
 import AtlasButton from "@/components/ui/AtlasButton";
 import EmptyState from "@/components/ui/EmptyState";
+import { useTwoRowLimit } from "@/components/useTwoRowLimit";
 
 export type MovementEncyclopediaItem = {
   slug: string;
@@ -89,6 +90,14 @@ export default function MovementEncyclopediaList({
 
     return result;
   }, [movements, query, sort]);
+  const {
+    visibleItems: visibleMovements,
+    isExpanded,
+    canExpand,
+    remainingCount,
+    showAll,
+    collapse,
+  } = useTwoRowLimit(filteredMovements, `${query}|${sort}|${filteredMovements.length}`);
 
   return (
     <div className="space-y-6">
@@ -127,11 +136,21 @@ export default function MovementEncyclopediaList({
         </div>
 
         {filteredMovements.length > 0 ? (
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 xl:grid-cols-8">
-            {filteredMovements.map((movement) => (
-              <MovementCard key={movement.slug} movement={movement} />
-            ))}
-          </div>
+          <>
+            <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 xl:grid-cols-8">
+              {visibleMovements.map((movement) => (
+                <MovementCard key={movement.slug} movement={movement} />
+              ))}
+            </div>
+
+            {canExpand && (
+              <div className="flex justify-center pt-2">
+                <AtlasButton variant="secondary" onClick={isExpanded ? collapse : showAll}>
+                  {isExpanded ? "Show less" : `View more (${remainingCount})`}
+                </AtlasButton>
+              </div>
+            )}
+          </>
         ) : (
           <EmptyState
             preset="search"

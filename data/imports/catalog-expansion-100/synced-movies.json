@@ -1,0 +1,3964 @@
+[
+  {
+    "title": "Parasite",
+    "year": 2019,
+    "tmdbId": 496243,
+    "movieId": "mov_d9f4b3d10da5",
+    "slug": "parasite",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 3,
+      "languages": 3,
+      "companies": 1
+    },
+    "edgeCount": 33,
+    "syncEvent": {
+      "id": "sync:mov_d9f4b3d10da5:2026-07-17T17:56:02.068Z",
+      "movieId": "mov_d9f4b3d10da5",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "496243",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:02.068Z",
+      "completedAt": "2026-07-17T17:56:02.068Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 2104
+  },
+  {
+    "title": "Seven Samurai",
+    "year": 1954,
+    "tmdbId": 346,
+    "movieId": "mov_65bbbefc3e7c",
+    "slug": "seven-samurai",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 23,
+      "countries": 1,
+      "genres": 2,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 30,
+    "syncEvent": {
+      "id": "sync:mov_65bbbefc3e7c:2026-07-17T17:56:03.365Z",
+      "movieId": "mov_65bbbefc3e7c",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "346",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:03.365Z",
+      "completedAt": "2026-07-17T17:56:03.365Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1297
+  },
+  {
+    "title": "Rashomon",
+    "year": 1950,
+    "tmdbId": 548,
+    "movieId": "mov_350f73e3dbc1",
+    "slug": "rashomon",
+    "status": "created",
+    "warnings": [],
+    "entityCounts": {
+      "people": 10,
+      "countries": 1,
+      "genres": 3,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 19,
+    "syncEvent": {
+      "id": "sync:mov_350f73e3dbc1:2026-07-17T17:56:04.429Z",
+      "movieId": "mov_350f73e3dbc1",
+      "eventType": "MOVIE_CREATED",
+      "provider": "tmdb",
+      "sourceRecordId": "548",
+      "changedFields": [
+        "movie"
+      ],
+      "addedEdges": [
+        "movie:mov_350f73e3dbc1:MOVIE_DIRECTED_BY_PERSON:person:person_124e0f9ab5f6",
+        "movie:mov_350f73e3dbc1:MOVIE_WRITTEN_BY_PERSON:person:person_cc8d575f44ca",
+        "movie:mov_350f73e3dbc1:MOVIE_WRITTEN_BY_PERSON:person:person_124e0f9ab5f6",
+        "movie:mov_350f73e3dbc1:MOVIE_ACTED_BY_PERSON:person:person_498f654332ae",
+        "movie:mov_350f73e3dbc1:MOVIE_ACTED_BY_PERSON:person:person_29d31287a405",
+        "movie:mov_350f73e3dbc1:MOVIE_ACTED_BY_PERSON:person:person_df27a697e90c",
+        "movie:mov_350f73e3dbc1:MOVIE_ACTED_BY_PERSON:person:person_0d9fa91f2924",
+        "movie:mov_350f73e3dbc1:MOVIE_ACTED_BY_PERSON:person:person_d436809aa701",
+        "movie:mov_350f73e3dbc1:MOVIE_ACTED_BY_PERSON:person:person_46956ea70ff3",
+        "movie:mov_350f73e3dbc1:MOVIE_ACTED_BY_PERSON:person:person_6ee606e43495",
+        "movie:mov_350f73e3dbc1:MOVIE_ACTED_BY_PERSON:person:person_cc86e147d489",
+        "movie:mov_350f73e3dbc1:MOVIE_PRODUCED_IN_COUNTRY:country:jp",
+        "movie:mov_350f73e3dbc1:MOVIE_HAS_GENRE:genre:genre_b888b29826bb",
+        "movie:mov_350f73e3dbc1:MOVIE_HAS_GENRE:genre:genre_9e6a55b6b456",
+        "movie:mov_350f73e3dbc1:MOVIE_HAS_GENRE:genre:genre_e066f0fd9b80",
+        "movie:mov_350f73e3dbc1:MOVIE_USES_LANGUAGE:language:ja",
+        "movie:mov_350f73e3dbc1:MOVIE_PRODUCED_BY_COMPANY:company:company_0b5e7f0138ad"
+      ],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:04.429Z",
+      "completedAt": "2026-07-17T17:56:04.429Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1064
+  },
+  {
+    "title": "Spirited Away",
+    "year": 2001,
+    "tmdbId": 129,
+    "movieId": "mov_83a831e9a75d",
+    "slug": "spirited-away",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 21,
+      "countries": 1,
+      "genres": 3,
+      "languages": 1,
+      "companies": 6
+    },
+    "edgeCount": 33,
+    "syncEvent": {
+      "id": "sync:mov_83a831e9a75d:2026-07-17T17:56:05.822Z",
+      "movieId": "mov_83a831e9a75d",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "129",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:05.822Z",
+      "completedAt": "2026-07-17T17:56:05.822Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1393
+  },
+  {
+    "title": "Oldboy",
+    "year": 2003,
+    "tmdbId": 670,
+    "movieId": "mov_9e1f399788c8",
+    "slug": "oldboy",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 23,
+      "countries": 1,
+      "genres": 2,
+      "languages": 1,
+      "companies": 3
+    },
+    "edgeCount": 32,
+    "syncEvent": {
+      "id": "sync:mov_9e1f399788c8:2026-07-17T17:56:07.381Z",
+      "movieId": "mov_9e1f399788c8",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "670",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:07.381Z",
+      "completedAt": "2026-07-17T17:56:07.381Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1559
+  },
+  {
+    "title": "The Godfather",
+    "year": 1972,
+    "tmdbId": 238,
+    "movieId": "mov_509b954f6361",
+    "slug": "the-godfather",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 2,
+      "languages": 3,
+      "companies": 3
+    },
+    "edgeCount": 34,
+    "syncEvent": {
+      "id": "sync:mov_509b954f6361:2026-07-17T17:56:08.758Z",
+      "movieId": "mov_509b954f6361",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "238",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:08.758Z",
+      "completedAt": "2026-07-17T17:56:08.758Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1376
+  },
+  {
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "tmdbId": 680,
+    "movieId": "mov_ff7ab0beb239",
+    "slug": "pulp-fiction",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 20,
+      "countries": 1,
+      "genres": 3,
+      "languages": 3,
+      "companies": 3
+    },
+    "edgeCount": 32,
+    "syncEvent": {
+      "id": "sync:mov_ff7ab0beb239:2026-07-17T17:56:09.995Z",
+      "movieId": "mov_ff7ab0beb239",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "680",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:09.995Z",
+      "completedAt": "2026-07-17T17:56:09.995Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1237
+  },
+  {
+    "title": "In the Mood for Love",
+    "year": 2000,
+    "tmdbId": 843,
+    "movieId": "mov_850dbd0ed779",
+    "slug": "in-the-mood-for-love",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 14,
+      "countries": 2,
+      "genres": 2,
+      "languages": 3,
+      "companies": 3
+    },
+    "edgeCount": 25,
+    "syncEvent": {
+      "id": "sync:mov_850dbd0ed779:2026-07-17T17:56:11.429Z",
+      "movieId": "mov_850dbd0ed779",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "843",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:11.429Z",
+      "completedAt": "2026-07-17T17:56:11.429Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1434
+  },
+  {
+    "title": "Roma",
+    "year": 2018,
+    "tmdbId": 426426,
+    "movieId": "mov_e7d7fa7398b4",
+    "slug": "roma",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 21,
+      "countries": 2,
+      "genres": 1,
+      "languages": 2,
+      "companies": 2
+    },
+    "edgeCount": 29,
+    "syncEvent": {
+      "id": "sync:mov_e7d7fa7398b4:2026-07-17T17:56:12.897Z",
+      "movieId": "mov_e7d7fa7398b4",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "426426",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:12.897Z",
+      "completedAt": "2026-07-17T17:56:12.897Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1468
+  },
+  {
+    "title": "City of God",
+    "year": 2002,
+    "tmdbId": 598,
+    "movieId": "mov_e5c888c7cc51",
+    "slug": "city-of-god",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 3,
+      "genres": 2,
+      "languages": 1,
+      "companies": 6
+    },
+    "edgeCount": 34,
+    "syncEvent": {
+      "id": "sync:mov_e5c888c7cc51:2026-07-17T17:56:14.382Z",
+      "movieId": "mov_e5c888c7cc51",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "598",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:14.382Z",
+      "completedAt": "2026-07-17T17:56:14.382Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1485
+  },
+  {
+    "title": "The Seventh Seal",
+    "year": 1957,
+    "tmdbId": 490,
+    "movieId": "mov_6604c0455984",
+    "slug": "the-seventh-seal",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 21,
+      "countries": 1,
+      "genres": 2,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 27,
+    "syncEvent": {
+      "id": "sync:mov_6604c0455984:2026-07-17T17:56:15.887Z",
+      "movieId": "mov_6604c0455984",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "490",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:15.887Z",
+      "completedAt": "2026-07-17T17:56:15.887Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1505
+  },
+  {
+    "title": "Citizen Kane",
+    "year": 1941,
+    "tmdbId": 15,
+    "movieId": "mov_cbb81aae041d",
+    "slug": "citizen-kane",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 21,
+      "countries": 1,
+      "genres": 2,
+      "languages": 1,
+      "companies": 2
+    },
+    "edgeCount": 29,
+    "syncEvent": {
+      "id": "sync:mov_cbb81aae041d:2026-07-17T17:56:17.105Z",
+      "movieId": "mov_cbb81aae041d",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "15",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:17.105Z",
+      "completedAt": "2026-07-17T17:56:17.105Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1218
+  },
+  {
+    "title": "Casablanca",
+    "year": 1943,
+    "tmdbId": 289,
+    "movieId": "mov_92da432d609f",
+    "slug": "casablanca",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 24,
+      "countries": 1,
+      "genres": 2,
+      "languages": 4,
+      "companies": 1
+    },
+    "edgeCount": 33,
+    "syncEvent": {
+      "id": "sync:mov_92da432d609f:2026-07-17T17:56:18.357Z",
+      "movieId": "mov_92da432d609f",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "289",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:18.357Z",
+      "completedAt": "2026-07-17T17:56:18.357Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1252
+  },
+  {
+    "title": "Vertigo",
+    "year": 1958,
+    "tmdbId": 426,
+    "movieId": "mov_69d7f8784baf",
+    "slug": "vertigo",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 3,
+      "languages": 1,
+      "companies": 2
+    },
+    "edgeCount": 30,
+    "syncEvent": {
+      "id": "sync:mov_69d7f8784baf:2026-07-17T17:56:19.573Z",
+      "movieId": "mov_69d7f8784baf",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "426",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:19.573Z",
+      "completedAt": "2026-07-17T17:56:19.573Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1216
+  },
+  {
+    "title": "2001: A Space Odyssey",
+    "year": 1968,
+    "tmdbId": 62,
+    "movieId": "mov_c6bc57b3f58d",
+    "slug": "2001-a-space-odyssey",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 2,
+      "genres": 3,
+      "languages": 2,
+      "companies": 2
+    },
+    "edgeCount": 32,
+    "syncEvent": {
+      "id": "sync:mov_c6bc57b3f58d:2026-07-17T17:56:20.871Z",
+      "movieId": "mov_c6bc57b3f58d",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "62",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:20.871Z",
+      "completedAt": "2026-07-17T17:56:20.871Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1297
+  },
+  {
+    "title": "La Dolce Vita",
+    "year": 1960,
+    "tmdbId": 439,
+    "movieId": "mov_bad26ca302f7",
+    "slug": "la-dolce-vita",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 25,
+      "countries": 2,
+      "genres": 2,
+      "languages": 4,
+      "companies": 3
+    },
+    "edgeCount": 37,
+    "syncEvent": {
+      "id": "sync:mov_bad26ca302f7:2026-07-17T17:56:22.247Z",
+      "movieId": "mov_bad26ca302f7",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "439",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:22.247Z",
+      "completedAt": "2026-07-17T17:56:22.247Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1376
+  },
+  {
+    "title": "8½",
+    "year": 1963,
+    "tmdbId": 422,
+    "movieId": "mov_87b72c1883cd",
+    "slug": "81-2",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 24,
+      "countries": 2,
+      "genres": 1,
+      "languages": 4,
+      "companies": 2
+    },
+    "edgeCount": 34,
+    "syncEvent": {
+      "id": "sync:mov_87b72c1883cd:2026-07-17T17:56:23.813Z",
+      "movieId": "mov_87b72c1883cd",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "422",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:23.813Z",
+      "completedAt": "2026-07-17T17:56:23.813Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1566
+  },
+  {
+    "title": "Bicycle Thieves",
+    "year": 1948,
+    "tmdbId": 5156,
+    "movieId": "mov_973ed926dff2",
+    "slug": "bicycle-thieves",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 27,
+      "countries": 1,
+      "genres": 1,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 32,
+    "syncEvent": {
+      "id": "sync:mov_973ed926dff2:2026-07-17T17:56:25.415Z",
+      "movieId": "mov_973ed926dff2",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "5156",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:25.415Z",
+      "completedAt": "2026-07-17T17:56:25.415Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1603
+  },
+  {
+    "title": "The Passion of Joan of Arc",
+    "year": 1928,
+    "tmdbId": 780,
+    "movieId": "mov_eed79ab80be2",
+    "slug": "the-passion-of-joan-of-arc",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 2,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 28,
+    "syncEvent": {
+      "id": "sync:mov_eed79ab80be2:2026-07-17T17:56:26.656Z",
+      "movieId": "mov_eed79ab80be2",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "780",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:26.656Z",
+      "completedAt": "2026-07-17T17:56:26.656Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1240
+  },
+  {
+    "title": "Metropolis",
+    "year": 1927,
+    "tmdbId": 19,
+    "movieId": "mov_68c467ca8037",
+    "slug": "metropolis",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 2,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 28,
+    "syncEvent": {
+      "id": "sync:mov_68c467ca8037:2026-07-17T17:56:27.752Z",
+      "movieId": "mov_68c467ca8037",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "19",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:27.752Z",
+      "completedAt": "2026-07-17T17:56:27.752Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1096
+  },
+  {
+    "title": "Nosferatu",
+    "year": 1922,
+    "tmdbId": 653,
+    "movieId": "mov_8c38ae51bdb9",
+    "slug": "nosferatu",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 2,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 27,
+    "syncEvent": {
+      "id": "sync:mov_8c38ae51bdb9:2026-07-17T17:56:29.083Z",
+      "movieId": "mov_8c38ae51bdb9",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "653",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:29.083Z",
+      "completedAt": "2026-07-17T17:56:29.083Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1331
+  },
+  {
+    "title": "The General",
+    "year": 1926,
+    "tmdbId": 961,
+    "movieId": "mov_25cd2ff32fcf",
+    "slug": "the-general",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 21,
+      "countries": 1,
+      "genres": 3,
+      "languages": 1,
+      "companies": 2
+    },
+    "edgeCount": 31,
+    "syncEvent": {
+      "id": "sync:mov_25cd2ff32fcf:2026-07-17T17:56:30.523Z",
+      "movieId": "mov_25cd2ff32fcf",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "961",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:30.523Z",
+      "completedAt": "2026-07-17T17:56:30.523Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1440
+  },
+  {
+    "title": "Modern Times",
+    "year": 1936,
+    "tmdbId": 3082,
+    "movieId": "mov_b982f543447c",
+    "slug": "modern-times",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 20,
+      "countries": 1,
+      "genres": 3,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 28,
+    "syncEvent": {
+      "id": "sync:mov_b982f543447c:2026-07-17T17:56:31.667Z",
+      "movieId": "mov_b982f543447c",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "3082",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:31.667Z",
+      "completedAt": "2026-07-17T17:56:31.667Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1144
+  },
+  {
+    "title": "Sherlock Jr.",
+    "year": 1924,
+    "tmdbId": 992,
+    "movieId": "mov_2338b3277d4e",
+    "slug": "sherlock-jr",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 15,
+      "countries": 1,
+      "genres": 3,
+      "languages": 1,
+      "companies": 2
+    },
+    "edgeCount": 23,
+    "syncEvent": {
+      "id": "sync:mov_2338b3277d4e:2026-07-17T17:56:32.770Z",
+      "movieId": "mov_2338b3277d4e",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "992",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:32.770Z",
+      "completedAt": "2026-07-17T17:56:32.770Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1103
+  },
+  {
+    "title": "A Trip to the Moon",
+    "year": 1902,
+    "tmdbId": 775,
+    "movieId": "mov_d5fcd973c230",
+    "slug": "a-trip-to-the-moon",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 11,
+      "countries": 1,
+      "genres": 3,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 19,
+    "syncEvent": {
+      "id": "sync:mov_d5fcd973c230:2026-07-17T17:56:33.717Z",
+      "movieId": "mov_d5fcd973c230",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "775",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:33.717Z",
+      "completedAt": "2026-07-17T17:56:33.717Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 947
+  },
+  {
+    "title": "Meshes of the Afternoon",
+    "year": 1943,
+    "tmdbId": 27040,
+    "movieId": "mov_3ffab9c08b3c",
+    "slug": "meshes-of-the-afternoon",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 2,
+      "countries": 1,
+      "genres": 2,
+      "languages": 1,
+      "companies": 0
+    },
+    "edgeCount": 9,
+    "syncEvent": {
+      "id": "sync:mov_3ffab9c08b3c:2026-07-17T17:56:34.339Z",
+      "movieId": "mov_3ffab9c08b3c",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "27040",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:34.339Z",
+      "completedAt": "2026-07-17T17:56:34.339Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 622
+  },
+  {
+    "title": "Night and Fog",
+    "year": 1956,
+    "tmdbId": 803,
+    "movieId": "mov_e9968e11e625",
+    "slug": "night-and-fog",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 7,
+      "countries": 1,
+      "genres": 2,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 12,
+    "syncEvent": {
+      "id": "sync:mov_e9968e11e625:2026-07-17T17:56:35.266Z",
+      "movieId": "mov_e9968e11e625",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "803",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:35.266Z",
+      "completedAt": "2026-07-17T17:56:35.266Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 927
+  },
+  {
+    "title": "Man with a Movie Camera",
+    "year": 1929,
+    "tmdbId": 26317,
+    "movieId": "mov_63a7f637d73b",
+    "slug": "man-with-a-movie-camera",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 2,
+      "countries": 1,
+      "genres": 1,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 7,
+    "syncEvent": {
+      "id": "sync:mov_63a7f637d73b:2026-07-17T17:56:35.945Z",
+      "movieId": "mov_63a7f637d73b",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "26317",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:35.945Z",
+      "completedAt": "2026-07-17T17:56:35.945Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 678
+  },
+  {
+    "title": "Hoop Dreams",
+    "year": 1994,
+    "tmdbId": 14275,
+    "movieId": "mov_142a6e9e79c0",
+    "slug": "hoop-dreams",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 9,
+      "countries": 1,
+      "genres": 1,
+      "languages": 1,
+      "companies": 2
+    },
+    "edgeCount": 16,
+    "syncEvent": {
+      "id": "sync:mov_142a6e9e79c0:2026-07-17T17:56:36.785Z",
+      "movieId": "mov_142a6e9e79c0",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "14275",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:36.785Z",
+      "completedAt": "2026-07-17T17:56:36.785Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 840
+  },
+  {
+    "title": "The Act of Killing",
+    "year": 2012,
+    "tmdbId": 123678,
+    "movieId": "mov_3d91e08ab236",
+    "slug": "the-act-of-killing",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 15,
+      "countries": 3,
+      "genres": 2,
+      "languages": 1,
+      "companies": 4
+    },
+    "edgeCount": 25,
+    "syncEvent": {
+      "id": "sync:mov_3d91e08ab236:2026-07-17T17:56:37.814Z",
+      "movieId": "mov_3d91e08ab236",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "123678",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:37.814Z",
+      "completedAt": "2026-07-17T17:56:37.814Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1029
+  },
+  {
+    "title": "Shoah",
+    "year": 1985,
+    "tmdbId": 42044,
+    "movieId": "mov_5538e0e3e000",
+    "slug": "shoah",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 20,
+      "countries": 1,
+      "genres": 2,
+      "languages": 6,
+      "companies": 3
+    },
+    "edgeCount": 33,
+    "syncEvent": {
+      "id": "sync:mov_5538e0e3e000:2026-07-17T17:56:39.315Z",
+      "movieId": "mov_5538e0e3e000",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "42044",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:39.315Z",
+      "completedAt": "2026-07-17T17:56:39.315Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1501
+  },
+  {
+    "title": "Waltz with Bashir",
+    "year": 2008,
+    "tmdbId": 8885,
+    "movieId": "mov_3d79a00c2eb6",
+    "slug": "waltz-with-bashir",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 9,
+      "countries": 8,
+      "genres": 4,
+      "languages": 4,
+      "companies": 5
+    },
+    "edgeCount": 32,
+    "syncEvent": {
+      "id": "sync:mov_3d79a00c2eb6:2026-07-17T17:56:40.691Z",
+      "movieId": "mov_3d79a00c2eb6",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "8885",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:40.691Z",
+      "completedAt": "2026-07-17T17:56:40.691Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1376
+  },
+  {
+    "title": "The Tale of The Princess Kaguya",
+    "year": 2013,
+    "tmdbId": 149871,
+    "movieId": "mov_a8e2fab82fc2",
+    "slug": "the-tale-of-the-princess-kaguya",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 20,
+      "countries": 1,
+      "genres": 3,
+      "languages": 1,
+      "companies": 7
+    },
+    "edgeCount": 33,
+    "syncEvent": {
+      "id": "sync:mov_a8e2fab82fc2:2026-07-17T17:56:41.983Z",
+      "movieId": "mov_a8e2fab82fc2",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "149871",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:41.983Z",
+      "completedAt": "2026-07-17T17:56:41.983Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1292
+  },
+  {
+    "title": "Akira",
+    "year": 1988,
+    "tmdbId": 149,
+    "movieId": "mov_d7ada0288f48",
+    "slug": "akira",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 3,
+      "languages": 1,
+      "companies": 8
+    },
+    "edgeCount": 36,
+    "syncEvent": {
+      "id": "sync:mov_d7ada0288f48:2026-07-17T17:56:43.425Z",
+      "movieId": "mov_d7ada0288f48",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "149",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:43.425Z",
+      "completedAt": "2026-07-17T17:56:43.425Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1442
+  },
+  {
+    "title": "Grave of the Fireflies",
+    "year": 1988,
+    "tmdbId": 12477,
+    "movieId": "mov_db76679939c9",
+    "slug": "grave-of-the-fireflies",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 19,
+      "countries": 1,
+      "genres": 3,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 26,
+    "syncEvent": {
+      "id": "sync:mov_db76679939c9:2026-07-17T17:56:44.823Z",
+      "movieId": "mov_db76679939c9",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "12477",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:44.823Z",
+      "completedAt": "2026-07-17T17:56:44.823Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1398
+  },
+  {
+    "title": "Toy Story",
+    "year": 1995,
+    "tmdbId": 862,
+    "movieId": "mov_b1a3ddb0d07c",
+    "slug": "toy-story",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 25,
+      "countries": 1,
+      "genres": 4,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 32,
+    "syncEvent": {
+      "id": "sync:mov_b1a3ddb0d07c:2026-07-17T17:56:46.224Z",
+      "movieId": "mov_b1a3ddb0d07c",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "862",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:46.224Z",
+      "completedAt": "2026-07-17T17:56:46.224Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1401
+  },
+  {
+    "title": "WALL·E's Treasures & Trinkets",
+    "year": 2008,
+    "tmdbId": 877268,
+    "movieId": "mov_588f4e781cc3",
+    "slug": "wall-e-s-treasures-and-trinkets",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 3,
+      "countries": 1,
+      "genres": 1,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 7,
+    "syncEvent": {
+      "id": "sync:mov_588f4e781cc3:2026-07-17T17:56:46.961Z",
+      "movieId": "mov_588f4e781cc3",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "877268",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:46.961Z",
+      "completedAt": "2026-07-17T17:56:46.961Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 737
+  },
+  {
+    "title": "Persepolis",
+    "year": 2007,
+    "tmdbId": 2011,
+    "movieId": "mov_d6a979f3d5ed",
+    "slug": "persepolis",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 12,
+      "countries": 2,
+      "genres": 2,
+      "languages": 3,
+      "companies": 14
+    },
+    "edgeCount": 35,
+    "syncEvent": {
+      "id": "sync:mov_d6a979f3d5ed:2026-07-17T17:56:48.496Z",
+      "movieId": "mov_d6a979f3d5ed",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "2011",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:48.496Z",
+      "completedAt": "2026-07-17T17:56:48.496Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1534
+  },
+  {
+    "title": "Fantastic Planet",
+    "year": 1973,
+    "tmdbId": 16306,
+    "movieId": "mov_6228301a13cb",
+    "slug": "fantastic-planet",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 2,
+      "genres": 2,
+      "languages": 1,
+      "companies": 5
+    },
+    "edgeCount": 33,
+    "syncEvent": {
+      "id": "sync:mov_6228301a13cb:2026-07-17T17:56:49.939Z",
+      "movieId": "mov_6228301a13cb",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "16306",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:49.939Z",
+      "completedAt": "2026-07-17T17:56:49.939Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1443
+  },
+  {
+    "title": "Pan's Labyrinth",
+    "year": 2006,
+    "tmdbId": 1417,
+    "movieId": "mov_a5dfea4f378a",
+    "slug": "pan-s-labyrinth",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 21,
+      "countries": 3,
+      "genres": 3,
+      "languages": 1,
+      "companies": 4
+    },
+    "edgeCount": 33,
+    "syncEvent": {
+      "id": "sync:mov_a5dfea4f378a:2026-07-17T17:56:51.493Z",
+      "movieId": "mov_a5dfea4f378a",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "1417",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:51.493Z",
+      "completedAt": "2026-07-17T17:56:51.493Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1554
+  },
+  {
+    "title": "Amélie",
+    "year": 2001,
+    "tmdbId": 194,
+    "movieId": "mov_3d9defd6e534",
+    "slug": "amelie",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 2,
+      "genres": 2,
+      "languages": 2,
+      "companies": 5
+    },
+    "edgeCount": 34,
+    "syncEvent": {
+      "id": "sync:mov_3d9defd6e534:2026-07-17T17:56:52.839Z",
+      "movieId": "mov_3d9defd6e534",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "194",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:52.839Z",
+      "completedAt": "2026-07-17T17:56:52.839Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1346
+  },
+  {
+    "title": "Breathless",
+    "year": 1960,
+    "tmdbId": 269,
+    "movieId": "mov_5ecac187cfac",
+    "slug": "breathless",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 20,
+      "countries": 1,
+      "genres": 3,
+      "languages": 2,
+      "companies": 3
+    },
+    "edgeCount": 31,
+    "syncEvent": {
+      "id": "sync:mov_5ecac187cfac:2026-07-17T17:56:54.315Z",
+      "movieId": "mov_5ecac187cfac",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "269",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:54.315Z",
+      "completedAt": "2026-07-17T17:56:54.315Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1476
+  },
+  {
+    "title": "The 400 Blows",
+    "year": 1959,
+    "tmdbId": 147,
+    "movieId": "mov_7fb6f3f3b8a6",
+    "slug": "the-400-blows",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 21,
+      "countries": 1,
+      "genres": 1,
+      "languages": 2,
+      "companies": 2
+    },
+    "edgeCount": 28,
+    "syncEvent": {
+      "id": "sync:mov_7fb6f3f3b8a6:2026-07-17T17:56:55.674Z",
+      "movieId": "mov_7fb6f3f3b8a6",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "147",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:55.674Z",
+      "completedAt": "2026-07-17T17:56:55.674Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1359
+  },
+  {
+    "title": "Cléo from 5 to 7",
+    "year": 1962,
+    "tmdbId": 499,
+    "movieId": "mov_9982c761b209",
+    "slug": "cleo-from-5-to-7",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 21,
+      "countries": 2,
+      "genres": 1,
+      "languages": 1,
+      "companies": 2
+    },
+    "edgeCount": 28,
+    "syncEvent": {
+      "id": "sync:mov_9982c761b209:2026-07-17T17:56:57.056Z",
+      "movieId": "mov_9982c761b209",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "499",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:57.056Z",
+      "completedAt": "2026-07-17T17:56:57.056Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1383
+  },
+  {
+    "title": "The Rules of the Game",
+    "year": 1939,
+    "tmdbId": 776,
+    "movieId": "mov_2133743c131b",
+    "slug": "the-rules-of-the-game",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 20,
+      "countries": 1,
+      "genres": 3,
+      "languages": 1,
+      "companies": 2
+    },
+    "edgeCount": 29,
+    "syncEvent": {
+      "id": "sync:mov_2133743c131b:2026-07-17T17:56:58.419Z",
+      "movieId": "mov_2133743c131b",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "776",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:58.419Z",
+      "completedAt": "2026-07-17T17:56:58.419Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1362
+  },
+  {
+    "title": "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles",
+    "year": 1976,
+    "tmdbId": 44012,
+    "movieId": "mov_4e578221d81e",
+    "slug": "jeanne-dielman-23-quai-du-commerce-1080-bruxelles",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 6,
+      "countries": 2,
+      "genres": 1,
+      "languages": 1,
+      "companies": 4
+    },
+    "edgeCount": 16,
+    "syncEvent": {
+      "id": "sync:mov_4e578221d81e:2026-07-17T17:56:59.197Z",
+      "movieId": "mov_4e578221d81e",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "44012",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:56:59.197Z",
+      "completedAt": "2026-07-17T17:56:59.197Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 778
+  },
+  {
+    "title": "Stalker",
+    "year": 1979,
+    "tmdbId": 1398,
+    "movieId": "mov_61adb62af36b",
+    "slug": "stalker",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 12,
+      "countries": 1,
+      "genres": 2,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 18,
+    "syncEvent": {
+      "id": "sync:mov_61adb62af36b:2026-07-17T17:57:00.086Z",
+      "movieId": "mov_61adb62af36b",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "1398",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:00.086Z",
+      "completedAt": "2026-07-17T17:57:00.086Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 889
+  },
+  {
+    "title": "Andrei Rublev",
+    "year": 1966,
+    "tmdbId": 895,
+    "movieId": "mov_db0c9226d9bc",
+    "slug": "andrei-rublev",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 2,
+      "languages": 3,
+      "companies": 1
+    },
+    "edgeCount": 30,
+    "syncEvent": {
+      "id": "sync:mov_db0c9226d9bc:2026-07-17T17:57:01.569Z",
+      "movieId": "mov_db0c9226d9bc",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "895",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:01.569Z",
+      "completedAt": "2026-07-17T17:57:01.569Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1484
+  },
+  {
+    "title": "Come and See",
+    "year": 1985,
+    "tmdbId": 25237,
+    "movieId": "mov_5f7807a7afa3",
+    "slug": "come-and-see",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 2,
+      "languages": 3,
+      "companies": 2
+    },
+    "edgeCount": 31,
+    "syncEvent": {
+      "id": "sync:mov_5f7807a7afa3:2026-07-17T17:57:03.013Z",
+      "movieId": "mov_5f7807a7afa3",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "25237",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:03.013Z",
+      "completedAt": "2026-07-17T17:57:03.013Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1444
+  },
+  {
+    "title": "The Lives of Others",
+    "year": 2006,
+    "tmdbId": 582,
+    "movieId": "mov_7f3355f6abbe",
+    "slug": "the-lives-of-others",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 21,
+      "countries": 2,
+      "genres": 2,
+      "languages": 1,
+      "companies": 4
+    },
+    "edgeCount": 31,
+    "syncEvent": {
+      "id": "sync:mov_7f3355f6abbe:2026-07-17T17:57:04.227Z",
+      "movieId": "mov_7f3355f6abbe",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "582",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:04.227Z",
+      "completedAt": "2026-07-17T17:57:04.227Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1214
+  },
+  {
+    "title": "Cinema Paradiso",
+    "year": 1988,
+    "tmdbId": 11216,
+    "movieId": "mov_eb301098e08f",
+    "slug": "cinema-paradiso",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 2,
+      "genres": 2,
+      "languages": 1,
+      "companies": 5
+    },
+    "edgeCount": 33,
+    "syncEvent": {
+      "id": "sync:mov_eb301098e08f:2026-07-17T17:57:05.560Z",
+      "movieId": "mov_eb301098e08f",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "11216",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:05.560Z",
+      "completedAt": "2026-07-17T17:57:05.560Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1333
+  },
+  {
+    "title": "A Separation",
+    "year": 2011,
+    "tmdbId": 60243,
+    "movieId": "mov_c0b775249ea2",
+    "slug": "a-separation",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 14,
+      "countries": 2,
+      "genres": 1,
+      "languages": 1,
+      "companies": 2
+    },
+    "edgeCount": 21,
+    "syncEvent": {
+      "id": "sync:mov_c0b775249ea2:2026-07-17T17:57:06.655Z",
+      "movieId": "mov_c0b775249ea2",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "60243",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:06.655Z",
+      "completedAt": "2026-07-17T17:57:06.655Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1095
+  },
+  {
+    "title": "Close-Up",
+    "year": 1990,
+    "tmdbId": 30017,
+    "movieId": "mov_7200470d8b81",
+    "slug": "close-up",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 18,
+      "countries": 1,
+      "genres": 2,
+      "languages": 2,
+      "companies": 1
+    },
+    "edgeCount": 26,
+    "syncEvent": {
+      "id": "sync:mov_7200470d8b81:2026-07-17T17:57:07.817Z",
+      "movieId": "mov_7200470d8b81",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "30017",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:07.817Z",
+      "completedAt": "2026-07-17T17:57:07.817Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1162
+  },
+  {
+    "title": "Taste of Cherry",
+    "year": 1997,
+    "tmdbId": 30020,
+    "movieId": "mov_c96a5a451e7e",
+    "slug": "taste-of-cherry",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 8,
+      "countries": 2,
+      "genres": 1,
+      "languages": 1,
+      "companies": 3
+    },
+    "edgeCount": 16,
+    "syncEvent": {
+      "id": "sync:mov_c96a5a451e7e:2026-07-17T17:57:08.722Z",
+      "movieId": "mov_c96a5a451e7e",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "30020",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:08.722Z",
+      "completedAt": "2026-07-17T17:57:08.722Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 905
+  },
+  {
+    "title": "The Wind Will Carry Us",
+    "year": 1999,
+    "tmdbId": 43423,
+    "movieId": "mov_3b48334f71be",
+    "slug": "the-wind-will-carry-us",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 13,
+      "countries": 2,
+      "genres": 1,
+      "languages": 2,
+      "companies": 2
+    },
+    "edgeCount": 21,
+    "syncEvent": {
+      "id": "sync:mov_3b48334f71be:2026-07-17T17:57:09.661Z",
+      "movieId": "mov_3b48334f71be",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "43423",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:09.661Z",
+      "completedAt": "2026-07-17T17:57:09.661Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 939
+  },
+  {
+    "title": "The Salesman",
+    "year": 2016,
+    "tmdbId": 375315,
+    "movieId": "mov_50856c7bfc29",
+    "slug": "the-salesman",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 17,
+      "countries": 3,
+      "genres": 2,
+      "languages": 1,
+      "companies": 4
+    },
+    "edgeCount": 28,
+    "syncEvent": {
+      "id": "sync:mov_50856c7bfc29:2026-07-17T17:57:10.996Z",
+      "movieId": "mov_50856c7bfc29",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "375315",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:10.996Z",
+      "completedAt": "2026-07-17T17:57:10.996Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1335
+  },
+  {
+    "title": "Capernaum",
+    "year": 2018,
+    "tmdbId": 517814,
+    "movieId": "mov_270519c3f343",
+    "slug": "capernaum",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 17,
+      "countries": 4,
+      "genres": 1,
+      "languages": 2,
+      "companies": 8
+    },
+    "edgeCount": 34,
+    "syncEvent": {
+      "id": "sync:mov_270519c3f343:2026-07-17T17:57:12.469Z",
+      "movieId": "mov_270519c3f343",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "517814",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:12.469Z",
+      "completedAt": "2026-07-17T17:57:12.469Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1473
+  },
+  {
+    "title": "Theeb",
+    "year": 2014,
+    "tmdbId": 287628,
+    "movieId": "mov_8793d2053c1d",
+    "slug": "theeb",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 7,
+      "countries": 5,
+      "genres": 3,
+      "languages": 2,
+      "companies": 5
+    },
+    "edgeCount": 23,
+    "syncEvent": {
+      "id": "sync:mov_8793d2053c1d:2026-07-17T17:57:13.531Z",
+      "movieId": "mov_8793d2053c1d",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "287628",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:13.531Z",
+      "completedAt": "2026-07-17T17:57:13.531Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1062
+  },
+  {
+    "title": "Wadjda",
+    "year": 2012,
+    "tmdbId": 129112,
+    "movieId": "mov_678c7cbd311e",
+    "slug": "wadjda",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 16,
+      "countries": 2,
+      "genres": 1,
+      "languages": 1,
+      "companies": 6
+    },
+    "edgeCount": 27,
+    "syncEvent": {
+      "id": "sync:mov_678c7cbd311e:2026-07-17T17:57:14.889Z",
+      "movieId": "mov_678c7cbd311e",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "129112",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:14.889Z",
+      "completedAt": "2026-07-17T17:57:14.889Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1358
+  },
+  {
+    "title": "Yojimbo",
+    "year": 1961,
+    "tmdbId": 11878,
+    "movieId": "mov_09069e3c6f9d",
+    "slug": "yojimbo",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 2,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 28,
+    "syncEvent": {
+      "id": "sync:mov_09069e3c6f9d:2026-07-17T17:57:16.334Z",
+      "movieId": "mov_09069e3c6f9d",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "11878",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:16.334Z",
+      "completedAt": "2026-07-17T17:57:16.334Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1445
+  },
+  {
+    "title": "Tokyo Story",
+    "year": 1953,
+    "tmdbId": 18148,
+    "movieId": "mov_bc12835a5224",
+    "slug": "tokyo-story",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 1,
+      "languages": 2,
+      "companies": 1
+    },
+    "edgeCount": 29,
+    "syncEvent": {
+      "id": "sync:mov_bc12835a5224:2026-07-17T17:57:17.493Z",
+      "movieId": "mov_bc12835a5224",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "18148",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:17.493Z",
+      "completedAt": "2026-07-17T17:57:17.493Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1159
+  },
+  {
+    "title": "Late Spring",
+    "year": 1949,
+    "tmdbId": 20530,
+    "movieId": "mov_171608a71548",
+    "slug": "late-spring",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 1,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 28,
+    "syncEvent": {
+      "id": "sync:mov_171608a71548:2026-07-17T17:57:18.577Z",
+      "movieId": "mov_171608a71548",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "20530",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:18.577Z",
+      "completedAt": "2026-07-17T17:57:18.577Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1084
+  },
+  {
+    "title": "Harakiri",
+    "year": 1962,
+    "tmdbId": 14537,
+    "movieId": "mov_1268dd1a0dbc",
+    "slug": "harakiri",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 3,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 28,
+    "syncEvent": {
+      "id": "sync:mov_1268dd1a0dbc:2026-07-17T17:57:19.824Z",
+      "movieId": "mov_1268dd1a0dbc",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "14537",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:19.824Z",
+      "completedAt": "2026-07-17T17:57:19.824Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1247
+  },
+  {
+    "title": "Ugetsu",
+    "year": 1953,
+    "tmdbId": 14696,
+    "movieId": "mov_93ffe1602efe",
+    "slug": "ugetsu",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 3,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 29,
+    "syncEvent": {
+      "id": "sync:mov_93ffe1602efe:2026-07-17T17:57:21.016Z",
+      "movieId": "mov_93ffe1602efe",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "14696",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:21.016Z",
+      "completedAt": "2026-07-17T17:57:21.016Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1191
+  },
+  {
+    "title": "Sansho the Bailiff",
+    "year": 1954,
+    "tmdbId": 20532,
+    "movieId": "mov_ce8469a01778",
+    "slug": "sansho-the-bailiff",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 23,
+      "countries": 1,
+      "genres": 1,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 28,
+    "syncEvent": {
+      "id": "sync:mov_ce8469a01778:2026-07-17T17:57:22.132Z",
+      "movieId": "mov_ce8469a01778",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "20532",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:22.132Z",
+      "completedAt": "2026-07-17T17:57:22.132Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1116
+  },
+  {
+    "title": "Tampopo",
+    "year": 1985,
+    "tmdbId": 11830,
+    "movieId": "mov_3a8287d346ae",
+    "slug": "tampopo",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 21,
+      "countries": 1,
+      "genres": 1,
+      "languages": 1,
+      "companies": 2
+    },
+    "edgeCount": 27,
+    "syncEvent": {
+      "id": "sync:mov_3a8287d346ae:2026-07-17T17:57:23.517Z",
+      "movieId": "mov_3a8287d346ae",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "11830",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:23.517Z",
+      "completedAt": "2026-07-17T17:57:23.517Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1385
+  },
+  {
+    "title": "Yi Yi",
+    "year": 2000,
+    "tmdbId": 25538,
+    "movieId": "mov_088b66806bad",
+    "slug": "yi-yi",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 21,
+      "countries": 2,
+      "genres": 1,
+      "languages": 3,
+      "companies": 3
+    },
+    "edgeCount": 31,
+    "syncEvent": {
+      "id": "sync:mov_088b66806bad:2026-07-17T17:57:25.155Z",
+      "movieId": "mov_088b66806bad",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "25538",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:25.155Z",
+      "completedAt": "2026-07-17T17:57:25.155Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1638
+  },
+  {
+    "title": "A Brighter Summer Day",
+    "year": 1991,
+    "tmdbId": 15804,
+    "movieId": "mov_f5788d5715f6",
+    "slug": "a-brighter-summer-day",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 24,
+      "countries": 1,
+      "genres": 3,
+      "languages": 2,
+      "companies": 2
+    },
+    "edgeCount": 33,
+    "syncEvent": {
+      "id": "sync:mov_f5788d5715f6:2026-07-17T17:57:26.454Z",
+      "movieId": "mov_f5788d5715f6",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "15804",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:26.454Z",
+      "completedAt": "2026-07-17T17:57:26.454Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1299
+  },
+  {
+    "title": "Farewell My Concubine",
+    "year": 1993,
+    "tmdbId": 10997,
+    "movieId": "mov_b593717c9fec",
+    "slug": "farewell-my-concubine",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 23,
+      "countries": 2,
+      "genres": 1,
+      "languages": 1,
+      "companies": 3
+    },
+    "edgeCount": 30,
+    "syncEvent": {
+      "id": "sync:mov_b593717c9fec:2026-07-17T17:57:27.708Z",
+      "movieId": "mov_b593717c9fec",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "10997",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:27.708Z",
+      "completedAt": "2026-07-17T17:57:27.708Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1254
+  },
+  {
+    "title": "Raise the Red Lantern",
+    "year": 1991,
+    "tmdbId": 10404,
+    "movieId": "mov_b0f4f29677a5",
+    "slug": "raise-the-red-lantern",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 13,
+      "countries": 3,
+      "genres": 1,
+      "languages": 1,
+      "companies": 4
+    },
+    "edgeCount": 22,
+    "syncEvent": {
+      "id": "sync:mov_b0f4f29677a5:2026-07-17T17:57:28.929Z",
+      "movieId": "mov_b0f4f29677a5",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "10404",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:28.929Z",
+      "completedAt": "2026-07-17T17:57:28.929Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1220
+  },
+  {
+    "title": "Crouching Tiger, Hidden Dragon",
+    "year": 2000,
+    "tmdbId": 146,
+    "movieId": "mov_92c80c973209",
+    "slug": "crouching-tiger-hidden-dragon",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 24,
+      "countries": 4,
+      "genres": 4,
+      "languages": 1,
+      "companies": 6
+    },
+    "edgeCount": 39,
+    "syncEvent": {
+      "id": "sync:mov_92c80c973209:2026-07-17T17:57:30.581Z",
+      "movieId": "mov_92c80c973209",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "146",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:30.581Z",
+      "completedAt": "2026-07-17T17:57:30.581Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1653
+  },
+  {
+    "title": "The Host",
+    "year": 2006,
+    "tmdbId": 1255,
+    "movieId": "mov_7378118eceb4",
+    "slug": "the-host",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 23,
+      "countries": 1,
+      "genres": 3,
+      "languages": 2,
+      "companies": 2
+    },
+    "edgeCount": 33,
+    "syncEvent": {
+      "id": "sync:mov_7378118eceb4:2026-07-17T17:57:31.829Z",
+      "movieId": "mov_7378118eceb4",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "1255",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:31.829Z",
+      "completedAt": "2026-07-17T17:57:31.829Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1248
+  },
+  {
+    "title": "Memories of Murder",
+    "year": 2003,
+    "tmdbId": 11423,
+    "movieId": "mov_f6465fb7c130",
+    "slug": "memories-of-murder",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 3,
+      "languages": 2,
+      "companies": 3
+    },
+    "edgeCount": 33,
+    "syncEvent": {
+      "id": "sync:mov_f6465fb7c130:2026-07-17T17:57:33.304Z",
+      "movieId": "mov_f6465fb7c130",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "11423",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:33.304Z",
+      "completedAt": "2026-07-17T17:57:33.304Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1475
+  },
+  {
+    "title": "Burning",
+    "year": 2018,
+    "tmdbId": 491584,
+    "movieId": "mov_23bafce2c60b",
+    "slug": "burning",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 2,
+      "genres": 3,
+      "languages": 2,
+      "companies": 3
+    },
+    "edgeCount": 34,
+    "syncEvent": {
+      "id": "sync:mov_23bafce2c60b:2026-07-17T17:57:34.940Z",
+      "movieId": "mov_23bafce2c60b",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "491584",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:34.940Z",
+      "completedAt": "2026-07-17T17:57:34.940Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1636
+  },
+  {
+    "title": "Drive My Car",
+    "year": 2021,
+    "tmdbId": 758866,
+    "movieId": "mov_6e4f93eebb7c",
+    "slug": "drive-my-car",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 1,
+      "languages": 8,
+      "companies": 9
+    },
+    "edgeCount": 42,
+    "syncEvent": {
+      "id": "sync:mov_6e4f93eebb7c:2026-07-17T17:57:36.530Z",
+      "movieId": "mov_6e4f93eebb7c",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "758866",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:36.530Z",
+      "completedAt": "2026-07-17T17:57:36.530Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1590
+  },
+  {
+    "title": "Shoplifters",
+    "year": 2018,
+    "tmdbId": 505192,
+    "movieId": "mov_556c028aa7f2",
+    "slug": "shoplifters",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 20,
+      "countries": 1,
+      "genres": 3,
+      "languages": 1,
+      "companies": 4
+    },
+    "edgeCount": 30,
+    "syncEvent": {
+      "id": "sync:mov_556c028aa7f2:2026-07-17T17:57:37.820Z",
+      "movieId": "mov_556c028aa7f2",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "505192",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:37.820Z",
+      "completedAt": "2026-07-17T17:57:37.820Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1290
+  },
+  {
+    "title": "The Handmaiden",
+    "year": 2016,
+    "tmdbId": 290098,
+    "movieId": "mov_ff58b1ebe44c",
+    "slug": "the-handmaiden",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 3,
+      "languages": 2,
+      "companies": 3
+    },
+    "edgeCount": 33,
+    "syncEvent": {
+      "id": "sync:mov_ff58b1ebe44c:2026-07-17T17:57:39.099Z",
+      "movieId": "mov_ff58b1ebe44c",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "290098",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:39.099Z",
+      "completedAt": "2026-07-17T17:57:39.099Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1279
+  },
+  {
+    "title": "Chungking Express",
+    "year": 1994,
+    "tmdbId": 11104,
+    "movieId": "mov_64687113c611",
+    "slug": "chungking-express",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 15,
+      "countries": 1,
+      "genres": 3,
+      "languages": 7,
+      "companies": 1
+    },
+    "edgeCount": 28,
+    "syncEvent": {
+      "id": "sync:mov_64687113c611:2026-07-17T17:57:40.306Z",
+      "movieId": "mov_64687113c611",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "11104",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:40.306Z",
+      "completedAt": "2026-07-17T17:57:40.306Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1207
+  },
+  {
+    "title": "Happy Together",
+    "year": 1997,
+    "tmdbId": 18329,
+    "movieId": "mov_694b6e58abc3",
+    "slug": "happy-together",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 5,
+      "countries": 3,
+      "genres": 2,
+      "languages": 3,
+      "companies": 4
+    },
+    "edgeCount": 18,
+    "syncEvent": {
+      "id": "sync:mov_694b6e58abc3:2026-07-17T17:57:41.289Z",
+      "movieId": "mov_694b6e58abc3",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "18329",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:41.289Z",
+      "completedAt": "2026-07-17T17:57:41.289Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 983
+  },
+  {
+    "title": "Black Girl",
+    "year": 1966,
+    "tmdbId": 95597,
+    "movieId": "mov_c201e1b630b8",
+    "slug": "black-girl",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 16,
+      "countries": 2,
+      "genres": 1,
+      "languages": 2,
+      "companies": 2
+    },
+    "edgeCount": 25,
+    "syncEvent": {
+      "id": "sync:mov_c201e1b630b8:2026-07-17T17:57:42.512Z",
+      "movieId": "mov_c201e1b630b8",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "95597",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:42.512Z",
+      "completedAt": "2026-07-17T17:57:42.512Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1223
+  },
+  {
+    "title": "Touki Bouki",
+    "year": 1973,
+    "tmdbId": 77771,
+    "movieId": "mov_9d65586e67aa",
+    "slug": "touki-bouki",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 8,
+      "countries": 1,
+      "genres": 2,
+      "languages": 3,
+      "companies": 2
+    },
+    "edgeCount": 17,
+    "syncEvent": {
+      "id": "sync:mov_9d65586e67aa:2026-07-17T17:57:43.391Z",
+      "movieId": "mov_9d65586e67aa",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "77771",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:43.391Z",
+      "completedAt": "2026-07-17T17:57:43.391Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 879
+  },
+  {
+    "title": "Yeelen",
+    "year": 1987,
+    "tmdbId": 71329,
+    "movieId": "mov_0a55cc192370",
+    "slug": "yeelen",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 21,
+      "countries": 5,
+      "genres": 2,
+      "languages": 2,
+      "companies": 12
+    },
+    "edgeCount": 43,
+    "syncEvent": {
+      "id": "sync:mov_0a55cc192370:2026-07-17T17:57:45.323Z",
+      "movieId": "mov_0a55cc192370",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "71329",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:45.323Z",
+      "completedAt": "2026-07-17T17:57:45.323Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1932
+  },
+  {
+    "title": "Timbuktu",
+    "year": 2014,
+    "tmdbId": 265228,
+    "movieId": "mov_e9e6a2d096a9",
+    "slug": "timbuktu",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 20,
+      "countries": 1,
+      "genres": 2,
+      "languages": 4,
+      "companies": 5
+    },
+    "edgeCount": 33,
+    "syncEvent": {
+      "id": "sync:mov_e9e6a2d096a9:2026-07-17T17:57:46.757Z",
+      "movieId": "mov_e9e6a2d096a9",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "265228",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:46.757Z",
+      "completedAt": "2026-07-17T17:57:46.757Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1434
+  },
+  {
+    "title": "Atlantics",
+    "year": 2019,
+    "tmdbId": 496967,
+    "movieId": "mov_3ceaa75b2389",
+    "slug": "atlantics",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 3,
+      "genres": 3,
+      "languages": 4,
+      "companies": 5
+    },
+    "edgeCount": 38,
+    "syncEvent": {
+      "id": "sync:mov_3ceaa75b2389:2026-07-17T17:57:48.247Z",
+      "movieId": "mov_3ceaa75b2389",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "496967",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:48.247Z",
+      "completedAt": "2026-07-17T17:57:48.247Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1490
+  },
+  {
+    "title": "The Battle of Algiers",
+    "year": 1966,
+    "tmdbId": 17295,
+    "movieId": "mov_85b2697e2e2f",
+    "slug": "the-battle-of-algiers",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 19,
+      "countries": 2,
+      "genres": 3,
+      "languages": 3,
+      "companies": 2
+    },
+    "edgeCount": 30,
+    "syncEvent": {
+      "id": "sync:mov_85b2697e2e2f:2026-07-17T17:57:49.378Z",
+      "movieId": "mov_85b2697e2e2f",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "17295",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:49.378Z",
+      "completedAt": "2026-07-17T17:57:49.378Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1130
+  },
+  {
+    "title": "Pixote",
+    "year": 1980,
+    "tmdbId": 42148,
+    "movieId": "mov_29f54d9cab43",
+    "slug": "pixote",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 2,
+      "languages": 1,
+      "companies": 2
+    },
+    "edgeCount": 29,
+    "syncEvent": {
+      "id": "sync:mov_29f54d9cab43:2026-07-17T17:57:50.606Z",
+      "movieId": "mov_29f54d9cab43",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "42148",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:50.606Z",
+      "completedAt": "2026-07-17T17:57:50.606Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1228
+  },
+  {
+    "title": "Central Station",
+    "year": 1998,
+    "tmdbId": 666,
+    "movieId": "mov_c438fc02dd61",
+    "slug": "central-station",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 23,
+      "countries": 2,
+      "genres": 1,
+      "languages": 1,
+      "companies": 3
+    },
+    "edgeCount": 31,
+    "syncEvent": {
+      "id": "sync:mov_c438fc02dd61:2026-07-17T17:57:52.102Z",
+      "movieId": "mov_c438fc02dd61",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "666",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:52.102Z",
+      "completedAt": "2026-07-17T17:57:52.102Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1496
+  },
+  {
+    "title": "The Secret in Their Eyes",
+    "year": 2009,
+    "tmdbId": 25376,
+    "movieId": "mov_64c36ec02348",
+    "slug": "the-secret-in-their-eyes",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 2,
+      "genres": 3,
+      "languages": 1,
+      "companies": 8
+    },
+    "edgeCount": 37,
+    "syncEvent": {
+      "id": "sync:mov_64c36ec02348:2026-07-17T17:57:53.970Z",
+      "movieId": "mov_64c36ec02348",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "25376",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:53.970Z",
+      "completedAt": "2026-07-17T17:57:53.970Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1868
+  },
+  {
+    "title": "Wild Tales",
+    "year": 2014,
+    "tmdbId": 265195,
+    "movieId": "mov_dffcfb9cb320",
+    "slug": "wild-tales",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 21,
+      "countries": 4,
+      "genres": 3,
+      "languages": 1,
+      "companies": 4
+    },
+    "edgeCount": 34,
+    "syncEvent": {
+      "id": "sync:mov_dffcfb9cb320:2026-07-17T17:57:55.413Z",
+      "movieId": "mov_dffcfb9cb320",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "265195",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:55.413Z",
+      "completedAt": "2026-07-17T17:57:55.413Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1443
+  },
+  {
+    "title": "Y Tu Mamá También",
+    "year": 2001,
+    "tmdbId": 1391,
+    "movieId": "mov_567d3e87f2d5",
+    "slug": "y-tu-mama-tambien",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 2,
+      "languages": 1,
+      "companies": 2
+    },
+    "edgeCount": 29,
+    "syncEvent": {
+      "id": "sync:mov_567d3e87f2d5:2026-07-17T17:57:56.524Z",
+      "movieId": "mov_567d3e87f2d5",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "1391",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:56.524Z",
+      "completedAt": "2026-07-17T17:57:56.524Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1111
+  },
+  {
+    "title": "The Exterminating Angel",
+    "year": 1962,
+    "tmdbId": 29264,
+    "movieId": "mov_45881c40771b",
+    "slug": "the-exterminating-angel",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 21,
+      "countries": 1,
+      "genres": 3,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 28,
+    "syncEvent": {
+      "id": "sync:mov_45881c40771b:2026-07-17T17:57:57.633Z",
+      "movieId": "mov_45881c40771b",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "29264",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:57.633Z",
+      "completedAt": "2026-07-17T17:57:57.633Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1109
+  },
+  {
+    "title": "Memories of Underdevelopment",
+    "year": 1968,
+    "tmdbId": 47576,
+    "movieId": "mov_a9af1bf551a3",
+    "slug": "memories-of-underdevelopment",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 16,
+      "countries": 1,
+      "genres": 1,
+      "languages": 2,
+      "companies": 2
+    },
+    "edgeCount": 23,
+    "syncEvent": {
+      "id": "sync:mov_a9af1bf551a3:2026-07-17T17:57:58.644Z",
+      "movieId": "mov_a9af1bf551a3",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "47576",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:58.644Z",
+      "completedAt": "2026-07-17T17:57:58.644Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1011
+  },
+  {
+    "title": "Black Orpheus",
+    "year": 1959,
+    "tmdbId": 40423,
+    "movieId": "mov_81a3bcdb0b94",
+    "slug": "black-orpheus",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 18,
+      "countries": 3,
+      "genres": 2,
+      "languages": 1,
+      "companies": 3
+    },
+    "edgeCount": 28,
+    "syncEvent": {
+      "id": "sync:mov_81a3bcdb0b94:2026-07-17T17:57:59.888Z",
+      "movieId": "mov_81a3bcdb0b94",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "40423",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:57:59.888Z",
+      "completedAt": "2026-07-17T17:57:59.888Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1244
+  },
+  {
+    "title": "Moonlight",
+    "year": 2016,
+    "tmdbId": 376867,
+    "movieId": "mov_57b3bd5a72fb",
+    "slug": "moonlight",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 21,
+      "countries": 1,
+      "genres": 1,
+      "languages": 1,
+      "companies": 3
+    },
+    "edgeCount": 29,
+    "syncEvent": {
+      "id": "sync:mov_57b3bd5a72fb:2026-07-17T17:58:01.140Z",
+      "movieId": "mov_57b3bd5a72fb",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "376867",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:01.140Z",
+      "completedAt": "2026-07-17T17:58:01.140Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1252
+  },
+  {
+    "title": "Do the Right Thing",
+    "year": 1989,
+    "tmdbId": 925,
+    "movieId": "mov_77d8d6fcd48a",
+    "slug": "do-the-right-thing",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 20,
+      "countries": 1,
+      "genres": 1,
+      "languages": 4,
+      "companies": 2
+    },
+    "edgeCount": 31,
+    "syncEvent": {
+      "id": "sync:mov_77d8d6fcd48a:2026-07-17T17:58:02.329Z",
+      "movieId": "mov_77d8d6fcd48a",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "925",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:02.329Z",
+      "completedAt": "2026-07-17T17:58:02.329Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1178
+  },
+  {
+    "title": "Apocalypse Now",
+    "year": 1979,
+    "tmdbId": 28,
+    "movieId": "mov_614bc321955a",
+    "slug": "apocalypse-now",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 2,
+      "languages": 4,
+      "companies": 1
+    },
+    "edgeCount": 32,
+    "syncEvent": {
+      "id": "sync:mov_614bc321955a:2026-07-17T17:58:03.873Z",
+      "movieId": "mov_614bc321955a",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "28",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:03.873Z",
+      "completedAt": "2026-07-17T17:58:03.873Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1544
+  },
+  {
+    "title": "Taxi Driver",
+    "year": 1976,
+    "tmdbId": 103,
+    "movieId": "mov_1b6f3679793f",
+    "slug": "taxi-driver",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 2,
+      "languages": 2,
+      "companies": 2
+    },
+    "edgeCount": 30,
+    "syncEvent": {
+      "id": "sync:mov_1b6f3679793f:2026-07-17T17:58:05.288Z",
+      "movieId": "mov_1b6f3679793f",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "103",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:05.288Z",
+      "completedAt": "2026-07-17T17:58:05.288Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1415
+  },
+  {
+    "title": "The Searchers",
+    "year": 1956,
+    "tmdbId": 3114,
+    "movieId": "mov_ddf4c528e7f5",
+    "slug": "the-searchers",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 1,
+      "languages": 3,
+      "companies": 2
+    },
+    "edgeCount": 29,
+    "syncEvent": {
+      "id": "sync:mov_ddf4c528e7f5:2026-07-17T17:58:06.513Z",
+      "movieId": "mov_ddf4c528e7f5",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "3114",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:06.513Z",
+      "completedAt": "2026-07-17T17:58:06.513Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1225
+  },
+  {
+    "title": "Singin' in the Rain",
+    "year": 1952,
+    "tmdbId": 872,
+    "movieId": "mov_01cb75545e40",
+    "slug": "singin-in-the-rain",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 23,
+      "countries": 1,
+      "genres": 2,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 29,
+    "syncEvent": {
+      "id": "sync:mov_01cb75545e40:2026-07-17T17:58:07.754Z",
+      "movieId": "mov_01cb75545e40",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "872",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:07.754Z",
+      "completedAt": "2026-07-17T17:58:07.754Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1240
+  },
+  {
+    "title": "The Wizard of Oz",
+    "year": 1939,
+    "tmdbId": 630,
+    "movieId": "mov_dec3285ce1d4",
+    "slug": "the-wizard-of-oz",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 24,
+      "countries": 1,
+      "genres": 3,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 30,
+    "syncEvent": {
+      "id": "sync:mov_dec3285ce1d4:2026-07-17T17:58:09.291Z",
+      "movieId": "mov_dec3285ce1d4",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "630",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:09.291Z",
+      "completedAt": "2026-07-17T17:58:09.291Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1537
+  },
+  {
+    "title": "Alien",
+    "year": 1979,
+    "tmdbId": 348,
+    "movieId": "mov_583c3298e600",
+    "slug": "alien",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 11,
+      "countries": 2,
+      "genres": 2,
+      "languages": 2,
+      "companies": 3
+    },
+    "edgeCount": 20,
+    "syncEvent": {
+      "id": "sync:mov_583c3298e600:2026-07-17T17:58:10.561Z",
+      "movieId": "mov_583c3298e600",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "348",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:10.561Z",
+      "completedAt": "2026-07-17T17:58:10.561Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1270
+  },
+  {
+    "title": "Blade Runner",
+    "year": 1982,
+    "tmdbId": 78,
+    "movieId": "mov_883861641f72",
+    "slug": "blade-runner",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 23,
+      "countries": 3,
+      "genres": 3,
+      "languages": 5,
+      "companies": 3
+    },
+    "edgeCount": 37,
+    "syncEvent": {
+      "id": "sync:mov_883861641f72:2026-07-17T17:58:11.946Z",
+      "movieId": "mov_883861641f72",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "78",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:11.946Z",
+      "completedAt": "2026-07-17T17:58:11.946Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1384
+  },
+  {
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "tmdbId": 76341,
+    "movieId": "mov_26d90f82ffb0",
+    "slug": "mad-max-fury-road",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 23,
+      "countries": 2,
+      "genres": 3,
+      "languages": 1,
+      "companies": 4
+    },
+    "edgeCount": 34,
+    "syncEvent": {
+      "id": "sync:mov_26d90f82ffb0:2026-07-17T17:58:13.462Z",
+      "movieId": "mov_26d90f82ffb0",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "76341",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:13.462Z",
+      "completedAt": "2026-07-17T17:58:13.462Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1517
+  },
+  {
+    "title": "Get Out",
+    "year": 2017,
+    "tmdbId": 419430,
+    "movieId": "mov_3df93a7d3665",
+    "slug": "get-out",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 21,
+      "countries": 1,
+      "genres": 3,
+      "languages": 1,
+      "companies": 3
+    },
+    "edgeCount": 30,
+    "syncEvent": {
+      "id": "sync:mov_3df93a7d3665:2026-07-17T17:58:14.967Z",
+      "movieId": "mov_3df93a7d3665",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "419430",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:14.967Z",
+      "completedAt": "2026-07-17T17:58:14.967Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1505
+  },
+  {
+    "title": "Portrait of a Lady on Fire",
+    "year": 2019,
+    "tmdbId": 531428,
+    "movieId": "mov_59046cc83c16",
+    "slug": "portrait-of-a-lady-on-fire",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 9,
+      "countries": 1,
+      "genres": 2,
+      "languages": 2,
+      "companies": 3
+    },
+    "edgeCount": 18,
+    "syncEvent": {
+      "id": "sync:mov_59046cc83c16:2026-07-17T17:58:15.951Z",
+      "movieId": "mov_59046cc83c16",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "531428",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:15.951Z",
+      "completedAt": "2026-07-17T17:58:15.951Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 984
+  },
+  {
+    "title": "Aftersun",
+    "year": 2022,
+    "tmdbId": 965150,
+    "movieId": "mov_51d7621d53b6",
+    "slug": "aftersun",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 21,
+      "countries": 2,
+      "genres": 1,
+      "languages": 3,
+      "companies": 6
+    },
+    "edgeCount": 34,
+    "syncEvent": {
+      "id": "sync:mov_51d7621d53b6:2026-07-17T17:58:17.384Z",
+      "movieId": "mov_51d7621d53b6",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "965150",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:17.384Z",
+      "completedAt": "2026-07-17T17:58:17.384Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1433
+  },
+  {
+    "title": "Anatomy of a Fall",
+    "year": 2023,
+    "tmdbId": 915935,
+    "movieId": "mov_cf96e06ab3a8",
+    "slug": "anatomy-of-a-fall",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 3,
+      "languages": 2,
+      "companies": 4
+    },
+    "edgeCount": 33,
+    "syncEvent": {
+      "id": "sync:mov_cf96e06ab3a8:2026-07-17T17:58:18.748Z",
+      "movieId": "mov_cf96e06ab3a8",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "915935",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:18.748Z",
+      "completedAt": "2026-07-17T17:58:18.748Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1364
+  },
+  {
+    "title": "The Zone of Interest",
+    "year": 2023,
+    "tmdbId": 467244,
+    "movieId": "mov_51dcb0c977c1",
+    "slug": "the-zone-of-interest",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 21,
+      "countries": 3,
+      "genres": 3,
+      "languages": 3,
+      "companies": 5
+    },
+    "edgeCount": 36,
+    "syncEvent": {
+      "id": "sync:mov_51dcb0c977c1:2026-07-17T17:58:20.253Z",
+      "movieId": "mov_51dcb0c977c1",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "467244",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:20.253Z",
+      "completedAt": "2026-07-17T17:58:20.253Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1504
+  },
+  {
+    "title": "Everything Everywhere All at Once",
+    "year": 2022,
+    "tmdbId": 545611,
+    "movieId": "mov_77041faee74a",
+    "slug": "everything-everywhere-all-at-once",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 3,
+      "languages": 3,
+      "companies": 5
+    },
+    "edgeCount": 37,
+    "syncEvent": {
+      "id": "sync:mov_77041faee74a:2026-07-17T17:58:21.912Z",
+      "movieId": "mov_77041faee74a",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "545611",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:21.912Z",
+      "completedAt": "2026-07-17T17:58:21.912Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1659
+  },
+  {
+    "title": "Decision to Leave",
+    "year": 2022,
+    "tmdbId": 705996,
+    "movieId": "mov_f570de3c0cfa",
+    "slug": "decision-to-leave",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 1,
+      "genres": 3,
+      "languages": 3,
+      "companies": 3
+    },
+    "edgeCount": 34,
+    "syncEvent": {
+      "id": "sync:mov_f570de3c0cfa:2026-07-17T17:58:23.547Z",
+      "movieId": "mov_f570de3c0cfa",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "705996",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:23.547Z",
+      "completedAt": "2026-07-17T17:58:23.547Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1635
+  },
+  {
+    "title": "Pather Panchali",
+    "year": 1955,
+    "tmdbId": 5801,
+    "movieId": "mov_5e0765db74ea",
+    "slug": "pather-panchali",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 21,
+      "countries": 1,
+      "genres": 2,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 27,
+    "syncEvent": {
+      "id": "sync:mov_5e0765db74ea:2026-07-17T17:58:24.976Z",
+      "movieId": "mov_5e0765db74ea",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "5801",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:24.976Z",
+      "completedAt": "2026-07-17T17:58:24.976Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1429
+  },
+  {
+    "title": "The Music Room",
+    "year": 1958,
+    "tmdbId": 822,
+    "movieId": "mov_8d8b847c95fb",
+    "slug": "the-music-room",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 19,
+      "countries": 1,
+      "genres": 2,
+      "languages": 1,
+      "companies": 1
+    },
+    "edgeCount": 25,
+    "syncEvent": {
+      "id": "sync:mov_8d8b847c95fb:2026-07-17T17:58:26.224Z",
+      "movieId": "mov_8d8b847c95fb",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "822",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:26.224Z",
+      "completedAt": "2026-07-17T17:58:26.224Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1247
+  },
+  {
+    "title": "Sholay",
+    "year": 1975,
+    "tmdbId": 12259,
+    "movieId": "mov_56dbaf8b4b36",
+    "slug": "sholay",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 23,
+      "countries": 1,
+      "genres": 1,
+      "languages": 1,
+      "companies": 2
+    },
+    "edgeCount": 28,
+    "syncEvent": {
+      "id": "sync:mov_56dbaf8b4b36:2026-07-17T17:58:27.684Z",
+      "movieId": "mov_56dbaf8b4b36",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "12259",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:27.684Z",
+      "completedAt": "2026-07-17T17:58:27.684Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1460
+  },
+  {
+    "title": "Lagaan: Once Upon a Time in India",
+    "year": 2001,
+    "tmdbId": 19666,
+    "movieId": "mov_22d7a784418d",
+    "slug": "lagaan-once-upon-a-time-in-india",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 23,
+      "countries": 1,
+      "genres": 3,
+      "languages": 2,
+      "companies": 3
+    },
+    "edgeCount": 34,
+    "syncEvent": {
+      "id": "sync:mov_22d7a784418d:2026-07-17T17:58:29.160Z",
+      "movieId": "mov_22d7a784418d",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "19666",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:29.160Z",
+      "completedAt": "2026-07-17T17:58:29.160Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1476
+  },
+  {
+    "title": "A Fantastic Woman",
+    "year": 2017,
+    "tmdbId": 429191,
+    "movieId": "mov_76ac1896e290",
+    "slug": "a-fantastic-woman",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 22,
+      "countries": 4,
+      "genres": 1,
+      "languages": 1,
+      "companies": 5
+    },
+    "edgeCount": 34,
+    "syncEvent": {
+      "id": "sync:mov_76ac1896e290:2026-07-17T17:58:30.429Z",
+      "movieId": "mov_76ac1896e290",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "429191",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:30.429Z",
+      "completedAt": "2026-07-17T17:58:30.429Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1270
+  },
+  {
+    "title": "Nostalgia for the Light",
+    "year": 2010,
+    "tmdbId": 72721,
+    "movieId": "mov_51b276c4f87a",
+    "slug": "nostalgia-for-the-light",
+    "status": "updated",
+    "warnings": [],
+    "entityCounts": {
+      "people": 10,
+      "countries": 3,
+      "genres": 1,
+      "languages": 2,
+      "companies": 4
+    },
+    "edgeCount": 21,
+    "syncEvent": {
+      "id": "sync:mov_51b276c4f87a:2026-07-17T17:58:31.602Z",
+      "movieId": "mov_51b276c4f87a",
+      "eventType": "MOVIE_UPDATED",
+      "provider": "tmdb",
+      "sourceRecordId": "72721",
+      "changedFields": [
+        "releaseDate"
+      ],
+      "addedEdges": [],
+      "removedEdges": [],
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-17T17:58:31.602Z",
+      "completedAt": "2026-07-17T17:58:31.602Z",
+      "pipelineVersion": "catalog-expansion-100-v1"
+    },
+    "durationMs": 1172
+  }
+]

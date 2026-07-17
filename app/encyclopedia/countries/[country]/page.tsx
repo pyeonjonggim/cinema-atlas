@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 
 import CountryDetailPage from "@/components/pages/CountryDetailPage";
 import { movements } from "@/data/movements";
-import { getCountries, getCountryBySlug, getDirectors, getMovies } from "@/lib/catalogQuery";
+import { getCountryBySlug, getCountryMovies } from "@/lib/catalogQuery";
 
 type CountryRouteProps = {
   params: Promise<{
@@ -18,15 +18,13 @@ export default async function CountryRoute({ params }: CountryRouteProps) {
     notFound();
   }
 
-  const countries = await getCountries();
-  const directors = await getDirectors();
-  const movies = await getMovies();
+  const movies = await getCountryMovies(countrySlug);
 
   return (
     <CountryDetailPage
       country={country}
-      countries={countries}
-      directors={directors}
+      countries={[country]}
+      directors={[]}
       movements={movements}
       movies={movies}
     />

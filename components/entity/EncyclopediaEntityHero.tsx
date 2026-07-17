@@ -1,5 +1,8 @@
 import Image from "next/image";
 
+import EntityImage from "@/components/EntityImage";
+import type { EntityImage as EntityImageModel } from "@/lib/media";
+
 type EntityHeroMetaItem = {
   label: string;
   value: string | number;
@@ -11,6 +14,8 @@ type EncyclopediaEntityHeroProps = {
   subtitle?: string;
   description?: string;
   image?: string;
+  entityImage?: EntityImageModel | null;
+  imageVariant?: "portrait" | "landscape";
   imageAlt?: string;
   meta?: EntityHeroMetaItem[];
   tags?: string[];
@@ -23,6 +28,8 @@ export default function EncyclopediaEntityHero({
   subtitle,
   description,
   image,
+  entityImage,
+  imageVariant = "portrait",
   imageAlt,
   meta = [],
   tags = [],
@@ -30,12 +37,41 @@ export default function EncyclopediaEntityHero({
 }: EncyclopediaEntityHeroProps) {
   return (
     <section className="relative overflow-hidden rounded-3xl border border-white/10 bg-neutral-950">
-      <div className={`absolute inset-0 ${getHeroBackdropClass(visualTone)}`} />
+      {imageVariant === "landscape" && entityImage ? (
+        <div className="absolute inset-0">
+          <EntityImage
+            image={entityImage}
+            fallbackLabel={title}
+            variant="hero"
+            sizes="100vw"
+            className="opacity-45"
+            priority
+          />
+        </div>
+      ) : (
+        <div className={`absolute inset-0 ${getHeroBackdropClass(visualTone)}`} />
+      )}
       <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-black/25" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
 
-      <div className="relative grid gap-5 p-5 md:grid-cols-[132px_1fr] md:p-6 lg:grid-cols-[148px_1fr]">
-        <div className="relative w-28 overflow-hidden rounded-2xl border border-white/15 bg-neutral-900 shadow-2xl shadow-black/40 md:w-full">
-          {image ? (
+      <div className={`relative grid gap-5 p-5 md:p-6 ${
+        imageVariant === "landscape"
+          ? "min-h-[24rem] content-end"
+          : "md:grid-cols-[132px_1fr] lg:grid-cols-[148px_1fr]"
+      }`}>
+        {imageVariant === "portrait" && (
+          <div className="relative w-28 overflow-hidden rounded-2xl border border-white/15 bg-neutral-900 shadow-2xl shadow-black/40 md:w-full">
+            {entityImage ? (
+              <div className="relative aspect-[2/3]">
+                <EntityImage
+                  image={entityImage}
+                  fallbackLabel={title}
+                  variant="profile"
+                  sizes="(min-width: 1024px) 148px, (min-width: 768px) 132px, 112px"
+                  priority
+                />
+              </div>
+            ) : image ? (
             <Image
               src={image}
               alt={imageAlt ?? title}
@@ -52,7 +88,8 @@ export default function EncyclopediaEntityHero({
               )}`}
             />
           )}
-        </div>
+          </div>
+        )}
 
         <div className="flex min-w-0 flex-col justify-center">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-neutral-500">

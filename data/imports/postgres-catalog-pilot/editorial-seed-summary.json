@@ -1,0 +1,12 @@
+{
+  "command": "seed:editorial",
+  "status": "PASS",
+  "inputMovements": 3,
+  "inputAwards": 2,
+  "counts": {
+    "catalog_movements": 3,
+    "catalog_awards": 2,
+    "editorial_edges": 15
+  },
+  "completedAt": "2026-07-17T16:30:21.087Z"
+}

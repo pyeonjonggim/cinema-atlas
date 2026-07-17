@@ -1,6 +1,7 @@
 import type { Country } from "@/data/countries";
 import type { Director } from "@/data/directors";
 import type { Movement } from "@/data/movements";
+import type { EntityImage } from "@/lib/media";
 import type { Movie } from "@/types/movie";
 
 import EncyclopediaEntityHero from "../entity/EncyclopediaEntityHero";
@@ -72,6 +73,7 @@ export default function CountryDetailPage({
   movements,
   movies,
 }: CountryDetailPageProps) {
+  const countryMedia = country as Country & { heroImage?: EntityImage | null };
   const countryMovies = movies.filter(
     (movie) => movie.countrySlug === country.slug
   );
@@ -235,6 +237,8 @@ export default function CountryDetailPage({
           title={`${country.flag} ${country.name}`}
           subtitle={country.nameKo}
           description={country.description}
+          entityImage={countryMedia.heroImage}
+          imageVariant="landscape"
           meta={[
             { label: "Region", value: country.region },
             { label: "Era", value: country.representativeEra },

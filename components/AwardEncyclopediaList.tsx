@@ -7,6 +7,7 @@ import EntityCardVisual from "@/components/entity/EntityCardVisual";
 import ListHero, { type ListHeroProps } from "@/components/layout/ListHero";
 import AtlasButton from "@/components/ui/AtlasButton";
 import EmptyState from "@/components/ui/EmptyState";
+import { useTwoRowLimit } from "@/components/useTwoRowLimit";
 
 export type AwardEncyclopediaItem = {
   slug: string;
@@ -82,6 +83,14 @@ export default function AwardEncyclopediaList({
 
     return result;
   }, [awards, query, sort]);
+  const {
+    visibleItems: visibleAwards,
+    isExpanded,
+    canExpand,
+    remainingCount,
+    showAll,
+    collapse,
+  } = useTwoRowLimit(filteredAwards, `${query}|${sort}|${filteredAwards.length}`);
 
   return (
     <div className="space-y-6">
@@ -120,11 +129,21 @@ export default function AwardEncyclopediaList({
         </div>
 
         {filteredAwards.length > 0 ? (
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 xl:grid-cols-8">
-            {filteredAwards.map((award) => (
-              <AwardCard key={award.slug} award={award} />
-            ))}
-          </div>
+          <>
+            <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 xl:grid-cols-8">
+              {visibleAwards.map((award) => (
+                <AwardCard key={award.slug} award={award} />
+              ))}
+            </div>
+
+            {canExpand && (
+              <div className="flex justify-center pt-2">
+                <AtlasButton variant="secondary" onClick={isExpanded ? collapse : showAll}>
+                  {isExpanded ? "Show less" : `View more (${remainingCount})`}
+                </AtlasButton>
+              </div>
+            )}
+          </>
         ) : (
           <EmptyState
             preset="search"

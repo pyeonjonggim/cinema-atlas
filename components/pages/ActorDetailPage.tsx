@@ -1,6 +1,7 @@
 import type { Actor } from "@/data/actors";
 import type { Country } from "@/data/countries";
 import type { Director } from "@/data/directors";
+import type { EntityImage } from "@/lib/media";
 import type { Movie } from "@/types/movie";
 
 import EncyclopediaEntityHero from "../entity/EncyclopediaEntityHero";
@@ -116,6 +117,7 @@ export default function ActorDetailPage({
   directors,
   movies,
 }: ActorDetailPageProps) {
+  const actorMedia = actor as Actor & { profileImage?: EntityImage | null };
   const actorCountry = countries.find(
     (country) => country.slug === actor.countrySlug
   );
@@ -320,6 +322,8 @@ export default function ActorDetailPage({
           title={actor.name}
           subtitle={actor.nameKo}
           description={actor.description}
+          entityImage={actorMedia.profileImage}
+          imageVariant="portrait"
           meta={[
             {
               label: "Country",

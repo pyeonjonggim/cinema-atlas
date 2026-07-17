@@ -6,6 +6,7 @@ import MovieCard from "@/components/MovieCard";
 import ListHero, { type ListHeroProps } from "@/components/layout/ListHero";
 import AtlasButton from "@/components/ui/AtlasButton";
 import EmptyState from "@/components/ui/EmptyState";
+import { useTwoRowLimit } from "@/components/useTwoRowLimit";
 
 import type { Movie } from "@/types/movie";
 
@@ -54,6 +55,14 @@ export default function MovieList({ movies, hero }: MovieListProps) {
 
     return result;
   }, [movies, search, sort]);
+  const {
+    visibleItems: visibleMovies,
+    isExpanded,
+    canExpand,
+    remainingCount,
+    showAll,
+    collapse,
+  } = useTwoRowLimit(filteredMovies, `${search}|${sort}|${filteredMovies.length}`);
 
   return (
     <div className="space-y-6">
@@ -96,11 +105,21 @@ export default function MovieList({ movies, hero }: MovieListProps) {
       </div>
 
       {filteredMovies.length > 0 ? (
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 xl:grid-cols-8">
-          {filteredMovies.map((movie) => (
-            <MovieCard key={movie.id} movie={movie} />
-          ))}
-        </div>
+        <>
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 xl:grid-cols-8">
+            {visibleMovies.map((movie) => (
+              <MovieCard key={movie.id} movie={movie} />
+            ))}
+          </div>
+
+          {canExpand && (
+            <div className="flex justify-center pt-2">
+              <AtlasButton variant="secondary" onClick={isExpanded ? collapse : showAll}>
+                {isExpanded ? "Show less" : `View more (${remainingCount})`}
+              </AtlasButton>
+            </div>
+          )}
+        </>
       ) : (
         <EmptyState
           preset="search"
