@@ -1,0 +1,94 @@
+[
+  {
+    "title": "Parasite",
+    "year": 2019,
+    "movementSlugs": ["korean-contemporary-cinema"],
+    "awardSlugs": ["academy-best-picture"]
+  },
+  {
+    "title": "Oldboy",
+    "year": 2003,
+    "movementSlugs": ["korean-contemporary-cinema"]
+  },
+  {
+    "title": "The Host",
+    "year": 2006,
+    "movementSlugs": ["korean-contemporary-cinema"]
+  },
+  {
+    "title": "Memories of Murder",
+    "year": 2003,
+    "movementSlugs": ["korean-contemporary-cinema"]
+  },
+  {
+    "title": "Burning",
+    "year": 2018,
+    "movementSlugs": ["korean-contemporary-cinema"]
+  },
+  {
+    "title": "The Handmaiden",
+    "year": 2016,
+    "movementSlugs": ["korean-contemporary-cinema"]
+  },
+  {
+    "title": "The Godfather",
+    "year": 1972,
+    "movementSlugs": ["new-hollywood"],
+    "awardSlugs": ["academy-best-picture"]
+  },
+  {
+    "title": "Taxi Driver",
+    "year": 1976,
+    "movementSlugs": ["new-hollywood"]
+  },
+  {
+    "title": "Apocalypse Now",
+    "year": 1979,
+    "movementSlugs": ["new-hollywood"]
+  },
+  {
+    "title": "Do the Right Thing",
+    "year": 1989,
+    "movementSlugs": ["new-hollywood"]
+  },
+  {
+    "title": "Moonlight",
+    "year": 2016,
+    "awardSlugs": ["academy-best-picture"]
+  },
+  {
+    "title": "Everything Everywhere All at Once",
+    "year": 2022,
+    "awardSlugs": ["academy-best-picture"]
+  },
+  {
+    "title": "Casablanca",
+    "year": 1942,
+    "awardSlugs": ["academy-best-picture"]
+  },
+  {
+    "title": "Seven Samurai",
+    "year": 1954,
+    "movementSlugs": ["japanese-golden-age"]
+  },
+  {
+    "title": "Tokyo Story",
+    "year": 1953,
+    "movementSlugs": ["japanese-golden-age"]
+  },
+  {
+    "title": "Late Spring",
+    "year": 1949,
+    "movementSlugs": ["japanese-golden-age"]
+  },
+  {
+    "title": "Ugetsu",
+    "year": 1953,
+    "movementSlugs": ["japanese-golden-age"]
+  },
+  {
+    "title": "Sansho the Bailiff",
+    "year": 1954,
+    "movementSlugs": ["japanese-golden-age"]
+  }
+]

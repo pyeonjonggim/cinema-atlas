@@ -3,15 +3,16 @@ import PageContainer from "@/components/layout/PageContainer";
 import DirectorEncyclopediaList from "@/components/DirectorEncyclopediaList";
 import RecommendedShelfPattern from "@/components/patterns/RecommendedShelfPattern";
 import JourneyCard from "@/components/discovery/JourneyCard";
-import { getDirectors, getMovies } from "@/lib/catalogQuery";
+import { getDirectors } from "@/lib/catalogQuery";
+import type { EntityImage } from "@/lib/media";
 
 export default async function DirectorsPage() {
   const directors = await getDirectors();
-  const movies = await getMovies();
   const directorItems = directors.map((director) => {
-    const relatedMovieCount = movies.filter((movie) =>
-      [movie.directorSlug, ...(movie.directorIds ?? [])].includes(director.slug),
-    ).length;
+    const directorMedia = director as typeof director & {
+      profileImage?: EntityImage | null;
+    };
+    const relatedMovieCount = director.knownForMovieIds.length;
 
     return {
       slug: director.slug,
@@ -23,6 +24,7 @@ export default async function DirectorsPage() {
       styleKeywords: director.styleKeywords,
       relatedMovieCount,
       essentialMovieCount: director.knownForMovieIds.length,
+      profileImage: directorMedia.profileImage,
     };
   });
 

@@ -1,0 +1,33 @@
+{
+  "command": "sync:films:100",
+  "status": "PASS",
+  "targets": 116,
+  "created": 1,
+  "updated": 115,
+  "failed": 0,
+  "beforeCounts": {
+    "canonicalMovies": 115,
+    "canonicalPersons": 2097,
+    "countries": 38,
+    "movements": 3,
+    "awards": 2,
+    "knowledgeGraphEdges": 3327,
+    "tmdbMovies": 115,
+    "directors": 99,
+    "actors": 1905
+  },
+  "afterCounts": {
+    "canonicalMovies": 116,
+    "canonicalPersons": 2098,
+    "countries": 38,
+    "movements": 3,
+    "awards": 2,
+    "knowledgeGraphEdges": 3346,
+    "tmdbMovies": 116,
+    "directors": 99,
+    "actors": 1906
+  },
+  "additionalMoviesNeededAtStart": 0,
+  "totalDurationMs": 151824,
+  "completedAt": "2026-07-17T17:58:31.709Z"
+}

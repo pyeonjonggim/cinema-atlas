@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 
 import ActorDetailPage from "@/components/pages/ActorDetailPage";
-import { getActorBySlug, getActors, getCountries, getDirectors, getMovies } from "@/lib/catalogQuery";
+import { getActorBySlug, getActorFilmography } from "@/lib/catalogQuery";
 
 type ActorRouteProps = {
   params: Promise<{
@@ -17,17 +17,14 @@ export default async function ActorRoute({ params }: ActorRouteProps) {
     notFound();
   }
 
-  const actors = await getActors();
-  const countries = await getCountries();
-  const directors = await getDirectors();
-  const movies = await getMovies();
+  const movies = await getActorFilmography(actorSlug);
 
   return (
     <ActorDetailPage
       actor={actor}
-      actors={actors}
-      countries={countries}
-      directors={directors}
+      actors={[actor]}
+      countries={[]}
+      directors={[]}
       movies={movies}
     />
   );

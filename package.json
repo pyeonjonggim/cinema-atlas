@@ -23,7 +23,13 @@
     "scheduler:pilot": "node scripts/scheduler-pilot.mjs",
     "audit:canonical-entities": "node scripts/audit-canonical-entities.mjs",
     "verify:canonical-query-phase-a": "node scripts/verify-canonical-query-phase-a.mjs",
-    "verify:country-normalization": "node scripts/verify-country-normalization.mjs"
+    "verify:country-normalization": "node scripts/verify-country-normalization.mjs",
+    "seed:editorial": "node scripts/seed-editorial.mjs",
+    "verify:editorial": "node scripts/verify-editorial.mjs",
+    "verify:unified-search": "node scripts/verify-unified-search.mjs",
+    "sync:films:100": "node scripts/sync-film-expansion-100.mjs",
+    "verify:catalog:100": "node scripts/verify-catalog-100.mjs",
+    "verify:media": "node scripts/verify-media-foundation.mjs"
   },
   "dependencies": {
     "next": "16.2.10",

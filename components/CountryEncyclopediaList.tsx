@@ -7,6 +7,7 @@ import EntityCardVisual from "@/components/entity/EntityCardVisual";
 import ListHero, { type ListHeroProps } from "@/components/layout/ListHero";
 import AtlasButton from "@/components/ui/AtlasButton";
 import EmptyState from "@/components/ui/EmptyState";
+import { useTwoRowLimit } from "@/components/useTwoRowLimit";
 
 export type CountryEncyclopediaItem = {
   slug: string;
@@ -85,6 +86,14 @@ export default function CountryEncyclopediaList({
 
     return result;
   }, [countries, query, sort]);
+  const {
+    visibleItems: visibleCountries,
+    isExpanded,
+    canExpand,
+    remainingCount,
+    showAll,
+    collapse,
+  } = useTwoRowLimit(filteredCountries, `${query}|${sort}|${filteredCountries.length}`);
 
   return (
     <div className="space-y-6">
@@ -123,11 +132,21 @@ export default function CountryEncyclopediaList({
         </div>
 
         {filteredCountries.length > 0 ? (
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 xl:grid-cols-8">
-            {filteredCountries.map((country) => (
-              <CountryCard key={country.slug} country={country} />
-            ))}
-          </div>
+          <>
+            <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 xl:grid-cols-8">
+              {visibleCountries.map((country) => (
+                <CountryCard key={country.slug} country={country} />
+              ))}
+            </div>
+
+            {canExpand && (
+              <div className="flex justify-center pt-2">
+                <AtlasButton variant="secondary" onClick={isExpanded ? collapse : showAll}>
+                  {isExpanded ? "Show less" : `View more (${remainingCount})`}
+                </AtlasButton>
+              </div>
+            )}
+          </>
         ) : (
           <EmptyState
             preset="search"

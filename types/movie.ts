@@ -3,6 +3,7 @@ import type {
   MovieEditorialMetadata,
   MovieExternalMetadata,
 } from "@/types/catalog";
+import type { EntityImage } from "@/lib/media";
 
 export type MovieDifficulty = "beginner" | "intermediate" | "advanced";
 
@@ -100,8 +101,10 @@ export type Movie = {
   poster: string;
   posterPath?: string;
   posterUrl?: string;
+  posterImage?: EntityImage | null;
   /** Current compatibility backdrop image. Prefer backdropPath/backdropUrl for imports. */
   backdrop?: string;
   backdropPath?: string;
   backdropUrl?: string;
+  backdropImage?: EntityImage | null;
 };

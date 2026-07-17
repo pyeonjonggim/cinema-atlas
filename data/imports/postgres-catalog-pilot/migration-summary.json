@@ -1,13 +1,13 @@
 {
   "command": "db:migrate",
   "status": "PASS",
-  "applied": [
-    "0003_catalog_sync_jobs"
-  ],
+  "applied": [],
   "skipped": [
     "0001_catalog_core",
-    "0002_catalog_sync_events"
+    "0002_catalog_sync_events",
+    "0003_catalog_sync_jobs",
+    "0004_editorial_entities"
   ],
-  "migrationCount": 3,
-  "completedAt": "2026-07-17T04:36:38.006Z"
+  "migrationCount": 4,
+  "completedAt": "2026-07-17T17:45:59.443Z"
 }

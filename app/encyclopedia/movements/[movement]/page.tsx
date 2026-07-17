@@ -1,10 +1,7 @@
 import { notFound } from "next/navigation";
 
 import MovementDetailPage from "@/components/pages/MovementDetailPage";
-import { countries } from "@/data/countries";
-import { directors } from "@/data/directors";
-import { movements } from "@/data/movements";
-import { movies } from "@/data/movies";
+import { getCountries, getDirectors, getMovementBySlug, getMovements, getMovies } from "@/lib/catalogQuery";
 
 type MovementRouteProps = {
   params: Promise<{
@@ -14,7 +11,13 @@ type MovementRouteProps = {
 
 export default async function MovementRoute({ params }: MovementRouteProps) {
   const { movement: movementSlug } = await params;
-  const movement = movements.find((item) => item.slug === movementSlug);
+  const [movement, movements, countries, directors, movies] = await Promise.all([
+    getMovementBySlug(movementSlug),
+    getMovements(),
+    getCountries(),
+    getDirectors(),
+    getMovies(),
+  ]);
 
   if (!movement) {
     notFound();

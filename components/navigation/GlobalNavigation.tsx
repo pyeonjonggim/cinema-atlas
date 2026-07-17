@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SearchTrigger from "@/components/search/SearchTrigger";
 
 const navItems = [
   { label: "Explore", href: "/explore" },
@@ -31,11 +32,7 @@ export default function GlobalNavigation() {
         </nav>
 
         <div className="ml-auto flex items-center gap-4">
-          <div className="hidden w-80 items-center rounded-full border border-white/10 bg-white/[0.03] px-5 py-2 md:flex">
-            <span className="text-sm text-neutral-500">
-              Search movies, directors, countries...
-            </span>
-          </div>
+          <SearchTrigger />
 
           <button
             type="button"

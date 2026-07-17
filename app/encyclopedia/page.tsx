@@ -6,6 +6,9 @@ import EntityCard from "@/components/entity/EntityCard";
 import DiscoveryShelf from "@/components/discovery/DiscoveryShelf";
 import JourneyCard from "@/components/discovery/JourneyCard";
 import RecommendedShelfPattern from "@/components/patterns/RecommendedShelfPattern";
+import SearchHeroTrigger from "@/components/search/SearchHeroTrigger";
+
+export const dynamic = "force-static";
 
 const featuredEncyclopedia = [
   {
@@ -201,9 +204,7 @@ export default function EncyclopediaHomePage() {
             title="Encyclopedia"
             description="Search and explore the connected knowledge of cinema: movies, directors, countries, movements, actors, and awards."
             search={
-              <div className="flex w-full items-center rounded-full border border-white/10 bg-black/35 px-5 py-3 text-sm text-neutral-500 backdrop-blur">
-                Search the Encyclopedia...
-              </div>
+              <SearchHeroTrigger label="Search the Encyclopedia..." />
             }
             stats="6 categories"
           />

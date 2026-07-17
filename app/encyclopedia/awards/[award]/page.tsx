@@ -1,10 +1,7 @@
 import { notFound } from "next/navigation";
 
 import AwardDetailPage from "@/components/pages/AwardDetailPage";
-import { awards } from "@/data/awards";
-import { countries } from "@/data/countries";
-import { directors } from "@/data/directors";
-import { movies } from "@/data/movies";
+import { getAwardBySlug, getAwards, getCountries, getDirectors, getMovies } from "@/lib/catalogQuery";
 
 type AwardRouteProps = {
   params: Promise<{
@@ -14,7 +11,13 @@ type AwardRouteProps = {
 
 export default async function AwardRoute({ params }: AwardRouteProps) {
   const { award: awardSlug } = await params;
-  const award = awards.find((item) => item.slug === awardSlug);
+  const [award, awards, countries, directors, movies] = await Promise.all([
+    getAwardBySlug(awardSlug),
+    getAwards(),
+    getCountries(),
+    getDirectors(),
+    getMovies(),
+  ]);
 
   if (!award) {
     notFound();

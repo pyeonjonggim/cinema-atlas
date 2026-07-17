@@ -7,6 +7,8 @@ import EntityCardVisual from "@/components/entity/EntityCardVisual";
 import ListHero, { type ListHeroProps } from "@/components/layout/ListHero";
 import AtlasButton from "@/components/ui/AtlasButton";
 import EmptyState from "@/components/ui/EmptyState";
+import { useTwoRowLimit } from "@/components/useTwoRowLimit";
+import type { EntityImage } from "@/lib/media";
 
 export type ActorEncyclopediaItem = {
   slug: string;
@@ -17,6 +19,7 @@ export type ActorEncyclopediaItem = {
   description?: string;
   screenPersona?: string[];
   relatedMovieCount?: number;
+  profileImage?: EntityImage | null;
 };
 
 type ActorEncyclopediaListProps = {
@@ -34,7 +37,12 @@ function ActorCard({ actor }: { actor: ActorEncyclopediaItem }) {
   return (
     <Link href={`/encyclopedia/actors/${actor.slug}`} className="group block">
       <div className="overflow-hidden rounded-xl border border-white/10 bg-white/[0.03] transition hover:-translate-y-1 hover:border-white/25 hover:bg-white/[0.06] hover:shadow-lg hover:shadow-black/20">
-        <EntityCardVisual label="ACTOR" tone="person" />
+        <EntityCardVisual
+          label="ACTOR"
+          entityImage={actor.profileImage}
+          imageAlt={actor.name}
+          tone="person"
+        />
 
         <div className="p-2.5">
           <h2 className="line-clamp-1 text-sm font-semibold text-white">
@@ -88,6 +96,14 @@ export default function ActorEncyclopediaList({
 
     return result;
   }, [actors, query, sort]);
+  const {
+    visibleItems: visibleActors,
+    isExpanded,
+    canExpand,
+    remainingCount,
+    showAll,
+    collapse,
+  } = useTwoRowLimit(filteredActors, `${query}|${sort}|${filteredActors.length}`);
 
   return (
     <div className="space-y-6">
@@ -126,11 +142,21 @@ export default function ActorEncyclopediaList({
         </div>
 
         {filteredActors.length > 0 ? (
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 xl:grid-cols-8">
-            {filteredActors.map((actor) => (
-              <ActorCard key={actor.slug} actor={actor} />
-            ))}
-          </div>
+          <>
+            <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 xl:grid-cols-8">
+              {visibleActors.map((actor) => (
+                <ActorCard key={actor.slug} actor={actor} />
+              ))}
+            </div>
+
+            {canExpand && (
+              <div className="flex justify-center pt-2">
+                <AtlasButton variant="secondary" onClick={isExpanded ? collapse : showAll}>
+                  {isExpanded ? "Show less" : `View more (${remainingCount})`}
+                </AtlasButton>
+              </div>
+            )}
+          </>
         ) : (
           <EmptyState
             preset="search"

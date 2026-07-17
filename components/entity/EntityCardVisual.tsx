@@ -1,9 +1,12 @@
 import Image from "next/image";
 import type { ReactNode } from "react";
+import EntityImage from "@/components/EntityImage";
+import type { EntityImage as EntityImageModel } from "@/lib/media";
 
 type EntityCardVisualProps = {
   label: "MOVIE" | "DIRECTOR" | "COUNTRY" | "MOVEMENT" | "ACTOR" | "AWARD";
   image?: string;
+  entityImage?: EntityImageModel | null;
   imageAlt?: string;
   tone?: "movie" | "person" | "place" | "movement" | "award" | "default";
   children?: ReactNode;
@@ -12,13 +15,22 @@ type EntityCardVisualProps = {
 export default function EntityCardVisual({
   label,
   image,
+  entityImage,
   imageAlt = "",
   tone = "default",
   children,
 }: EntityCardVisualProps) {
   return (
     <div className="relative aspect-[4/5] overflow-hidden bg-neutral-900">
-      {image ? (
+      {entityImage ? (
+        <EntityImage
+          image={entityImage}
+          fallbackLabel={imageAlt || entityImage.alt}
+          variant={tone === "person" ? "profile" : "thumbnail"}
+          sizes="(min-width: 1280px) 12vw, (min-width: 1024px) 14vw, (min-width: 768px) 20vw, 50vw"
+          className="transition duration-300 group-hover:scale-105"
+        />
+      ) : image ? (
         <Image
           src={image}
           alt={imageAlt}

@@ -1,23 +1,22 @@
-﻿import AwardEncyclopediaList from "@/components/AwardEncyclopediaList";
-import { awards } from "@/data/awards";
-
+import AwardEncyclopediaList from "@/components/AwardEncyclopediaList";
 import GlobalNavigation from "@/components/navigation/GlobalNavigation";
 import PageContainer from "@/components/layout/PageContainer";
 import RecommendedShelfPattern from "@/components/patterns/RecommendedShelfPattern";
 import JourneyCard from "@/components/discovery/JourneyCard";
+import { getAwards } from "@/lib/catalogQuery";
 
-const awardItems = awards.map((award) => ({
-  slug: award.slug,
-  name: award.name,
-  nameKo: award.name,
-  organization: award.organization,
-  region: award.organization,
-  type: "Award / Institution",
-  description: award.description,
-  foundedYear: award.foundedYear,
-}));
+export default async function AwardsPage() {
+  const awardItems = (await getAwards()).map((award) => ({
+    slug: award.slug,
+    name: award.name,
+    nameKo: award.name,
+    organization: award.organization,
+    region: award.organization,
+    type: "Award / Institution",
+    description: award.description,
+    foundedYear: award.foundedYear,
+  }));
 
-export default function AwardsPage() {
   return (
     <>
       <GlobalNavigation />
@@ -77,4 +76,3 @@ export default function AwardsPage() {
     </>
   );
 }
-

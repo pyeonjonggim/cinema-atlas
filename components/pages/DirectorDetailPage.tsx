@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import type { Director } from "@/data/directors";
+import type { EntityImage } from "@/lib/media";
 import type { Movie } from "@/types/movie";
 
 import EncyclopediaEntityHero from "../entity/EncyclopediaEntityHero";
@@ -124,6 +125,7 @@ export default function DirectorDetailPage({
   directors,
   movies,
 }: DirectorDetailPageProps) {
+  const directorMedia = director as Director & { profileImage?: EntityImage | null };
   const directorMovies = movies.filter(
     (movie) => movie.directorSlug === director.slug
   );
@@ -324,6 +326,8 @@ export default function DirectorDetailPage({
           title={director.name}
           subtitle={director.nameKo}
           description={director.description}
+          entityImage={directorMedia.profileImage}
+          imageVariant="portrait"
           meta={[
             { label: "Country", value: director.country },
             {

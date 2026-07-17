@@ -1,0 +1,116 @@
+{
+  "command": "verify:unified-search",
+  "status": "PASS",
+  "checks": [
+    {
+      "query": "Parasite",
+      "count": 3,
+      "first": {
+        "id": "parasite",
+        "slug": "parasite",
+        "entityType": "movie",
+        "title": "Parasite",
+        "href": "/movies/parasite",
+        "score": 100,
+        "matchType": "exact",
+        "matchedField": "title"
+      }
+    },
+    {
+      "query": "Bong Joon Ho",
+      "count": 2,
+      "first": {
+        "id": "bong-joon-ho",
+        "slug": "bong-joon-ho",
+        "entityType": "director",
+        "title": "Bong Joon-ho",
+        "href": "/encyclopedia/directors/bong-joon-ho",
+        "score": 100,
+        "matchType": "exact",
+        "matchedField": "name"
+      }
+    },
+    {
+      "query": "Song Kang",
+      "count": 1,
+      "first": {
+        "id": "song-kang-ho",
+        "slug": "song-kang-ho",
+        "entityType": "actor",
+        "title": "Song Kang-ho",
+        "href": "/encyclopedia/actors/song-kang-ho",
+        "score": 80,
+        "matchType": "prefix",
+        "matchedField": "name"
+      }
+    },
+    {
+      "query": "South Korea",
+      "count": 2,
+      "first": {
+        "id": "bong-joon-ho",
+        "slug": "bong-joon-ho",
+        "entityType": "director",
+        "title": "Bong Joon-ho",
+        "href": "/encyclopedia/directors/bong-joon-ho",
+        "score": 100,
+        "matchType": "exact",
+        "matchedField": "country"
+      }
+    },
+    {
+      "query": "KR",
+      "count": 1,
+      "first": {
+        "id": "korea",
+        "slug": "korea",
+        "entityType": "country",
+        "title": "South Korea",
+        "href": "/encyclopedia/countries/korea",
+        "score": 100,
+        "matchType": "exact",
+        "matchedField": "isoCode"
+      }
+    },
+    {
+      "query": "Korean Contemporary",
+      "count": 2,
+      "first": {
+        "id": "korean-contemporary-cinema",
+        "slug": "korean-contemporary-cinema",
+        "entityType": "movement",
+        "title": "Korean Contemporary Cinema",
+        "href": "/encyclopedia/movements/korean-contemporary-cinema",
+        "score": 80,
+        "matchType": "prefix",
+        "matchedField": "name"
+      }
+    },
+    {
+      "query": "Golden Lion",
+      "count": 1,
+      "first": {
+        "id": "venice-golden-lion",
+        "slug": "venice-golden-lion",
+        "entityType": "award",
+        "title": "Golden Lion",
+        "href": "/encyclopedia/awards/venice-golden-lion",
+        "score": 100,
+        "matchType": "exact",
+        "matchedField": "name"
+      }
+    },
+    {
+      "query": "Parasite",
+      "filter": "movie",
+      "count": 1
+    },
+    {
+      "query": "Korean",
+      "filter": "movement",
+      "count": 1
+    }
+  ],
+  "failures": [],
+  "completedAt": "2026-07-17T19:02:22.326Z"
+}
