@@ -1,31 +1,31 @@
-import { directors } from "@/data/directors";
-import { movies } from "@/data/movies";
-
 import GlobalNavigation from "@/components/navigation/GlobalNavigation";
 import PageContainer from "@/components/layout/PageContainer";
 import DirectorEncyclopediaList from "@/components/DirectorEncyclopediaList";
 import RecommendedShelfPattern from "@/components/patterns/RecommendedShelfPattern";
 import JourneyCard from "@/components/discovery/JourneyCard";
+import { getDirectors, getMovies } from "@/lib/catalogQuery";
 
-const directorItems = directors.map((director) => {
-  const relatedMovieCount = movies.filter(
-    (movie) => movie.directorSlug === director.slug
-  ).length;
+export default async function DirectorsPage() {
+  const directors = await getDirectors();
+  const movies = await getMovies();
+  const directorItems = directors.map((director) => {
+    const relatedMovieCount = movies.filter((movie) =>
+      [movie.directorSlug, ...(movie.directorIds ?? [])].includes(director.slug),
+    ).length;
 
-  return {
-    slug: director.slug,
-    name: director.name,
-    nameKo: director.nameKo,
-    country: director.country,
-    countryFlag: director.countryFlag,
-    description: director.description,
-    styleKeywords: director.styleKeywords,
-    relatedMovieCount,
-    essentialMovieCount: director.knownForMovieIds.length,
-  };
-});
+    return {
+      slug: director.slug,
+      name: director.name,
+      nameKo: director.nameKo,
+      country: director.country,
+      countryFlag: director.countryFlag,
+      description: director.description,
+      styleKeywords: director.styleKeywords,
+      relatedMovieCount,
+      essentialMovieCount: director.knownForMovieIds.length,
+    };
+  });
 
-export default function DirectorsPage() {
   return (
     <>
       <GlobalNavigation />

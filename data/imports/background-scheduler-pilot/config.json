@@ -1,0 +1,5 @@
+{
+  "enabled": true,
+  "intervalMs": 900000,
+  "batchSize": 2
+}

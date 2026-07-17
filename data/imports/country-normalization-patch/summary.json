@@ -1,0 +1,97 @@
+{
+  "expectedCountries": {
+    "br": {
+      "displayName": "Brazil",
+      "slug": "brazil"
+    },
+    "de": {
+      "displayName": "Germany",
+      "slug": "germany"
+    },
+    "fr": {
+      "displayName": "France",
+      "slug": "france"
+    },
+    "jp": {
+      "displayName": "Japan",
+      "slug": "japan"
+    },
+    "us": {
+      "displayName": "United States",
+      "slug": "united-states"
+    },
+    "kr": {
+      "displayName": "South Korea",
+      "slug": "korea"
+    },
+    "cn": {
+      "displayName": "China",
+      "slug": "china"
+    },
+    "hk": {
+      "displayName": "Hong Kong",
+      "slug": "hong-kong"
+    },
+    "tw": {
+      "displayName": "Taiwan",
+      "slug": "taiwan"
+    },
+    "gb": {
+      "displayName": "United Kingdom",
+      "slug": "united-kingdom"
+    }
+  },
+  "dbCountries": [
+    {
+      "id": "br",
+      "rawDisplayName": "BR",
+      "normalizedDisplayName": "Brazil",
+      "isoCode": "BR"
+    },
+    {
+      "id": "de",
+      "rawDisplayName": "DE",
+      "normalizedDisplayName": "Germany",
+      "isoCode": "DE"
+    },
+    {
+      "id": "fr",
+      "rawDisplayName": "FR",
+      "normalizedDisplayName": "France",
+      "isoCode": "FR"
+    },
+    {
+      "id": "gb",
+      "rawDisplayName": "GB",
+      "normalizedDisplayName": "United Kingdom",
+      "isoCode": "GB"
+    },
+    {
+      "id": "hk",
+      "rawDisplayName": "HK",
+      "normalizedDisplayName": "Hong Kong",
+      "isoCode": "HK"
+    },
+    {
+      "id": "jp",
+      "rawDisplayName": "JP",
+      "normalizedDisplayName": "Japan",
+      "isoCode": "JP"
+    },
+    {
+      "id": "kr",
+      "rawDisplayName": "KR",
+      "normalizedDisplayName": "South Korea",
+      "isoCode": "KR"
+    },
+    {
+      "id": "us",
+      "rawDisplayName": "US",
+      "normalizedDisplayName": "United States",
+      "isoCode": "US"
+    }
+  ],
+  "projectionFailures": [],
+  "uiSourceFailures": [],
+  "status": "PASS"
+}

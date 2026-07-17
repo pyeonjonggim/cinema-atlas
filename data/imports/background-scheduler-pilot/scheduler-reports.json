@@ -1,0 +1,88 @@
+[
+  {
+    "schedulerStarted": true,
+    "workerTriggered": true,
+    "skipped": false,
+    "processedJobs": 2,
+    "succeededJobs": 1,
+    "failedJobs": 1,
+    "executionTimeMs": 69.12,
+    "workerReport": {
+      "processedJobs": 2,
+      "succeededJobs": 1,
+      "failedJobs": 1,
+      "executionTimeMs": 68.71,
+      "jobResults": [
+        {
+          "jobId": "scheduler_job_pilot_cf9ca396-8cf3-4bf6-89c4-28d91a76ccf8",
+          "entityId": "scheduler_pilot_1784300491822_success_high",
+          "status": "succeeded",
+          "startedAt": "2026-07-17T15:01:31.906Z",
+          "finishedAt": "2026-07-17T15:01:31.933Z",
+          "executionTimeMs": 26.62
+        },
+        {
+          "jobId": "scheduler_job_pilot_029e51c0-a30f-4b70-a3b2-1b6f39a84a5b",
+          "entityId": "scheduler_pilot_1784300491822_failure_normal",
+          "status": "failed",
+          "error": "forced scheduler pilot failure for scheduler_pilot_1784300491822_failure_normal",
+          "startedAt": "2026-07-17T15:01:31.933Z",
+          "finishedAt": "2026-07-17T15:01:31.963Z",
+          "executionTimeMs": 30.2
+        }
+      ]
+    },
+    "executionLog": {
+      "id": "scheduler_log_786a1a2e-989e-461c-8467-c08311636f10",
+      "startedAt": "2026-07-17T15:01:31.893Z",
+      "finishedAt": "2026-07-17T15:01:31.963Z",
+      "skipped": false,
+      "processedJobs": 2,
+      "succeededJobs": 1,
+      "failedJobs": 1,
+      "executionTimeMs": 69.12
+    }
+  },
+  {
+    "schedulerStarted": true,
+    "workerTriggered": false,
+    "skipped": true,
+    "skipReason": "worker-running",
+    "processedJobs": 0,
+    "succeededJobs": 0,
+    "failedJobs": 0,
+    "executionTimeMs": 0.04,
+    "executionLog": {
+      "id": "scheduler_log_308f6027-60f0-4219-b7ba-e3649442fc38",
+      "startedAt": "2026-07-17T15:01:31.963Z",
+      "finishedAt": "2026-07-17T15:01:31.964Z",
+      "skipped": true,
+      "skipReason": "worker-running",
+      "processedJobs": 0,
+      "succeededJobs": 0,
+      "failedJobs": 0,
+      "executionTimeMs": 0.04
+    }
+  },
+  {
+    "schedulerStarted": true,
+    "workerTriggered": false,
+    "skipped": true,
+    "skipReason": "disabled",
+    "processedJobs": 0,
+    "succeededJobs": 0,
+    "failedJobs": 0,
+    "executionTimeMs": 0.02,
+    "executionLog": {
+      "id": "scheduler_log_e2cc61a9-74c9-4867-8935-45b7818ee30f",
+      "startedAt": "2026-07-17T15:01:31.964Z",
+      "finishedAt": "2026-07-17T15:01:31.964Z",
+      "skipped": true,
+      "skipReason": "disabled",
+      "processedJobs": 0,
+      "succeededJobs": 0,
+      "failedJobs": 0,
+      "executionTimeMs": 0.02
+    }
+  }
+]

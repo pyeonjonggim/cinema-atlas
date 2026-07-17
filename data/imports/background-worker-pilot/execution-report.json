@@ -1,0 +1,36 @@
+{
+  "processedJobs": 3,
+  "succeededJobs": 2,
+  "failedJobs": 1,
+  "executionTimeMs": 99.64,
+  "jobResults": [
+    {
+      "jobId": "worker_job_pilot_5761a04d-d8d8-4f22-836c-1e53a045bd23",
+      "entityType": "movie",
+      "entityId": "worker_pilot_1784300491819_success_high",
+      "status": "succeeded",
+      "startedAt": "2026-07-17T15:01:31.906Z",
+      "finishedAt": "2026-07-17T15:01:31.933Z",
+      "executionTimeMs": 26.53
+    },
+    {
+      "jobId": "worker_job_pilot_b29e7afc-e5e3-4b65-9245-1d91847601a4",
+      "entityType": "movie",
+      "entityId": "worker_pilot_1784300491819_failure",
+      "status": "failed",
+      "error": "forced worker failure for worker_pilot_1784300491819_failure",
+      "startedAt": "2026-07-17T15:01:31.933Z",
+      "finishedAt": "2026-07-17T15:01:31.963Z",
+      "executionTimeMs": 30.25
+    },
+    {
+      "jobId": "worker_job_pilot_96a2159e-dc30-49c9-97d1-2e0b16215c88",
+      "entityType": "movie",
+      "entityId": "worker_pilot_1784300491819_success_after_failure",
+      "status": "succeeded",
+      "startedAt": "2026-07-17T15:01:31.963Z",
+      "finishedAt": "2026-07-17T15:01:31.993Z",
+      "executionTimeMs": 29.8
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "route": "/movies",
+    "entity": "Movie",
+    "source": "CatalogQueryService",
+    "dbBacked": "artifact/static fallback, not live DB"
+  },
+  {
+    "route": "/movies/[id]",
+    "entity": "Movie",
+    "source": "CatalogQueryService",
+    "dbBacked": "artifact/static fallback, not live DB"
+  },
+  {
+    "route": "/encyclopedia/directors",
+    "entity": "Director",
+    "source": "data/directors.ts + data/movies.ts",
+    "dbBacked": "no"
+  },
+  {
+    "route": "/encyclopedia/directors/[director]",
+    "entity": "Director",
+    "source": "data/directors.ts + CatalogQueryService movies",
+    "dbBacked": "partial"
+  },
+  {
+    "route": "/encyclopedia/actors",
+    "entity": "Actor",
+    "source": "data/movies.ts derived map",
+    "dbBacked": "no"
+  },
+  {
+    "route": "/encyclopedia/actors/[actor]",
+    "entity": "Actor",
+    "source": "data/actors.ts + data/movies.ts",
+    "dbBacked": "no"
+  },
+  {
+    "route": "/encyclopedia/countries",
+    "entity": "Country",
+    "source": "data/countries.ts + data/movies.ts",
+    "dbBacked": "no"
+  },
+  {
+    "route": "/encyclopedia/countries/[country]",
+    "entity": "Country",
+    "source": "canonicalEntityQuery + CatalogQueryService movies",
+    "dbBacked": "minimal live DB country lookup"
+  },
+  {
+    "route": "/encyclopedia/movements",
+    "entity": "Movement",
+    "source": "data/movies.ts derived map",
+    "dbBacked": "no"
+  },
+  {
+    "route": "/encyclopedia/movements/[movement]",
+    "entity": "Movement",
+    "source": "data/movements.ts + data/movies.ts",
+    "dbBacked": "no"
+  },
+  {
+    "route": "/encyclopedia/awards",
+    "entity": "Award",
+    "source": "data/awards.ts",
+    "dbBacked": "no"
+  },
+  {
+    "route": "/encyclopedia/awards/[award]",
+    "entity": "Award",
+    "source": "data/awards.ts + data/movies.ts",
+    "dbBacked": "no"
+  }
+]

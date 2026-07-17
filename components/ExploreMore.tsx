@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import ConnectedTo from "@/components/ConnectedTo";
@@ -22,11 +22,11 @@ export default function ExploreMore({ movie }: ExploreMoreProps) {
         </p>
 
         <h2 className="mt-2 text-3xl font-bold">
-          {isOpen ? "▲ Close Details" : "▼ Explore More"}
+          {isOpen ? "Close Details" : "Explore More"}
         </h2>
 
         <p className="mt-3 text-zinc-400">
-          연결된 국가, 감독, 배우, 영화사 흐름을 더 자세히 살펴봅니다.
+          Explore the connected countries, directors, actors, and movements in more detail.
         </p>
       </button>
 
@@ -49,3 +49,4 @@ export default function ExploreMore({ movie }: ExploreMoreProps) {
     </section>
   );
 }
+

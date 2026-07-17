@@ -1,0 +1,13 @@
+{
+  "command": "sync:jobs-pilot",
+  "status": "PASS",
+  "jobsCreated": 3,
+  "duplicatePrevented": true,
+  "successTransitionPassed": true,
+  "failureTransitionPassed": true,
+  "historyPreserved": true,
+  "queueImplemented": false,
+  "workerImplemented": false,
+  "schedulerImplemented": false,
+  "completedAt": "2026-07-17T14:58:47.297Z"
+}

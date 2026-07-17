@@ -1,0 +1,37 @@
+[
+  {
+    "relation_type": "MOVIE_ACTED_BY_PERSON",
+    "target_type": "person",
+    "count": 193
+  },
+  {
+    "relation_type": "MOVIE_DIRECTED_BY_PERSON",
+    "target_type": "person",
+    "count": 10
+  },
+  {
+    "relation_type": "MOVIE_HAS_GENRE",
+    "target_type": "genre",
+    "count": 22
+  },
+  {
+    "relation_type": "MOVIE_PRODUCED_BY_COMPANY",
+    "target_type": "company",
+    "count": 29
+  },
+  {
+    "relation_type": "MOVIE_PRODUCED_IN_COUNTRY",
+    "target_type": "country",
+    "count": 14
+  },
+  {
+    "relation_type": "MOVIE_USES_LANGUAGE",
+    "target_type": "language",
+    "count": 19
+  },
+  {
+    "relation_type": "MOVIE_WRITTEN_BY_PERSON",
+    "target_type": "person",
+    "count": 16
+  }
+]

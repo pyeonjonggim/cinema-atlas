@@ -1,0 +1,52 @@
+[
+  {
+    "id": "sync_job_pilot_bdcfaba0-5e3f-42bf-81aa-821811a079ad",
+    "entityType": "movie",
+    "entityId": "sync_job_pilot_1784300327028_parasite",
+    "provider": "tmdb",
+    "status": "succeeded",
+    "priority": "high",
+    "attemptCount": 1,
+    "createdAt": "2026-07-17T14:58:48.399Z",
+    "startedAt": "2026-07-17T14:58:48.399Z",
+    "finishedAt": "2026-07-17T14:58:48.399Z",
+    "metadata": {
+      "source": "sync-job-pilot",
+      "createdAt": "2026-07-17T14:58:47.039Z",
+      "catalogSyncResult": "mock-pass"
+    }
+  },
+  {
+    "id": "sync_job_pilot_82796477-3d9f-41ac-af52-e48975052b4d",
+    "entityType": "movie",
+    "entityId": "sync_job_pilot_1784300327028_failed",
+    "provider": "tmdb",
+    "status": "failed",
+    "priority": "normal",
+    "attemptCount": 1,
+    "createdAt": "2026-07-17T14:58:48.399Z",
+    "startedAt": "2026-07-17T14:58:48.399Z",
+    "finishedAt": "2026-07-17T14:58:48.399Z",
+    "lastError": "forced pilot failure",
+    "metadata": {
+      "source": "sync-job-pilot",
+      "failedBy": "sync-job-pilot"
+    }
+  },
+  {
+    "id": "sync_job_pilot_5f8edf4d-3009-4d19-a8f8-8961b6b807f2",
+    "entityType": "person",
+    "entityId": "sync_job_pilot_1784300327028_cancelled_person",
+    "provider": "tmdb",
+    "status": "cancelled",
+    "priority": "low",
+    "attemptCount": 0,
+    "createdAt": "2026-07-17T14:58:48.399Z",
+    "finishedAt": "2026-07-17T14:58:48.399Z",
+    "lastError": "pilot cancellation",
+    "metadata": {
+      "source": "sync-job-pilot",
+      "cancelReason": "pilot cancellation"
+    }
+  }
+]

@@ -3,10 +3,10 @@ import PageContainer from "@/components/layout/PageContainer";
 import MovieList from "@/components/MovieList";
 import RecommendedShelfPattern from "@/components/patterns/RecommendedShelfPattern";
 import JourneyCard from "@/components/discovery/JourneyCard";
-import { listMovies } from "@/lib/catalogQuery";
+import { getMovies } from "@/lib/catalogQuery";
 
-export default function MovieListPage() {
-  const movies = listMovies();
+export default async function MovieListPage() {
+  const movies = await getMovies();
 
   return (
     <>

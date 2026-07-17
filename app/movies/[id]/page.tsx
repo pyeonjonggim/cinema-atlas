@@ -1,12 +1,9 @@
 import { notFound } from "next/navigation";
 
 import MovieDetailPage from "@/components/pages/MovieDetailPage";
-import { actors } from "@/data/actors";
 import { awards } from "@/data/awards";
-import { countries } from "@/data/countries";
-import { directors } from "@/data/directors";
 import { movements } from "@/data/movements";
-import { getMovieById, listMovies } from "@/lib/catalogQuery";
+import { getActors, getCountries, getDirectors, getMovieBySlug, getMovies } from "@/lib/catalogQuery";
 
 type MovieDetailRouteProps = {
   params: Promise<{
@@ -18,12 +15,16 @@ export default async function MovieDetailRoute({
   params,
 }: MovieDetailRouteProps) {
   const { id } = await params;
-  const movie = getMovieById(id);
-  const movies = listMovies();
+  const movie = await getMovieBySlug(id);
 
   if (!movie) {
     notFound();
   }
+
+  const movies = await getMovies();
+  const directors = await getDirectors();
+  const actors = await getActors();
+  const countries = await getCountries();
 
   return (
     <MovieDetailPage

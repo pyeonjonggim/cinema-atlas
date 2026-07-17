@@ -1,7 +1,9 @@
-export type Country = {
+﻿export type Country = {
   slug: string;
 
   name: string;
+  displayName?: string;
+  isoCode?: string;
   nameKo: string;
   flag: string;
   region: string;
@@ -26,136 +28,81 @@ export type Country = {
 export const countries: Country[] = [
   {
     slug: "korea",
-
-    name: "Korea",
-    nameKo: "한국",
-    flag: "🇰🇷",
+    name: "South Korea",
+    displayName: "South Korea",
+    isoCode: "KR",
+    nameKo: "South Korea",
+    flag: "South Korea",
     region: "East Asia",
-
     representativeEra: "Korean Contemporary Cinema",
-    knownFor: "Genre + Social Commentary",
-
-    description:
-      "한국영화는 장르적 대중성과 사회적 현실 인식을 결합하며 현대 세계영화에서 강한 존재감을 만들어온 영화 문화이다.",
-
-    whyMatters:
-      "한국영화는 계급, 가족, 도시, 폭력, 역사적 기억을 장르영화 안에 녹여내며 21세기 세계영화에서 중요한 흐름을 형성했다.",
-
-    characteristics: [
-      "장르적 재미와 사회적 메시지의 결합",
-      "가족과 계급 구조에 대한 강한 문제의식",
-      "스릴러, 드라마, 블랙코미디의 혼합",
-    ],
-
+    knownFor: "Genre and social commentary",
+    description: "South Korean cinema combines genre energy with social observation, class critique, family stories, and contemporary global influence.",
+    whyMatters: "South Korea matters because its films show how popular storytelling can carry sharp social critique and emotional force.",
+    characteristics: ["Genre and social commentary", "Class and family structures", "Contemporary global reach"],
     themes: ["Class", "Family", "Capitalism", "Urban Life", "Social Anxiety"],
-
     essentialMovieIds: ["parasite"],
     starterMovieId: "parasite",
-    startingPointReason:
-      "기생충은 현대 한국영화의 장르 감각, 계급의식, 국제적 영향력을 가장 압축적으로 보여주는 작품이다.",
-
+    startingPointReason: "Parasite is the clearest starting point for contemporary Korean cinema's genre precision and class critique.",
     directorSlugs: ["bong-joon-ho"],
     movementSlugs: ["korean-contemporary-cinema"],
   },
-
   {
     slug: "united-states",
-
     name: "United States",
-    nameKo: "미국",
-    flag: "🇺🇸",
+    displayName: "United States",
+    isoCode: "US",
+    nameKo: "United States",
+    flag: "United States",
     region: "North America",
-
     representativeEra: "New Hollywood",
-    knownFor: "Studio System & Genre Cinema",
-
-    description:
-      "미국영화는 할리우드 스튜디오 시스템, 장르영화, 뉴 할리우드, 블록버스터를 통해 세계 영화산업과 영화 언어에 큰 영향을 준 영화 문화이다.",
-
-    whyMatters:
-      "미국영화는 영화산업의 규모뿐 아니라 장르, 스타 시스템, 작가주의와 상업영화의 관계를 이해하는 데 핵심적인 기준점이다.",
-
-    characteristics: [
-      "장르영화와 산업 시스템의 강한 결합",
-      "상업영화와 작가주의의 공존",
-      "세계 영화시장에 대한 막대한 영향력",
-    ],
-
+    knownFor: "Studio systems and genre cinema",
+    description: "American cinema connects studio systems, genre filmmaking, independent film, star culture, and global popular cinema.",
+    whyMatters: "The United States is a major cinema anchor because its industry shaped global film language, distribution, and genre culture.",
+    characteristics: ["Studio and independent traditions", "Genre cinema", "Global distribution influence"],
     themes: ["Power", "Family", "American Myth", "Crime", "Individualism"],
-
     essentialMovieIds: ["the-godfather"],
     starterMovieId: "the-godfather",
-    startingPointReason:
-      "대부는 뉴 할리우드 시대와 미국 장르영화의 깊이를 동시에 이해할 수 있는 대표적인 출발점이다.",
-
+    startingPointReason: "The Godfather is a clear starting point for New Hollywood, American genre cinema, and family tragedy.",
     directorSlugs: ["francis-ford-coppola"],
     movementSlugs: ["new-hollywood"],
   },
-
   {
     slug: "japan",
-
     name: "Japan",
-    nameKo: "일본",
-    flag: "🇯🇵",
+    displayName: "Japan",
+    isoCode: "JP",
+    nameKo: "Japan",
+    flag: "Japan",
     region: "East Asia",
-
     representativeEra: "Japanese Golden Age",
-    knownFor: "Humanism & Auteur Cinema",
-
-    description:
-      "일본영화는 고전기부터 현대까지 강한 작가주의 전통과 장르적 다양성을 통해 세계 영화사에 깊은 영향을 준 영화 문화이다.",
-
-    whyMatters:
-      "일본영화는 구로사와, 오즈, 미조구치 등 거장들을 통해 세계 영화사와 연결되었고, 사무라이 영화, 가족 드라마, 애니메이션 등 다양한 흐름을 형성했다.",
-
-    characteristics: [
-      "강한 작가주의 전통",
-      "도덕, 가족, 전통과 현대성의 충돌",
-      "시각적 형식과 인간주의의 결합",
-    ],
-
+    knownFor: "Humanism and auteur cinema",
+    description: "Japanese cinema connects classical humanism, genre range, formal precision, animation, and major auteur traditions.",
+    whyMatters: "Japan matters because its filmmakers shaped how world cinema thinks about truth, morality, family, and visual form.",
+    characteristics: ["Strong auteur tradition", "Classical and modern genre range", "Global influence on film language"],
     themes: ["Truth", "Morality", "Family", "Tradition", "Modernity"],
-
     essentialMovieIds: ["rashomon"],
     starterMovieId: "rashomon",
-    startingPointReason:
-      "라쇼몽은 일본영화가 세계 영화사에 강하게 각인되는 계기가 된 작품이며, 일본 고전영화 입문작으로 적합하다.",
-
+    startingPointReason: "Rashomon is a clear starting point for Japan's international impact and classical cinema tradition.",
     directorSlugs: ["akira-kurosawa"],
     movementSlugs: ["japanese-golden-age"],
   },
-
   {
     slug: "italy",
-
     name: "Italy",
+    displayName: "Italy",
+    isoCode: "IT",
     nameKo: "Italy",
-    flag: "IT",
+    flag: "Italy",
     region: "Europe",
-
     representativeEra: "Italian Cinema",
-    knownFor: "Festival Culture & Auteur Cinema",
-
-    description:
-      "Italy is an essential country in world cinema, connected to neorealism, auteur filmmaking, major festivals, and the international circulation of film culture.",
-
-    whyMatters:
-      "Italy matters to Cinema Atlas not only through its films and directors, but also through institutions such as the Venice Film Festival, which helped shape how world cinema is discovered and remembered.",
-
-    characteristics: [
-      "A major home of European auteur and festival cinema",
-      "A bridge between national cinema, international festivals, and global film history",
-      "A future catalog anchor for Italian neorealism, modernist cinema, and Venice recognition",
-    ],
-
+    knownFor: "Festival culture and auteur cinema",
+    description: "Italy connects Cinema Atlas to neorealism, auteur cinema, festival culture, and the international circulation of film history.",
+    whyMatters: "Italy matters through its films, directors, and institutions such as the Venice Film Festival.",
+    characteristics: ["European auteur and festival cinema", "National cinema and global film history", "Neorealism and modernist influence"],
     themes: ["Festival Culture", "Auteur Cinema", "European Cinema", "Film History"],
-
     essentialMovieIds: ["rashomon"],
     starterMovieId: "rashomon",
-    startingPointReason:
-      "Rashomon is not an Italian film, but it is the current catalog's clearest connection to Italy through the Venice Golden Lion and the international discovery of Japanese cinema.",
-
+    startingPointReason: "Rashomon is the current catalog's strongest connection to Italy through the Venice Golden Lion.",
     directorSlugs: [],
     movementSlugs: [],
   },

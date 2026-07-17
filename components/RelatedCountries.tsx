@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export type RelatedCountryItem = {
   slug: string;
@@ -39,7 +39,7 @@ export default function RelatedCountries({
               <p className="mt-3 font-semibold text-white">{country.name}</p>
 
               <p className="mt-1 text-sm text-neutral-500">
-                {country.nameKo} · {country.region}
+                {country.region}
               </p>
 
               <p className="mt-3 line-clamp-2 text-sm leading-6 text-neutral-400">

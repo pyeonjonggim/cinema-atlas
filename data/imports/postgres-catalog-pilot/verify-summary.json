@@ -33,12 +33,12 @@
   "persistenceReimportDuplicateMovies": 0,
   "persistenceReimportDuplicateEdges": 0,
   "performanceMs": {
-    "getMovieById": 11.78,
-    "listMovies": 11.58,
-    "getDirectorFilmography": 9.8,
-    "getCountryMovies": 15.7,
-    "getActorFilmography": 9.93,
-    "externalIdLookup": 10.6
+    "getMovieById": 15.48,
+    "listMovies": 23.51,
+    "getDirectorFilmography": 26.77,
+    "getCountryMovies": 20.94,
+    "getActorFilmography": 13.95,
+    "externalIdLookup": 48.01
   },
-  "completedAt": "2026-07-14T16:04:23.742Z"
+  "completedAt": "2026-07-17T04:39:05.247Z"
 }

@@ -1,4 +1,4 @@
-import type { Award } from "@/data/awards";
+﻿import type { Award } from "@/data/awards";
 import type { Country } from "@/data/countries";
 import type { Director } from "@/data/directors";
 import type { Movie } from "@/types/movie";
@@ -307,7 +307,7 @@ export default function AwardDetailPage({
         <EncyclopediaEntityHero
           eyebrow="Award Encyclopedia"
           title={award.name}
-          subtitle={award.nameKo}
+          subtitle={award.organization}
           description={award.description}
           meta={[
             { label: "Founded", value: award.foundedYear },
@@ -346,3 +346,4 @@ export default function AwardDetailPage({
     />
   );
 }
+

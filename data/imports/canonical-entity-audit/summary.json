@@ -1,0 +1,221 @@
+{
+  "command": "audit:canonical-entities",
+  "status": "PASS",
+  "canonicalEntities": [
+    "Movie",
+    "Director",
+    "Actor",
+    "Country",
+    "Movement",
+    "Award"
+  ],
+  "databaseCoverage": {
+    "movie": {
+      "table": "catalog_movies",
+      "records": 10,
+      "slugColumn": true,
+      "sample": [
+        {
+          "id": "mov_509b954f6361",
+          "slug": null,
+          "title": "The Godfather",
+          "release_year": 1972
+        },
+        {
+          "id": "mov_65bbbefc3e7c",
+          "slug": null,
+          "title": "Seven Samurai",
+          "release_year": 1954
+        },
+        {
+          "id": "mov_6604c0455984",
+          "slug": null,
+          "title": "The Seventh Seal",
+          "release_year": 1957
+        },
+        {
+          "id": "mov_83a831e9a75d",
+          "slug": null,
+          "title": "Spirited Away",
+          "release_year": 2001
+        },
+        {
+          "id": "mov_850dbd0ed779",
+          "slug": null,
+          "title": "In the Mood for Love",
+          "release_year": 2000
+        }
+      ]
+    },
+    "director": {
+      "table": "catalog_people",
+      "records": 229,
+      "slugColumn": false,
+      "sample": [
+        {
+          "id": "person_030fd0b78e38",
+          "display_name": "Lee Young-hee",
+          "roles": [
+            "actor"
+          ]
+        },
+        {
+          "id": "person_03f7b9a21f66",
+          "display_name": "Park Keun-rok",
+          "roles": [
+            "actor"
+          ]
+        },
+        {
+          "id": "person_049b27def86b",
+          "display_name": "Hwang Jo-yoon",
+          "roles": [
+            "writer"
+          ]
+        },
+        {
+          "id": "person_05204965b265",
+          "display_name": "Salvatore Corsitto",
+          "roles": [
+            "actor"
+          ]
+        },
+        {
+          "id": "person_057397000014",
+          "display_name": "Nancy García García",
+          "roles": [
+            "actor"
+          ]
+        }
+      ]
+    },
+    "actor": {
+      "table": "catalog_people",
+      "records": 229,
+      "slugColumn": false,
+      "sample": [
+        {
+          "id": "person_030fd0b78e38",
+          "display_name": "Lee Young-hee",
+          "roles": [
+            "actor"
+          ]
+        },
+        {
+          "id": "person_03f7b9a21f66",
+          "display_name": "Park Keun-rok",
+          "roles": [
+            "actor"
+          ]
+        },
+        {
+          "id": "person_049b27def86b",
+          "display_name": "Hwang Jo-yoon",
+          "roles": [
+            "writer"
+          ]
+        },
+        {
+          "id": "person_05204965b265",
+          "display_name": "Salvatore Corsitto",
+          "roles": [
+            "actor"
+          ]
+        },
+        {
+          "id": "person_057397000014",
+          "display_name": "Nancy García García",
+          "roles": [
+            "actor"
+          ]
+        }
+      ]
+    },
+    "country": {
+      "table": "catalog_countries",
+      "records": 9,
+      "slugColumn": false,
+      "sample": [
+        {
+          "id": "br",
+          "iso_code": "BR",
+          "display_name": "BR"
+        },
+        {
+          "id": "de",
+          "iso_code": "DE",
+          "display_name": "DE"
+        },
+        {
+          "id": "fr",
+          "iso_code": "FR",
+          "display_name": "FR"
+        },
+        {
+          "id": "gb",
+          "iso_code": "GB",
+          "display_name": "GB"
+        },
+        {
+          "id": "hk",
+          "iso_code": "HK",
+          "display_name": "HK"
+        }
+      ]
+    },
+    "movement": {
+      "table": null,
+      "records": 0,
+      "slugColumn": false,
+      "sample": [],
+      "note": "No catalog_movements table in PostgreSQL v1 schema."
+    },
+    "award": {
+      "table": null,
+      "records": 0,
+      "slugColumn": false,
+      "sample": [],
+      "note": "No catalog_awards table in PostgreSQL v1 schema."
+    }
+  },
+  "relationCoverage": [
+    {
+      "relation_type": "MOVIE_ACTED_BY_PERSON",
+      "target_type": "person",
+      "count": 193
+    },
+    {
+      "relation_type": "MOVIE_DIRECTED_BY_PERSON",
+      "target_type": "person",
+      "count": 10
+    },
+    {
+      "relation_type": "MOVIE_HAS_GENRE",
+      "target_type": "genre",
+      "count": 22
+    },
+    {
+      "relation_type": "MOVIE_PRODUCED_BY_COMPANY",
+      "target_type": "company",
+      "count": 29
+    },
+    {
+      "relation_type": "MOVIE_PRODUCED_IN_COUNTRY",
+      "target_type": "country",
+      "count": 14
+    },
+    {
+      "relation_type": "MOVIE_USES_LANGUAGE",
+      "target_type": "language",
+      "count": 19
+    },
+    {
+      "relation_type": "MOVIE_WRITTEN_BY_PERSON",
+      "target_type": "person",
+      "count": 16
+    }
+  ],
+  "routeCount": 12,
+  "liveDbConnectedEntity": "Country detail route",
+  "generatedAt": "2026-07-17T15:20:34.500Z"
+}

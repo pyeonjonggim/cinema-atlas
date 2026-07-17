@@ -1,0 +1,32 @@
+[
+  {
+    "entity": "Movie",
+    "coverage": "stored",
+    "notes": "CatalogSyncService can upsert catalog_movies."
+  },
+  {
+    "entity": "Director",
+    "coverage": "stored as person + relationship",
+    "notes": "Director role saved in catalog_people and MOVIE_DIRECTED_BY_PERSON edges."
+  },
+  {
+    "entity": "Actor",
+    "coverage": "stored as person + relationship",
+    "notes": "Cast saved in catalog_people and MOVIE_ACTED_BY_PERSON edges."
+  },
+  {
+    "entity": "Country",
+    "coverage": "stored + relationship",
+    "notes": "catalog_countries and MOVIE_PRODUCED_IN_COUNTRY edges."
+  },
+  {
+    "entity": "Movement",
+    "coverage": "curated edge only in pilot",
+    "notes": "No automatic provider sync or table."
+  },
+  {
+    "entity": "Award",
+    "coverage": "not stored",
+    "notes": "No catalog_awards table and no automatic sync runner."
+  }
+]

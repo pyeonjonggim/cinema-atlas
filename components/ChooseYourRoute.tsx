@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 type RouteItem = {
   icon: string;
@@ -42,21 +42,21 @@ export default function ChooseYourRoute({
 }: ChooseYourRouteProps) {
   const routes: RouteItem[] = [
     {
-      icon: "🎥",
+      icon: "D",
       title: "Director Route",
       subtitle: director,
       description: `Continue exploring ${director}'s filmography after ${movieTitle}.`,
       href: `/encyclopedia/directors/${directorSlug}`,
     },
     {
-      icon: "🌍",
+      icon: "C",
       title: "Country Route",
       subtitle: country,
       description: `Travel deeper into ${country} cinema.`,
       href: `/encyclopedia/countries/${countrySlug}`,
     },
     {
-      icon: "📚",
+      icon: "M",
       title: "Movement Route",
       subtitle: movement,
       description: `Discover more films from ${movement}.`,
@@ -66,7 +66,7 @@ export default function ChooseYourRoute({
 
   if (mainActor && mainActorSlug) {
     routes.push({
-      icon: "🎭",
+      icon: "A",
       title: "Actor Route",
       subtitle: mainActor,
       description: "Explore films connected by cast and performance.",
@@ -76,7 +76,7 @@ export default function ChooseYourRoute({
 
   if (award && awardSlug) {
     routes.push({
-      icon: "🏆",
+      icon: "W",
       title: "Awards Route",
       subtitle: award,
       description: "Follow award-winning films and festival history.",
@@ -90,10 +90,10 @@ export default function ChooseYourRoute({
         Continue Journey
       </p>
 
-      <h2 className="mt-2 text-3xl font-bold">🧭 Choose Your Route</h2>
+      <h2 className="mt-2 text-3xl font-bold">Choose Your Route</h2>
 
       <p className="mt-3 max-w-2xl text-zinc-400">
-        이 영화를 본 뒤, 어떤 방향으로 영화 여행을 이어갈지 선택하세요.
+        After this film, choose the next direction for your cinema journey.
       </p>
 
       <div className="mt-6 grid gap-4 md:grid-cols-2">
@@ -116,7 +116,7 @@ export default function ChooseYourRoute({
             </p>
 
             <p className="mt-5 text-sm font-semibold text-zinc-400">
-              Continue Journey →
+              Continue Journey
             </p>
           </Link>
         ))}
@@ -124,3 +124,11 @@ export default function ChooseYourRoute({
     </section>
   );
 }
+
+
+
+
+
+
+
+

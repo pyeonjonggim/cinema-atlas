@@ -1,0 +1,56 @@
+{
+  "command": "verify:canonical-query-phase-a",
+  "status": "PASS",
+  "canonicalSource": "PostgreSQL via CatalogQueryService",
+  "entitiesVerified": [
+    "Movie",
+    "Director",
+    "Actor",
+    "Country"
+  ],
+  "slugSamples": {
+    "movie": [
+      {
+        "slug": "mov_65bbbefc3e7c",
+        "label": "Seven Samurai"
+      },
+      {
+        "slug": "mov_6604c0455984",
+        "label": "The Seventh Seal"
+      }
+    ],
+    "director": [
+      {
+        "slug": "akira-kurosawa",
+        "label": "Akira Kurosawa"
+      },
+      {
+        "slug": "alfonso-cuaron",
+        "label": "Alfonso Cuarón"
+      }
+    ],
+    "actor": [
+      {
+        "slug": "abe-vigoda",
+        "label": "Abe Vigoda"
+      },
+      {
+        "slug": "ahn-seong-bong",
+        "label": "Ahn Seong-bong"
+      }
+    ],
+    "country": [
+      {
+        "slug": "br",
+        "label": "BR"
+      },
+      {
+        "slug": "de",
+        "label": "DE"
+      }
+    ]
+  },
+  "jsonArtifactCanonicalSource": false,
+  "pagesCallRepositoryDirectly": false,
+  "generatedAt": "2026-07-17T15:35:17.258Z"
+}
