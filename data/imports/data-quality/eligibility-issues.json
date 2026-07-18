@@ -1,0 +1,9 @@
+{
+  "excludedActorEdges": [
+    {
+      "id": "person_3bd3356c12d2",
+      "display_name": "Adolf Hitler",
+      "movie_id": "mov_e9968e11e625"
+    }
+  ]
+}

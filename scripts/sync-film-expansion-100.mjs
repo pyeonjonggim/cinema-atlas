@@ -168,7 +168,8 @@ function relationEntities(record, draft, movieId, target, editorialLink) {
 
   for (const credit of record.credits ?? []) {
     if (!["director", "writer", "actor"].includes(credit.role)) continue;
-    if (credit.role === "actor" && Number.isFinite(credit.order) && credit.order >= 10) continue;
+    if (credit.role === "actor" && Number.isFinite(credit.billingOrder) && credit.billingOrder >= 10) continue;
+    if (credit.role === "actor" && isNonPerformingActorCredit(credit)) continue;
     const personId = stableEntityId("person", credit.externalPersonId ?? credit.name);
     const existing = people.get(personId);
     const roles = unique([...(existing?.roles ?? []), credit.role]);
@@ -244,6 +245,16 @@ function relationEntities(record, draft, movieId, target, editorialLink) {
     },
     edges,
   };
+}
+
+function isNonPerformingActorCredit(credit) {
+  const character = String(credit.character ?? "").toLowerCase();
+  return (
+    character.includes("archive footage") ||
+    /\bself\b|himself|herself|themselves/.test(character) ||
+    character.includes("interview") ||
+    character.includes("narrator")
+  );
 }
 
 async function writeArtifact(fileName, payload) {

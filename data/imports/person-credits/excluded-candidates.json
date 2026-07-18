@@ -1,0 +1,1322 @@
+[
+  {
+    "tmdbId": "11990",
+    "name": "Reinhard Heydrich",
+    "slug": "reinhard-heydrich",
+    "classes": [
+      "ARCHIVE_FOOTAGE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Night and Fog",
+        "providerMovieId": "803",
+        "role": "actor",
+        "character": "Self (archive footage) (uncredited)",
+        "billingOrder": 1,
+        "classification": "ARCHIVE_FOOTAGE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "11991",
+    "name": "Heinrich Himmler",
+    "slug": "heinrich-himmler",
+    "classes": [
+      "ARCHIVE_FOOTAGE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Night and Fog",
+        "providerMovieId": "803",
+        "role": "actor",
+        "character": "Self (archive footage) (uncredited)",
+        "billingOrder": 2,
+        "classification": "ARCHIVE_FOOTAGE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "11992",
+    "name": "Julius Streicher",
+    "slug": "julius-streicher",
+    "classes": [
+      "ARCHIVE_FOOTAGE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Night and Fog",
+        "providerMovieId": "803",
+        "role": "actor",
+        "character": "Self (archive footage) (uncredited)",
+        "billingOrder": 4,
+        "classification": "ARCHIVE_FOOTAGE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "134119",
+    "name": "William Gates",
+    "slug": "william-gates",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Hoop Dreams",
+        "providerMovieId": "14275",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 0,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "134120",
+    "name": "Arthur Agee",
+    "slug": "arthur-agee",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Hoop Dreams",
+        "providerMovieId": "14275",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 1,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "3954832",
+    "name": "Gene Pingatore",
+    "slug": "gene-pingatore",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Hoop Dreams",
+        "providerMovieId": "14275",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 2,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1224931",
+    "name": "Dick Vitale",
+    "slug": "dick-vitale",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Hoop Dreams",
+        "providerMovieId": "14275",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 4,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1222350",
+    "name": "Bobby Knight",
+    "slug": "bobby-knight",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Hoop Dreams",
+        "providerMovieId": "14275",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 5,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1225387",
+    "name": "Isiah Thomas",
+    "slug": "isiah-thomas",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Hoop Dreams",
+        "providerMovieId": "14275",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 7,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1172489",
+    "name": "Anwar Congo",
+    "slug": "anwar-congo",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "The Act of Killing",
+        "providerMovieId": "123678",
+        "role": "actor",
+        "character": "Self - Executioner in 1965",
+        "billingOrder": 0,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1349417",
+    "name": "Herman Koto",
+    "slug": "herman-koto",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "The Act of Killing",
+        "providerMovieId": "123678",
+        "role": "actor",
+        "character": "Self - Gangster & Paramilitary Leader",
+        "billingOrder": 1,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1172487",
+    "name": "Syamsul Arifin",
+    "slug": "syamsul-arifin",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "The Act of Killing",
+        "providerMovieId": "123678",
+        "role": "actor",
+        "character": "Self - Governor of North Sumatra",
+        "billingOrder": 2,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1349439",
+    "name": "Ibrahim Sinik",
+    "slug": "ibrahim-sinik",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "The Act of Killing",
+        "providerMovieId": "123678",
+        "role": "actor",
+        "character": "Self - Newspaper Publisher",
+        "billingOrder": 3,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1349440",
+    "name": "Yapto Soerjosoemarno",
+    "slug": "yapto-soerjosoemarno",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "The Act of Killing",
+        "providerMovieId": "123678",
+        "role": "actor",
+        "character": "Self - Leader of Pancasila Youth",
+        "billingOrder": 4,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1349441",
+    "name": "Safit Pardede",
+    "slug": "safit-pardede",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "The Act of Killing",
+        "providerMovieId": "123678",
+        "role": "actor",
+        "character": "Self - Local Paramilitary Leader",
+        "billingOrder": 5,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1349442",
+    "name": "Jusuf Kalla",
+    "slug": "jusuf-kalla",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "The Act of Killing",
+        "providerMovieId": "123678",
+        "role": "actor",
+        "character": "Self - Vice President of Indonesia",
+        "billingOrder": 6,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1349443",
+    "name": "Adi Zulkadry",
+    "slug": "adi-zulkadry",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "The Act of Killing",
+        "providerMovieId": "123678",
+        "role": "actor",
+        "character": "Self - Fellow Executioner in 1965",
+        "billingOrder": 7,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "2871852",
+    "name": "Suryono",
+    "slug": "suryono",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "The Act of Killing",
+        "providerMovieId": "123678",
+        "role": "actor",
+        "character": "Self - Anwar's Neighbor",
+        "billingOrder": 8,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "2871853",
+    "name": "Haji Marzuki",
+    "slug": "haji-marzuki",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "The Act of Killing",
+        "providerMovieId": "123678",
+        "role": "actor",
+        "character": "Self - Member of North Sumatra Parliament",
+        "billingOrder": 9,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1172486",
+    "name": "Haji Anif",
+    "slug": "haji-anif",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "The Act of Killing",
+        "providerMovieId": "123678",
+        "role": "actor",
+        "character": "Self - Paramilitary Leader & Businessman",
+        "billingOrder": 10,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "2871855",
+    "name": "Rahmat Shah",
+    "slug": "rahmat-shah",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "The Act of Killing",
+        "providerMovieId": "123678",
+        "role": "actor",
+        "character": "Self - Member of Parliament",
+        "billingOrder": 11,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1172488",
+    "name": "Sakhyan Asmara",
+    "slug": "sakhyan-asmara",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "The Act of Killing",
+        "providerMovieId": "123678",
+        "role": "actor",
+        "character": "Self - Deputy Minister of Youth & Sport",
+        "billingOrder": 12,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "2871849",
+    "name": "Soaduon Siregar",
+    "slug": "soaduon-siregar",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "The Act of Killing",
+        "providerMovieId": "123678",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 13,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1197444",
+    "name": "Simon Srebnik",
+    "slug": "simon-srebnik",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Shoah",
+        "providerMovieId": "42044",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 1,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1197445",
+    "name": "Michael Podchlebnik",
+    "slug": "michael-podchlebnik",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Shoah",
+        "providerMovieId": "42044",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 2,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1197446",
+    "name": "Motke Zaidl",
+    "slug": "motke-zaidl",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Shoah",
+        "providerMovieId": "42044",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 3,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1182964",
+    "name": "Jan Karski",
+    "slug": "jan-karski",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Shoah",
+        "providerMovieId": "42044",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 4,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "2067223",
+    "name": "Paula Biren",
+    "slug": "paula-biren",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Shoah",
+        "providerMovieId": "42044",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 5,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "2697960",
+    "name": "Abraham Bomba",
+    "slug": "abraham-bomba",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Shoah",
+        "providerMovieId": "42044",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 6,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "2697962",
+    "name": "Inge Deutschkron",
+    "slug": "inge-deutschkron",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Shoah",
+        "providerMovieId": "42044",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 7,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "2067222",
+    "name": "Ruth Elias",
+    "slug": "ruth-elias",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Shoah",
+        "providerMovieId": "42044",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 8,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "2697964",
+    "name": "Richard Glazar",
+    "slug": "richard-glazar",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Shoah",
+        "providerMovieId": "42044",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 9,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "2697965",
+    "name": "Filip Müller",
+    "slug": "filip-muller",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Shoah",
+        "providerMovieId": "42044",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 10,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "2697966",
+    "name": "Rudolf Vrba",
+    "slug": "rudolf-vrba",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Shoah",
+        "providerMovieId": "42044",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 11,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "2697967",
+    "name": "Raul Hilberg",
+    "slug": "raul-hilberg",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Shoah",
+        "providerMovieId": "42044",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 12,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "3854379",
+    "name": "Hanna Zaïdl",
+    "slug": "hanna-zaidl",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Shoah",
+        "providerMovieId": "42044",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 13,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "3854380",
+    "name": "Jan Piwonski",
+    "slug": "jan-piwonski",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Shoah",
+        "providerMovieId": "42044",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 14,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "3854381",
+    "name": "Itzhak Dugin",
+    "slug": "itzhak-dugin",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Shoah",
+        "providerMovieId": "42044",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 15,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "3854382",
+    "name": "Helena Pietyra",
+    "slug": "helena-pietyra",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Shoah",
+        "providerMovieId": "42044",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 16,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "3854383",
+    "name": "Pan Filipowicz",
+    "slug": "pan-filipowicz",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Shoah",
+        "providerMovieId": "42044",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 17,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "3854384",
+    "name": "Pan Falborski",
+    "slug": "pan-falborski",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Shoah",
+        "providerMovieId": "42044",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 18,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "3854385",
+    "name": "Czeslaw Borowi",
+    "slug": "czeslaw-borowi",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Shoah",
+        "providerMovieId": "42044",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 19,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "585502",
+    "name": "Ori Sivan",
+    "slug": "ori-sivan",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Waltz with Bashir",
+        "providerMovieId": "8885",
+        "role": "actor",
+        "character": "Self (voice)",
+        "billingOrder": 2,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "72569",
+    "name": "Ronny Dayag",
+    "slug": "ronny-dayag",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Waltz with Bashir",
+        "providerMovieId": "8885",
+        "role": "actor",
+        "character": "Self (voice)",
+        "billingOrder": 4,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "2646508",
+    "name": "Shmuel Frenkel",
+    "slug": "shmuel-frenkel",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Waltz with Bashir",
+        "providerMovieId": "8885",
+        "role": "actor",
+        "character": "Self (voice)",
+        "billingOrder": 5,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "2646509",
+    "name": "Zahava Solomon",
+    "slug": "zahava-solomon",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Waltz with Bashir",
+        "providerMovieId": "8885",
+        "role": "actor",
+        "character": "Self (voice)",
+        "billingOrder": 6,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "72567",
+    "name": "Ron Ben-Yishai",
+    "slug": "ron-ben-yishai",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Waltz with Bashir",
+        "providerMovieId": "8885",
+        "role": "actor",
+        "character": "Self (voice)",
+        "billingOrder": 7,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "72573",
+    "name": "Dror Harazi",
+    "slug": "dror-harazi",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Waltz with Bashir",
+        "providerMovieId": "8885",
+        "role": "actor",
+        "character": "Self (voice)",
+        "billingOrder": 8,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1118644",
+    "name": "Hossain Sabzian",
+    "slug": "hossain-sabzian",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Close-Up",
+        "providerMovieId": "30017",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 0,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "143370",
+    "name": "Monoochehr Ahankhah",
+    "slug": "monoochehr-ahankhah",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Close-Up",
+        "providerMovieId": "30017",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 1,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "143371",
+    "name": "Mahrokh Ahankhah",
+    "slug": "mahrokh-ahankhah",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Close-Up",
+        "providerMovieId": "30017",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 2,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1118645",
+    "name": "Abolfazl Ahankhah",
+    "slug": "abolfazl-ahankhah",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Close-Up",
+        "providerMovieId": "30017",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 3,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1118646",
+    "name": "Mehrdad Ahankhah",
+    "slug": "mehrdad-ahankhah",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Close-Up",
+        "providerMovieId": "30017",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 4,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "143372",
+    "name": "Nayer Mohseni Zonoozi",
+    "slug": "nayer-mohseni-zonoozi",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Close-Up",
+        "providerMovieId": "30017",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 5,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "3116896",
+    "name": "Hassan Farazmand",
+    "slug": "hassan-farazmand",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Close-Up",
+        "providerMovieId": "30017",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 14,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "3116898",
+    "name": "Hushang Shahai",
+    "slug": "hushang-shahai",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Close-Up",
+        "providerMovieId": "30017",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 15,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "120226",
+    "name": "Mohsen Makhmalbaf",
+    "slug": "mohsen-makhmalbaf",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Close-Up",
+        "providerMovieId": "30017",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 16,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "554586",
+    "name": "Ahmad Ansari",
+    "slug": "ahmad-ansari",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Taste of Cherry",
+        "providerMovieId": "30020",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 6,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1555363",
+    "name": "René Depestre",
+    "slug": "rene-depestre",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Memories of Underdevelopment",
+        "providerMovieId": "47576",
+        "role": "actor",
+        "character": "Himself / Panelist",
+        "billingOrder": 12,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1555364",
+    "name": "Edmundo Desnoes",
+    "slug": "edmundo-desnoes",
+    "classes": [
+      "SELF_APPEARANCE"
+    ],
+    "status": "EXCLUDED_CANDIDATE",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Memories of Underdevelopment",
+        "providerMovieId": "47576",
+        "role": "actor",
+        "character": "Himself",
+        "billingOrder": 13,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  }
+]

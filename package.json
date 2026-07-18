@@ -29,7 +29,11 @@
     "verify:unified-search": "node scripts/verify-unified-search.mjs",
     "sync:films:100": "node scripts/sync-film-expansion-100.mjs",
     "verify:catalog:100": "node scripts/verify-catalog-100.mjs",
-    "verify:media": "node scripts/verify-media-foundation.mjs"
+    "verify:media": "node scripts/verify-media-foundation.mjs",
+    "verify:persons": "node scripts/verify-person-integrity.mjs",
+    "verify:person-credits": "node scripts/verify-person-credits.mjs",
+    "verify:country-review": "node scripts/verify-country-review.mjs",
+    "verify:data-quality": "node scripts/verify-data-quality.mjs"
   },
   "dependencies": {
     "next": "16.2.10",

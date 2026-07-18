@@ -1,0 +1,10 @@
+{
+  "command": "verify:country-review",
+  "status": "PASS",
+  "candidates": 40,
+  "verified": 12,
+  "review": 0,
+  "unknown": 28,
+  "remaining": 28,
+  "completedAt": "2026-07-18T02:38:55.335Z"
+}

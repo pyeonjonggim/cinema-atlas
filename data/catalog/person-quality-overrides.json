@@ -1,0 +1,9 @@
+{
+  "excludedActors": [
+    {
+      "name": "Adolf Hitler",
+      "reason": "HISTORICAL_FIGURE_ARCHIVE_FOOTAGE",
+      "note": "Historical figures appearing through archival material are not published as Actor Encyclopedia entries."
+    }
+  ]
+}

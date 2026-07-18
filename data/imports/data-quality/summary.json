@@ -1,0 +1,38 @@
+{
+  "command": "verify:data-quality",
+  "status": "PASS",
+  "counts": {
+    "movies": 116,
+    "persons": 2098,
+    "countries": 38
+  },
+  "slugIssues": {
+    "duplicatePersonSlugs": 0,
+    "duplicateMovieSlugs": 0,
+    "emptyPersonSlugs": 0,
+    "emptyMovieSlugs": 0
+  },
+  "graphIssues": {
+    "brokenEdges": 0,
+    "duplicateEdges": 0,
+    "moviesWithoutDirector": 0,
+    "moviesWithoutCountry": 0,
+    "orphanPeople": 19
+  },
+  "countryIssues": {
+    "rawCountryDisplays": 0,
+    "reviewCandidates": 43
+  },
+  "eligibility": {
+    "excludedActorEdges": 1
+  },
+  "mediaCoverage": {
+    "moviesWithPoster": 116,
+    "moviesWithoutPoster": 0,
+    "personsWithProfile": 1527,
+    "personsWithoutProfile": 571,
+    "malformedPosterPaths": 0,
+    "malformedProfilePaths": 0
+  },
+  "completedAt": "2026-07-18T02:39:01.129Z"
+}
