@@ -1,0 +1,522 @@
+[
+  {
+    "id": "person_15de69a1d17e",
+    "name": "Ari Folman",
+    "slug": "ari-folman",
+    "inferredCountries": [
+      {
+        "countryId": "au",
+        "count": 1
+      },
+      {
+        "countryId": "be",
+        "count": 1
+      },
+      {
+        "countryId": "ch",
+        "count": 1
+      },
+      {
+        "countryId": "de",
+        "count": 1
+      },
+      {
+        "countryId": "fi",
+        "count": 1
+      },
+      {
+        "countryId": "fr",
+        "count": 1
+      },
+      {
+        "countryId": "il",
+        "count": 1
+      },
+      {
+        "countryId": "us",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_09a0122113d4",
+    "name": "Charlotte Wells",
+    "slug": "charlotte-wells",
+    "inferredCountries": [
+      {
+        "countryId": "gb",
+        "count": 1
+      },
+      {
+        "countryId": "us",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_34bb202b17bc",
+    "name": "Chen Kaige",
+    "slug": "chen-kaige",
+    "inferredCountries": [
+      {
+        "countryId": "cn",
+        "count": 1
+      },
+      {
+        "countryId": "hk",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_75987c458ff5",
+    "name": "Damián Szifron",
+    "slug": "damian-szifron",
+    "inferredCountries": [
+      {
+        "countryId": "ar",
+        "count": 1
+      },
+      {
+        "countryId": "es",
+        "count": 1
+      },
+      {
+        "countryId": "fr",
+        "count": 1
+      },
+      {
+        "countryId": "gb",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_ad8a1349bf68",
+    "name": "Fernando Meirelles",
+    "slug": "fernando-meirelles",
+    "inferredCountries": [
+      {
+        "countryId": "br",
+        "count": 1
+      },
+      {
+        "countryId": "de",
+        "count": 1
+      },
+      {
+        "countryId": "fr",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_9626db05e032",
+    "name": "Florian Henckel von Donnersmarck",
+    "slug": "florian-henckel-von-donnersmarck",
+    "inferredCountries": [
+      {
+        "countryId": "de",
+        "count": 1
+      },
+      {
+        "countryId": "fr",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_997f60adfe46",
+    "name": "George Miller",
+    "slug": "george-miller",
+    "inferredCountries": [
+      {
+        "countryId": "au",
+        "count": 1
+      },
+      {
+        "countryId": "us",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_809d49d06eae",
+    "name": "Gillo Pontecorvo",
+    "slug": "gillo-pontecorvo",
+    "inferredCountries": [
+      {
+        "countryId": "dz",
+        "count": 1
+      },
+      {
+        "countryId": "it",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_ef0b9dc30aec",
+    "name": "Giuseppe Tornatore",
+    "slug": "giuseppe-tornatore",
+    "inferredCountries": [
+      {
+        "countryId": "fr",
+        "count": 1
+      },
+      {
+        "countryId": "it",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_416013b8daef",
+    "name": "Guillermo del Toro",
+    "slug": "guillermo-del-toro",
+    "inferredCountries": [
+      {
+        "countryId": "es",
+        "count": 1
+      },
+      {
+        "countryId": "mx",
+        "count": 1
+      },
+      {
+        "countryId": "us",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_cfc1715d407a",
+    "name": "Haifaa al-Mansour",
+    "slug": "haifaa-al-mansour",
+    "inferredCountries": [
+      {
+        "countryId": "de",
+        "count": 1
+      },
+      {
+        "countryId": "sa",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_9fc70bb0f637",
+    "name": "Jean-Pierre Jeunet",
+    "slug": "jean-pierre-jeunet",
+    "inferredCountries": [
+      {
+        "countryId": "de",
+        "count": 1
+      },
+      {
+        "countryId": "fr",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_08cf6b09ea10",
+    "name": "Jonathan Glazer",
+    "slug": "jonathan-glazer",
+    "inferredCountries": [
+      {
+        "countryId": "gb",
+        "count": 1
+      },
+      {
+        "countryId": "pl",
+        "count": 1
+      },
+      {
+        "countryId": "us",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_a5add190cb5f",
+    "name": "Joshua Oppenheimer",
+    "slug": "joshua-oppenheimer",
+    "inferredCountries": [
+      {
+        "countryId": "dk",
+        "count": 1
+      },
+      {
+        "countryId": "gb",
+        "count": 1
+      },
+      {
+        "countryId": "no",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_4b35b2d7f731",
+    "name": "Juan José Campanella",
+    "slug": "juan-jose-campanella",
+    "inferredCountries": [
+      {
+        "countryId": "ar",
+        "count": 1
+      },
+      {
+        "countryId": "es",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_b5c53e699dea",
+    "name": "Lee Chang-dong",
+    "slug": "lee-chang-dong",
+    "inferredCountries": [
+      {
+        "countryId": "jp",
+        "count": 1
+      },
+      {
+        "countryId": "kr",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_84c52f1d303a",
+    "name": "Marcel Camus",
+    "slug": "marcel-camus",
+    "inferredCountries": [
+      {
+        "countryId": "br",
+        "count": 1
+      },
+      {
+        "countryId": "fr",
+        "count": 1
+      },
+      {
+        "countryId": "it",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_7ab5cb79e0be",
+    "name": "Marjane Satrapi",
+    "slug": "marjane-satrapi",
+    "inferredCountries": [
+      {
+        "countryId": "fr",
+        "count": 1
+      },
+      {
+        "countryId": "us",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_950f924ce21a",
+    "name": "Mati Diop",
+    "slug": "mati-diop",
+    "inferredCountries": [
+      {
+        "countryId": "be",
+        "count": 1
+      },
+      {
+        "countryId": "fr",
+        "count": 1
+      },
+      {
+        "countryId": "sn",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_70ac8fc73af7",
+    "name": "Nadine Labaki",
+    "slug": "nadine-labaki",
+    "inferredCountries": [
+      {
+        "countryId": "fr",
+        "count": 1
+      },
+      {
+        "countryId": "gb",
+        "count": 1
+      },
+      {
+        "countryId": "lb",
+        "count": 1
+      },
+      {
+        "countryId": "us",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_0ab5db68c824",
+    "name": "Naji Abu Nowar",
+    "slug": "naji-abu-nowar",
+    "inferredCountries": [
+      {
+        "countryId": "ae",
+        "count": 1
+      },
+      {
+        "countryId": "ch",
+        "count": 1
+      },
+      {
+        "countryId": "gb",
+        "count": 1
+      },
+      {
+        "countryId": "jo",
+        "count": 1
+      },
+      {
+        "countryId": "qa",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_3a21912e3a2c",
+    "name": "Ousmane Sembène",
+    "slug": "ousmane-sembene",
+    "inferredCountries": [
+      {
+        "countryId": "fr",
+        "count": 1
+      },
+      {
+        "countryId": "sn",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_b056923e10b1",
+    "name": "Patricio Guzmán",
+    "slug": "patricio-guzman",
+    "inferredCountries": [
+      {
+        "countryId": "cl",
+        "count": 1
+      },
+      {
+        "countryId": "de",
+        "count": 1
+      },
+      {
+        "countryId": "fr",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_0c8b9369aed1",
+    "name": "René Laloux",
+    "slug": "rene-laloux",
+    "inferredCountries": [
+      {
+        "countryId": "fr",
+        "count": 1
+      },
+      {
+        "countryId": "xc",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_ec265def2dd3",
+    "name": "Sebastián Lelio",
+    "slug": "sebastian-lelio",
+    "inferredCountries": [
+      {
+        "countryId": "cl",
+        "count": 1
+      },
+      {
+        "countryId": "de",
+        "count": 1
+      },
+      {
+        "countryId": "es",
+        "count": 1
+      },
+      {
+        "countryId": "us",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_a6cb3c949d56",
+    "name": "Souleymane Cissé",
+    "slug": "souleymane-cisse",
+    "inferredCountries": [
+      {
+        "countryId": "bf",
+        "count": 1
+      },
+      {
+        "countryId": "de",
+        "count": 1
+      },
+      {
+        "countryId": "fr",
+        "count": 1
+      },
+      {
+        "countryId": "jp",
+        "count": 1
+      },
+      {
+        "countryId": "ml",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_022ba314cd82",
+    "name": "Vincent Paronnaud",
+    "slug": "vincent-paronnaud",
+    "inferredCountries": [
+      {
+        "countryId": "fr",
+        "count": 1
+      },
+      {
+        "countryId": "us",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "person_88134759aa60",
+    "name": "Walter Salles",
+    "slug": "walter-salles",
+    "inferredCountries": [
+      {
+        "countryId": "br",
+        "count": 1
+      },
+      {
+        "countryId": "fr",
+        "count": 1
+      }
+    ]
+  }
+]

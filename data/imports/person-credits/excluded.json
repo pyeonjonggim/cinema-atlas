@@ -1,0 +1,24 @@
+[
+  {
+    "tmdbId": "10279",
+    "name": "Adolf Hitler",
+    "slug": "adolf-hitler",
+    "classes": [
+      "ARCHIVE_FOOTAGE"
+    ],
+    "status": "EXCLUDED",
+    "publishedAsActor": false,
+    "hidden": true,
+    "creditCount": 1,
+    "credits": [
+      {
+        "movieTitle": "Night and Fog",
+        "providerMovieId": "803",
+        "role": "actor",
+        "character": "Self (archive footage) (uncredited)",
+        "billingOrder": 3,
+        "classification": "ARCHIVE_FOOTAGE"
+      }
+    ]
+  }
+]

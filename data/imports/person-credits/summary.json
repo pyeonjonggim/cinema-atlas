@@ -1,0 +1,23 @@
+{
+  "command": "verify:person-credits",
+  "status": "PASS",
+  "rawPersons": 1722,
+  "publishedActors": 1212,
+  "publishedDirectors": 86,
+  "excluded": 1,
+  "excludedCandidates": 60,
+  "needsReview": 261,
+  "mixedCredits": 26,
+  "eligibilityBreakdown": {
+    "DIRECTOR": 86,
+    "ACTOR": 1326,
+    "VOICE_ONLY": 152,
+    "UNVERIFIED": 111,
+    "NARRATOR": 7,
+    "INTERVIEWEE": 1,
+    "ARCHIVE_FOOTAGE": 4,
+    "SELF_APPEARANCE": 61
+  },
+  "hiddenStillPublished": 0,
+  "completedAt": "2026-07-18T02:37:56.449Z"
+}

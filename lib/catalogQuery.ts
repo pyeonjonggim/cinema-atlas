@@ -11,6 +11,8 @@ import { hasDatabaseUrl } from "@/lib/db/postgres";
 import { PostgresEditorialRepository } from "@/lib/editorial/postgresEditorialRepository";
 import { PostgresCatalogRepository } from "@/lib/postgresCatalogRepository";
 import { imageFromCatalogRef, resolveImageUrl } from "@/lib/media";
+import { getPersonEditorialBySlug, isPersonHiddenByEditorial, mergePersonEditorial } from "@/lib/editorial/personEditorial";
+import { isActorExcludedFromEncyclopedia } from "@/lib/personQuality";
 import type { AwardEditorialEntity, MovementEditorialEntity } from "@/lib/editorial/entity";
 import type { CatalogMovieRecord, KnowledgeGraphEdge } from "@/types/catalogPersistence";
 import type { MovieExternalMetadata } from "@/types/catalog";
@@ -354,7 +356,9 @@ export class CatalogQueryService {
     }
 
     try {
-      const person = await this.repository.getPersonByDisplaySlug("director", slug) as PersonRow | undefined;
+      const editorial = getPersonEditorialBySlug(slug);
+      const aliases = editorial ? [editorial.slug, ...(editorial.aliases ?? [])] : [slug];
+      const person = await this.findPersonByDisplaySlugs("director", aliases);
       if (!person) return undefined;
       const filmography = await this.getMoviesForTarget("person", person.id, "MOVIE_DIRECTED_BY_PERSON");
       return this.mapDirectorProjection(person, filmography);
@@ -384,8 +388,14 @@ export class CatalogQueryService {
     }
 
     try {
-      const person = await this.repository.getPersonByDisplaySlug("actor", slug) as PersonRow | undefined;
+      const editorial = getPersonEditorialBySlug(slug);
+      const aliases = editorial ? [editorial.slug, ...(editorial.aliases ?? [])] : [slug];
+      const person = await this.findPersonByDisplaySlugs("actor", aliases);
       if (!person) return undefined;
+      if (
+        isActorExcludedFromEncyclopedia(person.display_name ?? person.id) ||
+        isPersonHiddenByEditorial(slugify(person.display_name ?? person.id))
+      ) return undefined;
       const filmography = await this.getMoviesForTarget("person", person.id, "MOVIE_ACTED_BY_PERSON");
       return this.mapActorProjection(person, filmography);
     } catch {
@@ -723,7 +733,7 @@ export class CatalogQueryService {
       directorIds: unique([directorSlug, ...directorEdges.map((edge) => edge.targetId)]),
       directorSlug,
       actors: actorNames,
-      actorIds: actorSlugs,
+      actorIds: unique([...actorSlugs, ...actorEdges.map((edge) => edge.targetId)]),
       actorSlugs,
       cast: actorSlugs.map((actorId, index) => ({
         actorId,
@@ -792,13 +802,16 @@ export class CatalogQueryService {
   }
 
   private mapDirectorProjection(person: PersonRow, movies: Movie[]): Director {
-    const name = person.display_name ?? person.id;
-    const slug = slugify(name) || person.id;
+    const canonicalName = person.display_name ?? person.id;
+    const canonicalSlug = slugify(canonicalName) || person.id;
+    const editorial = mergePersonEditorial(canonicalSlug);
+    const name = editorial.editorial?.preferredName ?? canonicalName;
+    const slug = editorial.editorial?.slug ?? canonicalSlug;
     const fallback = staticDirectorByName(name);
     const filmography = movies.filter((movie) => movie.directorSlug === slug || movie.directorIds?.includes(person.id));
     const firstMovie = filmography[0];
-    const country = firstMovie?.country ?? fallback?.country ?? "Catalog";
-    const countrySlug = firstMovie?.countrySlug ?? fallback?.countrySlug ?? "catalog";
+    const country = editorial.country?.name ?? fallback?.country ?? firstMovie?.country ?? "Catalog";
+    const countrySlug = editorial.country?.slug ?? fallback?.countrySlug ?? firstMovie?.countrySlug ?? "catalog";
 
     const profileImage = person.profile_path
       ? {
@@ -816,13 +829,13 @@ export class CatalogQueryService {
       nameKo: name,
       country,
       countrySlug,
-      countryFlag: firstMovie?.countryFlag ?? fallback?.countryFlag ?? "",
+      countryFlag: editorial.country?.flag ?? fallback?.countryFlag ?? firstMovie?.countryFlag ?? "",
       birthYear: fallback?.birthYear ?? 0,
       deathYear: fallback?.deathYear,
-      description: `${name} is a director represented in the Cinema Atlas canonical catalog.`,
+      description: editorial.editorial?.preferredBiography ?? `${name} is a director represented in the Cinema Atlas canonical catalog.`,
       styleKeywords: ["Canonical Catalog", "Director"],
       knownForMovieIds: filmography.map((movie) => movie.id),
-      whyMatters: `${name} is connected to ${filmography.length} catalog film${filmography.length === 1 ? "" : "s"}.`,
+      whyMatters: editorial.editorial?.whyMatters ?? `${name} is connected to ${filmography.length} catalog film${filmography.length === 1 ? "" : "s"}.`,
       signatureStyle: ["Repository-backed director projection."],
       keyThemes: ["Cinema Atlas Catalog"],
       essentialMovieIds: fallback?.essentialMovieIds ?? filmography.slice(0, 3).map((movie) => movie.id),
@@ -837,8 +850,11 @@ export class CatalogQueryService {
   }
 
   private mapActorProjection(person: PersonRow, movies: Movie[]): Actor {
-    const name = person.display_name ?? person.id;
-    const slug = slugify(name) || person.id;
+    const canonicalName = person.display_name ?? person.id;
+    const canonicalSlug = slugify(canonicalName) || person.id;
+    const editorial = mergePersonEditorial(canonicalSlug);
+    const name = editorial.editorial?.preferredName ?? canonicalName;
+    const slug = editorial.editorial?.slug ?? canonicalSlug;
     const fallback = staticActorByName(name);
     const filmography = movies.filter((movie) => movie.actorSlugs.includes(slug) || movie.actorIds?.includes(person.id));
     const firstMovie = filmography[0];
@@ -857,11 +873,11 @@ export class CatalogQueryService {
       slug,
       name,
       nameKo: name,
-      countrySlug: fallback?.countrySlug ?? firstMovie?.countrySlug ?? "catalog",
+      countrySlug: editorial.country?.slug ?? fallback?.countrySlug ?? firstMovie?.countrySlug ?? "catalog",
       birthYear: fallback?.birthYear ?? 0,
       deathYear: fallback?.deathYear,
-      description: `${name} is an actor represented in the Cinema Atlas canonical catalog.`,
-      whyMatters: `${name} is connected to ${filmography.length} catalog film${filmography.length === 1 ? "" : "s"}.`,
+      description: editorial.editorial?.preferredBiography ?? `${name} is an actor represented in the Cinema Atlas canonical catalog.`,
+      whyMatters: editorial.editorial?.whyMatters ?? `${name} is connected to ${filmography.length} catalog film${filmography.length === 1 ? "" : "s"}.`,
       screenPersona: ["Canonical Catalog Performer"],
       keyRoles: ["Repository-backed actor projection"],
       essentialMovieIds: fallback?.essentialMovieIds ?? filmography.slice(0, 3).map((movie) => movie.id),
@@ -1005,7 +1021,29 @@ export class CatalogQueryService {
 
   private async listPeopleByRole(role: "director" | "actor"): Promise<PersonRow[]> {
     const rows = await this.repository.listPeopleByRole(role) as PersonRow[];
-    return rows.filter((row): row is PersonRow => Boolean(row));
+    return rows.filter((row): row is PersonRow => {
+      if (!row) return false;
+      const slug = slugify(row.display_name ?? row.id);
+      if (
+        role === "actor" &&
+        (isActorExcludedFromEncyclopedia(row.display_name ?? row.id) ||
+          isPersonHiddenByEditorial(slug))
+      ) {
+        return false;
+      }
+      return true;
+    });
+  }
+
+  private async findPersonByDisplaySlugs(
+    role: "director" | "actor",
+    slugs: string[],
+  ): Promise<PersonRow | undefined> {
+    for (const slug of unique(slugs)) {
+      const person = await this.repository.getPersonByDisplaySlug(role, slug) as PersonRow | undefined;
+      if (person) return person;
+    }
+    return undefined;
   }
 
   private async listCatalogCountries(): Promise<CountryRow[]> {

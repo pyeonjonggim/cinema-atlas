@@ -25,6 +25,16 @@
   "awardEdges": 6,
   "duplicateMovements": 0,
   "duplicateAwards": 0,
+  "personEditorial": {
+    "entries": 16,
+    "verified": 16,
+    "review": 0,
+    "hidden": 1,
+    "duplicatePersonEditorialSlugs": 0,
+    "unknownPersonSlugs": [],
+    "invalidCountrySlugs": [],
+    "hiddenConflicts": []
+  },
   "failures": [],
-  "completedAt": "2026-07-17T16:30:15.003Z"
+  "completedAt": "2026-07-18T02:37:57.381Z"
 }

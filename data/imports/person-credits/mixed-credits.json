@@ -1,0 +1,810 @@
+[
+  {
+    "tmdbId": "77188",
+    "name": "Oh Dal-su",
+    "slug": "oh-dal-su",
+    "classes": [
+      "ACTOR",
+      "VOICE_ONLY"
+    ],
+    "status": "PUBLISHED_ACTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "Oldboy",
+        "providerMovieId": "670",
+        "role": "actor",
+        "character": "Park Cheol-woong",
+        "billingOrder": 5,
+        "classification": "ACTOR"
+      },
+      {
+        "movieTitle": "The Host",
+        "providerMovieId": "1255",
+        "role": "actor",
+        "character": "The Monster (voice)",
+        "billingOrder": 5,
+        "classification": "VOICE_ONLY"
+      }
+    ]
+  },
+  {
+    "tmdbId": "138",
+    "name": "Quentin Tarantino",
+    "slug": "quentin-tarantino",
+    "classes": [
+      "ACTOR",
+      "DIRECTOR"
+    ],
+    "status": "PUBLISHED_ACTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "Pulp Fiction",
+        "providerMovieId": "680",
+        "role": "director",
+        "classification": "DIRECTOR"
+      },
+      {
+        "movieTitle": "Pulp Fiction",
+        "providerMovieId": "680",
+        "role": "actor",
+        "character": "Jimmie Dimmick",
+        "billingOrder": 10,
+        "classification": "ACTOR"
+      }
+    ]
+  },
+  {
+    "tmdbId": "40",
+    "name": "Orson Welles",
+    "slug": "orson-welles",
+    "classes": [
+      "ACTOR",
+      "DIRECTOR"
+    ],
+    "status": "PUBLISHED_ACTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "Citizen Kane",
+        "providerMovieId": "15",
+        "role": "director",
+        "classification": "DIRECTOR"
+      },
+      {
+        "movieTitle": "Citizen Kane",
+        "providerMovieId": "15",
+        "role": "actor",
+        "character": "Charles Foster Kane",
+        "billingOrder": 0,
+        "classification": "ACTOR"
+      }
+    ]
+  },
+  {
+    "tmdbId": "2636",
+    "name": "Alfred Hitchcock",
+    "slug": "alfred-hitchcock",
+    "classes": [
+      "DIRECTOR",
+      "UNVERIFIED"
+    ],
+    "status": "PUBLISHED_DIRECTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "Vertigo",
+        "providerMovieId": "426",
+        "role": "director",
+        "classification": "DIRECTOR"
+      },
+      {
+        "movieTitle": "Vertigo",
+        "providerMovieId": "426",
+        "role": "actor",
+        "character": "Man Walking Past Elster's Office (uncredited)",
+        "billingOrder": 10,
+        "classification": "UNVERIFIED"
+      }
+    ]
+  },
+  {
+    "tmdbId": "1116071",
+    "name": "Fausto Guerzoni",
+    "slug": "fausto-guerzoni",
+    "classes": [
+      "ACTOR",
+      "UNVERIFIED"
+    ],
+    "status": "PUBLISHED_ACTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "Bicycle Thieves",
+        "providerMovieId": "5156",
+        "role": "actor",
+        "character": "Amateur Actor (uncredited)",
+        "billingOrder": 11,
+        "classification": "UNVERIFIED"
+      },
+      {
+        "movieTitle": "Black Orpheus",
+        "providerMovieId": "40423",
+        "role": "actor",
+        "character": "Fausto",
+        "billingOrder": 11,
+        "classification": "ACTOR"
+      }
+    ]
+  },
+  {
+    "tmdbId": "8635",
+    "name": "Buster Keaton",
+    "slug": "buster-keaton",
+    "classes": [
+      "ACTOR",
+      "DIRECTOR"
+    ],
+    "status": "PUBLISHED_ACTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 4,
+    "credits": [
+      {
+        "movieTitle": "The General",
+        "providerMovieId": "961",
+        "role": "director",
+        "classification": "DIRECTOR"
+      },
+      {
+        "movieTitle": "The General",
+        "providerMovieId": "961",
+        "role": "actor",
+        "character": "Johnnie Gray",
+        "billingOrder": 0,
+        "classification": "ACTOR"
+      },
+      {
+        "movieTitle": "Sherlock Jr.",
+        "providerMovieId": "992",
+        "role": "director",
+        "classification": "DIRECTOR"
+      },
+      {
+        "movieTitle": "Sherlock Jr.",
+        "providerMovieId": "992",
+        "role": "actor",
+        "character": "Projectionist / Sherlock, Jr.",
+        "billingOrder": 0,
+        "classification": "ACTOR"
+      }
+    ]
+  },
+  {
+    "tmdbId": "13848",
+    "name": "Charlie Chaplin",
+    "slug": "charlie-chaplin",
+    "classes": [
+      "ACTOR",
+      "DIRECTOR"
+    ],
+    "status": "PUBLISHED_ACTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "Modern Times",
+        "providerMovieId": "3082",
+        "role": "director",
+        "classification": "DIRECTOR"
+      },
+      {
+        "movieTitle": "Modern Times",
+        "providerMovieId": "3082",
+        "role": "actor",
+        "character": "The Tramp (A Factory Worker)",
+        "billingOrder": 0,
+        "classification": "ACTOR"
+      }
+    ]
+  },
+  {
+    "tmdbId": "11523",
+    "name": "Georges Méliès",
+    "slug": "georges-melies",
+    "classes": [
+      "ACTOR",
+      "DIRECTOR"
+    ],
+    "status": "PUBLISHED_ACTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "A Trip to the Moon",
+        "providerMovieId": "775",
+        "role": "director",
+        "classification": "DIRECTOR"
+      },
+      {
+        "movieTitle": "A Trip to the Moon",
+        "providerMovieId": "775",
+        "role": "actor",
+        "character": "Professeur Barbenfouillis / La Lune",
+        "billingOrder": 0,
+        "classification": "ACTOR"
+      }
+    ]
+  },
+  {
+    "tmdbId": "96813",
+    "name": "Maya Deren",
+    "slug": "maya-deren",
+    "classes": [
+      "ACTOR",
+      "DIRECTOR"
+    ],
+    "status": "PUBLISHED_ACTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "Meshes of the Afternoon",
+        "providerMovieId": "27040",
+        "role": "director",
+        "classification": "DIRECTOR"
+      },
+      {
+        "movieTitle": "Meshes of the Afternoon",
+        "providerMovieId": "27040",
+        "role": "actor",
+        "character": "The Woman",
+        "billingOrder": 0,
+        "classification": "ACTOR"
+      }
+    ]
+  },
+  {
+    "tmdbId": "96814",
+    "name": "Alexander Hammid",
+    "slug": "alexander-hammid",
+    "classes": [
+      "ACTOR",
+      "DIRECTOR"
+    ],
+    "status": "PUBLISHED_ACTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "Meshes of the Afternoon",
+        "providerMovieId": "27040",
+        "role": "director",
+        "classification": "DIRECTOR"
+      },
+      {
+        "movieTitle": "Meshes of the Afternoon",
+        "providerMovieId": "27040",
+        "role": "actor",
+        "character": "The Man",
+        "billingOrder": 1,
+        "classification": "ACTOR"
+      }
+    ]
+  },
+  {
+    "tmdbId": "122449",
+    "name": "Steve James",
+    "slug": "steve-james",
+    "classes": [
+      "DIRECTOR",
+      "NARRATOR"
+    ],
+    "status": "PUBLISHED_DIRECTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "Hoop Dreams",
+        "providerMovieId": "14275",
+        "role": "director",
+        "classification": "DIRECTOR"
+      },
+      {
+        "movieTitle": "Hoop Dreams",
+        "providerMovieId": "14275",
+        "role": "actor",
+        "character": "Narrator (voice)",
+        "billingOrder": 3,
+        "classification": "NARRATOR"
+      }
+    ]
+  },
+  {
+    "tmdbId": "5281",
+    "name": "Spike Lee",
+    "slug": "spike-lee",
+    "classes": [
+      "DIRECTOR",
+      "SELF_APPEARANCE"
+    ],
+    "status": "PUBLISHED_DIRECTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "Hoop Dreams",
+        "providerMovieId": "14275",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 6,
+        "classification": "SELF_APPEARANCE"
+      },
+      {
+        "movieTitle": "Oldboy",
+        "providerMovieId": "87516",
+        "role": "director",
+        "classification": "DIRECTOR"
+      }
+    ]
+  },
+  {
+    "tmdbId": "127491",
+    "name": "Claude Lanzmann",
+    "slug": "claude-lanzmann",
+    "classes": [
+      "DIRECTOR",
+      "SELF_APPEARANCE"
+    ],
+    "status": "PUBLISHED_DIRECTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "Shoah",
+        "providerMovieId": "42044",
+        "role": "director",
+        "classification": "DIRECTOR"
+      },
+      {
+        "movieTitle": "Shoah",
+        "providerMovieId": "42044",
+        "role": "actor",
+        "character": "Self - Interviewer",
+        "billingOrder": 0,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "56198",
+    "name": "Ari Folman",
+    "slug": "ari-folman",
+    "classes": [
+      "DIRECTOR",
+      "SELF_APPEARANCE"
+    ],
+    "status": "PUBLISHED_DIRECTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "Waltz with Bashir",
+        "providerMovieId": "8885",
+        "role": "director",
+        "classification": "DIRECTOR"
+      },
+      {
+        "movieTitle": "Waltz with Bashir",
+        "providerMovieId": "8885",
+        "role": "actor",
+        "character": "Self (voice)",
+        "billingOrder": 0,
+        "classification": "SELF_APPEARANCE"
+      }
+    ]
+  },
+  {
+    "tmdbId": "70627",
+    "name": "Nobuko Miyamoto",
+    "slug": "nobuko-miyamoto",
+    "classes": [
+      "ACTOR",
+      "NARRATOR"
+    ],
+    "status": "PUBLISHED_ACTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "The Tale of The Princess Kaguya",
+        "providerMovieId": "149871",
+        "role": "actor",
+        "character": "Ōna / Narrator (voice)",
+        "billingOrder": 2,
+        "classification": "NARRATOR"
+      },
+      {
+        "movieTitle": "Tampopo",
+        "providerMovieId": "11830",
+        "role": "actor",
+        "character": "Tampopo",
+        "billingOrder": 1,
+        "classification": "ACTOR"
+      }
+    ]
+  },
+  {
+    "tmdbId": "120690",
+    "name": "Kengo Kora",
+    "slug": "kengo-kora",
+    "classes": [
+      "ACTOR",
+      "VOICE_ONLY"
+    ],
+    "status": "PUBLISHED_ACTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "The Tale of The Princess Kaguya",
+        "providerMovieId": "149871",
+        "role": "actor",
+        "character": "Sutemaru (voice)",
+        "billingOrder": 3,
+        "classification": "VOICE_ONLY"
+      },
+      {
+        "movieTitle": "Shoplifters",
+        "providerMovieId": "505192",
+        "role": "actor",
+        "character": "Takumi Maezono",
+        "billingOrder": 11,
+        "classification": "ACTOR"
+      }
+    ]
+  },
+  {
+    "tmdbId": "554573",
+    "name": "Isao Hashizume",
+    "slug": "isao-hashizume",
+    "classes": [
+      "ACTOR",
+      "VOICE_ONLY"
+    ],
+    "status": "PUBLISHED_ACTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "The Tale of The Princess Kaguya",
+        "providerMovieId": "149871",
+        "role": "actor",
+        "character": "Prince Kuramochi (voice)",
+        "billingOrder": 11,
+        "classification": "VOICE_ONLY"
+      },
+      {
+        "movieTitle": "Tampopo",
+        "providerMovieId": "11830",
+        "role": "actor",
+        "character": "Waiter",
+        "billingOrder": 10,
+        "classification": "ACTOR"
+      }
+    ]
+  },
+  {
+    "tmdbId": "70131",
+    "name": "Tatsuya Nakadai",
+    "slug": "tatsuya-nakadai",
+    "classes": [
+      "ACTOR",
+      "VOICE_ONLY"
+    ],
+    "status": "PUBLISHED_ACTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 3,
+    "credits": [
+      {
+        "movieTitle": "The Tale of The Princess Kaguya",
+        "providerMovieId": "149871",
+        "role": "actor",
+        "character": "Charcoal-maker Old Man (voice)",
+        "billingOrder": 12,
+        "classification": "VOICE_ONLY"
+      },
+      {
+        "movieTitle": "Yojimbo",
+        "providerMovieId": "11878",
+        "role": "actor",
+        "character": "Unosuke, gunfighter",
+        "billingOrder": 1,
+        "classification": "ACTOR"
+      },
+      {
+        "movieTitle": "Harakiri",
+        "providerMovieId": "14537",
+        "role": "actor",
+        "character": "Hanshiro Tsugumo",
+        "billingOrder": 0,
+        "classification": "ACTOR"
+      }
+    ]
+  },
+  {
+    "tmdbId": "3776",
+    "name": "Jean-Luc Godard",
+    "slug": "jean-luc-godard",
+    "classes": [
+      "ACTOR",
+      "DIRECTOR"
+    ],
+    "status": "PUBLISHED_ACTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 3,
+    "credits": [
+      {
+        "movieTitle": "Breathless",
+        "providerMovieId": "269",
+        "role": "director",
+        "classification": "DIRECTOR"
+      },
+      {
+        "movieTitle": "Breathless",
+        "providerMovieId": "269",
+        "role": "actor",
+        "character": "The Snitch",
+        "billingOrder": 10,
+        "classification": "ACTOR"
+      },
+      {
+        "movieTitle": "Cléo from 5 to 7",
+        "providerMovieId": "499",
+        "role": "actor",
+        "character": "The Man with Black Glasses / Actor in Silent Film",
+        "billingOrder": 11,
+        "classification": "ACTOR"
+      }
+    ]
+  },
+  {
+    "tmdbId": "11528",
+    "name": "Jean Renoir",
+    "slug": "jean-renoir",
+    "classes": [
+      "ACTOR",
+      "DIRECTOR"
+    ],
+    "status": "PUBLISHED_ACTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "The Rules of the Game",
+        "providerMovieId": "776",
+        "role": "director",
+        "classification": "DIRECTOR"
+      },
+      {
+        "movieTitle": "The Rules of the Game",
+        "providerMovieId": "776",
+        "role": "actor",
+        "character": "Octave",
+        "billingOrder": 0,
+        "classification": "ACTOR"
+      }
+    ]
+  },
+  {
+    "tmdbId": "130030",
+    "name": "Chantal Akerman",
+    "slug": "chantal-akerman",
+    "classes": [
+      "DIRECTOR",
+      "VOICE_ONLY"
+    ],
+    "status": "PUBLISHED_DIRECTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles",
+        "providerMovieId": "44012",
+        "role": "director",
+        "classification": "DIRECTOR"
+      },
+      {
+        "movieTitle": "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles",
+        "providerMovieId": "44012",
+        "role": "actor",
+        "character": "Neighbor (voice) (uncredited)",
+        "billingOrder": 5,
+        "classification": "VOICE_ONLY"
+      }
+    ]
+  },
+  {
+    "tmdbId": "119294",
+    "name": "Abbas Kiarostami",
+    "slug": "abbas-kiarostami",
+    "classes": [
+      "DIRECTOR",
+      "SELF_APPEARANCE"
+    ],
+    "status": "PUBLISHED_DIRECTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 4,
+    "credits": [
+      {
+        "movieTitle": "Close-Up",
+        "providerMovieId": "30017",
+        "role": "director",
+        "classification": "DIRECTOR"
+      },
+      {
+        "movieTitle": "Close-Up",
+        "providerMovieId": "30017",
+        "role": "actor",
+        "character": "Self",
+        "billingOrder": 17,
+        "classification": "SELF_APPEARANCE"
+      },
+      {
+        "movieTitle": "Taste of Cherry",
+        "providerMovieId": "30020",
+        "role": "director",
+        "classification": "DIRECTOR"
+      },
+      {
+        "movieTitle": "The Wind Will Carry Us",
+        "providerMovieId": "43423",
+        "role": "director",
+        "classification": "DIRECTOR"
+      }
+    ]
+  },
+  {
+    "tmdbId": "53431",
+    "name": "Nadine Labaki",
+    "slug": "nadine-labaki",
+    "classes": [
+      "ACTOR",
+      "DIRECTOR"
+    ],
+    "status": "PUBLISHED_ACTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "Capernaum",
+        "providerMovieId": "517814",
+        "role": "director",
+        "classification": "DIRECTOR"
+      },
+      {
+        "movieTitle": "Capernaum",
+        "providerMovieId": "517814",
+        "role": "actor",
+        "character": "Nadine",
+        "billingOrder": 8,
+        "classification": "ACTOR"
+      }
+    ]
+  },
+  {
+    "tmdbId": "557134",
+    "name": "Ousmane Sembène",
+    "slug": "ousmane-sembene",
+    "classes": [
+      "DIRECTOR",
+      "UNVERIFIED"
+    ],
+    "status": "PUBLISHED_DIRECTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "Black Girl",
+        "providerMovieId": "95597",
+        "role": "director",
+        "classification": "DIRECTOR"
+      },
+      {
+        "movieTitle": "Black Girl",
+        "providerMovieId": "95597",
+        "role": "actor",
+        "character": "The Teacher (uncredited)",
+        "billingOrder": 15,
+        "classification": "UNVERIFIED"
+      }
+    ]
+  },
+  {
+    "tmdbId": "232669",
+    "name": "Marcel Camus",
+    "slug": "marcel-camus",
+    "classes": [
+      "ACTOR",
+      "DIRECTOR"
+    ],
+    "status": "PUBLISHED_ACTOR",
+    "publishedAsActor": true,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "Black Orpheus",
+        "providerMovieId": "40423",
+        "role": "director",
+        "classification": "DIRECTOR"
+      },
+      {
+        "movieTitle": "Black Orpheus",
+        "providerMovieId": "40423",
+        "role": "actor",
+        "character": "Ernesto",
+        "billingOrder": 10,
+        "classification": "ACTOR"
+      }
+    ]
+  },
+  {
+    "tmdbId": "51329",
+    "name": "Bradley Cooper",
+    "slug": "bradley-cooper",
+    "classes": [
+      "ACTOR",
+      "DIRECTOR"
+    ],
+    "status": "PUBLISHED_ACTOR",
+    "publishedAsActor": false,
+    "hidden": false,
+    "creditCount": 2,
+    "credits": [
+      {
+        "movieTitle": "A Star Is Born",
+        "providerMovieId": "332562",
+        "role": "director",
+        "classification": "DIRECTOR"
+      },
+      {
+        "movieTitle": "A Star Is Born",
+        "providerMovieId": "332562",
+        "role": "actor",
+        "character": "Jackson Maine",
+        "billingOrder": 1,
+        "classification": "ACTOR"
+      }
+    ]
+  }
+]

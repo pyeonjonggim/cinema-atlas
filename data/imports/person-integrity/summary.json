@@ -1,0 +1,33 @@
+{
+  "command": "verify:persons",
+  "status": "PASS",
+  "personRouteSummary": {
+    "directorsExpected": 99,
+    "directorsResolvable": 99,
+    "directorsMissing": 0,
+    "actorsRaw": 1906,
+    "actorsExpected": 1905,
+    "actorsResolvable": 1905,
+    "actorsMissing": 0,
+    "actorsExcludedByEligibility": 1
+  },
+  "eligibility": {
+    "excludedActors": [
+      {
+        "id": "person_3bd3356c12d2",
+        "name": "Adolf Hitler",
+        "reason": "HISTORICAL_FIGURE_ARCHIVE_FOOTAGE"
+      }
+    ]
+  },
+  "issueCounts": {
+    "directorDuplicateSlugs": 0,
+    "actorDuplicateSlugs": 0,
+    "directorMissingSlugs": 0,
+    "actorMissingSlugs": 0,
+    "directorsWithoutEdges": 0,
+    "actorsWithoutEdges": 0,
+    "routeMismatch": 0
+  },
+  "completedAt": "2026-07-18T02:38:49.517Z"
+}

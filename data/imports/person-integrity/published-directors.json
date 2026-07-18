@@ -1,0 +1,895 @@
+[
+  {
+    "id": "person_bef00203b6b7",
+    "display_name": "Abbas Kiarostami",
+    "roles": [
+      "actor",
+      "director",
+      "writer"
+    ],
+    "profile_path": "/rTlz5ciu41FxyVuXA82a3tSYVZ8.jpg"
+  },
+  {
+    "id": "person_fc2ab10cf1aa",
+    "display_name": "Abderrahmane Sissako",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/lQew5sGuT5Tni75EuFBnG3FjZ6n.jpg"
+  },
+  {
+    "id": "person_97843ddeae18",
+    "display_name": "Agnès Varda",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/sZol5QAmWvpopzAPbSxhoSc1DOe.jpg"
+  },
+  {
+    "id": "person_124e0f9ab5f6",
+    "display_name": "Akira Kurosawa",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/g2iwSho2vJxVz7cbD1FAKAmPD6A.jpg"
+  },
+  {
+    "id": "person_d2591b081c2f",
+    "display_name": "Alain Resnais",
+    "roles": [
+      "director"
+    ],
+    "profile_path": "/q5LF4OZ7BhNH44Jb9UDg3af57R9.jpg"
+  },
+  {
+    "id": "person_520c3ef710a6",
+    "display_name": "Alexander Hammid",
+    "roles": [
+      "actor",
+      "director"
+    ],
+    "profile_path": "/jv62yHBxHGKyys71GHT5YKzuxzE.jpg"
+  },
+  {
+    "id": "person_2024be526b48",
+    "display_name": "Alfonso Cuarón",
+    "roles": [
+      "director",
+      "producer",
+      "writer"
+    ],
+    "profile_path": "/gaHhrzPfxfc3cbQLkDt54gtP3n1.jpg"
+  },
+  {
+    "id": "person_3075694c6504",
+    "display_name": "Alfred Hitchcock",
+    "roles": [
+      "actor",
+      "director"
+    ],
+    "profile_path": "/108fiNM6poRieMg7RIqLJRxdAwG.jpg"
+  },
+  {
+    "id": "person_e247b050832c",
+    "display_name": "Andrei Tarkovsky",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/mytn9s5kc6CqzKZtbuJ73oA6ujy.jpg"
+  },
+  {
+    "id": "person_902ba3cda188",
+    "display_name": "Andrew Stanton",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/fo6ePCWEVB0L1sccrvB99Iaoqcg.jpg"
+  },
+  {
+    "id": "person_23bfd8a26fde",
+    "display_name": "Ang Lee",
+    "roles": [
+      "director"
+    ],
+    "profile_path": "/jrmdsPZI5WT4rmOl20Gb1Y2femb.jpg"
+  },
+  {
+    "id": "person_15de69a1d17e",
+    "display_name": "Ari Folman",
+    "roles": [
+      "actor",
+      "director",
+      "writer"
+    ],
+    "profile_path": "/cFTSHi8YSWBB81MIWsN8vzhaaMg.jpg"
+  },
+  {
+    "id": "person_c71d9437a62f",
+    "display_name": "Asghar Farhadi",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/mCEpFbimAvhiR3P91h5b8UEUhY.jpg"
+  },
+  {
+    "id": "person_50642cb19057",
+    "display_name": "Ashutosh Gowariker",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/s48qPtQJVXdwrVfezMIiyowl3eT.jpg"
+  },
+  {
+    "id": "person_8021b69d890a",
+    "display_name": "Barry Jenkins",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/6nld5eQwiJmuLmyesk4EUeCaoo3.jpg"
+  },
+  {
+    "id": "person_f66b8cac8ba8",
+    "display_name": "Bong Joon Ho",
+    "roles": [
+      "director",
+      "producer",
+      "writer"
+    ],
+    "profile_path": "/stwnTvZAoD8gEJEDHpDQyLCyDy5.jpg"
+  },
+  {
+    "id": "person_abbfbd92407b",
+    "display_name": "Buster Keaton",
+    "roles": [
+      "actor",
+      "director",
+      "writer"
+    ],
+    "profile_path": "/kEybBFkO5AX83o3WKyNDfuvfVrn.jpg"
+  },
+  {
+    "id": "person_1b206c01d50d",
+    "display_name": "Carl Theodor Dreyer",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/l4g1K4ai3HgAIg0267O5ppnknVX.jpg"
+  },
+  {
+    "id": "person_1609bb9956eb",
+    "display_name": "Céline Sciamma",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/4B5Bt47HYTObsde1einBDha03ka.jpg"
+  },
+  {
+    "id": "person_d2f9976ab668",
+    "display_name": "Chantal Akerman",
+    "roles": [
+      "actor",
+      "director",
+      "writer"
+    ],
+    "profile_path": "/6Q59Air1EjLHfq8NvvBpbTTgnWZ.jpg"
+  },
+  {
+    "id": "person_1e9cdd50e700",
+    "display_name": "Charlie Chaplin",
+    "roles": [
+      "actor",
+      "director",
+      "writer"
+    ],
+    "profile_path": "/lRI9Ky1SMOehn04OqhYJ5hQfgIK.jpg"
+  },
+  {
+    "id": "person_09a0122113d4",
+    "display_name": "Charlotte Wells",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/zXSwzw1HjNZPMfLzlPWtvpjBNpe.jpg"
+  },
+  {
+    "id": "person_34bb202b17bc",
+    "display_name": "Chen Kaige",
+    "roles": [
+      "director"
+    ],
+    "profile_path": "/knMuFWDYEKI38wLJQCr5rssyrbA.jpg"
+  },
+  {
+    "id": "person_6197ea567baa",
+    "display_name": "Claude Lanzmann",
+    "roles": [
+      "actor",
+      "director"
+    ],
+    "profile_path": "/uERT3H1KWiH2wKHEJngvxAs6MC0.jpg"
+  },
+  {
+    "id": "person_e855f67c2393",
+    "display_name": "Clyde Bruckman",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/qS2v6oBeDALfrcqLvov7ITVPBeM.jpg"
+  },
+  {
+    "id": "person_75987c458ff5",
+    "display_name": "Damián Szifron",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/zCC1SUcjoDuJui9qgFjJIgr6kDq.jpg"
+  },
+  {
+    "id": "person_b116c9627fc5",
+    "display_name": "Daniel Kwan",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/rVAZLUZhuKCmdzhCsSiOf8j64IA.jpg"
+  },
+  {
+    "id": "person_47813a46ede5",
+    "display_name": "Daniel Scheinert",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/rb59IHeLhmyBgTeBH5LGXXIt3Y8.jpg"
+  },
+  {
+    "id": "person_09863d9f9ac8",
+    "display_name": "Djibril Diop Mambéty",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/qP0a19xyKBoAY22ZsnJJy9Okfm6.jpg"
+  },
+  {
+    "id": "person_30456ff9c23f",
+    "display_name": "Dziga Vertov",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/6CvXGGtNiF3ofSe1MFtGwgJnCVo.jpg"
+  },
+  {
+    "id": "person_6704d81b917a",
+    "display_name": "Edward Yang",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/j7K4l87WXqvzT1abKsvgMVnFOyW.jpg"
+  },
+  {
+    "id": "person_0d3c185d8d96",
+    "display_name": "Elem Klimov",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/9NKmQh7OWRefFBaMl30MTLgRqKj.jpg"
+  },
+  {
+    "id": "person_06fff4c06ee8",
+    "display_name": "F. W. Murnau",
+    "roles": [
+      "director"
+    ],
+    "profile_path": "/keLp43iiIkkllroUwExIJITeR7a.jpg"
+  },
+  {
+    "id": "person_725cb2f967d9",
+    "display_name": "Federico Fellini",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/r0GTpMWUrxgPRbMmv38mNggOBvA.jpg"
+  },
+  {
+    "id": "person_ad8a1349bf68",
+    "display_name": "Fernando Meirelles",
+    "roles": [
+      "director"
+    ],
+    "profile_path": "/usc1zwBXEHN4A6rkvJcmgWpc7rS.jpg"
+  },
+  {
+    "id": "person_9626db05e032",
+    "display_name": "Florian Henckel von Donnersmarck",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/3IuSW8NazUH3VlM8KYwMhTTk5lV.jpg"
+  },
+  {
+    "id": "person_427f3043fb1e",
+    "display_name": "Francis Ford Coppola",
+    "roles": [
+      "director",
+      "producer",
+      "writer"
+    ],
+    "profile_path": "/IwGgkmW6IoJ9vuNF0T9CU3FYUX.jpg"
+  },
+  {
+    "id": "person_f9afc47c733e",
+    "display_name": "François Truffaut",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/3bXLtipaybsje01LlQvHvuUAZNq.jpg"
+  },
+  {
+    "id": "person_b4c96d80854d",
+    "display_name": "Fritz Lang",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/9dz4PmFzlSyexldWrOXBLLpkBqB.jpg"
+  },
+  {
+    "id": "person_b7a03a4272d9",
+    "display_name": "Gene Kelly",
+    "roles": [
+      "actor",
+      "director"
+    ],
+    "profile_path": "/g98yyY7oGrkocUxxJgOt82I7z6A.jpg"
+  },
+  {
+    "id": "person_997f60adfe46",
+    "display_name": "George Miller",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/35NQ8HjFXQlGYDz9UkhT08lKl5C.jpg"
+  },
+  {
+    "id": "person_593b588a049d",
+    "display_name": "Georges Méliès",
+    "roles": [
+      "actor",
+      "director",
+      "writer"
+    ],
+    "profile_path": "/acx5saf22Qj6FV5WAsacRHlZAMn.jpg"
+  },
+  {
+    "id": "person_809d49d06eae",
+    "display_name": "Gillo Pontecorvo",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/iRwLtl4aRdZMsfwGBUMbgELsDG6.jpg"
+  },
+  {
+    "id": "person_ef0b9dc30aec",
+    "display_name": "Giuseppe Tornatore",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/t5PurTT9QuvV5Xs9Q2JzVui5oqF.jpg"
+  },
+  {
+    "id": "person_416013b8daef",
+    "display_name": "Guillermo del Toro",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/gldeyCtKcaqnK1v4Vu9vqayhzUQ.jpg"
+  },
+  {
+    "id": "person_cfc1715d407a",
+    "display_name": "Haifaa al-Mansour",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/67UWpEJi36AXxY3aQf4DBSvGv9e.jpg"
+  },
+  {
+    "id": "person_72ab8108eff0",
+    "display_name": "Hayao Miyazaki",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/ouhjt9KugzhWtdEyBPipihB3ic8.jpg"
+  },
+  {
+    "id": "person_04b42f134040",
+    "display_name": "Héctor Babenco",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/jGbRuTbcBVynFMsIKxke7F4fNbY.jpg"
+  },
+  {
+    "id": "person_2bb0ac135942",
+    "display_name": "Hirokazu Kore-eda",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/9Quu2Jo5ItVgs8V1YPCaLEHc8y1.jpg"
+  },
+  {
+    "id": "person_957c5022a604",
+    "display_name": "Ingmar Bergman",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/nkmOaXNRoioViN9OQf2n9Iu6akA.jpg"
+  },
+  {
+    "id": "person_3f4ed2f1010b",
+    "display_name": "Isao Takahata",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/qbvnGLByh0N9ni7gZSREIgvO1sM.jpg"
+  },
+  {
+    "id": "person_29a8909732ab",
+    "display_name": "Jean Renoir",
+    "roles": [
+      "actor",
+      "director",
+      "writer"
+    ],
+    "profile_path": "/ePLyIIgSud1ZhhaLtj1yFo2diC4.jpg"
+  },
+  {
+    "id": "person_0e960b3c0f76",
+    "display_name": "Jean-Luc Godard",
+    "roles": [
+      "actor",
+      "director",
+      "writer"
+    ],
+    "profile_path": "/zP5EDY5MstfkdBmPXNCj8Y6v5KR.jpg"
+  },
+  {
+    "id": "person_9fc70bb0f637",
+    "display_name": "Jean-Pierre Jeunet",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/4DhPaNaxYnkgxVJHVLyL5gKmKpG.jpg"
+  },
+  {
+    "id": "person_4b6e9eb26b47",
+    "display_name": "John Ford",
+    "roles": [
+      "director"
+    ],
+    "profile_path": "/ffgVJWV8pDomSdTkjOqdrwMX9G6.jpg"
+  },
+  {
+    "id": "person_654cec2f0483",
+    "display_name": "John Lasseter",
+    "roles": [
+      "director"
+    ],
+    "profile_path": "/xlrE4VD2VbZCDpaNdWCpH1ZihPS.jpg"
+  },
+  {
+    "id": "person_08cf6b09ea10",
+    "display_name": "Jonathan Glazer",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/lGaM7P0vjhhWs5EmIecsN6PYfxG.jpg"
+  },
+  {
+    "id": "person_8a3d001010db",
+    "display_name": "Jordan Peele",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/kFUKn5g3ebpyZ3CSZZZo2HFWRNQ.jpg"
+  },
+  {
+    "id": "person_a5add190cb5f",
+    "display_name": "Joshua Oppenheimer",
+    "roles": [
+      "director"
+    ],
+    "profile_path": "/dHlrnmh2X0xZYmEfEwcsLTuarAD.jpg"
+  },
+  {
+    "id": "person_4b35b2d7f731",
+    "display_name": "Juan José Campanella",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/vnZ69dnDx9tnAkW9wicO9wHRQdx.jpg"
+  },
+  {
+    "id": "person_f2b245a7e0bf",
+    "display_name": "Justine Triet",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/mOn5lo038i8vw6qqJTwKw35KCL7.jpg"
+  },
+  {
+    "id": "person_9c7b5b8a237d",
+    "display_name": "Jūzō Itami",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/8khOZZ8pg1cTOCCnIPfvP3ltb3t.jpg"
+  },
+  {
+    "id": "person_cfa2ed2aac6d",
+    "display_name": "Katsuhiro Otomo",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/hMxQlQa0cKLx086va8KDIyOdxO1.jpg"
+  },
+  {
+    "id": "person_76501ede9b3f",
+    "display_name": "Kenji Mizoguchi",
+    "roles": [
+      "director"
+    ],
+    "profile_path": "/ngKRZZPKh8d7GaeMgcM0eXbzMte.jpg"
+  },
+  {
+    "id": "person_b5c53e699dea",
+    "display_name": "Lee Chang-dong",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/8FLNYaqHkOrqXTL0mvZwxtNjNe3.jpg"
+  },
+  {
+    "id": "person_6fe3dfe31468",
+    "display_name": "Luis Buñuel",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/a7wib1eRG6TyonDXpAbF7PZd0f8.jpg"
+  },
+  {
+    "id": "person_84c52f1d303a",
+    "display_name": "Marcel Camus",
+    "roles": [
+      "actor",
+      "director"
+    ],
+    "profile_path": "/lErZmR4arJzF9QBVGWrdIPg64zl.jpg"
+  },
+  {
+    "id": "person_7ab5cb79e0be",
+    "display_name": "Marjane Satrapi",
+    "roles": [
+      "director"
+    ],
+    "profile_path": "/raQMpIDQ5RCC8LVYv2iyLQt7kbP.jpg"
+  },
+  {
+    "id": "person_8422051640d7",
+    "display_name": "Martin Scorsese",
+    "roles": [
+      "director"
+    ],
+    "profile_path": "/g3DjfKsgZQWZiw30I20hZVk1oMX.jpg"
+  },
+  {
+    "id": "person_376d07c1123c",
+    "display_name": "Masaki Kobayashi",
+    "roles": [
+      "director"
+    ],
+    "profile_path": "/5epZ39mf1Ii7xOjqYx2YYq39y5X.jpg"
+  },
+  {
+    "id": "person_950f924ce21a",
+    "display_name": "Mati Diop",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/3p8euc4PO9Yo9RR0PjaADsN9R6V.jpg"
+  },
+  {
+    "id": "person_542fa9d5c16b",
+    "display_name": "Maya Deren",
+    "roles": [
+      "actor",
+      "director",
+      "writer"
+    ],
+    "profile_path": "/2hWaD4yNG6JeSdLF2M33iLn6YnQ.jpg"
+  },
+  {
+    "id": "person_fcd6e47442fb",
+    "display_name": "Michael Curtiz",
+    "roles": [
+      "director"
+    ],
+    "profile_path": "/AnxPuEsdjPTJ6uIaHY0KdgBeu7t.jpg"
+  },
+  {
+    "id": "person_70ac8fc73af7",
+    "display_name": "Nadine Labaki",
+    "roles": [
+      "actor",
+      "director",
+      "writer"
+    ],
+    "profile_path": "/mV1JAlM4CAdzosSqZs2ch2TPKLS.jpg"
+  },
+  {
+    "id": "person_0ab5db68c824",
+    "display_name": "Naji Abu Nowar",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/aWHESaONGl5O9R8yc4z2XXixOiJ.jpg"
+  },
+  {
+    "id": "person_af3e133428b9",
+    "display_name": "Orson Welles",
+    "roles": [
+      "actor",
+      "director",
+      "writer"
+    ],
+    "profile_path": "/e9lGmqQq3EsHeUQgQLByo275hcc.jpg"
+  },
+  {
+    "id": "person_3a21912e3a2c",
+    "display_name": "Ousmane Sembène",
+    "roles": [
+      "actor",
+      "director",
+      "writer"
+    ],
+    "profile_path": "/v5QkPWoui6zLgD8ROo8VfjFum6l.jpg"
+  },
+  {
+    "id": "person_b43de47ea321",
+    "display_name": "Park Chan-wook",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/jsSFCVB7MhuVbSLwTgESiXEiNjt.jpg"
+  },
+  {
+    "id": "person_b056923e10b1",
+    "display_name": "Patricio Guzmán",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/lyb4xwhH3wllasIOsNIBQbvCQkD.jpg"
+  },
+  {
+    "id": "person_56ad4d4deaec",
+    "display_name": "Quentin Tarantino",
+    "roles": [
+      "actor",
+      "director",
+      "writer"
+    ],
+    "profile_path": "/1gjcpAa99FAOWGnrUvHEXXsRs7o.jpg"
+  },
+  {
+    "id": "person_8a31142177ae",
+    "display_name": "Ramesh Sippy",
+    "roles": [
+      "director"
+    ],
+    "profile_path": "/cI0ToZpcju84KjmXSzRuTD8a9V2.jpg"
+  },
+  {
+    "id": "person_0c8b9369aed1",
+    "display_name": "René Laloux",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/z8OB7OFbI1kQDQaE04PckDpPgj6.jpg"
+  },
+  {
+    "id": "person_e77f8d53c6df",
+    "display_name": "Ridley Scott",
+    "roles": [
+      "director"
+    ],
+    "profile_path": "/97SO7H0UlS3racqjeW5JTy8c6GM.jpg"
+  },
+  {
+    "id": "person_6c92d72149a0",
+    "display_name": "Ryusuke Hamaguchi",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/dwvo9EKhFlIXoe8d7u9LtF0XnNR.jpg"
+  },
+  {
+    "id": "person_9efead361acb",
+    "display_name": "Satyajit Ray",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/qP5mjuc3dL8n9c1zeY4W6L2w38L.jpg"
+  },
+  {
+    "id": "person_ec265def2dd3",
+    "display_name": "Sebastián Lelio",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/uzYhbqxO8BGkzBl4g5xHUZbaD7V.jpg"
+  },
+  {
+    "id": "person_a6cb3c949d56",
+    "display_name": "Souleymane Cissé",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/3I5mPRK20GW1Qp54BmyOmWX0xAK.jpg"
+  },
+  {
+    "id": "person_fa81c9a8f358",
+    "display_name": "Spike Lee",
+    "roles": [
+      "actor",
+      "director",
+      "writer"
+    ],
+    "profile_path": "/2KOHXgk2uoRXl6u7V9xpAIo3uay.jpg"
+  },
+  {
+    "id": "person_e8b08694009d",
+    "display_name": "Stanley Donen",
+    "roles": [
+      "director"
+    ],
+    "profile_path": "/hvRi8etQyf6Zfh7MRsRP0pBR9Om.jpg"
+  },
+  {
+    "id": "person_cae91e45aed8",
+    "display_name": "Stanley Kubrick",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/exfQ6vXXq7rMS5YWb3B88PK39a1.jpg"
+  },
+  {
+    "id": "person_f9074652fd03",
+    "display_name": "Steve James",
+    "roles": [
+      "actor",
+      "director",
+      "writer"
+    ],
+    "profile_path": "/1n01wuRSyi7ZOdzo4KGoDUZt8HB.jpg"
+  },
+  {
+    "id": "person_045eafd27cb6",
+    "display_name": "Tomás Gutiérrez Alea",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/aM8rdpELmKeSGVakP2aM2I9vqMI.jpg"
+  },
+  {
+    "id": "person_019a954af7fb",
+    "display_name": "Victor Fleming",
+    "roles": [
+      "director"
+    ],
+    "profile_path": "/kwMaOpQnirmXFEuvP0t7Zc94sqj.jpg"
+  },
+  {
+    "id": "person_022ba314cd82",
+    "display_name": "Vincent Paronnaud",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/nORoAfK0JGLXQKJBNBMGRgexsfL.jpg"
+  },
+  {
+    "id": "person_6837cd73856d",
+    "display_name": "Vittorio De Sica",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/o3Q3yWT4nHFP8UKNM8c1ywmXWlG.jpg"
+  },
+  {
+    "id": "person_88134759aa60",
+    "display_name": "Walter Salles",
+    "roles": [
+      "director",
+      "producer",
+      "writer"
+    ],
+    "profile_path": "/g2ZnolTMK9BCB97bZRBgnMaa3e1.jpg"
+  },
+  {
+    "id": "person_68115b1eda13",
+    "display_name": "Wong Kar-Wai",
+    "roles": [
+      "director",
+      "producer",
+      "writer"
+    ],
+    "profile_path": "/msp2p1lFpbsQ3Ntpdh1sbryIZBR.jpg"
+  },
+  {
+    "id": "person_398377472bb9",
+    "display_name": "Yasujirō Ozu",
+    "roles": [
+      "director",
+      "writer"
+    ],
+    "profile_path": "/s0KBnwAxr6Aujbi6cA3inDqH8Fe.jpg"
+  },
+  {
+    "id": "person_aa62ffff4761",
+    "display_name": "Zhang Yimou",
+    "roles": [
+      "director"
+    ],
+    "profile_path": "/uU5vECl94jDQYjiRk4eOpVRMEi9.jpg"
+  }
+]
