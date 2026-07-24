@@ -1,7 +1,15 @@
 import { notFound } from "next/navigation";
 
 import AwardDetailPage from "@/components/pages/AwardDetailPage";
-import { getAwardBySlug, getAwards, getCountries, getDirectors, getMovies } from "@/lib/catalogQuery";
+import {
+  getAwardBySlug,
+  getAwards,
+  getCountriesBySlugs,
+  getDirectorsBySlugs,
+  getMoviesByReferences,
+} from "@/lib/catalogQuery";
+
+export const dynamic = "force-dynamic";
 
 type AwardRouteProps = {
   params: Promise<{
@@ -11,17 +19,24 @@ type AwardRouteProps = {
 
 export default async function AwardRoute({ params }: AwardRouteProps) {
   const { award: awardSlug } = await params;
-  const [award, awards, countries, directors, movies] = await Promise.all([
-    getAwardBySlug(awardSlug),
-    getAwards(),
-    getCountries(),
-    getDirectors(),
-    getMovies(),
-  ]);
+  const award = await getAwardBySlug(awardSlug);
 
   if (!award) {
     notFound();
   }
+
+  const movies = await getMoviesByReferences([
+    ...award.representativeMovieIds,
+    award.starterMovieId,
+  ].filter((item): item is string => Boolean(item)));
+  const [awards, countries, directors] = await Promise.all([
+    getAwards(),
+    getCountriesBySlugs([
+      award.countrySlug,
+      ...movies.map((movie) => movie.countrySlug),
+    ].filter((item): item is string => Boolean(item))),
+    getDirectorsBySlugs(award.directorSlugs),
+  ]);
 
   return (
     <AwardDetailPage

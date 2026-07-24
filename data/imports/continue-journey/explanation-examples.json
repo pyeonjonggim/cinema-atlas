@@ -1,0 +1,441 @@
+{
+  "summary": {
+    "command": "verify:continue-journey",
+    "status": "PASS",
+    "supportedEntities": 4,
+    "journeyCategories": 8,
+    "duplicateSuggestions": 0,
+    "missingReasons": 0,
+    "repositoryViolations": 0,
+    "verificationErrors": 0,
+    "structuredExplanations": "PASS",
+    "missingExplanationModels": 0,
+    "missingFormatterDefinitions": 0,
+    "invalidExplanationDirections": 0,
+    "emptyRenderedReasons": 0,
+    "duplicatedExplanationTemplates": 0,
+    "completedAt": "2026-07-24T10:56:18.379Z"
+  },
+  "examples": [
+    {
+      "explanation": {
+        "kind": "DIRECT_RELATIONSHIP",
+        "relationshipType": "MOVIE_ACTED_BY_PERSON",
+        "source": {
+          "type": "MOVIE",
+          "id": "mov_01cb75545e40",
+          "entityType": "MOVIE"
+        },
+        "target": {
+          "type": "PERSON",
+          "id": "person_22bb05637b70",
+          "entityType": "PERSON"
+        },
+        "metadata": {
+          "direction": "outgoing"
+        }
+      },
+      "renderedText": "Features Person 22bb05637b70",
+      "unsupportedLocaleFallback": "Features Person 22bb05637b70"
+    },
+    {
+      "explanation": {
+        "kind": "DIRECT_RELATIONSHIP",
+        "relationshipType": "MOVIE_ACTED_BY_PERSON",
+        "source": {
+          "type": "MOVIE",
+          "id": "mov_01cb75545e40",
+          "entityType": "MOVIE"
+        },
+        "target": {
+          "type": "PERSON",
+          "id": "person_2307aa4e135a",
+          "entityType": "PERSON"
+        },
+        "metadata": {
+          "direction": "outgoing"
+        }
+      },
+      "renderedText": "Features Person 2307aa4e135a",
+      "unsupportedLocaleFallback": "Features Person 2307aa4e135a"
+    },
+    {
+      "explanation": {
+        "kind": "DIRECT_RELATIONSHIP",
+        "relationshipType": "MOVIE_ACTED_BY_PERSON",
+        "source": {
+          "type": "MOVIE",
+          "id": "mov_01cb75545e40",
+          "entityType": "MOVIE"
+        },
+        "target": {
+          "type": "PERSON",
+          "id": "person_2dc3ec7fc6c6",
+          "entityType": "PERSON"
+        },
+        "metadata": {
+          "direction": "outgoing"
+        }
+      },
+      "renderedText": "Features Person 2dc3ec7fc6c6",
+      "unsupportedLocaleFallback": "Features Person 2dc3ec7fc6c6"
+    },
+    {
+      "explanation": {
+        "kind": "DIRECT_RELATIONSHIP",
+        "relationshipType": "MOVIE_ACTED_BY_PERSON",
+        "source": {
+          "type": "MOVIE",
+          "id": "mov_01cb75545e40",
+          "entityType": "MOVIE"
+        },
+        "target": {
+          "type": "PERSON",
+          "id": "person_36ad2cbcce1f",
+          "entityType": "PERSON"
+        },
+        "metadata": {
+          "direction": "outgoing"
+        }
+      },
+      "renderedText": "Features Person 36ad2cbcce1f",
+      "unsupportedLocaleFallback": "Features Person 36ad2cbcce1f"
+    },
+    {
+      "explanation": {
+        "kind": "DIRECT_RELATIONSHIP",
+        "relationshipType": "MOVIE_ACTED_BY_PERSON",
+        "source": {
+          "type": "MOVIE",
+          "id": "mov_01cb75545e40",
+          "entityType": "MOVIE"
+        },
+        "target": {
+          "type": "PERSON",
+          "id": "person_3c8ceebc25a9",
+          "entityType": "PERSON"
+        },
+        "metadata": {
+          "direction": "outgoing"
+        }
+      },
+      "renderedText": "Features Person 3c8ceebc25a9",
+      "unsupportedLocaleFallback": "Features Person 3c8ceebc25a9"
+    },
+    {
+      "explanation": {
+        "kind": "DIRECT_RELATIONSHIP",
+        "relationshipType": "MOVIE_ACTED_BY_PERSON",
+        "source": {
+          "type": "MOVIE",
+          "id": "mov_01cb75545e40",
+          "entityType": "MOVIE"
+        },
+        "target": {
+          "type": "PERSON",
+          "id": "person_4cb01a956ad4",
+          "entityType": "PERSON"
+        },
+        "metadata": {
+          "direction": "outgoing"
+        }
+      },
+      "renderedText": "Features Person 4cb01a956ad4",
+      "unsupportedLocaleFallback": "Features Person 4cb01a956ad4"
+    },
+    {
+      "explanation": {
+        "kind": "DIRECT_RELATIONSHIP",
+        "relationshipType": "MOVIE_ACTED_BY_PERSON",
+        "source": {
+          "type": "MOVIE",
+          "id": "mov_01cb75545e40",
+          "entityType": "MOVIE"
+        },
+        "target": {
+          "type": "PERSON",
+          "id": "person_4d94c95b1d24",
+          "entityType": "PERSON"
+        },
+        "metadata": {
+          "direction": "outgoing"
+        }
+      },
+      "renderedText": "Features Person 4d94c95b1d24",
+      "unsupportedLocaleFallback": "Features Person 4d94c95b1d24"
+    },
+    {
+      "explanation": {
+        "kind": "DIRECT_RELATIONSHIP",
+        "relationshipType": "MOVIE_ACTED_BY_PERSON",
+        "source": {
+          "type": "MOVIE",
+          "id": "mov_01cb75545e40",
+          "entityType": "MOVIE"
+        },
+        "target": {
+          "type": "PERSON",
+          "id": "person_4e5e6b238503",
+          "entityType": "PERSON"
+        },
+        "metadata": {
+          "direction": "outgoing"
+        }
+      },
+      "renderedText": "Features Person 4e5e6b238503",
+      "unsupportedLocaleFallback": "Features Person 4e5e6b238503"
+    },
+    {
+      "explanation": {
+        "kind": "DIRECT_RELATIONSHIP",
+        "relationshipType": "MOVIE_ACTED_BY_PERSON",
+        "source": {
+          "type": "MOVIE",
+          "id": "mov_01cb75545e40",
+          "entityType": "MOVIE"
+        },
+        "target": {
+          "type": "PERSON",
+          "id": "person_5a8b40c68f2a",
+          "entityType": "PERSON"
+        },
+        "metadata": {
+          "direction": "outgoing"
+        }
+      },
+      "renderedText": "Features Person 5a8b40c68f2a",
+      "unsupportedLocaleFallback": "Features Person 5a8b40c68f2a"
+    },
+    {
+      "explanation": {
+        "kind": "DIRECT_RELATIONSHIP",
+        "relationshipType": "MOVIE_ACTED_BY_PERSON",
+        "source": {
+          "type": "MOVIE",
+          "id": "mov_01cb75545e40",
+          "entityType": "MOVIE"
+        },
+        "target": {
+          "type": "PERSON",
+          "id": "person_5d65107d2ed4",
+          "entityType": "PERSON"
+        },
+        "metadata": {
+          "direction": "outgoing"
+        }
+      },
+      "renderedText": "Features Person 5d65107d2ed4",
+      "unsupportedLocaleFallback": "Features Person 5d65107d2ed4"
+    },
+    {
+      "explanation": {
+        "kind": "DIRECT_RELATIONSHIP",
+        "relationshipType": "MOVIE_ACTED_BY_PERSON",
+        "source": {
+          "type": "MOVIE",
+          "id": "mov_01cb75545e40",
+          "entityType": "MOVIE"
+        },
+        "target": {
+          "type": "PERSON",
+          "id": "person_66c30eabdff0",
+          "entityType": "PERSON"
+        },
+        "metadata": {
+          "direction": "outgoing"
+        }
+      },
+      "renderedText": "Features Person 66c30eabdff0",
+      "unsupportedLocaleFallback": "Features Person 66c30eabdff0"
+    },
+    {
+      "explanation": {
+        "kind": "DIRECT_RELATIONSHIP",
+        "relationshipType": "MOVIE_ACTED_BY_PERSON",
+        "source": {
+          "type": "MOVIE",
+          "id": "mov_01cb75545e40",
+          "entityType": "MOVIE"
+        },
+        "target": {
+          "type": "PERSON",
+          "id": "person_75e6f4712377",
+          "entityType": "PERSON"
+        },
+        "metadata": {
+          "direction": "outgoing"
+        }
+      },
+      "renderedText": "Features Person 75e6f4712377",
+      "unsupportedLocaleFallback": "Features Person 75e6f4712377"
+    },
+    {
+      "explanation": {
+        "kind": "INVERSE_RELATIONSHIP",
+        "relationshipType": "MOVIE_DIRECTED_BY_PERSON",
+        "source": {
+          "type": "AWARD",
+          "id": "venice-golden-lion",
+          "entityType": "AWARD"
+        },
+        "target": {
+          "type": "PERSON",
+          "id": "akira-kurosawa",
+          "entityType": "PERSON"
+        },
+        "metadata": {
+          "direction": "incoming"
+        }
+      },
+      "renderedText": "A film directed by Akira Kurosawa",
+      "unsupportedLocaleFallback": "A film directed by Akira Kurosawa"
+    },
+    {
+      "explanation": {
+        "kind": "INVERSE_RELATIONSHIP",
+        "relationshipType": "MOVIE_DIRECTED_BY_PERSON",
+        "source": {
+          "type": "MOVEMENT",
+          "id": "japanese-golden-age",
+          "entityType": "MOVEMENT"
+        },
+        "target": {
+          "type": "PERSON",
+          "id": "akira-kurosawa",
+          "entityType": "PERSON"
+        },
+        "metadata": {
+          "direction": "incoming"
+        }
+      },
+      "renderedText": "A film directed by Akira Kurosawa",
+      "unsupportedLocaleFallback": "A film directed by Akira Kurosawa"
+    },
+    {
+      "explanation": {
+        "kind": "INVERSE_RELATIONSHIP",
+        "relationshipType": "MOVIE_PRODUCED_IN_COUNTRY",
+        "source": {
+          "type": "MOVIE",
+          "id": "mov_8793d2053c1d",
+          "entityType": "MOVIE"
+        },
+        "target": {
+          "type": "COUNTRY",
+          "id": "ae",
+          "entityType": "COUNTRY"
+        },
+        "metadata": {
+          "direction": "incoming"
+        }
+      },
+      "renderedText": "A film from Ae",
+      "unsupportedLocaleFallback": "A film from Ae"
+    },
+    {
+      "explanation": {
+        "kind": "DIRECT_RELATIONSHIP",
+        "relationshipType": "MOVIE_DIRECTED_BY_PERSON",
+        "source": {
+          "type": "MOVEMENT",
+          "id": "japanese-golden-age",
+          "entityType": "MOVEMENT"
+        },
+        "target": {
+          "type": "PERSON",
+          "id": "akira-kurosawa",
+          "entityType": "PERSON"
+        },
+        "metadata": {
+          "direction": "outgoing"
+        }
+      },
+      "renderedText": "Directed by Akira Kurosawa",
+      "unsupportedLocaleFallback": "Directed by Akira Kurosawa"
+    },
+    {
+      "explanation": {
+        "kind": "DIRECT_RELATIONSHIP",
+        "relationshipType": "MOVIE_PRODUCED_IN_COUNTRY",
+        "source": {
+          "type": "MOVEMENT",
+          "id": "japanese-golden-age",
+          "entityType": "MOVEMENT"
+        },
+        "target": {
+          "type": "COUNTRY",
+          "id": "japan",
+          "entityType": "COUNTRY"
+        },
+        "metadata": {
+          "direction": "outgoing"
+        }
+      },
+      "renderedText": "Produced in Japan",
+      "unsupportedLocaleFallback": "Produced in Japan"
+    },
+    {
+      "explanation": {
+        "kind": "INVERSE_RELATIONSHIP",
+        "relationshipType": "MOVIE_PART_OF_MOVEMENT",
+        "source": {
+          "type": "MOVIE",
+          "id": "mov_171608a71548",
+          "entityType": "MOVIE"
+        },
+        "target": {
+          "type": "MOVEMENT",
+          "id": "japanese-golden-age",
+          "entityType": "MOVEMENT"
+        },
+        "metadata": {
+          "direction": "incoming"
+        }
+      },
+      "renderedText": "A film associated with Japanese Golden Age",
+      "unsupportedLocaleFallback": "A film associated with Japanese Golden Age"
+    },
+    {
+      "explanation": {
+        "kind": "INVERSE_RELATIONSHIP",
+        "relationshipType": "MOVIE_PART_OF_MOVEMENT",
+        "source": {
+          "type": "MOVIE",
+          "id": "mov_350f73e3dbc1",
+          "entityType": "MOVIE"
+        },
+        "target": {
+          "type": "MOVEMENT",
+          "id": "japanese-golden-age",
+          "entityType": "MOVEMENT"
+        },
+        "metadata": {
+          "direction": "incoming"
+        }
+      },
+      "renderedText": "A film associated with Japanese Golden Age",
+      "unsupportedLocaleFallback": "A film associated with Japanese Golden Age"
+    },
+    {
+      "explanation": {
+        "kind": "INVERSE_RELATIONSHIP",
+        "relationshipType": "MOVIE_PART_OF_MOVEMENT",
+        "source": {
+          "type": "MOVIE",
+          "id": "mov_65bbbefc3e7c",
+          "entityType": "MOVIE"
+        },
+        "target": {
+          "type": "MOVEMENT",
+          "id": "japanese-golden-age",
+          "entityType": "MOVEMENT"
+        },
+        "metadata": {
+          "direction": "incoming"
+        }
+      },
+      "renderedText": "A film associated with Japanese Golden Age",
+      "unsupportedLocaleFallback": "A film associated with Japanese Golden Age"
+    }
+  ]
+}

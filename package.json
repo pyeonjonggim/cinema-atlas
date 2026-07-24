@@ -33,7 +33,22 @@
     "verify:persons": "node scripts/verify-person-integrity.mjs",
     "verify:person-credits": "node scripts/verify-person-credits.mjs",
     "verify:country-review": "node scripts/verify-country-review.mjs",
-    "verify:data-quality": "node scripts/verify-data-quality.mjs"
+    "verify:data-quality": "node scripts/verify-data-quality.mjs",
+    "verify:movies": "node scripts/verify-movies.mjs",
+    "verify:relationship-types": "node scripts/verify-relationship-types.mjs",
+    "verify:relationship-repository": "node scripts/verify-relationship-repository.mjs",
+    "verify:relationship-service": "node scripts/verify-relationship-service.mjs",
+    "verify:continue-journey": "node scripts/verify-continue-journey.mjs",
+    "verify:relationship-policy": "node scripts/verify-relationship-policy.mjs",
+    "verify:journeys": "node scripts/verify-journeys.mjs",
+    "verify:journey-difficulty": "node scripts/verify-journey-difficulty.mjs",
+    "verify:journey-factory": "node scripts/verify-journey-factory.mjs",
+    "verify:journey-persistence": "node scripts/verify-journey-persistence.mjs",
+    "verify:journey-query": "node scripts/verify-journey-query.mjs",
+    "verify:journey-promotion": "node scripts/verify-journey-promotion.mjs",
+    "verify:journey-candidate-preview": "node scripts/verify-journey-candidate-preview.mjs",
+    "verify:journey-backlog": "node scripts/verify-journey-backlog.mjs",
+    "verify:saved-journeys": "node scripts/verify-saved-journeys.mjs"
   },
   "dependencies": {
     "next": "16.2.10",

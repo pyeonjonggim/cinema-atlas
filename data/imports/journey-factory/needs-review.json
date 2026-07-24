@@ -1,0 +1,70 @@
+[
+  {
+    "id": "candidate-korean-contemporary-cinema",
+    "blueprintId": "blueprint-korean-contemporary-cinema",
+    "title": "Korean Contemporary Cinema",
+    "category": "movement",
+    "status": "needs-editorial-review",
+    "reason": "Prepare a longer future route from Korean national cinema into auteurs, actors, and global recognition.",
+    "steps": [
+      {
+        "id": "blueprint-korean-contemporary-cinema-1-country-south-korea",
+        "journeyId": "candidate-korean-contemporary-cinema",
+        "order": 1,
+        "entityType": "country",
+        "entityId": "south-korea",
+        "learningGoal": "Enter the route through South Korea."
+      },
+      {
+        "id": "blueprint-korean-contemporary-cinema-2-movement-korean-contemporary-cinema",
+        "journeyId": "candidate-korean-contemporary-cinema",
+        "order": 2,
+        "entityType": "movement",
+        "entityId": "korean-contemporary-cinema",
+        "learningGoal": "Use Korean Contemporary Cinema as context before the next film stop."
+      },
+      {
+        "id": "blueprint-korean-contemporary-cinema-3-director-bong-joon-ho",
+        "journeyId": "candidate-korean-contemporary-cinema",
+        "order": 3,
+        "entityType": "director",
+        "entityId": "bong-joon-ho",
+        "learningGoal": "Use Bong Joon Ho as context before the next film stop."
+      },
+      {
+        "id": "blueprint-korean-contemporary-cinema-4-movie-memories-of-murder",
+        "journeyId": "candidate-korean-contemporary-cinema",
+        "order": 4,
+        "entityType": "movie",
+        "entityId": "memories-of-murder",
+        "learningGoal": "Watch Memories Of Murder as a core film stop."
+      },
+      {
+        "id": "blueprint-korean-contemporary-cinema-5-movie-parasite",
+        "journeyId": "candidate-korean-contemporary-cinema",
+        "order": 5,
+        "entityType": "movie",
+        "entityId": "parasite",
+        "learningGoal": "Watch Parasite as a core film stop."
+      },
+      {
+        "id": "blueprint-korean-contemporary-cinema-6-award-palme-dor",
+        "journeyId": "candidate-korean-contemporary-cinema",
+        "order": 6,
+        "entityType": "award",
+        "entityId": "palme-dor",
+        "learningGoal": "Use Palme Dor as the continuation point after the route."
+      }
+    ],
+    "movieCount": 2,
+    "stepCount": 6,
+    "computedDifficulty": "beginner",
+    "difficultyScore": 36,
+    "validationIssues": [
+      "Candidate is too short: 6/10 target steps.",
+      "Candidate is not film-forward enough: 2/5 required film stops.",
+      "Films should carry at least half of the route: 2/6.",
+      "Anchors not present in existing published journey data: country:south-korea."
+    ]
+  }
+]

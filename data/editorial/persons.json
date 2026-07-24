@@ -116,6 +116,160 @@
       "status": "verified",
       "featured": true,
       "reason": "Canonical person country should reflect Zhang Yimou's Chinese cinema context."
+    },
+    {
+      "slug": "ari-folman",
+      "status": "unknown",
+      "reason": "Country review candidate with transnational production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "charlotte-wells",
+      "status": "unknown",
+      "reason": "Country review candidate with mixed production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "chen-kaige",
+      "status": "unknown",
+      "reason": "Country review candidate with China and Hong Kong production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "damian-szifron",
+      "preferredName": "Damian Szifron",
+      "aliases": ["dami-n-szifron"],
+      "status": "unknown",
+      "reason": "Country review candidate with mixed production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "fernando-meirelles",
+      "status": "unknown",
+      "reason": "Country review candidate with mixed production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "florian-henckel-von-donnersmarck",
+      "status": "unknown",
+      "reason": "Country review candidate with mixed production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "george-miller",
+      "status": "unknown",
+      "reason": "Country review candidate with mixed production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "gillo-pontecorvo",
+      "status": "unknown",
+      "reason": "Country review candidate with Algeria and Italy production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "giuseppe-tornatore",
+      "status": "unknown",
+      "reason": "Country review candidate with mixed production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "guillermo-del-toro",
+      "status": "unknown",
+      "reason": "Country review candidate with transnational production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "haifaa-al-mansour",
+      "status": "unknown",
+      "reason": "Country review candidate with mixed production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "jean-pierre-jeunet",
+      "status": "unknown",
+      "reason": "Country review candidate with mixed production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "jonathan-glazer",
+      "status": "unknown",
+      "reason": "Country review candidate with mixed production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "joshua-oppenheimer",
+      "status": "unknown",
+      "reason": "Country review candidate with documentary and transnational production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "juan-jose-campanella",
+      "preferredName": "Juan Jose Campanella",
+      "aliases": ["juan-jos-campanella"],
+      "status": "unknown",
+      "reason": "Country review candidate with Argentina and Spain production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "lee-chang-dong",
+      "status": "unknown",
+      "reason": "Country review candidate with mixed production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "marcel-camus",
+      "status": "unknown",
+      "reason": "Country review candidate with Brazil, France, and Italy production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "marjane-satrapi",
+      "status": "unknown",
+      "reason": "Country review candidate with transnational production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "mati-diop",
+      "status": "unknown",
+      "reason": "Country review candidate with France, Belgium, and Senegal production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "nadine-labaki",
+      "status": "unknown",
+      "reason": "Country review candidate with transnational production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "naji-abu-nowar",
+      "status": "unknown",
+      "reason": "Country review candidate with transnational production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "ousmane-sembene",
+      "preferredName": "Ousmane Sembene",
+      "aliases": ["ousmane-semb-ne"],
+      "status": "unknown",
+      "reason": "Country review candidate with France and Senegal production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "patricio-guzman",
+      "preferredName": "Patricio Guzman",
+      "aliases": ["patricio-guzm-n"],
+      "status": "unknown",
+      "reason": "Country review candidate with Chile and European production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "rene-laloux",
+      "preferredName": "Rene Laloux",
+      "aliases": ["ren-laloux"],
+      "status": "unknown",
+      "reason": "Country review candidate with France and historical production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "sebastian-lelio",
+      "preferredName": "Sebastian Lelio",
+      "aliases": ["sebasti-n-lelio"],
+      "status": "unknown",
+      "reason": "Country review candidate with Chile and transnational production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "souleymane-cisse",
+      "preferredName": "Souleymane Cisse",
+      "aliases": ["souleymane-ciss"],
+      "status": "unknown",
+      "reason": "Country review candidate with Mali and transnational production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "vincent-paronnaud",
+      "status": "unknown",
+      "reason": "Country review candidate with mixed production signals. No editorial country assignment yet."
+    },
+    {
+      "slug": "walter-salles",
+      "status": "unknown",
+      "reason": "Country review candidate with Brazil and France production signals. No editorial country assignment yet."
     }
   ]
 }

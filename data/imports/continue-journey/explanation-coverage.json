@@ -1,0 +1,81 @@
+{
+  "summary": {
+    "command": "verify:continue-journey",
+    "status": "PASS",
+    "supportedEntities": 4,
+    "journeyCategories": 8,
+    "duplicateSuggestions": 0,
+    "missingReasons": 0,
+    "repositoryViolations": 0,
+    "verificationErrors": 0,
+    "structuredExplanations": "PASS",
+    "missingExplanationModels": 0,
+    "missingFormatterDefinitions": 0,
+    "invalidExplanationDirections": 0,
+    "emptyRenderedReasons": 0,
+    "duplicatedExplanationTemplates": 0,
+    "completedAt": "2026-07-24T10:56:18.379Z"
+  },
+  "coverage": [
+    {
+      "relationshipType": "MOVIE_DIRECTED_BY_PERSON",
+      "directFormatter": "Directed by {target}",
+      "inverseFormatter": "A film directed by {target}",
+      "fallbackStatus": "defined"
+    },
+    {
+      "relationshipType": "MOVIE_ACTED_BY_PERSON",
+      "directFormatter": "Features {target}",
+      "inverseFormatter": "A film featuring {target}",
+      "fallbackStatus": "defined"
+    },
+    {
+      "relationshipType": "MOVIE_WRITTEN_BY_PERSON",
+      "directFormatter": "Written by {target}",
+      "inverseFormatter": "A film written by {target}",
+      "fallbackStatus": "defined"
+    },
+    {
+      "relationshipType": "MOVIE_PRODUCED_BY_PERSON",
+      "directFormatter": "Produced by {target}",
+      "inverseFormatter": "A film produced by {target}",
+      "fallbackStatus": "defined"
+    },
+    {
+      "relationshipType": "MOVIE_PRODUCED_IN_COUNTRY",
+      "directFormatter": "Produced in {target}",
+      "inverseFormatter": "A film from {target}",
+      "fallbackStatus": "defined"
+    },
+    {
+      "relationshipType": "MOVIE_HAS_GENRE",
+      "directFormatter": "Associated with {target}",
+      "inverseFormatter": "A film associated with {target}",
+      "fallbackStatus": "defined"
+    },
+    {
+      "relationshipType": "MOVIE_USES_LANGUAGE",
+      "directFormatter": "Uses {target}",
+      "inverseFormatter": "A film using {target}",
+      "fallbackStatus": "defined"
+    },
+    {
+      "relationshipType": "MOVIE_PRODUCED_BY_COMPANY",
+      "directFormatter": "Produced by {target}",
+      "inverseFormatter": "A film produced by {target}",
+      "fallbackStatus": "defined"
+    },
+    {
+      "relationshipType": "MOVIE_PART_OF_MOVEMENT",
+      "directFormatter": "Associated with {target}",
+      "inverseFormatter": "A film associated with {target}",
+      "fallbackStatus": "defined"
+    },
+    {
+      "relationshipType": "MOVIE_WON_AWARD",
+      "directFormatter": "Recognized by {target}",
+      "inverseFormatter": "A film recognized by {target}",
+      "fallbackStatus": "defined"
+    }
+  ]
+}

@@ -6,6 +6,8 @@ import JourneyCard from "@/components/discovery/JourneyCard";
 import { getActors } from "@/lib/catalogQuery";
 import type { EntityImage } from "@/lib/media";
 
+export const dynamic = "force-dynamic";
+
 export default async function ActorsPage() {
   const actors = await getActors();
   const actorItems = actors.map((actor) => {

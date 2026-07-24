@@ -1,0 +1,74 @@
+{
+  "summary": {
+    "command": "verify:relationship-service",
+    "status": "PASS",
+    "serviceMethods": 5,
+    "repositoryDependency": "PASS",
+    "duplicatedComposition": 0,
+    "verificationErrors": 0,
+    "emptyResultBehavior": "Invalid relationship filters produce empty result sets at repository/service boundaries.",
+    "sampleRelationship": {
+      "source_type": "award",
+      "source_id": "academy-best-picture",
+      "relation_type": "MOVIE_DIRECTED_BY_PERSON",
+      "target_type": "person",
+      "target_id": "bong-joon-ho"
+    },
+    "completedAt": "2026-07-23T04:34:52.951Z"
+  },
+  "coverage": [
+    {
+      "serviceMethod": "getRelatedEntities",
+      "implemented": true,
+      "repositoryMethods": [
+        "findNeighbors"
+      ],
+      "repositoryCallsPresent": true
+    },
+    {
+      "serviceMethod": "getOutgoingRelationships",
+      "implemented": true,
+      "repositoryMethods": [
+        "findOutgoing"
+      ],
+      "repositoryCallsPresent": true
+    },
+    {
+      "serviceMethod": "getIncomingRelationships",
+      "implemented": true,
+      "repositoryMethods": [
+        "findIncoming"
+      ],
+      "repositoryCallsPresent": true
+    },
+    {
+      "serviceMethod": "getRelationshipSummary",
+      "implemented": true,
+      "repositoryMethods": [
+        "findOutgoing",
+        "findIncoming"
+      ],
+      "repositoryCallsPresent": true
+    },
+    {
+      "serviceMethod": "existsRelationship",
+      "implemented": true,
+      "repositoryMethods": [
+        "findBetween"
+      ],
+      "repositoryCallsPresent": true
+    }
+  ],
+  "registeredRelationshipTypes": [
+    "MOVIE_DIRECTED_BY_PERSON",
+    "MOVIE_ACTED_BY_PERSON",
+    "MOVIE_WRITTEN_BY_PERSON",
+    "MOVIE_PRODUCED_BY_PERSON",
+    "MOVIE_PRODUCED_IN_COUNTRY",
+    "MOVIE_HAS_GENRE",
+    "MOVIE_USES_LANGUAGE",
+    "MOVIE_PRODUCED_BY_COMPANY",
+    "MOVIE_PART_OF_MOVEMENT",
+    "MOVIE_WON_AWARD"
+  ]
+}

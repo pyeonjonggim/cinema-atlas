@@ -1,0 +1,11 @@
+{
+  "publishedJourneys": 3,
+  "generatedCandidates": 6,
+  "featuredJourneyId": "intro-japanese-cinema",
+  "detailLookup": true,
+  "candidateHidden": true,
+  "directStaticImports": 0,
+  "missingSteps": 0,
+  "unpublishedVisible": 0,
+  "status": "PASS"
+}

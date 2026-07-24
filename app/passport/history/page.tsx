@@ -1,5 +1,4 @@
 import PassportHistoryPage from "@/components/pages/PassportHistoryPage";
-import { officialJourneys } from "@/data/journeys";
 import { journalEntries } from "@/data/journalEntries";
 import { movies } from "@/data/movies";
 import {
@@ -10,9 +9,11 @@ import {
   userChallenges,
 } from "@/data/passport";
 import { userMovies } from "@/data/userMovies";
+import { listPublishedJourneys } from "@/lib/journeyQuery";
 import { buildPassportModel } from "@/lib/passport";
 
-export default function PassportHistoryRoute() {
+export default async function PassportHistoryRoute() {
+  const journeys = await listPublishedJourneys();
   const passport = buildPassportModel({
     movies,
     userMovies,
@@ -22,7 +23,7 @@ export default function PassportHistoryRoute() {
     userAchievements,
     milestones,
     journalEntries,
-    journeys: officialJourneys,
+    journeys,
   });
 
   return <PassportHistoryPage events={passport.passportHistory} />;

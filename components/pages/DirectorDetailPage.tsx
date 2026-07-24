@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import type { Director } from "@/data/directors";
+import type { EntityContinueJourneyItem } from "@/components/patterns/EntityContinueJourneyPattern";
 import type { EntityImage } from "@/lib/media";
 import type { Movie } from "@/types/movie";
 
@@ -21,6 +22,7 @@ type DirectorDetailPageProps = {
   director: Director;
   directors: Director[];
   movies: Movie[];
+  continueJourneyItems?: EntityContinueJourneyItem[];
 };
 
 type CollaboratorItem = {
@@ -124,6 +126,7 @@ export default function DirectorDetailPage({
   director,
   directors,
   movies,
+  continueJourneyItems,
 }: DirectorDetailPageProps) {
   const directorMedia = director as Director & { profileImage?: EntityImage | null };
   const directorMovies = movies.filter(
@@ -273,7 +276,7 @@ export default function DirectorDetailPage({
     </div>
   );
 
-  const continueJourneyItems = [
+  const fallbackContinueJourneyItems = [
     {
       label: "Films",
       title: `Explore Films by ${director.name}`,
@@ -317,6 +320,7 @@ export default function DirectorDetailPage({
       disabled: !topCollaborator,
     },
   ];
+  const journeyItems = continueJourneyItems?.length ? continueJourneyItems : fallbackContinueJourneyItems;
 
   return (
     <EncyclopediaDetailTemplate
@@ -364,7 +368,8 @@ export default function DirectorDetailPage({
       continueJourney={
         <EntityContinueJourneyPattern
           description="Continue from this director into films, country context, movements, and collaborators."
-          items={continueJourneyItems}
+          items={journeyItems}
+          mode="curated"
         />
       }
     />

@@ -1,0 +1,14 @@
+[
+  {
+    "journeyId": "candidate-japanese-cinema-doorway",
+    "issue": "Exact duplicate Journey route: intro-japanese-cinema matches candidate-japanese-cinema-doorway."
+  },
+  {
+    "journeyId": "candidate-new-hollywood-turning-point",
+    "issue": "Exact duplicate Journey route: new-hollywood-foundations matches candidate-new-hollywood-turning-point."
+  },
+  {
+    "journeyId": "candidate-awards-as-canon",
+    "issue": "Exact duplicate Journey route: oscar-winners matches candidate-awards-as-canon."
+  }
+]

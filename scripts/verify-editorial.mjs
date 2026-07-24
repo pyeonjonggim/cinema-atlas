@@ -81,6 +81,13 @@ async function main() {
     ).filter((count) => count > 1).length;
     const unknownPersonSlugs = [];
     const invalidCountrySlugs = [];
+    const people = await client.query("SELECT id, display_name FROM catalog_people");
+    const knownPersonSlugs = new Set(
+      people.rows.flatMap((person) => [
+        String(person.id),
+        slugify(person.display_name),
+      ]),
+    );
     const knownCountrySlugs = new Set([
       "argentina",
       "belgium",
@@ -102,14 +109,7 @@ async function main() {
 
     for (const entry of personEntries) {
       const slugs = [entry.slug, ...(entry.aliases ?? [])];
-      const exists = await client.query(
-        `SELECT id, display_name
-         FROM catalog_people
-         WHERE regexp_replace(lower(display_name), '[^a-z0-9]+', '-', 'g') = ANY($1::text[])
-         LIMIT 1`,
-        [slugs],
-      );
-      if (exists.rows.length === 0) unknownPersonSlugs.push(entry.slug);
+      if (!slugs.some((slug) => knownPersonSlugs.has(slug))) unknownPersonSlugs.push(entry.slug);
       if (entry.countrySlug && !knownCountrySlugs.has(entry.countrySlug)) {
         invalidCountrySlugs.push({
           slug: entry.slug,

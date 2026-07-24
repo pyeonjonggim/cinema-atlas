@@ -1,0 +1,154 @@
+[
+  {
+    "journeyId": "intro-japanese-cinema",
+    "movieId": "rashomon",
+    "tier": "canon",
+    "accessibilityScore": 30,
+    "releaseYear": 1950,
+    "reason": "A world-cinema landmark that still asks viewers to enter a historical mode."
+  },
+  {
+    "journeyId": "intro-japanese-cinema",
+    "movieId": "seven-samurai",
+    "tier": "canon",
+    "accessibilityScore": 25,
+    "releaseYear": 1954,
+    "reason": "A famous canon work with strong narrative accessibility despite its length."
+  },
+  {
+    "journeyId": "intro-japanese-cinema",
+    "movieId": "ugetsu",
+    "tier": "specialist",
+    "accessibilityScore": 65,
+    "releaseYear": 1953,
+    "reason": "A specialist world-cinema classic that benefits from historical context."
+  },
+  {
+    "journeyId": "intro-japanese-cinema",
+    "movieId": "late-spring",
+    "tier": "specialist",
+    "accessibilityScore": 55,
+    "releaseYear": 1949,
+    "reason": "Essential Ozu, but quieter and more formally restrained for new viewers."
+  },
+  {
+    "journeyId": "intro-japanese-cinema",
+    "movieId": "tokyo-story",
+    "tier": "canon",
+    "accessibilityScore": 45,
+    "releaseYear": 1953,
+    "reason": "A widely canonized film whose quiet form is more demanding for beginners."
+  },
+  {
+    "journeyId": "intro-japanese-cinema",
+    "movieId": "woman-in-the-dunes",
+    "tier": "specialist",
+    "accessibilityScore": 75,
+    "releaseYear": 1964,
+    "reason": "A more challenging modernist allegory with a less mainstream entry point."
+  },
+  {
+    "journeyId": "intro-japanese-cinema",
+    "movieId": "spirited-away",
+    "tier": "well-known-canon",
+    "accessibilityScore": 15,
+    "releaseYear": 2001,
+    "reason": "A highly accessible international animation landmark."
+  },
+  {
+    "journeyId": "new-hollywood-foundations",
+    "movieId": "bonnie-and-clyde",
+    "tier": "canon",
+    "accessibilityScore": 35,
+    "releaseYear": 1967,
+    "reason": "Historically central, but less immediate than later blockbuster landmarks."
+  },
+  {
+    "journeyId": "new-hollywood-foundations",
+    "movieId": "easy-rider",
+    "tier": "canon",
+    "accessibilityScore": 35,
+    "releaseYear": 1969,
+    "reason": "Canonical counterculture cinema that benefits from movement context."
+  },
+  {
+    "journeyId": "new-hollywood-foundations",
+    "movieId": "the-godfather",
+    "tier": "mainstream",
+    "accessibilityScore": 10,
+    "releaseYear": 1972,
+    "reason": "A broadly recognized canon film and common entry point."
+  },
+  {
+    "journeyId": "new-hollywood-foundations",
+    "movieId": "taxi-driver",
+    "tier": "canon",
+    "accessibilityScore": 25,
+    "releaseYear": 1976,
+    "reason": "A major New Hollywood text with darker psychological density."
+  },
+  {
+    "journeyId": "new-hollywood-foundations",
+    "movieId": "jaws",
+    "tier": "mainstream",
+    "accessibilityScore": 10,
+    "releaseYear": 1975,
+    "reason": "A broadly familiar modern blockbuster foundation."
+  },
+  {
+    "journeyId": "new-hollywood-foundations",
+    "movieId": "star-wars",
+    "tier": "mainstream",
+    "accessibilityScore": 5,
+    "releaseYear": 1977,
+    "reason": "A globally familiar popular-cinema reference point."
+  },
+  {
+    "journeyId": "oscar-winners",
+    "movieId": "casablanca",
+    "tier": "well-known-canon",
+    "accessibilityScore": 15,
+    "releaseYear": 1942,
+    "reason": "A widely recognized Hollywood classic with strong general-audience awareness."
+  },
+  {
+    "journeyId": "oscar-winners",
+    "movieId": "the-godfather",
+    "tier": "mainstream",
+    "accessibilityScore": 10,
+    "releaseYear": 1972,
+    "reason": "A broadly recognized canon film and common entry point."
+  },
+  {
+    "journeyId": "oscar-winners",
+    "movieId": "one-flew-over-the-cuckoos-nest",
+    "tier": "canon",
+    "accessibilityScore": 25,
+    "releaseYear": 1975,
+    "reason": "A widely known awards landmark with accessible performance focus."
+  },
+  {
+    "journeyId": "oscar-winners",
+    "movieId": "moonlight",
+    "tier": "canon",
+    "accessibilityScore": 25,
+    "releaseYear": 2016,
+    "reason": "A recent canon film with strong awards recognition."
+  },
+  {
+    "journeyId": "oscar-winners",
+    "movieId": "parasite",
+    "tier": "mainstream",
+    "accessibilityScore": 5,
+    "releaseYear": 2019,
+    "reason": "A globally visible contemporary gateway film."
+  },
+  {
+    "journeyId": "oscar-winners",
+    "movieId": "memories-of-murder",
+    "tier": "canon",
+    "accessibilityScore": 35,
+    "releaseYear": 2003,
+    "reason": "A major modern Korean film, though less universally known than Parasite."
+  }
+]

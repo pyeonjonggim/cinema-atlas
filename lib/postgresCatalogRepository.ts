@@ -3,6 +3,7 @@ import "server-only";
 import type { Pool, PoolClient, QueryResultRow } from "pg";
 
 import { getPostgresPool } from "@/lib/db/postgres";
+import { RelationshipRepository } from "@/lib/relationships/relationshipRepository";
 import type {
   CatalogCompanyRecord,
   CatalogCountryRecord,
@@ -17,6 +18,7 @@ import type {
   KnowledgeGraphEntityType,
 } from "@/types/catalogPersistence";
 import type { EntityAlias, ResolvableEntityType } from "@/types/entityResolution";
+import type { RelationshipEdge, RelationshipEntityType } from "@/types/relationship";
 
 type PgExecutor = Pool | PoolClient;
 
@@ -33,20 +35,6 @@ type CatalogMovieRow = QueryResultRow & {
   approval_reason?: string;
   approved_at?: Date | string;
   approved_by?: string;
-  created_at: Date | string;
-  updated_at: Date | string;
-};
-
-type EdgeRow = QueryResultRow & {
-  id: string;
-  source_type: KnowledgeGraphEdge["sourceType"];
-  source_id: string;
-  relation_type: KnowledgeGraphEdge["relationType"];
-  target_type: KnowledgeGraphEdge["targetType"];
-  target_id: string;
-  provenance: KnowledgeGraphEdge["provenance"];
-  confidence: KnowledgeGraphEdge["confidence"];
-  is_curated: boolean;
   created_at: Date | string;
   updated_at: Date | string;
 };
@@ -113,7 +101,11 @@ function edgeKey(edge: Pick<KnowledgeGraphEdge, "sourceType" | "sourceId" | "rel
 }
 
 export class PostgresCatalogRepository implements CatalogRepository {
-  constructor(private readonly pool: Pool = getPostgresPool()) {}
+  private readonly relationshipRepository: RelationshipRepository;
+
+  constructor(private readonly pool: Pool = getPostgresPool()) {
+    this.relationshipRepository = new RelationshipRepository(pool);
+  }
 
   async getMovieById(id: string): Promise<CatalogMovieRecord | undefined> {
     const result = await this.pool.query<CatalogMovieRow>(
@@ -284,11 +276,11 @@ export class PostgresCatalogRepository implements CatalogRepository {
     sourceType: KnowledgeGraphEntityType,
     sourceId: string,
   ): Promise<KnowledgeGraphEdge[]> {
-    const result = await this.pool.query<EdgeRow>(
-      "SELECT * FROM knowledge_graph_edges WHERE source_type = $1 AND source_id = $2",
-      [sourceType, sourceId],
-    );
-    return result.rows.map((row) => this.mapEdgeRow(row));
+    const result = await this.relationshipRepository.findOutgoing({
+      type: this.toRelationshipEntityType(sourceType),
+      id: sourceId,
+    });
+    return result.edges.map((edge) => this.mapRelationshipEdge(edge));
   }
 
   async getRelationsFromSources(
@@ -297,25 +289,24 @@ export class PostgresCatalogRepository implements CatalogRepository {
   ): Promise<KnowledgeGraphEdge[]> {
     if (sourceIds.length === 0) return [];
 
-    const result = await this.pool.query<EdgeRow>(
-      `SELECT *
-       FROM knowledge_graph_edges
-       WHERE source_type = $1
-         AND source_id = ANY($2::text[])`,
-      [sourceType, sourceIds],
+    const result = await this.relationshipRepository.findOutgoing(
+      sourceIds.map((sourceId) => ({
+        type: this.toRelationshipEntityType(sourceType),
+        id: sourceId,
+      })),
     );
-    return result.rows.map((row) => this.mapEdgeRow(row));
+    return result.edges.map((edge) => this.mapRelationshipEdge(edge));
   }
 
   async getRelationsTo(
     targetType: KnowledgeGraphEntityType,
     targetId: string,
   ): Promise<KnowledgeGraphEdge[]> {
-    const result = await this.pool.query<EdgeRow>(
-      "SELECT * FROM knowledge_graph_edges WHERE target_type = $1 AND target_id = $2",
-      [targetType, targetId],
-    );
-    return result.rows.map((row) => this.mapEdgeRow(row));
+    const result = await this.relationshipRepository.findIncoming({
+      type: this.toRelationshipEntityType(targetType),
+      id: targetId,
+    });
+    return result.edges.map((edge) => this.mapRelationshipEdge(edge));
   }
 
   async getEntitiesByIds(
@@ -337,31 +328,74 @@ export class PostgresCatalogRepository implements CatalogRepository {
   async listPeopleByRole(role: "director" | "actor"): Promise<unknown[]> {
     const relationType =
       role === "director" ? "MOVIE_DIRECTED_BY_PERSON" : "MOVIE_ACTED_BY_PERSON";
+    const relations = await this.relationshipRepository.findByType(relationType, {
+      sourceEntityTypes: ["MOVIE"],
+      targetEntityTypes: ["PERSON"],
+    });
+    const personIds = [...new Set(relations.edges.map((edge) => edge.targetId))];
+    if (personIds.length === 0) return [];
 
     const result = await this.pool.query(
-      `SELECT DISTINCT p.*
-       FROM catalog_people p
-       INNER JOIN knowledge_graph_edges e
-         ON e.target_type = 'person'
-        AND e.target_id = p.id
-       WHERE e.source_type = 'movie'
-         AND e.relation_type = $1
-       ORDER BY p.display_name`,
-      [relationType],
+      `SELECT *
+       FROM catalog_people
+       WHERE id = ANY($1::text[])
+       ORDER BY display_name`,
+      [personIds],
+    );
+    return result.rows;
+  }
+
+  async listPeopleWithMovieIdsByRole(role: "director" | "actor"): Promise<unknown[]> {
+    const relationType =
+      role === "director" ? "MOVIE_DIRECTED_BY_PERSON" : "MOVIE_ACTED_BY_PERSON";
+    const result = await this.pool.query(
+      `WITH role_edges AS (
+        SELECT
+          target_id,
+          ARRAY_AGG(source_id ORDER BY source_id) AS movie_ids
+        FROM knowledge_graph_edges
+        WHERE relation_type = $1
+          AND source_type = 'movie'
+          AND target_type = 'person'
+        GROUP BY target_id
+      )
+      SELECT p.*, role_edges.movie_ids
+      FROM catalog_people p
+      INNER JOIN role_edges ON role_edges.target_id = p.id
+      WHERE p.roles ? $2
+      ORDER BY p.display_name`,
+      [relationType, role],
     );
     return result.rows;
   }
 
   async listCountriesReferencedByMovies(): Promise<unknown[]> {
+    const relations = await this.relationshipRepository.findByType("MOVIE_PRODUCED_IN_COUNTRY", {
+      sourceEntityTypes: ["MOVIE"],
+      targetEntityTypes: ["COUNTRY"],
+    });
+    const countryIds = [...new Set(relations.edges.map((edge) => edge.targetId))];
+    if (countryIds.length === 0) return [];
+
     const result = await this.pool.query(
-      `SELECT DISTINCT c.*
-       FROM catalog_countries c
-       INNER JOIN knowledge_graph_edges e
-         ON e.target_type = 'country'
-        AND e.target_id = c.id
-       WHERE e.source_type = 'movie'
-         AND e.relation_type = 'MOVIE_PRODUCED_IN_COUNTRY'
-       ORDER BY c.display_name`,
+      `SELECT *
+       FROM catalog_countries
+       WHERE id = ANY($1::text[])
+       ORDER BY display_name`,
+      [countryIds],
+    );
+    return result.rows;
+  }
+
+  async countMoviesByCountry(): Promise<Array<{ country_id: string; movie_count: string }>> {
+    const result = await this.pool.query(
+      `SELECT target_id AS country_id, COUNT(DISTINCT source_id)::text AS movie_count
+       FROM knowledge_graph_edges
+       WHERE relation_type = 'MOVIE_PRODUCED_IN_COUNTRY'
+         AND source_type = 'movie'
+         AND target_type = 'country'
+       GROUP BY target_id
+       ORDER BY target_id`,
     );
     return result.rows;
   }
@@ -742,20 +776,29 @@ export class PostgresCatalogRepository implements CatalogRepository {
     };
   }
 
-  private mapEdgeRow(row: EdgeRow): KnowledgeGraphEdge {
+  private mapRelationshipEdge(edge: RelationshipEdge): KnowledgeGraphEdge {
     return {
-      id: row.id,
-      sourceType: row.source_type,
-      sourceId: row.source_id,
-      relationType: row.relation_type,
-      targetType: row.target_type,
-      targetId: row.target_id,
-      provenance: row.provenance,
-      confidence: row.confidence,
-      isCurated: row.is_curated,
-      createdAt: isoDate(row.created_at) ?? new Date().toISOString(),
-      updatedAt: isoDate(row.updated_at) ?? new Date().toISOString(),
+      id: edge.id,
+      sourceType: edge.persistedSourceType as KnowledgeGraphEdge["sourceType"],
+      sourceId: edge.sourceId,
+      relationType: edge.type as KnowledgeGraphEdge["relationType"],
+      targetType: edge.persistedTargetType as KnowledgeGraphEdge["targetType"],
+      targetId: edge.targetId,
+      provenance: {
+        provider: edge.isCurated ? "cinema-atlas-editorial" : edge.provenance.source === "TMDB" ? "tmdb" : "system-derived",
+        providerRecordId: edge.provenance.providerRecordId,
+        importedAt: edge.provenance.importedAt ?? edge.createdAt ?? new Date().toISOString(),
+        pipelineVersion: edge.provenance.pipelineVersion ?? "relationship-repository-v1",
+      },
+      confidence: String(edge.metadata?.confidence ?? (edge.isCurated ? "editorial-confirmed" : "high")) as KnowledgeGraphEdge["confidence"],
+      isCurated: edge.isCurated,
+      createdAt: edge.createdAt ?? new Date().toISOString(),
+      updatedAt: edge.updatedAt ?? new Date().toISOString(),
     };
+  }
+
+  private toRelationshipEntityType(entityType: KnowledgeGraphEntityType): RelationshipEntityType {
+    return entityType.toUpperCase().replace(/-/g, "_") as RelationshipEntityType;
   }
 
   private tableForEntityType(entityType: ResolvableEntityType): string {

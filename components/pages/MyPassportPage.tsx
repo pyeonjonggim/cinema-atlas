@@ -11,7 +11,7 @@ import EmptyState from "@/components/ui/EmptyState";
 import { buildPassportModel } from "@/lib/passport";
 import type { Country } from "@/data/countries";
 import type { JournalEntry } from "@/types/journal";
-import type { Journey } from "@/types/journey";
+import type { Journey, JourneyProjection } from "@/types/journey";
 import type { Movie } from "@/types/movie";
 import type {
   Achievement,
@@ -31,7 +31,7 @@ type MyPassportPageProps = {
   userAchievements: UserAchievement[];
   milestones: Milestone[];
   journalEntries: JournalEntry[];
-  journeys: Journey[];
+  journeys: (Journey | JourneyProjection)[];
   countries: Country[];
 };
 

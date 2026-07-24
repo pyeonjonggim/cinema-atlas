@@ -1,0 +1,10 @@
+{
+  "beforePublished": 3,
+  "afterPublished": 4,
+  "promotedJourneyId": "candidate-promotion-test-route",
+  "previousStatus": "review",
+  "nextStatus": "published",
+  "invalidPromotionBlocked": true,
+  "archivedPromotionBlocked": true,
+  "status": "PASS"
+}

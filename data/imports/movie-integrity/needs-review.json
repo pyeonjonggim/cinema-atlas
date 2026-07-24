@@ -1,0 +1,12 @@
+[
+  {
+    "movieId": "mov_588f4e781cc3",
+    "slug": "wall-e-s-treasures-and-trinkets",
+    "title": "WALL·E's Treasures & Trinkets",
+    "releaseYear": 2008,
+    "reasonCode": "SHORT_OVERVIEW",
+    "severity": "warning",
+    "field": "overview",
+    "detail": "Overview is 46 characters."
+  }
+]

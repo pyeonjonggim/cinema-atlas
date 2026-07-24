@@ -1,0 +1,115 @@
+{
+  "summary": {
+    "command": "verify:relationship-repository",
+    "status": "PASS",
+    "repositoryFunctions": 5,
+    "coveredTypes": 10,
+    "registeredTypes": 10,
+    "duplicatedQueries": 0,
+    "verificationErrors": 0,
+    "emptyResultBehavior": "Invalid relationship filters return an empty result set.",
+    "completedAt": "2026-07-23T04:34:53.344Z"
+  },
+  "coverage": [
+    {
+      "relationshipType": "MOVIE_DIRECTED_BY_PERSON",
+      "supportedByRepository": true,
+      "presentInDatabase": true,
+      "recordCount": 127,
+      "sourceEntityType": "MOVIE",
+      "targetEntityType": "PERSON",
+      "relationshipClass": "FACTUAL",
+      "notes": "Generic repository methods support all registered relationship types through type filters."
+    },
+    {
+      "relationshipType": "MOVIE_ACTED_BY_PERSON",
+      "supportedByRepository": true,
+      "presentInDatabase": true,
+      "recordCount": 1988,
+      "sourceEntityType": "MOVIE",
+      "targetEntityType": "PERSON",
+      "relationshipClass": "FACTUAL",
+      "notes": "Generic repository methods support all registered relationship types through type filters."
+    },
+    {
+      "relationshipType": "MOVIE_WRITTEN_BY_PERSON",
+      "supportedByRepository": true,
+      "presentInDatabase": true,
+      "recordCount": 198,
+      "sourceEntityType": "MOVIE",
+      "targetEntityType": "PERSON",
+      "relationshipClass": "FACTUAL",
+      "notes": "Generic repository methods support all registered relationship types through type filters."
+    },
+    {
+      "relationshipType": "MOVIE_PRODUCED_BY_PERSON",
+      "supportedByRepository": true,
+      "presentInDatabase": false,
+      "recordCount": 0,
+      "sourceEntityType": "MOVIE",
+      "targetEntityType": "PERSON",
+      "relationshipClass": "FACTUAL",
+      "notes": "Generic repository methods support all registered relationship types through type filters."
+    },
+    {
+      "relationshipType": "MOVIE_PRODUCED_IN_COUNTRY",
+      "supportedByRepository": true,
+      "presentInDatabase": true,
+      "recordCount": 194,
+      "sourceEntityType": "MOVIE",
+      "targetEntityType": "COUNTRY",
+      "relationshipClass": "FACTUAL",
+      "notes": "Generic repository methods support all registered relationship types through type filters."
+    },
+    {
+      "relationshipType": "MOVIE_HAS_GENRE",
+      "supportedByRepository": true,
+      "presentInDatabase": true,
+      "recordCount": 246,
+      "sourceEntityType": "MOVIE",
+      "targetEntityType": "GENRE",
+      "relationshipClass": "FACTUAL",
+      "notes": "Generic repository methods support all registered relationship types through type filters."
+    },
+    {
+      "relationshipType": "MOVIE_USES_LANGUAGE",
+      "supportedByRepository": true,
+      "presentInDatabase": true,
+      "recordCount": 218,
+      "sourceEntityType": "MOVIE",
+      "targetEntityType": "LANGUAGE",
+      "relationshipClass": "FACTUAL",
+      "notes": "Generic repository methods support all registered relationship types through type filters."
+    },
+    {
+      "relationshipType": "MOVIE_PRODUCED_BY_COMPANY",
+      "supportedByRepository": true,
+      "presentInDatabase": true,
+      "recordCount": 346,
+      "sourceEntityType": "MOVIE",
+      "targetEntityType": "COMPANY",
+      "relationshipClass": "FACTUAL",
+      "notes": "Generic repository methods support all registered relationship types through type filters."
+    },
+    {
+      "relationshipType": "MOVIE_PART_OF_MOVEMENT",
+      "supportedByRepository": true,
+      "presentInDatabase": true,
+      "recordCount": 20,
+      "sourceEntityType": "MOVIE",
+      "targetEntityType": "MOVEMENT",
+      "relationshipClass": "EDITORIAL",
+      "notes": "Generic repository methods support all registered relationship types through type filters."
+    },
+    {
+      "relationshipType": "MOVIE_WON_AWARD",
+      "supportedByRepository": true,
+      "presentInDatabase": true,
+      "recordCount": 9,
+      "sourceEntityType": "MOVIE",
+      "targetEntityType": "AWARD",
+      "relationshipClass": "EDITORIAL",
+      "notes": "Generic repository methods support all registered relationship types through type filters."
+    }
+  ]
+}

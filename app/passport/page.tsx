@@ -9,10 +9,12 @@ import {
 } from "@/data/passport";
 import { movies } from "@/data/movies";
 import { userMovies } from "@/data/userMovies";
-import { officialJourneys } from "@/data/journeys";
 import { journalEntries } from "@/data/journalEntries";
+import { listPublishedJourneys } from "@/lib/journeyQuery";
 
-export default function PassportRoute() {
+export default async function PassportRoute() {
+  const journeys = await listPublishedJourneys();
+
   return (
     <MyPassportPage
       movies={movies}
@@ -23,7 +25,7 @@ export default function PassportRoute() {
       userAchievements={userAchievements}
       milestones={milestones}
       journalEntries={journalEntries}
-      journeys={officialJourneys}
+      journeys={journeys}
       countries={countries}
     />
   );

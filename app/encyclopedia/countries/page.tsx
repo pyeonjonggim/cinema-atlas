@@ -5,6 +5,8 @@ import RecommendedShelfPattern from "@/components/patterns/RecommendedShelfPatte
 import JourneyCard from "@/components/discovery/JourneyCard";
 import { getCountries, getCountryMovieCounts } from "@/lib/catalogQuery";
 
+export const dynamic = "force-dynamic";
+
 export default async function CountriesPage() {
   const countries = await getCountries();
   const countryMovieCounts = await getCountryMovieCounts();

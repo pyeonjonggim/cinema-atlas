@@ -7,9 +7,9 @@ import {
   userAchievements,
   userChallenges,
 } from "@/data/passport";
-import { officialJourneys } from "@/data/journeys";
 import { movies } from "@/data/movies";
 import { userMovies } from "@/data/userMovies";
+import { listPublishedJourneys } from "@/lib/journeyQuery";
 import { buildPassportModel } from "@/lib/passport";
 
 type ChallengeRouteProps = {
@@ -20,6 +20,7 @@ type ChallengeRouteProps = {
 
 export default async function ChallengeRoute({ params }: ChallengeRouteProps) {
   const { challengeId } = await params;
+  const journeys = await listPublishedJourneys();
   const passport = buildPassportModel({
     movies,
     userMovies,
@@ -27,7 +28,7 @@ export default async function ChallengeRoute({ params }: ChallengeRouteProps) {
     userChallenges,
     achievements,
     userAchievements,
-    journeys: officialJourneys,
+    journeys,
   });
   const progress = passport.challengeLibrary.find(
     (item) => item.challenge.id === challengeId

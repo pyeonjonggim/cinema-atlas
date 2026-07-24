@@ -1,0 +1,30 @@
+[
+  {
+    "name": "shared-storage-key",
+    "passed": true
+  },
+  {
+    "name": "change-event-dispatched",
+    "passed": true
+  },
+  {
+    "name": "shelf-listens-for-changes",
+    "passed": true
+  },
+  {
+    "name": "shelf-removes-saved-journey",
+    "passed": true
+  },
+  {
+    "name": "journey-library-renders-saved-shelf",
+    "passed": true
+  },
+  {
+    "name": "my-atlas-renders-saved-shelf",
+    "passed": true
+  },
+  {
+    "name": "passport-does-not-own-saved-shelf",
+    "passed": true
+  }
+]

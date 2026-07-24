@@ -1,238 +1,315 @@
-[
-  {
-    "id": "person_bef00203b6b7",
-    "name": "Abbas Kiarostami",
-    "slug": "abbas-kiarostami",
-    "inferredCountries": [
-      {
-        "countryId": "ir",
-        "count": 3
+{
+  "count": 12,
+  "records": [
+    {
+      "id": "person_bef00203b6b7",
+      "name": "Abbas Kiarostami",
+      "slug": "abbas-kiarostami",
+      "inferredCountries": [
+        {
+          "countryId": "ir",
+          "count": 3
+        },
+        {
+          "countryId": "fr",
+          "count": 2
+        }
+      ],
+      "editorial": {
+        "slug": "abbas-kiarostami",
+        "countrySlug": "iran",
+        "status": "VERIFIED",
+        "hidden": false,
+        "reason": "Canonical person country should reflect Kiarostami's Iranian cinema context."
       },
-      {
-        "countryId": "fr",
-        "count": 2
-      }
-    ],
-    "editorialCountrySlug": "iran",
-    "status": "verified"
-  },
-  {
-    "id": "person_97843ddeae18",
-    "name": "Agnès Varda",
-    "slug": "agnes-varda",
-    "inferredCountries": [
-      {
-        "countryId": "fr",
-        "count": 1
+      "status": "VERIFIED"
+    },
+    {
+      "id": "person_97843ddeae18",
+      "name": "Agnès Varda",
+      "slug": "agnes-varda",
+      "inferredCountries": [
+        {
+          "countryId": "fr",
+          "count": 1
+        },
+        {
+          "countryId": "it",
+          "count": 1
+        }
+      ],
+      "editorial": {
+        "slug": "agnes-varda",
+        "preferredName": "Agnes Varda",
+        "countrySlug": "france",
+        "status": "VERIFIED",
+        "hidden": false,
+        "reason": "Canonical person country should reflect Varda's French cinema context."
       },
-      {
-        "countryId": "it",
-        "count": 1
-      }
-    ],
-    "editorialCountrySlug": "france",
-    "status": "verified"
-  },
-  {
-    "id": "person_2024be526b48",
-    "name": "Alfonso Cuarón",
-    "slug": "alfonso-cuaron",
-    "inferredCountries": [
-      {
-        "countryId": "gb",
-        "count": 1
+      "status": "VERIFIED"
+    },
+    {
+      "id": "person_2024be526b48",
+      "name": "Alfonso Cuarón",
+      "slug": "alfonso-cuaron",
+      "inferredCountries": [
+        {
+          "countryId": "gb",
+          "count": 1
+        },
+        {
+          "countryId": "mx",
+          "count": 1
+        },
+        {
+          "countryId": "us",
+          "count": 1
+        }
+      ],
+      "editorial": {
+        "slug": "alfonso-cuaron",
+        "preferredName": "Alfonso Cuaron",
+        "countrySlug": "mexico",
+        "status": "VERIFIED",
+        "hidden": false,
+        "reason": "Canonical person country should reflect Alfonso Cuaron as a Mexican filmmaker."
       },
-      {
-        "countryId": "mx",
-        "count": 1
+      "status": "VERIFIED"
+    },
+    {
+      "id": "person_23bfd8a26fde",
+      "name": "Ang Lee",
+      "slug": "ang-lee",
+      "inferredCountries": [
+        {
+          "countryId": "cn",
+          "count": 1
+        },
+        {
+          "countryId": "hk",
+          "count": 1
+        },
+        {
+          "countryId": "tw",
+          "count": 1
+        },
+        {
+          "countryId": "us",
+          "count": 1
+        }
+      ],
+      "editorial": {
+        "slug": "ang-lee",
+        "countrySlug": "taiwan",
+        "status": "VERIFIED",
+        "hidden": false,
+        "reason": "Canonical person country should reflect Ang Lee's Taiwanese filmmaker identity while preserving transnational filmography."
       },
-      {
-        "countryId": "us",
-        "count": 1
-      }
-    ],
-    "editorialCountrySlug": "mexico",
-    "status": "verified"
-  },
-  {
-    "id": "person_23bfd8a26fde",
-    "name": "Ang Lee",
-    "slug": "ang-lee",
-    "inferredCountries": [
-      {
-        "countryId": "cn",
-        "count": 1
+      "status": "VERIFIED"
+    },
+    {
+      "id": "person_c71d9437a62f",
+      "name": "Asghar Farhadi",
+      "slug": "asghar-farhadi",
+      "inferredCountries": [
+        {
+          "countryId": "fr",
+          "count": 2
+        },
+        {
+          "countryId": "ir",
+          "count": 2
+        },
+        {
+          "countryId": "qa",
+          "count": 1
+        }
+      ],
+      "editorial": {
+        "slug": "asghar-farhadi",
+        "countrySlug": "iran",
+        "status": "VERIFIED",
+        "hidden": false,
+        "reason": "Canonical person country should reflect Farhadi's Iranian cinema context."
       },
-      {
-        "countryId": "hk",
-        "count": 1
+      "status": "VERIFIED"
+    },
+    {
+      "id": "person_d2f9976ab668",
+      "name": "Chantal Akerman",
+      "slug": "chantal-akerman",
+      "inferredCountries": [
+        {
+          "countryId": "be",
+          "count": 1
+        },
+        {
+          "countryId": "fr",
+          "count": 1
+        }
+      ],
+      "editorial": {
+        "slug": "chantal-akerman",
+        "countrySlug": "belgium",
+        "status": "VERIFIED",
+        "hidden": false,
+        "reason": "Canonical person country should reflect Akerman's Belgian filmmaker identity."
       },
-      {
-        "countryId": "tw",
-        "count": 1
+      "status": "VERIFIED"
+    },
+    {
+      "id": "person_6704d81b917a",
+      "name": "Edward Yang",
+      "slug": "edward-yang",
+      "inferredCountries": [
+        {
+          "countryId": "tw",
+          "count": 2
+        },
+        {
+          "countryId": "jp",
+          "count": 1
+        }
+      ],
+      "editorial": {
+        "slug": "edward-yang",
+        "countrySlug": "taiwan",
+        "status": "VERIFIED",
+        "hidden": false,
+        "reason": "Canonical person country should reflect Yang's Taiwanese cinema context."
       },
-      {
-        "countryId": "us",
-        "count": 1
-      }
-    ],
-    "editorialCountrySlug": "taiwan",
-    "status": "verified"
-  },
-  {
-    "id": "person_c71d9437a62f",
-    "name": "Asghar Farhadi",
-    "slug": "asghar-farhadi",
-    "inferredCountries": [
-      {
-        "countryId": "fr",
-        "count": 2
+      "status": "VERIFIED"
+    },
+    {
+      "id": "person_725cb2f967d9",
+      "name": "Federico Fellini",
+      "slug": "federico-fellini",
+      "inferredCountries": [
+        {
+          "countryId": "fr",
+          "count": 2
+        },
+        {
+          "countryId": "it",
+          "count": 2
+        }
+      ],
+      "editorial": {
+        "slug": "federico-fellini",
+        "countrySlug": "italy",
+        "status": "VERIFIED",
+        "hidden": false,
+        "reason": "Canonical person country should reflect Fellini as an Italian filmmaker, not the co-production countries of individual films."
       },
-      {
-        "countryId": "ir",
-        "count": 2
+      "status": "VERIFIED"
+    },
+    {
+      "id": "person_e77f8d53c6df",
+      "name": "Ridley Scott",
+      "slug": "ridley-scott",
+      "inferredCountries": [
+        {
+          "countryId": "gb",
+          "count": 2
+        },
+        {
+          "countryId": "us",
+          "count": 2
+        },
+        {
+          "countryId": "hk",
+          "count": 1
+        }
+      ],
+      "editorial": {
+        "slug": "ridley-scott",
+        "countrySlug": "united-kingdom",
+        "status": "VERIFIED",
+        "hidden": false,
+        "reason": "Canonical person country should reflect Scott's British filmmaker identity while preserving transnational production history."
       },
-      {
-        "countryId": "qa",
-        "count": 1
-      }
-    ],
-    "editorialCountrySlug": "iran",
-    "status": "verified"
-  },
-  {
-    "id": "person_d2f9976ab668",
-    "name": "Chantal Akerman",
-    "slug": "chantal-akerman",
-    "inferredCountries": [
-      {
-        "countryId": "be",
-        "count": 1
+      "status": "VERIFIED"
+    },
+    {
+      "id": "person_cae91e45aed8",
+      "name": "Stanley Kubrick",
+      "slug": "stanley-kubrick",
+      "inferredCountries": [
+        {
+          "countryId": "gb",
+          "count": 1
+        },
+        {
+          "countryId": "us",
+          "count": 1
+        }
+      ],
+      "editorial": {
+        "slug": "stanley-kubrick",
+        "countrySlug": "united-states",
+        "status": "VERIFIED",
+        "hidden": false,
+        "reason": "Canonical person country should reflect Kubrick's American filmmaker identity while preserving his later UK production context."
       },
-      {
-        "countryId": "fr",
-        "count": 1
-      }
-    ],
-    "editorialCountrySlug": "belgium",
-    "status": "verified"
-  },
-  {
-    "id": "person_6704d81b917a",
-    "name": "Edward Yang",
-    "slug": "edward-yang",
-    "inferredCountries": [
-      {
-        "countryId": "tw",
-        "count": 2
+      "status": "VERIFIED"
+    },
+    {
+      "id": "person_68115b1eda13",
+      "name": "Wong Kar-Wai",
+      "slug": "wong-kar-wai",
+      "inferredCountries": [
+        {
+          "countryId": "hk",
+          "count": 3
+        },
+        {
+          "countryId": "fr",
+          "count": 1
+        },
+        {
+          "countryId": "jp",
+          "count": 1
+        },
+        {
+          "countryId": "kr",
+          "count": 1
+        }
+      ],
+      "editorial": {
+        "slug": "wong-kar-wai",
+        "countrySlug": "hong-kong",
+        "status": "VERIFIED",
+        "hidden": false,
+        "reason": "Canonical person country should reflect Wong Kar-wai's Hong Kong cinema context."
       },
-      {
-        "countryId": "jp",
-        "count": 1
-      }
-    ],
-    "editorialCountrySlug": "taiwan",
-    "status": "verified"
-  },
-  {
-    "id": "person_725cb2f967d9",
-    "name": "Federico Fellini",
-    "slug": "federico-fellini",
-    "inferredCountries": [
-      {
-        "countryId": "fr",
-        "count": 2
+      "status": "VERIFIED"
+    },
+    {
+      "id": "person_aa62ffff4761",
+      "name": "Zhang Yimou",
+      "slug": "zhang-yimou",
+      "inferredCountries": [
+        {
+          "countryId": "cn",
+          "count": 1
+        },
+        {
+          "countryId": "hk",
+          "count": 1
+        },
+        {
+          "countryId": "tw",
+          "count": 1
+        }
+      ],
+      "editorial": {
+        "slug": "zhang-yimou",
+        "countrySlug": "china",
+        "status": "VERIFIED",
+        "hidden": false,
+        "reason": "Canonical person country should reflect Zhang Yimou's Chinese cinema context."
       },
-      {
-        "countryId": "it",
-        "count": 2
-      }
-    ],
-    "editorialCountrySlug": "italy",
-    "status": "verified"
-  },
-  {
-    "id": "person_e77f8d53c6df",
-    "name": "Ridley Scott",
-    "slug": "ridley-scott",
-    "inferredCountries": [
-      {
-        "countryId": "gb",
-        "count": 2
-      },
-      {
-        "countryId": "us",
-        "count": 2
-      },
-      {
-        "countryId": "hk",
-        "count": 1
-      }
-    ],
-    "editorialCountrySlug": "united-kingdom",
-    "status": "verified"
-  },
-  {
-    "id": "person_cae91e45aed8",
-    "name": "Stanley Kubrick",
-    "slug": "stanley-kubrick",
-    "inferredCountries": [
-      {
-        "countryId": "gb",
-        "count": 1
-      },
-      {
-        "countryId": "us",
-        "count": 1
-      }
-    ],
-    "editorialCountrySlug": "united-states",
-    "status": "verified"
-  },
-  {
-    "id": "person_68115b1eda13",
-    "name": "Wong Kar-Wai",
-    "slug": "wong-kar-wai",
-    "inferredCountries": [
-      {
-        "countryId": "hk",
-        "count": 3
-      },
-      {
-        "countryId": "fr",
-        "count": 1
-      },
-      {
-        "countryId": "jp",
-        "count": 1
-      },
-      {
-        "countryId": "kr",
-        "count": 1
-      }
-    ],
-    "editorialCountrySlug": "hong-kong",
-    "status": "verified"
-  },
-  {
-    "id": "person_aa62ffff4761",
-    "name": "Zhang Yimou",
-    "slug": "zhang-yimou",
-    "inferredCountries": [
-      {
-        "countryId": "cn",
-        "count": 1
-      },
-      {
-        "countryId": "hk",
-        "count": 1
-      },
-      {
-        "countryId": "tw",
-        "count": 1
-      }
-    ],
-    "editorialCountrySlug": "china",
-    "status": "verified"
-  }
-]
+      "status": "VERIFIED"
+    }
+  ]
+}

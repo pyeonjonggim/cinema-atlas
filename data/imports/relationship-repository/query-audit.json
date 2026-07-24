@@ -1,0 +1,932 @@
+[
+  {
+    "file": "lib/catalogPersistence.ts",
+    "function": "getRelationsFrom",
+    "line": 167,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Legacy compatibility call; implementation delegates to RelationshipRepository where applicable."
+  },
+  {
+    "file": "lib/catalogPersistence.ts",
+    "function": "getRelationsTo",
+    "line": 175,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Legacy compatibility call; implementation delegates to RelationshipRepository where applicable."
+  },
+  {
+    "file": "lib/catalogPersistence.ts",
+    "function": "getEdgesByRelationType",
+    "line": 296,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Legacy compatibility call; implementation delegates to RelationshipRepository where applicable."
+  },
+  {
+    "file": "lib/catalogPersistence.ts",
+    "function": "getConnectedEntities",
+    "line": 394,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Legacy compatibility call; implementation delegates to RelationshipRepository where applicable."
+  },
+  {
+    "file": "lib/catalogPersistence.ts",
+    "function": "getRelatedMovies",
+    "line": 408,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Legacy compatibility call; implementation delegates to RelationshipRepository where applicable."
+  },
+  {
+    "file": "lib/catalogPersistence.ts",
+    "function": "getRelatedMovies",
+    "line": 410,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Legacy compatibility call; implementation delegates to RelationshipRepository where applicable."
+  },
+  {
+    "file": "lib/editorial/postgresEditorialRepository.ts",
+    "function": "replaceRelationships",
+    "line": 200,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph write path; not part of relationship read repository migration."
+  },
+  {
+    "file": "lib/editorial/postgresEditorialRepository.ts",
+    "function": "for",
+    "line": 215,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph write path; not part of relationship read repository migration."
+  },
+  {
+    "file": "lib/editorial/postgresEditorialRepository.ts",
+    "function": "if",
+    "line": 251,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph write path; not part of relationship read repository migration."
+  },
+  {
+    "file": "lib/editorial/postgresEditorialRepository.ts",
+    "function": "if",
+    "line": 300,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "lib/postgresCatalogRepository.ts",
+    "function": "getRelationsFrom",
+    "line": 275,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Legacy compatibility call; implementation delegates to RelationshipRepository where applicable."
+  },
+  {
+    "file": "lib/postgresCatalogRepository.ts",
+    "function": "getRelationsFrom",
+    "line": 279,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "lib/postgresCatalogRepository.ts",
+    "function": "getRelationsFromSources",
+    "line": 286,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Legacy compatibility call; implementation delegates to RelationshipRepository where applicable."
+  },
+  {
+    "file": "lib/postgresCatalogRepository.ts",
+    "function": "if",
+    "line": 292,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "lib/postgresCatalogRepository.ts",
+    "function": "getRelationsTo",
+    "line": 301,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Legacy compatibility call; implementation delegates to RelationshipRepository where applicable."
+  },
+  {
+    "file": "lib/postgresCatalogRepository.ts",
+    "function": "getRelationsTo",
+    "line": 305,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "lib/postgresCatalogRepository.ts",
+    "function": "listPeopleByRole",
+    "line": 331,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "lib/postgresCatalogRepository.ts",
+    "function": "listCountriesReferencedByMovies",
+    "line": 349,
+    "relationshipTypesUsed": [
+      "MOVIE_PRODUCED_IN_COUNTRY"
+    ],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "lib/postgresCatalogRepository.ts",
+    "function": "VALUES",
+    "line": 693,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph write path; not part of relationship read repository migration."
+  },
+  {
+    "file": "lib/relationships/relationshipRepository.ts",
+    "function": "findOutgoing",
+    "line": 79,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "lib/relationships/relationshipRepository.ts",
+    "function": "findIncoming",
+    "line": 97,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "lib/relationships/relationshipRepository.ts",
+    "function": "findBetween",
+    "line": 115,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "lib/relationships/relationshipRepository.ts",
+    "function": "findByType",
+    "line": 129,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "lib/relationships/relationshipRepository.ts",
+    "function": "findNeighbors",
+    "line": 141,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "lib/relationships/relationshipRepository.ts",
+    "function": "if",
+    "line": 146,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "lib/relationships/relationshipRepository.ts",
+    "function": "if",
+    "line": 147,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "lib/relationships/relationshipRepository.ts",
+    "function": "addArrayFilter",
+    "line": 190,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "lib/relationships/relationshipService.ts",
+    "function": "getRelatedEntities",
+    "line": 111,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "lib/relationships/relationshipService.ts",
+    "function": "getOutgoingRelationships",
+    "line": 122,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "lib/relationships/relationshipService.ts",
+    "function": "getIncomingRelationships",
+    "line": 130,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "lib/relationships/relationshipService.ts",
+    "function": "existsRelationship",
+    "line": 164,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "scripts/audit-canonical-entities.mjs",
+    "function": "if",
+    "line": 81,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/db-extra-qa.mjs",
+    "function": "VALUES",
+    "line": 56,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/db-extra-qa.mjs",
+    "function": "VALUES",
+    "line": 60,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/db-seed-catalog-pilot.mjs",
+    "function": "for",
+    "line": 131,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph write path; not part of relationship read repository migration."
+  },
+  {
+    "file": "scripts/db-seed-catalog-pilot.mjs",
+    "function": "countRows",
+    "line": 166,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph-related reference."
+  },
+  {
+    "file": "scripts/db-verify-catalog-pilot.mjs",
+    "function": "if",
+    "line": 60,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/db-verify-catalog-pilot.mjs",
+    "function": "if",
+    "line": 69,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/db-verify-catalog-pilot.mjs",
+    "function": "if",
+    "line": 78,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/db-verify-catalog-pilot.mjs",
+    "function": "if",
+    "line": 101,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph-related reference."
+  },
+  {
+    "file": "scripts/db-verify-catalog-pilot.mjs",
+    "function": "FROM",
+    "line": 108,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/persist-catalog-pilot.mjs",
+    "function": "getRelationsFrom",
+    "line": 130,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Legacy compatibility call; implementation delegates to RelationshipRepository where applicable."
+  },
+  {
+    "file": "scripts/persist-catalog-pilot.mjs",
+    "function": "getRelationsTo",
+    "line": 135,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Legacy compatibility call; implementation delegates to RelationshipRepository where applicable."
+  },
+  {
+    "file": "scripts/persist-catalog-pilot.mjs",
+    "function": "if",
+    "line": 322,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Legacy compatibility call; implementation delegates to RelationshipRepository where applicable."
+  },
+  {
+    "file": "scripts/persist-catalog-pilot.mjs",
+    "function": "if",
+    "line": 324,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Legacy compatibility call; implementation delegates to RelationshipRepository where applicable."
+  },
+  {
+    "file": "scripts/persist-catalog-pilot.mjs",
+    "function": "if",
+    "line": 327,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Legacy compatibility call; implementation delegates to RelationshipRepository where applicable."
+  },
+  {
+    "file": "scripts/seed-editorial.mjs",
+    "function": "replaceRelationships",
+    "line": 106,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph write path; not part of relationship read repository migration."
+  },
+  {
+    "file": "scripts/seed-editorial.mjs",
+    "function": "for",
+    "line": 121,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph write path; not part of relationship read repository migration."
+  },
+  {
+    "file": "scripts/seed-editorial.mjs",
+    "function": "counts",
+    "line": 157,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/sync-catalog-pilot.mjs",
+    "function": "getEdges",
+    "line": 246,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/sync-catalog-pilot.mjs",
+    "function": "for",
+    "line": 308,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph write path; not part of relationship read repository migration."
+  },
+  {
+    "file": "scripts/sync-catalog-pilot.mjs",
+    "function": "if",
+    "line": 339,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph write path; not part of relationship read repository migration."
+  },
+  {
+    "file": "scripts/sync-catalog-pilot.mjs",
+    "function": "if",
+    "line": 473,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph write path; not part of relationship read repository migration."
+  },
+  {
+    "file": "scripts/sync-film-expansion-100.mjs",
+    "function": "currentCounts",
+    "line": 272,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/sync-film-expansion-100.mjs",
+    "function": "replaceComputedEdges",
+    "line": 447,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph write path; not part of relationship read repository migration."
+  },
+  {
+    "file": "scripts/sync-film-expansion-100.mjs",
+    "function": "for",
+    "line": 457,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph write path; not part of relationship read repository migration."
+  },
+  {
+    "file": "scripts/sync-film-expansion-100.mjs",
+    "function": "sourceEdges",
+    "line": 505,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-canonical-query-phase-a.mjs",
+    "function": "if",
+    "line": 43,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-canonical-query-phase-a.mjs",
+    "function": "if",
+    "line": 51,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-canonical-query-phase-a.mjs",
+    "function": "if",
+    "line": 59,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-catalog-100.mjs",
+    "function": "if",
+    "line": 38,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-catalog-100.mjs",
+    "function": "if",
+    "line": 68,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-catalog-100.mjs",
+    "function": "if",
+    "line": 79,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-catalog-100.mjs",
+    "function": "if",
+    "line": 89,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-catalog-100.mjs",
+    "function": "AND",
+    "line": 101,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-continue-journey.mjs",
+    "function": "buildExample",
+    "line": 194,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-continue-journey.mjs",
+    "function": "buildExample",
+    "line": 203,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-continue-journey.mjs",
+    "function": "findSampleEntity",
+    "line": 232,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-continue-journey.mjs",
+    "function": "findSampleEntity",
+    "line": 236,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-continue-journey.mjs",
+    "function": "loadFormatter",
+    "line": 262,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph-related reference."
+  },
+  {
+    "file": "scripts/verify-continue-journey.mjs",
+    "function": "loadFormatter",
+    "line": 267,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph-related reference."
+  },
+  {
+    "file": "scripts/verify-country-review.mjs",
+    "function": "loadCandidates",
+    "line": 93,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-country-review.mjs",
+    "function": "loadCandidates",
+    "line": 97,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-data-quality.mjs",
+    "function": "if",
+    "line": 100,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-data-quality.mjs",
+    "function": "OR",
+    "line": 133,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-data-quality.mjs",
+    "function": "OR",
+    "line": 142,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-data-quality.mjs",
+    "function": "OR",
+    "line": 153,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-data-quality.mjs",
+    "function": "OR",
+    "line": 164,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-data-quality.mjs",
+    "function": "String",
+    "line": 180,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-data-quality.mjs",
+    "function": "String",
+    "line": 184,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-data-quality.mjs",
+    "function": "String",
+    "line": 212,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-editorial.mjs",
+    "function": "if",
+    "line": 57,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-editorial.mjs",
+    "function": "if",
+    "line": 62,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-movies.mjs",
+    "function": "loadRelationshipCoverage",
+    "line": 108,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-movies.mjs",
+    "function": "loadRelationshipIssues",
+    "line": 184,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-movies.mjs",
+    "function": "OR",
+    "line": 201,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-movies.mjs",
+    "function": "OR",
+    "line": 211,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-person-integrity.mjs",
+    "function": "if",
+    "line": 83,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-person-integrity.mjs",
+    "function": "if",
+    "line": 94,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-person-integrity.mjs",
+    "function": "if",
+    "line": 118,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-person-integrity.mjs",
+    "function": "if",
+    "line": 130,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-relationship-policy.mjs",
+    "function": "loadExport",
+    "line": 94,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph-related reference."
+  },
+  {
+    "file": "scripts/verify-relationship-repository.mjs",
+    "function": "module-scope",
+    "line": 13,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "scripts/verify-relationship-repository.mjs",
+    "function": "for",
+    "line": 86,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "scripts/verify-relationship-repository.mjs",
+    "function": "if",
+    "line": 91,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph-related reference."
+  },
+  {
+    "file": "scripts/verify-relationship-repository.mjs",
+    "function": "if",
+    "line": 92,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "scripts/verify-relationship-repository.mjs",
+    "function": "if",
+    "line": 93,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Legacy compatibility call; implementation delegates to RelationshipRepository where applicable."
+  },
+  {
+    "file": "scripts/verify-relationship-repository.mjs",
+    "function": "if",
+    "line": 94,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph write path; not part of relationship read repository migration."
+  },
+  {
+    "file": "scripts/verify-relationship-repository.mjs",
+    "function": "if",
+    "line": 146,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-relationship-repository.mjs",
+    "function": "if",
+    "line": 164,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-relationship-repository.mjs",
+    "function": "if",
+    "line": 169,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-relationship-repository.mjs",
+    "function": "if",
+    "line": 174,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "module-scope",
+    "line": 20,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "module-scope",
+    "line": 22,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "module-scope",
+    "line": 23,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "module-scope",
+    "line": 24,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "module-scope",
+    "line": 25,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "module-scope",
+    "line": 26,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Uses canonical RelationshipRepository."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "for",
+    "line": 101,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Legacy compatibility call; implementation delegates to RelationshipRepository where applicable."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "for",
+    "line": 102,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph-related reference."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "for",
+    "line": 103,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph write path; not part of relationship read repository migration."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "loadRegistry",
+    "line": 177,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": false,
+    "migrationNotes": "Graph-related reference."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "loadRegistry",
+    "line": 186,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "loadRegistry",
+    "line": 192,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-relationship-types.mjs",
+    "function": "if",
+    "line": 206,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  },
+  {
+    "file": "scripts/verify-relationship-types.mjs",
+    "function": "if",
+    "line": 214,
+    "relationshipTypesUsed": [],
+    "duplicatedLogic": true,
+    "migrationNotes": "Direct graph read should migrate to RelationshipRepository if this is runtime application code."
+  }
+]

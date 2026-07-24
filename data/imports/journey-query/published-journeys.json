@@ -1,0 +1,23 @@
+[
+  {
+    "id": "intro-japanese-cinema",
+    "title": "Japanese Cinema Deep Route",
+    "status": "published",
+    "visibility": "public",
+    "steps": 13
+  },
+  {
+    "id": "new-hollywood-foundations",
+    "title": "New Hollywood Foundations",
+    "status": "published",
+    "visibility": "public",
+    "steps": 12
+  },
+  {
+    "id": "oscar-winners",
+    "title": "Oscar Winners",
+    "status": "published",
+    "visibility": "public",
+    "steps": 11
+  }
+]

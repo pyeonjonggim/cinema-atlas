@@ -5,6 +5,8 @@ import RecommendedShelfPattern from "@/components/patterns/RecommendedShelfPatte
 import JourneyCard from "@/components/discovery/JourneyCard";
 import { getMovements } from "@/lib/catalogQuery";
 
+export const dynamic = "force-dynamic";
+
 export default async function MovementsPage() {
   const movementItems = await getMovements();
 

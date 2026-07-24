@@ -1,9 +1,9 @@
 import Section from "@/components/layout/Section";
 import JourneyCard from "@/components/journey/JourneyCard";
-import type { Journey } from "@/types/journey";
+import type { JourneyProjection } from "@/types/journey";
 
 type RelatedJourneySectionProps = {
-  journeys: Journey[];
+  journeys: JourneyProjection[];
 };
 
 export default function RelatedJourneySection({
@@ -22,7 +22,7 @@ export default function RelatedJourneySection({
     >
       <div className="grid gap-4 md:grid-cols-3">
         {journeys.slice(0, 3).map((journey) => (
-          <JourneyCard key={journey.id} journey={journey} />
+          <JourneyCard key={journey.id} journey={journey} steps={journey.steps} />
         ))}
       </div>
     </Section>

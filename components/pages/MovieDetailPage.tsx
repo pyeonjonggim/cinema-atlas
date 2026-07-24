@@ -1,9 +1,11 @@
 import GlobalNavigation from "../navigation/GlobalNavigation";
 import PageContainer from "../layout/PageContainer";
 import MovieHero from "../entity/MovieHero";
+import EntityContinueJourneyPattern, {
+  type EntityContinueJourneyItem,
+} from "../patterns/EntityContinueJourneyPattern";
 import EntityOverviewPattern from "../patterns/EntityOverviewPattern";
 import MovieActionBarPattern from "../patterns/MovieActionBarPattern";
-import MovieContinueJourneyPattern from "../patterns/MovieContinueJourneyPattern";
 import MovieContextPattern from "../patterns/MovieContextPattern";
 import MovieQuickFactsPattern from "../patterns/MovieQuickFactsPattern";
 import MovieRelatedMoviesPattern from "../patterns/MovieRelatedMoviesPattern";
@@ -26,6 +28,7 @@ type MovieDetailPageProps = {
   movements: Movement[];
   actors: Actor[];
   awards: Award[];
+  continueJourneyItems?: EntityContinueJourneyItem[];
 };
 
 function findBySlug<T extends { slug: string }>(items: T[], slug?: string) {
@@ -160,6 +163,7 @@ export default function MovieDetailPage({
   movements,
   actors,
   awards,
+  continueJourneyItems,
 }: MovieDetailPageProps) {
   const connectedItems = buildConnectedItems(
     movie,
@@ -172,32 +176,37 @@ export default function MovieDetailPage({
   const castItems = buildCastItems(movie, actors);
   const awardItems = buildAwardItems(movie, awards);
 
-  const continueJourneyItems = [
+  const fallbackContinueJourneyItems = [
     {
       label: movie.director,
+      title: movie.director,
       href: `/encyclopedia/directors/${movie.directorSlug}`,
       description: "Learn how this film fits into the director's wider world.",
       level: "primary" as const,
     },
     {
       label: movie.movement,
+      title: movie.movement,
       href: `/encyclopedia/movements/${movie.movementSlug}`,
       description: "Continue from one film into its cinematic movement.",
       level: "secondary" as const,
     },
     {
       label: movie.country,
+      title: movie.country,
       href: `/encyclopedia/countries/${movie.countrySlug}`,
       description: "Explore the national cinema context behind this work.",
       level: "secondary" as const,
     },
     {
       label: "Japanese Cinema Starter",
+      title: "Japanese Cinema Starter",
       href: "/explore/japanese-cinema-starter",
       description: "Begin a curated journey that turns discovery into learning.",
       level: "deep" as const,
     },
   ];
+  const journeyItems = continueJourneyItems?.length ? continueJourneyItems : fallbackContinueJourneyItems;
 
   return (
     <>
@@ -265,7 +274,11 @@ export default function MovieDetailPage({
 
           <MovieRelatedMoviesPattern movie={movie} movies={movies} />
 
-          <MovieContinueJourneyPattern items={continueJourneyItems} />
+          <EntityContinueJourneyPattern
+            description="Continue from this film into explicit people, place, movement, and recognition paths."
+            items={journeyItems}
+            mode="curated"
+          />
 
           <footer className="border-t border-white/10 py-6">
             <p className="text-sm text-neutral-500">

@@ -6,6 +6,8 @@ import JourneyCard from "@/components/discovery/JourneyCard";
 import { getDirectors } from "@/lib/catalogQuery";
 import type { EntityImage } from "@/lib/media";
 
+export const dynamic = "force-dynamic";
+
 export default async function DirectorsPage() {
   const directors = await getDirectors();
   const directorItems = directors.map((director) => {

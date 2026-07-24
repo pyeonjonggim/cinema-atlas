@@ -1,0 +1,261 @@
+[
+  {
+    "journeyId": "intro-japanese-cinema",
+    "declaredDifficulty": "advanced",
+    "computedDifficulty": "advanced",
+    "score": 96,
+    "movieCount": 7,
+    "averageMovieAccessibility": 44.285714285714285,
+    "components": [
+      {
+        "name": "film-count",
+        "score": 22,
+        "maxScore": 22,
+        "note": "7 films shape the viewing commitment."
+      },
+      {
+        "name": "movie-accessibility",
+        "score": 24,
+        "maxScore": 28,
+        "note": "Average accessibility score is 44."
+      },
+      {
+        "name": "context-complexity",
+        "score": 16,
+        "maxScore": 16,
+        "note": "6 context stops across 4 entity types."
+      },
+      {
+        "name": "time-commitment",
+        "score": 16,
+        "maxScore": 16,
+        "note": "15 estimated viewing hours."
+      },
+      {
+        "name": "historical-range",
+        "score": 18,
+        "maxScore": 18,
+        "note": "52 years between the earliest and latest film."
+      }
+    ],
+    "movies": [
+      {
+        "movieId": "rashomon",
+        "tier": "canon",
+        "accessibilityScore": 30,
+        "releaseYear": 1950,
+        "reason": "A world-cinema landmark that still asks viewers to enter a historical mode."
+      },
+      {
+        "movieId": "seven-samurai",
+        "tier": "canon",
+        "accessibilityScore": 25,
+        "releaseYear": 1954,
+        "reason": "A famous canon work with strong narrative accessibility despite its length."
+      },
+      {
+        "movieId": "ugetsu",
+        "tier": "specialist",
+        "accessibilityScore": 65,
+        "releaseYear": 1953,
+        "reason": "A specialist world-cinema classic that benefits from historical context."
+      },
+      {
+        "movieId": "late-spring",
+        "tier": "specialist",
+        "accessibilityScore": 55,
+        "releaseYear": 1949,
+        "reason": "Essential Ozu, but quieter and more formally restrained for new viewers."
+      },
+      {
+        "movieId": "tokyo-story",
+        "tier": "canon",
+        "accessibilityScore": 45,
+        "releaseYear": 1953,
+        "reason": "A widely canonized film whose quiet form is more demanding for beginners."
+      },
+      {
+        "movieId": "woman-in-the-dunes",
+        "tier": "specialist",
+        "accessibilityScore": 75,
+        "releaseYear": 1964,
+        "reason": "A more challenging modernist allegory with a less mainstream entry point."
+      },
+      {
+        "movieId": "spirited-away",
+        "tier": "well-known-canon",
+        "accessibilityScore": 15,
+        "releaseYear": 2001,
+        "reason": "A highly accessible international animation landmark."
+      }
+    ]
+  },
+  {
+    "journeyId": "new-hollywood-foundations",
+    "declaredDifficulty": "intermediate",
+    "computedDifficulty": "intermediate",
+    "score": 56,
+    "movieCount": 6,
+    "averageMovieAccessibility": 20,
+    "components": [
+      {
+        "name": "film-count",
+        "score": 18,
+        "maxScore": 22,
+        "note": "6 films shape the viewing commitment."
+      },
+      {
+        "name": "movie-accessibility",
+        "score": 10,
+        "maxScore": 28,
+        "note": "Average accessibility score is 20."
+      },
+      {
+        "name": "context-complexity",
+        "score": 16,
+        "maxScore": 16,
+        "note": "6 context stops across 4 entity types."
+      },
+      {
+        "name": "time-commitment",
+        "score": 12,
+        "maxScore": 16,
+        "note": "13 estimated viewing hours."
+      },
+      {
+        "name": "historical-range",
+        "score": 0,
+        "maxScore": 18,
+        "note": "10 years between the earliest and latest film."
+      }
+    ],
+    "movies": [
+      {
+        "movieId": "bonnie-and-clyde",
+        "tier": "canon",
+        "accessibilityScore": 35,
+        "releaseYear": 1967,
+        "reason": "Historically central, but less immediate than later blockbuster landmarks."
+      },
+      {
+        "movieId": "easy-rider",
+        "tier": "canon",
+        "accessibilityScore": 35,
+        "releaseYear": 1969,
+        "reason": "Canonical counterculture cinema that benefits from movement context."
+      },
+      {
+        "movieId": "the-godfather",
+        "tier": "mainstream",
+        "accessibilityScore": 10,
+        "releaseYear": 1972,
+        "reason": "A broadly recognized canon film and common entry point."
+      },
+      {
+        "movieId": "taxi-driver",
+        "tier": "canon",
+        "accessibilityScore": 25,
+        "releaseYear": 1976,
+        "reason": "A major New Hollywood text with darker psychological density."
+      },
+      {
+        "movieId": "jaws",
+        "tier": "mainstream",
+        "accessibilityScore": 10,
+        "releaseYear": 1975,
+        "reason": "A broadly familiar modern blockbuster foundation."
+      },
+      {
+        "movieId": "star-wars",
+        "tier": "mainstream",
+        "accessibilityScore": 5,
+        "releaseYear": 1977,
+        "reason": "A globally familiar popular-cinema reference point."
+      }
+    ]
+  },
+  {
+    "journeyId": "oscar-winners",
+    "declaredDifficulty": "intermediate",
+    "computedDifficulty": "intermediate",
+    "score": 76,
+    "movieCount": 6,
+    "averageMovieAccessibility": 19.166666666666668,
+    "components": [
+      {
+        "name": "film-count",
+        "score": 18,
+        "maxScore": 22,
+        "note": "6 films shape the viewing commitment."
+      },
+      {
+        "name": "movie-accessibility",
+        "score": 10,
+        "maxScore": 28,
+        "note": "Average accessibility score is 19."
+      },
+      {
+        "name": "context-complexity",
+        "score": 14,
+        "maxScore": 16,
+        "note": "5 context stops across 3 entity types."
+      },
+      {
+        "name": "time-commitment",
+        "score": 16,
+        "maxScore": 16,
+        "note": "14 estimated viewing hours."
+      },
+      {
+        "name": "historical-range",
+        "score": 18,
+        "maxScore": 18,
+        "note": "77 years between the earliest and latest film."
+      }
+    ],
+    "movies": [
+      {
+        "movieId": "casablanca",
+        "tier": "well-known-canon",
+        "accessibilityScore": 15,
+        "releaseYear": 1942,
+        "reason": "A widely recognized Hollywood classic with strong general-audience awareness."
+      },
+      {
+        "movieId": "the-godfather",
+        "tier": "mainstream",
+        "accessibilityScore": 10,
+        "releaseYear": 1972,
+        "reason": "A broadly recognized canon film and common entry point."
+      },
+      {
+        "movieId": "one-flew-over-the-cuckoos-nest",
+        "tier": "canon",
+        "accessibilityScore": 25,
+        "releaseYear": 1975,
+        "reason": "A widely known awards landmark with accessible performance focus."
+      },
+      {
+        "movieId": "moonlight",
+        "tier": "canon",
+        "accessibilityScore": 25,
+        "releaseYear": 2016,
+        "reason": "A recent canon film with strong awards recognition."
+      },
+      {
+        "movieId": "parasite",
+        "tier": "mainstream",
+        "accessibilityScore": 5,
+        "releaseYear": 2019,
+        "reason": "A globally visible contemporary gateway film."
+      },
+      {
+        "movieId": "memories-of-murder",
+        "tier": "canon",
+        "accessibilityScore": 35,
+        "releaseYear": 2003,
+        "reason": "A major modern Korean film, though less universally known than Parasite."
+      }
+    ]
+  }
+]

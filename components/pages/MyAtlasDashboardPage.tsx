@@ -1,6 +1,7 @@
 import MyAtlasLayout from "@/components/layout/MyAtlasLayout";
 import Section from "@/components/layout/Section";
 import UniversalHero from "@/components/layout/UniversalHero";
+import SavedJourneyShelf from "@/components/journey/SavedJourneyShelf";
 import InsightCard from "@/components/insights/InsightCard";
 import InsightGrid from "@/components/insights/InsightGrid";
 import CollectionGrid from "@/components/collections/CollectionGrid";
@@ -21,6 +22,7 @@ import { buildMyInsights } from "@/lib/insights";
 import { buildPassportModel } from "@/lib/passport";
 import { buildCollectionViews } from "@/lib/collections";
 import type { JournalEntry } from "@/types/journal";
+import type { Journey, JourneyProjection } from "@/types/journey";
 import type { Movie } from "@/types/movie";
 import type { UserMovie } from "@/types/userMovie";
 
@@ -28,12 +30,14 @@ type MyAtlasDashboardPageProps = {
   movies: Movie[];
   userMovies: UserMovie[];
   journalEntries: JournalEntry[];
+  journeys: (Journey | JourneyProjection)[];
 };
 
 export default function MyAtlasDashboardPage({
   movies,
   userMovies,
   journalEntries,
+  journeys,
 }: MyAtlasDashboardPageProps) {
   const activityItems = buildActivityItems({ movies, userMovies });
   const insights = buildMyInsights({ movies, userMovies, journalEntries });
@@ -64,6 +68,19 @@ export default function MyAtlasDashboardPage({
         title="My Atlas"
         description="Your personal journey through cinema."
       />
+
+      <Section
+        title="Saved Journeys"
+        description="Paths you chose to keep for later. This belongs in My Atlas because it is personal intent, not Passport history yet."
+        action={
+          <AtlasButton href="/explore/journeys" variant="secondary">
+            Browse Journeys
+          </AtlasButton>
+        }
+        className="p-4 md:p-5"
+      >
+        <SavedJourneyShelf journeys={journeys} />
+      </Section>
 
       <Section
         title="My Activity"

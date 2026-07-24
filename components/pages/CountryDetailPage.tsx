@@ -1,5 +1,6 @@
 import type { Country } from "@/data/countries";
 import type { Director } from "@/data/directors";
+import type { EntityContinueJourneyItem } from "@/components/patterns/EntityContinueJourneyPattern";
 import type { Movement } from "@/data/movements";
 import type { EntityImage } from "@/lib/media";
 import type { Movie } from "@/types/movie";
@@ -23,6 +24,7 @@ type CountryDetailPageProps = {
   directors: Director[];
   movements: Movement[];
   movies: Movie[];
+  continueJourneyItems?: EntityContinueJourneyItem[];
 };
 
 function buildMovieItems(
@@ -72,6 +74,7 @@ export default function CountryDetailPage({
   directors,
   movements,
   movies,
+  continueJourneyItems,
 }: CountryDetailPageProps) {
   const countryMedia = country as Country & { heroImage?: EntityImage | null };
   const countryMovies = movies.filter(
@@ -183,7 +186,7 @@ export default function CountryDetailPage({
     </div>
   );
 
-  const continueJourneyItems = [
+  const fallbackContinueJourneyItems = [
     {
       label: "Films",
       title: `Explore ${country.name} Films`,
@@ -228,6 +231,7 @@ export default function CountryDetailPage({
       disabled: !starterMovie,
     },
   ];
+  const journeyItems = continueJourneyItems?.length ? continueJourneyItems : fallbackContinueJourneyItems;
 
   return (
     <EncyclopediaDetailTemplate
@@ -262,7 +266,8 @@ export default function CountryDetailPage({
       continueJourney={
         <EntityContinueJourneyPattern
           description="Continue from this country into films, directors, movements, and recommended starting points."
-          items={continueJourneyItems}
+          items={journeyItems}
+          mode="curated"
         />
       }
     />

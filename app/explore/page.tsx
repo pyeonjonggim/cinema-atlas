@@ -1,229 +1,63 @@
+import Link from "next/link";
+
 import GlobalNavigation from "@/components/navigation/GlobalNavigation";
 import PageContainer from "@/components/layout/PageContainer";
 import Section from "@/components/layout/Section";
 import UniversalHero from "@/components/layout/UniversalHero";
 import JourneyCard from "@/components/journey/JourneyCard";
-import ExploreEntryCard from "@/components/explore/ExploreEntryCard";
-import EntityContinueJourneyPattern from "@/components/patterns/EntityContinueJourneyPattern";
-import { officialJourneys } from "@/data/journeys";
+import {
+  selectFeaturedPublishedJourney,
+  selectPublishedJourneys,
+} from "@/lib/journeyQuery";
 
-const startExploring = [
-  {
-    href: "/encyclopedia/countries",
-    label: "Start Exploring",
-    title: "Explore by Country",
-    description:
-      "Begin with national cinemas and move into films, directors, movements, and awards.",
-    meta: "World cinema",
-    tone: "country" as const,
-  },
-  {
-    href: "/encyclopedia/directors",
-    label: "Start Exploring",
-    title: "Explore by Director",
-    description:
-      "Follow a filmmaker's style, themes, collaborators, and essential films.",
-    meta: "Filmmakers",
-    tone: "director" as const,
-  },
-  {
-    href: "/encyclopedia/movements",
-    label: "Start Exploring",
-    title: "Explore by Movement",
-    description:
-      "Enter cinema history through shared ideas, eras, forms, and visual languages.",
-    meta: "Film history",
-    tone: "movement" as const,
-  },
-  {
-    href: "/encyclopedia/awards",
-    label: "Start Exploring",
-    title: "Explore by Award",
-    description:
-      "Discover how festivals and institutions record the history of cinema.",
-    meta: "Recognition",
-    tone: "award" as const,
-  },
+const futureJourneyPrompts = [
+  "A route through loneliness in city cinema",
+  "A route from one actor to a national cinema",
+  "A route through festival winners outside Hollywood",
+  "A route from silent cinema to modern visual style",
 ];
 
-const categories = [
-  {
-    href: "/encyclopedia/movies",
-    label: "Category",
-    title: "Movie",
-    description: "Start from a film and move into its people, places, and history.",
-  },
-  {
-    href: "/encyclopedia/directors",
-    label: "Category",
-    title: "Director",
-    description: "Explore cinema through authorship, style, and influence.",
-  },
-  {
-    href: "/encyclopedia/actors",
-    label: "Category",
-    title: "Actor",
-    description: "Follow screen personas, roles, and collaborations.",
-  },
-  {
-    href: "/encyclopedia/countries",
-    label: "Category",
-    title: "Country",
-    description: "Discover national cinema through context and history.",
-  },
-  {
-    href: "/encyclopedia/movements",
-    label: "Category",
-    title: "Movement",
-    description: "Understand cinema through shared ideas and eras.",
-  },
-  {
-    href: "/encyclopedia/awards",
-    label: "Category",
-    title: "Award",
-    description: "Trace how cinema is recognized, remembered, and canonized.",
-  },
-];
+export default async function ExplorePage() {
+  const featuredJourney = await selectFeaturedPublishedJourney({
+    purpose: "daily-feature",
+    minSteps: 8,
+    seed: "explore-v1-featured",
+  });
+  const supportingJourneys = (
+    await selectPublishedJourneys({
+      purpose: "deep-route",
+      minSteps: 8,
+      seed: "explore-v1-supporting",
+      limit: 3,
+    })
+  ).filter((journey) => journey.id !== featuredJourney?.id);
+  const journeyModes = [
+    {
+      title: "Start with a country",
+      description:
+        "A route where place becomes the first question, then opens movements, directors, films, and performers.",
+      journeyId: (
+        await selectFeaturedPublishedJourney({ category: "country", minSteps: 8 })
+      )?.id,
+    },
+    {
+      title: "Start with a movement",
+      description:
+        "A route where style and historical change come first, before individual films become examples.",
+      journeyId: (
+        await selectFeaturedPublishedJourney({ category: "movement", minSteps: 8 })
+      )?.id,
+    },
+    {
+      title: "Start with recognition",
+      description:
+        "A route where an award becomes a way to understand canon, memory, industry, and international attention.",
+      journeyId: (
+        await selectFeaturedPublishedJourney({ category: "award", minSteps: 8 })
+      )?.id,
+    },
+  ];
 
-const regions = [
-  {
-    href: "/encyclopedia/countries",
-    label: "Region",
-    title: "Asia",
-    description: "Explore Japanese, Korean, Iranian, Indian, and wider Asian cinemas.",
-    tone: "country" as const,
-  },
-  {
-    href: "/encyclopedia/countries",
-    label: "Region",
-    title: "Europe",
-    description: "Move through neorealism, new waves, festivals, and national traditions.",
-    tone: "movement" as const,
-  },
-  {
-    href: "/encyclopedia/countries",
-    label: "Region",
-    title: "North America",
-    description: "Follow Hollywood, independent cinema, genres, and studio histories.",
-    tone: "director" as const,
-  },
-  {
-    href: "/encyclopedia/countries",
-    label: "Region",
-    title: "Latin America",
-    description: "Enter political cinema, poetic realism, and regional film cultures.",
-    tone: "country" as const,
-  },
-  {
-    href: "/encyclopedia/countries",
-    label: "Region",
-    title: "Middle East",
-    description: "Discover cinema shaped by memory, family, politics, and daily life.",
-    tone: "movement" as const,
-  },
-  {
-    href: "/encyclopedia/countries",
-    label: "Region",
-    title: "Africa",
-    description: "Explore postcolonial cinema, oral tradition, cities, and migration.",
-    tone: "country" as const,
-  },
-  {
-    href: "/encyclopedia/countries",
-    label: "Region",
-    title: "Oceania",
-    description: "Start with island cinema, Indigenous stories, and regional auteurs.",
-    tone: "default" as const,
-  },
-];
-
-const themes = [
-  "Coming of Age",
-  "War",
-  "Family",
-  "Loneliness",
-  "Revenge",
-  "Love",
-].map((theme) => ({
-  href: "/encyclopedia/movies",
-  label: "Theme Placeholder",
-  title: theme,
-  description:
-    "A future theme path that will connect films, directors, countries, and movements.",
-  meta: "Coming later",
-}));
-
-const collections = [
-  {
-    href: "/encyclopedia/movies",
-    label: "Official Collection Placeholder",
-    title: "100 Films to Start Cinema",
-    description:
-      "A future official collection for building a foundation across film history.",
-    meta: "Official",
-  },
-  {
-    href: "/encyclopedia/countries",
-    label: "Official Collection Placeholder",
-    title: "Around the World",
-    description:
-      "A future collection that helps users move across regions and national cinemas.",
-    meta: "World cinema",
-  },
-  {
-    href: "/encyclopedia/awards/academy-best-picture",
-    label: "Official Collection Placeholder",
-    title: "Palme d'Or Winners",
-    description:
-      "A future collection for following major festival recognition and canon formation.",
-    meta: "Awards",
-  },
-  {
-    href: "/encyclopedia/directors",
-    label: "Official Collection Placeholder",
-    title: "Women Directors",
-    description:
-      "A future collection highlighting filmmakers, movements, and historical context.",
-    meta: "Directors",
-  },
-];
-
-const continueJourneyItems = [
-  {
-    label: "Knowledge Hub",
-    title: "Browse the Encyclopedia",
-    description:
-      "Move from discovery into connected cinema knowledge.",
-    href: "/encyclopedia",
-    level: "primary" as const,
-  },
-  {
-    label: "Exploration System",
-    title: "Open Your Passport",
-    description:
-      "Turn curiosity into active challenges and long-term exploration.",
-    href: "/passport",
-    level: "deep" as const,
-  },
-  {
-    label: "First Step",
-    title: "Start with Movies",
-    description:
-      "Choose a film, then follow its relationships outward.",
-    href: "/encyclopedia/movies",
-    level: "secondary" as const,
-  },
-  {
-    label: "Personal Space",
-    title: "Return to My Atlas",
-    description:
-      "Review your activity, journals, collections, and insights.",
-    href: "/my",
-    level: "secondary" as const,
-  },
-];
-
-export default function ExplorePage() {
   return (
     <>
       <GlobalNavigation />
@@ -232,93 +66,128 @@ export default function ExplorePage() {
         <div className="space-y-8">
           <UniversalHero
             eyebrow="Explore"
-            title="Explore Cinema"
-            description="Discover films, cultures, and stories through guided exploration."
+            title="Choose a journey, not a category."
+            description="Explore is Cinema Atlas in motion: curated routes that connect films, people, countries, movements, and awards into one learning path."
+            visualTone="explorer"
+            minHeight="compact"
           />
 
+          {featuredJourney && (
+            <Section
+              eyebrow="Today's Journey"
+              title="A curated route to begin with"
+              description="The first screen should offer one strong path rather than asking you to browse the whole archive."
+              className="p-4 md:p-5"
+            >
+              <JourneyCard
+                journey={featuredJourney}
+                steps={featuredJourney.steps}
+                variant="featured"
+              />
+            </Section>
+          )}
+
           <Section
-            eyebrow="Start Exploring"
-            title="Choose your first path"
-            description="Explore works best when you can begin without knowing exactly what to search for."
+            eyebrow="Journey Modes"
+            title="How do you want to enter cinema?"
+            description="Each mode still leads to a full Journey. The difference is the first kind of question it asks."
             className="p-4 md:p-5"
           >
-            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-              {startExploring.map((entry) => (
-                <ExploreEntryCard key={entry.title} {...entry} />
+            <div className="grid gap-4 md:grid-cols-3">
+              {journeyModes.map((mode) => (
+                <Link
+                  key={mode.title}
+                  href={
+                    mode.journeyId
+                      ? `/explore/journeys/${mode.journeyId}`
+                      : "/explore/journeys"
+                  }
+                  className="group rounded-3xl border border-white/10 bg-white/[0.035] p-6 transition hover:-translate-y-0.5 hover:border-white/25 hover:bg-white/[0.06]"
+                >
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-neutral-500">
+                    Journey Mode
+                  </p>
+                  <h3 className="mt-8 text-2xl font-semibold tracking-tight text-white">
+                    {mode.title}
+                  </h3>
+                  <p className="mt-3 line-clamp-3 text-sm leading-6 text-neutral-400">
+                    {mode.description}
+                  </p>
+                  <p className="mt-7 text-sm font-semibold text-neutral-300 transition group-hover:text-white">
+                    Enter Journey
+                  </p>
+                </Link>
               ))}
             </div>
           </Section>
 
+          {supportingJourneys.length > 0 && (
+            <Section
+              eyebrow="Journey Library"
+              title="More guided routes"
+              description="These are not entity cards. Each one is a sequence built to teach connection, context, and next questions."
+              className="p-4 md:p-5"
+            >
+              <div className="grid gap-4 lg:grid-cols-2">
+                {supportingJourneys.map((journey) => (
+                  <JourneyCard key={journey.id} journey={journey} steps={journey.steps} />
+                ))}
+              </div>
+            </Section>
+          )}
+
           <Section
-            eyebrow="Featured Journeys"
-            title="Guided routes through cinema"
-            description="Journeys begin in Explore and open dedicated Journey Detail pages."
+            eyebrow="Coming Journey Seeds"
+            title="Future routes the atlas can grow into"
+            description="Explore can hold unfinished ideas without pretending they are full Encyclopedia entries yet."
             className="p-4 md:p-5"
           >
-            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-              {officialJourneys.map((journey) => (
-                <JourneyCard key={journey.id} journey={journey} />
+            <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
+              {futureJourneyPrompts.map((prompt, index) => (
+                <div
+                  key={prompt}
+                  className="rounded-3xl border border-dashed border-white/12 bg-white/[0.02] p-5"
+                >
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-neutral-600">
+                    Seed {index + 1}
+                  </p>
+                  <p className="mt-8 text-lg font-semibold leading-7 text-neutral-300">
+                    {prompt}
+                  </p>
+                  <p className="mt-5 text-xs text-neutral-600">
+                    Editorial route candidate
+                  </p>
+                </div>
               ))}
             </div>
           </Section>
 
-          <Section
-            eyebrow="Explore by Category"
-            title="Enter through the knowledge graph"
-            description="Every category leads into the Encyclopedia and then outward through related entities."
-            className="p-4 md:p-5"
-          >
-            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-6">
-              {categories.map((entry) => (
-                <ExploreEntryCard key={entry.title} {...entry} />
-              ))}
+          <div className="flex flex-col gap-3 rounded-3xl border border-white/10 bg-white/[0.025] p-5 md:flex-row md:items-center md:justify-between">
+            <div>
+              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-neutral-500">
+                Reference Mode
+              </p>
+              <p className="mt-2 text-sm leading-6 text-neutral-400">
+                Looking for a specific title, person, country, movement, or
+                award? Use Search or Encyclopedia as tools after Explore gives
+                you a path.
+              </p>
             </div>
-          </Section>
-
-          <Section
-            eyebrow="Explore by Region"
-            title="Travel through world cinema"
-            description="Regional entries currently lead to Country Encyclopedia, ready for future region pages."
-            className="p-4 md:p-5"
-          >
-            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-              {regions.map((entry) => (
-                <ExploreEntryCard key={entry.title} {...entry} />
-              ))}
+            <div className="flex flex-wrap gap-2">
+              <Link
+                href="/search"
+                className="rounded-full border border-white/10 px-4 py-2 text-sm font-semibold text-neutral-300 transition hover:border-white/25 hover:text-white"
+              >
+                Search
+              </Link>
+              <Link
+                href="/encyclopedia"
+                className="rounded-full border border-white/10 px-4 py-2 text-sm font-semibold text-neutral-300 transition hover:border-white/25 hover:text-white"
+              >
+                Encyclopedia
+              </Link>
             </div>
-          </Section>
-
-          <Section
-            eyebrow="Explore by Theme"
-            title="Begin with a feeling or idea"
-            description="Theme paths are placeholders for future guided discovery, not a search engine."
-            className="p-4 md:p-5"
-          >
-            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-6">
-              {themes.map((entry) => (
-                <ExploreEntryCard key={entry.title} {...entry} />
-              ))}
-            </div>
-          </Section>
-
-          <Section
-            eyebrow="Featured Collections"
-            title="Official collections coming later"
-            description="These placeholders reserve space for curated Cinema Atlas collections without implementing collection details yet."
-            className="p-4 md:p-5"
-          >
-            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-              {collections.map((entry) => (
-                <ExploreEntryCard key={entry.title} {...entry} />
-              ))}
-            </div>
-          </Section>
-
-          <EntityContinueJourneyPattern
-            title="Continue Your Journey"
-            description="Explore should always point toward the next meaningful destination."
-            items={continueJourneyItems}
-          />
+          </div>
         </div>
       </PageContainer>
     </>

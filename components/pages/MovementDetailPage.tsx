@@ -1,5 +1,6 @@
 ﻿import type { Country } from "@/data/countries";
 import type { Director } from "@/data/directors";
+import type { EntityContinueJourneyItem } from "@/components/patterns/EntityContinueJourneyPattern";
 import type { Movement } from "@/data/movements";
 import type { Movie } from "@/types/movie";
 
@@ -22,6 +23,7 @@ type MovementDetailPageProps = {
   countries: Country[];
   directors: Director[];
   movies: Movie[];
+  continueJourneyItems?: EntityContinueJourneyItem[];
 };
 
 function buildMovieItems(
@@ -84,6 +86,7 @@ export default function MovementDetailPage({
   countries,
   directors,
   movies,
+  continueJourneyItems,
 }: MovementDetailPageProps) {
   const movementMovies = movies.filter(
     (movie) => movie.movementSlug === movement.slug
@@ -234,7 +237,7 @@ export default function MovementDetailPage({
     </div>
   );
 
-  const continueJourneyItems = [
+  const fallbackContinueJourneyItems = [
     {
       label: "Films",
       title: `Explore ${movement.name} Films`,
@@ -281,6 +284,7 @@ export default function MovementDetailPage({
       disabled: !starterMovie,
     },
   ];
+  const journeyItems = continueJourneyItems?.length ? continueJourneyItems : fallbackContinueJourneyItems;
 
   return (
     <EncyclopediaDetailTemplate
@@ -319,7 +323,8 @@ export default function MovementDetailPage({
       continueJourney={
         <EntityContinueJourneyPattern
           description="Continue from this movement into films, directors, countries, and recommended starting points."
-          items={continueJourneyItems}
+          items={journeyItems}
+          mode="curated"
         />
       }
     />

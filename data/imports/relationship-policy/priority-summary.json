@@ -1,0 +1,76 @@
+{
+  "summary": {
+    "command": "verify:relationship-policy",
+    "status": "PASS",
+    "registeredPolicies": 10,
+    "relationshipTypes": 10,
+    "coverage": "100%",
+    "duplicatePolicies": 0,
+    "missingPolicies": 0,
+    "invalidCategories": 0,
+    "verificationErrors": 0,
+    "completedAt": "2026-07-24T10:52:23.683Z"
+  },
+  "priorities": [
+    {
+      "relationshipType": "MOVIE_DIRECTED_BY_PERSON",
+      "priority": 10,
+      "group": "EXPLORE_THE_DIRECTOR",
+      "category": "PEOPLE"
+    },
+    {
+      "relationshipType": "MOVIE_PRODUCED_IN_COUNTRY",
+      "priority": 20,
+      "group": "DISCOVER_THE_COUNTRY",
+      "category": "PLACES"
+    },
+    {
+      "relationshipType": "MOVIE_PART_OF_MOVEMENT",
+      "priority": 30,
+      "group": "UNDERSTAND_THE_MOVEMENT",
+      "category": "MOVEMENTS"
+    },
+    {
+      "relationshipType": "MOVIE_WRITTEN_BY_PERSON",
+      "priority": 40,
+      "group": "RELATED_PEOPLE",
+      "category": "PEOPLE"
+    },
+    {
+      "relationshipType": "MOVIE_ACTED_BY_PERSON",
+      "priority": 50,
+      "group": "RELATED_PEOPLE",
+      "category": "PEOPLE"
+    },
+    {
+      "relationshipType": "MOVIE_PRODUCED_BY_PERSON",
+      "priority": 60,
+      "group": "RELATED_PEOPLE",
+      "category": "PRODUCTION"
+    },
+    {
+      "relationshipType": "MOVIE_PRODUCED_BY_COMPANY",
+      "priority": 70,
+      "group": "HISTORICAL_CONTEXT",
+      "category": "PRODUCTION"
+    },
+    {
+      "relationshipType": "MOVIE_WON_AWARD",
+      "priority": 75,
+      "group": "HISTORICAL_CONTEXT",
+      "category": "AWARDS"
+    },
+    {
+      "relationshipType": "MOVIE_USES_LANGUAGE",
+      "priority": 80,
+      "group": "HISTORICAL_CONTEXT",
+      "category": "CULTURE"
+    },
+    {
+      "relationshipType": "MOVIE_HAS_GENRE",
+      "priority": 90,
+      "group": "SIMILAR_THEMES",
+      "category": "CULTURE"
+    }
+  ]
+}

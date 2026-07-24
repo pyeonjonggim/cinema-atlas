@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
 
-import { journeys } from "@/data/journeys";
+import { getPublishedJourneyById } from "@/lib/journeyQuery";
 
 const legacyJourneyMap: Record<string, string> = {
   "japanese-cinema-starter": "intro-japanese-cinema",
@@ -19,7 +19,7 @@ export default async function LegacyExploreRoutePage({
 }: LegacyExploreRoutePageProps) {
   const { routeId } = await params;
   const mappedJourneyId = legacyJourneyMap[routeId] ?? routeId;
-  const journey = journeys.find((item) => item.id === mappedJourneyId);
+  const journey = await getPublishedJourneyById(mappedJourneyId);
 
   if (journey) {
     redirect(`/explore/journeys/${journey.id}`);

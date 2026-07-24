@@ -1,4 +1,5 @@
 import type { Actor } from "@/data/actors";
+import type { EntityContinueJourneyItem } from "@/components/patterns/EntityContinueJourneyPattern";
 import type { Country } from "@/data/countries";
 import type { Director } from "@/data/directors";
 import type { EntityImage } from "@/lib/media";
@@ -23,6 +24,7 @@ type ActorDetailPageProps = {
   countries: Country[];
   directors: Director[];
   movies: Movie[];
+  continueJourneyItems?: EntityContinueJourneyItem[];
 };
 
 type FrequentDirector = {
@@ -116,6 +118,7 @@ export default function ActorDetailPage({
   countries,
   directors,
   movies,
+  continueJourneyItems,
 }: ActorDetailPageProps) {
   const actorMedia = actor as Actor & { profileImage?: EntityImage | null };
   const actorCountry = countries.find(
@@ -264,7 +267,7 @@ export default function ActorDetailPage({
     </div>
   );
 
-  const continueJourneyItems = [
+  const fallbackContinueJourneyItems = [
     {
       label: "Films",
       title: `Explore ${actor.name}'s Films`,
@@ -313,6 +316,7 @@ export default function ActorDetailPage({
       disabled: !mainMovementSlug,
     },
   ];
+  const journeyItems = continueJourneyItems?.length ? continueJourneyItems : fallbackContinueJourneyItems;
 
   return (
     <EncyclopediaDetailTemplate
@@ -355,7 +359,8 @@ export default function ActorDetailPage({
       continueJourney={
         <EntityContinueJourneyPattern
           description="Continue from this actor into films, directors, countries, and performance journeys."
-          items={continueJourneyItems}
+          items={journeyItems}
+          mode="curated"
         />
       }
     />

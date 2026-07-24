@@ -1,0 +1,17 @@
+{
+  "journeys": 3,
+  "officialJourneys": 3,
+  "steps": 36,
+  "averageSteps": 12,
+  "duplicateJourneyIds": [],
+  "duplicateStepIds": [],
+  "missingStepReferences": [],
+  "orphanSteps": [],
+  "duplicateOrders": [],
+  "shortJourneys": [],
+  "lowMovieWeightJourneys": [],
+  "longContextRuns": [],
+  "deterministicDiscovery": true,
+  "savedJourneyAvailable": true,
+  "status": "PASS"
+}

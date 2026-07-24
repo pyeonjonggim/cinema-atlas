@@ -1,0 +1,49 @@
+{
+  "summary": {
+    "command": "verify:continue-journey",
+    "status": "PASS",
+    "supportedEntities": 4,
+    "journeyCategories": 8,
+    "duplicateSuggestions": 0,
+    "missingReasons": 0,
+    "repositoryViolations": 0,
+    "verificationErrors": 0,
+    "structuredExplanations": "PASS",
+    "missingExplanationModels": 0,
+    "missingFormatterDefinitions": 0,
+    "invalidExplanationDirections": 0,
+    "emptyRenderedReasons": 0,
+    "duplicatedExplanationTemplates": 0,
+    "completedAt": "2026-07-24T10:56:18.379Z"
+  },
+  "entityCoverage": [
+    {
+      "entityType": "MOVIE",
+      "supported": true,
+      "sampleEntityId": "mov_01cb75545e40",
+      "itemCount": 12,
+      "groupCount": 1
+    },
+    {
+      "entityType": "PERSON",
+      "supported": true,
+      "sampleEntityId": "akira-kurosawa",
+      "itemCount": 2,
+      "groupCount": 1
+    },
+    {
+      "entityType": "COUNTRY",
+      "supported": true,
+      "sampleEntityId": "ae",
+      "itemCount": 1,
+      "groupCount": 1
+    },
+    {
+      "entityType": "MOVEMENT",
+      "supported": true,
+      "sampleEntityId": "japanese-golden-age",
+      "itemCount": 9,
+      "groupCount": 3
+    }
+  ]
+}

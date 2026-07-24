@@ -1,0 +1,7 @@
+{
+  "journeyId": "candidate-promotion-test-route",
+  "previousStatus": "review",
+  "nextStatus": "published",
+  "promoted": true,
+  "reason": "Approved as a synthetic publishable Journey."
+}
