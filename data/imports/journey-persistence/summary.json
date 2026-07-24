@@ -1,0 +1,15 @@
+{
+  "sourceJourneys": 3,
+  "repositoryJourneys": 12,
+  "repositorySteps": 120,
+  "publishedJourneys": 3,
+  "reviewJourneys": 6,
+  "draftJourneys": 0,
+  "savedJourneys": 1,
+  "duplicateJourneyIds": 0,
+  "duplicateStepIds": 0,
+  "reimportStable": true,
+  "savedJourneyDeduped": true,
+  "savedJourneyUpdated": true,
+  "status": "PASS"
+}

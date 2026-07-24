@@ -1,0 +1,246 @@
+{
+  "summary": {
+    "command": "verify:relationship-policy",
+    "status": "PASS",
+    "registeredPolicies": 10,
+    "relationshipTypes": 10,
+    "coverage": "100%",
+    "duplicatePolicies": 0,
+    "missingPolicies": 0,
+    "invalidCategories": 0,
+    "verificationErrors": 0,
+    "completedAt": "2026-07-24T10:52:23.683Z"
+  },
+  "coverage": [
+    {
+      "relationshipType": "MOVIE_DIRECTED_BY_PERSON",
+      "hasPolicy": true,
+      "policy": {
+        "relationshipType": "MOVIE_DIRECTED_BY_PERSON",
+        "category": "PEOPLE",
+        "priority": 10,
+        "group": "EXPLORE_THE_DIRECTOR",
+        "visibleByDefault": true,
+        "visibility": "visible",
+        "supportsContinueJourney": true,
+        "supportsExplore": true,
+        "supportsTimeline": false,
+        "supportsLearningPath": true,
+        "supportsRecommendation": false,
+        "supportsSearch": false,
+        "supportsAtlasGraph": true,
+        "metadata": {
+          "groupTitle": "Explore the Director",
+          "groupDescription": "Follow directing relationships into filmmakers and filmographies."
+        }
+      }
+    },
+    {
+      "relationshipType": "MOVIE_ACTED_BY_PERSON",
+      "hasPolicy": true,
+      "policy": {
+        "relationshipType": "MOVIE_ACTED_BY_PERSON",
+        "category": "PEOPLE",
+        "priority": 50,
+        "group": "RELATED_PEOPLE",
+        "visibleByDefault": true,
+        "visibility": "visible",
+        "supportsContinueJourney": true,
+        "supportsExplore": true,
+        "supportsTimeline": false,
+        "supportsLearningPath": true,
+        "supportsRecommendation": false,
+        "supportsSearch": false,
+        "supportsAtlasGraph": true,
+        "metadata": {
+          "groupTitle": "Related People",
+          "groupDescription": "Continue through explicitly credited performers."
+        }
+      }
+    },
+    {
+      "relationshipType": "MOVIE_WRITTEN_BY_PERSON",
+      "hasPolicy": true,
+      "policy": {
+        "relationshipType": "MOVIE_WRITTEN_BY_PERSON",
+        "category": "PEOPLE",
+        "priority": 40,
+        "group": "RELATED_PEOPLE",
+        "visibleByDefault": true,
+        "visibility": "visible",
+        "supportsContinueJourney": true,
+        "supportsExplore": true,
+        "supportsTimeline": false,
+        "supportsLearningPath": true,
+        "supportsRecommendation": false,
+        "supportsSearch": false,
+        "supportsAtlasGraph": true,
+        "metadata": {
+          "groupTitle": "Related People",
+          "groupDescription": "Continue through explicitly credited writers."
+        }
+      }
+    },
+    {
+      "relationshipType": "MOVIE_PRODUCED_BY_PERSON",
+      "hasPolicy": true,
+      "policy": {
+        "relationshipType": "MOVIE_PRODUCED_BY_PERSON",
+        "category": "PRODUCTION",
+        "priority": 60,
+        "group": "RELATED_PEOPLE",
+        "visibleByDefault": true,
+        "visibility": "visible",
+        "supportsContinueJourney": true,
+        "supportsExplore": true,
+        "supportsTimeline": false,
+        "supportsLearningPath": true,
+        "supportsRecommendation": false,
+        "supportsSearch": false,
+        "supportsAtlasGraph": true,
+        "metadata": {
+          "groupTitle": "Related People",
+          "groupDescription": "Continue through explicitly credited producers."
+        }
+      }
+    },
+    {
+      "relationshipType": "MOVIE_PRODUCED_IN_COUNTRY",
+      "hasPolicy": true,
+      "policy": {
+        "relationshipType": "MOVIE_PRODUCED_IN_COUNTRY",
+        "category": "PLACES",
+        "priority": 20,
+        "group": "DISCOVER_THE_COUNTRY",
+        "visibleByDefault": true,
+        "visibility": "visible",
+        "supportsContinueJourney": true,
+        "supportsExplore": true,
+        "supportsTimeline": false,
+        "supportsLearningPath": true,
+        "supportsRecommendation": false,
+        "supportsSearch": false,
+        "supportsAtlasGraph": true,
+        "metadata": {
+          "groupTitle": "Discover the Country",
+          "groupDescription": "Continue through national cinema connections."
+        }
+      }
+    },
+    {
+      "relationshipType": "MOVIE_HAS_GENRE",
+      "hasPolicy": true,
+      "policy": {
+        "relationshipType": "MOVIE_HAS_GENRE",
+        "category": "CULTURE",
+        "priority": 90,
+        "group": "SIMILAR_THEMES",
+        "visibleByDefault": true,
+        "visibility": "visible",
+        "supportsContinueJourney": true,
+        "supportsExplore": true,
+        "supportsTimeline": false,
+        "supportsLearningPath": false,
+        "supportsRecommendation": false,
+        "supportsSearch": false,
+        "supportsAtlasGraph": true,
+        "metadata": {
+          "groupTitle": "Similar Themes",
+          "groupDescription": "Follow explicit genre and thematic context."
+        }
+      }
+    },
+    {
+      "relationshipType": "MOVIE_USES_LANGUAGE",
+      "hasPolicy": true,
+      "policy": {
+        "relationshipType": "MOVIE_USES_LANGUAGE",
+        "category": "CULTURE",
+        "priority": 80,
+        "group": "HISTORICAL_CONTEXT",
+        "visibleByDefault": true,
+        "visibility": "visible",
+        "supportsContinueJourney": true,
+        "supportsExplore": true,
+        "supportsTimeline": false,
+        "supportsLearningPath": false,
+        "supportsRecommendation": false,
+        "supportsSearch": false,
+        "supportsAtlasGraph": true,
+        "metadata": {
+          "groupTitle": "Historical Context",
+          "groupDescription": "Follow language and cultural context."
+        }
+      }
+    },
+    {
+      "relationshipType": "MOVIE_PRODUCED_BY_COMPANY",
+      "hasPolicy": true,
+      "policy": {
+        "relationshipType": "MOVIE_PRODUCED_BY_COMPANY",
+        "category": "PRODUCTION",
+        "priority": 70,
+        "group": "HISTORICAL_CONTEXT",
+        "visibleByDefault": true,
+        "visibility": "visible",
+        "supportsContinueJourney": true,
+        "supportsExplore": true,
+        "supportsTimeline": false,
+        "supportsLearningPath": false,
+        "supportsRecommendation": false,
+        "supportsSearch": false,
+        "supportsAtlasGraph": true,
+        "metadata": {
+          "groupTitle": "Historical Context",
+          "groupDescription": "Follow production context."
+        }
+      }
+    },
+    {
+      "relationshipType": "MOVIE_PART_OF_MOVEMENT",
+      "hasPolicy": true,
+      "policy": {
+        "relationshipType": "MOVIE_PART_OF_MOVEMENT",
+        "category": "MOVEMENTS",
+        "priority": 30,
+        "group": "UNDERSTAND_THE_MOVEMENT",
+        "visibleByDefault": true,
+        "visibility": "visible",
+        "supportsContinueJourney": true,
+        "supportsExplore": true,
+        "supportsTimeline": false,
+        "supportsLearningPath": true,
+        "supportsRecommendation": false,
+        "supportsSearch": false,
+        "supportsAtlasGraph": true,
+        "metadata": {
+          "groupTitle": "Understand the Movement",
+          "groupDescription": "Open the editorial movement context connected to this entity."
+        }
+      }
+    },
+    {
+      "relationshipType": "MOVIE_WON_AWARD",
+      "hasPolicy": true,
+      "policy": {
+        "relationshipType": "MOVIE_WON_AWARD",
+        "category": "AWARDS",
+        "priority": 75,
+        "group": "HISTORICAL_CONTEXT",
+        "visibleByDefault": true,
+        "visibility": "visible",
+        "supportsContinueJourney": true,
+        "supportsExplore": true,
+        "supportsTimeline": false,
+        "supportsLearningPath": false,
+        "supportsRecommendation": false,
+        "supportsSearch": false,
+        "supportsAtlasGraph": true,
+        "metadata": {
+          "groupTitle": "Historical Context",
+          "groupDescription": "Follow institutional and award context."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1517 @@
+[
+  {
+    "storedTypeValue": "MOVIE_ACTED_BY_PERSON",
+    "sourceEntityType": "movie",
+    "targetEntityType": "person",
+    "recordCount": 1988,
+    "usageLocations": [
+      {
+        "file": "types/catalogPersistence.ts",
+        "line": 170
+      },
+      {
+        "file": "lib/catalogQuery.ts",
+        "line": 402
+      },
+      {
+        "file": "lib/catalogQuery.ts",
+        "line": 577
+      },
+      {
+        "file": "lib/catalogQuery.ts",
+        "line": 695
+      },
+      {
+        "file": "lib/catalogSync.ts",
+        "line": 13
+      },
+      {
+        "file": "lib/postgresCatalogRepository.ts",
+        "line": 330
+      },
+      {
+        "file": "lib/relationships/journeyExplanationFormatter.ts",
+        "line": 20
+      },
+      {
+        "file": "lib/relationships/relationshipPolicyRegistry.ts",
+        "line": 71
+      },
+      {
+        "file": "lib/relationships/relationshipRegistry.ts",
+        "line": 65
+      },
+      {
+        "file": "scripts/audit-canonical-entities.mjs",
+        "line": 123
+      },
+      {
+        "file": "scripts/catalog-query-pilot.mjs",
+        "line": 36
+      },
+      {
+        "file": "scripts/catalog-query-pilot.mjs",
+        "line": 55
+      },
+      {
+        "file": "scripts/db-verify-catalog-pilot.mjs",
+        "line": 43
+      },
+      {
+        "file": "scripts/db-verify-catalog-pilot.mjs",
+        "line": 79
+      },
+      {
+        "file": "scripts/persist-catalog-pilot.mjs",
+        "line": 241
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 15
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 468
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 53
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 191
+      },
+      {
+        "file": "scripts/verify-canonical-query-phase-a.mjs",
+        "line": 52
+      },
+      {
+        "file": "scripts/verify-data-quality.mjs",
+        "line": 215
+      },
+      {
+        "file": "scripts/verify-movies.mjs",
+        "line": 311
+      },
+      {
+        "file": "scripts/verify-person-integrity.mjs",
+        "line": 98
+      },
+      {
+        "file": "scripts/verify-person-integrity.mjs",
+        "line": 133
+      },
+      {
+        "file": "docs/data/CANONICAL_ENTITY_INTEGRATION_AUDIT_V1.md",
+        "line": 131
+      },
+      {
+        "file": "docs/data/CANONICAL_QUERY_INTEGRATION_PHASE_A.md",
+        "line": 59
+      },
+      {
+        "file": "docs/data/CATALOG_PERSISTENCE_AND_GRAPH_V1.md",
+        "line": 193
+      },
+      {
+        "file": "docs/data/ENTITY_RESOLUTION_ENGINE_V1.md",
+        "line": 64
+      }
+    ],
+    "usageSummary": {
+      "createdBySyncOrImport": [
+        "lib/catalogSync.ts",
+        "scripts/persist-catalog-pilot.mjs",
+        "scripts/sync-catalog-pilot.mjs",
+        "scripts/sync-film-expansion-100.mjs"
+      ],
+      "queriedByRepositoryOrQuery": [
+        "lib/catalogQuery.ts",
+        "lib/postgresCatalogRepository.ts",
+        "scripts/catalog-query-pilot.mjs",
+        "scripts/verify-canonical-query-phase-a.mjs",
+        "scripts/verify-data-quality.mjs",
+        "scripts/verify-movies.mjs",
+        "scripts/verify-person-integrity.mjs"
+      ],
+      "assumedByProjectionOrUi": []
+    },
+    "classificationCandidate": "FACTUAL",
+    "compatibilityNotes": "Compatible with the canonical relationship registry."
+  },
+  {
+    "storedTypeValue": "MOVIE_DIRECTED_BY_PERSON",
+    "sourceEntityType": "award",
+    "targetEntityType": "person",
+    "recordCount": 3,
+    "usageLocations": [
+      {
+        "file": "types/catalogPersistence.ts",
+        "line": 169
+      },
+      {
+        "file": "lib/catalogQuery.ts",
+        "line": 366
+      },
+      {
+        "file": "lib/catalogQuery.ts",
+        "line": 545
+      },
+      {
+        "file": "lib/catalogQuery.ts",
+        "line": 694
+      },
+      {
+        "file": "lib/catalogSync.ts",
+        "line": 12
+      },
+      {
+        "file": "lib/editorial/postgresEditorialRepository.ts",
+        "line": 60
+      },
+      {
+        "file": "lib/postgresCatalogRepository.ts",
+        "line": 330
+      },
+      {
+        "file": "lib/relationships/journeyExplanationFormatter.ts",
+        "line": 15
+      },
+      {
+        "file": "lib/relationships/relationshipPolicyRegistry.ts",
+        "line": 60
+      },
+      {
+        "file": "lib/relationships/relationshipRegistry.ts",
+        "line": 39
+      },
+      {
+        "file": "scripts/audit-canonical-entities.mjs",
+        "line": 122
+      },
+      {
+        "file": "scripts/catalog-query-pilot.mjs",
+        "line": 34
+      },
+      {
+        "file": "scripts/catalog-query-pilot.mjs",
+        "line": 41
+      },
+      {
+        "file": "scripts/db-verify-catalog-pilot.mjs",
+        "line": 37
+      },
+      {
+        "file": "scripts/db-verify-catalog-pilot.mjs",
+        "line": 61
+      },
+      {
+        "file": "scripts/persist-catalog-pilot.mjs",
+        "line": 236
+      },
+      {
+        "file": "scripts/persist-catalog-pilot.mjs",
+        "line": 315
+      },
+      {
+        "file": "scripts/seed-editorial.mjs",
+        "line": 17
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 14
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 464
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 465
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 51
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 188
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 551
+      },
+      {
+        "file": "scripts/verify-canonical-query-phase-a.mjs",
+        "line": 44
+      },
+      {
+        "file": "scripts/verify-catalog-100.mjs",
+        "line": 71
+      },
+      {
+        "file": "scripts/verify-country-review.mjs",
+        "line": 96
+      },
+      {
+        "file": "scripts/verify-data-quality.mjs",
+        "line": 145
+      },
+      {
+        "file": "scripts/verify-data-quality.mjs",
+        "line": 183
+      },
+      {
+        "file": "scripts/verify-movies.mjs",
+        "line": 307
+      },
+      {
+        "file": "scripts/verify-person-integrity.mjs",
+        "line": 87
+      },
+      {
+        "file": "scripts/verify-person-integrity.mjs",
+        "line": 121
+      },
+      {
+        "file": "docs/data/CANONICAL_ENTITY_INTEGRATION_AUDIT_V1.md",
+        "line": 130
+      },
+      {
+        "file": "docs/data/CANONICAL_QUERY_INTEGRATION_PHASE_A.md",
+        "line": 58
+      },
+      {
+        "file": "docs/data/CATALOG_PERSISTENCE_AND_GRAPH_V1.md",
+        "line": 173
+      },
+      {
+        "file": "docs/data/CATALOG_PERSISTENCE_AND_GRAPH_V1.md",
+        "line": 176
+      },
+      {
+        "file": "docs/data/CATALOG_PERSISTENCE_AND_GRAPH_V1.md",
+        "line": 192
+      },
+      {
+        "file": "docs/data/ENTITY_RESOLUTION_ENGINE_V1.md",
+        "line": 63
+      }
+    ],
+    "usageSummary": {
+      "createdBySyncOrImport": [
+        "lib/catalogSync.ts",
+        "lib/editorial/postgresEditorialRepository.ts",
+        "scripts/persist-catalog-pilot.mjs",
+        "scripts/seed-editorial.mjs",
+        "scripts/sync-catalog-pilot.mjs",
+        "scripts/sync-film-expansion-100.mjs"
+      ],
+      "queriedByRepositoryOrQuery": [
+        "lib/catalogQuery.ts",
+        "lib/postgresCatalogRepository.ts",
+        "scripts/catalog-query-pilot.mjs",
+        "scripts/verify-canonical-query-phase-a.mjs",
+        "scripts/verify-catalog-100.mjs",
+        "scripts/verify-country-review.mjs",
+        "scripts/verify-data-quality.mjs",
+        "scripts/verify-movies.mjs",
+        "scripts/verify-person-integrity.mjs"
+      ],
+      "assumedByProjectionOrUi": []
+    },
+    "classificationCandidate": "FACTUAL",
+    "compatibilityNotes": "Compatible with the canonical relationship registry."
+  },
+  {
+    "storedTypeValue": "MOVIE_DIRECTED_BY_PERSON",
+    "sourceEntityType": "movement",
+    "targetEntityType": "person",
+    "recordCount": 3,
+    "usageLocations": [
+      {
+        "file": "types/catalogPersistence.ts",
+        "line": 169
+      },
+      {
+        "file": "lib/catalogQuery.ts",
+        "line": 366
+      },
+      {
+        "file": "lib/catalogQuery.ts",
+        "line": 545
+      },
+      {
+        "file": "lib/catalogQuery.ts",
+        "line": 694
+      },
+      {
+        "file": "lib/catalogSync.ts",
+        "line": 12
+      },
+      {
+        "file": "lib/editorial/postgresEditorialRepository.ts",
+        "line": 60
+      },
+      {
+        "file": "lib/postgresCatalogRepository.ts",
+        "line": 330
+      },
+      {
+        "file": "lib/relationships/journeyExplanationFormatter.ts",
+        "line": 15
+      },
+      {
+        "file": "lib/relationships/relationshipPolicyRegistry.ts",
+        "line": 60
+      },
+      {
+        "file": "lib/relationships/relationshipRegistry.ts",
+        "line": 39
+      },
+      {
+        "file": "scripts/audit-canonical-entities.mjs",
+        "line": 122
+      },
+      {
+        "file": "scripts/catalog-query-pilot.mjs",
+        "line": 34
+      },
+      {
+        "file": "scripts/catalog-query-pilot.mjs",
+        "line": 41
+      },
+      {
+        "file": "scripts/db-verify-catalog-pilot.mjs",
+        "line": 37
+      },
+      {
+        "file": "scripts/db-verify-catalog-pilot.mjs",
+        "line": 61
+      },
+      {
+        "file": "scripts/persist-catalog-pilot.mjs",
+        "line": 236
+      },
+      {
+        "file": "scripts/persist-catalog-pilot.mjs",
+        "line": 315
+      },
+      {
+        "file": "scripts/seed-editorial.mjs",
+        "line": 17
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 14
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 464
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 465
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 51
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 188
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 551
+      },
+      {
+        "file": "scripts/verify-canonical-query-phase-a.mjs",
+        "line": 44
+      },
+      {
+        "file": "scripts/verify-catalog-100.mjs",
+        "line": 71
+      },
+      {
+        "file": "scripts/verify-country-review.mjs",
+        "line": 96
+      },
+      {
+        "file": "scripts/verify-data-quality.mjs",
+        "line": 145
+      },
+      {
+        "file": "scripts/verify-data-quality.mjs",
+        "line": 183
+      },
+      {
+        "file": "scripts/verify-movies.mjs",
+        "line": 307
+      },
+      {
+        "file": "scripts/verify-person-integrity.mjs",
+        "line": 87
+      },
+      {
+        "file": "scripts/verify-person-integrity.mjs",
+        "line": 121
+      },
+      {
+        "file": "docs/data/CANONICAL_ENTITY_INTEGRATION_AUDIT_V1.md",
+        "line": 130
+      },
+      {
+        "file": "docs/data/CANONICAL_QUERY_INTEGRATION_PHASE_A.md",
+        "line": 58
+      },
+      {
+        "file": "docs/data/CATALOG_PERSISTENCE_AND_GRAPH_V1.md",
+        "line": 173
+      },
+      {
+        "file": "docs/data/CATALOG_PERSISTENCE_AND_GRAPH_V1.md",
+        "line": 176
+      },
+      {
+        "file": "docs/data/CATALOG_PERSISTENCE_AND_GRAPH_V1.md",
+        "line": 192
+      },
+      {
+        "file": "docs/data/ENTITY_RESOLUTION_ENGINE_V1.md",
+        "line": 63
+      }
+    ],
+    "usageSummary": {
+      "createdBySyncOrImport": [
+        "lib/catalogSync.ts",
+        "lib/editorial/postgresEditorialRepository.ts",
+        "scripts/persist-catalog-pilot.mjs",
+        "scripts/seed-editorial.mjs",
+        "scripts/sync-catalog-pilot.mjs",
+        "scripts/sync-film-expansion-100.mjs"
+      ],
+      "queriedByRepositoryOrQuery": [
+        "lib/catalogQuery.ts",
+        "lib/postgresCatalogRepository.ts",
+        "scripts/catalog-query-pilot.mjs",
+        "scripts/verify-canonical-query-phase-a.mjs",
+        "scripts/verify-catalog-100.mjs",
+        "scripts/verify-country-review.mjs",
+        "scripts/verify-data-quality.mjs",
+        "scripts/verify-movies.mjs",
+        "scripts/verify-person-integrity.mjs"
+      ],
+      "assumedByProjectionOrUi": []
+    },
+    "classificationCandidate": "FACTUAL",
+    "compatibilityNotes": "Compatible with the canonical relationship registry."
+  },
+  {
+    "storedTypeValue": "MOVIE_DIRECTED_BY_PERSON",
+    "sourceEntityType": "movie",
+    "targetEntityType": "person",
+    "recordCount": 121,
+    "usageLocations": [
+      {
+        "file": "types/catalogPersistence.ts",
+        "line": 169
+      },
+      {
+        "file": "lib/catalogQuery.ts",
+        "line": 366
+      },
+      {
+        "file": "lib/catalogQuery.ts",
+        "line": 545
+      },
+      {
+        "file": "lib/catalogQuery.ts",
+        "line": 694
+      },
+      {
+        "file": "lib/catalogSync.ts",
+        "line": 12
+      },
+      {
+        "file": "lib/editorial/postgresEditorialRepository.ts",
+        "line": 60
+      },
+      {
+        "file": "lib/postgresCatalogRepository.ts",
+        "line": 330
+      },
+      {
+        "file": "lib/relationships/journeyExplanationFormatter.ts",
+        "line": 15
+      },
+      {
+        "file": "lib/relationships/relationshipPolicyRegistry.ts",
+        "line": 60
+      },
+      {
+        "file": "lib/relationships/relationshipRegistry.ts",
+        "line": 39
+      },
+      {
+        "file": "scripts/audit-canonical-entities.mjs",
+        "line": 122
+      },
+      {
+        "file": "scripts/catalog-query-pilot.mjs",
+        "line": 34
+      },
+      {
+        "file": "scripts/catalog-query-pilot.mjs",
+        "line": 41
+      },
+      {
+        "file": "scripts/db-verify-catalog-pilot.mjs",
+        "line": 37
+      },
+      {
+        "file": "scripts/db-verify-catalog-pilot.mjs",
+        "line": 61
+      },
+      {
+        "file": "scripts/persist-catalog-pilot.mjs",
+        "line": 236
+      },
+      {
+        "file": "scripts/persist-catalog-pilot.mjs",
+        "line": 315
+      },
+      {
+        "file": "scripts/seed-editorial.mjs",
+        "line": 17
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 14
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 464
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 465
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 51
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 188
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 551
+      },
+      {
+        "file": "scripts/verify-canonical-query-phase-a.mjs",
+        "line": 44
+      },
+      {
+        "file": "scripts/verify-catalog-100.mjs",
+        "line": 71
+      },
+      {
+        "file": "scripts/verify-country-review.mjs",
+        "line": 96
+      },
+      {
+        "file": "scripts/verify-data-quality.mjs",
+        "line": 145
+      },
+      {
+        "file": "scripts/verify-data-quality.mjs",
+        "line": 183
+      },
+      {
+        "file": "scripts/verify-movies.mjs",
+        "line": 307
+      },
+      {
+        "file": "scripts/verify-person-integrity.mjs",
+        "line": 87
+      },
+      {
+        "file": "scripts/verify-person-integrity.mjs",
+        "line": 121
+      },
+      {
+        "file": "docs/data/CANONICAL_ENTITY_INTEGRATION_AUDIT_V1.md",
+        "line": 130
+      },
+      {
+        "file": "docs/data/CANONICAL_QUERY_INTEGRATION_PHASE_A.md",
+        "line": 58
+      },
+      {
+        "file": "docs/data/CATALOG_PERSISTENCE_AND_GRAPH_V1.md",
+        "line": 173
+      },
+      {
+        "file": "docs/data/CATALOG_PERSISTENCE_AND_GRAPH_V1.md",
+        "line": 176
+      },
+      {
+        "file": "docs/data/CATALOG_PERSISTENCE_AND_GRAPH_V1.md",
+        "line": 192
+      },
+      {
+        "file": "docs/data/ENTITY_RESOLUTION_ENGINE_V1.md",
+        "line": 63
+      }
+    ],
+    "usageSummary": {
+      "createdBySyncOrImport": [
+        "lib/catalogSync.ts",
+        "lib/editorial/postgresEditorialRepository.ts",
+        "scripts/persist-catalog-pilot.mjs",
+        "scripts/seed-editorial.mjs",
+        "scripts/sync-catalog-pilot.mjs",
+        "scripts/sync-film-expansion-100.mjs"
+      ],
+      "queriedByRepositoryOrQuery": [
+        "lib/catalogQuery.ts",
+        "lib/postgresCatalogRepository.ts",
+        "scripts/catalog-query-pilot.mjs",
+        "scripts/verify-canonical-query-phase-a.mjs",
+        "scripts/verify-catalog-100.mjs",
+        "scripts/verify-country-review.mjs",
+        "scripts/verify-data-quality.mjs",
+        "scripts/verify-movies.mjs",
+        "scripts/verify-person-integrity.mjs"
+      ],
+      "assumedByProjectionOrUi": []
+    },
+    "classificationCandidate": "FACTUAL",
+    "compatibilityNotes": "Compatible with the canonical relationship registry."
+  },
+  {
+    "storedTypeValue": "MOVIE_HAS_GENRE",
+    "sourceEntityType": "movie",
+    "targetEntityType": "genre",
+    "recordCount": 246,
+    "usageLocations": [
+      {
+        "file": "types/catalogPersistence.ts",
+        "line": 174
+      },
+      {
+        "file": "lib/catalogQuery.ts",
+        "line": 697
+      },
+      {
+        "file": "lib/catalogSync.ts",
+        "line": 17
+      },
+      {
+        "file": "lib/relationships/journeyExplanationFormatter.ts",
+        "line": 40
+      },
+      {
+        "file": "lib/relationships/relationshipPolicyRegistry.ts",
+        "line": 115
+      },
+      {
+        "file": "lib/relationships/relationshipRegistry.ts",
+        "line": 129
+      },
+      {
+        "file": "scripts/persist-catalog-pilot.mjs",
+        "line": 254
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 19
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 55
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 209
+      },
+      {
+        "file": "scripts/verify-movies.mjs",
+        "line": 319
+      },
+      {
+        "file": "docs/data/CATALOG_PERSISTENCE_AND_GRAPH_V1.md",
+        "line": 196
+      }
+    ],
+    "usageSummary": {
+      "createdBySyncOrImport": [
+        "lib/catalogSync.ts",
+        "scripts/persist-catalog-pilot.mjs",
+        "scripts/sync-catalog-pilot.mjs",
+        "scripts/sync-film-expansion-100.mjs"
+      ],
+      "queriedByRepositoryOrQuery": [
+        "lib/catalogQuery.ts",
+        "scripts/verify-movies.mjs"
+      ],
+      "assumedByProjectionOrUi": []
+    },
+    "classificationCandidate": "FACTUAL",
+    "compatibilityNotes": "Persisted compatibility type used by current catalog ingestion."
+  },
+  {
+    "storedTypeValue": "MOVIE_PART_OF_MOVEMENT",
+    "sourceEntityType": "movement",
+    "targetEntityType": "movie",
+    "recordCount": 3,
+    "usageLocations": [
+      {
+        "file": "types/catalogPersistence.ts",
+        "line": 178
+      },
+      {
+        "file": "lib/editorial/postgresEditorialRepository.ts",
+        "line": 58
+      },
+      {
+        "file": "lib/relationships/journeyExplanationFormatter.ts",
+        "line": 55
+      },
+      {
+        "file": "lib/relationships/relationshipPolicyRegistry.ts",
+        "line": 151
+      },
+      {
+        "file": "lib/relationships/relationshipRegistry.ts",
+        "line": 174
+      },
+      {
+        "file": "scripts/seed-editorial.mjs",
+        "line": 15
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 480
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 483
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 231
+      },
+      {
+        "file": "scripts/verify-movies.mjs",
+        "line": 323
+      },
+      {
+        "file": "docs/data/CATALOG_PERSISTENCE_AND_GRAPH_V1.md",
+        "line": 200
+      }
+    ],
+    "usageSummary": {
+      "createdBySyncOrImport": [
+        "lib/editorial/postgresEditorialRepository.ts",
+        "scripts/seed-editorial.mjs",
+        "scripts/sync-catalog-pilot.mjs",
+        "scripts/sync-film-expansion-100.mjs"
+      ],
+      "queriedByRepositoryOrQuery": [
+        "scripts/verify-movies.mjs"
+      ],
+      "assumedByProjectionOrUi": []
+    },
+    "classificationCandidate": "EDITORIAL",
+    "compatibilityNotes": "Compatible with the canonical relationship registry."
+  },
+  {
+    "storedTypeValue": "MOVIE_PART_OF_MOVEMENT",
+    "sourceEntityType": "movie",
+    "targetEntityType": "movement",
+    "recordCount": 17,
+    "usageLocations": [
+      {
+        "file": "types/catalogPersistence.ts",
+        "line": 178
+      },
+      {
+        "file": "lib/editorial/postgresEditorialRepository.ts",
+        "line": 58
+      },
+      {
+        "file": "lib/relationships/journeyExplanationFormatter.ts",
+        "line": 55
+      },
+      {
+        "file": "lib/relationships/relationshipPolicyRegistry.ts",
+        "line": 151
+      },
+      {
+        "file": "lib/relationships/relationshipRegistry.ts",
+        "line": 174
+      },
+      {
+        "file": "scripts/seed-editorial.mjs",
+        "line": 15
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 480
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 483
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 231
+      },
+      {
+        "file": "scripts/verify-movies.mjs",
+        "line": 323
+      },
+      {
+        "file": "docs/data/CATALOG_PERSISTENCE_AND_GRAPH_V1.md",
+        "line": 200
+      }
+    ],
+    "usageSummary": {
+      "createdBySyncOrImport": [
+        "lib/editorial/postgresEditorialRepository.ts",
+        "scripts/seed-editorial.mjs",
+        "scripts/sync-catalog-pilot.mjs",
+        "scripts/sync-film-expansion-100.mjs"
+      ],
+      "queriedByRepositoryOrQuery": [
+        "scripts/verify-movies.mjs"
+      ],
+      "assumedByProjectionOrUi": []
+    },
+    "classificationCandidate": "EDITORIAL",
+    "compatibilityNotes": "Compatible with the canonical relationship registry."
+  },
+  {
+    "storedTypeValue": "MOVIE_PRODUCED_BY_COMPANY",
+    "sourceEntityType": "movie",
+    "targetEntityType": "company",
+    "recordCount": 346,
+    "usageLocations": [
+      {
+        "file": "types/catalogPersistence.ts",
+        "line": 176
+      },
+      {
+        "file": "lib/catalogQuery.ts",
+        "line": 699
+      },
+      {
+        "file": "lib/catalogSync.ts",
+        "line": 19
+      },
+      {
+        "file": "lib/relationships/journeyExplanationFormatter.ts",
+        "line": 50
+      },
+      {
+        "file": "lib/relationships/relationshipPolicyRegistry.ts",
+        "line": 139
+      },
+      {
+        "file": "lib/relationships/relationshipRegistry.ts",
+        "line": 159
+      },
+      {
+        "file": "scripts/persist-catalog-pilot.mjs",
+        "line": 240
+      },
+      {
+        "file": "scripts/persist-catalog-pilot.mjs",
+        "line": 261
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 21
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 57
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 227
+      },
+      {
+        "file": "docs/data/CATALOG_PERSISTENCE_AND_GRAPH_V1.md",
+        "line": 198
+      }
+    ],
+    "usageSummary": {
+      "createdBySyncOrImport": [
+        "lib/catalogSync.ts",
+        "scripts/persist-catalog-pilot.mjs",
+        "scripts/sync-catalog-pilot.mjs",
+        "scripts/sync-film-expansion-100.mjs"
+      ],
+      "queriedByRepositoryOrQuery": [
+        "lib/catalogQuery.ts"
+      ],
+      "assumedByProjectionOrUi": []
+    },
+    "classificationCandidate": "FACTUAL",
+    "compatibilityNotes": "Persisted compatibility type used by current catalog ingestion."
+  },
+  {
+    "storedTypeValue": "MOVIE_PRODUCED_IN_COUNTRY",
+    "sourceEntityType": "movement",
+    "targetEntityType": "country",
+    "recordCount": 3,
+    "usageLocations": [
+      {
+        "file": "types/catalogPersistence.ts",
+        "line": 173
+      },
+      {
+        "file": "lib/catalogQuery.ts",
+        "line": 459
+      },
+      {
+        "file": "lib/catalogQuery.ts",
+        "line": 561
+      },
+      {
+        "file": "lib/catalogQuery.ts",
+        "line": 696
+      },
+      {
+        "file": "lib/catalogSync.ts",
+        "line": 16
+      },
+      {
+        "file": "lib/editorial/postgresEditorialRepository.ts",
+        "line": 61
+      },
+      {
+        "file": "lib/postgresCatalogRepository.ts",
+        "line": 349
+      },
+      {
+        "file": "lib/relationships/journeyExplanationFormatter.ts",
+        "line": 35
+      },
+      {
+        "file": "lib/relationships/relationshipPolicyRegistry.ts",
+        "line": 104
+      },
+      {
+        "file": "lib/relationships/relationshipRegistry.ts",
+        "line": 107
+      },
+      {
+        "file": "scripts/audit-canonical-entities.mjs",
+        "line": 124
+      },
+      {
+        "file": "scripts/catalog-query-pilot.mjs",
+        "line": 35
+      },
+      {
+        "file": "scripts/catalog-query-pilot.mjs",
+        "line": 48
+      },
+      {
+        "file": "scripts/db-verify-catalog-pilot.mjs",
+        "line": 40
+      },
+      {
+        "file": "scripts/db-verify-catalog-pilot.mjs",
+        "line": 70
+      },
+      {
+        "file": "scripts/persist-catalog-pilot.mjs",
+        "line": 250
+      },
+      {
+        "file": "scripts/persist-catalog-pilot.mjs",
+        "line": 319
+      },
+      {
+        "file": "scripts/seed-editorial.mjs",
+        "line": 18
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 18
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 466
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 54
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 198
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 552
+      },
+      {
+        "file": "scripts/verify-canonical-query-phase-a.mjs",
+        "line": 60
+      },
+      {
+        "file": "scripts/verify-catalog-100.mjs",
+        "line": 82
+      },
+      {
+        "file": "scripts/verify-catalog-100.mjs",
+        "line": 91
+      },
+      {
+        "file": "scripts/verify-country-review.mjs",
+        "line": 100
+      },
+      {
+        "file": "scripts/verify-data-quality.mjs",
+        "line": 156
+      },
+      {
+        "file": "scripts/verify-data-quality.mjs",
+        "line": 187
+      },
+      {
+        "file": "scripts/verify-movies.mjs",
+        "line": 315
+      },
+      {
+        "file": "docs/data/CANONICAL_ENTITY_INTEGRATION_AUDIT_V1.md",
+        "line": 132
+      },
+      {
+        "file": "docs/data/CATALOG_PERSISTENCE_AND_GRAPH_V1.md",
+        "line": 195
+      }
+    ],
+    "usageSummary": {
+      "createdBySyncOrImport": [
+        "lib/catalogSync.ts",
+        "lib/editorial/postgresEditorialRepository.ts",
+        "scripts/persist-catalog-pilot.mjs",
+        "scripts/seed-editorial.mjs",
+        "scripts/sync-catalog-pilot.mjs",
+        "scripts/sync-film-expansion-100.mjs"
+      ],
+      "queriedByRepositoryOrQuery": [
+        "lib/catalogQuery.ts",
+        "lib/postgresCatalogRepository.ts",
+        "scripts/catalog-query-pilot.mjs",
+        "scripts/verify-canonical-query-phase-a.mjs",
+        "scripts/verify-catalog-100.mjs",
+        "scripts/verify-country-review.mjs",
+        "scripts/verify-data-quality.mjs",
+        "scripts/verify-movies.mjs"
+      ],
+      "assumedByProjectionOrUi": []
+    },
+    "classificationCandidate": "FACTUAL",
+    "compatibilityNotes": "Canonical persisted name for the MOVIE_FROM_COUNTRY semantic."
+  },
+  {
+    "storedTypeValue": "MOVIE_PRODUCED_IN_COUNTRY",
+    "sourceEntityType": "movie",
+    "targetEntityType": "country",
+    "recordCount": 191,
+    "usageLocations": [
+      {
+        "file": "types/catalogPersistence.ts",
+        "line": 173
+      },
+      {
+        "file": "lib/catalogQuery.ts",
+        "line": 459
+      },
+      {
+        "file": "lib/catalogQuery.ts",
+        "line": 561
+      },
+      {
+        "file": "lib/catalogQuery.ts",
+        "line": 696
+      },
+      {
+        "file": "lib/catalogSync.ts",
+        "line": 16
+      },
+      {
+        "file": "lib/editorial/postgresEditorialRepository.ts",
+        "line": 61
+      },
+      {
+        "file": "lib/postgresCatalogRepository.ts",
+        "line": 349
+      },
+      {
+        "file": "lib/relationships/journeyExplanationFormatter.ts",
+        "line": 35
+      },
+      {
+        "file": "lib/relationships/relationshipPolicyRegistry.ts",
+        "line": 104
+      },
+      {
+        "file": "lib/relationships/relationshipRegistry.ts",
+        "line": 107
+      },
+      {
+        "file": "scripts/audit-canonical-entities.mjs",
+        "line": 124
+      },
+      {
+        "file": "scripts/catalog-query-pilot.mjs",
+        "line": 35
+      },
+      {
+        "file": "scripts/catalog-query-pilot.mjs",
+        "line": 48
+      },
+      {
+        "file": "scripts/db-verify-catalog-pilot.mjs",
+        "line": 40
+      },
+      {
+        "file": "scripts/db-verify-catalog-pilot.mjs",
+        "line": 70
+      },
+      {
+        "file": "scripts/persist-catalog-pilot.mjs",
+        "line": 250
+      },
+      {
+        "file": "scripts/persist-catalog-pilot.mjs",
+        "line": 319
+      },
+      {
+        "file": "scripts/seed-editorial.mjs",
+        "line": 18
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 18
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 466
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 54
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 198
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 552
+      },
+      {
+        "file": "scripts/verify-canonical-query-phase-a.mjs",
+        "line": 60
+      },
+      {
+        "file": "scripts/verify-catalog-100.mjs",
+        "line": 82
+      },
+      {
+        "file": "scripts/verify-catalog-100.mjs",
+        "line": 91
+      },
+      {
+        "file": "scripts/verify-country-review.mjs",
+        "line": 100
+      },
+      {
+        "file": "scripts/verify-data-quality.mjs",
+        "line": 156
+      },
+      {
+        "file": "scripts/verify-data-quality.mjs",
+        "line": 187
+      },
+      {
+        "file": "scripts/verify-movies.mjs",
+        "line": 315
+      },
+      {
+        "file": "docs/data/CANONICAL_ENTITY_INTEGRATION_AUDIT_V1.md",
+        "line": 132
+      },
+      {
+        "file": "docs/data/CATALOG_PERSISTENCE_AND_GRAPH_V1.md",
+        "line": 195
+      }
+    ],
+    "usageSummary": {
+      "createdBySyncOrImport": [
+        "lib/catalogSync.ts",
+        "lib/editorial/postgresEditorialRepository.ts",
+        "scripts/persist-catalog-pilot.mjs",
+        "scripts/seed-editorial.mjs",
+        "scripts/sync-catalog-pilot.mjs",
+        "scripts/sync-film-expansion-100.mjs"
+      ],
+      "queriedByRepositoryOrQuery": [
+        "lib/catalogQuery.ts",
+        "lib/postgresCatalogRepository.ts",
+        "scripts/catalog-query-pilot.mjs",
+        "scripts/verify-canonical-query-phase-a.mjs",
+        "scripts/verify-catalog-100.mjs",
+        "scripts/verify-country-review.mjs",
+        "scripts/verify-data-quality.mjs",
+        "scripts/verify-movies.mjs"
+      ],
+      "assumedByProjectionOrUi": []
+    },
+    "classificationCandidate": "FACTUAL",
+    "compatibilityNotes": "Canonical persisted name for the MOVIE_FROM_COUNTRY semantic."
+  },
+  {
+    "storedTypeValue": "MOVIE_USES_LANGUAGE",
+    "sourceEntityType": "movie",
+    "targetEntityType": "language",
+    "recordCount": 218,
+    "usageLocations": [
+      {
+        "file": "types/catalogPersistence.ts",
+        "line": 175
+      },
+      {
+        "file": "lib/catalogQuery.ts",
+        "line": 698
+      },
+      {
+        "file": "lib/catalogSync.ts",
+        "line": 18
+      },
+      {
+        "file": "lib/relationships/journeyExplanationFormatter.ts",
+        "line": 45
+      },
+      {
+        "file": "lib/relationships/relationshipPolicyRegistry.ts",
+        "line": 127
+      },
+      {
+        "file": "lib/relationships/relationshipRegistry.ts",
+        "line": 144
+      },
+      {
+        "file": "scripts/persist-catalog-pilot.mjs",
+        "line": 257
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 20
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 56
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 215
+      },
+      {
+        "file": "docs/data/CATALOG_PERSISTENCE_AND_GRAPH_V1.md",
+        "line": 197
+      }
+    ],
+    "usageSummary": {
+      "createdBySyncOrImport": [
+        "lib/catalogSync.ts",
+        "scripts/persist-catalog-pilot.mjs",
+        "scripts/sync-catalog-pilot.mjs",
+        "scripts/sync-film-expansion-100.mjs"
+      ],
+      "queriedByRepositoryOrQuery": [
+        "lib/catalogQuery.ts"
+      ],
+      "assumedByProjectionOrUi": []
+    },
+    "classificationCandidate": "FACTUAL",
+    "compatibilityNotes": "Persisted compatibility type used by current catalog ingestion."
+  },
+  {
+    "storedTypeValue": "MOVIE_WON_AWARD",
+    "sourceEntityType": "award",
+    "targetEntityType": "movie",
+    "recordCount": 3,
+    "usageLocations": [
+      {
+        "file": "types/catalogPersistence.ts",
+        "line": 177
+      },
+      {
+        "file": "lib/editorial/postgresEditorialRepository.ts",
+        "line": 59
+      },
+      {
+        "file": "lib/relationships/journeyExplanationFormatter.ts",
+        "line": 60
+      },
+      {
+        "file": "lib/relationships/relationshipPolicyRegistry.ts",
+        "line": 162
+      },
+      {
+        "file": "lib/relationships/relationshipRegistry.ts",
+        "line": 195
+      },
+      {
+        "file": "scripts/seed-editorial.mjs",
+        "line": 16
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 235
+      },
+      {
+        "file": "docs/data/CATALOG_PERSISTENCE_AND_GRAPH_V1.md",
+        "line": 199
+      }
+    ],
+    "usageSummary": {
+      "createdBySyncOrImport": [
+        "lib/editorial/postgresEditorialRepository.ts",
+        "scripts/seed-editorial.mjs",
+        "scripts/sync-film-expansion-100.mjs"
+      ],
+      "queriedByRepositoryOrQuery": [],
+      "assumedByProjectionOrUi": []
+    },
+    "classificationCandidate": "EDITORIAL",
+    "compatibilityNotes": "Existing persisted editorial relationship. No new award domain behavior is introduced in this sprint."
+  },
+  {
+    "storedTypeValue": "MOVIE_WON_AWARD",
+    "sourceEntityType": "movie",
+    "targetEntityType": "award",
+    "recordCount": 6,
+    "usageLocations": [
+      {
+        "file": "types/catalogPersistence.ts",
+        "line": 177
+      },
+      {
+        "file": "lib/editorial/postgresEditorialRepository.ts",
+        "line": 59
+      },
+      {
+        "file": "lib/relationships/journeyExplanationFormatter.ts",
+        "line": 60
+      },
+      {
+        "file": "lib/relationships/relationshipPolicyRegistry.ts",
+        "line": 162
+      },
+      {
+        "file": "lib/relationships/relationshipRegistry.ts",
+        "line": 195
+      },
+      {
+        "file": "scripts/seed-editorial.mjs",
+        "line": 16
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 235
+      },
+      {
+        "file": "docs/data/CATALOG_PERSISTENCE_AND_GRAPH_V1.md",
+        "line": 199
+      }
+    ],
+    "usageSummary": {
+      "createdBySyncOrImport": [
+        "lib/editorial/postgresEditorialRepository.ts",
+        "scripts/seed-editorial.mjs",
+        "scripts/sync-film-expansion-100.mjs"
+      ],
+      "queriedByRepositoryOrQuery": [],
+      "assumedByProjectionOrUi": []
+    },
+    "classificationCandidate": "EDITORIAL",
+    "compatibilityNotes": "Existing persisted editorial relationship. No new award domain behavior is introduced in this sprint."
+  },
+  {
+    "storedTypeValue": "MOVIE_WRITTEN_BY_PERSON",
+    "sourceEntityType": "movie",
+    "targetEntityType": "person",
+    "recordCount": 198,
+    "usageLocations": [
+      {
+        "file": "types/catalogPersistence.ts",
+        "line": 171
+      },
+      {
+        "file": "lib/catalogSync.ts",
+        "line": 14
+      },
+      {
+        "file": "lib/relationships/journeyExplanationFormatter.ts",
+        "line": 25
+      },
+      {
+        "file": "lib/relationships/relationshipPolicyRegistry.ts",
+        "line": 82
+      },
+      {
+        "file": "lib/relationships/relationshipRegistry.ts",
+        "line": 79
+      },
+      {
+        "file": "scripts/persist-catalog-pilot.mjs",
+        "line": 238
+      },
+      {
+        "file": "scripts/sync-catalog-pilot.mjs",
+        "line": 16
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 52
+      },
+      {
+        "file": "scripts/sync-film-expansion-100.mjs",
+        "line": 190
+      },
+      {
+        "file": "docs/data/CATALOG_PERSISTENCE_AND_GRAPH_V1.md",
+        "line": 194
+      },
+      {
+        "file": "docs/data/ENTITY_RESOLUTION_ENGINE_V1.md",
+        "line": 65
+      }
+    ],
+    "usageSummary": {
+      "createdBySyncOrImport": [
+        "lib/catalogSync.ts",
+        "scripts/persist-catalog-pilot.mjs",
+        "scripts/sync-catalog-pilot.mjs",
+        "scripts/sync-film-expansion-100.mjs"
+      ],
+      "queriedByRepositoryOrQuery": [],
+      "assumedByProjectionOrUi": []
+    },
+    "classificationCandidate": "FACTUAL",
+    "compatibilityNotes": "Compatible with the canonical relationship registry."
+  }
+]

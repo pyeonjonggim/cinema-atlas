@@ -3,6 +3,7 @@ import "server-only";
 import type { Pool, QueryResultRow } from "pg";
 
 import { getPostgresPool } from "@/lib/db/postgres";
+import { RelationshipRepository } from "@/lib/relationships/relationshipRepository";
 import type { AwardEditorialEntity, EditorialEntity, EditorialEntityBase, MovementEditorialEntity } from "@/lib/editorial/entity";
 import type { EditorialEntityKind, EditorialEntitySourceType, EditorialEntityStatus } from "@/lib/editorial/metadata";
 import type { EditorialRepository } from "@/lib/editorial/repository";
@@ -45,12 +46,6 @@ type AwardRow = QueryResultRow & {
   updated_at: Date | string;
 };
 
-type RelationRow = QueryResultRow & {
-  relation_type: string;
-  target_type: string;
-  target_id: string;
-};
-
 function toDate(value: Date | string): Date {
   return value instanceof Date ? value : new Date(value);
 }
@@ -68,7 +63,11 @@ function edgeRelation(kind: EditorialEntityKind, targetType: string): string {
 }
 
 export class PostgresEditorialRepository implements EditorialRepository<EditorialEntity> {
-  constructor(private readonly pool: Pool = getPostgresPool()) {}
+  private readonly relationshipRepository: RelationshipRepository;
+
+  constructor(private readonly pool: Pool = getPostgresPool()) {
+    this.relationshipRepository = new RelationshipRepository(pool);
+  }
 
   async findAllPublished(input?: { kind?: EditorialEntityKind }): Promise<EditorialEntity[]> {
     if (input?.kind === "movement") {
@@ -298,16 +297,16 @@ export class PostgresEditorialRepository implements EditorialRepository<Editoria
   }
 
   private async relationshipSlugs(kind: "movement" | "award", slug: string) {
-    const result = await this.pool.query<RelationRow>(
-      "SELECT relation_type, target_type, target_id FROM knowledge_graph_edges WHERE source_type = $1 AND source_id = $2 AND is_curated = true",
-      [kind, slug],
-    );
+    const result = await this.relationshipRepository.findOutgoing({
+      type: kind === "movement" ? "MOVEMENT" : "AWARD",
+      id: slug,
+    });
 
     return {
-      movieSlugs: result.rows.filter((row) => row.target_type === "movie").map((row) => row.target_id),
-      directorSlugs: result.rows.filter((row) => row.target_type === "person").map((row) => row.target_id),
-      countrySlugs: result.rows.filter((row) => row.target_type === "country").map((row) => row.target_id),
-      relatedEntitySlugs: result.rows.filter((row) => row.target_type === "movement" || row.target_type === "award").map((row) => row.target_id),
+      movieSlugs: result.edges.filter((edge) => edge.targetType === "MOVIE").map((edge) => edge.targetId),
+      directorSlugs: result.edges.filter((edge) => edge.targetType === "PERSON").map((edge) => edge.targetId),
+      countrySlugs: result.edges.filter((edge) => edge.targetType === "COUNTRY").map((edge) => edge.targetId),
+      relatedEntitySlugs: result.edges.filter((edge) => edge.targetType === "MOVEMENT" || edge.targetType === "AWARD").map((edge) => edge.targetId),
     };
   }
 }

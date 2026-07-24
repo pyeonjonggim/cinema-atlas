@@ -1,0 +1,61 @@
+{
+  "summary": {
+    "command": "verify:continue-journey",
+    "status": "PASS",
+    "supportedEntities": 4,
+    "journeyCategories": 8,
+    "duplicateSuggestions": 0,
+    "missingReasons": 0,
+    "repositoryViolations": 0,
+    "verificationErrors": 0,
+    "structuredExplanations": "PASS",
+    "missingExplanationModels": 0,
+    "missingFormatterDefinitions": 0,
+    "invalidExplanationDirections": 0,
+    "emptyRenderedReasons": 0,
+    "duplicatedExplanationTemplates": 0,
+    "completedAt": "2026-07-24T10:56:18.379Z"
+  },
+  "categoryCoverage": [
+    {
+      "category": "CONTINUE_WATCHING",
+      "configured": false,
+      "exampleCount": 0
+    },
+    {
+      "category": "EXPLORE_THE_DIRECTOR",
+      "configured": false,
+      "exampleCount": 3
+    },
+    {
+      "category": "DISCOVER_THE_COUNTRY",
+      "configured": false,
+      "exampleCount": 2
+    },
+    {
+      "category": "UNDERSTAND_THE_MOVEMENT",
+      "configured": false,
+      "exampleCount": 7
+    },
+    {
+      "category": "RELATED_PEOPLE",
+      "configured": false,
+      "exampleCount": 12
+    },
+    {
+      "category": "HISTORICAL_CONTEXT",
+      "configured": false,
+      "exampleCount": 0
+    },
+    {
+      "category": "INFLUENCED_BY",
+      "configured": false,
+      "exampleCount": 0
+    },
+    {
+      "category": "SIMILAR_THEMES",
+      "configured": false,
+      "exampleCount": 0
+    }
+  ]
+}

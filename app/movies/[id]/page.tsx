@@ -4,10 +4,14 @@ import MovieDetailPage from "@/components/pages/MovieDetailPage";
 import { awards } from "@/data/awards";
 import { movements } from "@/data/movements";
 import { getMovieBySlug } from "@/lib/catalogQuery";
+import { ContinueJourneyEngine } from "@/lib/relationships/continueJourneyEngine";
+import { projectContinueJourneyItems } from "@/lib/relationships/continueJourneyPresentation";
 import type { Actor } from "@/data/actors";
 import type { Country } from "@/data/countries";
 import type { Director } from "@/data/directors";
 import type { Movie } from "@/types/movie";
+
+export const dynamic = "force-dynamic";
 
 type MovieDetailRouteProps = {
   params: Promise<{
@@ -83,6 +87,36 @@ export default async function MovieDetailRoute({
   const directors = [directorFromMovie(movie)];
   const actors = actorsFromMovie(movie);
   const countries = [countryFromMovie(movie)];
+  const journey = await new ContinueJourneyEngine().buildForEntity(
+    { type: "MOVIE", id: movie.id },
+    { maximumResults: 4 },
+  );
+  const labels = {
+    MOVIE: { [movie.id]: movie.title },
+    PERSON: {
+      ...Object.fromEntries(movie.directorIds?.map((personId) => [personId, movie.director]) ?? []),
+      ...Object.fromEntries(movie.actorIds?.map((personId, index) => [
+        personId,
+        movie.actors[index % Math.max(movie.actors.length, 1)] ?? personId,
+      ]) ?? []),
+    },
+    COUNTRY: Object.fromEntries(movie.countryIds?.map((countryId) => [countryId, movie.country]) ?? []),
+    MOVEMENT: Object.fromEntries(movie.movementIds?.map((movementId) => [movementId, movie.movement]) ?? []),
+    AWARD: Object.fromEntries(movie.awardIds?.map((awardId, index) => [awardId, movie.awards[index] ?? awardId]) ?? []),
+  };
+  const hrefs = {
+    PERSON: {
+      ...Object.fromEntries(movie.directorIds?.map((personId) => [personId, `/encyclopedia/directors/${movie.directorSlug}`]) ?? []),
+      ...Object.fromEntries(movie.actorIds?.map((personId, index) => [
+        personId,
+        `/encyclopedia/actors/${movie.actorSlugs[index % Math.max(movie.actorSlugs.length, 1)] ?? personId}`,
+      ]) ?? []),
+    },
+    COUNTRY: Object.fromEntries(movie.countryIds?.map((countryId) => [countryId, `/encyclopedia/countries/${movie.countrySlug}`]) ?? []),
+    MOVEMENT: Object.fromEntries(movie.movementIds?.map((movementId) => [movementId, `/encyclopedia/movements/${movementId}`]) ?? []),
+    AWARD: Object.fromEntries(movie.awardIds?.map((awardId) => [awardId, `/encyclopedia/awards/${awardId}`]) ?? []),
+  };
+  const continueJourneyItems = projectContinueJourneyItems(journey, { labels, hrefs, limit: 4 });
 
   return (
     <MovieDetailPage
@@ -93,6 +127,7 @@ export default async function MovieDetailRoute({
       movements={movements}
       actors={actors}
       awards={awards}
+      continueJourneyItems={continueJourneyItems}
     />
   );
 }

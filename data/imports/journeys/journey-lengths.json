@@ -1,0 +1,23 @@
+[
+  {
+    "id": "intro-japanese-cinema",
+    "title": "Introduction to Japanese Cinema",
+    "steps": 13,
+    "estimatedMovies": 7,
+    "estimatedHours": 15
+  },
+  {
+    "id": "new-hollywood-foundations",
+    "title": "New Hollywood Foundations",
+    "steps": 12,
+    "estimatedMovies": 6,
+    "estimatedHours": 13
+  },
+  {
+    "id": "oscar-winners",
+    "title": "Oscar Winners",
+    "steps": 11,
+    "estimatedMovies": 6,
+    "estimatedHours": 14
+  }
+]

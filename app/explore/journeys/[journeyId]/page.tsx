@@ -6,14 +6,17 @@ import PageContainer from "@/components/layout/PageContainer";
 import Section from "@/components/layout/Section";
 import UniversalHero from "@/components/layout/UniversalHero";
 import RelatedJourneySection from "@/components/journey/RelatedJourneySection";
+import SaveJourneyButton from "@/components/journey/SaveJourneyButton";
 import JourneyTimeline from "@/components/journey/JourneyTimeline";
-import AtlasCard from "@/components/ui/AtlasCard";
-import { journeys } from "@/data/journeys";
 import {
-  getJourneySteps,
-  getRelatedJourneys,
-  resolveJourneyStep,
-} from "@/lib/journeys";
+  getPublishedJourneyById,
+  getRelatedPublishedJourneys,
+  getResolvedJourneySteps,
+} from "@/lib/journeyQuery";
+import {
+  getJourneyDifficultyLabel,
+  scoreJourneyDifficulty,
+} from "@/lib/journeyDifficulty";
 
 type JourneyDetailPageProps = {
   params: Promise<{
@@ -25,14 +28,18 @@ export default async function JourneyDetailPage({
   params,
 }: JourneyDetailPageProps) {
   const { journeyId } = await params;
-  const journey = journeys.find((item) => item.id === journeyId);
+  const journey = await getPublishedJourneyById(journeyId);
 
   if (!journey) {
     notFound();
   }
 
-  const steps = getJourneySteps(journey).map(resolveJourneyStep);
-  const relatedJourneys = getRelatedJourneys(journey, 3);
+  const steps = await getResolvedJourneySteps(journey);
+  const relatedJourneys = await getRelatedPublishedJourneys(journey, 3);
+  const difficultyScore = scoreJourneyDifficulty(journey);
+  const firstStep = steps[0];
+  const filmSteps = steps.filter((step) => step.entityType === "movie");
+  const contextSteps = steps.filter((step) => step.entityType !== "movie");
 
   return (
     <>
@@ -41,60 +48,62 @@ export default async function JourneyDetailPage({
       <PageContainer size="wide">
         <div className="space-y-8">
           <Link
-            href="/explore/journeys"
+            href="/explore"
             className="text-sm text-neutral-500 transition hover:text-white"
           >
-            Back to Journey Library
+            Back to Explore
           </Link>
 
           <UniversalHero
             eyebrow={journey.official ? "Official Journey" : "Community Journey"}
             title={journey.title}
-            description={journey.subtitle}
-            stats={`${formatDifficulty(journey.difficulty)} / ${journey.estimatedMovies} films / ${journey.estimatedHours}h`}
+            description={journey.description}
+            visualTone={getHeroTone(journey.category)}
+            minHeight="compact"
+            stats={`${getJourneyDifficultyLabel(difficultyScore.computedDifficulty)} / Difficulty ${difficultyScore.score} / ${journey.estimatedMovies} ${journey.estimatedMovies === 1 ? "film" : "films"} / ${journey.estimatedHours}h`}
+            actions={
+              <SaveJourneyButton journeyId={journey.id} title={journey.title} />
+            }
           />
 
           <Section
-            eyebrow="Journey Overview"
-            title="Why this route matters"
-            description="A Journey should give you enough context to begin, then move you toward the next meaningful stop."
+            eyebrow="Viewing Plan"
+            title="What to pay attention to"
+            description="This page is a guide. It tells you why each stop exists and what you should notice before moving on."
             className="p-4 md:p-5"
           >
-            <div className="grid gap-5 lg:grid-cols-[minmax(0,1.4fr)_minmax(18rem,0.8fr)]">
-              <div>
-                <p className="text-sm leading-7 text-neutral-300">
-                  {journey.description}
+            <div className="grid gap-4 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)]">
+              <div className="rounded-3xl border border-white/10 bg-white/[0.035] p-5 md:p-6">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-neutral-500">
+                  Curator&apos;s Note
                 </p>
-                <div className="mt-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
-                  <JourneyFact label="Author" value={journey.author} />
-                  <JourneyFact label="Category" value={formatCategory(journey.category)} />
-                  <JourneyFact label="Stops" value={String(steps.length)} />
-                  <JourneyFact label="Type" value={journey.official ? "Official" : "Community"} />
-                </div>
+                <h2 className="mt-4 text-3xl font-semibold tracking-tight text-white">
+                  Start with context, then watch the film differently.
+                </h2>
+                <p className="mt-4 max-w-3xl text-sm leading-7 text-neutral-300">
+                  {journey.subtitle} The route is ordered so each stop prepares
+                  the next one: context first, then the work, then the people or
+                  institutions that make the work easier to understand.
+                </p>
               </div>
 
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-neutral-500">
-                  What You Will Explore
-                </p>
-                <div className="mt-3 flex flex-wrap gap-2">
-                  {journey.tags.slice(0, 5).map((tag) => (
-                    <span
-                      key={tag}
-                      className="rounded-full border border-white/10 bg-white/[0.035] px-4 py-2 text-sm text-neutral-300"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
+              <div className="grid gap-3 sm:grid-cols-2">
+                <JourneyFact label="First Stop" value={firstStep?.title ?? "Start"} />
+                <JourneyFact label="Context Stops" value={String(contextSteps.length)} />
+                <JourneyFact label="Films to Watch" value={String(filmSteps.length)} />
+                <JourneyFact
+                  label="Difficulty"
+                  value={`${getJourneyDifficultyLabel(difficultyScore.computedDifficulty)} ${difficultyScore.score}`}
+                />
+                <JourneyFact label="Estimated Time" value={`${journey.estimatedHours}h`} />
               </div>
             </div>
           </Section>
 
           <Section
-            eyebrow="Your Route"
-            title="Move one stop at a time"
-            description="Each stop has one purpose, one context sentence, and one destination."
+            eyebrow="Route Order"
+            title="Follow these stops in sequence"
+            description="Open each stop when you need context. Film stops are the works to watch; the other stops explain what to look for."
             className="p-4 md:p-5"
           >
             <JourneyTimeline steps={steps} />
@@ -103,34 +112,49 @@ export default async function JourneyDetailPage({
           <RelatedJourneySection journeys={relatedJourneys} />
 
           <Section
-            eyebrow="Continue Exploring"
-            title="Choose the next layer"
-            description="Compact exits for moving beyond this Journey."
+            eyebrow="After This Journey"
+            title="Keep the next step simple"
+            description="When the route ends, choose one continuation rather than opening the whole catalog at once."
             className="p-4 md:p-5"
           >
-            <div className="grid gap-3 md:grid-cols-3">
-              <AtlasCard href="/explore/journeys" className="rounded-2xl p-4">
-                <p className="text-xs uppercase tracking-[0.2em] text-neutral-500">
-                  Journeys
+            <div className="grid gap-3 md:grid-cols-2">
+              <Link
+                href="/explore"
+                className="group rounded-3xl border border-white/10 bg-white/[0.035] p-5 transition hover:border-white/25 hover:bg-white/[0.055]"
+              >
+                <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-neutral-500">
+                  Explore
                 </p>
-                <h3 className="mt-2 font-semibold text-white">
-                  Explore More Journeys
+                <h3 className="mt-3 text-xl font-semibold text-white">
+                  Choose another journey
                 </h3>
-              </AtlasCard>
-              <AtlasCard href="/encyclopedia" className="rounded-2xl p-4">
-                <p className="text-xs uppercase tracking-[0.2em] text-neutral-500">
-                  Knowledge
+                <p className="mt-2 text-sm leading-6 text-neutral-400">
+                  Return to the journey-first Explore page and begin from a
+                  different question.
                 </p>
-                <h3 className="mt-2 font-semibold text-white">
-                  Browse Encyclopedia
-                </h3>
-              </AtlasCard>
-              <AtlasCard href="/passport" className="rounded-2xl p-4">
-                <p className="text-xs uppercase tracking-[0.2em] text-neutral-500">
+                <p className="mt-5 text-sm font-semibold text-neutral-300 transition group-hover:text-white">
+                  Back to Explore
+                </p>
+              </Link>
+
+              <Link
+                href="/passport"
+                className="group rounded-3xl border border-white/10 bg-white/[0.035] p-5 transition hover:border-white/25 hover:bg-white/[0.055]"
+              >
+                <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-neutral-500">
                   Passport
                 </p>
-                <h3 className="mt-2 font-semibold text-white">View Passport</h3>
-              </AtlasCard>
+                <h3 className="mt-3 text-xl font-semibold text-white">
+                  Save the path for later
+                </h3>
+                <p className="mt-2 text-sm leading-6 text-neutral-400">
+                  Passport is where guided exploration can become a longer
+                  personal record.
+                </p>
+                <p className="mt-5 text-sm font-semibold text-neutral-300 transition group-hover:text-white">
+                  Open Passport
+                </p>
+              </Link>
             </div>
           </Section>
         </div>
@@ -141,24 +165,19 @@ export default async function JourneyDetailPage({
 
 function JourneyFact({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-2xl border border-white/10 bg-black/20 p-4">
-      <p className="text-xs uppercase tracking-[0.2em] text-neutral-500">
+    <div className="rounded-3xl border border-white/10 bg-black/20 p-5">
+      <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-neutral-500">
         {label}
       </p>
-      <p className="mt-2 font-semibold text-white">{value}</p>
+      <p className="mt-3 text-lg font-semibold text-white">{value}</p>
     </div>
   );
 }
 
-function formatDifficulty(difficulty: string) {
-  if (difficulty === "beginner") return "Beginner";
-  if (difficulty === "intermediate") return "Intermediate";
-  return "Advanced";
-}
-
-function formatCategory(category: string) {
-  return category
-    .split("-")
-    .map((part) => part[0].toUpperCase() + part.slice(1))
-    .join(" ");
+function getHeroTone(category: string) {
+  if (category === "country") return "place";
+  if (category === "director") return "portrait";
+  if (category === "movement") return "archive";
+  if (category === "award") return "cinematic";
+  return "explorer";
 }

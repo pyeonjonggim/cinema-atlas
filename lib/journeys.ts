@@ -22,7 +22,7 @@ export function getJourneySteps(journey: Journey) {
 
 export function resolveJourneyStep(step: JourneyStep): ResolvedJourneyStep {
   const fallback = {
-    title: step.entityId,
+    title: titleizeSlug(step.entityId),
     subtitle: step.entityType,
     href: getEntityHref(step.entityType, step.entityId),
   };
@@ -166,4 +166,12 @@ function getEntityPath(entityType: JourneyStep["entityType"]) {
   };
 
   return paths[entityType as keyof typeof paths];
+}
+
+function titleizeSlug(value: string) {
+  return value
+    .split("-")
+    .filter(Boolean)
+    .map((part) => part[0]?.toUpperCase() + part.slice(1))
+    .join(" ");
 }

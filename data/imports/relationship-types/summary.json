@@ -1,0 +1,15 @@
+{
+  "command": "verify:relationship-types",
+  "status": "PASS",
+  "registeredTypes": 10,
+  "databaseTypes": 9,
+  "edgesChecked": 3346,
+  "unregisteredTypes": 0,
+  "invalidEntityPairs": 0,
+  "invalidDirections": 0,
+  "invalidMetadata": 0,
+  "registryConflicts": 0,
+  "deprecatedTypesCreated": 0,
+  "existingSchemaStrategy": "A. Existing schema is sufficient; application-level contract and validation added only.",
+  "completedAt": "2026-07-23T04:34:53.280Z"
+}

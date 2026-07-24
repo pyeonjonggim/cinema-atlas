@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 
 import AchievementDetailPage from "@/components/pages/AchievementDetailPage";
-import { officialJourneys } from "@/data/journeys";
 import { movies } from "@/data/movies";
 import {
   achievements,
@@ -10,6 +9,7 @@ import {
   userChallenges,
 } from "@/data/passport";
 import { userMovies } from "@/data/userMovies";
+import { listPublishedJourneys } from "@/lib/journeyQuery";
 import { buildPassportModel } from "@/lib/passport";
 
 type AchievementRouteProps = {
@@ -22,6 +22,7 @@ export default async function AchievementRoute({
   params,
 }: AchievementRouteProps) {
   const { achievementId } = await params;
+  const journeys = await listPublishedJourneys();
   const passport = buildPassportModel({
     movies,
     userMovies,
@@ -29,7 +30,7 @@ export default async function AchievementRoute({
     userChallenges,
     achievements,
     userAchievements,
-    journeys: officialJourneys,
+    journeys,
   });
   const achievement = passport.achievementGallery.find(
     (item) => item.achievement.id === achievementId

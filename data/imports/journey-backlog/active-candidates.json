@@ -1,0 +1,481 @@
+[
+  {
+    "id": "candidate-korean-contemporary-cinema",
+    "blueprintId": "blueprint-korean-contemporary-cinema",
+    "title": "Korean Contemporary Cinema",
+    "category": "movement",
+    "status": "needs-editorial-review",
+    "reason": "Prepare a longer future route from Korean national cinema into auteurs, actors, and global recognition.",
+    "steps": [
+      {
+        "id": "blueprint-korean-contemporary-cinema-1-country-south-korea",
+        "journeyId": "candidate-korean-contemporary-cinema",
+        "order": 1,
+        "entityType": "country",
+        "entityId": "south-korea",
+        "learningGoal": "Enter the route through South Korea."
+      },
+      {
+        "id": "blueprint-korean-contemporary-cinema-2-movement-korean-contemporary-cinema",
+        "journeyId": "candidate-korean-contemporary-cinema",
+        "order": 2,
+        "entityType": "movement",
+        "entityId": "korean-contemporary-cinema",
+        "learningGoal": "Use Korean Contemporary Cinema as context before the next film stop."
+      },
+      {
+        "id": "blueprint-korean-contemporary-cinema-3-director-bong-joon-ho",
+        "journeyId": "candidate-korean-contemporary-cinema",
+        "order": 3,
+        "entityType": "director",
+        "entityId": "bong-joon-ho",
+        "learningGoal": "Use Bong Joon Ho as context before the next film stop."
+      },
+      {
+        "id": "blueprint-korean-contemporary-cinema-4-movie-memories-of-murder",
+        "journeyId": "candidate-korean-contemporary-cinema",
+        "order": 4,
+        "entityType": "movie",
+        "entityId": "memories-of-murder",
+        "learningGoal": "Watch Memories Of Murder as a core film stop."
+      },
+      {
+        "id": "blueprint-korean-contemporary-cinema-5-movie-parasite",
+        "journeyId": "candidate-korean-contemporary-cinema",
+        "order": 5,
+        "entityType": "movie",
+        "entityId": "parasite",
+        "learningGoal": "Watch Parasite as a core film stop."
+      },
+      {
+        "id": "blueprint-korean-contemporary-cinema-6-award-palme-dor",
+        "journeyId": "candidate-korean-contemporary-cinema",
+        "order": 6,
+        "entityType": "award",
+        "entityId": "palme-dor",
+        "learningGoal": "Use Palme Dor as the continuation point after the route."
+      }
+    ],
+    "movieCount": 2,
+    "stepCount": 6,
+    "computedDifficulty": "beginner",
+    "difficultyScore": 36,
+    "validationIssues": [
+      "Candidate is too short: 6/10 target steps.",
+      "Candidate is not film-forward enough: 2/5 required film stops.",
+      "Films should carry at least half of the route: 2/6.",
+      "Anchors not present in existing published journey data: country:south-korea."
+    ]
+  },
+  {
+    "id": "candidate-performance-and-moral-pressure",
+    "blueprintId": "blueprint-performance-and-moral-pressure",
+    "title": "Performance and Moral Pressure",
+    "category": "theme",
+    "status": "ready-to-publish",
+    "reason": "Follow screen performance as a route into authority, guilt, violence, and social pressure across several film cultures.",
+    "steps": [
+      {
+        "id": "blueprint-performance-and-moral-pressure-1-actor-marlon-brando",
+        "journeyId": "candidate-performance-and-moral-pressure",
+        "order": 1,
+        "entityType": "actor",
+        "entityId": "marlon-brando",
+        "learningGoal": "Enter the route through Marlon Brando."
+      },
+      {
+        "id": "blueprint-performance-and-moral-pressure-2-movie-the-godfather",
+        "journeyId": "candidate-performance-and-moral-pressure",
+        "order": 2,
+        "entityType": "movie",
+        "entityId": "the-godfather",
+        "learningGoal": "Watch The Godfather as a core film stop."
+      },
+      {
+        "id": "blueprint-performance-and-moral-pressure-3-actor-al-pacino",
+        "journeyId": "candidate-performance-and-moral-pressure",
+        "order": 3,
+        "entityType": "actor",
+        "entityId": "al-pacino",
+        "learningGoal": "Use Al Pacino as context before the next film stop."
+      },
+      {
+        "id": "blueprint-performance-and-moral-pressure-4-movie-taxi-driver",
+        "journeyId": "candidate-performance-and-moral-pressure",
+        "order": 4,
+        "entityType": "movie",
+        "entityId": "taxi-driver",
+        "learningGoal": "Watch Taxi Driver as a core film stop."
+      },
+      {
+        "id": "blueprint-performance-and-moral-pressure-5-director-martin-scorsese",
+        "journeyId": "candidate-performance-and-moral-pressure",
+        "order": 5,
+        "entityType": "director",
+        "entityId": "martin-scorsese",
+        "learningGoal": "Use Martin Scorsese as context before the next film stop."
+      },
+      {
+        "id": "blueprint-performance-and-moral-pressure-6-movie-memories-of-murder",
+        "journeyId": "candidate-performance-and-moral-pressure",
+        "order": 6,
+        "entityType": "movie",
+        "entityId": "memories-of-murder",
+        "learningGoal": "Watch Memories Of Murder as a core film stop."
+      },
+      {
+        "id": "blueprint-performance-and-moral-pressure-7-director-bong-joon-ho",
+        "journeyId": "candidate-performance-and-moral-pressure",
+        "order": 7,
+        "entityType": "director",
+        "entityId": "bong-joon-ho",
+        "learningGoal": "Use Bong Joon Ho as context before the next film stop."
+      },
+      {
+        "id": "blueprint-performance-and-moral-pressure-8-movie-parasite",
+        "journeyId": "candidate-performance-and-moral-pressure",
+        "order": 8,
+        "entityType": "movie",
+        "entityId": "parasite",
+        "learningGoal": "Use Parasite as the continuation point after the route."
+      }
+    ],
+    "movieCount": 4,
+    "stepCount": 8,
+    "computedDifficulty": "intermediate",
+    "difficultyScore": 47,
+    "validationIssues": []
+  },
+  {
+    "id": "candidate-modern-blockbuster-turn",
+    "blueprintId": "blueprint-modern-blockbuster-turn",
+    "title": "Modern Blockbuster Turn",
+    "category": "film-history",
+    "status": "ready-to-publish",
+    "reason": "Trace how popular cinema changes from New Hollywood suspense to fantasy, animation, and global visibility.",
+    "steps": [
+      {
+        "id": "blueprint-modern-blockbuster-turn-1-country-united-states",
+        "journeyId": "candidate-modern-blockbuster-turn",
+        "order": 1,
+        "entityType": "country",
+        "entityId": "united-states",
+        "learningGoal": "Enter the route through United States."
+      },
+      {
+        "id": "blueprint-modern-blockbuster-turn-2-movement-new-hollywood",
+        "journeyId": "candidate-modern-blockbuster-turn",
+        "order": 2,
+        "entityType": "movement",
+        "entityId": "new-hollywood",
+        "learningGoal": "Use New Hollywood as context before the next film stop."
+      },
+      {
+        "id": "blueprint-modern-blockbuster-turn-3-movie-jaws",
+        "journeyId": "candidate-modern-blockbuster-turn",
+        "order": 3,
+        "entityType": "movie",
+        "entityId": "jaws",
+        "learningGoal": "Watch Jaws as a core film stop."
+      },
+      {
+        "id": "blueprint-modern-blockbuster-turn-4-movie-star-wars",
+        "journeyId": "candidate-modern-blockbuster-turn",
+        "order": 4,
+        "entityType": "movie",
+        "entityId": "star-wars",
+        "learningGoal": "Watch Star Wars as a core film stop."
+      },
+      {
+        "id": "blueprint-modern-blockbuster-turn-5-movie-the-godfather",
+        "journeyId": "candidate-modern-blockbuster-turn",
+        "order": 5,
+        "entityType": "movie",
+        "entityId": "the-godfather",
+        "learningGoal": "Watch The Godfather as a core film stop."
+      },
+      {
+        "id": "blueprint-modern-blockbuster-turn-6-director-hayao-miyazaki",
+        "journeyId": "candidate-modern-blockbuster-turn",
+        "order": 6,
+        "entityType": "director",
+        "entityId": "hayao-miyazaki",
+        "learningGoal": "Use Hayao Miyazaki as context before the next film stop."
+      },
+      {
+        "id": "blueprint-modern-blockbuster-turn-7-movie-spirited-away",
+        "journeyId": "candidate-modern-blockbuster-turn",
+        "order": 7,
+        "entityType": "movie",
+        "entityId": "spirited-away",
+        "learningGoal": "Watch Spirited Away as a core film stop."
+      },
+      {
+        "id": "blueprint-modern-blockbuster-turn-8-movie-parasite",
+        "journeyId": "candidate-modern-blockbuster-turn",
+        "order": 8,
+        "entityType": "movie",
+        "entityId": "parasite",
+        "learningGoal": "Use Parasite as the continuation point after the route."
+      }
+    ],
+    "movieCount": 5,
+    "stepCount": 8,
+    "computedDifficulty": "intermediate",
+    "difficultyScore": 55,
+    "validationIssues": []
+  },
+  {
+    "id": "candidate-festival-recognition-across-borders",
+    "blueprintId": "blueprint-festival-recognition-across-borders",
+    "title": "Festival Recognition Across Borders",
+    "category": "award",
+    "status": "ready-to-publish",
+    "reason": "Use festival recognition as a path across Japanese and Korean cinema without duplicating a single national route.",
+    "steps": [
+      {
+        "id": "blueprint-festival-recognition-across-borders-1-award-palme-dor",
+        "journeyId": "candidate-festival-recognition-across-borders",
+        "order": 1,
+        "entityType": "award",
+        "entityId": "palme-dor",
+        "learningGoal": "Enter the route through Palme Dor."
+      },
+      {
+        "id": "blueprint-festival-recognition-across-borders-2-country-japan",
+        "journeyId": "candidate-festival-recognition-across-borders",
+        "order": 2,
+        "entityType": "country",
+        "entityId": "japan",
+        "learningGoal": "Use Japan as context before the next film stop."
+      },
+      {
+        "id": "blueprint-festival-recognition-across-borders-3-movie-rashomon",
+        "journeyId": "candidate-festival-recognition-across-borders",
+        "order": 3,
+        "entityType": "movie",
+        "entityId": "rashomon",
+        "learningGoal": "Watch Rashomon as a core film stop."
+      },
+      {
+        "id": "blueprint-festival-recognition-across-borders-4-movie-ugetsu",
+        "journeyId": "candidate-festival-recognition-across-borders",
+        "order": 4,
+        "entityType": "movie",
+        "entityId": "ugetsu",
+        "learningGoal": "Watch Ugetsu as a core film stop."
+      },
+      {
+        "id": "blueprint-festival-recognition-across-borders-5-movement-korean-contemporary-cinema",
+        "journeyId": "candidate-festival-recognition-across-borders",
+        "order": 5,
+        "entityType": "movement",
+        "entityId": "korean-contemporary-cinema",
+        "learningGoal": "Use Korean Contemporary Cinema as context before the next film stop."
+      },
+      {
+        "id": "blueprint-festival-recognition-across-borders-6-director-bong-joon-ho",
+        "journeyId": "candidate-festival-recognition-across-borders",
+        "order": 6,
+        "entityType": "director",
+        "entityId": "bong-joon-ho",
+        "learningGoal": "Use Bong Joon Ho as context before the next film stop."
+      },
+      {
+        "id": "blueprint-festival-recognition-across-borders-7-movie-memories-of-murder",
+        "journeyId": "candidate-festival-recognition-across-borders",
+        "order": 7,
+        "entityType": "movie",
+        "entityId": "memories-of-murder",
+        "learningGoal": "Watch Memories Of Murder as a core film stop."
+      },
+      {
+        "id": "blueprint-festival-recognition-across-borders-8-movie-parasite",
+        "journeyId": "candidate-festival-recognition-across-borders",
+        "order": 8,
+        "entityType": "movie",
+        "entityId": "parasite",
+        "learningGoal": "Use Parasite as the continuation point after the route."
+      }
+    ],
+    "movieCount": 4,
+    "stepCount": 8,
+    "computedDifficulty": "intermediate",
+    "difficultyScore": 67,
+    "validationIssues": []
+  },
+  {
+    "id": "candidate-family-memory-and-modern-life",
+    "blueprintId": "blueprint-family-memory-and-modern-life",
+    "title": "Family, Memory, and Modern Life",
+    "category": "theme",
+    "status": "ready-to-publish",
+    "reason": "Move through family distance, private memory, and social change without staying inside one country or award path.",
+    "steps": [
+      {
+        "id": "blueprint-family-memory-and-modern-life-1-country-japan",
+        "journeyId": "candidate-family-memory-and-modern-life",
+        "order": 1,
+        "entityType": "country",
+        "entityId": "japan",
+        "learningGoal": "Enter the route through Japan."
+      },
+      {
+        "id": "blueprint-family-memory-and-modern-life-2-director-yasujiro-ozu",
+        "journeyId": "candidate-family-memory-and-modern-life",
+        "order": 2,
+        "entityType": "director",
+        "entityId": "yasujiro-ozu",
+        "learningGoal": "Enter the route through Yasujiro Ozu."
+      },
+      {
+        "id": "blueprint-family-memory-and-modern-life-3-movie-late-spring",
+        "journeyId": "candidate-family-memory-and-modern-life",
+        "order": 3,
+        "entityType": "movie",
+        "entityId": "late-spring",
+        "learningGoal": "Watch Late Spring as a core film stop."
+      },
+      {
+        "id": "blueprint-family-memory-and-modern-life-4-movie-tokyo-story",
+        "journeyId": "candidate-family-memory-and-modern-life",
+        "order": 4,
+        "entityType": "movie",
+        "entityId": "tokyo-story",
+        "learningGoal": "Watch Tokyo Story as a core film stop."
+      },
+      {
+        "id": "blueprint-family-memory-and-modern-life-5-country-united-states",
+        "journeyId": "candidate-family-memory-and-modern-life",
+        "order": 5,
+        "entityType": "country",
+        "entityId": "united-states",
+        "learningGoal": "Use United States as context before the next film stop."
+      },
+      {
+        "id": "blueprint-family-memory-and-modern-life-6-movie-moonlight",
+        "journeyId": "candidate-family-memory-and-modern-life",
+        "order": 6,
+        "entityType": "movie",
+        "entityId": "moonlight",
+        "learningGoal": "Watch Moonlight as a core film stop."
+      },
+      {
+        "id": "blueprint-family-memory-and-modern-life-7-movement-korean-contemporary-cinema",
+        "journeyId": "candidate-family-memory-and-modern-life",
+        "order": 7,
+        "entityType": "movement",
+        "entityId": "korean-contemporary-cinema",
+        "learningGoal": "Use Korean Contemporary Cinema as context before the next film stop."
+      },
+      {
+        "id": "blueprint-family-memory-and-modern-life-8-director-bong-joon-ho",
+        "journeyId": "candidate-family-memory-and-modern-life",
+        "order": 8,
+        "entityType": "director",
+        "entityId": "bong-joon-ho",
+        "learningGoal": "Use Bong Joon Ho as context before the next film stop."
+      },
+      {
+        "id": "blueprint-family-memory-and-modern-life-9-movie-memories-of-murder",
+        "journeyId": "candidate-family-memory-and-modern-life",
+        "order": 9,
+        "entityType": "movie",
+        "entityId": "memories-of-murder",
+        "learningGoal": "Watch Memories Of Murder as a core film stop."
+      },
+      {
+        "id": "blueprint-family-memory-and-modern-life-10-movie-parasite",
+        "journeyId": "candidate-family-memory-and-modern-life",
+        "order": 10,
+        "entityType": "movie",
+        "entityId": "parasite",
+        "learningGoal": "Use Parasite as the continuation point after the route."
+      }
+    ],
+    "movieCount": 5,
+    "stepCount": 10,
+    "computedDifficulty": "intermediate",
+    "difficultyScore": 80,
+    "validationIssues": []
+  },
+  {
+    "id": "candidate-violence-cities-and-social-pressure",
+    "blueprintId": "blueprint-violence-cities-and-social-pressure",
+    "title": "Violence, Cities, and Social Pressure",
+    "category": "theme",
+    "status": "ready-to-publish",
+    "reason": "Connect crime, urban anxiety, investigation, class pressure, and action through a film-forward sequence.",
+    "steps": [
+      {
+        "id": "blueprint-violence-cities-and-social-pressure-1-movement-new-hollywood",
+        "journeyId": "candidate-violence-cities-and-social-pressure",
+        "order": 1,
+        "entityType": "movement",
+        "entityId": "new-hollywood",
+        "learningGoal": "Enter the route through New Hollywood."
+      },
+      {
+        "id": "blueprint-violence-cities-and-social-pressure-2-movie-bonnie-and-clyde",
+        "journeyId": "candidate-violence-cities-and-social-pressure",
+        "order": 2,
+        "entityType": "movie",
+        "entityId": "bonnie-and-clyde",
+        "learningGoal": "Watch Bonnie And Clyde as a core film stop."
+      },
+      {
+        "id": "blueprint-violence-cities-and-social-pressure-3-director-martin-scorsese",
+        "journeyId": "candidate-violence-cities-and-social-pressure",
+        "order": 3,
+        "entityType": "director",
+        "entityId": "martin-scorsese",
+        "learningGoal": "Use Martin Scorsese as context before the next film stop."
+      },
+      {
+        "id": "blueprint-violence-cities-and-social-pressure-4-movie-taxi-driver",
+        "journeyId": "candidate-violence-cities-and-social-pressure",
+        "order": 4,
+        "entityType": "movie",
+        "entityId": "taxi-driver",
+        "learningGoal": "Watch Taxi Driver as a core film stop."
+      },
+      {
+        "id": "blueprint-violence-cities-and-social-pressure-5-movie-memories-of-murder",
+        "journeyId": "candidate-violence-cities-and-social-pressure",
+        "order": 5,
+        "entityType": "movie",
+        "entityId": "memories-of-murder",
+        "learningGoal": "Watch Memories Of Murder as a core film stop."
+      },
+      {
+        "id": "blueprint-violence-cities-and-social-pressure-6-director-akira-kurosawa",
+        "journeyId": "candidate-violence-cities-and-social-pressure",
+        "order": 6,
+        "entityType": "director",
+        "entityId": "akira-kurosawa",
+        "learningGoal": "Use Akira Kurosawa as context before the next film stop."
+      },
+      {
+        "id": "blueprint-violence-cities-and-social-pressure-7-movie-seven-samurai",
+        "journeyId": "candidate-violence-cities-and-social-pressure",
+        "order": 7,
+        "entityType": "movie",
+        "entityId": "seven-samurai",
+        "learningGoal": "Watch Seven Samurai as a core film stop."
+      },
+      {
+        "id": "blueprint-violence-cities-and-social-pressure-8-movie-parasite",
+        "journeyId": "candidate-violence-cities-and-social-pressure",
+        "order": 8,
+        "entityType": "movie",
+        "entityId": "parasite",
+        "learningGoal": "Use Parasite as the continuation point after the route."
+      }
+    ],
+    "movieCount": 5,
+    "stepCount": 8,
+    "computedDifficulty": "intermediate",
+    "difficultyScore": 67,
+    "validationIssues": []
+  }
+]

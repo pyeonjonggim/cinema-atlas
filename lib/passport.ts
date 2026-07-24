@@ -1,7 +1,7 @@
 import type { Movie } from "@/types/movie";
 import { journeySteps } from "@/data/journeys";
 import type { Country } from "@/data/countries";
-import type { Journey, JourneyStep } from "@/types/journey";
+import type { Journey, JourneyProjection, JourneyStep } from "@/types/journey";
 import type { JournalEntry } from "@/types/journal";
 import type {
   Achievement,
@@ -98,7 +98,7 @@ type BuildPassportModelInput = {
   userAchievements: UserAchievement[];
   milestones?: Milestone[];
   journalEntries?: JournalEntry[];
-  journeys?: Journey[];
+  journeys?: (Journey | JourneyProjection)[];
   countries?: Country[];
 };
 
@@ -353,18 +353,23 @@ function buildJourneyProgress({
   journeys,
   watchedMovies,
 }: {
-  journeys: Journey[];
+  journeys: (Journey | JourneyProjection)[];
   watchedMovies: Movie[];
 }): JourneyProgressPreview[] {
   const watchedMovieIds = new Set(watchedMovies.map((movie) => movie.id));
 
   return journeys.map((journey) => {
-    const movieStepIds = journey.stepIds
-      .map((stepId) => journeySteps.find((step) => step.id === stepId))
-      .filter(
-        (step): step is JourneyStep =>
-          step !== undefined && step.entityType === "movie"
-      )
+    const steps =
+      "steps" in journey
+        ? journey.steps
+        : journey.stepIds
+            .map((stepId) => journeySteps.find((step) => step.id === stepId))
+            .filter(
+              (step): step is JourneyStep =>
+                step !== undefined && step.entityType === "movie"
+            );
+    const movieStepIds = steps
+      .filter((step) => step.entityType === "movie")
       .map((step) => step.entityId)
       .filter((movieId): movieId is string => Boolean(movieId));
     const totalSteps = movieStepIds.length;

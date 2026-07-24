@@ -8,20 +8,23 @@ type JourneyTimelineProps = {
 
 export default function JourneyTimeline({ steps }: JourneyTimelineProps) {
   return (
-    <div className="space-y-3">
+    <div className="space-y-4">
       {steps.map((step, index) => (
         <Link
           key={step.id}
           href={step.href}
-          className="group block rounded-2xl border border-white/10 bg-white/[0.03] p-4 transition hover:border-white/20 hover:bg-white/[0.06]"
+          className="group block rounded-3xl border border-white/10 bg-white/[0.03] p-5 transition hover:border-white/20 hover:bg-white/[0.055]"
         >
-          <div className="grid gap-4 md:grid-cols-[8rem_minmax(0,1fr)_minmax(18rem,1.2fr)_auto] md:items-center">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-neutral-500">
-              {String(index + 1).padStart(2, "0")} · {formatStepType(step.entityType)}
+          <div className="grid gap-5 lg:grid-cols-[4rem_minmax(0,0.9fr)_minmax(0,1.2fr)_auto] lg:items-center">
+            <p className="flex h-12 w-12 items-center justify-center rounded-full border border-white/10 bg-black/25 text-sm font-semibold text-neutral-300">
+              {String(index + 1).padStart(2, "0")}
             </p>
 
             <div className="min-w-0">
-              <h3 className="text-lg font-semibold text-white group-hover:underline">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-neutral-500">
+                {formatStepType(step.entityType)}
+              </p>
+              <h3 className="mt-2 text-xl font-semibold text-white group-hover:underline">
                 {step.title}
               </h3>
 
@@ -30,17 +33,24 @@ export default function JourneyTimeline({ steps }: JourneyTimelineProps) {
               )}
             </div>
 
-            <p className="text-sm leading-6 text-neutral-400">
-              {step.learningGoal}
-            </p>
+            <div>
+              <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-neutral-500">
+                Why this stop
+              </p>
+              <p className="mt-2 text-sm leading-6 text-neutral-400">
+                {step.learningGoal}
+              </p>
+            </div>
 
-            <span className="text-sm font-medium text-neutral-300 transition group-hover:text-white">
+            <span className="text-sm font-semibold text-neutral-300 transition group-hover:text-white">
               {step.entityType === "movie" ? "View Film" : "Open Stop"}
             </span>
           </div>
 
           {step.note && (
-            <p className="mt-3 text-xs text-neutral-500">{step.note}</p>
+            <p className="mt-4 border-l border-white/10 pl-4 text-xs leading-5 text-neutral-500">
+              {step.note}
+            </p>
           )}
         </Link>
       ))}
@@ -50,7 +60,7 @@ export default function JourneyTimeline({ steps }: JourneyTimelineProps) {
 
 function formatStepType(type: ResolvedJourneyStep["entityType"]) {
   const labels = {
-    movie: "Movie",
+    movie: "Film",
     director: "Director",
     actor: "Actor",
     country: "Country",

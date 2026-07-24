@@ -6,6 +6,8 @@ import SearchInput from "@/components/search/SearchInput";
 import SearchResultCard from "@/components/search/SearchResultCard";
 import { allEntityTypes, searchCatalog, type SearchEntityType } from "@/lib/search";
 
+export const dynamic = "force-dynamic";
+
 type SearchPageProps = {
   searchParams?: Promise<{
     q?: string;

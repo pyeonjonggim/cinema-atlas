@@ -1,0 +1,12 @@
+{
+  "previewRoute": "app\\explore\\journeys\\candidates\\[candidateId]\\page.tsx",
+  "cardLinked": true,
+  "draftCandidateFound": true,
+  "archivedCandidateRejected": true,
+  "publishedJourneyRejected": true,
+  "candidateHiddenFromPublic": true,
+  "routeUsesCandidateQuery": true,
+  "staticDataImports": 0,
+  "saveButtonExposed": false,
+  "status": "PASS"
+}

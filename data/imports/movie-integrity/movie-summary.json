@@ -1,0 +1,58 @@
+{
+  "command": "verify:movies",
+  "status": "PASS",
+  "movies": 116,
+  "sourceIdentities": {
+    "tmdbLinkedMovies": 116,
+    "missingTmdbIds": 0
+  },
+  "metadata": {
+    "missingOriginalTitle": 0,
+    "invalidReleaseYear": 0,
+    "missingReleaseDate": 0,
+    "invalidRuntime": 0,
+    "missingOverview": 0,
+    "shortOverview": 1,
+    "suspiciousTextEncoding": 0
+  },
+  "media": {
+    "missingPosters": 0,
+    "missingBackdrops": 0,
+    "malformedPosterPaths": 0,
+    "malformedBackdropPaths": 0
+  },
+  "relationships": {
+    "missingDirectorRelation": 0,
+    "missingActorRelation": 0,
+    "missingCountryRelation": 0,
+    "missingGenreRelation": 0,
+    "missingMovementRelation": 99,
+    "brokenEdges": 0,
+    "duplicateRelationships": 0,
+    "orphanMovies": 0
+  },
+  "duplicates": {
+    "duplicateTmdbIds": 0,
+    "duplicateSlugs": 0,
+    "duplicateTitleYear": 0,
+    "similarTitleCandidates": 0
+  },
+  "needsReview": 1,
+  "hardFailureCounts": {
+    "missingTitle": 0,
+    "missingSlug": 0,
+    "invalidReleaseYear": 0,
+    "missingTmdbId": 0,
+    "missingDirectorRelation": 0,
+    "missingCountryRelation": 0,
+    "malformedPosterPaths": 0,
+    "malformedBackdropPaths": 0,
+    "duplicateTmdbIds": 0,
+    "duplicateSlugs": 0,
+    "duplicateTitleYear": 0,
+    "brokenEdges": 0,
+    "duplicateRelationships": 0,
+    "orphanMovies": 0
+  },
+  "completedAt": "2026-07-23T04:34:53.909Z"
+}

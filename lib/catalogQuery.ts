@@ -10,25 +10,33 @@ import { movies as staticMovies } from "@/data/movies";
 import { hasDatabaseUrl } from "@/lib/db/postgres";
 import { PostgresEditorialRepository } from "@/lib/editorial/postgresEditorialRepository";
 import { PostgresCatalogRepository } from "@/lib/postgresCatalogRepository";
+import { RelationshipService } from "@/lib/relationships/relationshipService";
 import { imageFromCatalogRef, resolveImageUrl } from "@/lib/media";
 import { getPersonEditorialBySlug, isPersonHiddenByEditorial, mergePersonEditorial } from "@/lib/editorial/personEditorial";
 import { isActorExcludedFromEncyclopedia } from "@/lib/personQuality";
 import type { AwardEditorialEntity, MovementEditorialEntity } from "@/lib/editorial/entity";
-import type { CatalogMovieRecord, KnowledgeGraphEdge } from "@/types/catalogPersistence";
+import type { CatalogMovieRecord } from "@/types/catalogPersistence";
 import type { MovieExternalMetadata } from "@/types/catalog";
 import type { Movie } from "@/types/movie";
+import type { RelationshipEdge, RelationshipEntityType } from "@/types/relationship";
 
 type PersonRow = {
   id: string;
   display_name?: string;
   profile_path?: string;
   roles?: string[];
+  movie_ids?: string[];
 };
 
 type CountryRow = {
   id: string;
   iso_code?: string;
   display_name?: string;
+};
+
+type CountryMovieCountRow = {
+  country_id: string;
+  movie_count: string;
 };
 
 type QueryMetrics = {
@@ -300,6 +308,10 @@ function staticCountryByName(name: string): Country | undefined {
 export class CatalogQueryService {
   private readonly repository = new PostgresCatalogRepository();
   private readonly editorialRepository = new PostgresEditorialRepository();
+  private readonly relationshipService = new RelationshipService();
+  private readonly movieBySlugCache = new Map<string, Promise<Movie | undefined>>();
+  private readonly personByRoleSlugCache = new Map<string, Promise<PersonRow | undefined>>();
+  private readonly targetMoviesCache = new Map<string, Promise<Movie[]>>();
   private readonly personNameCache = new Map<string, Promise<string | undefined>>();
   private readonly countryNameCache = new Map<string, Promise<string | undefined>>();
   private metrics: QueryMetrics = {
@@ -327,8 +339,17 @@ export class CatalogQueryService {
       return staticMovies.find((movie) => movie.id === slug || movie.slug === slug);
     }
 
+    const cached = this.movieBySlugCache.get(slug);
+    if (cached) return cached;
+
+    const lookup = this.getMovieBySlugUncached(slug);
+    this.movieBySlugCache.set(slug, lookup);
+    return lookup;
+  }
+
+  private async getMovieBySlugUncached(slug: string): Promise<Movie | undefined> {
     try {
-      const record = await this.repository.getMovieById(slug) ?? await this.repository.getMovieBySlug(slug);
+      const record = await this.repository.getMovieBySlug(slug) ?? await this.repository.getMovieById(slug);
       return record ? this.mapCatalogMovie(record) : undefined;
     } catch {
       return staticMovies.find((movie) => movie.id === slug || movie.slug === slug);
@@ -342,9 +363,8 @@ export class CatalogQueryService {
     if (!hasDatabaseUrl()) return staticDirectors;
 
     try {
-      const people = await this.listPeopleByRole("director");
-      const movies = await this.getMovies();
-      return people.map((person) => this.mapDirectorProjection(person, movies));
+      const people = await this.listPeopleByRole("director", { includeMovieIds: true });
+      return people.map((person) => this.mapDirectorListProjection(person));
     } catch {
       return staticDirectors;
     }
@@ -360,7 +380,7 @@ export class CatalogQueryService {
       const aliases = editorial ? [editorial.slug, ...(editorial.aliases ?? [])] : [slug];
       const person = await this.findPersonByDisplaySlugs("director", aliases);
       if (!person) return undefined;
-      const filmography = await this.getMoviesForTarget("person", person.id, "MOVIE_DIRECTED_BY_PERSON");
+      const filmography = await this.getMoviesForTarget("PERSON", person.id, "MOVIE_DIRECTED_BY_PERSON");
       return this.mapDirectorProjection(person, filmography);
     } catch {
       return staticDirectors.find((director) => director.slug === slug);
@@ -374,9 +394,8 @@ export class CatalogQueryService {
     if (!hasDatabaseUrl()) return staticActors;
 
     try {
-      const people = await this.listPeopleByRole("actor");
-      const movies = await this.getMovies();
-      return people.map((person) => this.mapActorProjection(person, movies));
+      const people = await this.listPeopleByRole("actor", { includeMovieIds: true });
+      return people.map((person) => this.mapActorListProjection(person));
     } catch {
       return staticActors;
     }
@@ -396,7 +415,7 @@ export class CatalogQueryService {
         isActorExcludedFromEncyclopedia(person.display_name ?? person.id) ||
         isPersonHiddenByEditorial(slugify(person.display_name ?? person.id))
       ) return undefined;
-      const filmography = await this.getMoviesForTarget("person", person.id, "MOVIE_ACTED_BY_PERSON");
+      const filmography = await this.getMoviesForTarget("PERSON", person.id, "MOVIE_ACTED_BY_PERSON");
       return this.mapActorProjection(person, filmography);
     } catch {
       return staticActors.find((actor) => actor.slug === slug);
@@ -446,20 +465,17 @@ export class CatalogQueryService {
     }
 
     try {
-      const movies = await this.repository.listMovies();
-      const edges = await this.repository.getRelationsFromSources("movie", movies.map((movie) => movie.id));
+      const rows = await this.repository.countMoviesByCountry() as CountryMovieCountRow[];
       const counts: Record<string, number> = {};
 
-      edges
-        .filter((edge) => edge.relationType === "MOVIE_PRODUCED_IN_COUNTRY")
-        .forEach((edge) => {
-          const countryId = edge.targetId;
-          const countrySlug =
-            countryEditorialProjections[countryId.toLowerCase()]?.slug ??
-            countryIdToLegacySlug[countryId] ??
-            countryId;
-          counts[countrySlug] = (counts[countrySlug] ?? 0) + 1;
-        });
+      rows.forEach((row) => {
+        const countryId = row.country_id;
+        const countrySlug =
+          countryEditorialProjections[countryId.toLowerCase()]?.slug ??
+          countryIdToLegacySlug[countryId] ??
+          countryId;
+        counts[countrySlug] = Number(row.movie_count);
+      });
 
       return counts;
     } catch {
@@ -536,8 +552,8 @@ export class CatalogQueryService {
     }
 
     try {
-      const person = await this.repository.getPersonByDisplaySlug("director", directorSlug) as PersonRow | undefined;
-      return person ? this.getMoviesForTarget("person", person.id, "MOVIE_DIRECTED_BY_PERSON") : [];
+      const person = await this.getPersonByRoleSlug("director", directorSlug);
+      return person ? this.getMoviesForTarget("PERSON", person.id, "MOVIE_DIRECTED_BY_PERSON") : [];
     } catch {
       return [];
     }
@@ -553,10 +569,44 @@ export class CatalogQueryService {
 
     try {
       const countryId = countrySlugToCatalogId[countrySlug] ?? countrySlug;
-      return this.getMoviesForTarget("country", countryId, "MOVIE_PRODUCED_IN_COUNTRY");
+      return this.getMoviesForTarget("COUNTRY", countryId, "MOVIE_PRODUCED_IN_COUNTRY");
     } catch {
       return [];
     }
+  }
+
+  async getMoviesByReferences(refs: string[]): Promise<Movie[]> {
+    const uniqueRefs = unique(refs);
+    if (uniqueRefs.length === 0) return [];
+
+    if (!hasDatabaseUrl()) {
+      return staticMovies.filter((movie) => uniqueRefs.includes(movie.id) || uniqueRefs.includes(movie.slug ?? ""));
+    }
+
+    try {
+      const byId = await this.repository.getMoviesByIds(uniqueRefs);
+      const foundRefs = new Set(byId.flatMap((movie) => [movie.id, movie.slug]));
+      const missingRefs = uniqueRefs.filter((ref) => !foundRefs.has(ref));
+      const bySlug = await Promise.all(missingRefs.map((ref) => this.getMovieBySlug(ref)));
+      return [
+        ...(await this.mapCatalogMovies(byId)),
+        ...bySlug.filter((movie): movie is Movie => Boolean(movie)),
+      ];
+    } catch {
+      return staticMovies.filter((movie) => uniqueRefs.includes(movie.id) || uniqueRefs.includes(movie.slug ?? ""));
+    }
+  }
+
+  async getDirectorsBySlugs(slugs: string[]): Promise<Director[]> {
+    const slugSet = new Set(unique(slugs));
+    if (slugSet.size === 0) return [];
+    const directors = await this.getDirectors();
+    return directors.filter((director) => slugSet.has(director.slug) || slugSet.has(director.name));
+  }
+
+  async getCountriesBySlugs(slugs: string[]): Promise<Country[]> {
+    const countries = await Promise.all(unique(slugs).map((slug) => this.getCountryBySlug(slug)));
+    return countries.filter((country): country is Country => Boolean(country));
   }
 
   async getActorFilmography(actorSlug: string): Promise<Movie[]> {
@@ -568,8 +618,8 @@ export class CatalogQueryService {
     }
 
     try {
-      const person = await this.repository.getPersonByDisplaySlug("actor", actorSlug) as PersonRow | undefined;
-      return person ? this.getMoviesForTarget("person", person.id, "MOVIE_ACTED_BY_PERSON") : [];
+      const person = await this.getPersonByRoleSlug("actor", actorSlug);
+      return person ? this.getMoviesForTarget("PERSON", person.id, "MOVIE_ACTED_BY_PERSON") : [];
     } catch {
       return [];
     }
@@ -628,11 +678,10 @@ export class CatalogQueryService {
   }
 
   private async mapCatalogMovies(records: CatalogMovieRecord[]): Promise<Movie[]> {
-    const edges = await this.repository.getRelationsFromSources(
-      "movie",
-      records.map((record) => record.id),
+    const edges = await this.relationshipService.getOutgoingRelationships(
+      records.map((record) => ({ type: "MOVIE", id: record.id })),
     );
-    const edgesByMovie = new Map<string, KnowledgeGraphEdge[]>();
+    const edgesByMovie = new Map<string, RelationshipEdge[]>();
 
     for (const edge of edges) {
       const movieEdges = edgesByMovie.get(edge.sourceId) ?? [];
@@ -642,12 +691,12 @@ export class CatalogQueryService {
 
     const personIds = unique(
       edges
-        .filter((edge) => edge.targetType === "person")
+        .filter((edge) => edge.targetType === "PERSON")
         .map((edge) => edge.targetId),
     );
     const countryIds = unique(
       edges
-        .filter((edge) => edge.targetType === "country")
+        .filter((edge) => edge.targetType === "COUNTRY")
         .map((edge) => edge.targetId),
     );
     const [peopleRows, countryRows] = await Promise.all([
@@ -683,16 +732,18 @@ export class CatalogQueryService {
 
   private mapCatalogMovieFromEdges(
     record: CatalogMovieRecord,
-    edges: KnowledgeGraphEdge[],
+    edges: RelationshipEdge[],
     personNames: Map<string, string | undefined>,
     countryNames: Map<string, string | undefined>,
   ): Movie {
-    const directorEdges = edges.filter((edge) => edge.relationType === "MOVIE_DIRECTED_BY_PERSON");
-    const actorEdges = edges.filter((edge) => edge.relationType === "MOVIE_ACTED_BY_PERSON");
-    const countryEdges = edges.filter((edge) => edge.relationType === "MOVIE_PRODUCED_IN_COUNTRY");
-    const genreEdges = edges.filter((edge) => edge.relationType === "MOVIE_HAS_GENRE");
-    const languageEdges = edges.filter((edge) => edge.relationType === "MOVIE_USES_LANGUAGE");
-    const companyEdges = edges.filter((edge) => edge.relationType === "MOVIE_PRODUCED_BY_COMPANY");
+    const directorEdges = edges.filter((edge) => edge.type === "MOVIE_DIRECTED_BY_PERSON");
+    const actorEdges = edges.filter((edge) => edge.type === "MOVIE_ACTED_BY_PERSON");
+    const countryEdges = edges.filter((edge) => edge.type === "MOVIE_PRODUCED_IN_COUNTRY");
+    const genreEdges = edges.filter((edge) => edge.type === "MOVIE_HAS_GENRE");
+    const languageEdges = edges.filter((edge) => edge.type === "MOVIE_USES_LANGUAGE");
+    const companyEdges = edges.filter((edge) => edge.type === "MOVIE_PRODUCED_BY_COMPANY");
+    const movementEdges = edges.filter((edge) => edge.type === "MOVIE_PART_OF_MOVEMENT");
+    const awardEdges = edges.filter((edge) => edge.type === "MOVIE_WON_AWARD");
 
     const directorName = personNames.get(directorEdges[0]?.targetId ?? "") ?? "Unknown Director";
     const directorSlug = slugify(directorName) || directorEdges[0]?.targetId || "unknown-director";
@@ -743,12 +794,12 @@ export class CatalogQueryService {
       genre: genres.length > 0 ? genres.join(" / ") : "Drama",
       genreIds,
       genres,
-      movement: "Catalog Import",
-      movementIds: [],
-      movementSlug: "",
-      awards: [],
-      awardIds: [],
-      awardSlugs: [],
+      movement: movementEdges[0]?.targetId ?? "Catalog Import",
+      movementIds: movementEdges.map((edge) => edge.targetId),
+      movementSlug: movementEdges[0]?.targetId ?? "",
+      awards: awardEdges.map((edge) => edge.targetId),
+      awardIds: awardEdges.map((edge) => edge.targetId),
+      awardSlugs: awardEdges.map((edge) => edge.targetId),
       difficulty: "beginner",
       averageRating: record.externalMetadata.externalRating,
       externalRating: record.externalMetadata.externalRating,
@@ -849,6 +900,50 @@ export class CatalogQueryService {
     return projection;
   }
 
+  private mapDirectorListProjection(person: PersonRow): Director {
+    const canonicalName = person.display_name ?? person.id;
+    const canonicalSlug = slugify(canonicalName) || person.id;
+    const editorial = mergePersonEditorial(canonicalSlug);
+    const name = editorial.editorial?.preferredName ?? canonicalName;
+    const slug = editorial.editorial?.slug ?? canonicalSlug;
+    const fallback = staticDirectorByName(name);
+    const movieIds = person.movie_ids ?? [];
+    const profileImage = person.profile_path
+      ? {
+          kind: "profile" as const,
+          source: "tmdb" as const,
+          path: person.profile_path,
+          alt: `Portrait of ${name}`,
+          attribution: { provider: "TMDB" },
+        }
+      : null;
+
+    const projection = {
+      slug,
+      name,
+      nameKo: name,
+      country: editorial.country?.name ?? fallback?.country ?? "Catalog",
+      countrySlug: editorial.country?.slug ?? fallback?.countrySlug ?? "catalog",
+      countryFlag: editorial.country?.flag ?? fallback?.countryFlag ?? "",
+      birthYear: fallback?.birthYear ?? 0,
+      deathYear: fallback?.deathYear,
+      description: editorial.editorial?.preferredBiography ?? `${name} is a director represented in the Cinema Atlas canonical catalog.`,
+      styleKeywords: ["Canonical Catalog", "Director"],
+      knownForMovieIds: movieIds,
+      whyMatters: editorial.editorial?.whyMatters ?? `${name} is connected to ${movieIds.length} catalog film${movieIds.length === 1 ? "" : "s"}.`,
+      signatureStyle: ["Repository-backed director projection."],
+      keyThemes: ["Cinema Atlas Catalog"],
+      essentialMovieIds: fallback?.essentialMovieIds ?? movieIds.slice(0, 3),
+      starterMovieId: fallback?.starterMovieId ?? movieIds[0],
+      startingPointReason: "Start with the first connected catalog film.",
+      influencedByDirectorSlugs: fallback?.influencedByDirectorSlugs,
+      influencedDirectorSlugs: fallback?.influencedDirectorSlugs,
+      relatedDirectorSlugs: fallback?.relatedDirectorSlugs,
+      profileImage,
+    };
+    return projection;
+  }
+
   private mapActorProjection(person: PersonRow, movies: Movie[]): Actor {
     const canonicalName = person.display_name ?? person.id;
     const canonicalSlug = slugify(canonicalName) || person.id;
@@ -882,6 +977,44 @@ export class CatalogQueryService {
       keyRoles: ["Repository-backed actor projection"],
       essentialMovieIds: fallback?.essentialMovieIds ?? filmography.slice(0, 3).map((movie) => movie.id),
       starterMovieId: fallback?.starterMovieId ?? firstMovie?.id ?? "",
+      startingPointReason: "Start with the first connected catalog film.",
+      frequentDirectorSlugs: fallback?.frequentDirectorSlugs,
+      profileImage,
+    };
+    return projection;
+  }
+
+  private mapActorListProjection(person: PersonRow): Actor {
+    const canonicalName = person.display_name ?? person.id;
+    const canonicalSlug = slugify(canonicalName) || person.id;
+    const editorial = mergePersonEditorial(canonicalSlug);
+    const name = editorial.editorial?.preferredName ?? canonicalName;
+    const slug = editorial.editorial?.slug ?? canonicalSlug;
+    const fallback = staticActorByName(name);
+    const movieIds = person.movie_ids ?? [];
+    const profileImage = person.profile_path
+      ? {
+          kind: "profile" as const,
+          source: "tmdb" as const,
+          path: person.profile_path,
+          alt: `Portrait of ${name}`,
+          attribution: { provider: "TMDB" },
+        }
+      : null;
+
+    const projection = {
+      slug,
+      name,
+      nameKo: name,
+      countrySlug: editorial.country?.slug ?? fallback?.countrySlug ?? "catalog",
+      birthYear: fallback?.birthYear ?? 0,
+      deathYear: fallback?.deathYear,
+      description: editorial.editorial?.preferredBiography ?? `${name} is an actor represented in the Cinema Atlas canonical catalog.`,
+      whyMatters: editorial.editorial?.whyMatters ?? `${name} is connected to ${movieIds.length} catalog film${movieIds.length === 1 ? "" : "s"}.`,
+      screenPersona: ["Canonical Catalog Performer"],
+      keyRoles: ["Repository-backed actor projection"],
+      essentialMovieIds: fallback?.essentialMovieIds ?? movieIds.slice(0, 3),
+      starterMovieId: fallback?.starterMovieId ?? movieIds[0] ?? "",
       startingPointReason: "Start with the first connected catalog film.",
       frequentDirectorSlugs: fallback?.frequentDirectorSlugs,
       profileImage,
@@ -972,14 +1105,31 @@ export class CatalogQueryService {
   }
 
   private async getMoviesForTarget(
-    targetType: "person" | "country",
+    targetType: RelationshipEntityType,
     targetId: string,
     relationType: string,
   ): Promise<Movie[]> {
-    const edges = await this.repository.getRelationsTo(targetType, targetId);
+    const cacheKey = `${targetType}:${targetId}:${relationType}`;
+    const cached = this.targetMoviesCache.get(cacheKey);
+    if (cached) return cached;
+
+    const lookup = this.getMoviesForTargetUncached(targetType, targetId, relationType);
+    this.targetMoviesCache.set(cacheKey, lookup);
+    return lookup;
+  }
+
+  private async getMoviesForTargetUncached(
+    targetType: RelationshipEntityType,
+    targetId: string,
+    relationType: string,
+  ): Promise<Movie[]> {
+    const edges = await this.relationshipService.getIncomingRelationships({
+      type: targetType,
+      id: targetId,
+    });
     const movieIds = unique(
       edges
-        .filter((edge) => edge.relationType === relationType && edge.sourceType === "movie")
+        .filter((edge) => edge.type === relationType && edge.sourceType === "MOVIE")
         .map((edge) => edge.sourceId),
     );
     const records = await this.repository.getMoviesByIds(movieIds);
@@ -1019,8 +1169,13 @@ export class CatalogQueryService {
     return lookup;
   }
 
-  private async listPeopleByRole(role: "director" | "actor"): Promise<PersonRow[]> {
-    const rows = await this.repository.listPeopleByRole(role) as PersonRow[];
+  private async listPeopleByRole(
+    role: "director" | "actor",
+    options: { includeMovieIds?: boolean } = {},
+  ): Promise<PersonRow[]> {
+    const rows = options.includeMovieIds && "listPeopleWithMovieIdsByRole" in this.repository
+      ? await this.repository.listPeopleWithMovieIdsByRole(role) as PersonRow[]
+      : await this.repository.listPeopleByRole(role) as PersonRow[];
     return rows.filter((row): row is PersonRow => {
       if (!row) return false;
       const slug = slugify(row.display_name ?? row.id);
@@ -1040,10 +1195,26 @@ export class CatalogQueryService {
     slugs: string[],
   ): Promise<PersonRow | undefined> {
     for (const slug of unique(slugs)) {
-      const person = await this.repository.getPersonByDisplaySlug(role, slug) as PersonRow | undefined;
+      const person = await this.getPersonByRoleSlug(role, slug);
       if (person) return person;
     }
     return undefined;
+  }
+
+  private async getPersonByRoleSlug(
+    role: "director" | "actor",
+    slug: string,
+  ): Promise<PersonRow | undefined> {
+    const cacheKey = `${role}:${slug}`;
+    const cached = this.personByRoleSlugCache.get(cacheKey);
+    if (cached) return cached;
+
+    const lookup = this.repository
+      .getPersonByDisplaySlug(role, slug)
+      .then((row) => row as PersonRow | undefined)
+      .catch(() => undefined);
+    this.personByRoleSlugCache.set(cacheKey, lookup);
+    return lookup;
   }
 
   private async listCatalogCountries(): Promise<CountryRow[]> {
@@ -1069,6 +1240,9 @@ export const getAwards = cache(() => catalogQueryService.getAwards());
 export const getAwardBySlug = cache((slug: string) => catalogQueryService.getAwardBySlug(slug));
 export const getDirectorFilmography = cache((directorId: string) => catalogQueryService.getDirectorFilmography(directorId));
 export const getCountryMovies = cache((countryId: string) => catalogQueryService.getCountryMovies(countryId));
+export const getMoviesByReferences = cache((refs: string[]) => catalogQueryService.getMoviesByReferences(refs));
+export const getDirectorsBySlugs = cache((slugs: string[]) => catalogQueryService.getDirectorsBySlugs(slugs));
+export const getCountriesBySlugs = cache((slugs: string[]) => catalogQueryService.getCountriesBySlugs(slugs));
 export const getActorFilmography = cache((actorId: string) => catalogQueryService.getActorFilmography(actorId));
 export const getMoviesByGenre = cache((genreId: string) => catalogQueryService.getMoviesByGenre(genreId));
 export const getMoviesByLanguage = cache((languageId: string) => catalogQueryService.getMoviesByLanguage(languageId));

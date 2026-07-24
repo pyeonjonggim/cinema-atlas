@@ -5,6 +5,8 @@ import RecommendedShelfPattern from "@/components/patterns/RecommendedShelfPatte
 import JourneyCard from "@/components/discovery/JourneyCard";
 import { getAwards } from "@/lib/catalogQuery";
 
+export const dynamic = "force-dynamic";
+
 export default async function AwardsPage() {
   const awardItems = (await getAwards()).map((award) => ({
     slug: award.slug,

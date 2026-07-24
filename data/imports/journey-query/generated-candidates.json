@@ -1,0 +1,44 @@
+[
+  {
+    "id": "candidate-family-memory-and-modern-life",
+    "title": "Family, Memory, and Modern Life",
+    "status": "review",
+    "visibility": "unlisted",
+    "steps": 10
+  },
+  {
+    "id": "candidate-festival-recognition-across-borders",
+    "title": "Festival Recognition Across Borders",
+    "status": "review",
+    "visibility": "unlisted",
+    "steps": 8
+  },
+  {
+    "id": "candidate-korean-contemporary-cinema",
+    "title": "Korean Contemporary Cinema",
+    "status": "review",
+    "visibility": "unlisted",
+    "steps": 6
+  },
+  {
+    "id": "candidate-modern-blockbuster-turn",
+    "title": "Modern Blockbuster Turn",
+    "status": "review",
+    "visibility": "unlisted",
+    "steps": 8
+  },
+  {
+    "id": "candidate-performance-and-moral-pressure",
+    "title": "Performance and Moral Pressure",
+    "status": "review",
+    "visibility": "unlisted",
+    "steps": 8
+  },
+  {
+    "id": "candidate-violence-cities-and-social-pressure",
+    "title": "Violence, Cities, and Social Pressure",
+    "status": "review",
+    "visibility": "unlisted",
+    "steps": 8
+  }
+]

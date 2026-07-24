@@ -5,6 +5,16 @@
   "verified": 12,
   "review": 0,
   "unknown": 28,
-  "remaining": 28,
-  "completedAt": "2026-07-18T02:38:55.335Z"
+  "notApplicable": 0,
+  "brokenReferences": 0,
+  "validation": {
+    "invalidCountrySlugs": 0,
+    "duplicateEditorialEntries": 0,
+    "hiddenPersonConsistency": 0,
+    "missingEditorialCountryState": 0,
+    "invalidStates": 0,
+    "unknownEditorialSlugs": 0
+  },
+  "failures": [],
+  "completedAt": "2026-07-23T04:35:12.693Z"
 }

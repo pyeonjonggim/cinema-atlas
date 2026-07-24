@@ -83,19 +83,19 @@
     "approval": {
       "state": "APPROVED",
       "reason": "Pipeline PASS; content quality 100.",
-      "approvedAt": "2026-07-14T15:18:41.565Z",
+      "approvedAt": "2026-07-14T16:05:09.855Z",
       "approvedBy": "catalog-persistence-pilot"
     },
     "provenance": [
       {
         "provider": "tmdb",
         "providerRecordId": "496243",
-        "importedAt": "2026-07-14T15:18:41.565Z",
+        "importedAt": "2026-07-14T16:05:09.855Z",
         "pipelineVersion": "catalog-persistence-v1"
       }
     ],
-    "createdAt": "2026-07-14T15:18:41.565Z",
-    "updatedAt": "2026-07-14T15:18:41.565Z"
+    "createdAt": "2026-07-14T16:05:09.855Z",
+    "updatedAt": "2026-07-14T16:05:09.855Z"
   },
   "director": {
     "id": "person_f66b8cac8ba8",
@@ -112,7 +112,7 @@
       {
         "provider": "tmdb",
         "providerRecordId": "496243",
-        "importedAt": "2026-07-14T15:18:41.565Z",
+        "importedAt": "2026-07-14T16:05:09.855Z",
         "pipelineVersion": "catalog-persistence-v1"
       }
     ]

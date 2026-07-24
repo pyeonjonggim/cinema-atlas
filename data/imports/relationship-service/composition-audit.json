@@ -1,0 +1,1277 @@
+[
+  {
+    "file": "lib/catalogPersistence.ts",
+    "function": "getRelationsFrom",
+    "line": 167,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Legacy repository compatibility or in-memory graph helper; not app-level composition."
+  },
+  {
+    "file": "lib/catalogPersistence.ts",
+    "function": "getRelationsTo",
+    "line": 175,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Legacy repository compatibility or in-memory graph helper; not app-level composition."
+  },
+  {
+    "file": "lib/catalogPersistence.ts",
+    "function": "getEdgesByRelationType",
+    "line": 296,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Legacy repository compatibility or in-memory graph helper; not app-level composition."
+  },
+  {
+    "file": "lib/catalogPersistence.ts",
+    "function": "getConnectedEntities",
+    "line": 394,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Legacy repository compatibility or in-memory graph helper; not app-level composition."
+  },
+  {
+    "file": "lib/catalogPersistence.ts",
+    "function": "getRelatedMovies",
+    "line": 408,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Legacy repository compatibility or in-memory graph helper; not app-level composition."
+  },
+  {
+    "file": "lib/catalogPersistence.ts",
+    "function": "getRelatedMovies",
+    "line": 410,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Legacy repository compatibility or in-memory graph helper; not app-level composition."
+  },
+  {
+    "file": "lib/catalogQuery.ts",
+    "function": "if",
+    "line": 453,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [
+      "getOutgoingRelationships"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Uses RelationshipService or non-runtime graph reference."
+  },
+  {
+    "file": "lib/catalogQuery.ts",
+    "function": "resetMetrics",
+    "line": 636,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [
+      "getOutgoingRelationships"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Uses RelationshipService or non-runtime graph reference."
+  },
+  {
+    "file": "lib/catalogQuery.ts",
+    "function": "staticCountryByName",
+    "line": 983,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [
+      "getIncomingRelationships"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Uses RelationshipService or non-runtime graph reference."
+  },
+  {
+    "file": "lib/editorial/postgresEditorialRepository.ts",
+    "function": "replaceRelationships",
+    "line": 200,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Legacy repository compatibility or in-memory graph helper; not app-level composition."
+  },
+  {
+    "file": "lib/editorial/postgresEditorialRepository.ts",
+    "function": "if",
+    "line": 251,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Legacy repository compatibility or in-memory graph helper; not app-level composition."
+  },
+  {
+    "file": "lib/editorial/postgresEditorialRepository.ts",
+    "function": "if",
+    "line": 300,
+    "repositoryMethodsUsed": [
+      "findOutgoing"
+    ],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Legacy repository compatibility or in-memory graph helper; not app-level composition."
+  },
+  {
+    "file": "lib/postgresCatalogRepository.ts",
+    "function": "getRelationsFrom",
+    "line": 275,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Legacy repository compatibility or in-memory graph helper; not app-level composition."
+  },
+  {
+    "file": "lib/postgresCatalogRepository.ts",
+    "function": "getRelationsFrom",
+    "line": 279,
+    "repositoryMethodsUsed": [
+      "findOutgoing"
+    ],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Legacy repository compatibility or in-memory graph helper; not app-level composition."
+  },
+  {
+    "file": "lib/postgresCatalogRepository.ts",
+    "function": "getRelationsFromSources",
+    "line": 286,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Legacy repository compatibility or in-memory graph helper; not app-level composition."
+  },
+  {
+    "file": "lib/postgresCatalogRepository.ts",
+    "function": "if",
+    "line": 292,
+    "repositoryMethodsUsed": [
+      "findOutgoing"
+    ],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Legacy repository compatibility or in-memory graph helper; not app-level composition."
+  },
+  {
+    "file": "lib/postgresCatalogRepository.ts",
+    "function": "getRelationsTo",
+    "line": 301,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Legacy repository compatibility or in-memory graph helper; not app-level composition."
+  },
+  {
+    "file": "lib/postgresCatalogRepository.ts",
+    "function": "getRelationsTo",
+    "line": 305,
+    "repositoryMethodsUsed": [
+      "findIncoming"
+    ],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Legacy repository compatibility or in-memory graph helper; not app-level composition."
+  },
+  {
+    "file": "lib/postgresCatalogRepository.ts",
+    "function": "listPeopleByRole",
+    "line": 331,
+    "repositoryMethodsUsed": [
+      "findByType"
+    ],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Legacy repository compatibility or in-memory graph helper; not app-level composition."
+  },
+  {
+    "file": "lib/postgresCatalogRepository.ts",
+    "function": "listCountriesReferencedByMovies",
+    "line": 349,
+    "repositoryMethodsUsed": [
+      "findByType"
+    ],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [
+      "MOVIE_PRODUCED_IN_COUNTRY"
+    ],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Legacy repository compatibility or in-memory graph helper; not app-level composition."
+  },
+  {
+    "file": "lib/relationships/continueJourneyEngine.ts",
+    "function": "if",
+    "line": 146,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [
+      "getOutgoingRelationships"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Uses RelationshipService or non-runtime graph reference."
+  },
+  {
+    "file": "lib/relationships/continueJourneyEngine.ts",
+    "function": "if",
+    "line": 147,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [
+      "getIncomingRelationships"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Uses RelationshipService or non-runtime graph reference."
+  },
+  {
+    "file": "lib/relationships/relationshipRepository.ts",
+    "function": "findOutgoing",
+    "line": 79,
+    "repositoryMethodsUsed": [
+      "findOutgoing"
+    ],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Canonical repository dependency; allowed below the service layer."
+  },
+  {
+    "file": "lib/relationships/relationshipRepository.ts",
+    "function": "findIncoming",
+    "line": 97,
+    "repositoryMethodsUsed": [
+      "findIncoming"
+    ],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Canonical repository dependency; allowed below the service layer."
+  },
+  {
+    "file": "lib/relationships/relationshipRepository.ts",
+    "function": "findBetween",
+    "line": 115,
+    "repositoryMethodsUsed": [
+      "findBetween"
+    ],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Canonical repository dependency; allowed below the service layer."
+  },
+  {
+    "file": "lib/relationships/relationshipRepository.ts",
+    "function": "findByType",
+    "line": 129,
+    "repositoryMethodsUsed": [
+      "findByType"
+    ],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Canonical repository dependency; allowed below the service layer."
+  },
+  {
+    "file": "lib/relationships/relationshipRepository.ts",
+    "function": "findNeighbors",
+    "line": 141,
+    "repositoryMethodsUsed": [
+      "findNeighbors"
+    ],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Canonical repository dependency; allowed below the service layer."
+  },
+  {
+    "file": "lib/relationships/relationshipRepository.ts",
+    "function": "if",
+    "line": 146,
+    "repositoryMethodsUsed": [
+      "findOutgoing"
+    ],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Canonical repository dependency; allowed below the service layer."
+  },
+  {
+    "file": "lib/relationships/relationshipRepository.ts",
+    "function": "if",
+    "line": 147,
+    "repositoryMethodsUsed": [
+      "findIncoming"
+    ],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Canonical repository dependency; allowed below the service layer."
+  },
+  {
+    "file": "lib/relationships/relationshipRepository.ts",
+    "function": "addArrayFilter",
+    "line": 190,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Canonical repository dependency; allowed below the service layer."
+  },
+  {
+    "file": "lib/relationships/relationshipService.ts",
+    "function": "getRelatedEntities",
+    "line": 107,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [
+      "getRelatedEntities"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Canonical relationship composition service."
+  },
+  {
+    "file": "lib/relationships/relationshipService.ts",
+    "function": "getRelatedEntities",
+    "line": 111,
+    "repositoryMethodsUsed": [
+      "findNeighbors"
+    ],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Canonical relationship composition service."
+  },
+  {
+    "file": "lib/relationships/relationshipService.ts",
+    "function": "getOutgoingRelationships",
+    "line": 118,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [
+      "getOutgoingRelationships"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Canonical relationship composition service."
+  },
+  {
+    "file": "lib/relationships/relationshipService.ts",
+    "function": "getOutgoingRelationships",
+    "line": 122,
+    "repositoryMethodsUsed": [
+      "findOutgoing"
+    ],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Canonical relationship composition service."
+  },
+  {
+    "file": "lib/relationships/relationshipService.ts",
+    "function": "getIncomingRelationships",
+    "line": 126,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [
+      "getIncomingRelationships"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Canonical relationship composition service."
+  },
+  {
+    "file": "lib/relationships/relationshipService.ts",
+    "function": "getIncomingRelationships",
+    "line": 130,
+    "repositoryMethodsUsed": [
+      "findIncoming"
+    ],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Canonical relationship composition service."
+  },
+  {
+    "file": "lib/relationships/relationshipService.ts",
+    "function": "getRelationshipSummary",
+    "line": 134,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [
+      "getRelationshipSummary"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Canonical relationship composition service."
+  },
+  {
+    "file": "lib/relationships/relationshipService.ts",
+    "function": "getRelationshipSummary",
+    "line": 139,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [
+      "getOutgoingRelationships"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Canonical relationship composition service."
+  },
+  {
+    "file": "lib/relationships/relationshipService.ts",
+    "function": "getRelationshipSummary",
+    "line": 140,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [
+      "getIncomingRelationships"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Canonical relationship composition service."
+  },
+  {
+    "file": "lib/relationships/relationshipService.ts",
+    "function": "existsRelationship",
+    "line": 159,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [
+      "existsRelationship"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Canonical relationship composition service."
+  },
+  {
+    "file": "lib/relationships/relationshipService.ts",
+    "function": "existsRelationship",
+    "line": 164,
+    "repositoryMethodsUsed": [
+      "findBetween"
+    ],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Canonical relationship composition service."
+  },
+  {
+    "file": "scripts/audit-canonical-entities.mjs",
+    "function": "if",
+    "line": 81,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/db-extra-qa.mjs",
+    "function": "VALUES",
+    "line": 56,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/db-extra-qa.mjs",
+    "function": "VALUES",
+    "line": 60,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/db-verify-catalog-pilot.mjs",
+    "function": "if",
+    "line": 60,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/db-verify-catalog-pilot.mjs",
+    "function": "if",
+    "line": 69,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/db-verify-catalog-pilot.mjs",
+    "function": "if",
+    "line": 78,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/db-verify-catalog-pilot.mjs",
+    "function": "FROM",
+    "line": 108,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/persist-catalog-pilot.mjs",
+    "function": "getRelationsFrom",
+    "line": 130,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/persist-catalog-pilot.mjs",
+    "function": "getRelationsTo",
+    "line": 135,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/persist-catalog-pilot.mjs",
+    "function": "if",
+    "line": 322,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/persist-catalog-pilot.mjs",
+    "function": "if",
+    "line": 324,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/persist-catalog-pilot.mjs",
+    "function": "if",
+    "line": 327,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/seed-editorial.mjs",
+    "function": "replaceRelationships",
+    "line": 106,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/seed-editorial.mjs",
+    "function": "counts",
+    "line": 157,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/sync-catalog-pilot.mjs",
+    "function": "getEdges",
+    "line": 246,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/sync-catalog-pilot.mjs",
+    "function": "if",
+    "line": 339,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/sync-film-expansion-100.mjs",
+    "function": "currentCounts",
+    "line": 272,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/sync-film-expansion-100.mjs",
+    "function": "replaceComputedEdges",
+    "line": 447,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/sync-film-expansion-100.mjs",
+    "function": "sourceEdges",
+    "line": 505,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-canonical-query-phase-a.mjs",
+    "function": "if",
+    "line": 43,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-canonical-query-phase-a.mjs",
+    "function": "if",
+    "line": 51,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-canonical-query-phase-a.mjs",
+    "function": "if",
+    "line": 59,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-catalog-100.mjs",
+    "function": "if",
+    "line": 38,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-catalog-100.mjs",
+    "function": "if",
+    "line": 68,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-catalog-100.mjs",
+    "function": "if",
+    "line": 79,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-catalog-100.mjs",
+    "function": "if",
+    "line": 89,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-catalog-100.mjs",
+    "function": "AND",
+    "line": 101,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-continue-journey.mjs",
+    "function": "buildExample",
+    "line": 194,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-continue-journey.mjs",
+    "function": "buildExample",
+    "line": 203,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-continue-journey.mjs",
+    "function": "findSampleEntity",
+    "line": 232,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-continue-journey.mjs",
+    "function": "findSampleEntity",
+    "line": 236,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-country-review.mjs",
+    "function": "loadCandidates",
+    "line": 93,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-country-review.mjs",
+    "function": "loadCandidates",
+    "line": 97,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-data-quality.mjs",
+    "function": "if",
+    "line": 100,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-data-quality.mjs",
+    "function": "OR",
+    "line": 133,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-data-quality.mjs",
+    "function": "OR",
+    "line": 142,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-data-quality.mjs",
+    "function": "OR",
+    "line": 153,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-data-quality.mjs",
+    "function": "OR",
+    "line": 164,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-data-quality.mjs",
+    "function": "String",
+    "line": 180,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-data-quality.mjs",
+    "function": "String",
+    "line": 184,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-data-quality.mjs",
+    "function": "String",
+    "line": 212,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-editorial.mjs",
+    "function": "if",
+    "line": 57,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-editorial.mjs",
+    "function": "if",
+    "line": 62,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-movies.mjs",
+    "function": "loadRelationshipCoverage",
+    "line": 108,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-movies.mjs",
+    "function": "loadRelationshipIssues",
+    "line": 184,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-movies.mjs",
+    "function": "OR",
+    "line": 201,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-movies.mjs",
+    "function": "OR",
+    "line": 211,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-person-integrity.mjs",
+    "function": "if",
+    "line": 83,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-person-integrity.mjs",
+    "function": "if",
+    "line": 94,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-person-integrity.mjs",
+    "function": "if",
+    "line": 118,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-person-integrity.mjs",
+    "function": "if",
+    "line": 130,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-repository.mjs",
+    "function": "module-scope",
+    "line": 13,
+    "repositoryMethodsUsed": [
+      "findOutgoing",
+      "findIncoming",
+      "findBetween",
+      "findByType",
+      "findNeighbors"
+    ],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-repository.mjs",
+    "function": "for",
+    "line": 86,
+    "repositoryMethodsUsed": [
+      "findOutgoing",
+      "findIncoming",
+      "findBetween",
+      "findByType",
+      "findNeighbors"
+    ],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-repository.mjs",
+    "function": "if",
+    "line": 92,
+    "repositoryMethodsUsed": [
+      "findOutgoing",
+      "findIncoming",
+      "findBetween",
+      "findByType",
+      "findNeighbors"
+    ],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-repository.mjs",
+    "function": "if",
+    "line": 93,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-repository.mjs",
+    "function": "if",
+    "line": 146,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-repository.mjs",
+    "function": "if",
+    "line": 164,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-repository.mjs",
+    "function": "if",
+    "line": 169,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-repository.mjs",
+    "function": "if",
+    "line": 174,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "module-scope",
+    "line": 14,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [
+      "getRelatedEntities"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "module-scope",
+    "line": 15,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [
+      "getOutgoingRelationships"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "module-scope",
+    "line": 16,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [
+      "getIncomingRelationships"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "module-scope",
+    "line": 17,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [
+      "getRelationshipSummary"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "module-scope",
+    "line": 18,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [
+      "existsRelationship"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "module-scope",
+    "line": 20,
+    "repositoryMethodsUsed": [
+      "findOutgoing",
+      "findIncoming",
+      "findBetween",
+      "findByType",
+      "findNeighbors"
+    ],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "module-scope",
+    "line": 22,
+    "repositoryMethodsUsed": [
+      "findNeighbors"
+    ],
+    "serviceMethodsUsed": [
+      "getRelatedEntities"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "module-scope",
+    "line": 23,
+    "repositoryMethodsUsed": [
+      "findOutgoing"
+    ],
+    "serviceMethodsUsed": [
+      "getOutgoingRelationships"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "module-scope",
+    "line": 24,
+    "repositoryMethodsUsed": [
+      "findIncoming"
+    ],
+    "serviceMethodsUsed": [
+      "getIncomingRelationships"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "module-scope",
+    "line": 25,
+    "repositoryMethodsUsed": [
+      "findOutgoing",
+      "findIncoming"
+    ],
+    "serviceMethodsUsed": [
+      "getRelationshipSummary"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "module-scope",
+    "line": 26,
+    "repositoryMethodsUsed": [
+      "findBetween"
+    ],
+    "serviceMethodsUsed": [
+      "existsRelationship"
+    ],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "for",
+    "line": 101,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "loadRegistry",
+    "line": 186,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-service.mjs",
+    "function": "loadRegistry",
+    "line": 192,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-types.mjs",
+    "function": "if",
+    "line": 206,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  },
+  {
+    "file": "scripts/verify-relationship-types.mjs",
+    "function": "if",
+    "line": 214,
+    "repositoryMethodsUsed": [],
+    "serviceMethodsUsed": [],
+    "relationshipTypesUsed": [],
+    "duplicatedComposition": false,
+    "migrationRecommendation": "Verification or audit code; not runtime application composition."
+  }
+]

@@ -3,10 +3,18 @@ import PageContainer from "@/components/layout/PageContainer";
 import Section from "@/components/layout/Section";
 import UniversalHero from "@/components/layout/UniversalHero";
 import JourneyLibrary from "@/components/journey/JourneyLibrary";
+import SavedJourneyShelf from "@/components/journey/SavedJourneyShelf";
+import GeneratedJourneyCandidateCard from "@/components/journey/GeneratedJourneyCandidateCard";
 import EntityContinueJourneyPattern from "@/components/patterns/EntityContinueJourneyPattern";
-import { officialJourneys } from "@/data/journeys";
+import {
+  listGeneratedJourneyCandidates,
+  listPublishedJourneys,
+} from "@/lib/journeyQuery";
 
-export default function JourneyLibraryPage() {
+export default async function JourneyLibraryPage() {
+  const journeys = await listPublishedJourneys();
+  const generatedCandidates = await listGeneratedJourneyCandidates();
+
   return (
     <>
       <GlobalNavigation />
@@ -20,13 +28,40 @@ export default function JourneyLibraryPage() {
           />
 
           <Section
+            eyebrow="Saved"
+            title="Saved Journeys"
+            description="Return to the paths you chose to keep. Saved Journeys are local for now and will move into Passport persistence later."
+            className="p-4 md:p-5"
+          >
+            <SavedJourneyShelf journeys={journeys} />
+          </Section>
+
+          <Section
             eyebrow="Cinema Atlas Curated"
             title="Official Journeys"
             description="Search and filter guided learning routes. Community Journey is visible as a future source, but not implemented yet."
             className="p-4 md:p-5"
           >
-            <JourneyLibrary journeys={officialJourneys} />
+            <JourneyLibrary journeys={journeys} />
           </Section>
+
+          {generatedCandidates.length > 0 && (
+            <Section
+              eyebrow="Editorial Preview"
+              title="Generated Journey Candidates"
+              description="These routes were generated from Journey Blueprints and are waiting for editorial promotion. They are visible here as production candidates, not public canon."
+              className="p-4 md:p-5"
+            >
+              <div className="grid gap-4 lg:grid-cols-2">
+                {generatedCandidates.map((journey) => (
+                  <GeneratedJourneyCandidateCard
+                    key={journey.id}
+                    journey={journey}
+                  />
+                ))}
+              </div>
+            </Section>
+          )}
 
           <EntityContinueJourneyPattern
             title="Continue Exploring"

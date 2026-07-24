@@ -1,0 +1,50 @@
+[
+  {
+    "id": "candidate-family-memory-and-modern-life",
+    "title": "Family, Memory, and Modern Life",
+    "status": "review",
+    "difficulty": "intermediate",
+    "steps": 10,
+    "movies": 5
+  },
+  {
+    "id": "candidate-festival-recognition-across-borders",
+    "title": "Festival Recognition Across Borders",
+    "status": "review",
+    "difficulty": "intermediate",
+    "steps": 8,
+    "movies": 4
+  },
+  {
+    "id": "candidate-korean-contemporary-cinema",
+    "title": "Korean Contemporary Cinema",
+    "status": "review",
+    "difficulty": "beginner",
+    "steps": 6,
+    "movies": 2
+  },
+  {
+    "id": "candidate-modern-blockbuster-turn",
+    "title": "Modern Blockbuster Turn",
+    "status": "review",
+    "difficulty": "intermediate",
+    "steps": 8,
+    "movies": 5
+  },
+  {
+    "id": "candidate-performance-and-moral-pressure",
+    "title": "Performance and Moral Pressure",
+    "status": "review",
+    "difficulty": "intermediate",
+    "steps": 8,
+    "movies": 4
+  },
+  {
+    "id": "candidate-violence-cities-and-social-pressure",
+    "title": "Violence, Cities, and Social Pressure",
+    "status": "review",
+    "difficulty": "intermediate",
+    "steps": 8,
+    "movies": 5
+  }
+]

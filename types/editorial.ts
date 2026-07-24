@@ -1,4 +1,4 @@
-export type EditorialStatus = "verified" | "review";
+export type EditorialStatus = "verified" | "review" | "unknown" | "not_applicable";
 
 export type PersonEligibilityReason =
   | "ACTOR"

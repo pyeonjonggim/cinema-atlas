@@ -1,0 +1,40 @@
+{
+  "summary": {
+    "command": "verify:relationship-policy",
+    "status": "PASS",
+    "registeredPolicies": 10,
+    "relationshipTypes": 10,
+    "coverage": "100%",
+    "duplicatePolicies": 0,
+    "missingPolicies": 0,
+    "invalidCategories": 0,
+    "verificationErrors": 0,
+    "completedAt": "2026-07-24T10:52:23.683Z"
+  },
+  "categories": [
+    {
+      "value": "PEOPLE",
+      "count": 3
+    },
+    {
+      "value": "PRODUCTION",
+      "count": 2
+    },
+    {
+      "value": "PLACES",
+      "count": 1
+    },
+    {
+      "value": "CULTURE",
+      "count": 2
+    },
+    {
+      "value": "MOVEMENTS",
+      "count": 1
+    },
+    {
+      "value": "AWARDS",
+      "count": 1
+    }
+  ]
+}

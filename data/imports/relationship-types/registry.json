@@ -1,0 +1,216 @@
+[
+  {
+    "key": "MOVIE_DIRECTED_BY_PERSON",
+    "sourceEntityType": "MOVIE",
+    "targetEntityType": "PERSON",
+    "compatibleEntityPairs": [
+      {
+        "sourceEntityType": "MOVEMENT",
+        "targetEntityType": "PERSON",
+        "note": "Legacy editorial projection edge for representative movement directors."
+      },
+      {
+        "sourceEntityType": "AWARD",
+        "targetEntityType": "PERSON",
+        "note": "Legacy editorial projection edge for award-linked directors."
+      }
+    ],
+    "direction": "OUTGOING",
+    "relationshipClass": "FACTUAL",
+    "inverseSemanticKey": "PERSON_DIRECTED_MOVIE",
+    "inverseLabel": "Directed films",
+    "allowSelfReference": false,
+    "allowDuplicateEdges": false,
+    "supportedMetadataFields": [
+      "confidence",
+      "note"
+    ],
+    "status": "active",
+    "source": "TMDB"
+  },
+  {
+    "key": "MOVIE_ACTED_BY_PERSON",
+    "sourceEntityType": "MOVIE",
+    "targetEntityType": "PERSON",
+    "direction": "OUTGOING",
+    "relationshipClass": "FACTUAL",
+    "inverseSemanticKey": "PERSON_ACTED_IN_MOVIE",
+    "inverseLabel": "Appearances",
+    "allowSelfReference": false,
+    "allowDuplicateEdges": false,
+    "supportedMetadataFields": [
+      "confidence",
+      "note"
+    ],
+    "status": "active",
+    "source": "TMDB"
+  },
+  {
+    "key": "MOVIE_WRITTEN_BY_PERSON",
+    "sourceEntityType": "MOVIE",
+    "targetEntityType": "PERSON",
+    "direction": "OUTGOING",
+    "relationshipClass": "FACTUAL",
+    "inverseSemanticKey": "PERSON_WROTE_MOVIE",
+    "inverseLabel": "Writing credits",
+    "allowSelfReference": false,
+    "allowDuplicateEdges": false,
+    "supportedMetadataFields": [
+      "confidence",
+      "note"
+    ],
+    "status": "active",
+    "source": "TMDB"
+  },
+  {
+    "key": "MOVIE_PRODUCED_BY_PERSON",
+    "sourceEntityType": "MOVIE",
+    "targetEntityType": "PERSON",
+    "direction": "OUTGOING",
+    "relationshipClass": "FACTUAL",
+    "inverseSemanticKey": "PERSON_PRODUCED_MOVIE",
+    "inverseLabel": "Producer credits",
+    "allowSelfReference": false,
+    "allowDuplicateEdges": false,
+    "supportedMetadataFields": [
+      "confidence",
+      "note"
+    ],
+    "status": "active",
+    "source": "TMDB"
+  },
+  {
+    "key": "MOVIE_PRODUCED_IN_COUNTRY",
+    "sourceEntityType": "MOVIE",
+    "targetEntityType": "COUNTRY",
+    "compatibleEntityPairs": [
+      {
+        "sourceEntityType": "MOVEMENT",
+        "targetEntityType": "COUNTRY",
+        "note": "Legacy editorial projection edge for movement country context."
+      }
+    ],
+    "direction": "OUTGOING",
+    "relationshipClass": "FACTUAL",
+    "inverseSemanticKey": "COUNTRY_HAS_MOVIE",
+    "inverseLabel": "Films from this country",
+    "allowSelfReference": false,
+    "allowDuplicateEdges": false,
+    "supportedMetadataFields": [
+      "confidence",
+      "note"
+    ],
+    "status": "active",
+    "source": "TMDB",
+    "compatibilityNotes": "Canonical persisted name for the MOVIE_FROM_COUNTRY semantic."
+  },
+  {
+    "key": "MOVIE_HAS_GENRE",
+    "sourceEntityType": "MOVIE",
+    "targetEntityType": "GENRE",
+    "direction": "OUTGOING",
+    "relationshipClass": "FACTUAL",
+    "inverseSemanticKey": "GENRE_HAS_MOVIE",
+    "inverseLabel": "Genre films",
+    "allowSelfReference": false,
+    "allowDuplicateEdges": false,
+    "supportedMetadataFields": [
+      "confidence",
+      "note"
+    ],
+    "status": "active",
+    "source": "TMDB",
+    "compatibilityNotes": "Persisted compatibility type used by current catalog ingestion."
+  },
+  {
+    "key": "MOVIE_USES_LANGUAGE",
+    "sourceEntityType": "MOVIE",
+    "targetEntityType": "LANGUAGE",
+    "direction": "OUTGOING",
+    "relationshipClass": "FACTUAL",
+    "inverseSemanticKey": "LANGUAGE_USED_BY_MOVIE",
+    "inverseLabel": "Films using this language",
+    "allowSelfReference": false,
+    "allowDuplicateEdges": false,
+    "supportedMetadataFields": [
+      "confidence",
+      "note"
+    ],
+    "status": "active",
+    "source": "TMDB",
+    "compatibilityNotes": "Persisted compatibility type used by current catalog ingestion."
+  },
+  {
+    "key": "MOVIE_PRODUCED_BY_COMPANY",
+    "sourceEntityType": "MOVIE",
+    "targetEntityType": "COMPANY",
+    "direction": "OUTGOING",
+    "relationshipClass": "FACTUAL",
+    "inverseSemanticKey": "COMPANY_PRODUCED_MOVIE",
+    "inverseLabel": "Company filmography",
+    "allowSelfReference": false,
+    "allowDuplicateEdges": false,
+    "supportedMetadataFields": [
+      "confidence",
+      "note"
+    ],
+    "status": "active",
+    "source": "TMDB",
+    "compatibilityNotes": "Persisted compatibility type used by current catalog ingestion."
+  },
+  {
+    "key": "MOVIE_PART_OF_MOVEMENT",
+    "sourceEntityType": "MOVIE",
+    "targetEntityType": "MOVEMENT",
+    "compatibleEntityPairs": [
+      {
+        "sourceEntityType": "MOVEMENT",
+        "targetEntityType": "MOVIE",
+        "note": "Legacy inverse editorial edge created by Editorial Persistence v1."
+      }
+    ],
+    "direction": "OUTGOING",
+    "relationshipClass": "EDITORIAL",
+    "inverseSemanticKey": "MOVEMENT_INCLUDES_MOVIE",
+    "inverseLabel": "Movement films",
+    "allowSelfReference": false,
+    "allowDuplicateEdges": false,
+    "supportedMetadataFields": [
+      "reason",
+      "weight",
+      "priority",
+      "confidence",
+      "note"
+    ],
+    "status": "active",
+    "source": "EDITORIAL"
+  },
+  {
+    "key": "MOVIE_WON_AWARD",
+    "sourceEntityType": "MOVIE",
+    "targetEntityType": "AWARD",
+    "compatibleEntityPairs": [
+      {
+        "sourceEntityType": "AWARD",
+        "targetEntityType": "MOVIE",
+        "note": "Legacy inverse editorial edge created by Editorial Persistence v1."
+      }
+    ],
+    "direction": "OUTGOING",
+    "relationshipClass": "EDITORIAL",
+    "inverseSemanticKey": "AWARD_RECOGNIZED_MOVIE",
+    "inverseLabel": "Recognized films",
+    "allowSelfReference": false,
+    "allowDuplicateEdges": false,
+    "supportedMetadataFields": [
+      "reason",
+      "weight",
+      "priority",
+      "confidence",
+      "note"
+    ],
+    "status": "active",
+    "source": "EDITORIAL",
+    "compatibilityNotes": "Existing persisted editorial relationship. No new award domain behavior is introduced in this sprint."
+  }
+]

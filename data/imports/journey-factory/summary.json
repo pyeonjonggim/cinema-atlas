@@ -1,0 +1,15 @@
+{
+  "blueprints": 9,
+  "approvedBlueprints": 5,
+  "archivedBlueprints": 3,
+  "candidates": 9,
+  "readyToPublish": 5,
+  "needsEditorialReview": 1,
+  "duplicateCandidateIds": 0,
+  "lowMovieWeight": 1,
+  "missingDifficulty": 0,
+  "approvedNotReady": 0,
+  "duplicateSimilarityIssues": 3,
+  "namingIssues": 1,
+  "status": "PASS"
+}

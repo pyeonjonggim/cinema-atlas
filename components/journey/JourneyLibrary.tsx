@@ -3,10 +3,14 @@
 import { useMemo, useState } from "react";
 
 import JourneyCard from "@/components/journey/JourneyCard";
-import type { Journey, JourneyCategory, JourneyDifficulty } from "@/types/journey";
+import type {
+  JourneyCategory,
+  JourneyDifficulty,
+  JourneyProjection,
+} from "@/types/journey";
 
 type JourneyLibraryProps = {
-  journeys: Journey[];
+  journeys: JourneyProjection[];
 };
 
 type SourceFilter = "all" | "official" | "community";
@@ -107,7 +111,7 @@ export default function JourneyLibrary({ journeys }: JourneyLibraryProps) {
       ) : filteredJourneys.length > 0 ? (
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
           {filteredJourneys.map((journey) => (
-            <JourneyCard key={journey.id} journey={journey} />
+            <JourneyCard key={journey.id} journey={journey} steps={journey.steps} />
           ))}
         </div>
       ) : (
